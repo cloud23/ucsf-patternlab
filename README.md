@@ -1,93 +1,89 @@
-![license](https://img.shields.io/github/license/pattern-lab/edition-php-twig-standard.svg)
-[![Packagist](https://img.shields.io/packagist/v/pattern-lab/edition-twig-standard.svg)](https://packagist.org/packages/pattern-lab/edition-mustache-webdesignday) [![Gitter](https://img.shields.io/gitter/room/pattern-lab/php.svg)](https://gitter.im/pattern-lab/php)
+# UCSF Pattern Lab
 
-# Pattern Lab Standard Edition for Twig
+## Brief Overview
 
-The Standard Edition for Twig gives developers and designers a clean and stable base from which to develop a Twig-based pattern library.
+### One line install and setup
 
-## Packaged Components
+    git clone git@favmed.unfuddle.com:favmed/ucsf-patternlab.git && cd ucsf-patternlab && bash scripts/setup-everything.sh
+  
+Already downloaded the repo? Just run this to make you've got dependencies and helpers taken care of:
+  
+    bash scripts/setup-everything.sh
 
-The Standard Edition for Twig comes with the following components:
 
-* `pattern-lab/core`: [GitHub](https://github.com/pattern-lab/patternlab-php-core), [Packagist](https://packagist.org/packages/pattern-lab/core)
-* `pattern-lab/patternengine-twig`: [documentation](https://github.com/pattern-lab/patternengine-php-twig#twig-patternengine-for-pattern-lab-php), [GitHub](https://github.com/pattern-lab/patternengine-php-twig), [Packagist](https://packagist.org/packages/pattern-lab/patternengine-twig)
-* `pattern-lab/styleguidekit-assets-default`: [GitHub](https://github.com/pattern-lab/styleguidekit-assets-default), [Packagist](https://packagist.org/packages/pattern-lab/styleguidekit-assets-default)
-* `pattern-lab/styleguidekit-twig-default`: [GitHub](https://github.com/pattern-lab/styleguidekit-twig-default), [Packagist](https://packagist.org/packages/pattern-lab/styleguidekit-twig-default)
+## Quick Start Guide
 
-## Installing
+- To start, run `grunt` - this kicks off Dev Mode: Sass/Compass watch, Pattern Lab Watch, and auto-reload for your browser.
+  - Point your browser towards `public/index.html` to see the site
+- Edit Patterns:
+    - Open files in `source/_patterns`
+      - Atoms, Molecules, Organisms, Templates, and Pages are all found here
+- Edit Data/Content:
+    - Globally: edit `source/_data/_data.json`
+    - List Items: edit `source/_data/_listitems.json`
+    - For a component: edit the file that has the same name, but ends in `.json`
 
-There are two methods for downloading and installing the Standard Edition for Twig:
+### Conventions to Follow
 
-* [Download a pre-built project](#download-a-pre-built-package)
-* [Use Composer to create a project](#use-composer-to-create-a-project)
+- [BEM](http://bem.info) for picking class names
+- [Atomic Design](http://bradfrostweb.com/blog/post/atomic-web-design/) for how we think about breaking componets out of pages
+- [Git Flow](http://nvie.com/posts/a-successful-git-branching-model/) for how we branch and merge. Nice overview [here](https://www.atlassian.com/git/workflows#!workflow-gitflow)
+    - Work in the branch `dev` or branch off of `dev` to create a feature branch, which gets merged back into `dev` after. Working on `dev` is OK. `dev` gets merged in `master` when it's time. Hotfixes branch off of `master`, get merged back into `master` and then  `dev` and then are deleted.
+    - Naming conventions:
+        - Feature branch: `feature--name-of-feature` (always branch off of `dev`)
+        - Hotfix branch: `hotfix--name-of-fix` (always branch off of `master`)
+    - **Delete your feature branches or hotfix branches after they are merged back in**. Let's keep this branch list slim.
+- Relative links instead of root relative links for paths (where possible)
+    - Use `../images/logo.png` instead of `/images/logo.png`
 
-### Download a pre-built project
+### Pattern Lab Terms
 
-The fastest way to get started with the Standard Edition for Twig is to [download the pre-built version](https://github.com/pattern-lab/edition-php-twig-standard/releases) from the [releases page](https://github.com/pattern-lab/edition-php-twig-standard/releases). The pre-built project comes with the [Base StarterKit for Twig](https://github.com/pattern-lab/starterkit-twig-base) installed by default.
+- **Atoms** are basic tags, such as form labels, inputs or buttons. They also include more abstract elements like color palettes, fonts, and animations.
+- **Molecules** are groups of elements that function together as a unit. For example, a form label, search input, and button atom can combine them together to form a search form molecule.
+- **Organisms** can consist of similar and/or disparate molecule types. For example, a masthead organism might consist of a logo, navigation, and search form, while a “product grid” organism might consist of the same product info molecule repeated over and over.
+- **Templates** are comprised mostly of organisms combined together to form page-level objects. Templates mostly focus on content structure (such as character length, image size, etc) rather than the actual content.
+- **Pages** are specific instances of templates and swap out placeholder content with real representative content.
 
-**Please note:** Pattern Lab uses [Composer](https://getcomposer.org/) to manage project dependencies. To upgrade the Standard Edition for Twig or to install plug-ins you'll need to [install Composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx). We recommend that you [install it globally](https://getcomposer.org/doc/00-intro.md#globally).
+[More info](http://patternlab.io/about.html)
 
-### Use Composer to create a project
+    
+## Details
 
-Pattern Lab uses [Composer](https://getcomposer.org/) to manage project dependencies.
+### Configuration
 
-#### 1. Install Composer
+There are many different pieces of tech and many files that set the preferences for each of them. Here's a list of them and where to find the config file for each.
 
-Please follow the directions for [installing Composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx) on the Composer website. We recommend you [install it globally](https://getcomposer.org/doc/00-intro.md#globally).
+- Compass/Sass: `config/config.rb` - [docs](http://compass-style.org/help/tutorials/configuration-reference/)
+- Bundler (Ruby Gem Versions): `Gemfile` - [docs](http://bundler.io)
+- Pattern Lab: `config/config.ini` - [docs](http://patternlab.io/docs/advanced-config-options.html)
+- Grunt: `Gruntfile.js` and `package.json` - [docs](http://gruntjs.com/configuring-tasks)
+- Bower (library management): `bower.json` and `.bowerrc` - [docs](http://bower.io/)
 
-#### 2. Install the Standard Edition for Twig
+### Advanced Pattern Lab Concepts
 
-Use Composer's [`create-project` command](https://getcomposer.org/doc/03-cli.md#create-project) to install the Standard Edition for Twig into a location of your choosing. In Terminal type:
+- [Including Patterns in Patterns](http://patternlab.io/docs/pattern-including.html)
+- [Introduction to JSON & Mustache Variables](http://patternlab.io/docs/data-json-mustache.html)
+    - [Creating Pattern-specific Values](http://patternlab.io/docs/data-pattern-specific.html)
+    - [Creating Lists with `listItems` Variable](http://patternlab.io/docs/data-listitems.html)
+- [Linking to Patterns](http://patternlab.io/docs/data-link-variable.html)
+- [Adding Annotations](http://patternlab.io/docs/pattern-adding-annotations.html)
+- [Pattern Lab's Special Query String Variables](http://patternlab.io/docs/pattern-linking.html)
+- [Using styleModifiers](http://patternlab.io/docs/pattern-stylemodifier.html)
+- [Using Pattern States](http://patternlab.io/docs/pattern-states.html)
+- [Using Pattern Parameters](http://patternlab.io/docs/pattern-parameters.html)
+- [Keyboard Shortcuts](http://patternlab.io/docs/advanced-keyboard-shortcuts.html)
+- [Editing the config.ini Options](http://patternlab.io/docs/advanced-config-options.html)
 
-    cd install/location/
-    composer create-project pattern-lab/edition-twig-standard your-project-name && cd $_
+## More Info
 
-This will install the Standard Edition for Twig into a directory called `your-project-name` in `install/location/`. During the set-up process you will be asked to install an appropriate StarterKit. You will be automatically dropped into the project directory after the process is finished.
+### About Pattern Lab
 
-## Updating Pattern Lab
+- [Pattern Lab Website](http://patternlab.io/)
+- [About Pattern Lab](http://patternlab.io/about.html)
+- [Documentation](http://patternlab.io/docs/index.html)
+- [Demo](http://demo.patternlab.io/)
 
-To update Pattern Lab please refer to each component's GitHub repository. The components are listed at the top of the README.
+### About Grunt
 
-## Helpful Commands
-
-These are some helpful commands you can use on the command line for working with Pattern Lab.
-
-### List all of the available commands
-
-To list all available commands type:
-
-    php core/console --help
-
-To list the options for a particular command type:
-
-    php core/console --help --[command]
-
-### Generate Pattern Lab
-
-To generate the front-end for Pattern Lab type:
-
-    php core/console --generate
-
-### Watch for changes and re-generate Pattern Lab
-
-To watch for changes and re-generate the front-end for Pattern Lab type:
-
-    php core/console --watch
-
-### Start a server to view Pattern Lab
-
-You can use PHP's built-in web server to review your Pattern Lab project in a browser. In a seperate window type:
-
-    php core/console --server
-
-Then open [http://localhost:8080](http://localhost:8080) in your browser.
-
-### Install a StarterKit
-
-To install a near-empty StarterKit as a starting point for your project type:
-
-    php core/console --starterkit --init
-
-To install a specific StarterKit from GitHub type:
-
-    php core/console --starterkit --install <starterkit-vendor/starterkit-name>
+- [Grunt Website](http://gruntjs.com)
+- Article by Chris Coyier: [Grunt for People Who Think Things Like Grunt are Weird and Hard ◆ 24 ways](http://24ways.org/2013/grunt-is-not-weird-and-hard/)
