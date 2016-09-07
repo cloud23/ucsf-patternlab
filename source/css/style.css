@@ -1,0 +1,47 @@
+/******************************************************************
+Stylesheet: Main Stylesheet
+
+Here's where the magic happens.
+All styles that are imported here will be compiled into css/style.css
+******************************************************************/
+/* Colors
+   ========================================================================== */
+/*
+ * Here's a great tutorial on how to
+ * use color variables properly:
+ * http://sachagreif.com/sass-color-variables/
+ */
+/* ==========================================================================
+   Breakpoint Configuration
+   docs: https://github.com/Team-Sass/breakpoint/wiki
+   ========================================================================== */
+/*** Accessibility ***/
+/*** Base ***/
+/*** Brand ***/
+/*** Breadcrumbs ***/
+/*** Buttons ***/
+/*** Forms ***/
+/*** Grid ***/
+/*** Headings ***/
+/*** Helper ***/
+/*** HR ***/
+/*** Images ***/
+/*** Page ***/
+/*** Lists ***/
+/*** Main ***/
+/*** Media ***/
+/*** Tables ***/
+/*** Text ***/
+/* line 2, ../scss/base/_text.scss */
+h1 {
+  color: green;
+  font-size: 30px;
+}
+
+/*** HTML ***/
+/*** Page ***/
+/*** Footer ***/
+/*** Header ***/
+/* No files to import found in components/**\/* */
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,12 @@
+.DS_Store
+export/*
+public/*
+source/styleguide/*
+vendor/*
+
+composer.lock
+Gemfile.lock
+
+source/bower_components
+node_modules
+.sass-cache
