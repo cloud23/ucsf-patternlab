@@ -5,6 +5,8 @@ module.exports = function(grunt) {
     'shell:update_node',
     'notify:node_modules_update',
     'shell:update_bower',
-    'notify:bower_components_updates'
+    'notify:bower_components_updates',
+    'wiredep',
+    'notify:wiredep'
    ]);
 };
