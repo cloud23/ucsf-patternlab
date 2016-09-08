@@ -37,5 +37,11 @@ module.exports = {
       title: 'Task Complete',
       message: 'Added Bower components.'
     }
+  },
+  wiredep:{
+    options:{
+      title: 'Task Complete',
+      message: ' Wired Bower dependencies.'
+    }
   }
 }
