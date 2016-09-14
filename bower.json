@@ -21,12 +21,6 @@
   ],
   "dependencies": {
     "jquery": "^3.1.0",
-    "parallax.js": "^1.4.2",
-    "font-awesome": "^4.6.3"
-  },
-  "overrides":{
-    "font-awesome": {
-      "main": ["css/font-awesome.css"]
-    }
+    "parallax.js": "^1.4.2"
   }
 }
