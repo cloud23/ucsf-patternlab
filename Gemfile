@@ -13,5 +13,6 @@ gem 'rb-fsevent'
 gem 'chunky_png'
 gem 'compass-core'
 gem 'compass-import-once'
+gem 'font-awesome-sass'
 
 # Now that you're using Bundler, you need to run `bundle exec compass watch` instead of simply `compass watch`.
