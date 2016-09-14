@@ -1,0 +1,91 @@
+/*** Styleguide Specific ***/
+/**
+ * This stylesheet is for styles you want to include only when the interface is being viewed within Pattern Lab.
+ * This is helpful for displaying demo styles for grids, animations, color swatches, etc
+ * It's also helpful for overriding context-specific styles like fixed or absolutely positioned elements
+ * These styles will not be your production CSS.
+ */
+/* line 10, ../scss/patternlab/_styleguide-specific.scss */
+.palette {
+  list-style: none;
+  margin-left: 0;
+  font-size: 0;
+  padding: 0;
+}
+/* line 15, ../scss/patternlab/_styleguide-specific.scss */
+.palette > li {
+  padding: 5px;
+  font-size: 13px;
+  font-size: 0.92857rem;
+  color: #fff;
+  text-align: center;
+  /* Todo ~ update for responsive breakpoints */
+  width: 20%;
+  display: inline-block;
+}
+/* line 25, ../scss/patternlab/_styleguide-specific.scss */
+.palette span {
+  display: block;
+}
+/* line 28, ../scss/patternlab/_styleguide-specific.scss */
+.palette .color {
+  height: 125px;
+  padding-top: 1.5em;
+  position: relative;
+}
+/* line 33, ../scss/patternlab/_styleguide-specific.scss */
+.palette h3 {
+  color: #333;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: left;
+}
+/* line 40, ../scss/patternlab/_styleguide-specific.scss */
+.palette .hex, .palette .variable {
+  position: absolute;
+}
+/* line 43, ../scss/patternlab/_styleguide-specific.scss */
+.palette .hex {
+  top: 5px;
+  right: 10px;
+}
+/* line 47, ../scss/patternlab/_styleguide-specific.scss */
+.palette .variable {
+  bottom: 5px;
+  left: 10px;
+}
+
+/* line 53, ../scss/patternlab/_styleguide-specific.scss */
+#atoms-colors {
+  overflow: hidden;
+}
+/* line 56, ../scss/patternlab/_styleguide-specific.scss */
+#atoms-colors > li {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  padding: 0.3em;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* line 62, ../scss/patternlab/_styleguide-specific.scss */
+#atoms-colors > li .sg-swatch {
+  display: block;
+  height: 50px;
+  float: left;
+  width: 33%;
+  outline: dotted 1px gray;
+}
+/* line 69, ../scss/patternlab/_styleguide-specific.scss */
+#atoms-colors > li .sg-info {
+  line-height: 1;
+  float: right;
+  width: 66%;
+}
+/* line 75, ../scss/patternlab/_styleguide-specific.scss */
+#atoms-colors h5.headline {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=patternlab-style.css.map */
