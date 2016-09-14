@@ -1,6 +1,13 @@
 # Require any additional compass plugins here.
 
 require 'sass-globbing'
+require 'sass'
+require 'compass'
+require 'oily_png'
+require 'chunky_png'
+require 'compass-core'
+require 'compass-import-once'
+require 'font-awesome-sass'
 
 # Set this to the root of your project when deployed:
 
