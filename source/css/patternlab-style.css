@@ -88,4 +88,11 @@
   margin-bottom: 0;
 }
 
+/* line 82, ../scss/patternlab/_styleguide-specific.scss */
+.font-type .font-sample {
+  padding: 10px 0;
+  margin: 0 10px;
+  border-bottom: 1px #F1F1F1 solid;
+}
+
 /*# sourceMappingURL=patternlab-style.css.map */
