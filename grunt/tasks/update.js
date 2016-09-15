@@ -6,7 +6,7 @@ module.exports = function(grunt) {
     'notify:node_modules_update',
     'shell:update_bower',
     'notify:bower_components_updates',
-    'wiredep',
-    'notify:wiredep'
+    // 'wiredep',
+    // 'notify:wiredep'
    ]);
 };

@@ -1,0 +1,14 @@
+/*
+ * Type Definition Mixin
+ * Constants : $base--typesize (see global/variables/_typography.scss)
+ * Inputs : Font Size ~ none
+ *          Line Height ~ 1.5 
+ * Output : Font Size in rem    
+ *          Line Height
+ *
+ */
+
+@mixin type-definition($font-size, $line-height: 1.5) {
+    font-size: ($font-size / $base--typesize) + rem;
+    line-height: $line-height;
+}

@@ -1,1 +1,21 @@
 /*** Text ***/
+.text-body{
+    font-family: $text-body--regular;
+
+    @include type-definition(15px, 1.5);
+
+    &.text-body--light{
+        font-family: $text-body--light;
+    }
+    &.text-body--medium{
+        font-family: $text-body--medium;
+    }
+    &.text-body--bold{
+        font-family: $text-body--bold;
+    }
+}
+
+.headline{
+    font-family: $text-headline;
+    @include type-definition(60px, 1.083);
+}
