@@ -12,3 +12,52 @@
     font-size: ($font-size / $base--typesize) + rem;
     line-height: $line-height;
 }
+
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+       -moz-border-radius: $radius;
+        -ms-border-radius: $radius;
+         -o-border-radius: $radius;
+            border-radius: $radius;
+}
+  
+@mixin transition($params){
+    -webkit-transition: $params;
+       -moz-transition: $params;
+        -ms-transition: $params;
+         -o-transition: $params;
+            transition: $params;
+}
+  
+@mixin transform($params){
+    -webkit-transform: $params;
+       -moz-transform: $params;
+        -ms-transform: $params;
+         -o-transform: $params;
+            transform: $params;
+}
+  
+@mixin animation($params){
+    -webkit-animation: $params;
+       -moz-animation: $params;
+        -ms-animation: $params;
+         -o-animation: $params;
+            animation: $params;
+}
+  
+
+@mixin keyframes($animationName) {
+    @-webkit-keyframes #{$animationName} {
+        @content;
+    }
+    @-moz-keyframes #{$animationName} {
+        @content;
+    }
+    @-o-keyframes #{$animationName} {
+        @content;
+    }
+    @keyframes #{$animationName} {
+        @content;
+    }
+}
