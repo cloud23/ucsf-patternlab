@@ -85,3 +85,13 @@
     border-bottom: 1px $color--light-gray solid;
   }
 }
+
+
+.button-demo{
+  .button-sample{
+    padding: 20px 10px;
+    &.dark{
+      background: $color--black;
+    }
+  }
+}
