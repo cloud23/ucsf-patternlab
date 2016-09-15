@@ -76,5 +76,12 @@
     margin-top: 10px;
     margin-bottom: 0;
   }
- 
+}
+
+.font-type{
+  .font-sample{
+    padding: 10px 0;
+    margin: 0 10px;
+    border-bottom: 1px $color--light-gray solid;
+  }
 }
