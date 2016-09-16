@@ -104,4 +104,19 @@
   background: black;
 }
 
+/* line 102, ../scss/patternlab/_styleguide-specific.scss */
+.grid-sample .content-area .column-wrapper div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px #f1f1f1 solid;
+}
+/* line 106, ../scss/patternlab/_styleguide-specific.scss */
+.grid-sample .content-area .column-wrapper div:nth-child(even) {
+  background-color: #007cbe;
+}
+/* line 109, ../scss/patternlab/_styleguide-specific.scss */
+.grid-sample .content-area .column-wrapper div:nth-child(odd) {
+  background-color: #058488;
+}
+
 /*# sourceMappingURL=patternlab-style.css.map */
