@@ -92,7 +92,7 @@
 .font-type .font-sample {
   padding: 10px 0;
   margin: 0 10px;
-  border-bottom: 1px #f1f1f1 solid;
+  border-bottom: 1px #F1F1F1 solid;
 }
 
 /* line 91, ../scss/patternlab/_styleguide-specific.scss */
@@ -101,18 +101,18 @@
 }
 /* line 93, ../scss/patternlab/_styleguide-specific.scss */
 .button-demo .button-sample.dark {
-  background: black;
+  background: #000000;
 }
 
 /* line 102, ../scss/patternlab/_styleguide-specific.scss */
 .grid-sample .content-area .column-wrapper div {
   padding-top: 10px;
   padding-bottom: 10px;
-  border: 1px #f1f1f1 solid;
+  border: 1px #F1F1F1 solid;
 }
 /* line 106, ../scss/patternlab/_styleguide-specific.scss */
 .grid-sample .content-area .column-wrapper div:nth-child(even) {
-  background-color: #007cbe;
+  background-color: #007CBE;
 }
 /* line 109, ../scss/patternlab/_styleguide-specific.scss */
 .grid-sample .content-area .column-wrapper div:nth-child(odd) {
