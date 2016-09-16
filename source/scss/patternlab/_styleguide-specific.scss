@@ -95,3 +95,21 @@
     }
   }
 }
+
+.grid-sample{
+  .content-area{
+    .column-wrapper{
+      div{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: 1px $color--light-gray solid;
+        &:nth-child(even){
+          background-color: $color--light-blue;
+        }
+        &:nth-child(odd){
+          background-color: $color--teal;
+        }
+      }
+    }
+  }
+}
