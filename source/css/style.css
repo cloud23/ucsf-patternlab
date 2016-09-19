@@ -4692,33 +4692,42 @@ body {
 /*** Footer ***/
 /*** Header ***/
 /* line 1, ../scss/components/_navigation.scss */
-.nav-global--wrapper {
-  background-color: #052059;
+.nav--wrapper {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
+  width: 100%;
+  height: auto;
+  display: block;
   z-index: 1030;
 }
-/* line 8, ../scss/components/_navigation.scss */
+
+/* line 12, ../scss/components/_navigation.scss */
+.nav-global--wrapper {
+  background-color: #052059;
+  display: block;
+  width: 100%;
+}
+/* line 16, ../scss/components/_navigation.scss */
 .nav-global--wrapper .nav-global {
   height: 48px;
 }
-/* line 10, ../scss/components/_navigation.scss */
+/* line 18, ../scss/components/_navigation.scss */
 .nav-global--wrapper .nav-global .nav-brand {
   display: inline-block;
 }
-/* line 12, ../scss/components/_navigation.scss */
+/* line 20, ../scss/components/_navigation.scss */
 .nav-global--wrapper .nav-global .nav-brand a {
   color: #FFFFFF;
   text-decoration: none;
 }
-/* line 15, ../scss/components/_navigation.scss */
+/* line 23, ../scss/components/_navigation.scss */
 .nav-global--wrapper .nav-global .nav-brand a .nav-logo {
   display: inline-block;
   margin-left: 4px;
 }
-/* line 19, ../scss/components/_navigation.scss */
+/* line 27, ../scss/components/_navigation.scss */
 .nav-global--wrapper .nav-global .nav-brand a .nav-title {
   font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 12px;
@@ -4728,68 +4737,26 @@ body {
   line-height: 3.9;
   display: inline-block;
 }
-/* line 30, ../scss/components/_navigation.scss */
+/* line 38, ../scss/components/_navigation.scss */
 .nav-global--wrapper .nav-global .nav-link-list {
   display: none;
   margin: 0px;
   padding: 0px;
   list-style: none;
 }
-/* line 35, ../scss/components/_navigation.scss */
+/* line 43, ../scss/components/_navigation.scss */
 .nav-global--wrapper .nav-global .nav-link-list > li {
   margin: 0px;
   padding: 0px;
 }
 
-@media screen and (min-width: 1350px) {
-  /* line 45, ../scss/components/_navigation.scss */
-  .nav-global--wrapper .nav-global {
-    height: 40px;
-  }
-  /* line 49, ../scss/components/_navigation.scss */
-  .nav-global--wrapper .nav-global .nav-brand a .nav-logo {
-    display: none;
-  }
-  /* line 52, ../scss/components/_navigation.scss */
-  .nav-global--wrapper .nav-global .nav-brand a .nav-title {
-    font-weight: normal;
-    line-height: 3.345;
-  }
-  /* line 58, ../scss/components/_navigation.scss */
-  .nav-global--wrapper .nav-global .nav-link-list {
-    display: block;
-    float: right;
-  }
-  /* line 61, ../scss/components/_navigation.scss */
-  .nav-global--wrapper .nav-global .nav-link-list > li {
-    padding: 0px;
-    float: left;
-    display: block;
-  }
-  /* line 65, ../scss/components/_navigation.scss */
-  .nav-global--wrapper .nav-global .nav-link-list > li > a {
-    color: #FFFFFF;
-    font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    text-decoration: none;
-    padding: 13px 10px;
-    display: block;
-  }
-  /* line 76, ../scss/components/_navigation.scss */
-  .nav-global--wrapper .nav-global .nav-link-list > li > .search-advanced-form-toggle {
-    padding: 5px 0px;
-  }
-}
-/* line 86, ../scss/components/_navigation.scss */
+/* line 51, ../scss/components/_navigation.scss */
 .search-box--wrapper {
   display: block;
   float: left;
   padding: 8px 10px;
 }
-/* line 91, ../scss/components/_navigation.scss */
+/* line 56, ../scss/components/_navigation.scss */
 .search-box--wrapper .search-field--wrapper {
   display: block;
   width: 199px;
@@ -4803,7 +4770,7 @@ body {
   color: #FFFFFF;
   float: left;
 }
-/* line 103, ../scss/components/_navigation.scss */
+/* line 68, ../scss/components/_navigation.scss */
 .search-box--wrapper .search-field--wrapper .placeholder {
   display: block;
   font-size: 12px;
@@ -4812,7 +4779,7 @@ body {
   top: 4px;
   z-index: 0;
 }
-/* line 111, ../scss/components/_navigation.scss */
+/* line 76, ../scss/components/_navigation.scss */
 .search-box--wrapper .search-field--wrapper input[type="text"] {
   background-color: transparent;
   font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -4826,7 +4793,7 @@ body {
   position: relative;
   z-index: 1;
 }
-/* line 125, ../scss/components/_navigation.scss */
+/* line 90, ../scss/components/_navigation.scss */
 .search-box--wrapper .search-field--wrapper .search-icon {
   float: right;
   width: 15%;
@@ -4835,7 +4802,7 @@ body {
   display: inline-block;
   text-align: center;
 }
-/* line 134, ../scss/components/_navigation.scss */
+/* line 99, ../scss/components/_navigation.scss */
 .search-box--wrapper .search-advanced-form {
   min-width: 307px;
   width: auto;
@@ -4848,12 +4815,12 @@ body {
   padding: 2px 22px;
   display: none;
 }
-/* line 145, ../scss/components/_navigation.scss */
+/* line 110, ../scss/components/_navigation.scss */
 .search-box--wrapper .search-advanced-form.open {
   display: block;
 }
 
-/* line 151, ../scss/components/_navigation.scss */
+/* line 116, ../scss/components/_navigation.scss */
 .search-advanced-form-toggle {
   margin-top: 8px;
   font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -4868,12 +4835,12 @@ body {
   text-align: center;
   text-decoration: none;
 }
-/* line 164, ../scss/components/_navigation.scss */
+/* line 129, ../scss/components/_navigation.scss */
 .search-advanced-form-toggle:hover {
   background-color: #052059;
 }
 
-/* line 171, ../scss/components/_navigation.scss */
+/* line 136, ../scss/components/_navigation.scss */
 .search-advanced-form label {
   display: inline-block;
   font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -4887,7 +4854,7 @@ body {
   line-height: 2.9;
   margin-right: 22px;
 }
-/* line 184, ../scss/components/_navigation.scss */
+/* line 149, ../scss/components/_navigation.scss */
 .search-advanced-form .advanced-form-close-button {
   background: url(/images/x-icon.png) no-repeat center;
   width: 25px;
@@ -4898,7 +4865,7 @@ body {
   cursor: pointer;
 }
 
-/* line 195, ../scss/components/_navigation.scss */
+/* line 160, ../scss/components/_navigation.scss */
 .radio-circle {
   position: relative;
   width: 22px;
@@ -4911,27 +4878,70 @@ body {
   background: url(/images/check-icons.png) no-repeat;
   background-position: -240px 0;
 }
-/* line 206, ../scss/components/_navigation.scss */
+/* line 171, ../scss/components/_navigation.scss */
 .radio-circle input[type="radio"] {
   visibility: hidden;
   opacity: 0;
   position: absolute;
   top: 0;
 }
-/* line 212, ../scss/components/_navigation.scss */
+/* line 177, ../scss/components/_navigation.scss */
 .radio-circle.checked {
   background: url(/images/check-icons.png) no-repeat;
   background-position: -169px -1px;
   border-color: #007CBE;
 }
-/* line 216, ../scss/components/_navigation.scss */
+/* line 181, ../scss/components/_navigation.scss */
 .radio-circle.checked.hover {
   border-width: 1px;
 }
-/* line 220, ../scss/components/_navigation.scss */
+/* line 185, ../scss/components/_navigation.scss */
 .radio-circle.hover {
   border-width: 2px;
   border-color: #007CBE;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 194, ../scss/components/_navigation.scss */
+  .nav-global--wrapper .nav-global {
+    height: 40px;
+  }
+  /* line 198, ../scss/components/_navigation.scss */
+  .nav-global--wrapper .nav-global .nav-brand a .nav-logo {
+    display: none;
+  }
+  /* line 201, ../scss/components/_navigation.scss */
+  .nav-global--wrapper .nav-global .nav-brand a .nav-title {
+    font-weight: normal;
+    line-height: 3.345;
+  }
+  /* line 207, ../scss/components/_navigation.scss */
+  .nav-global--wrapper .nav-global .nav-link-list {
+    display: block;
+    float: right;
+  }
+  /* line 210, ../scss/components/_navigation.scss */
+  .nav-global--wrapper .nav-global .nav-link-list > li {
+    padding: 0px;
+    float: left;
+    display: block;
+  }
+  /* line 214, ../scss/components/_navigation.scss */
+  .nav-global--wrapper .nav-global .nav-link-list > li > a {
+    color: #FFFFFF;
+    font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    text-decoration: none;
+    padding: 13px 10px;
+    display: block;
+  }
+  /* line 225, ../scss/components/_navigation.scss */
+  .nav-global--wrapper .nav-global .nav-link-list > li > .search-advanced-form-toggle {
+    padding: 5px 0px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
