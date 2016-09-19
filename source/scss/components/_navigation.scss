@@ -5,9 +5,14 @@
 	right: 0;
 	width: 100%;
 	height: auto;
+	max-height: 100%;
 	display: block;
 	z-index: 1030;
 }
+
+/**
+ * 00 NAV GLOBAL START
+ */
 
 .nav-global--wrapper {
   background-color: $color--oxford-blue;
@@ -22,7 +27,7 @@
 			text-decoration: none;
 	  	  	.nav-logo {
 	  	  		display: inline-block;
-	  	  		margin-left: 4px;
+	  	  		margin-right: 4px;
 	  	  	}
 	  	  	.nav-title {
 				font-family: $text-body--regular;
@@ -164,7 +169,7 @@
     cursor: pointer;
     display: inline-block;
     vertical-align: middle;
-    border: solid 1px #353a3f;
+    border: solid 1px $color--black-2;
     border-radius: 100px;
     background: url(/images/check-icons.png) no-repeat;
 	background-position: -240px 0;
@@ -230,3 +235,331 @@
 		}
 	}
 }
+
+/**
+ * 00 NAV GLOBAL END
+ */
+
+
+/**
+ * 01 NAV MAIN START
+ */
+
+.nav-main--wrapper {
+  background-color: $color--white;
+  display: block;
+  width: 100%;
+  .nav-main {
+  	height: 60px;
+  	padding: 0px;
+  	.nav-main-brand {
+		display: inline-block;
+		padding: 17.5px 0px;
+	  	a {
+			color: $color--oxford-blue;
+			text-decoration: none;
+		  	.nav-logo {
+		  		display: none;
+		  		vertical-align: middle;
+		  	}
+		  	.nav-site-title {
+				font-family: $text-body--bold;
+				font-size: 20px;
+
+		  	}
+		}
+	}
+	.nav-mobile-toggles {
+		display: block;
+		list-style: none;
+		padding: 0px;
+		margin: 0px;
+		float: right;
+		& > li {
+			display: block;
+			margin: 0px;
+			float: left;
+			& > button {
+				line-height: 43px;
+				color: $color--oxford-blue;
+				text-decoration: none;
+				font-size: 26px;
+				margin-top: 7px;
+				margin-right: 1em;
+				padding: 0px;
+				background-color: transparent;
+			    outline: none;
+			    border: none;
+				-webkit-appearance: none;
+				-moz-appearance: none;
+				-ms-appearance: none;
+				-o-appearance: none;
+				appearance: none;
+			}
+			&:last-child {
+				& > button {
+					margin-right: 0px;
+				}
+			}
+		}
+
+	}
+	.nav-main-links {
+		list-style: none;
+		padding: 0px;
+		margin: 0px;
+		float: right;
+		display: none;
+		position: relative;
+		& > li {
+			padding: 0px;
+			margin: 0px;
+			position: relative;
+			& > a {
+				position: relative;
+			}
+			.dropdown-menu {
+				list-style: none;
+				padding: 0px;
+				margin: 0px;
+				& > li {
+					margin: 0px;
+					& > a {
+						display: block;
+						text-decoration: none;
+					}
+				}
+			}
+		}
+	}
+  }
+}
+
+@media screen and (min-width: $width-small) {
+	.nav-main--wrapper {
+	  background-color: $color--white;
+	  display: block;
+	  width: 100%;
+		.nav-main {
+		  padding: 15px 0px;
+	  	  height: 95px;
+	  	   .nav-main-brand {
+	  	  	padding: 0px;
+			display: inline-block;
+			  	a {
+					color: $color--oxford-blue;
+					text-decoration: none;
+				  	.nav-logo {
+				  		display: inline-block;
+				  		margin-right: 4px;
+				  		vertical-align: middle;
+				  	}
+				  	.nav-site-title {
+						font-family: $text-body--light;
+						font-size: 35px;
+						font-weight: 300;
+						font-style: normal;
+						font-stretch: normal;
+						display: inline-block;
+						padding-top: 16px;
+						vertical-align: middle;
+				    }
+				}
+			}
+			.nav-mobile-toggles {
+				display: none;
+			}
+			.nav-main-links {
+				float: right;
+				display: block;
+				margin-top: 28px;
+				& > li {
+					float: left;
+					display: block;
+					&:hover {
+						a {
+							background-color: $color--light-gray-2;
+							color: $color--oxford-blue;
+						}
+						.line {
+							display: block;
+						}
+						.dropdown-menu {
+							display: block;
+						}
+					}
+					& > a {
+						color: $color--oxford-blue;
+						font-family: $text-body--regular;
+						font-size: 16px;
+						display: inline-block;
+						padding: 0.75em 1em;
+						height: 40px;
+						text-decoration: none;
+						border-radius: 2px;
+					}
+					.line {
+						background-color: #052059;
+					    position: absolute;
+					    bottom: 0px;
+					    left: 0;
+					    right: 0;
+					    margin: 0 auto;
+					    width: 75%;
+					    height: 2px;
+					    display: none;
+					}
+					.dropdown-menu {
+						display: none;
+						background-color: $color--light-gray-2;
+						padding: 0.75em 0px;
+						width: auto;
+						min-width: 210px;
+						position: absolute;
+					    top: 40px;
+					    left: 0px;
+					    z-index: 1031;
+					    width: auto;
+						& > li {
+							& > a {
+								color: $color--oxford-blue;
+								font-family: $text-body--regular;
+								font-size: 16px;
+								padding: 0.5em 1em;
+								&:hover {
+									color: $color--light-blue;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		&.transparent {
+			background-color: transparent;
+  			background-color: rgba(0,0,0,0);
+			.nav-main {
+				a {
+					color: $color--white;
+				}
+				.nav-main-links {
+					& > li {
+						& > a {
+							color: $color--white;
+							&:hover {
+								color: $color--oxford-blue;
+							}
+						}
+						&:hover {
+							a {
+								color: $color--oxford-blue;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+/**
+ * 01 NAV MAIN END
+ */
+
+
+/**
+ * 01 NAV MAIN MOBILE START
+ */
+
+.nav-main-mobile {
+	position: absolute;
+	background-color: $color--light-gray;
+	display: none;
+	&.open {
+		display: block;
+		position: relative;
+		zoom: 1;
+	}
+	ul {
+		margin: 0px;
+		padding: 10px 0px;
+		list-style: none;
+		li {
+			display: block;
+			width: 100%;
+			margin: 0px;
+			a {
+				display: inline-block;
+				width: 100%;
+				color: $color--oxford-blue;
+				text-decoration: none;
+			}
+		}
+		& > li {
+			position: relative;
+			&.active {
+				& > a {
+					color: $color--light-blue;
+				}
+			}
+			& > a {
+				position: relative;
+				padding: 13px 28px;
+				padding-right: 56px;
+				font-family: $text-headline;
+				font-size: 25px;
+				font-weight: normal;
+				font-style: normal;
+				font-stretch: normal;
+			}
+			.display-arrow {
+				position: absolute;
+				right: 28px;
+				top: 20px;
+				cursor: pointer;
+				-webkit-transform: rotate(0deg);
+			    -moz-transform: rotate(0deg);
+			    -o-transform: rotate(0deg);
+			    -ms-transform: rotate(0deg);
+			    transform: rotate(0deg);
+				-webkit-transition: all 250ms ease-in-out;
+				-moz-transition: all 250ms ease-in-out;
+				-ms-transition: all 250ms ease-in-out;
+				-o-transition: all 250ms ease-in-out;
+				transition: all 250ms ease-in-out;
+				&.active {
+					color: $color--light-blue;
+					-webkit-transform: rotate(90deg);
+				    -moz-transform: rotate(90deg);
+				    -o-transform: rotate(90deg);
+				    -ms-transform: rotate(90deg);
+				    transform: rotate(90deg);
+				}
+			}
+			.dropdown-menu {
+				margin: 0px;
+				display: none;
+				&.open {
+					display: block;
+				}
+				& > li {
+					margin: 0px;
+					& > a {
+						font-family: $text-body--light;
+						font-size: 18px;
+						padding: 10px 0px;
+						padding-left: 54px;
+						padding-right: 50px;
+						font-style: normal;
+						font-stretch: normal;
+						text-align: left;
+					}
+				}
+			}
+		}
+	}
+}
+
+/**
+ * 01 NAV MAIN MOBILE END
+ */
