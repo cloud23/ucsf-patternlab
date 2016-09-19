@@ -1,0 +1,150 @@
+<footer class="content-area content-area--fluid">
+    <div class="content-area footer--upper">
+        <div class="column-wrapper">
+            <div class="column-large-1 column-medium-1 column-small-1 xsmall--hidden">
+                <a href="#">
+                    <img src="{{ footer.logo_link }}" alt="UCSF" class="footer--logo" />
+                </a>
+            </div>
+            {% if footer.left_section %}
+                <div class="column-large-3 column-medium-3 column-small-3 xsmall--hidden">
+                    {% if footer.left_section.title %}
+                        <div class="footer--column-title">
+                            {{ footer.left_section.title }}
+                        </div>
+                    {% endif %}
+                    {% if footer.left_section.content %}
+                    <div class="footer--column-content">
+                        <p>{{ footer.left_section.content }}</p>
+                    </div>
+                    {% endif %}
+                    {% if footer.left_section.links %}
+                        <div class="footer--column-links">
+                            {% for links in footer.left_section.links  %}
+                                <ul class="list--unstyled">
+                                    {% for item in links %}
+                                        <li><a href="{{ item.link }}">{{ item.label }}</a></li>
+                                    {% endfor %}
+                                </ul>     
+                            {% endfor %}   
+                        </div>
+                    {% endif %}
+                </div>
+            {% endif %}
+            {% if footer.center_section %}
+                <div class="column-large-4 column-medium-4 column-small-4">
+                    {% if footer.center_section.title %}
+                        <div class="footer--column-title">
+                            {{ footer.center_section.title }}
+                        </div>
+                    {% endif %}
+                    {% if footer.center_section.content %}
+                        <div class="footer--column-content">
+                            <p>{{ footer.center_section.content }}</p>
+                        </div>
+                    {% endif %}
+                    {% if footer.center_section.links %}
+                        <div class="footer--column-links">
+                            {% for links in footer.center_section.links  %}
+                                <ul class="list--unstyled">
+                                    {% for item in links %}
+                                        <li><a href="{{ item.link }}">{{ item.label }}</a></li>
+                                    {% endfor %}
+                                </ul>     
+                            {% endfor %}   
+                        </div>
+                    {% endif %}
+                </div>
+            {% endif %}
+            {% if footer.left_section %}
+            <div class="column-large-3 column-medium-3 column-small-3 xsmall--visible">
+                {% if footer.left_section.title %}
+                    <div class="footer--column-title">{{ footer.left_section.title }}</div>
+                {% endif %}
+                {% if footer.left_section.content %}
+                <div class="footer--column-content">
+                    <p>{{ footer.left_section.content }}</p>
+                </div>
+                {% endif %}
+                {% if footer.left_section.links %}
+                        <div class="footer--column-links">
+                        {% for links in footer.left_section.links  %}
+                            <ul class="list--unstyled">
+                                {% for item in links %}
+                                    <li><a href="{{ item.link }}">{{ item.label }}</a></li>
+                                {% endfor %}
+                            </ul>     
+                        {% endfor %}   
+                    </div>
+                {% endif %}
+            </div>
+            {% endif %}
+
+            {% if footer.right_section %}
+                <div class="column-large-3 column-large-offset-1 column-medium-3 column-medium-offset-1 column-small-3 column-small-offset-1">
+                    {% if footer.right_section.title %}
+                        <div class="footer--column-title">{{ footer.right_section.title }}</div>
+                    {% endif %}
+                    <div class="footer--column-content text-color--dark-gray">
+                        <p>
+                            +1 (415) 476-6922 <br />
+                            <a href="mailto:placeholder@ucsf.org">placeholder@ucsf.org</a>
+                        </p>
+                        <p>
+                            UCSF Foundation <br />
+                            UCSF Box 0248 <br />
+                            San Francisco, CA 94143-0248
+                        </p>
+                        <p>Tax ID# 94-2829914</p>
+                    </div>
+                    {% if footer.social_links %}
+                        <div class="footer--social-links">
+                            {% if footer.social_links.facebook %}
+                                <div class="footer--social-link-item">
+                                    <a href="{{ footer.social_links.facebook }}"><i class="fa fa-facebook-official"></i></a>
+                                </div>
+                            {% endif %}
+                            {% if footer.social_links.twitter %}
+                                <div class="footer--social-link-item">
+                                    <a href="{{ footer.social_links.twitter }}">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </div>
+                            {% endif %}
+                        </div>
+                    {% endif %}
+                </div>
+            {% endif %}
+        </div>
+    </div>
+    <div class="content-area footer--copyright">
+        <div class="column-wrapper">
+            <div class="footer--copyright-left footer--copyright-text xsmall--hidden">
+                © 2016 University of California San Francisco
+            </div>
+            <div class="footer--copyright-right">
+                <div class="footer--copyright-links">
+                    {% if footer.privacy %}
+                        <div class="footer--copyright-link-item">
+                            <a href="{{ footer.privacy.link }}">{{ footer.privacy.label }}</a>
+                        </div>
+                    {% endif %}
+                    {% if footer.contact %}
+                        <div class="footer--copyright-link-item">
+                            <a href="{{ footer.contact.link }}">{{ footer.contact.label }}</a>
+                        </div>
+                    {% endif %}
+                    
+                    <!-- <div class="footer--copyright-link-item">
+                        +1 (415) 476-6922
+                    </div> -->
+                </div>
+            </div>
+            {% if footer.copyright %}
+                <div class="footer--copyright-left footer--copyright-text xsmall--visible">
+                    {{ footer.copyright }}
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</footer>
