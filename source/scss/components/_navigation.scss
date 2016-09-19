@@ -1,10 +1,18 @@
+.nav--wrapper {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: auto;
+	display: block;
+	z-index: 1030;
+}
+
 .nav-global--wrapper {
   background-color: $color--oxford-blue;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1030;
+  display: block;
+  width: 100%;
   .nav-global {
   	  height: 48px;
   	  .nav-brand {
