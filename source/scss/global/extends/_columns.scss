@@ -12,7 +12,6 @@ $breakpoints : $bp--small-up $bp--medium-up $bp--large-up;
     }
 }
 
-
 @media all and (min-width:$bp--xsmall-up){
     @for $i from 1 through $grids{
         .#{$columnPrefix}-xsmall-#{$i}{
@@ -20,6 +19,9 @@ $breakpoints : $bp--small-up $bp--medium-up $bp--large-up;
             float: left;
             position: relative;
             min-height: 1px;
+        }
+        .#{$columnPrefix}-xsmall-offset-#{$i}{
+            margin-left: percentage($i / $grids); 
         }
     }
 }
@@ -32,6 +34,9 @@ $breakpoints : $bp--small-up $bp--medium-up $bp--large-up;
             position: relative;
             min-height: 1px;
         }
+        .#{$columnPrefix}-small-offset-#{$i}{
+            margin-left: percentage($i / $grids); 
+        }
     }
 }
 
@@ -43,6 +48,9 @@ $breakpoints : $bp--small-up $bp--medium-up $bp--large-up;
             position: relative;
             min-height: 1px;
         }
+        .#{$columnPrefix}-medium-offset-#{$i}{
+            margin-left: percentage($i / $grids); 
+        }
     }
 }
 
@@ -53,6 +61,9 @@ $breakpoints : $bp--small-up $bp--medium-up $bp--large-up;
             float: left;
             position: relative;
             min-height: 1px;
+        }
+        .#{$columnPrefix}-large-offset-#{$i}{
+            margin-left: percentage($i / $grids); 
         }
     }
 }
