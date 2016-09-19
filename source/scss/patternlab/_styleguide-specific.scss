@@ -9,18 +9,14 @@
 
 .palette{
   list-style: none;
-  margin-left: 0;
-  font-size: 0; 
   padding: 0;
-  >li {
+  
+  div {
     padding: 5px;
     font-size: 13px;
     font-size: 0.92857rem;
     color: #fff;
     text-align: center; 
-    /* Todo ~ update for responsive breakpoints */
-    width: 20%;
-    display: inline-block;
   }
   span {
     display: block; 
@@ -29,16 +25,20 @@
     height: 125px;
     padding-top: 1.5em; 
     position: relative;
+    &.dark-text{
+      color: $color--black;
+    }
   }
   h3 {
     color: #333;
     font-size: 11px;
-    font-weight: 600; 
+    font-family: $text-body--regular;
     text-transform: uppercase;
     text-align: left;
   }
   .hex, .variable{
     position: absolute;
+    font-family: $text-body--bold;
   }
   .hex{
     top: 5px;
@@ -112,4 +112,15 @@
       }
     }
   }
+}
+
+.patternLink{
+  color: $color--oxford-blue;
+  text-decoration: none;
+  outline: 0;
+  text-transform: capitalize;
+}
+
+.nav--wrapper{
+  position: relative;
 }
