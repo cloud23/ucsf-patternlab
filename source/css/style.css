@@ -4750,55 +4750,13 @@ body {
   padding: 0px;
 }
 
-@media screen and (min-width: 1350px) {
-  /* line 53, ../scss/components/_navigation.scss */
-  .nav-global--wrapper .nav-global {
-    height: 40px;
-  }
-  /* line 57, ../scss/components/_navigation.scss */
-  .nav-global--wrapper .nav-global .nav-brand a .nav-logo {
-    display: none;
-  }
-  /* line 60, ../scss/components/_navigation.scss */
-  .nav-global--wrapper .nav-global .nav-brand a .nav-title {
-    font-weight: normal;
-    line-height: 3.345;
-  }
-  /* line 66, ../scss/components/_navigation.scss */
-  .nav-global--wrapper .nav-global .nav-link-list {
-    display: block;
-    float: right;
-  }
-  /* line 69, ../scss/components/_navigation.scss */
-  .nav-global--wrapper .nav-global .nav-link-list > li {
-    padding: 0px;
-    float: left;
-    display: block;
-  }
-  /* line 73, ../scss/components/_navigation.scss */
-  .nav-global--wrapper .nav-global .nav-link-list > li > a {
-    color: #FFFFFF;
-    font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    text-decoration: none;
-    padding: 13px 10px;
-    display: block;
-  }
-  /* line 84, ../scss/components/_navigation.scss */
-  .nav-global--wrapper .nav-global .nav-link-list > li > .search-advanced-form-toggle {
-    padding: 5px 0px;
-  }
-}
-/* line 94, ../scss/components/_navigation.scss */
+/* line 51, ../scss/components/_navigation.scss */
 .search-box--wrapper {
   display: block;
   float: left;
   padding: 8px 10px;
 }
-/* line 99, ../scss/components/_navigation.scss */
+/* line 56, ../scss/components/_navigation.scss */
 .search-box--wrapper .search-field--wrapper {
   display: block;
   width: 199px;
@@ -4812,7 +4770,7 @@ body {
   color: #FFFFFF;
   float: left;
 }
-/* line 111, ../scss/components/_navigation.scss */
+/* line 68, ../scss/components/_navigation.scss */
 .search-box--wrapper .search-field--wrapper .placeholder {
   display: block;
   font-size: 12px;
@@ -4821,7 +4779,7 @@ body {
   top: 4px;
   z-index: 0;
 }
-/* line 119, ../scss/components/_navigation.scss */
+/* line 76, ../scss/components/_navigation.scss */
 .search-box--wrapper .search-field--wrapper input[type="text"] {
   background-color: transparent;
   font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -4835,7 +4793,7 @@ body {
   position: relative;
   z-index: 1;
 }
-/* line 133, ../scss/components/_navigation.scss */
+/* line 90, ../scss/components/_navigation.scss */
 .search-box--wrapper .search-field--wrapper .search-icon {
   float: right;
   width: 15%;
@@ -4844,7 +4802,7 @@ body {
   display: inline-block;
   text-align: center;
 }
-/* line 142, ../scss/components/_navigation.scss */
+/* line 99, ../scss/components/_navigation.scss */
 .search-box--wrapper .search-advanced-form {
   min-width: 307px;
   width: auto;
@@ -4857,12 +4815,12 @@ body {
   padding: 2px 22px;
   display: none;
 }
-/* line 153, ../scss/components/_navigation.scss */
+/* line 110, ../scss/components/_navigation.scss */
 .search-box--wrapper .search-advanced-form.open {
   display: block;
 }
 
-/* line 159, ../scss/components/_navigation.scss */
+/* line 116, ../scss/components/_navigation.scss */
 .search-advanced-form-toggle {
   margin-top: 8px;
   font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -4877,12 +4835,12 @@ body {
   text-align: center;
   text-decoration: none;
 }
-/* line 172, ../scss/components/_navigation.scss */
+/* line 129, ../scss/components/_navigation.scss */
 .search-advanced-form-toggle:hover {
   background-color: #052059;
 }
 
-/* line 179, ../scss/components/_navigation.scss */
+/* line 136, ../scss/components/_navigation.scss */
 .search-advanced-form label {
   display: inline-block;
   font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -4896,7 +4854,7 @@ body {
   line-height: 2.9;
   margin-right: 22px;
 }
-/* line 192, ../scss/components/_navigation.scss */
+/* line 149, ../scss/components/_navigation.scss */
 .search-advanced-form .advanced-form-close-button {
   background: url(/images/x-icon.png) no-repeat center;
   width: 25px;
@@ -4907,7 +4865,7 @@ body {
   cursor: pointer;
 }
 
-/* line 203, ../scss/components/_navigation.scss */
+/* line 160, ../scss/components/_navigation.scss */
 .radio-circle {
   position: relative;
   width: 22px;
@@ -4920,27 +4878,70 @@ body {
   background: url(/images/check-icons.png) no-repeat;
   background-position: -240px 0;
 }
-/* line 214, ../scss/components/_navigation.scss */
+/* line 171, ../scss/components/_navigation.scss */
 .radio-circle input[type="radio"] {
   visibility: hidden;
   opacity: 0;
   position: absolute;
   top: 0;
 }
-/* line 220, ../scss/components/_navigation.scss */
+/* line 177, ../scss/components/_navigation.scss */
 .radio-circle.checked {
   background: url(/images/check-icons.png) no-repeat;
   background-position: -169px -1px;
   border-color: #007CBE;
 }
-/* line 224, ../scss/components/_navigation.scss */
+/* line 181, ../scss/components/_navigation.scss */
 .radio-circle.checked.hover {
   border-width: 1px;
 }
-/* line 228, ../scss/components/_navigation.scss */
+/* line 185, ../scss/components/_navigation.scss */
 .radio-circle.hover {
   border-width: 2px;
   border-color: #007CBE;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 194, ../scss/components/_navigation.scss */
+  .nav-global--wrapper .nav-global {
+    height: 40px;
+  }
+  /* line 198, ../scss/components/_navigation.scss */
+  .nav-global--wrapper .nav-global .nav-brand a .nav-logo {
+    display: none;
+  }
+  /* line 201, ../scss/components/_navigation.scss */
+  .nav-global--wrapper .nav-global .nav-brand a .nav-title {
+    font-weight: normal;
+    line-height: 3.345;
+  }
+  /* line 207, ../scss/components/_navigation.scss */
+  .nav-global--wrapper .nav-global .nav-link-list {
+    display: block;
+    float: right;
+  }
+  /* line 210, ../scss/components/_navigation.scss */
+  .nav-global--wrapper .nav-global .nav-link-list > li {
+    padding: 0px;
+    float: left;
+    display: block;
+  }
+  /* line 214, ../scss/components/_navigation.scss */
+  .nav-global--wrapper .nav-global .nav-link-list > li > a {
+    color: #FFFFFF;
+    font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    text-decoration: none;
+    padding: 13px 10px;
+    display: block;
+  }
+  /* line 225, ../scss/components/_navigation.scss */
+  .nav-global--wrapper .nav-global .nav-link-list > li > .search-advanced-form-toggle {
+    padding: 5px 0px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
