@@ -1,3 +1,109 @@
+/* Body callback fonts */
+/* Header callback fonts */
+/*** HelveticaNeue variants ***/
+@font-face {
+  font-family: 'HelveticaNeue-light';
+  src: url("../fonts/ucsf/2D0D15_0_0.eot");
+  src: url("../fonts/ucsf/2D0D15_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/ucsf/2D0D15_0_0.woff2") format("woff2"), url("../fonts/ucsf/2D0D15_0_0.woff") format("woff"), url("../fonts/ucsf/2D0D15_0_0.ttf") format("truetype");
+}
+@font-face {
+  /*font-family: 'HelveticaNeue-roman';*/
+  font-family: 'HelveticaNeue-regular';
+  src: url("../fonts/ucsf/2D0D15_3_0.eot");
+  src: url("../fonts/ucsf/2D0D15_3_0.eot?#iefix") format("embedded-opentype"), url("../fonts/ucsf/2D0D15_3_0.woff2") format("woff2"), url("../fonts/ucsf/2D0D15_3_0.woff") format("woff"), url("../fonts/ucsf/2D0D15_3_0.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'HelveticaNeue-medium';
+  src: url("../fonts/ucsf/2D0D15_4_0.eot");
+  src: url("../fonts/ucsf/2D0D15_4_0.eot?#iefix") format("embedded-opentype"), url("../fonts/ucsf/2D0D15_4_0.woff2") format("woff2"), url("../fonts/ucsf/2D0D15_4_0.woff") format("woff"), url("../fonts/ucsf/2D0D15_4_0.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'HelveticaNeue-bold';
+  src: url("../fonts/ucsf/2D0D15_2_0.eot");
+  src: url("../fonts/ucsf/2D0D15_2_0.eot?#iefix") format("embedded-opentype"), url("../fonts/ucsf/2D0D15_2_0.woff2") format("woff2"), url("../fonts/ucsf/2D0D15_2_0.woff") format("woff"), url("../fonts/ucsf/2D0D15_2_0.ttf") format("truetype");
+}
+/*** Granjon variants ***/
+@font-face {
+  font-family: 'granjon';
+  src: url("../fonts/ucsf/2D0D15_5_0.eot");
+  src: url("../fonts/ucsf/2D0D15_5_0.eot?#iefix") format("embedded-opentype"), url("../fonts/ucsf/2D0D15_5_0.woff2") format("woff2"), url("../fonts/ucsf/2D0D15_5_0.woff") format("woff"), url("../fonts/ucsf/2D0D15_5_0.ttf") format("truetype");
+}
+/* From the current pattern library. I'm keeping this here in case we needed this in the future.
+
+$font-headline: $granjon, $header-font;
+$font-headline--bold: $granjon--bold, $header-font;
+$font-headline--italic: $granjon--italic, $header-font; 
+
+
+$times-font: $header-font;
+
+$granjon: granjon;
+$granjon--bold: granjon-bold;
+$granjon--italic: granjon-italic;
+
+
+$helvetica--italic: HelveticaNeue-italic;
+
+$helvetica--light--italic: HelveticaNeue-light-italic;
+
+$helvetica--medium--italic: HelveticaNeue-medium-italic;
+
+
+$font-body: $helvetica, $default-font;
+$font-body--italic: $helvetica--italic, $default-font;
+$font-body--light: $helvetica--light, $default-font;
+$font-body--light--italic: $helvetica--light--italic, $default-font;
+$font-body--medium: $helvetica--medium, $default-font;
+$font-body--medium--italic: $helvetica--medium--italic, $default-font;
+$font-body--bold: $helvetica--bold, $default-font;
+
+$font-body-alt: $helvetica, $default-font;
+$font-header: $helvetica, $default-font;
+
+@font-face {
+    font-family: 'HelveticaNeue-light-italic';
+    src: url('../fonts/ucsf/2D0D15_8_0.eot');
+    src: url('../fonts/ucsf/2D0D15_8_0.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ucsf/2D0D15_8_0.woff2') format('woff2'),
+        url('../fonts/ucsf/2D0D15_8_0.woff') format('woff'),
+        url('../fonts/ucsf/2D0D15_8_0.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'HelveticaNeue-italic';
+    src: url('../fonts/ucsf/2D0D15_7_0.eot');
+    src: url('../fonts/ucsf/2D0D15_7_0.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ucsf/2D0D15_7_0.woff2') format('woff2'),
+        url('../fonts/ucsf/2D0D15_7_0.woff') format('woff'),
+        url('../fonts/ucsf/2D0D15_7_0.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'HelveticaNeue-medium-italic';
+    src: url('../fonts/ucsf/2D0D15_1_0.eot');
+    src: url('../fonts/ucsf/2D0D15_1_0.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ucsf/2D0D15_1_0.woff2') format('woff2'),
+        url('../fonts/ucsf/2D0D15_1_0.woff') format('woff'),
+        url('../fonts/ucsf/2D0D15_1_0.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'granjon-italic';
+    src: url('../fonts/ucsf/2D0D15_6_0.eot');
+    src: url('../fonts/ucsf/2D0D15_6_0.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ucsf/2D0D15_6_0.woff2') format('woff2'),
+        url('../fonts/ucsf/2D0D15_6_0.woff') format('woff'),
+        url('../fonts/ucsf/2D0D15_6_0.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'granjon-bold';
+    src: url('../fonts/ucsf/2D0D15_9_0.eot');
+    src: url('../fonts/ucsf/2D0D15_9_0.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ucsf/2D0D15_9_0.woff2') format('woff2'),
+        url('../fonts/ucsf/2D0D15_9_0.woff') format('woff'),
+        url('../fonts/ucsf/2D0D15_9_0.ttf') format('truetype');
+}
+
+*/
 /*** Styleguide Specific ***/
 /**
  * This stylesheet is for styles you want to include only when the interface is being viewed within Pattern Lab.
@@ -8,42 +114,42 @@
 /* line 10, ../scss/patternlab/_styleguide-specific.scss */
 .palette {
   list-style: none;
-  margin-left: 0;
-  font-size: 0;
   padding: 0;
 }
-/* line 15, ../scss/patternlab/_styleguide-specific.scss */
-.palette > li {
+/* line 14, ../scss/patternlab/_styleguide-specific.scss */
+.palette div {
   padding: 5px;
   font-size: 13px;
   font-size: 0.92857rem;
   color: #fff;
   text-align: center;
-  /* Todo ~ update for responsive breakpoints */
-  width: 20%;
-  display: inline-block;
 }
-/* line 25, ../scss/patternlab/_styleguide-specific.scss */
+/* line 21, ../scss/patternlab/_styleguide-specific.scss */
 .palette span {
   display: block;
 }
-/* line 28, ../scss/patternlab/_styleguide-specific.scss */
+/* line 24, ../scss/patternlab/_styleguide-specific.scss */
 .palette .color {
   height: 125px;
   padding-top: 1.5em;
   position: relative;
 }
-/* line 33, ../scss/patternlab/_styleguide-specific.scss */
+/* line 28, ../scss/patternlab/_styleguide-specific.scss */
+.palette .color.dark-text {
+  color: black;
+}
+/* line 32, ../scss/patternlab/_styleguide-specific.scss */
 .palette h3 {
   color: #333;
   font-size: 11px;
-  font-weight: 600;
+  font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-align: left;
 }
-/* line 40, ../scss/patternlab/_styleguide-specific.scss */
+/* line 39, ../scss/patternlab/_styleguide-specific.scss */
 .palette .hex, .palette .variable {
   position: absolute;
+  font-family: HelveticaNeue-bold, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 /* line 43, ../scss/patternlab/_styleguide-specific.scss */
 .palette .hex {
@@ -117,6 +223,19 @@
 /* line 109, ../scss/patternlab/_styleguide-specific.scss */
 .grid-sample .content-area .column-wrapper div:nth-child(odd) {
   background-color: #058488;
+}
+
+/* line 117, ../scss/patternlab/_styleguide-specific.scss */
+.patternLink {
+  color: #052059;
+  text-decoration: none;
+  outline: 0;
+  text-transform: capitalize;
+}
+
+/* line 124, ../scss/patternlab/_styleguide-specific.scss */
+.nav--wrapper {
+  position: relative;
 }
 
 /*# sourceMappingURL=patternlab-style.css.map */
