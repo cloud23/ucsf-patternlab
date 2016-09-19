@@ -3,7 +3,7 @@ module.exports = {
         command: 'php core/console --generate'
     },
     pattern_lab_watch:{
-        command: 'php core/console --watch'
+        command: 'php core/console --watch --timeout=0'
     },
     pattern_lab_serve:{
         command: 'php core/console --server'
@@ -16,6 +16,9 @@ module.exports = {
     },
     pattern_lab_require_styleguidekit_default:{
         command: 'composer require pattern-lab/styleguidekit-twig-default'
+    },
+    pattern_lab_require_styleguidekit_assets:{
+        command: 'composer require pattern-lab/styleguidekit-assets-default'
     },
     install_compass:{
         command: 'gem install compass'
