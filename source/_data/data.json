@@ -71,5 +71,51 @@
     "long": "20",
     "short": "20"
   },
-  "seconds": "31"
+  "seconds": "31",
+  "footer" : {
+    "logo_link" : "/images/UCSF_logobox_white.png",
+    "copyright" :"© 2016 University of California San Francisco",
+    "contact" : {
+      "label" : "Contact",
+      "link" : "#"
+    },
+    "privacy" : {
+      "label" : "Privacy",
+      "link" : "#"
+    },
+    "social_links" : {
+      "facebook" : "https://facebook.com",
+      "twitter" : "https://twitter.com"
+    },
+    "left_section" : {
+      "title" : "THE FOUNDATION",
+      "content" : "The UCSF Foundation serves as the giving, receiving, and investing arm of the greater UCSF community and is operated by the Office of Development and Alumni Relations.",
+      "links" : {
+        "all" : [
+          { "label" : "UCSF Magazine", "link" : "#" },
+          { "label" : "UCSF Alumni", "link" : "#" }
+        ]
+      }
+    },
+    "center_section" : {
+      "title" : "About",
+      "links" : {
+        "left" : [
+          { "label" : "About", "link" : "#" },
+          { "label" : "Financials", "link" : "#" },
+          { "label" : "Careers", "link" : "#" },
+          { "label" : "Give", "link" : "#" }
+        ],
+        "right" : [
+          { "label" : "Planned Giving", "link" : "#" },
+          { "label" : "Corporate & Foundationsu", "link" : "#" },
+          { "label" : "Employee Giving", "link" : "#" }
+        ]
+      }
+    },
+    "right_section" : {
+      "title" : "THE FOUNDATION",
+      "description" : "The UCSF Foundation serves as the giving, receiving, and investing arm of the greater UCSF community and is operated by the Office of Development and Alumni Relations."
+    }
+  }
 }
