@@ -5334,7 +5334,7 @@ footer .footer--colum-content, footer .footer--column-links {
 }
 /*** Header ***/
 /* line 3, ../scss/components/_navigation.scss */
-html.mobile-navs-open .nav--wrapper {
+html.mobile-nav-open .nav--wrapper {
   overflow: auto;
 }
 
@@ -5679,12 +5679,13 @@ html.mobile-navs-open .nav--wrapper {
   -ms-appearance: none;
   -o-appearance: none;
   appearance: none;
+  cursor: pointer;
 }
-/* line 321, ../scss/components/_navigation.scss */
+/* line 322, ../scss/components/_navigation.scss */
 .nav-main--wrapper .nav-main .nav-mobile-toggles > li:last-child > button {
   margin-right: 0px;
 }
-/* line 328, ../scss/components/_navigation.scss */
+/* line 329, ../scss/components/_navigation.scss */
 .nav-main--wrapper .nav-main .nav-main-links {
   list-style: none;
   padding: 0px;
@@ -5693,61 +5694,61 @@ html.mobile-navs-open .nav--wrapper {
   display: none;
   position: relative;
 }
-/* line 335, ../scss/components/_navigation.scss */
+/* line 336, ../scss/components/_navigation.scss */
 .nav-main--wrapper .nav-main .nav-main-links > li {
   padding: 0px;
   margin: 0px;
   position: relative;
 }
-/* line 339, ../scss/components/_navigation.scss */
+/* line 340, ../scss/components/_navigation.scss */
 .nav-main--wrapper .nav-main .nav-main-links > li > a {
   position: relative;
 }
-/* line 342, ../scss/components/_navigation.scss */
+/* line 343, ../scss/components/_navigation.scss */
 .nav-main--wrapper .nav-main .nav-main-links > li .dropdown-menu {
   list-style: none;
   padding: 0px;
   margin: 0px;
 }
-/* line 346, ../scss/components/_navigation.scss */
+/* line 347, ../scss/components/_navigation.scss */
 .nav-main--wrapper .nav-main .nav-main-links > li .dropdown-menu > li {
   margin: 0px;
 }
-/* line 348, ../scss/components/_navigation.scss */
+/* line 349, ../scss/components/_navigation.scss */
 .nav-main--wrapper .nav-main .nav-main-links > li .dropdown-menu > li > a {
   display: block;
   text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 360, ../scss/components/_navigation.scss */
+  /* line 361, ../scss/components/_navigation.scss */
   .nav-main--wrapper {
     background-color: #FFFFFF;
     display: block;
     width: 100%;
   }
-  /* line 364, ../scss/components/_navigation.scss */
+  /* line 365, ../scss/components/_navigation.scss */
   .nav-main--wrapper .nav-main {
     padding: 15px 0px;
     height: 95px;
   }
-  /* line 367, ../scss/components/_navigation.scss */
+  /* line 368, ../scss/components/_navigation.scss */
   .nav-main--wrapper .nav-main .nav-main-brand {
     padding: 0px;
     display: inline-block;
   }
-  /* line 370, ../scss/components/_navigation.scss */
+  /* line 371, ../scss/components/_navigation.scss */
   .nav-main--wrapper .nav-main .nav-main-brand a {
     color: #052059;
     text-decoration: none;
   }
-  /* line 373, ../scss/components/_navigation.scss */
+  /* line 374, ../scss/components/_navigation.scss */
   .nav-main--wrapper .nav-main .nav-main-brand a .nav-logo {
     display: inline-block;
     margin-right: 4px;
     vertical-align: middle;
   }
-  /* line 378, ../scss/components/_navigation.scss */
+  /* line 379, ../scss/components/_navigation.scss */
   .nav-main--wrapper .nav-main .nav-main-brand a .nav-site-title {
     font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-size: 35px;
@@ -5758,35 +5759,35 @@ html.mobile-navs-open .nav--wrapper {
     padding-top: 16px;
     vertical-align: middle;
   }
-  /* line 390, ../scss/components/_navigation.scss */
+  /* line 391, ../scss/components/_navigation.scss */
   .nav-main--wrapper .nav-main .nav-mobile-toggles {
     display: none;
   }
-  /* line 393, ../scss/components/_navigation.scss */
+  /* line 394, ../scss/components/_navigation.scss */
   .nav-main--wrapper .nav-main .nav-main-links {
     float: right;
     display: block;
     margin-top: 28px;
   }
-  /* line 397, ../scss/components/_navigation.scss */
+  /* line 398, ../scss/components/_navigation.scss */
   .nav-main--wrapper .nav-main .nav-main-links > li {
     float: left;
     display: block;
   }
-  /* line 401, ../scss/components/_navigation.scss */
+  /* line 402, ../scss/components/_navigation.scss */
   .nav-main--wrapper .nav-main .nav-main-links > li:hover a {
     background-color: #ebf3fa;
     color: #052059;
   }
-  /* line 405, ../scss/components/_navigation.scss */
+  /* line 406, ../scss/components/_navigation.scss */
   .nav-main--wrapper .nav-main .nav-main-links > li:hover .line {
     display: block;
   }
-  /* line 408, ../scss/components/_navigation.scss */
+  /* line 409, ../scss/components/_navigation.scss */
   .nav-main--wrapper .nav-main .nav-main-links > li:hover .dropdown-menu {
     display: block;
   }
-  /* line 412, ../scss/components/_navigation.scss */
+  /* line 413, ../scss/components/_navigation.scss */
   .nav-main--wrapper .nav-main .nav-main-links > li > a {
     color: #052059;
     font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -5797,7 +5798,7 @@ html.mobile-navs-open .nav--wrapper {
     text-decoration: none;
     border-radius: 2px;
   }
-  /* line 422, ../scss/components/_navigation.scss */
+  /* line 423, ../scss/components/_navigation.scss */
   .nav-main--wrapper .nav-main .nav-main-links > li .line {
     background-color: #052059;
     position: absolute;
@@ -5809,7 +5810,7 @@ html.mobile-navs-open .nav--wrapper {
     height: 2px;
     display: none;
   }
-  /* line 433, ../scss/components/_navigation.scss */
+  /* line 434, ../scss/components/_navigation.scss */
   .nav-main--wrapper .nav-main .nav-main-links > li .dropdown-menu {
     display: none;
     background-color: #ebf3fa;
@@ -5822,35 +5823,35 @@ html.mobile-navs-open .nav--wrapper {
     z-index: 1031;
     width: auto;
   }
-  /* line 445, ../scss/components/_navigation.scss */
+  /* line 446, ../scss/components/_navigation.scss */
   .nav-main--wrapper .nav-main .nav-main-links > li .dropdown-menu > li > a {
     color: #052059;
     font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-size: 16px;
     padding: 0.5em 1em;
   }
-  /* line 450, ../scss/components/_navigation.scss */
+  /* line 451, ../scss/components/_navigation.scss */
   .nav-main--wrapper .nav-main .nav-main-links > li .dropdown-menu > li > a:hover {
     color: #007CBE;
   }
-  /* line 459, ../scss/components/_navigation.scss */
+  /* line 460, ../scss/components/_navigation.scss */
   .nav-main--wrapper.transparent {
     background-color: transparent;
     background-color: transparent;
   }
-  /* line 463, ../scss/components/_navigation.scss */
+  /* line 464, ../scss/components/_navigation.scss */
   .nav-main--wrapper.transparent .nav-main a {
     color: #FFFFFF;
   }
-  /* line 468, ../scss/components/_navigation.scss */
+  /* line 469, ../scss/components/_navigation.scss */
   .nav-main--wrapper.transparent .nav-main .nav-main-links > li > a {
     color: #FFFFFF;
   }
-  /* line 470, ../scss/components/_navigation.scss */
+  /* line 471, ../scss/components/_navigation.scss */
   .nav-main--wrapper.transparent .nav-main .nav-main-links > li > a:hover {
     color: #052059;
   }
-  /* line 475, ../scss/components/_navigation.scss */
+  /* line 476, ../scss/components/_navigation.scss */
   .nav-main--wrapper.transparent .nav-main .nav-main-links > li:hover a {
     color: #052059;
   }
@@ -5861,20 +5862,20 @@ html.mobile-navs-open .nav--wrapper {
 /**
  * 01 NAV MAIN SEARCH START
  */
-/* line 496, ../scss/components/_navigation.scss */
+/* line 497, ../scss/components/_navigation.scss */
 .nav-main-mobile-search {
   position: absolute;
   background-color: #F1F1F1;
   display: none;
   padding-bottom: 20px;
 }
-/* line 501, ../scss/components/_navigation.scss */
+/* line 502, ../scss/components/_navigation.scss */
 .nav-main-mobile-search.open {
   display: block;
   position: relative;
   zoom: 1;
 }
-/* line 506, ../scss/components/_navigation.scss */
+/* line 507, ../scss/components/_navigation.scss */
 .nav-main-mobile-search .mobile-search-field--wrapper {
   position: relative;
   height: auto;
@@ -5882,14 +5883,14 @@ html.mobile-navs-open .nav--wrapper {
   padding-bottom: 10px;
   width: 100%;
 }
-/* line 512, ../scss/components/_navigation.scss */
+/* line 513, ../scss/components/_navigation.scss */
 .nav-main-mobile-search .mobile-search-field--wrapper .mobile-field-ui {
   background-color: #FFFFFF;
   width: 100%;
   height: auto;
   position: relative;
 }
-/* line 517, ../scss/components/_navigation.scss */
+/* line 518, ../scss/components/_navigation.scss */
 .nav-main-mobile-search .mobile-search-field--wrapper .mobile-field-ui input[type="text"] {
   display: block;
   border: none;
@@ -5904,11 +5905,11 @@ html.mobile-navs-open .nav--wrapper {
   background-color: transparent;
   background-color: transparent;
 }
-/* line 530, ../scss/components/_navigation.scss */
+/* line 531, ../scss/components/_navigation.scss */
 .nav-main-mobile-search .mobile-search-field--wrapper .mobile-field-ui input[type="text"]:focus {
   outline: none;
 }
-/* line 535, ../scss/components/_navigation.scss */
+/* line 536, ../scss/components/_navigation.scss */
 .nav-main-mobile-search .mobile-search-field--wrapper .mobile-field-ui .placeholder {
   position: absolute;
   top: 17px;
@@ -5921,7 +5922,7 @@ html.mobile-navs-open .nav--wrapper {
   color: #000000;
   z-index: 0;
 }
-/* line 547, ../scss/components/_navigation.scss */
+/* line 548, ../scss/components/_navigation.scss */
 .nav-main-mobile-search .mobile-search-field--wrapper .mobile-field-ui .search-icon {
   position: absolute;
   right: 18px;
@@ -5929,22 +5930,22 @@ html.mobile-navs-open .nav--wrapper {
   font-size: 20px;
   z-index: 1;
 }
-/* line 557, ../scss/components/_navigation.scss */
+/* line 558, ../scss/components/_navigation.scss */
 .nav-main-mobile-search .mobile-search-advanced-form .mobile-search-option {
   padding: 10px 28px;
 }
-/* line 559, ../scss/components/_navigation.scss */
+/* line 560, ../scss/components/_navigation.scss */
 .nav-main-mobile-search .mobile-search-advanced-form .mobile-search-option .radio-circle {
   width: 30px;
   height: 30px;
   padding: 6px 0px;
   margin-right: 6px;
 }
-/* line 564, ../scss/components/_navigation.scss */
+/* line 565, ../scss/components/_navigation.scss */
 .nav-main-mobile-search .mobile-search-advanced-form .mobile-search-option .radio-circle .radio-ui {
   font-size: 16px;
 }
-/* line 568, ../scss/components/_navigation.scss */
+/* line 569, ../scss/components/_navigation.scss */
 .nav-main-mobile-search .mobile-search-advanced-form .mobile-search-option label {
   font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 18px;
@@ -5952,13 +5953,13 @@ html.mobile-navs-open .nav--wrapper {
   margin-top: 1px;
   display: inline-block;
 }
-/* line 577, ../scss/components/_navigation.scss */
+/* line 578, ../scss/components/_navigation.scss */
 .nav-main-mobile-search .mobile-search-submit--wrapper {
   padding: 0px 28px;
   position: relative;
   display: block;
 }
-/* line 581, ../scss/components/_navigation.scss */
+/* line 582, ../scss/components/_navigation.scss */
 .nav-main-mobile-search .mobile-search-submit--wrapper .search-submit {
   width: 100%;
 }
@@ -5969,46 +5970,49 @@ html.mobile-navs-open .nav--wrapper {
 /**
  * 01 NAV MAIN MOBILE START
  */
-/* line 596, ../scss/components/_navigation.scss */
+/* line 597, ../scss/components/_navigation.scss */
 .nav-main-mobile {
   position: absolute;
   background-color: #F1F1F1;
   display: none;
+  max-height: 0px;
 }
-/* line 600, ../scss/components/_navigation.scss */
+/* line 602, ../scss/components/_navigation.scss */
 .nav-main-mobile.open {
   display: block;
   position: relative;
   zoom: 1;
+  overflow: hidden;
+  max-height: 3000px;
 }
-/* line 605, ../scss/components/_navigation.scss */
+/* line 609, ../scss/components/_navigation.scss */
 .nav-main-mobile ul {
   margin: 0px;
   padding: 10px 0px;
   list-style: none;
 }
-/* line 609, ../scss/components/_navigation.scss */
+/* line 613, ../scss/components/_navigation.scss */
 .nav-main-mobile ul li {
   display: block;
   width: 100%;
   margin: 0px;
 }
-/* line 613, ../scss/components/_navigation.scss */
+/* line 617, ../scss/components/_navigation.scss */
 .nav-main-mobile ul li a {
   display: inline-block;
   width: 100%;
   color: #052059;
   text-decoration: none;
 }
-/* line 620, ../scss/components/_navigation.scss */
+/* line 624, ../scss/components/_navigation.scss */
 .nav-main-mobile ul > li {
   position: relative;
 }
-/* line 623, ../scss/components/_navigation.scss */
+/* line 627, ../scss/components/_navigation.scss */
 .nav-main-mobile ul > li.active > a {
   color: #007CBE;
 }
-/* line 627, ../scss/components/_navigation.scss */
+/* line 631, ../scss/components/_navigation.scss */
 .nav-main-mobile ul > li > a {
   position: relative;
   padding: 13px 28px;
@@ -6019,7 +6023,7 @@ html.mobile-navs-open .nav--wrapper {
   font-style: normal;
   font-stretch: normal;
 }
-/* line 637, ../scss/components/_navigation.scss */
+/* line 641, ../scss/components/_navigation.scss */
 .nav-main-mobile ul > li .display-arrow {
   position: absolute;
   right: 28px;
@@ -6036,7 +6040,7 @@ html.mobile-navs-open .nav--wrapper {
   -o-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
 }
-/* line 652, ../scss/components/_navigation.scss */
+/* line 656, ../scss/components/_navigation.scss */
 .nav-main-mobile ul > li .display-arrow.active {
   color: #007CBE;
   -webkit-transform: rotate(90deg);
@@ -6045,20 +6049,20 @@ html.mobile-navs-open .nav--wrapper {
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
 }
-/* line 661, ../scss/components/_navigation.scss */
+/* line 665, ../scss/components/_navigation.scss */
 .nav-main-mobile ul > li .dropdown-menu {
   margin: 0px;
   display: none;
 }
-/* line 664, ../scss/components/_navigation.scss */
+/* line 668, ../scss/components/_navigation.scss */
 .nav-main-mobile ul > li .dropdown-menu.open {
   display: block;
 }
-/* line 667, ../scss/components/_navigation.scss */
+/* line 671, ../scss/components/_navigation.scss */
 .nav-main-mobile ul > li .dropdown-menu > li {
   margin: 0px;
 }
-/* line 669, ../scss/components/_navigation.scss */
+/* line 673, ../scss/components/_navigation.scss */
 .nav-main-mobile ul > li .dropdown-menu > li > a {
   font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 18px;
@@ -6074,11 +6078,11 @@ html.mobile-navs-open .nav--wrapper {
  * 01 NAV MAIN MOBILE END
  */
 @media screen and (min-width: 768px) {
-  /* line 690, ../scss/components/_navigation.scss */
+  /* line 694, ../scss/components/_navigation.scss */
   .nav-main-mobile {
     display: none;
   }
-  /* line 692, ../scss/components/_navigation.scss */
+  /* line 696, ../scss/components/_navigation.scss */
   .nav-main-mobile.open {
     display: none;
   }

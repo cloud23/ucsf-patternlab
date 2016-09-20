@@ -22,8 +22,9 @@ $(function(){
 		},
 		toggleSearchForm: function() {
 			$searchFormToggle.on('click', function(e) {
-
 				e.preventDefault();
+				var $searchForm = $(this).parent().parent().parent().parent().parent().parent().find('.nav-main-mobile-search');
+
 				$searchForm.toggleClass('open');
 
 			});
