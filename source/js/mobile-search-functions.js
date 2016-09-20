@@ -59,5 +59,6 @@ $(function(){
 		}
 	};
 
-	mobileSearchEvents.init();
+	if($searchMobile.length > 0) mobileSearchEvents.init();
+
 });
