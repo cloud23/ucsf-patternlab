@@ -19,3 +19,63 @@
     font-family: $text-headline;
     @include type-definition(60px, 1.083);
 }
+
+p{
+    font-family: $text-body--regular;
+    @include type-definition($base--typesize);
+}
+
+b, strong{
+    font-family: $text-body--bold;
+    font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: $text-headline;
+    font-weight: normal;
+}
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+small {
+    font-size: 80%;
+}
+
+blockquote{
+    padding: 30px;
+    background-color: $color--light-gray-2;
+    text-align: justify;
+    &, & p{
+        font-family: $text-headline;
+        @include type-definition(24px, 1.33);
+    }
+    p{
+        margin: 0;
+        &:before, &:after{
+            font-family: $text-headline;
+            @include type-definition(60px, 0.53);
+            color: $color--light-blue;
+            top: 15px;
+            position: relative;
+        }
+        &:before{
+            content: "\201C";
+        }
+        &:after{
+            content: "\201D";
+        }
+    }
+   
+}
+// Text alignments
+
+$alignments : left center right justify;
+
+@each $alignment in $alignments{
+    .text-align--#{$alignment}{
+        text-align: #{$alignment};
+    }
+}
+

@@ -196,9 +196,15 @@ $font-header: $helvetica, $default-font;
 
 /* line 82, ../scss/patternlab/_styleguide-specific.scss */
 .font-type .font-sample {
+<<<<<<< HEAD
   padding: 10px 0;
   margin: 0 10px;
   border-bottom: 1px #F1F1F1 solid;
+=======
+  padding: 20px;
+  width: 50%;
+  float: left;
+>>>>>>> features--text-properties
 }
 
 /* line 91, ../scss/patternlab/_styleguide-specific.scss */
