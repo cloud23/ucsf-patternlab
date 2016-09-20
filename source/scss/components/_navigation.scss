@@ -1,5 +1,5 @@
 html {
-	&.mobile-navs-open {
+	&.mobile-nav-open {
 		.nav--wrapper {
 			overflow: auto;
 		}
@@ -316,6 +316,7 @@ html {
 				-ms-appearance: none;
 				-o-appearance: none;
 				appearance: none;
+				cursor: pointer;
 			}
 			&:last-child {
 				& > button {
@@ -597,10 +598,13 @@ html {
 	position: absolute;
 	background-color: $color--light-gray;
 	display: none;
+	max-height: 0px;
 	&.open {
 		display: block;
 		position: relative;
 		zoom: 1;
+		overflow: hidden;
+		max-height: 3000px;
 	}
 	ul {
 		margin: 0px;

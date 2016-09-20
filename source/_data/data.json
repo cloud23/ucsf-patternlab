@@ -117,5 +117,69 @@
       "title" : "THE FOUNDATION",
       "description" : "The UCSF Foundation serves as the giving, receiving, and investing arm of the greater UCSF community and is operated by the Office of Development and Alumni Relations."
     }
+  },
+  "nav_links" : {
+    "links" : [
+      {
+        "label" : "Why Give", "link" : "#", "sublinks" : ""
+      },
+      {
+        "label" : "How to Give",
+        "link" : "#",
+        "sublinks" : [
+            {
+              "label" : "Alumni / Class", "link" : "#"
+            },
+            {
+              "label" : "Honor / Memorial", "link" : "#"
+            },
+            {
+              "label" : "Corporate & Foundation", "link" : "#"
+            },
+            {
+              "label" : "Planned Giving", "link" : "#"
+            },
+            {
+              "label" : "Endowments", "link" : "#"
+            },
+            {
+              "label" : "In-kind / Stock", "link" : "#"
+            },
+            {
+              "label" : "Giving FAQ", "link" : "#"
+            }
+        ]
+      },
+      {
+        "label" : "What to Support", "link" : "#", "sublinks" : ""
+      },
+      {
+        "label" : "Get Involved", "link" : "#", "sublinks" : ""
+      }
+    ]
+  },
+  "header_logos" : {
+    "UCSF_logobox_small" : "/images/UCSF_logobox_navy_CMYK_small.png",
+    "UCSF_logowhite_small" : "/images/UCSF_logo_white_RGB_small.png"
+  },
+  "mobile_toggles" : {
+    "buttons" : [
+      {
+        "class" : "mobile-search-form-toggle", "icon" : "fa fa-search"
+      },
+      {
+        "class" : "mobile-menu-toggle", "icon" : "fa fa-bars"
+      }
+    ]
+  },
+  "global_header_links" : {
+    "links" : [
+      {
+        "label" : "About UCSF", "link" : "#"
+      },
+      {
+        "label" : "UCSF Medical Center", "link" : "#"
+      }
+    ]
   }
 }

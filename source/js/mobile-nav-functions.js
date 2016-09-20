@@ -1,8 +1,9 @@
 $(function(){
 
+	var $html =
+	$('html'),
 	$mobileMenuToggle = $('.mobile-menu-toggle'),
-	$mobileLinksToggle = $('.nav-main-mobile ul li a, .nav-main-mobile ul li .display-arrow'),
-	$navMainMobile = $('.nav-main-mobile');
+	$mobileLinksToggle = $('.nav-main-mobile ul li a, .nav-main-mobile ul li .display-arrow');
 
 	var mobileNavEvents = {
 		init: function(){
@@ -13,12 +14,15 @@ $(function(){
 			// Menu Toggle
 			$mobileMenuToggle.on('click', function(e){
 				e.preventDefault();
+				var $navMainMobile = $(this).parent().parent().parent().parent().parent().parent().find('.nav-main-mobile');
 				$navMainMobile.toggleClass('open');
 
 				if($(this).hasClass('active')) {
 					$navMainMobile.attr('aria-hidden',false);
+					$html.addClass('mobile-nav-open');
 				} else {
 					$navMainMobile.attr('aria-hidden',true);
+					$html.removeClass('mobile-nav-open');
 				}
 			});
 		},
