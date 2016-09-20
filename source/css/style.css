@@ -4845,7 +4845,7 @@ $bp--small-down: max-width $width-medium - 1;*/
 a {
   cursor: pointer;
   font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  color: #007cbe;
+  color: #007CBE;
   text-decoration: none;
 }
 /* line 8, ../scss/base/_links.scss */
@@ -5055,7 +5055,7 @@ blockquote p:before, blockquote p:after {
   font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
   font-size: 4rem;
   line-height: 0.53;
-  color: #007cbe;
+  color: #007CBE;
   top: 15px;
   position: relative;
 }
@@ -5753,7 +5753,7 @@ footer .footer--colum-content, footer .footer--column-links {
   }
   /* line 380, ../scss/components/_navigation.scss */
   .nav-main--wrapper .nav-main .nav-main-links > li:hover a {
-    background-color: #dadee4;
+    background-color: #ebf3fa;
     color: #052059;
   }
   /* line 384, ../scss/components/_navigation.scss */
@@ -5790,7 +5790,7 @@ footer .footer--colum-content, footer .footer--column-links {
   /* line 412, ../scss/components/_navigation.scss */
   .nav-main--wrapper .nav-main .nav-main-links > li .dropdown-menu {
     display: none;
-    background-color: #dadee4;
+    background-color: #ebf3fa;
     padding: 0.75em 0px;
     width: auto;
     min-width: 210px;
