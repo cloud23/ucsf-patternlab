@@ -4851,23 +4851,33 @@ $bp--small-down: max-width $width-medium - 1;*/
   color: #f26d04;
 }
 
-/* line 46, ../scss/base/_btn.scss */
+/*** Forms ***/
+/*** Grid ***/
+/*** Headings ***/
+/*** Helper ***/
+/*** HR ***/
+/*** Images ***/
+/*** Page ***/
+/* line 3, ../scss/base/_links.scss */
 a {
   cursor: pointer;
-  font-family: HelveticaNeue-medium;
+  font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  color: #007cbe;
+  text-decoration: none;
 }
-/* line 49, ../scss/base/_btn.scss */
+/* line 8, ../scss/base/_links.scss */
 a:hover {
   text-decoration: underline;
 }
-/* line 52, ../scss/base/_btn.scss */
+/* line 11, ../scss/base/_links.scss */
 a.link {
   font-size: 1.06667rem;
   line-height: 1.125;
   color: #052059;
   text-transform: uppercase;
+  font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
-/* line 58, ../scss/base/_btn.scss */
+/* line 17, ../scss/base/_links.scss */
 a.link.link--with-icon .link--icon {
   color: #007cbe;
   height: 26px;
@@ -4877,25 +4887,25 @@ a.link.link--with-icon .link--icon {
   margin-left: 5px;
   overflow: hidden;
 }
-/* line 66, ../scss/base/_btn.scss */
+/* line 25, ../scss/base/_links.scss */
 a.link.link--with-icon .link--icon .icon--visible-hover {
   display: none;
 }
-/* line 67, ../scss/base/_btn.scss */
+/* line 26, ../scss/base/_links.scss */
 a.link.link--with-icon .link--icon .icon--circle {
   font-size: 1.66667rem;
   line-height: 1;
 }
-/* line 68, ../scss/base/_btn.scss */
+/* line 27, ../scss/base/_links.scss */
 a.link.link--with-icon .link--icon .icon--angle {
   font-size: 1.26667rem;
   line-height: 1.27;
 }
-/* line 72, ../scss/base/_btn.scss */
+/* line 31, ../scss/base/_links.scss */
 a.link.link--with-icon:hover .icon--visible-hover {
   display: block;
 }
-/* line 75, ../scss/base/_btn.scss */
+/* line 34, ../scss/base/_links.scss */
 a.link.link--with-icon:hover .icon--angle {
   -webkit-animation: slideFromLeft 0.4s;
   -moz-animation: slideFromLeft 0.4s;
@@ -4904,26 +4914,19 @@ a.link.link--with-icon:hover .icon--angle {
   animation: slideFromLeft 0.4s;
   color: white;
 }
-/* line 81, ../scss/base/_btn.scss */
+/* line 40, ../scss/base/_links.scss */
 a.link.link--with-icon.background--dark {
   color: white;
 }
-/* line 83, ../scss/base/_btn.scss */
+/* line 42, ../scss/base/_links.scss */
 a.link.link--with-icon.background--dark .link--icon {
   color: white;
 }
-/* line 87, ../scss/base/_btn.scss */
+/* line 46, ../scss/base/_links.scss */
 a.link.link--with-icon.background--dark:hover .icon--angle {
   color: black;
 }
 
-/*** Forms ***/
-/*** Grid ***/
-/*** Headings ***/
-/*** Helper ***/
-/*** HR ***/
-/*** Images ***/
-/*** Page ***/
 /*** Lists ***/
 /* List item */
 /* line 6, ../scss/base/_lists.scss */
@@ -5017,6 +5020,89 @@ li > ul, li > ol {
   font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
   font-size: 4rem;
   line-height: 1.083;
+}
+
+/* line 23, ../scss/base/_text.scss */
+p {
+  font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* line 28, ../scss/base/_text.scss */
+b, strong {
+  font-family: HelveticaNeue-bold, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+
+/* line 33, ../scss/base/_text.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
+  font-weight: normal;
+}
+
+/* line 38, ../scss/base/_text.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 42, ../scss/base/_text.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 46, ../scss/base/_text.scss */
+blockquote {
+  padding: 30px;
+  background-color: #ebf3fa;
+  text-align: justify;
+}
+/* line 50, ../scss/base/_text.scss */
+blockquote, blockquote p {
+  font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
+  font-size: 1.6rem;
+  line-height: 1.33;
+}
+/* line 54, ../scss/base/_text.scss */
+blockquote p {
+  margin: 0;
+}
+/* line 56, ../scss/base/_text.scss */
+blockquote p:before, blockquote p:after {
+  font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
+  font-size: 4rem;
+  line-height: 0.53;
+  color: #007cbe;
+  top: 15px;
+  position: relative;
+}
+/* line 63, ../scss/base/_text.scss */
+blockquote p:before {
+  content: "\201C";
+}
+/* line 66, ../scss/base/_text.scss */
+blockquote p:after {
+  content: "\201D";
+}
+
+/* line 77, ../scss/base/_text.scss */
+.text-align--left {
+  text-align: left;
+}
+
+/* line 77, ../scss/base/_text.scss */
+.text-align--center {
+  text-align: center;
+}
+
+/* line 77, ../scss/base/_text.scss */
+.text-align--right {
+  text-align: right;
+}
+
+/* line 77, ../scss/base/_text.scss */
+.text-align--justify {
+  text-align: justify;
 }
 
 /*** HTML ***/
