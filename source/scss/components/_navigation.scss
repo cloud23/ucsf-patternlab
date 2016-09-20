@@ -1,3 +1,11 @@
+html {
+	&.mobile-navs-open {
+		.nav--wrapper {
+			overflow: auto;
+		}
+	}
+}
+
 .nav--wrapper {
 	position: fixed;
 	top: 0;
@@ -19,7 +27,9 @@
   display: block;
   width: 100%;
   .nav-global {
-  	  height: 48px;
+  	  min-height: 48px;
+  	  height: auto;
+  	  position: relative;
   	  .nav-brand {
   	  	display: inline-block;
   	  	a {
@@ -90,7 +100,9 @@
     		padding-left: 10px;
     		position: relative;
     		z-index: 1;
-
+			&:focus {
+				outline: none;
+			}
 		}
 		.search-icon {
 		    float: right;
@@ -108,7 +120,7 @@
 	  background-color: $color--light-gray;
 	  position: absolute;
 	  top: 40px;
-      right: 10px;
+      right: 0px;
       z-index: 1031;
       padding: 2px 22px;
       display: none;
@@ -171,18 +183,25 @@
     vertical-align: middle;
     border: solid 1px $color--black-2;
     border-radius: 100px;
-    background: url(/images/check-icons.png) no-repeat;
-	background-position: -240px 0;
+	text-align: center;
+	padding: 4px 0px;
 	input[type="radio"] {
 		visibility: hidden;
 		opacity: 0;
 		position: absolute;
 		top: 0;
 	}
+	.radio-ui {
+		color: $color--white;
+		display: none;
+		font-size: 12px;
+	}
 	&.checked {
-		background: url(/images/check-icons.png) no-repeat;
-		background-position: -169px -1px;
+		background: $color--light-blue;
 		border-color: $color--light-blue;
+		.radio-ui {
+			display: block;
+		}
 		&.hover {
 			border-width: 1px;
 		}
@@ -197,7 +216,9 @@
 @media screen and (min-width: $width-small) {
 	.nav-global--wrapper {
 		.nav-global {
-			height: 40px;
+			min-height: 40px;
+			height: auto;
+			position: relative;
 			.nav-brand {
 				a {
 					.nav-logo {
@@ -467,6 +488,108 @@
  */
 
 
+
+/**
+ * 01 NAV MAIN SEARCH START
+ */
+
+.nav-main-mobile-search {
+	position: absolute;
+	background-color: $color--light-gray;
+	display: none;
+	padding-bottom: 20px;
+	&.open {
+		display: block;
+		position: relative;
+		zoom: 1;
+	}
+	.mobile-search-field--wrapper {
+		position: relative;
+		height: auto;
+		padding: 25px 28px;
+		padding-bottom: 10px;
+		width: 100%;
+		.mobile-field-ui {
+			background-color: $color--white;
+			width: 100%;
+			height: auto;
+			position: relative;
+			input[type="text"] {
+				display: block;
+			    border: none;
+			   	height: 55px;
+				padding: 16px 20px;
+			    width: 93%;
+			    font-family: $text-body--regular;
+  				font-size: 18px;
+  				color: $color--black;
+  				position: relative;
+  				z-index: 0;
+  				background-color: transparent;
+  				background-color: rgba(0,0,0,0);
+  				&:focus {
+  					outline: none;
+  				}
+
+			}
+			.placeholder {
+				position: absolute;
+				top: 17px;
+				left: 20px;
+				font-family: $text-body--regular;
+  				font-size: 18px;
+  				font-weight: normal;
+				font-style: normal;
+				font-stretch: normal;
+				color: $color--black;
+				z-index: 0;
+			}
+			.search-icon {
+				position: absolute;
+			    right: 18px;
+			    top: 16px;
+			    font-size: 20px;
+			    z-index: 1;
+			}
+		}
+	}
+	.mobile-search-advanced-form {
+		padding-bottom: 10px;
+		.mobile-search-option {
+			padding: 7px 28px;
+			.radio-circle {
+				width: 30px;
+				height: 30px;
+				padding: 6px 0px;
+				margin-right: 6px;
+				.radio-ui {
+					font-size: 16px;
+				}
+			}
+			label {
+				font-family: $text-body--regular;
+				font-size: 18px;
+				vertical-align: middle;
+			    margin-top: 1px;
+			    display: inline-block;
+			}
+		}
+	}
+	.mobile-search-submit--wrapper {
+		padding: 0px 28px;
+		position: relative;
+		display: block;
+		.search-submit {
+			width: 100%;
+		}
+	}
+}
+
+/**
+ * 01 NAV MAIN SEARCH END
+ */
+
+
 /**
  * 01 NAV MAIN MOBILE START
  */
@@ -563,3 +686,13 @@
 /**
  * 01 NAV MAIN MOBILE END
  */
+
+@media screen and (min-width: $width-small) {
+	.nav-main-mobile {
+		display: none;
+		&.open {
+			display: none;
+		}
+	}
+}
+
