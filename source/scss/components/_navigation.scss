@@ -402,6 +402,12 @@ html {
 						a {
 							background-color: $color--light-gray-2;
 							color: $color--oxford-blue;
+							&.header-give-btn {
+								background-color: $color--oxford-blue;
+								span {
+									color: $color--orange;
+								}
+							}
 						}
 						.line {
 							display: block;
@@ -419,6 +425,13 @@ html {
 						height: 40px;
 						text-decoration: none;
 						border-radius: 2px;
+						&.header-give-btn {
+							width: auto;
+		   					border-radius: 6px;
+		   					color: $color--white;
+		   					font-weight: bold;
+		   					margin-left: 10px;
+						}
 					}
 					.line {
 						background-color: #052059;

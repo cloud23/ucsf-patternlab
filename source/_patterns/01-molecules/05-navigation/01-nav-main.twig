@@ -15,12 +15,8 @@
 					{% endfor %}
 				</ul>
 				{% endif %}
-				<ul class="nav-mobile-toggles">
-					<li><button class="mobile-search-form-toggle"><span class="fa fa-search"></span></button></li>
-					<li><button class="mobile-menu-toggle"><span class="fa fa-bars"></span></button></li>
-				</ul>
 				{% if nav_links.links %}
-					<ul class="nav-main-links looping">
+					<ul class="nav-main-links">
 						{% for item in nav_links.links %}
 							<li>
 								<a href="{{ item.link }}">{{ item.label }}</a>
@@ -34,6 +30,7 @@
 								{% endif %}
 							</li>
 						{% endfor %}
+							<li><a class="btn btn--with-icon header-give-btn" href="#">Give <span class="fa fa-heart"></span></a></li>
 					</ul>
 				{% endif %}
 			</div>
