@@ -438,8 +438,8 @@ $font-header: $helvetica, $default-font;
   text-transform: capitalize;
 }
 
-/* line 124, ../scss/patternlab/_styleguide-specific.scss */
-.nav--wrapper {
+/* line 125, ../scss/patternlab/_styleguide-specific.scss */
+.sg-pattern-example .nav--wrapper {
   position: relative;
 }
 

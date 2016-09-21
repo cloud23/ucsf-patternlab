@@ -21,6 +21,14 @@ html {
 	}
 }
 
+.nav--wrapper {
+	& ~ .contents--wrapper {
+		margin-top: 135px;
+	}
+	&.transparent ~ .contents--wrapper{
+		margin-top: 40px;
+	}
+}
 /**
  * 00 NAV GLOBAL START
  */

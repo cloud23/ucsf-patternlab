@@ -10,20 +10,20 @@
 .palette{
   list-style: none;
   padding: 0;
-  
+
   div {
     padding: 5px;
     font-size: 13px;
     font-size: 0.92857rem;
     color: #fff;
-    text-align: center; 
+    text-align: center;
   }
   span {
-    display: block; 
+    display: block;
   }
   .color {
     height: 125px;
-    padding-top: 1.5em; 
+    padding-top: 1.5em;
     position: relative;
     &.dark-text{
       color: $color--black;
@@ -47,12 +47,12 @@
   .variable {
     bottom: 5px;
     left: 10px;
-  } 
+  }
 }
 
 #atoms-colors {
   overflow: hidden;
-  
+
   >li {
     overflow: hidden;
     border: 1px solid #ccc;
@@ -121,6 +121,8 @@
   text-transform: capitalize;
 }
 
-.nav--wrapper{
-  position: relative;
+.sg-pattern-example {
+  .nav--wrapper{
+    position: relative;
+  }
 }
