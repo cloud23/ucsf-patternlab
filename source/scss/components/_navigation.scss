@@ -7,15 +7,18 @@ html {
 }
 
 .nav--wrapper {
-	position: fixed;
+	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
+	z-index: 1030;
 	width: 100%;
 	height: auto;
 	max-height: 100%;
 	display: block;
-	z-index: 1030;
+	&.fixed-top{
+		position: fixed;
+	}
 }
 
 /**
@@ -213,7 +216,7 @@ html {
 }
 
 
-@media screen and (min-width: $width-small) {
+@media screen and (min-width: $width-medium) {
 	.nav-global--wrapper {
 		.nav-global {
 			min-height: 40px;
@@ -357,7 +360,35 @@ html {
   }
 }
 
-@media screen and (min-width: $width-small) {
+@media screen and (min-width: $width-medium) {
+	.nav--wrapper {
+		&.transparent {
+			.nav-main--wrapper {
+				background-color: transparent;
+	  			background-color: rgba(0,0,0,0);
+				.nav-main {
+					a {
+						color: $color--white;
+					}
+					.nav-main-links {
+						& > li {
+							& > a {
+								color: $color--white;
+								&:hover {
+									color: $color--oxford-blue;
+								}
+							}
+							&:hover {
+								a {
+									color: $color--oxford-blue;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 	.nav-main--wrapper {
 	  background-color: $color--white;
 	  display: block;
@@ -394,7 +425,7 @@ html {
 			.nav-main-links {
 				float: right;
 				display: block;
-				margin-top: 28px;
+				margin-top: 25px;
 				& > li {
 					float: left;
 					display: block;
@@ -464,30 +495,6 @@ html {
 								&:hover {
 									color: $color--light-blue;
 								}
-							}
-						}
-					}
-				}
-			}
-		}
-		&.transparent {
-			background-color: transparent;
-  			background-color: rgba(0,0,0,0);
-			.nav-main {
-				a {
-					color: $color--white;
-				}
-				.nav-main-links {
-					& > li {
-						& > a {
-							color: $color--white;
-							&:hover {
-								color: $color--oxford-blue;
-							}
-						}
-						&:hover {
-							a {
-								color: $color--oxford-blue;
 							}
 						}
 					}
@@ -703,7 +710,7 @@ html {
  * 01 NAV MAIN MOBILE END
  */
 
-@media screen and (min-width: $width-small) {
+@media screen and (min-width: $width-medium) {
 	.nav-main-mobile {
 		display: none;
 		&.open {

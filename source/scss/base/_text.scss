@@ -45,7 +45,7 @@ small {
 
 blockquote{
     padding: 30px;
-    background-color: $color--light-gray-2;
+    background-color: $color--light-gray-3;
     text-align: justify;
     &, & p{
         font-family: $text-headline;
@@ -67,7 +67,7 @@ blockquote{
             content: "\201D";
         }
     }
-   
+
 }
 // Text alignments
 
