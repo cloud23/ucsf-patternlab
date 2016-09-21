@@ -172,8 +172,8 @@
 h1 {
   font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
   font-weight: normal;
-  font-size: 60px;
-  line-height: 65px;
+  font-size: 40px;
+  line-height: 45px;
 }
 
 /* line 79, ../scss/global/variables/_typography.scss */
@@ -200,6 +200,39 @@ h4 {
   line-height: 30px;
 }
 
+@media screen and (min-width: 1024px) {
+  /* line 92, ../scss/global/variables/_typography.scss */
+  h1 {
+    font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 65px;
+  }
+
+  /* line 96, ../scss/global/variables/_typography.scss */
+  h2 {
+    font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 45px;
+  }
+
+  /* line 100, ../scss/global/variables/_typography.scss */
+  h3 {
+    font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  /* line 104, ../scss/global/variables/_typography.scss */
+  h4 {
+    font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+  }
+}
 /* From the current pattern library. I'm keeping this here in case we needed this in the future.
 
 $font-headline: $granjon, $header-font;

@@ -73,7 +73,7 @@ $base--line-height: 1.5;
 }
 
 h1 {
-    @include heading-definition($text-headline, 60, 65px, normal);
+    @include heading-definition($text-headline, 40, 45px, normal);
 }
 
 h2 {
@@ -86,6 +86,24 @@ h3 {
 
 h4 {
     @include heading-definition($text-body--medium, 26, 30px, normal);
+}
+
+@media screen and (min-width: $width-medium) {
+    h1 {
+        @include heading-definition($text-headline, 60, 65px, normal);
+    }
+
+    h2 {
+        @include heading-definition($text-headline, 45, 45px, normal);
+    }
+
+    h3 {
+        @include heading-definition($text-headline, 36, 42px, normal);
+    }
+
+    h4 {
+        @include heading-definition($text-body--medium, 26, 30px, normal);
+    }
 }
 
 

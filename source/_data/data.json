@@ -188,5 +188,10 @@
   },
   "alert" : {
     "text" : "<b>It’s Giving Tuesday!</b> Click here to make your gift now."
+  },
+  "hero_content" : {
+    "heading" : "Your giving inspires a world of good health.",
+    "link_text" : "SEE YOUR IMPACT",
+    "link_href" : "#"
   }
 }
