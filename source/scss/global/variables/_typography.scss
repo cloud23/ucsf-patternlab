@@ -72,12 +72,28 @@ $base--line-height: 1.5;
         url('../fonts/ucsf/2D0D15_5_0.ttf') format('truetype');
 }
 
+h1 {
+    @include heading-definition($text-headline, 60, 65px, normal);
+}
+
+h2 {
+    @include heading-definition($text-headline, 45, 45px, normal);
+}
+
+h3 {
+    @include heading-definition($text-headline, 36, 42px, normal);
+}
+
+h4 {
+    @include heading-definition($text-body--medium, 26, 30px, normal);
+}
+
 
 /* From the current pattern library. I'm keeping this here in case we needed this in the future.
 
 $font-headline: $granjon, $header-font;
 $font-headline--bold: $granjon--bold, $header-font;
-$font-headline--italic: $granjon--italic, $header-font; 
+$font-headline--italic: $granjon--italic, $header-font;
 
 
 $times-font: $header-font;
