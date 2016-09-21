@@ -6,3 +6,29 @@
     margin: 0;
     display: block;
 }
+
+
+.ways-to-give--wrapper {
+	position: relative;
+	display: block;
+	height: auto;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	.ways-to-give-form {
+		margin: 100px 0px;
+		padding: 30px 36px;
+		min-height: 287px;
+		background-color: white;
+		text-align: center;
+		color: $color--black;
+		h3 {
+			margin: 0px;
+			color: $color--oxford-blue;
+		}
+		p {
+			font-size: 18px;
+		}
+	}
+}
