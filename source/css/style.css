@@ -6267,5 +6267,33 @@ html.mobile-nav-open .nav--wrapper {
     display: none;
   }
 }
+/* line 1, ../scss/components/_alert-bar.scss */
+.alert {
+  padding-bottom: 19px;
+  padding-top: 19px;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+/* line 6, ../scss/components/_alert-bar.scss */
+.alert.alert--info {
+  background-color: #F26D04;
+  color: #FFFFFF;
+}
+
+@media all and (max-width: 767px) {
+  /* line 13, ../scss/components/_alert-bar.scss */
+  .alert {
+    padding: 20px 54px;
+  }
+}
+@media all and (min-width: 768px) {
+  /* line 19, ../scss/components/_alert-bar.scss */
+  .alert {
+    padding-bottom: 19px;
+    padding-top: 19px;
+    height: 60px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

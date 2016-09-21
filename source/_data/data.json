@@ -185,5 +185,8 @@
         "label" : "UCSF Medical Center", "link" : "#"
       }
     ]
+  },
+  "alert" : {
+    "text" : "<b>It’s Giving Tuesday!</b> Click here to make your gift now."
   }
 }
