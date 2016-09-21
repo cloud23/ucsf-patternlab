@@ -3676,11 +3676,6 @@ All styles that are imported here will be compiled into css/style.css
   background-color: #ebf3fa;
 }
 
-/* line 1, ../scss/global/variables/_settings.scss */
-.hidden {
-  display: none;
-}
-
 /* Body callback fonts */
 /* Header callback fonts */
 /*** HelveticaNeue variants ***/
@@ -3715,8 +3710,8 @@ All styles that are imported here will be compiled into css/style.css
 h1 {
   font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
   font-weight: normal;
-  font-size: 60px;
-  line-height: 65px;
+  font-size: 40px;
+  line-height: 45px;
 }
 
 /* line 79, ../scss/global/variables/_typography.scss */
@@ -3743,6 +3738,39 @@ h4 {
   line-height: 30px;
 }
 
+@media screen and (min-width: 1024px) {
+  /* line 92, ../scss/global/variables/_typography.scss */
+  h1 {
+    font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 65px;
+  }
+
+  /* line 96, ../scss/global/variables/_typography.scss */
+  h2 {
+    font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 45px;
+  }
+
+  /* line 100, ../scss/global/variables/_typography.scss */
+  h3 {
+    font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  /* line 104, ../scss/global/variables/_typography.scss */
+  h4 {
+    font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+  }
+}
 /* From the current pattern library. I'm keeping this here in case we needed this in the future.
 
 $font-headline: $granjon, $header-font;
@@ -3890,6 +3918,15 @@ $bp--small-down: max-width $width-medium - 1;*/
   margin-left: auto;
   margin-right: auto;
 }
+/* line 8, ../scss/global/extends/_grid-system.scss */
+.content-area:before, .content-area:after {
+  display: table;
+  content: " ";
+}
+/* line 12, ../scss/global/extends/_grid-system.scss */
+.content-area:after {
+  clear: both;
+}
 @media (min-width: 768px) {
   /* line 3, ../scss/global/extends/_grid-system.scss */
   .content-area {
@@ -3908,22 +3945,22 @@ $bp--small-down: max-width $width-medium - 1;*/
     width: 1170px;
   }
 }
-/* line 19, ../scss/global/extends/_grid-system.scss */
+/* line 25, ../scss/global/extends/_grid-system.scss */
 .content-area.content-area--fluid {
   width: 100%;
 }
 
-/* line 24, ../scss/global/extends/_grid-system.scss */
+/* line 30, ../scss/global/extends/_grid-system.scss */
 .column-wrapper {
   margin-right: -10px;
   margin-left: -10px;
 }
-/* line 27, ../scss/global/extends/_grid-system.scss */
+/* line 33, ../scss/global/extends/_grid-system.scss */
 .column-wrapper:before, .column-wrapper:after {
   display: table;
-  content: "";
+  content: " ";
 }
-/* line 31, ../scss/global/extends/_grid-system.scss */
+/* line 37, ../scss/global/extends/_grid-system.scss */
 .column-wrapper:after {
   clear: both;
 }
@@ -5001,6 +5038,11 @@ $bp--small-down: max-width $width-medium - 1;*/
 /*** Grid ***/
 /*** Headings ***/
 /*** Helper ***/
+/* line 3, ../scss/base/_helper-classes.scss */
+.hidden {
+  display: none;
+}
+
 /*** HR ***/
 /*** Images ***/
 /*** Page ***/
@@ -5027,7 +5069,7 @@ a.link {
 a.link.link--with-icon .link--icon {
   color: #007CBE;
   height: 26px;
-  width: 26px;
+  width: 23px;
   position: relative;
   top: -2px;
   margin-left: 5px;
@@ -5524,26 +5566,54 @@ footer .footer--colum-content, footer .footer--column-links {
 .block.block-hero {
   display: block;
 }
+/* line 14, ../scss/layout/component-layout/_hero-image-block.scss */
+.block.block-hero .hero-text {
+  display: block;
+}
+/* line 17, ../scss/layout/component-layout/_hero-image-block.scss */
+.block.block-hero .hero-text a.link.link--with-icon {
+  color: #FFFFFF;
+}
+/* line 19, ../scss/layout/component-layout/_hero-image-block.scss */
+.block.block-hero .hero-text a.link.link--with-icon .link--icon {
+  color: #FFFFFF;
+}
+/* line 23, ../scss/layout/component-layout/_hero-image-block.scss */
+.block.block-hero .hero-text a.link.link--with-icon:hover .icon--angle {
+  color: #007CBE;
+}
 
 @media screen and (min-width: 768px) {
-  /* line 20, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 36, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero {
     background-position: top center;
     height: 516px;
   }
+  /* line 39, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block-hero .hero-text {
+    margin-top: 55%;
+  }
 }
 @media screen and (min-width: 1024px) {
-  /* line 31, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 50, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero {
     background-position: top center;
     height: 660px;
   }
+  /* line 53, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block-hero .hero-text {
+    margin-top: 58%;
+  }
 }
 @media screen and (min-width: 1190px) {
-  /* line 42, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 64, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero {
     background-position: top center;
     height: 660px;
+  }
+  /* line 67, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block-hero .hero-text {
+    margin-top: 58%;
   }
 }
 /* line 3, ../scss/components/_navigation.scss */

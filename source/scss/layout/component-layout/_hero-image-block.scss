@@ -11,6 +11,22 @@
 	display: block;
 	&.block-hero {
 		display: block;
+		.hero-text {
+			display: block;
+			a {
+				&.link.link--with-icon {
+					color: $color--white;
+					.link--icon {
+						color: $color--white;
+					}
+					&:hover {
+						.icon--angle {
+							color: $color--light-blue;
+						}
+					}
+				}
+			}
+		}
 	}
 }
 
@@ -20,6 +36,9 @@
 		&.block-hero {
 			background-position: top center;
 			height: 516px;
+			.hero-text {
+   				margin-top: 55%;
+			}
 		}
 	}
 }
@@ -31,6 +50,9 @@
 		&.block-hero {
 			background-position: top center;
 			height: 660px;
+			.hero-text {
+   				margin-top: 58%;
+			}
 		}
 	}
 }
@@ -42,6 +64,9 @@
 		&.block-hero {
 			background-position: top center;
 			height: 660px;
+			.hero-text {
+   				margin-top: 58%;
+			}
 		}
 	}
 }
