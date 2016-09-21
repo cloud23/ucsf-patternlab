@@ -5547,6 +5547,35 @@ footer .footer--colum-content, footer .footer--column-links {
   display: block;
 }
 
+/* line 11, ../scss/layout/component-layout/_global_component.scss */
+.ways-to-give--wrapper {
+  position: relative;
+  display: block;
+  height: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+/* line 19, ../scss/layout/component-layout/_global_component.scss */
+.ways-to-give--wrapper .ways-to-give-form {
+  margin: 100px 0px;
+  padding: 30px 36px;
+  min-height: 287px;
+  background-color: white;
+  text-align: center;
+  color: #000000;
+}
+/* line 26, ../scss/layout/component-layout/_global_component.scss */
+.ways-to-give--wrapper .ways-to-give-form h3 {
+  margin: 0px;
+  color: #052059;
+}
+/* line 30, ../scss/layout/component-layout/_global_component.scss */
+.ways-to-give--wrapper .ways-to-give-form p {
+  font-size: 18px;
+}
+
 /*** Header ***/
 /* line 1, ../scss/layout/component-layout/_hero-image-block.scss */
 .hero--wrapper {

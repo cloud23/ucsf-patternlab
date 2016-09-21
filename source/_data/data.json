@@ -26,6 +26,10 @@
     "hero_image": {
       "src" : "/images/home-hero-image.jpg",
       "alt" : "Hero Image"
+    },
+    "ways_to_give_bg" : {
+      "src" : "/images/MBH_hospital_cropped.jpg",
+      "alt" : "Ways to Give background"
     }
   },
   "headline": {
@@ -193,5 +197,15 @@
     "heading" : "Your giving inspires a world of good health.",
     "link_text" : "SEE YOUR IMPACT",
     "link_href" : "#"
+  },
+  "give_ways_content" : {
+    "full" : {
+      "heading" : "Give Where it’s Needed Most",
+      "body" : "Everyday, UCSF faces big challenges. Your gifts make it possible for us to act quickly or conduct research and nimbly develop innovative science. From responding to disease outbreaks to exploring a cure for cancer, give a gift where it is needed today.",
+      "cta" : {
+        "label" : "EXPLORE OTHER WAYS OF GIVING",
+        "link" : "#"
+      }
+    }
   }
 }
