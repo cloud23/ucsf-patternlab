@@ -11,6 +11,9 @@
 	display: block;
 	&.block-hero {
 		display: block;
+		background-position: top center;
+		background-repeat: no-repeat;
+		background-size: cover;
 		.hero-text {
 			display: block;
 			a {
