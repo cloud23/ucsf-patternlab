@@ -5602,7 +5602,7 @@ footer .footer--colum-content, footer .footer--column-links {
   }
   /* line 53, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text {
-    margin-top: 58%;
+    margin-top: 56%;
   }
 }
 @media screen and (min-width: 1190px) {
@@ -5613,7 +5613,7 @@ footer .footer--colum-content, footer .footer--column-links {
   }
   /* line 67, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text {
-    margin-top: 58%;
+    margin-top: 56%;
   }
 }
 /* line 3, ../scss/components/_navigation.scss */
