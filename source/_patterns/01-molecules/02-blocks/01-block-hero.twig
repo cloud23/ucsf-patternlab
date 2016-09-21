@@ -5,16 +5,22 @@
 				<div class="column-wrapper">
 					<div class="column-large-7 column-medium-7 column-small-7 column-xsmall-12"></div>
 					<div class="column-large-5 column-medium-5 column-small-5 column-xsmall-12">
+						{% if hero_content %}
 						<div class="hero-text">
-							<h1 class="white-text">Your giving inspires a world of good health.</h1>
-							<a class="link link--with-icon">SEE YOUR IMPACT
+							{% if  hero_content.heading %}
+								<h1 class="white-text">{{ hero_content.heading }}</h1>
+							{% endif %}
+							{% if  hero_content.link_text %}
+							<a class="link link--with-icon" href="{{ hero_content.link_href }}">{{ hero_content.link_text }}
 								<span class="fa-stack link--icon">
 					                <i class="fa fa-circle fa-stack-2x icon--visible-hover icon--circle" aria-hidden="true"></i>
 					                <i class="fa fa-circle-thin fa-stack-2x icon--circle" aria-hidden="true"></i>
 					                <i class="fa fa-angle-right fa-stack-1x icon--angle" aria-hidden="true"></i>
 					            </span>
 					        </a>
+					        {% endif %}
 						</div>
+						{% endif %}
 					</div>
 				</div>
 			</div>
