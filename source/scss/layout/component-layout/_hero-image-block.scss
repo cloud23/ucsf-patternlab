@@ -4,11 +4,13 @@
     height: auto;
     padding: 0;
     margin: 0;
+    display: block;
 }
 
 .block {
+	display: block;
 	&.block-hero {
-
+		display: block;
 	}
 }
 

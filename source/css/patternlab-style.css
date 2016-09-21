@@ -1,3 +1,23 @@
+/*
+ * Type Definition Mixin
+ * Constants : $base--typesize (see global/variables/_typography.scss)
+ * Inputs : Font Size ~ none
+ *          Line Height ~ 1.5
+ * Output : Font Size in rem
+ *          Line Height
+ *
+ */
+/**
+ * Heading Definition Mixin
+ * Constants : "Granjon" font
+ * Inputs: Font Size ~ none
+ *         Line Height ~ none
+ *         Font Weight ~ none
+ * Output: Font Size in px
+ *         Line Height
+ *         Font Weight
+ *
+ */
 /* line 35, ../scss/global/variables/_colors.scss */
 .oxford-blue-text {
   color: #052059;
@@ -148,11 +168,43 @@
   src: url("../fonts/ucsf/2D0D15_5_0.eot");
   src: url("../fonts/ucsf/2D0D15_5_0.eot?#iefix") format("embedded-opentype"), url("../fonts/ucsf/2D0D15_5_0.woff2") format("woff2"), url("../fonts/ucsf/2D0D15_5_0.woff") format("woff"), url("../fonts/ucsf/2D0D15_5_0.ttf") format("truetype");
 }
+/* line 75, ../scss/global/variables/_typography.scss */
+h1 {
+  font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 65px;
+}
+
+/* line 79, ../scss/global/variables/_typography.scss */
+h2 {
+  font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 45px;
+}
+
+/* line 83, ../scss/global/variables/_typography.scss */
+h3 {
+  font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+/* line 87, ../scss/global/variables/_typography.scss */
+h4 {
+  font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+}
+
 /* From the current pattern library. I'm keeping this here in case we needed this in the future.
 
 $font-headline: $granjon, $header-font;
 $font-headline--bold: $granjon--bold, $header-font;
-$font-headline--italic: $granjon--italic, $header-font; 
+$font-headline--italic: $granjon--italic, $header-font;
 
 
 $times-font: $header-font;
