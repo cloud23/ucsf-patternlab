@@ -22,6 +22,10 @@
     "landscape-16x9": {
       "src": "http://placeimg.com/640/360/tech",
       "alt": "16x9 Image"
+    },
+    "hero_image": {
+      "src" : "/images/home-hero-image.jpg",
+      "alt" : "Hero Image"
     }
   },
   "headline": {
