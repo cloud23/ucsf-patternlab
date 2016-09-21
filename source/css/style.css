@@ -5565,53 +5565,56 @@ footer .footer--colum-content, footer .footer--column-links {
 /* line 12, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero {
   display: block;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-/* line 14, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 17, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .hero-text {
   display: block;
 }
-/* line 17, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 20, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .hero-text a.link.link--with-icon {
   color: #FFFFFF;
 }
-/* line 19, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 22, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .hero-text a.link.link--with-icon .link--icon {
   color: #FFFFFF;
 }
-/* line 23, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 26, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .hero-text a.link.link--with-icon:hover .icon--angle {
   color: #007CBE;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 36, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 39, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero {
     background-position: top center;
     height: 516px;
   }
-  /* line 39, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 42, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text {
     margin-top: 55%;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 50, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 53, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero {
     background-position: top center;
     height: 660px;
   }
-  /* line 53, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 56, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text {
     margin-top: 56%;
   }
 }
 @media screen and (min-width: 1190px) {
-  /* line 64, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 67, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero {
     background-position: top center;
     height: 660px;
   }
-  /* line 67, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 70, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text {
     margin-top: 56%;
   }
