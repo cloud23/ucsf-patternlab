@@ -2,8 +2,7 @@ $(function(){
 
 	var $searchMobile = $("#searchMobile"),
 	$parent = $searchMobile.parent(),
-	$placeholder = $parent.find('.placeholder'),
-	$defaultText = $parent.find('.default-text').text();
+	$placeholder = $parent.find('.placeholder');
 
 	// Advanced Form
 	// $label = $('.mobile-search-advanced-form .mobile-search-option label'),
@@ -38,7 +37,7 @@ $(function(){
 					if( '' != val) {
 						 return;
 					}
-					$placeholder.empty();
+					$placeholder.hide();
 				},
 				focusout: function(e) {
 					e.preventDefault();
@@ -46,16 +45,15 @@ $(function(){
 					if( '' != val) {
 						 return;
 					}
-
-					$placeholder.text($defaultText);
+					$placeholder.show();
 				}
 			});
 
 		},
 		toggleOptions: function() {
 			$radioAllMobile.on('click', function(e) {
-				$radioAllMobile.find('.radio-circle').removeClass('checked').find('input[type="radio"]').attr('checked',false);
-				$(this).find('.radio-circle').addClass('checked').find('input[type="radio"]').attr('checked',true);
+				$radioAllMobile.find('.radio-circle').removeClass('checked').find('input[type="radio"]').prop('checked',false);
+				$(this).find('.radio-circle').addClass('checked').find('input[type="radio"]').prop('checked',true);
 			});
 		}
 	};

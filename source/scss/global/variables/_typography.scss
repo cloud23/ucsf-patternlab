@@ -81,7 +81,7 @@ h2 {
 }
 
 h3 {
-    @include heading-definition($text-headline, 36, 42px, normal);
+    @include heading-definition($text-headline, 30, 42px, normal);
 }
 
 h4 {

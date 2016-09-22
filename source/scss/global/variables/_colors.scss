@@ -9,6 +9,7 @@ $color--light-gray-3: #ebf3fa;
 $color--black: #000000;
 $color--black-2: #353a3f;
 $color--white: #FFFFFF;
+$color--medium-gray: #58595b;
 $color--dark-gray: #B4B9BF;
 
 
@@ -25,7 +26,8 @@ $colors: (
 ('black-2', $color--black-2),
 ('white', $color--white),
 ('dark-gray', $color--dark-gray),
-('light-gray-3', $color--light-gray-3)
+('light-gray-3', $color--light-gray-3),
+('medium-gray', $color--medium-gray)
 );
 
 @each $color in $colors {
