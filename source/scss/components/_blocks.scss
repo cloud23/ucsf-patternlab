@@ -1,13 +1,14 @@
 .block{
+    h3{
+        line-height: 1;
+        color: $color--oxford-blue;
+        margin-bottom: 30px;
+        margin-top: 0;
+    }
+
     &.block--funding-priorities{
         margin: 40px auto 20px;
-        h3{
-            line-height: 1;
-            color: $color--oxford-blue;
-            margin-bottom: 30px;
-            margin-top: 0;
-        }
-
+        
         .slick-arrow{
             @extend .fa;
             border: none;
@@ -58,6 +59,14 @@
             }
         }
     }
+
+    &.block--impact-stories{
+        margin-top: 30px;
+        margin-bottom: 50px;
+        h3{
+            margin-bottom: 20px;
+        }
+    }
 }
 
 .block--item{
@@ -96,8 +105,112 @@
             }
         }
     }
+    &.block--impact-stories-panel{
+        margin-bottom: 20px;
+        position: relative;
+        .block--item-colored-panel, .block--item-image-panel{
+            width: 50%;
+            height: 100%;
+            float: left;
+            color: $color--white;
+        }
+        .block--item-colored-panel{
+            padding: 30px;
+            position: relative;
+            a, span{
+                color: $color--white;
+            }
+            a{
+                position: absolute;
+                bottom: 45px;
+            }
+            h4, p{
+                margin-top: 0;
+            }
+
+            h4{
+                margin-bottom: 10px;
+            }
+            p{
+                @include type-definition(18px, 1.33);
+            }
+            &.background--green{
+                background-color: $color--yellow-green;
+                a{
+                    &:hover{
+                        .fa-angle-right{
+                            color: $color--yellow-green;
+                        }
+                    }
+                }
+            }
+            &.background--orange{
+                background-color: $color--orange;
+                a{
+                    &:hover{
+                        .fa-angle-right{
+                            color: $color--orange;
+                        }
+                    }
+                }
+            }
+            &.background--blue{
+                background-color: $color--light-blue;
+                a{
+                    &:hover{
+                        .fa-angle-right{
+                            color: $color--light-blue;
+                        }
+                    }
+                }
+            }
+        }
+        .block--item-image-panel{
+            .image-display{
+                height: 100%;
+                background-size: cover;
+                background-position: center center;
+                background-repeat: no-repeat;
+            }
+        }
+    }
 } 
 
+@media all and (max-width: $bp--xsmall-max){
+    .block{
+        h3{
+            @include type-definition(30px, 1.13);
+        }
+        &.block--impact-stories{
+            margin-bottom: 20px;
+        }
+    }
+    .block--item{
+        &.block--impact-stories-panel{
+            padding: 170px 15px 0;
+
+            .block--item-image-panel, .block--item-colored-panel{
+                float: none;
+            }
+            .block--item-image-panel{
+                width: 100%;
+                height: 208px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: -1;
+            }
+            .block--item-colored-panel{
+                height: 410px;
+                width: 100%;
+                padding: 25px;
+                h4{
+                    @include type-definition(22px,1.14);
+                }
+            }
+        }
+    }
+}
 
 @media all and (max-width: $bp--small-max){
     .block--item{
@@ -106,6 +219,14 @@
             .block--item-image{
                 display: none;
             }
+        }
+    }
+}
+
+@media all and (min-width:$bp--small-up){
+    .block--item{
+        &.block--impact-stories-panel{
+            height: 330px;
         }
     }
 }
@@ -129,7 +250,6 @@
         }
     }
 }
-
 @media all and (min-width: 1200px) and (max-width: 1315px){
     .block{
         &.block--funding-priorities{
