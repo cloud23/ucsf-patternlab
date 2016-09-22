@@ -28,7 +28,7 @@
       "alt" : "Hero Image"
     },
     "ways_to_give_bg" : {
-      "src" : "/images/MBH_hospital.jpg",
+      "src" : "/images/MBH_hospital_cropped.jpg",
       "alt" : "Ways to Give background"
     }
   },
@@ -259,5 +259,25 @@
         "content_text" : "Revolutionize research and discovery for the most serious psychiatric illnesses"
       }
     ]
+  },
+  "homepage_impact_stories" : {
+    "first" : {
+      "title" : "Bluestone to Head Parker Cancer Immunotherapy Institute",
+      "copy_text" : "The Parker Foundation with a $250 million grant has launched the Parker Institute for Cancer Immunotherapy.",
+      "link" : "#",
+      "image_url" : "/images/MBH_hospital.jpg"
+    },
+    "second" : {
+      "title" : "Bluestone to Head Parker Cancer Immunotherapy Institute",
+      "copy_text" : "The Parker Foundation with a $250 million grant has launched the Parker Institute for Cancer Immunotherapy.",
+      "link" : "#",
+      "image_url" : "/images/MBH_hospital.jpg"
+    },
+    "third" : {
+      "title" : "Bluestone to Head Parker Cancer Immunotherapy Institute",
+      "copy_text" : "The Parker Foundation with a $250 million grant has launched the Parker Institute for Cancer Immunotherapy.",
+      "link" : "#",
+      "image_url" : "/images/MBH_hospital.jpg"
+    }
   }
 }
