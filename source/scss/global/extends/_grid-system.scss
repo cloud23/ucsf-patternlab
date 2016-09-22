@@ -12,13 +12,13 @@
     &:after{
         clear: both;
     }
-    @media (min-width:$bp--small-up){
+    @media all and (min-width:$bp--small-up){
         width: 750px;
     }
-    @media (min-width:$bp--medium-up){
+    @media all and (min-width:$bp--medium-up){
         width: 970px;
     }
-    @media (min-width:$bp--large-up){
+    @media all and (min-width:$bp--large-up){
         width: 1170px;
     }
 
