@@ -5,8 +5,7 @@ $(function(){
 
 	var $search = $('#searchDesktop'),
 	$parent = $search.parent(),
-	$placeholder = $parent.find('.placeholder'),
-	$defaultText = $parent.find('.default-text').text();
+	$placeholder = $parent.find('.placeholder');
 
 	// Advanced Form
 	$label = $('.search-advanced-form label'),
@@ -32,7 +31,7 @@ $(function(){
 						 return;
 					}
 
-					$placeholder.empty();
+					$placeholder.hide();
 				},
 				focusout: function(e) {
 					e.preventDefault();
@@ -42,7 +41,7 @@ $(function(){
 						 return;
 					}
 
-					$placeholder.text($defaultText);
+					$placeholder.show();
 				}
 			});
 		},
@@ -94,9 +93,9 @@ $(function(){
 			}
 
 			$radioAll.removeClass('checked');
-			$radioAll.find('input[type="radio"]').attr('checked',false);
+			$radioAll.find('input[type="radio"]').prop('checked',false);
 			selector.addClass('checked');
-			selector.find('input[type="radio"]').attr('checked',true);
+			selector.find('input[type="radio"]').prop('checked',true);
 		},
 		toggleRadioHover: function(selector, elementCall, action) {
 			if ( action == 'add' ) {

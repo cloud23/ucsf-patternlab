@@ -18,10 +18,10 @@ $(function(){
 				$navMainMobile.toggleClass('open');
 
 				if($(this).hasClass('active')) {
-					$navMainMobile.attr('aria-hidden',false);
+					$navMainMobile.prop('aria-hidden',false);
 					$html.addClass('mobile-nav-open');
 				} else {
-					$navMainMobile.attr('aria-hidden',true);
+					$navMainMobile.prop('aria-hidden',true);
 					$html.removeClass('mobile-nav-open');
 				}
 			});
@@ -32,8 +32,8 @@ $(function(){
 				e.preventDefault();
 				$this = $(this),
 				$parent = $this.parent(),
-				$popupState = $this.parent().attr('aria-haspopup');
-				var link = $this.attr('href');
+				$popupState = $this.parent().prop('aria-haspopup');
+				var link = $this.prop('href');
 
 				if($parent.hasClass('active')) {
 					$parent.removeClass('active').find('.display-arrow').removeClass('active').parent().find('.dropdown-menu').removeClass('open');
