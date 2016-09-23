@@ -30,22 +30,22 @@
 
 /* line 37, ../scss/global/variables/_colors.scss */
 .light-blue-text {
-  color: #007CBE;
+  color: #007cbe;
 }
 
 /* line 41, ../scss/global/variables/_colors.scss */
 .light-blue-bg {
-  background-color: #007CBE;
+  background-color: #007cbe;
 }
 
 /* line 37, ../scss/global/variables/_colors.scss */
 .yellow-green-text {
-  color: #6EA400;
+  color: #6ea400;
 }
 
 /* line 41, ../scss/global/variables/_colors.scss */
 .yellow-green-bg {
-  background-color: #6EA400;
+  background-color: #6ea400;
 }
 
 /* line 37, ../scss/global/variables/_colors.scss */
@@ -60,22 +60,22 @@
 
 /* line 37, ../scss/global/variables/_colors.scss */
 .orange-text {
-  color: #F26D04;
+  color: #f26d04;
 }
 
 /* line 41, ../scss/global/variables/_colors.scss */
 .orange-bg {
-  background-color: #F26D04;
+  background-color: #f26d04;
 }
 
 /* line 37, ../scss/global/variables/_colors.scss */
 .light-gray-text {
-  color: #F1F1F1;
+  color: #f1f1f1;
 }
 
 /* line 41, ../scss/global/variables/_colors.scss */
 .light-gray-bg {
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
 }
 
 /* line 37, ../scss/global/variables/_colors.scss */
@@ -90,12 +90,12 @@
 
 /* line 37, ../scss/global/variables/_colors.scss */
 .black-text {
-  color: #000000;
+  color: black;
 }
 
 /* line 41, ../scss/global/variables/_colors.scss */
 .black-bg {
-  background-color: #000000;
+  background-color: black;
 }
 
 /* line 37, ../scss/global/variables/_colors.scss */
@@ -110,22 +110,22 @@
 
 /* line 37, ../scss/global/variables/_colors.scss */
 .white-text {
-  color: #FFFFFF;
+  color: white;
 }
 
 /* line 41, ../scss/global/variables/_colors.scss */
 .white-bg {
-  background-color: #FFFFFF;
+  background-color: white;
 }
 
 /* line 37, ../scss/global/variables/_colors.scss */
 .dark-gray-text {
-  color: #B4B9BF;
+  color: #b4b9bf;
 }
 
 /* line 41, ../scss/global/variables/_colors.scss */
 .dark-gray-bg {
-  background-color: #B4B9BF;
+  background-color: #b4b9bf;
 }
 
 /* line 37, ../scss/global/variables/_colors.scss */
@@ -351,7 +351,7 @@ $font-header: $helvetica, $default-font;
 }
 /* line 28, ../scss/patternlab/_styleguide-specific.scss */
 .palette .color.dark-text {
-  color: #000000;
+  color: black;
 }
 /* line 32, ../scss/patternlab/_styleguide-specific.scss */
 .palette h3 {
@@ -422,18 +422,18 @@ $font-header: $helvetica, $default-font;
 }
 /* line 93, ../scss/patternlab/_styleguide-specific.scss */
 .button-demo .button-sample.dark {
-  background: #000000;
+  background: black;
 }
 
 /* line 102, ../scss/patternlab/_styleguide-specific.scss */
 .grid-sample .content-area .column-wrapper div {
   padding-top: 10px;
   padding-bottom: 10px;
-  border: 1px #F1F1F1 solid;
+  border: 1px #f1f1f1 solid;
 }
 /* line 106, ../scss/patternlab/_styleguide-specific.scss */
 .grid-sample .content-area .column-wrapper div:nth-child(even) {
-  background-color: #007CBE;
+  background-color: #007cbe;
 }
 /* line 109, ../scss/patternlab/_styleguide-specific.scss */
 .grid-sample .content-area .column-wrapper div:nth-child(odd) {
@@ -451,6 +451,10 @@ $font-header: $helvetica, $default-font;
 /* line 125, ../scss/patternlab/_styleguide-specific.scss */
 .sg-pattern-example .nav--wrapper {
   position: relative;
+}
+/* line 128, ../scss/patternlab/_styleguide-specific.scss */
+.sg-pattern-example .btn {
+  width: 270px;
 }
 
 /*# sourceMappingURL=patternlab-style.css.map */
