@@ -5,7 +5,6 @@
         margin-bottom: 30px;
         margin-top: 0;
     }
-
     &.block--funding-priorities{
         margin: 40px auto 20px;
 
@@ -59,7 +58,6 @@
             }
         }
     }
-
     &.block--impact-stories{
         margin-top: 30px;
         margin-bottom: 50px;
@@ -95,6 +93,79 @@
                 }
             }*/
         }
+    }
+    &.block--funding-priorities-full{
+        position: relative;
+        background-color: $color--light-gray;
+        padding-top: 30px;
+        padding-bottom: 90px;
+        padding-left: 15px;
+        padding-right: 15px;
+        .block--content-text{
+            margin-bottom: 25px;
+            p{
+                @include type-definition(18px, 1.33);
+                margin-top: 0;
+                margin-bottom: 25px;
+            }
+        }
+        .block--content-stats{
+            .stats-items{
+                margin-bottom: 20px;
+                .stats-value{
+                    @include type-definition(65px, 1);
+                    font-family: $text-headline-bold;
+                    margin-bottom: 5px;
+                }
+                .stats-text{
+                    margin-top: 5px;
+                    margin-bottom: 0;
+                }
+                &:last-child{
+                    margin-bottom: 0;
+                }
+            }
+        }
+        &.background-color--teal{
+            a, span{
+                color: $color--teal;
+            }
+            a{
+                &:hover{
+                    .fa-angle-right{
+                        color: $color--white;
+                    }
+                }   
+            }
+        }
+        &.background-color--green{
+            a, span{
+                color: $color--yellow-green;
+            }
+            a{
+                &:hover{
+                    .fa-angle-right{
+                        color: $color--white;
+                    }
+                }   
+            }
+        }
+        &.background-color--light-blue{
+            a, span{
+                color: $color--light-blue;
+            }
+            a{
+                &:hover{
+                    .fa-angle-right{
+                        color: $color--white;
+                    }
+                }   
+            }
+        }
+        a{
+            position: absolute;
+            bottom: 32px;
+        }   
     }
 }
 
@@ -287,6 +358,18 @@
                     }
                 }
             }
+        }
+        &.block--funding-priorities-full{
+            .block--content-stats{
+                .stats-text{
+                    color: $color--oxford-blue;
+                    @include type-definition(12px, 1.5);
+                }
+            }
+            a{
+                position: absolute;
+                bottom: 42px;
+            } 
         }
     }
     .block--item{

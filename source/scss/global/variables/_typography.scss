@@ -10,6 +10,7 @@ $helvetica--medium: HelveticaNeue-medium;
 $helvetica--bold: HelveticaNeue-bold;
 
 $granjon--regular: granjon;
+$granjon--bold: granjon-bold;
 
 $text-body--light: $helvetica--light, $default-font;
 $text-body--regular: $helvetica--regular, $default-font;
@@ -17,6 +18,7 @@ $text-body--medium: $helvetica--medium, $default-font;
 $text-body--bold: $helvetica--bold, $default-font;
 
 $text-headline : $granjon--regular, $header-font;
+$text-headline-bold : $granjon--bold, $header-font;
 
 $base--typesize : 15px;
 $base--line-height: 1.5;
@@ -70,6 +72,15 @@ $base--line-height: 1.5;
         url('../fonts/ucsf/2D0D15_5_0.woff2') format('woff2'),
         url('../fonts/ucsf/2D0D15_5_0.woff') format('woff'),
         url('../fonts/ucsf/2D0D15_5_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'granjon-bold';
+    src: url('../fonts/ucsf/2D0D15_9_0.eot');
+    src: url('../fonts/ucsf/2D0D15_9_0.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ucsf/2D0D15_9_0.woff2') format('woff2'),
+        url('../fonts/ucsf/2D0D15_9_0.woff') format('woff'),
+        url('../fonts/ucsf/2D0D15_9_0.ttf') format('truetype');
 }
 
 h1 {
@@ -175,14 +186,6 @@ $font-header: $helvetica, $default-font;
         url('../fonts/ucsf/2D0D15_6_0.woff2') format('woff2'),
         url('../fonts/ucsf/2D0D15_6_0.woff') format('woff'),
         url('../fonts/ucsf/2D0D15_6_0.ttf') format('truetype');
-}
-@font-face {
-    font-family: 'granjon-bold';
-    src: url('../fonts/ucsf/2D0D15_9_0.eot');
-    src: url('../fonts/ucsf/2D0D15_9_0.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/ucsf/2D0D15_9_0.woff2') format('woff2'),
-        url('../fonts/ucsf/2D0D15_9_0.woff') format('woff'),
-        url('../fonts/ucsf/2D0D15_9_0.ttf') format('truetype');
 }
 
 */
