@@ -1,7 +1,7 @@
 $(function(){
 	var $giveOptionLabel = $('.ways-to-give-option label'),
-		$defaultValueObj = $('input[name="give-value"][value="100"]'),
-		$giveOtherField = $('#give_value_other_field');
+		$defaultValue = "100",
+		$giveOtherField = $('.give-value-other-input');
 
 
 		$giveOtherField.on({
@@ -40,6 +40,12 @@ $(function(){
 					$(this).val(currentValue.replace(/\D/g, ""));
 				}
 			},
+			keyup: function(e) {
+				var currentValue = $(this).val();
+				if(!new RegExp('^[0-9]*$').test(currentValue)) {
+					$(this).val(currentValue.replace(/\D/g, ""));
+				}
+			},
 			focusin: function(e) {
 				e.preventDefault();
 				$(this).prev().prev().prop('checked', true);
@@ -58,13 +64,25 @@ $(function(){
 					 return;
 				}
 				$(this).prev().prev().prop('checked', false);
-				$defaultValueObj.prop('checked', true);
+				// $defaultValueObj.prop('checked', true);
+				$(this).parent().parent().find('.ways-to-give-option').each(function(){
+					var $radioDefault = $(this).find('input[type="radio"]');
+					if( $radioDefault.val() == $defaultValue ) {
+						$radioDefault.prop('checked',true);
+					}
+				})
 				$label.show();
 			}
 		});
 
 		$giveOptionLabel.on('click',function(){
-			$giveOtherField.val('').prev().find('.label-text').show();
+			$(this).parent().parent().find('.ways-to-give-option').each(function(){
+				var $radioOther = $(this).find('input[type="radio"]');
+				if($radioOther.val() == "other") {
+					$radioOther.val('').prev().find('.label-text').show();
+				}
+			})
+
 		});
 
 });

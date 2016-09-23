@@ -30,6 +30,10 @@
     "ways_to_give_bg" : {
       "src" : "/images/MBH_hospital_cropped.jpg",
       "alt" : "Ways to Give background"
+    },
+    "placeholder_16x9" : {
+      "src" : "/images/placeholder_16x9.png",
+      "alt" : "Placeholder 16x9"
     }
   },
   "headline": {
@@ -196,7 +200,12 @@
   "hero_content" : {
     "heading" : "Your giving inspires a world of good health.",
     "link_text" : "SEE YOUR IMPACT",
-    "link_href" : "#"
+    "link_href" : "#",
+    "dummy" : {
+      "heading" : "Your text here.",
+      "link_text" : "Your link here",
+      "link_href" : "#"
+    }
   },
   "give_ways_content" : {
     "full" : {
@@ -206,6 +215,11 @@
         "label" : "EXPLORE OTHER WAYS OF GIVING",
         "link" : "#"
       }
+    },
+    "small" : {
+      "heading" : "Give a Gift of Tribute",
+      "body" : "",
+      "cta" : ""
     }
   },
   "funding_priorities" : {
