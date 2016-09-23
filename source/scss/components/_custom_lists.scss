@@ -1,0 +1,18 @@
+.htmytg-list {
+	list-style: none;
+	padding-left: 0px;
+	& > li {
+		padding-left: 0px;
+	}
+}
+
+@media screen and (min-width: $width-small) {
+	.htmytg-list {
+		list-style: initial;
+		padding-left: 16px;
+		margin-bottom: 20px;
+		& > li {
+			padding-left: 15px;
+		}
+	}
+}

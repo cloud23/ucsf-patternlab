@@ -10,7 +10,7 @@
     line-height: 1;
     color: $color--white;
     padding: 16px;
-    border: none;    
+    border: none;
     outline: none;
     cursor: pointer;
     @include border-radius(6px);
@@ -18,13 +18,21 @@
         background-color: $color--orange;
         padding: 18.5px 15px;
         &:hover{
-            background-color: $color--oxford-blue; 
+            background-color: $color--oxford-blue;
+        }
+    }
+    &.btn--primary-small {
+        background-color: $color--orange;
+        padding: 12px 15px;
+        font-size: 15px;
+        &:hover{
+            background-color: $color--oxford-blue;
         }
     }
     &.btn--secondary{
         background-color: $color--light-blue;
         &:hover{
-            background-color: $color--oxford-blue; 
+            background-color: $color--oxford-blue;
         }
     }
     &.btn--with-icon{
