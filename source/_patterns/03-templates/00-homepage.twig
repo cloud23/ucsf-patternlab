@@ -139,18 +139,18 @@
 <div class="contents--wrapper">
 	<div class="hero--wrapper">
 		<div class="block block-hero">
-			<div class="hero-background" style="background-image: url('{{ img.hero_image.src }}');"></div>
+			<div class="hero-background" style="background-image: url('{{ img.placeholder_16x9.src }}');"></div>
 			<div class="content-area">
 				<div class="column-wrapper">
 					<div class="column-large-7 column-medium-7 column-small-7 column-xsmall-12"></div>
 					<div class="column-large-5 column-medium-5 column-small-5 column-xsmall-12">
-						{% if hero_content %}
+						{% if hero_content.dummy %}
 						<div class="hero-text">
-							{% if  hero_content.heading %}
-								<h1 class="white-text">{{ hero_content.heading }}</h1>
+							{% if  hero_content.dummy.heading %}
+								<h1 class="white-text">{{ hero_content.dummy.heading }}</h1>
 							{% endif %}
-							{% if  hero_content.link_text %}
-							<a class="link link--with-icon" href="{{ hero_content.link_href }}">{{ hero_content.link_text }}
+							{% if  hero_content.dummy.link_text %}
+							<a class="link link--with-icon" href="{{ hero_content.dummy.link_href }}">{{ hero_content.dummy.link_text }}
 								<span class="fa-stack link--icon">
 					                <i class="fa fa-circle fa-stack-2x icon--visible-hover icon--circle" aria-hidden="true"></i>
 					                <i class="fa fa-circle-thin fa-stack-2x icon--circle" aria-hidden="true"></i>
@@ -163,9 +163,9 @@
 					</div>
 				</div>
 			</div>
-			{% if hero_content %}
-				{% if  hero_content.link_text %}
-					<a class="link link--with-icon hero-link--mobile" href="{{ hero_content.link_href }}">{{ hero_content.link_text }}
+			{% if hero_content.dummy %}
+				{% if  hero_content.dummy.link_text %}
+					<a class="link link--with-icon hero-link--mobile" href="{{ hero_content.link_href }}">{{ hero_content.dummy.link_text }}
 						<span class="fa-stack link--icon">
 			                <i class="fa fa-circle fa-stack-2x icon--visible-hover icon--circle" aria-hidden="true"></i>
 			                <i class="fa fa-circle-thin fa-stack-2x icon--circle" aria-hidden="true"></i>
