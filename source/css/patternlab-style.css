@@ -61,22 +61,22 @@ $bp--small-down: max-width $width-medium - 1;*/
 
 /* line 37, ../scss/global/variables/_colors.scss */
 .light-blue-text {
-  color: #007cbe;
+  color: #007CBE;
 }
 
 /* line 41, ../scss/global/variables/_colors.scss */
 .light-blue-bg {
-  background-color: #007cbe;
+  background-color: #007CBE;
 }
 
 /* line 37, ../scss/global/variables/_colors.scss */
 .yellow-green-text {
-  color: #6ea400;
+  color: #6EA400;
 }
 
 /* line 41, ../scss/global/variables/_colors.scss */
 .yellow-green-bg {
-  background-color: #6ea400;
+  background-color: #6EA400;
 }
 
 /* line 37, ../scss/global/variables/_colors.scss */
@@ -91,22 +91,22 @@ $bp--small-down: max-width $width-medium - 1;*/
 
 /* line 37, ../scss/global/variables/_colors.scss */
 .orange-text {
-  color: #f26d04;
+  color: #F26D04;
 }
 
 /* line 41, ../scss/global/variables/_colors.scss */
 .orange-bg {
-  background-color: #f26d04;
+  background-color: #F26D04;
 }
 
 /* line 37, ../scss/global/variables/_colors.scss */
 .light-gray-text {
-  color: #f1f1f1;
+  color: #F1F1F1;
 }
 
 /* line 41, ../scss/global/variables/_colors.scss */
 .light-gray-bg {
-  background-color: #f1f1f1;
+  background-color: #F1F1F1;
 }
 
 /* line 37, ../scss/global/variables/_colors.scss */
@@ -121,12 +121,12 @@ $bp--small-down: max-width $width-medium - 1;*/
 
 /* line 37, ../scss/global/variables/_colors.scss */
 .black-text {
-  color: black;
+  color: #000000;
 }
 
 /* line 41, ../scss/global/variables/_colors.scss */
 .black-bg {
-  background-color: black;
+  background-color: #000000;
 }
 
 /* line 37, ../scss/global/variables/_colors.scss */
@@ -141,22 +141,22 @@ $bp--small-down: max-width $width-medium - 1;*/
 
 /* line 37, ../scss/global/variables/_colors.scss */
 .white-text {
-  color: white;
+  color: #FFFFFF;
 }
 
 /* line 41, ../scss/global/variables/_colors.scss */
 .white-bg {
-  background-color: white;
+  background-color: #FFFFFF;
 }
 
 /* line 37, ../scss/global/variables/_colors.scss */
 .dark-gray-text {
-  color: #b4b9bf;
+  color: #B4B9BF;
 }
 
 /* line 41, ../scss/global/variables/_colors.scss */
 .dark-gray-bg {
-  background-color: #b4b9bf;
+  background-color: #B4B9BF;
 }
 
 /* line 37, ../scss/global/variables/_colors.scss */
@@ -382,7 +382,7 @@ $font-header: $helvetica, $default-font;
 }
 /* line 28, ../scss/patternlab/_styleguide-specific.scss */
 .palette .color.dark-text {
-  color: black;
+  color: #000000;
 }
 /* line 32, ../scss/patternlab/_styleguide-specific.scss */
 .palette h3 {
@@ -453,18 +453,18 @@ $font-header: $helvetica, $default-font;
 }
 /* line 93, ../scss/patternlab/_styleguide-specific.scss */
 .button-demo .button-sample.dark {
-  background: black;
+  background: #000000;
 }
 
 /* line 102, ../scss/patternlab/_styleguide-specific.scss */
 .grid-sample .content-area .column-wrapper div {
   padding-top: 10px;
   padding-bottom: 10px;
-  border: 1px #f1f1f1 solid;
+  border: 1px #F1F1F1 solid;
 }
 /* line 106, ../scss/patternlab/_styleguide-specific.scss */
 .grid-sample .content-area .column-wrapper div:nth-child(even) {
-  background-color: #007cbe;
+  background-color: #007CBE;
 }
 /* line 109, ../scss/patternlab/_styleguide-specific.scss */
 .grid-sample .content-area .column-wrapper div:nth-child(odd) {
