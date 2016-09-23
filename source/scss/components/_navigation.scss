@@ -23,10 +23,10 @@ html {
 
 .nav--wrapper {
 	& ~ .contents--wrapper {
-		margin-top: 135px;
+		margin-top: 108px;
 	}
 	&.transparent ~ .contents--wrapper{
-		margin-top: 40px;
+		margin-top: 108px;
 	}
 }
 /**
@@ -225,6 +225,14 @@ html {
 
 
 @media screen and (min-width: $width-medium) {
+	.nav--wrapper {
+		& ~ .contents--wrapper {
+			margin-top: 135px;
+		}
+		&.transparent ~ .contents--wrapper{
+			margin-top: 40px;
+		}
+	}
 	.nav-global--wrapper {
 		.nav-global {
 			min-height: 40px;
