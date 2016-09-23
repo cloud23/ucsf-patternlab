@@ -10,7 +10,6 @@
     line-height: 1;
     color: $color--white;
     padding: 16px;
-    width: 270px;
     border: none;    
     outline: none;
     cursor: pointer;
@@ -39,6 +38,11 @@
             i{
                 color: $color--orange;
             }
+        }
+    }
+    &.anchor{
+        &:hover{
+            text-decoration: none;
         }
     }
 }

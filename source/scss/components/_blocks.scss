@@ -1,5 +1,5 @@
 .block{
-    h3{
+    h3, h4{
         line-height: 1;
         color: $color--oxford-blue;
         margin-bottom: 30px;
@@ -65,6 +65,35 @@
         margin-bottom: 50px;
         h3{
             margin-bottom: 20px;
+        }
+    }
+    &.block--homepage-prefooter{
+        background-color: $color--light-gray;
+        position: relative;
+        .btn{
+            display: block;
+            margin: 0 auto;
+            max-width: 320px;
+        }
+        .block--content{
+            padding-top: 60px;
+            padding-bottom: 10px;
+            .block--start-fundraiser, .block--give-to{
+                p{
+                    margin-top: 0;
+                }
+            }
+      
+            /*.block--start-fundraiser{
+                h4{
+                    margin-bottom: 55px;
+                }
+            }
+            .block--give-to{
+                h4{
+                    margin-bottom: 16px;
+                }
+            }*/
         }
     }
 }
@@ -181,8 +210,22 @@
         h3{
             @include type-definition(30px, 1.13);
         }
+        h4{
+            @include type-definition(22px, 1.14);
+        }
         &.block--impact-stories{
             margin-bottom: 20px;
+        }
+        &.block--homepage-prefooter{
+            h4{
+                margin-bottom: 10px;
+            }
+            p{
+                margin-bottom: 20px;
+            }
+            .block--start-fundraiser, .block--give-to{
+                margin-bottom: 50px
+            }
         }
     }
     .block--item{
@@ -224,9 +267,34 @@
 }
 
 @media all and (min-width:$bp--small-up){
+    .block{
+        &.block--homepage-prefooter{
+            height: 330px;
+            .btn{
+                display: inline-block;
+                width: 270px;
+                position: absolute;
+                bottom: 0;
+            }
+            .block--content{
+                padding-bottom: 60px;
+                .block--give-to, .block--start-fundraiser{
+                    height: 210px;
+                    p{
+                        position: absolute;
+                        margin: 0;
+                        bottom: 80px;
+                    }
+                }
+            }
+        }
+    }
     .block--item{
         &.block--impact-stories-panel{
             height: 330px;
+            .block--give-to, .block--start-fundraiser{
+                height: 210px;
+            }
         }
     }
 }
