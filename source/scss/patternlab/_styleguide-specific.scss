@@ -6,137 +6,53 @@
  * These styles will not be your production CSS.
  */
 
-#sg-viewport {
-  max-width: 100%;
-  overflow-x: hidden;
-}
 
-#sg-patterns {
-  max-width: $site-width;
-  margin: 0 auto;
-  padding: 0 10px;
-}
+.palette{
+  list-style: none;
+  padding: 0;
 
-#atoms-fonts-helvetica-neue,
-#atoms-fonts-granjon {
-  h3 {
-    
-  }
-  p {
-    //display: none;
-    margin: 0;
-    font-size: 12px;
-    
-    strong {
-      text-transform: uppercase;
-      text-align: left;
-      font-size: 11px;
-      font-family: $font-body--medium;
-    }
-  }
-  .font-type {
-    @extend .cf;
-  }
-  .font-sample {
-    margin-bottom: 30px;
-    
-    @include breakpoint($bp--large-up) {
-      float: left;
-      width: 50%;  
-    }
-  }
-  // fallbacks for demo or class usage
-  .font-headline {
-    font-family: $font-headline;
-  }
-  .font-headline--italic {
-    font-family: $font-headline--italic;
-  }
-  .font-headline--bold {
-    font-family: $font-headline--bold;
-  }
-  .font-body {
-    font-family: $font-body;
-  }
-  .font-body--italic {
-    font-family: $font-body--italic;
-  }
-  .font-body--bold {
-    font-family: $font-body--bold;
-  }
-  .font-body--light {
-    font-family: $font-body--light;
-  }
-  .font-body--light--italic {
-    font-family: $font-body--light--italic;
-  }
-  .font-body--medium {
-    font-family: $font-body--medium;
-  }
-  .font-body--medium--italic {
-    font-family: $font-body--medium--italic;
-  }
-}
-
-// Style Guide color swatches
-#atoms-colors {
-  overflow: hidden;
-  
-  .palette {
-    list-style: none;
-    margin-left: 0;
-    font-size: 0; 
-  }
-  .palette > li {
+  div {
     padding: 5px;
     font-size: 13px;
     font-size: 0.92857rem;
     color: #fff;
-    text-align: center; 
+    text-align: center;
   }
-  @include breakpoint($bp--small-up) {
-    .palette > li {
-      display: inline-block;
-      width: 50%; 
-    } 
+  span {
+    display: block;
   }
-  @include breakpoint($bp--medium-up) {
-    .palette > li {
-      display: inline-block;
-      width: 33.333%; 
-    } 
+  .color {
+    height: 125px;
+    padding-top: 1.5em;
+    position: relative;
+    &.dark-text{
+      color: $color--black;
+    }
   }
-  @include breakpoint($bp--large-up) {
-    .palette > li {
-      display: inline-block;
-      width: 20%; 
-    } 
-  }
-  
-  .palette span {
-    display: block; 
-  }
-  
-  .palette .color {
-    //border-radius: 5px 5px 0 0;
-    height: 80px;
-    padding-top: 1.5em; 
-  }
-  
-  @include breakpoint($bp--large-up) {
-    .palette .color {
-      height: 120px; 
-    } 
-  }
-  .palette .color:last-child {
-    //border-radius: 0 0 5px 5px; 
-  }
-  .palette h3 {
+  h3 {
     color: #333;
-    font-size: 14px;
-    font-weight: 600; 
+    font-size: 11px;
+    font-family: $text-body--regular;
+    text-transform: uppercase;
+    text-align: left;
   }
-  
+  .hex, .variable{
+    position: absolute;
+    font-family: $text-body--bold;
+  }
+  .hex{
+    top: 5px;
+    right: 10px;
+  }
+  .variable {
+    bottom: 5px;
+    left: 10px;
+  }
+}
+
+#atoms-colors {
+  overflow: hidden;
+
   >li {
     overflow: hidden;
     border: 1px solid #ccc;
@@ -155,112 +71,61 @@
       float: right;
       width: 66%;
     }
-    @include breakpoint($bp--medium-up) {
-      float: left;
-      width: 49%;
-      margin-right: 1%;
-      .sg-swatch {
-        height: 100px;
-      }
-    }
-    @include breakpoint($bp--large-up) {
-      width: 24%;
-    }
   }
   h5.headline {
     margin-top: 10px;
     margin-bottom: 0;
   }
-  .palette {
+}
 
-    h3 {
-      text-transform: uppercase;
-      text-align: left;
-      font-size: 11px;
-      font-family: $font-body--medium;
-    }
-    .color {
-      position: relative;
-    }
-    .hex {
-      font-family: $font-body--medium;
-      position: absolute;
-      top: 5px;
-      right: 10px;
-    }
-    .variable {
-      font-family: $font-body--medium;
-      position: absolute;
-      bottom: 5px;
-      left: 10px;
-    }
-  }
-  .palette .color:last-child {
-    border-radius: 5px;
+.font-type{
+  .font-sample{
+    padding: 20px;
+    width: 50%;
+    float:left;
   }
 }
 
-pre {
-  margin-top: 0;
-}
 
-.button-demo {
-  h5 {
-    margin-top: 10px;
-    margin-bottom: 5px;
-    padding-bottom: 0;
-  }
-  .button-wrapper {
-    margin-bottom: 10px;
+.button-demo{
+  .button-sample{
+    padding: 20px 10px;
+    &.dark{
+      background: $color--black;
+    }
   }
 }
 
-/**
-  * Some elements in PatternLabs just look ridiculous full width on the 'all' page
-  * and should be kept tidy by applying a max width when they are being shown on 
-  * the 'all' page
-  */
-$styleguide-maxwidth: 500px;
-
-#atoms-landscape-4x3,
-#atoms-landscape-4x3-with-caption,
-#atoms-landscape-16x9,
-#atoms-landscape-16x9-with-caption,
-#atoms-square,
-#atoms-square-with-caption,
-#atoms-form-fields,
-#atoms-field-sizes,
-#atoms-form-error-message,
-#atoms-horizontal-form,
-#molecules-block-content-quarter-2by2col,
-#molecules-block-content-quarter-2col,
-#molecules-block-content-quarter,
-#molecules-block-post-no-image,
-#molecules-block-post,
-#molecules-block-event-small,
-#molecules-block-blog-small,
-#molecules-media-coverage-small,
-#molecules-youtube-small,
-#molecules-twitter-small,
-#molecules-popular-small,
-#molecules-login-form,
-#molecules-subscribe-form,
-#organisms-media-coverage,
-#organisms-twitter,
-#organisms-youtube,
-#organisms-most-popular,
-#organisms-most-read
-{
-  .sg-pattern-body {
-    max-width: $styleguide-maxwidth;
+.grid-sample{
+  .content-area{
+    .column-wrapper{
+      div{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: 1px $color--light-gray solid;
+        &:nth-child(even){
+          background-color: $color--light-blue;
+        }
+        &:nth-child(odd){
+          background-color: $color--teal;
+        }
+      }
+    }
   }
 }
 
-#organisms-header {
-  
-  .header {
+.patternLink{
+  color: $color--oxford-blue;
+  text-decoration: none;
+  outline: 0;
+  text-transform: capitalize;
+}
+
+.sg-pattern-example {
+  .nav--wrapper{
     position: relative;
-    top: 0;
+  }
+  .btn{
+    width: 270px;
   }
 }
-
