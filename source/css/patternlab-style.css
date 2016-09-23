@@ -274,6 +274,11 @@ h4 {
     line-height: 30px;
   }
 }
+/* line 110, ../scss/global/variables/_typography.scss */
+.granjon-heading-text {
+  font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
+}
+
 /* From the current pattern library. I'm keeping this here in case we needed this in the future.
 
 $font-headline: $granjon, $header-font;

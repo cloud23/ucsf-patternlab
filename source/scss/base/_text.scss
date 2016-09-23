@@ -68,6 +68,15 @@ blockquote{
     }
 
 }
+
+address {
+    font-style: normal;
+    font-family: $text-body--light;
+    & > strong {
+        font-family: $text-body--medium;
+    }
+}
+
 // Text alignments
 
 $alignments : left center right justify;
@@ -98,7 +107,7 @@ $alignments : left center right justify;
 }
 
 @media all and (max-width: $bp--xsmall-max){
-    
+
 }
 
 @media all and (min-width: $bp--small-up){

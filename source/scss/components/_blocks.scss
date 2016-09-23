@@ -8,12 +8,12 @@
 
     &.block--funding-priorities{
         margin: 40px auto 20px;
-        
+
         .slick-arrow{
             @extend .fa;
             border: none;
             background-color: transparent;
-            font-size: 0;    
+            font-size: 0;
             outline: 0;
             position: absolute;
             top:50%;
@@ -24,7 +24,7 @@
                 font-size: 100px;
                 line-height: 0;
                 color: $color--oxford-blue;
-            } 
+            }
             &.slick-prev{
                 @extend .fa-angle-left;
                 left: -55px;
@@ -38,7 +38,7 @@
             @extend .fa;
             border: none;
             background-color: transparent;
-            font-size: 0;    
+            font-size: 0;
             outline: 0;
             position: absolute;
             top:50%;
@@ -48,7 +48,7 @@
                 font-size: 100px;
                 line-height: 0;
                 color: $color--oxford-blue;
-            } 
+            }
             &.slider-prev{
                 @extend .fa-angle-left;
                 left: -55px;
@@ -83,7 +83,7 @@
                     margin-top: 0;
                 }
             }
-      
+
             /*.block--start-fundraiser{
                 h4{
                     margin-bottom: 55px;
@@ -203,7 +203,7 @@
             }
         }
     }
-} 
+}
 
 @media all and (max-width: $bp--xsmall-max){
     .block{
@@ -329,6 +329,41 @@
                     right: -50px;
                 }
             }
+        }
+    }
+}
+.block-honor-page-body {
+    .body-give-link {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        a {
+            display: inline-block;
+            width: 100%;
+        }
+    }
+    .note {
+        strong {
+            font-family: $text-body--medium;
+        }
+    }
+    .non-list-item {
+        padding-left: 0px;
+    }
+}
+
+@media screen and (min-width: $width-small) {
+    .block-honor-page-body {
+
+        .body-give-link {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            a {
+                width: auto;
+            }
+        }
+        .non-list-item {
+            margin-bottom: 20px;
+            padding-left: 31px;
         }
     }
 }

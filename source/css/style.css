@@ -3812,6 +3812,11 @@ h4 {
     line-height: 30px;
   }
 }
+/* line 110, ../scss/global/variables/_typography.scss */
+.granjon-heading-text {
+  font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
+}
+
 /* From the current pattern library. I'm keeping this here in case we needed this in the future.
 
 $font-headline: $granjon, $header-font;
@@ -5018,31 +5023,41 @@ $font-header: $helvetica, $default-font;
   background-color: #052059;
 }
 /* line 24, ../scss/base/_btn.scss */
+.btn.btn--primary-small {
+  background-color: #F26D04;
+  padding: 12px 15px;
+  font-size: 15px;
+}
+/* line 28, ../scss/base/_btn.scss */
+.btn.btn--primary-small:hover {
+  background-color: #052059;
+}
+/* line 32, ../scss/base/_btn.scss */
 .btn.btn--secondary {
   background-color: #007CBE;
 }
-/* line 26, ../scss/base/_btn.scss */
+/* line 34, ../scss/base/_btn.scss */
 .btn.btn--secondary:hover {
   background-color: #052059;
 }
-/* line 30, ../scss/base/_btn.scss */
+/* line 38, ../scss/base/_btn.scss */
 .btn.btn--with-icon {
   background-color: #F26D04;
 }
-/* line 32, ../scss/base/_btn.scss */
+/* line 40, ../scss/base/_btn.scss */
 .btn.btn--with-icon i {
   margin-left: 5px;
   font-size: 15px;
 }
-/* line 36, ../scss/base/_btn.scss */
+/* line 44, ../scss/base/_btn.scss */
 .btn.btn--with-icon:hover {
   background-color: #052059;
 }
-/* line 38, ../scss/base/_btn.scss */
+/* line 46, ../scss/base/_btn.scss */
 .btn.btn--with-icon:hover i {
   color: #F26D04;
 }
-/* line 44, ../scss/base/_btn.scss */
+/* line 52, ../scss/base/_btn.scss */
 .btn.anchor:hover {
   text-decoration: none;
 }
@@ -5284,40 +5299,50 @@ blockquote p:after {
   content: "\201D";
 }
 
-/* line 76, ../scss/base/_text.scss */
+/* line 72, ../scss/base/_text.scss */
+address {
+  font-style: normal;
+  font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+/* line 75, ../scss/base/_text.scss */
+address > strong {
+  font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+/* line 85, ../scss/base/_text.scss */
 .text-align--left {
   text-align: left;
 }
 
-/* line 76, ../scss/base/_text.scss */
+/* line 85, ../scss/base/_text.scss */
 .text-align--center {
   text-align: center;
 }
 
-/* line 76, ../scss/base/_text.scss */
+/* line 85, ../scss/base/_text.scss */
 .text-align--right {
   text-align: right;
 }
 
-/* line 76, ../scss/base/_text.scss */
+/* line 85, ../scss/base/_text.scss */
 .text-align--justify {
   text-align: justify;
 }
 
-/* line 81, ../scss/base/_text.scss */
+/* line 90, ../scss/base/_text.scss */
 .header-section {
   margin-bottom: 30px;
 }
-/* line 83, ../scss/base/_text.scss */
+/* line 92, ../scss/base/_text.scss */
 .header-section.section--title {
   color: #052059;
 }
-/* line 85, ../scss/base/_text.scss */
+/* line 94, ../scss/base/_text.scss */
 .header-section.section--title .heading {
   margin-top: 0;
   margin-bottom: 15px;
 }
-/* line 91, ../scss/base/_text.scss */
+/* line 100, ../scss/base/_text.scss */
 .header-section.section--intro-text p {
   font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 1.33333rem;
@@ -5327,7 +5352,7 @@ blockquote p:after {
 }
 
 @media all and (min-width: 768px) {
-  /* line 105, ../scss/base/_text.scss */
+  /* line 114, ../scss/base/_text.scss */
   .header-section {
     margin-bottom: 40px;
   }
@@ -7461,6 +7486,63 @@ html.mobile-nav-open .nav--wrapper {
   /* line 328, ../scss/components/_blocks.scss */
   .block.block--funding-priorities .slick-arrow.slick-next {
     right: -50px;
+  }
+}
+/* line 336, ../scss/components/_blocks.scss */
+.block-honor-page-body .body-give-link {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+/* line 339, ../scss/components/_blocks.scss */
+.block-honor-page-body .body-give-link a {
+  display: inline-block;
+  width: 100%;
+}
+/* line 345, ../scss/components/_blocks.scss */
+.block-honor-page-body .note strong {
+  font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+/* line 349, ../scss/components/_blocks.scss */
+.block-honor-page-body .non-list-item {
+  padding-left: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 357, ../scss/components/_blocks.scss */
+  .block-honor-page-body .body-give-link {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  /* line 360, ../scss/components/_blocks.scss */
+  .block-honor-page-body .body-give-link a {
+    width: auto;
+  }
+  /* line 364, ../scss/components/_blocks.scss */
+  .block-honor-page-body .non-list-item {
+    margin-bottom: 20px;
+    padding-left: 31px;
+  }
+}
+/* line 1, ../scss/components/_custom_lists.scss */
+.htmytg-list {
+  list-style: none;
+  padding-left: 0px;
+}
+/* line 4, ../scss/components/_custom_lists.scss */
+.htmytg-list > li {
+  padding-left: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 10, ../scss/components/_custom_lists.scss */
+  .htmytg-list {
+    list-style: initial;
+    padding-left: 16px;
+    margin-bottom: 20px;
+  }
+  /* line 14, ../scss/components/_custom_lists.scss */
+  .htmytg-list > li {
+    padding-left: 15px;
   }
 }
 
