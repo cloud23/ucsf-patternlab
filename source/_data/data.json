@@ -279,5 +279,17 @@
       "link" : "#",
       "image_url" : "/images/MBH_hospital.jpg"
     }
+  },
+  "start_fundraiser": {
+    "title" : "Make a Difference Where it Matters.",
+    "body_text" : "Start your own fundraiser and share why UCSF is important to you. Our online platform makes it easy to make a difference.",
+    "link_url" : "#",
+    "link_label" : "Start a Fundraiser"
+  },
+  "give_to": {
+    "title" : "Your giving is the foundation for our greatest innovations in research, education, and patient care.",
+    "body_text" : "Give a gift directly where it is needed the most.",
+    "link_url" : "#",
+    "link_label" : "Give to UCSF "
   }
 }

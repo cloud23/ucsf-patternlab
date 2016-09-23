@@ -452,5 +452,9 @@ $font-header: $helvetica, $default-font;
 .sg-pattern-example .nav--wrapper {
   position: relative;
 }
+/* line 128, ../scss/patternlab/_styleguide-specific.scss */
+.sg-pattern-example .btn {
+  width: 270px;
+}
 
 /*# sourceMappingURL=patternlab-style.css.map */
