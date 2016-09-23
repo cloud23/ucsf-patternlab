@@ -1,14 +1,13 @@
-<div class="ways-to-give--wrapper" style="background-image: url('{{ img.ways_to_give_bg.src }}');">
-	<div class="content-area">
-		<div class="column-wrapper">
-			<div class="column-large-12 column-medium-12 column-small-12 column-xsmall-12">
-			<div class="ways-to-give-form">
-				{% if give_ways_content %}
+<div class="content-area">
+	<div class="column-wrapper">
+		<div class="column-large-4 column-medium-4 column-small-12 column-xsmall-12">
+			<div class="ways-to-give-form-small">
+				{% if give_ways_content.small %}
 
-					<h3>{{ give_ways_content.full.heading }}</h3>
+					<h4>{{ give_ways_content.small.heading }}</h4>
 
-					{% if give_ways_content.full.body %}
-						<p>{{ give_ways_content.full.body }}</p>
+					{% if give_ways_content.small.body %}
+						<p>{{ give_ways_content.small.body }}</p>
 					{% endif %}
 					<form name="ways-to-give" id="give" method="GET" action="">
 						<div class="ways-to-give-options--wrapper ">
@@ -34,25 +33,11 @@
 					            <input class="give-value-other-input"type="text" name="give-value-other" />
 					        </div>
 					        <div class="ways-to-give-option submit-btn" role="button">
-					           <button class="btn btn--primary" type="submit">Give where it’s needed most</button>
+					           <button class="btn btn--primary" type="submit">Make a gift</button>
 					        </div>
 						</div>
-						<div class="submit-button-small-xsmall--medium--wrapper">
-							<button class="btn btn--primary" type="submit">Give where it’s needed most</button>
-						</div>
 					</form>
-					{% if give_ways_content.full.cta %}
-					<a class="link link--with-icon" href="{{ give_ways_content.full.cta.link }}">
-						{{ give_ways_content.full.cta.label }}
-					 	<span class="fa-stack link--icon">
-			                <i class="fa fa-circle fa-stack-2x icon--visible-hover icon--circle" aria-hidden="true"></i>
-			                <i class="fa fa-circle-thin fa-stack-2x icon--circle" aria-hidden="true"></i>
-			                <i class="fa fa-angle-right fa-stack-1x icon--angle" aria-hidden="true"></i>
-			            </span>
-			        </a>
-			        {% endif %}
 				{% endif %}
-			</div>
 			</div>
 		</div>
 	</div>
