@@ -7572,29 +7572,44 @@ html.mobile-nav-open .nav--wrapper {
 }
 /* line 422, ../scss/components/_blocks.scss */
 .block-honor-page-body .body-give-link a {
-  display: inline-block;
   width: 100%;
 }
-/* line 428, ../scss/components/_blocks.scss */
+/* line 424, ../scss/components/_blocks.scss */
+.block-honor-page-body .body-give-link a.btn--primary-small {
+  display: none;
+}
+/* line 427, ../scss/components/_blocks.scss */
+.block-honor-page-body .body-give-link a.btn--primary {
+  display: inline-block;
+}
+/* line 433, ../scss/components/_blocks.scss */
 .block-honor-page-body .note strong {
   font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
-/* line 432, ../scss/components/_blocks.scss */
+/* line 437, ../scss/components/_blocks.scss */
 .block-honor-page-body .non-list-item {
   padding-left: 0px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 440, ../scss/components/_blocks.scss */
+  /* line 445, ../scss/components/_blocks.scss */
   .block-honor-page-body .body-give-link {
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  /* line 443, ../scss/components/_blocks.scss */
+  /* line 448, ../scss/components/_blocks.scss */
   .block-honor-page-body .body-give-link a {
     width: auto;
   }
-  /* line 447, ../scss/components/_blocks.scss */
+  /* line 450, ../scss/components/_blocks.scss */
+  .block-honor-page-body .body-give-link a.btn--primary-small {
+    display: inline-block;
+  }
+  /* line 453, ../scss/components/_blocks.scss */
+  .block-honor-page-body .body-give-link a.btn--primary {
+    display: none;
+  }
+  /* line 458, ../scss/components/_blocks.scss */
   .block-honor-page-body .non-list-item {
     margin-bottom: 20px;
     padding-left: 31px;
