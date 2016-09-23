@@ -18,6 +18,37 @@
  *         Font Weight
  *
  */
+/* ==========================================================================
+   Breakpoint Configuration
+   docs: https://github.com/Team-Sass/breakpoint/wiki
+   ========================================================================== */
+/*$breakpoint-no-query-fallbacks: false; // Breakpoint will output fallback selectors in this stylesheet
+$breakpoint-to-ems: false; // Breakpoint will convert all media queries to use EMs rather than PX
+*/
+/*sign posts*/
+/*$width-xsmall  : 320px;
+$width-small   : 480px;
+$width-medium  : 768px;
+$width-large   : 1024px;
+$width-xlarge  : 1024px;
+// design max-width
+$width-xxlarge : 1190px; // 1170 size visually without padding
+// Breakpoint variables are prefixed with "$bp--"
+// Mobile-first queries
+$bp--xsmall-up  : $width-xsmall;
+$bp--small-up   : $width-small;
+$bp--medium-up  : $width-medium;
+$bp--large-up   : $width-large;
+$bp--xlarge-up  : $width-xlarge;
+$bp--xxlarge-up : $width-xxlarge;
+// Fenced queries
+//$bp--xsmall    : max-width $width-small - 1;
+//$bp--small     : $width-small $width-medium - 1;
+//$bp--medium    : $width-medium $width-large;
+//$bp--large     : $width-large + 1 $width-xxlarge - 1;
+
+// Mobile-last queries (USE SPARINGLY)
+$bp--small-down: max-width $width-medium - 1;*/
 /* line 37, ../scss/global/variables/_colors.scss */
 .oxford-blue-text {
   color: #052059;
@@ -30,22 +61,22 @@
 
 /* line 37, ../scss/global/variables/_colors.scss */
 .light-blue-text {
-  color: #007CBE;
+  color: #007cbe;
 }
 
 /* line 41, ../scss/global/variables/_colors.scss */
 .light-blue-bg {
-  background-color: #007CBE;
+  background-color: #007cbe;
 }
 
 /* line 37, ../scss/global/variables/_colors.scss */
 .yellow-green-text {
-  color: #6EA400;
+  color: #6ea400;
 }
 
 /* line 41, ../scss/global/variables/_colors.scss */
 .yellow-green-bg {
-  background-color: #6EA400;
+  background-color: #6ea400;
 }
 
 /* line 37, ../scss/global/variables/_colors.scss */
@@ -60,22 +91,22 @@
 
 /* line 37, ../scss/global/variables/_colors.scss */
 .orange-text {
-  color: #F26D04;
+  color: #f26d04;
 }
 
 /* line 41, ../scss/global/variables/_colors.scss */
 .orange-bg {
-  background-color: #F26D04;
+  background-color: #f26d04;
 }
 
 /* line 37, ../scss/global/variables/_colors.scss */
 .light-gray-text {
-  color: #F1F1F1;
+  color: #f1f1f1;
 }
 
 /* line 41, ../scss/global/variables/_colors.scss */
 .light-gray-bg {
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
 }
 
 /* line 37, ../scss/global/variables/_colors.scss */
@@ -90,12 +121,12 @@
 
 /* line 37, ../scss/global/variables/_colors.scss */
 .black-text {
-  color: #000000;
+  color: black;
 }
 
 /* line 41, ../scss/global/variables/_colors.scss */
 .black-bg {
-  background-color: #000000;
+  background-color: black;
 }
 
 /* line 37, ../scss/global/variables/_colors.scss */
@@ -110,22 +141,22 @@
 
 /* line 37, ../scss/global/variables/_colors.scss */
 .white-text {
-  color: #FFFFFF;
+  color: white;
 }
 
 /* line 41, ../scss/global/variables/_colors.scss */
 .white-bg {
-  background-color: #FFFFFF;
+  background-color: white;
 }
 
 /* line 37, ../scss/global/variables/_colors.scss */
 .dark-gray-text {
-  color: #B4B9BF;
+  color: #b4b9bf;
 }
 
 /* line 41, ../scss/global/variables/_colors.scss */
 .dark-gray-bg {
-  background-color: #B4B9BF;
+  background-color: #b4b9bf;
 }
 
 /* line 37, ../scss/global/variables/_colors.scss */
@@ -210,7 +241,7 @@ h4 {
   line-height: 30px;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   /* line 92, ../scss/global/variables/_typography.scss */
   h1 {
     font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
@@ -351,7 +382,7 @@ $font-header: $helvetica, $default-font;
 }
 /* line 28, ../scss/patternlab/_styleguide-specific.scss */
 .palette .color.dark-text {
-  color: #000000;
+  color: black;
 }
 /* line 32, ../scss/patternlab/_styleguide-specific.scss */
 .palette h3 {
@@ -422,18 +453,18 @@ $font-header: $helvetica, $default-font;
 }
 /* line 93, ../scss/patternlab/_styleguide-specific.scss */
 .button-demo .button-sample.dark {
-  background: #000000;
+  background: black;
 }
 
 /* line 102, ../scss/patternlab/_styleguide-specific.scss */
 .grid-sample .content-area .column-wrapper div {
   padding-top: 10px;
   padding-bottom: 10px;
-  border: 1px #F1F1F1 solid;
+  border: 1px #f1f1f1 solid;
 }
 /* line 106, ../scss/patternlab/_styleguide-specific.scss */
 .grid-sample .content-area .column-wrapper div:nth-child(even) {
-  background-color: #007CBE;
+  background-color: #007cbe;
 }
 /* line 109, ../scss/patternlab/_styleguide-specific.scss */
 .grid-sample .content-area .column-wrapper div:nth-child(odd) {
