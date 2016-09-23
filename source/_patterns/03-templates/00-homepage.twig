@@ -163,6 +163,17 @@
 					</div>
 				</div>
 			</div>
+			{% if hero_content %}
+				{% if  hero_content.link_text %}
+					<a class="link link--with-icon hero-link--mobile" href="{{ hero_content.link_href }}">{{ hero_content.link_text }}
+						<span class="fa-stack link--icon">
+			                <i class="fa fa-circle fa-stack-2x icon--visible-hover icon--circle" aria-hidden="true"></i>
+			                <i class="fa fa-circle-thin fa-stack-2x icon--circle" aria-hidden="true"></i>
+			                <i class="fa fa-angle-right fa-stack-1x icon--angle" aria-hidden="true"></i>
+			            </span>
+			        </a>
+			    {% endif %}
+			{% endif %}
 		</div>
 	</div>
 	<div class="alert alert--info">
