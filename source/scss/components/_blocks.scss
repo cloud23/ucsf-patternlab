@@ -167,6 +167,22 @@
             bottom: 32px;
         }   
     }
+    &.block--impact-story-with-image{
+        position: relative;
+        .block--content{
+            width: 100%;
+            padding: 30px 15px;
+            h2{
+                margin: 0;
+                color: $color--white;
+                @include type-definition(38px, 1.05);
+            }
+        }
+        &.background-color--teal{
+            background-color: $color--teal;
+            .block--content{ background-color: $color--teal; }
+        }
+    }
 }
 
 .block--item{
@@ -371,6 +387,19 @@
                 bottom: 42px;
             } 
         }
+        &.block--impact-story-with-image{
+            height: 265px;
+            background-size: cover;
+            background-position: center center;
+            .block--content{
+                height: auto;
+                position: absolute;
+                bottom: 0;
+                h2{
+                    text-align:center;
+                }
+            }
+        }
     }
     .block--item{
         &.block--impact-stories-panel{
@@ -393,6 +422,9 @@
                     right: -50px;
                 }
             }
+        }
+        &.block--impact-story-with-image{
+            height: 450px;
         }
     }
     .block--item{
