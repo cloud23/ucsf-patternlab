@@ -17,7 +17,6 @@
 
 .heading{
     font-family: $text-headline;
-    @include type-definition(60px, 1.083);
 }
 
 p{
@@ -80,6 +79,7 @@ $alignments : left center right justify;
 }
 
 .header-section{
+    margin-bottom: 30px;
     &.section--title{
         color: $color--oxford-blue;
         .heading{
@@ -94,5 +94,15 @@ $alignments : left center right justify;
             margin-top: 0;
             margin-bottom: 20px;
         }
+    }
+}
+
+@media all and (max-width: $bp--xsmall-max){
+    
+}
+
+@media all and (min-width: $bp--small-up){
+    .header-section{
+        margin-bottom: 40px;
     }
 }
