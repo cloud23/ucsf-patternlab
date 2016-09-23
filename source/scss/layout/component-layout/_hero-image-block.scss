@@ -10,12 +10,30 @@
 .block {
 	display: block;
 	&.block-hero {
+		position: relative;
 		display: block;
 		background-position: top center;
 		background-repeat: no-repeat;
 		background-size: cover;
-		.hero-text {
+		height: 350px;
+		background-color: $color--black;
+		.hero-background {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
 			display: block;
+			background-position: top center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			opacity: 0.7;
+		}
+		.hero-text {
+			margin-top: 26%;
+			display: block;
+			opacity: 1;
+			text-align: center;
 			a {
 				&.link.link--with-icon {
 					color: $color--white;
@@ -35,12 +53,20 @@
 
 
 @media screen and (min-width: $width-small){
+	.hero--wrapper {
+		background-color: $color--white;
+	}
 	.block {
 		&.block-hero {
 			background-position: top center;
 			height: 516px;
+			.hero-background {
+				background-color: $color--white;
+				opacity: 1;
+			}
 			.hero-text {
    				margin-top: 55%;
+   				text-align: left;
 			}
 		}
 	}
