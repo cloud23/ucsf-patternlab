@@ -49,132 +49,132 @@ $bp--xxlarge-up : $width-xxlarge;
 
 // Mobile-last queries (USE SPARINGLY)
 $bp--small-down: max-width $width-medium - 1;*/
-/* line 37, ../scss/global/variables/_colors.scss */
+/* line 38, ../scss/global/variables/_colors.scss */
 .oxford-blue-text {
   color: #052059;
 }
 
-/* line 41, ../scss/global/variables/_colors.scss */
+/* line 42, ../scss/global/variables/_colors.scss */
 .oxford-blue-bg {
   background-color: #052059;
 }
 
-/* line 37, ../scss/global/variables/_colors.scss */
+/* line 38, ../scss/global/variables/_colors.scss */
 .light-blue-text {
   color: #007CBE;
 }
 
-/* line 41, ../scss/global/variables/_colors.scss */
+/* line 42, ../scss/global/variables/_colors.scss */
 .light-blue-bg {
   background-color: #007CBE;
 }
 
-/* line 37, ../scss/global/variables/_colors.scss */
+/* line 38, ../scss/global/variables/_colors.scss */
 .yellow-green-text {
   color: #6EA400;
 }
 
-/* line 41, ../scss/global/variables/_colors.scss */
+/* line 42, ../scss/global/variables/_colors.scss */
 .yellow-green-bg {
   background-color: #6EA400;
 }
 
-/* line 37, ../scss/global/variables/_colors.scss */
+/* line 38, ../scss/global/variables/_colors.scss */
 .teal-text {
   color: #058488;
 }
 
-/* line 41, ../scss/global/variables/_colors.scss */
+/* line 42, ../scss/global/variables/_colors.scss */
 .teal-bg {
   background-color: #058488;
 }
 
-/* line 37, ../scss/global/variables/_colors.scss */
+/* line 38, ../scss/global/variables/_colors.scss */
 .orange-text {
   color: #F26D04;
 }
 
-/* line 41, ../scss/global/variables/_colors.scss */
+/* line 42, ../scss/global/variables/_colors.scss */
 .orange-bg {
   background-color: #F26D04;
 }
 
-/* line 37, ../scss/global/variables/_colors.scss */
+/* line 38, ../scss/global/variables/_colors.scss */
 .light-gray-text {
   color: #F1F1F1;
 }
 
-/* line 41, ../scss/global/variables/_colors.scss */
+/* line 42, ../scss/global/variables/_colors.scss */
 .light-gray-bg {
   background-color: #F1F1F1;
 }
 
-/* line 37, ../scss/global/variables/_colors.scss */
+/* line 38, ../scss/global/variables/_colors.scss */
 .light-gray-2-text {
   color: #dadee4;
 }
 
-/* line 41, ../scss/global/variables/_colors.scss */
+/* line 42, ../scss/global/variables/_colors.scss */
 .light-gray-2-bg {
   background-color: #dadee4;
 }
 
-/* line 37, ../scss/global/variables/_colors.scss */
+/* line 38, ../scss/global/variables/_colors.scss */
 .black-text {
   color: #000000;
 }
 
-/* line 41, ../scss/global/variables/_colors.scss */
+/* line 42, ../scss/global/variables/_colors.scss */
 .black-bg {
   background-color: #000000;
 }
 
-/* line 37, ../scss/global/variables/_colors.scss */
+/* line 38, ../scss/global/variables/_colors.scss */
 .black-2-text {
   color: #353a3f;
 }
 
-/* line 41, ../scss/global/variables/_colors.scss */
+/* line 42, ../scss/global/variables/_colors.scss */
 .black-2-bg {
   background-color: #353a3f;
 }
 
-/* line 37, ../scss/global/variables/_colors.scss */
+/* line 38, ../scss/global/variables/_colors.scss */
 .white-text {
   color: #FFFFFF;
 }
 
-/* line 41, ../scss/global/variables/_colors.scss */
+/* line 42, ../scss/global/variables/_colors.scss */
 .white-bg {
   background-color: #FFFFFF;
 }
 
-/* line 37, ../scss/global/variables/_colors.scss */
+/* line 38, ../scss/global/variables/_colors.scss */
 .dark-gray-text {
   color: #B4B9BF;
 }
 
-/* line 41, ../scss/global/variables/_colors.scss */
+/* line 42, ../scss/global/variables/_colors.scss */
 .dark-gray-bg {
   background-color: #B4B9BF;
 }
 
-/* line 37, ../scss/global/variables/_colors.scss */
+/* line 38, ../scss/global/variables/_colors.scss */
 .light-gray-3-text {
   color: #ebf3fa;
 }
 
-/* line 41, ../scss/global/variables/_colors.scss */
+/* line 42, ../scss/global/variables/_colors.scss */
 .light-gray-3-bg {
   background-color: #ebf3fa;
 }
 
-/* line 37, ../scss/global/variables/_colors.scss */
+/* line 38, ../scss/global/variables/_colors.scss */
 .medium-gray-text {
   color: #58595b;
 }
 
-/* line 41, ../scss/global/variables/_colors.scss */
+/* line 42, ../scss/global/variables/_colors.scss */
 .medium-gray-bg {
   background-color: #58595b;
 }
@@ -287,11 +287,7 @@ h5 {
     line-height: 30px;
   }
 }
-<<<<<<< HEAD
-/* line 121, ../scss/global/variables/_typography.scss */
-=======
 /* line 125, ../scss/global/variables/_typography.scss */
->>>>>>> block_contact_us
 .granjon-heading-text {
   font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
 }
