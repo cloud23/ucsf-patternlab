@@ -3587,132 +3587,132 @@ $bp--xxlarge-up : $width-xxlarge;
 
 // Mobile-last queries (USE SPARINGLY)
 $bp--small-down: max-width $width-medium - 1;*/
-/* line 38, ../scss/global/variables/_colors.scss */
+/* line 39, ../scss/global/variables/_colors.scss */
 .oxford-blue-text {
   color: #052059;
 }
 
-/* line 42, ../scss/global/variables/_colors.scss */
+/* line 43, ../scss/global/variables/_colors.scss */
 .oxford-blue-bg {
   background-color: #052059;
 }
 
-/* line 38, ../scss/global/variables/_colors.scss */
+/* line 39, ../scss/global/variables/_colors.scss */
 .light-blue-text {
   color: #007CBE;
 }
 
-/* line 42, ../scss/global/variables/_colors.scss */
+/* line 43, ../scss/global/variables/_colors.scss */
 .light-blue-bg {
   background-color: #007CBE;
 }
 
-/* line 38, ../scss/global/variables/_colors.scss */
+/* line 39, ../scss/global/variables/_colors.scss */
 .yellow-green-text {
   color: #6EA400;
 }
 
-/* line 42, ../scss/global/variables/_colors.scss */
+/* line 43, ../scss/global/variables/_colors.scss */
 .yellow-green-bg {
   background-color: #6EA400;
 }
 
-/* line 38, ../scss/global/variables/_colors.scss */
+/* line 39, ../scss/global/variables/_colors.scss */
 .teal-text {
   color: #058488;
 }
 
-/* line 42, ../scss/global/variables/_colors.scss */
+/* line 43, ../scss/global/variables/_colors.scss */
 .teal-bg {
   background-color: #058488;
 }
 
-/* line 38, ../scss/global/variables/_colors.scss */
+/* line 39, ../scss/global/variables/_colors.scss */
 .orange-text {
   color: #F26D04;
 }
 
-/* line 42, ../scss/global/variables/_colors.scss */
+/* line 43, ../scss/global/variables/_colors.scss */
 .orange-bg {
   background-color: #F26D04;
 }
 
-/* line 38, ../scss/global/variables/_colors.scss */
+/* line 39, ../scss/global/variables/_colors.scss */
 .light-gray-text {
   color: #F1F1F1;
 }
 
-/* line 42, ../scss/global/variables/_colors.scss */
+/* line 43, ../scss/global/variables/_colors.scss */
 .light-gray-bg {
   background-color: #F1F1F1;
 }
 
-/* line 38, ../scss/global/variables/_colors.scss */
+/* line 39, ../scss/global/variables/_colors.scss */
 .light-gray-2-text {
   color: #dadee4;
 }
 
-/* line 42, ../scss/global/variables/_colors.scss */
+/* line 43, ../scss/global/variables/_colors.scss */
 .light-gray-2-bg {
   background-color: #dadee4;
 }
 
-/* line 38, ../scss/global/variables/_colors.scss */
+/* line 39, ../scss/global/variables/_colors.scss */
 .black-text {
   color: #000000;
 }
 
-/* line 42, ../scss/global/variables/_colors.scss */
+/* line 43, ../scss/global/variables/_colors.scss */
 .black-bg {
   background-color: #000000;
 }
 
-/* line 38, ../scss/global/variables/_colors.scss */
+/* line 39, ../scss/global/variables/_colors.scss */
 .black-2-text {
   color: #353a3f;
 }
 
-/* line 42, ../scss/global/variables/_colors.scss */
+/* line 43, ../scss/global/variables/_colors.scss */
 .black-2-bg {
   background-color: #353a3f;
 }
 
-/* line 38, ../scss/global/variables/_colors.scss */
+/* line 39, ../scss/global/variables/_colors.scss */
 .white-text {
   color: #FFFFFF;
 }
 
-/* line 42, ../scss/global/variables/_colors.scss */
+/* line 43, ../scss/global/variables/_colors.scss */
 .white-bg {
   background-color: #FFFFFF;
 }
 
-/* line 38, ../scss/global/variables/_colors.scss */
+/* line 39, ../scss/global/variables/_colors.scss */
 .dark-gray-text {
   color: #B4B9BF;
 }
 
-/* line 42, ../scss/global/variables/_colors.scss */
+/* line 43, ../scss/global/variables/_colors.scss */
 .dark-gray-bg {
   background-color: #B4B9BF;
 }
 
-/* line 38, ../scss/global/variables/_colors.scss */
+/* line 39, ../scss/global/variables/_colors.scss */
 .light-gray-3-text {
   color: #ebf3fa;
 }
 
-/* line 42, ../scss/global/variables/_colors.scss */
+/* line 43, ../scss/global/variables/_colors.scss */
 .light-gray-3-bg {
   background-color: #ebf3fa;
 }
 
-/* line 38, ../scss/global/variables/_colors.scss */
+/* line 39, ../scss/global/variables/_colors.scss */
 .medium-gray-text {
   color: #58595b;
 }
 
-/* line 42, ../scss/global/variables/_colors.scss */
+/* line 43, ../scss/global/variables/_colors.scss */
 .medium-gray-bg {
   background-color: #58595b;
 }
@@ -7366,21 +7366,12 @@ html.mobile-nav-open .nav--wrapper {
   color: #FFFFFF;
 }
 /* line 154, ../scss/components/_blocks.scss */
-<<<<<<< HEAD
-.block.block--funding-priorities-full.background-color--light-blue a, .block.block--funding-priorities-full.background-color--light-blue span {
+.block.block--funding-priorities-full.background-color--blue a, .block.block--funding-priorities-full.background-color--blue span {
   color: #007CBE;
 }
 /* line 159, ../scss/components/_blocks.scss */
-.block.block--funding-priorities-full.background-color--light-blue a:hover .fa-angle-right, .block.block--funding-priorities-full.background-color--light-blue a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--light-blue a:hover .slick-arrow.slick-next, .block.block--funding-priorities-full.background-color--light-blue a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--light-blue a:hover .slider-button.slider-next {
-  color: #FFFFFF;
-=======
-.block.block--funding-priorities-full.background-color--blue a, .block.block--funding-priorities-full.background-color--blue span {
-  color: #007cbe;
-}
-/* line 159, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full.background-color--blue a:hover .fa-angle-right, .block.block--funding-priorities-full.background-color--blue a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--blue a:hover .slick-arrow.slick-next, .block.block--funding-priorities-full.background-color--blue a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--blue a:hover .slider-button.slider-next {
-  color: white;
->>>>>>> features--impact-page-template
+  color: #FFFFFF;
 }
 /* line 165, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full a {
@@ -7413,19 +7404,19 @@ html.mobile-nav-open .nav--wrapper {
 }
 /* line 185, ../scss/components/_blocks.scss */
 .block.block--impact-story-with-image.background-color--green {
-  background-color: #6ea400;
+  background-color: #6EA400;
 }
 /* line 187, ../scss/components/_blocks.scss */
 .block.block--impact-story-with-image.background-color--green .block--content {
-  background-color: #6ea400;
+  background-color: #6EA400;
 }
 /* line 189, ../scss/components/_blocks.scss */
 .block.block--impact-story-with-image.background-color--blue {
-  background-color: #007cbe;
+  background-color: #007CBE;
 }
 /* line 191, ../scss/components/_blocks.scss */
 .block.block--impact-story-with-image.background-color--blue .block--content {
-  background-color: #007cbe;
+  background-color: #007CBE;
 }
 /* line 194, ../scss/components/_blocks.scss */
 .block.block--impact-stories-grid {
@@ -7848,8 +7839,7 @@ html.mobile-nav-open .nav--wrapper {
     padding-left: 31px;
   }
 }
-<<<<<<< HEAD
-/* line 571, ../scss/components/_blocks.scss */
+/* line 593, ../scss/components/_blocks.scss */
 .block-contact-us {
   display: block;
   background-color: #ebf3fa;
@@ -7858,40 +7848,40 @@ html.mobile-nav-open .nav--wrapper {
   max-width: 265px;
   margin: 0 auto;
 }
-/* line 578, ../scss/components/_blocks.scss */
+/* line 600, ../scss/components/_blocks.scss */
 .block-contact-us h4 {
   margin-bottom: 18px;
   color: #052059;
 }
-/* line 582, ../scss/components/_blocks.scss */
+/* line 604, ../scss/components/_blocks.scss */
 .block-contact-us h5 {
   margin-top: 0px;
   margin-bottom: 15px;
 }
-/* line 586, ../scss/components/_blocks.scss */
+/* line 608, ../scss/components/_blocks.scss */
 .block-contact-us a {
   color: #000000;
 }
-/* line 588, ../scss/components/_blocks.scss */
+/* line 610, ../scss/components/_blocks.scss */
 .block-contact-us a:hover {
   color: #000000;
 }
-/* line 593, ../scss/components/_blocks.scss */
+/* line 615, ../scss/components/_blocks.scss */
 .block-contact-us .contact-detail-item {
   display: inline-block;
   width: 100%;
   margin-bottom: 15px;
 }
-/* line 597, ../scss/components/_blocks.scss */
+/* line 619, ../scss/components/_blocks.scss */
 .block-contact-us .contact-detail-item:last-child {
   margin-bottom: 0px;
 }
-/* line 600, ../scss/components/_blocks.scss */
+/* line 622, ../scss/components/_blocks.scss */
 .block-contact-us .contact-detail-item span {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 603, ../scss/components/_blocks.scss */
+/* line 625, ../scss/components/_blocks.scss */
 .block-contact-us .contact-detail-item span.fa, .block-contact-us .contact-detail-item .block.block--funding-priorities span.slick-arrow, .block.block--funding-priorities .block-contact-us .contact-detail-item span.slick-arrow, .block-contact-us .contact-detail-item .block.block--funding-priorities span.slider-button, .block.block--funding-priorities .block-contact-us .contact-detail-item span.slider-button {
   font-size: 1.3rem;
   margin-right: 15px;
@@ -7899,38 +7889,38 @@ html.mobile-nav-open .nav--wrapper {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 613, ../scss/components/_blocks.scss */
+  /* line 635, ../scss/components/_blocks.scss */
   .block-contact-us {
     margin: 0;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 618, ../scss/components/_blocks.scss */
+  /* line 640, ../scss/components/_blocks.scss */
   .block-contact-us {
     margin: 0;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 623, ../scss/components/_blocks.scss */
+  /* line 645, ../scss/components/_blocks.scss */
   .block-contact-us {
     margin: 0;
   }
 }
-/* line 629, ../scss/components/_blocks.scss */
+/* line 651, ../scss/components/_blocks.scss */
 .block-story-nugget {
   position: relative;
   background-color: #F1F1F1;
 }
-/* line 632, ../scss/components/_blocks.scss */
+/* line 654, ../scss/components/_blocks.scss */
 .block-story-nugget:before, .block-story-nugget:after {
   display: table;
   content: " ";
 }
-/* line 636, ../scss/components/_blocks.scss */
+/* line 658, ../scss/components/_blocks.scss */
 .block-story-nugget:after {
   clear: both;
 }
-/* line 639, ../scss/components/_blocks.scss */
+/* line 661, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-display-image {
   position: relative;
   width: 100%;
@@ -7940,100 +7930,98 @@ html.mobile-nav-open .nav--wrapper {
   background-size: cover;
   background-position: center center;
 }
-/* line 648, ../scss/components/_blocks.scss */
+/* line 670, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-data {
   position: relative;
   display: block;
 }
-/* line 651, ../scss/components/_blocks.scss */
+/* line 673, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-data .story-nugget-content--wrapper {
   position: relative;
   display: block;
   top: -45px;
 }
-/* line 657, ../scss/components/_blocks.scss */
+/* line 679, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-title {
   position: relative;
   display: block;
   margin-bottom: 30px;
 }
-/* line 661, ../scss/components/_blocks.scss */
+/* line 683, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-title h4 {
   margin: 0px;
   color: #FFFFFF;
   padding: 20px;
 }
-/* line 665, ../scss/components/_blocks.scss */
+/* line 687, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-title h4.background--green {
   background-color: #6EA400;
 }
-/* line 668, ../scss/components/_blocks.scss */
+/* line 690, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-title h4.background--orange {
   background-color: #F26D04;
 }
-/* line 671, ../scss/components/_blocks.scss */
+/* line 693, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-title h4.background--blue {
   background-color: #007CBE;
 }
-/* line 674, ../scss/components/_blocks.scss */
+/* line 696, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-title h4.background--teal {
   background-color: #058488;
 }
-/* line 679, ../scss/components/_blocks.scss */
+/* line 701, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-content {
   position: relative;
   width: 100%;
 }
-/* line 683, ../scss/components/_blocks.scss */
+/* line 705, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-content p:first-child {
   margin-top: 0px;
 }
-/* line 687, ../scss/components/_blocks.scss */
+/* line 709, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-content .foot-caption {
   font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   color: #58595b;
 }
-/* line 690, ../scss/components/_blocks.scss */
+/* line 712, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-content .foot-caption p {
   font-size: 12px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 699, ../scss/components/_blocks.scss */
+  /* line 721, ../scss/components/_blocks.scss */
   .block-story-nugget .story-nugget-display-image {
     height: 414px;
   }
-  /* line 703, ../scss/components/_blocks.scss */
+  /* line 725, ../scss/components/_blocks.scss */
   .block-story-nugget .story-nugget-title h4 {
     padding: 20px 30px;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 712, ../scss/components/_blocks.scss */
+  /* line 734, ../scss/components/_blocks.scss */
   .block-story-nugget .story-nugget-display-image {
     height: 433px;
   }
-  /* line 715, ../scss/components/_blocks.scss */
+  /* line 737, ../scss/components/_blocks.scss */
   .block-story-nugget .story-nugget-content {
     padding-left: 45px;
     padding-right: 45px;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 724, ../scss/components/_blocks.scss */
+  /* line 746, ../scss/components/_blocks.scss */
   .block-story-nugget .story-nugget-display-image {
     height: 433px;
   }
 }
-=======
-/* line 593, ../scss/components/_blocks.scss */
+/* line 752, ../scss/components/_blocks.scss */
 .impact-stories-wrapper {
   padding-bottom: 20px;
   border-bottom: 1px solid #d1d3d3;
   margin-bottom: 30px;
 }
 
->>>>>>> features--impact-page-template
 /* line 1, ../scss/components/_custom_lists.scss */
 .htmytg-list {
   list-style: none;
