@@ -3587,132 +3587,132 @@ $bp--xxlarge-up : $width-xxlarge;
 
 // Mobile-last queries (USE SPARINGLY)
 $bp--small-down: max-width $width-medium - 1;*/
-/* line 37, ../scss/global/variables/_colors.scss */
+/* line 39, ../scss/global/variables/_colors.scss */
 .oxford-blue-text {
   color: #052059;
 }
 
-/* line 41, ../scss/global/variables/_colors.scss */
+/* line 43, ../scss/global/variables/_colors.scss */
 .oxford-blue-bg {
   background-color: #052059;
 }
 
-/* line 37, ../scss/global/variables/_colors.scss */
+/* line 39, ../scss/global/variables/_colors.scss */
 .light-blue-text {
   color: #007CBE;
 }
 
-/* line 41, ../scss/global/variables/_colors.scss */
+/* line 43, ../scss/global/variables/_colors.scss */
 .light-blue-bg {
   background-color: #007CBE;
 }
 
-/* line 37, ../scss/global/variables/_colors.scss */
+/* line 39, ../scss/global/variables/_colors.scss */
 .yellow-green-text {
   color: #6EA400;
 }
 
-/* line 41, ../scss/global/variables/_colors.scss */
+/* line 43, ../scss/global/variables/_colors.scss */
 .yellow-green-bg {
   background-color: #6EA400;
 }
 
-/* line 37, ../scss/global/variables/_colors.scss */
+/* line 39, ../scss/global/variables/_colors.scss */
 .teal-text {
   color: #058488;
 }
 
-/* line 41, ../scss/global/variables/_colors.scss */
+/* line 43, ../scss/global/variables/_colors.scss */
 .teal-bg {
   background-color: #058488;
 }
 
-/* line 37, ../scss/global/variables/_colors.scss */
+/* line 39, ../scss/global/variables/_colors.scss */
 .orange-text {
   color: #F26D04;
 }
 
-/* line 41, ../scss/global/variables/_colors.scss */
+/* line 43, ../scss/global/variables/_colors.scss */
 .orange-bg {
   background-color: #F26D04;
 }
 
-/* line 37, ../scss/global/variables/_colors.scss */
+/* line 39, ../scss/global/variables/_colors.scss */
 .light-gray-text {
   color: #F1F1F1;
 }
 
-/* line 41, ../scss/global/variables/_colors.scss */
+/* line 43, ../scss/global/variables/_colors.scss */
 .light-gray-bg {
   background-color: #F1F1F1;
 }
 
-/* line 37, ../scss/global/variables/_colors.scss */
+/* line 39, ../scss/global/variables/_colors.scss */
 .light-gray-2-text {
   color: #dadee4;
 }
 
-/* line 41, ../scss/global/variables/_colors.scss */
+/* line 43, ../scss/global/variables/_colors.scss */
 .light-gray-2-bg {
   background-color: #dadee4;
 }
 
-/* line 37, ../scss/global/variables/_colors.scss */
+/* line 39, ../scss/global/variables/_colors.scss */
 .black-text {
   color: #000000;
 }
 
-/* line 41, ../scss/global/variables/_colors.scss */
+/* line 43, ../scss/global/variables/_colors.scss */
 .black-bg {
   background-color: #000000;
 }
 
-/* line 37, ../scss/global/variables/_colors.scss */
+/* line 39, ../scss/global/variables/_colors.scss */
 .black-2-text {
   color: #353a3f;
 }
 
-/* line 41, ../scss/global/variables/_colors.scss */
+/* line 43, ../scss/global/variables/_colors.scss */
 .black-2-bg {
   background-color: #353a3f;
 }
 
-/* line 37, ../scss/global/variables/_colors.scss */
+/* line 39, ../scss/global/variables/_colors.scss */
 .white-text {
   color: #FFFFFF;
 }
 
-/* line 41, ../scss/global/variables/_colors.scss */
+/* line 43, ../scss/global/variables/_colors.scss */
 .white-bg {
   background-color: #FFFFFF;
 }
 
-/* line 37, ../scss/global/variables/_colors.scss */
+/* line 39, ../scss/global/variables/_colors.scss */
 .dark-gray-text {
   color: #B4B9BF;
 }
 
-/* line 41, ../scss/global/variables/_colors.scss */
+/* line 43, ../scss/global/variables/_colors.scss */
 .dark-gray-bg {
   background-color: #B4B9BF;
 }
 
-/* line 37, ../scss/global/variables/_colors.scss */
+/* line 39, ../scss/global/variables/_colors.scss */
 .light-gray-3-text {
   color: #ebf3fa;
 }
 
-/* line 41, ../scss/global/variables/_colors.scss */
+/* line 43, ../scss/global/variables/_colors.scss */
 .light-gray-3-bg {
   background-color: #ebf3fa;
 }
 
-/* line 37, ../scss/global/variables/_colors.scss */
+/* line 39, ../scss/global/variables/_colors.scss */
 .medium-gray-text {
   color: #58595b;
 }
 
-/* line 41, ../scss/global/variables/_colors.scss */
+/* line 43, ../scss/global/variables/_colors.scss */
 .medium-gray-bg {
   background-color: #58595b;
 }
@@ -3780,12 +3780,20 @@ h3 {
 h4 {
   font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
-  font-size: 26px;
+  font-size: 22px;
   line-height: 30px;
 }
 
+/* line 102, ../scss/global/variables/_typography.scss */
+h5 {
+  font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+}
+
 @media screen and (min-width: 768px) {
-  /* line 103, ../scss/global/variables/_typography.scss */
+  /* line 107, ../scss/global/variables/_typography.scss */
   h1 {
     font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
     font-weight: normal;
@@ -3793,7 +3801,7 @@ h4 {
     line-height: 65px;
   }
 
-  /* line 107, ../scss/global/variables/_typography.scss */
+  /* line 111, ../scss/global/variables/_typography.scss */
   h2 {
     font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
     font-weight: normal;
@@ -3801,7 +3809,7 @@ h4 {
     line-height: 45px;
   }
 
-  /* line 111, ../scss/global/variables/_typography.scss */
+  /* line 115, ../scss/global/variables/_typography.scss */
   h3 {
     font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
     font-weight: normal;
@@ -3809,7 +3817,7 @@ h4 {
     line-height: 42px;
   }
 
-  /* line 115, ../scss/global/variables/_typography.scss */
+  /* line 119, ../scss/global/variables/_typography.scss */
   h4 {
     font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-weight: normal;
@@ -3817,7 +3825,7 @@ h4 {
     line-height: 30px;
   }
 }
-/* line 121, ../scss/global/variables/_typography.scss */
+/* line 125, ../scss/global/variables/_typography.scss */
 .granjon-heading-text {
   font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
 }
@@ -6046,130 +6054,187 @@ footer .footer--colum-content, footer .footer--column-links {
     display: none;
   }
 }
-/* line 412, ../scss/layout/component-layout/_global_component.scss */
+/* line 411, ../scss/layout/component-layout/_global_component.scss */
+.ways-to-give-form-small {
+  max-width: 265px;
+  margin: 0 auto;
+}
+/* line 414, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-form-small h4 {
   font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
   color: #052059;
   margin: 0px;
 }
-/* line 417, ../scss/layout/component-layout/_global_component.scss */
+/* line 419, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-form-small .ways-to-give-options--wrapper {
   margin-top: 17px;
 }
-/* line 419, ../scss/layout/component-layout/_global_component.scss */
+/* line 421, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option {
   width: 48%;
   margin-bottom: 4%;
 }
-/* line 422, ../scss/layout/component-layout/_global_component.scss */
+/* line 424, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option:nth-child(odd) {
   margin-right: 4%;
 }
-/* line 425, ../scss/layout/component-layout/_global_component.scss */
+/* line 427, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option:nth-child(even) {
   margin-right: 0;
 }
-/* line 428, ../scss/layout/component-layout/_global_component.scss */
+/* line 430, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option:last-child, .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option:nth-last-child(2) {
   width: 100%;
 }
-/* line 431, ../scss/layout/component-layout/_global_component.scss */
+/* line 433, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option label {
   width: 100%;
 }
-/* line 434, ../scss/layout/component-layout/_global_component.scss */
+/* line 436, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option input[type="text"] {
   width: 100%;
 }
-/* line 437, ../scss/layout/component-layout/_global_component.scss */
+/* line 439, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option.submit-btn {
   display: block;
 }
-/* line 440, ../scss/layout/component-layout/_global_component.scss */
+/* line 442, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option .btn {
   width: 100%;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 449, ../scss/layout/component-layout/_global_component.scss */
+  /* line 450, ../scss/layout/component-layout/_global_component.scss */
+  .ways-to-give-form-small {
+    max-width: 100%;
+    margin: 0;
+  }
+  /* line 453, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small p {
     display: none;
   }
-  /* line 453, ../scss/layout/component-layout/_global_component.scss */
+  /* line 457, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option {
     width: auto;
     margin-bottom: 10px;
     margin-right: 1%;
   }
-  /* line 457, ../scss/layout/component-layout/_global_component.scss */
+  /* line 461, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option:nth-child(odd) {
     margin-right: 1%;
   }
-  /* line 460, ../scss/layout/component-layout/_global_component.scss */
+  /* line 464, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option:nth-child(even) {
     margin-right: 1%;
   }
-  /* line 463, ../scss/layout/component-layout/_global_component.scss */
+  /* line 467, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option:nth-last-child(2) {
     width: auto;
     margin-right: 0px;
   }
-  /* line 467, ../scss/layout/component-layout/_global_component.scss */
+  /* line 471, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option:last-child {
     width: auto;
   }
-  /* line 470, ../scss/layout/component-layout/_global_component.scss */
+  /* line 474, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option label {
     width: 128px;
   }
-  /* line 473, ../scss/layout/component-layout/_global_component.scss */
+  /* line 477, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option input[type="text"] {
     width: 179px;
   }
-  /* line 476, ../scss/layout/component-layout/_global_component.scss */
+  /* line 480, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option.submit-btn {
     display: block;
   }
-  /* line 479, ../scss/layout/component-layout/_global_component.scss */
+  /* line 483, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option .btn {
     width: calc(128px + 111%);
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 490, ../scss/layout/component-layout/_global_component.scss */
+  /* line 493, ../scss/layout/component-layout/_global_component.scss */
+  .ways-to-give-form-small {
+    max-width: 265px;
+  }
+  /* line 495, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small p {
     display: none;
   }
-  /* line 494, ../scss/layout/component-layout/_global_component.scss */
+  /* line 499, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option {
     width: 48%;
     margin-bottom: 4%;
   }
-  /* line 497, ../scss/layout/component-layout/_global_component.scss */
+  /* line 502, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option:nth-child(odd) {
     margin-right: 4%;
   }
-  /* line 500, ../scss/layout/component-layout/_global_component.scss */
+  /* line 505, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option:nth-child(even) {
     margin-right: 0;
   }
-  /* line 503, ../scss/layout/component-layout/_global_component.scss */
+  /* line 508, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option:last-child, .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option:nth-last-child(2) {
     width: 100%;
   }
-  /* line 506, ../scss/layout/component-layout/_global_component.scss */
+  /* line 511, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option label {
     width: 100%;
   }
-  /* line 509, ../scss/layout/component-layout/_global_component.scss */
+  /* line 514, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option input[type="text"] {
     width: 100%;
   }
-  /* line 512, ../scss/layout/component-layout/_global_component.scss */
+  /* line 517, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option.submit-btn {
     display: block;
   }
-  /* line 515, ../scss/layout/component-layout/_global_component.scss */
+  /* line 520, ../scss/layout/component-layout/_global_component.scss */
+  .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option .btn {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 531, ../scss/layout/component-layout/_global_component.scss */
+  .ways-to-give-form-small {
+    max-width: 265px;
+  }
+  /* line 533, ../scss/layout/component-layout/_global_component.scss */
+  .ways-to-give-form-small p {
+    display: none;
+  }
+  /* line 537, ../scss/layout/component-layout/_global_component.scss */
+  .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option {
+    width: 48%;
+    margin-bottom: 4%;
+  }
+  /* line 540, ../scss/layout/component-layout/_global_component.scss */
+  .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option:nth-child(odd) {
+    margin-right: 4%;
+  }
+  /* line 543, ../scss/layout/component-layout/_global_component.scss */
+  .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option:nth-child(even) {
+    margin-right: 0;
+  }
+  /* line 546, ../scss/layout/component-layout/_global_component.scss */
+  .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option:last-child, .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option:nth-last-child(2) {
+    width: 100%;
+  }
+  /* line 549, ../scss/layout/component-layout/_global_component.scss */
+  .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option label {
+    width: 100%;
+  }
+  /* line 552, ../scss/layout/component-layout/_global_component.scss */
+  .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option input[type="text"] {
+    width: 100%;
+  }
+  /* line 555, ../scss/layout/component-layout/_global_component.scss */
+  .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option.submit-btn {
+    display: block;
+  }
+  /* line 558, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option .btn {
     width: 100%;
   }
@@ -7229,22 +7294,12 @@ html.mobile-nav-open .nav--wrapper {
 .block.block--homepage-prefooter .block--content {
   padding-top: 60px;
   padding-bottom: 10px;
-  /*.block--start-fundraiser{
-      h4{
-          margin-bottom: 55px;
-      }
-  }
-  .block--give-to{
-      h4{
-          margin-bottom: 16px;
-      }
-  }*/
 }
 /* line 80, ../scss/components/_blocks.scss */
 .block.block--homepage-prefooter .block--content .block--start-fundraiser p, .block.block--homepage-prefooter .block--content .block--give-to p {
   margin-top: 0;
 }
-/* line 97, ../scss/components/_blocks.scss */
+/* line 86, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full {
   position: relative;
   background-color: #F1F1F1;
@@ -7253,97 +7308,154 @@ html.mobile-nav-open .nav--wrapper {
   padding-left: 15px;
   padding-right: 15px;
 }
-/* line 104, ../scss/components/_blocks.scss */
+/* line 93, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full .block--content-text {
   margin-bottom: 25px;
 }
-/* line 106, ../scss/components/_blocks.scss */
+/* line 95, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full .block--content-text p {
   font-size: 1.2rem;
   line-height: 1.33;
   margin-top: 0;
   margin-bottom: 25px;
 }
-/* line 113, ../scss/components/_blocks.scss */
+/* line 102, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full .block--content-stats .stats-items {
   margin-bottom: 20px;
 }
-/* line 115, ../scss/components/_blocks.scss */
+/* line 104, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full .block--content-stats .stats-items .stats-value {
   font-size: 4.33333rem;
   line-height: 1;
   font-family: granjon-bold, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
   margin-bottom: 5px;
 }
-/* line 120, ../scss/components/_blocks.scss */
+/* line 109, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full .block--content-stats .stats-items .stats-text {
   margin-top: 5px;
   margin-bottom: 0;
 }
-/* line 124, ../scss/components/_blocks.scss */
+/* line 113, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full .block--content-stats .stats-items:last-child {
   margin-bottom: 0;
 }
-/* line 130, ../scss/components/_blocks.scss */
+/* line 119, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full.background-color--teal a, .block.block--funding-priorities-full.background-color--teal span {
   color: #058488;
 }
-/* line 135, ../scss/components/_blocks.scss */
+/* line 124, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full.background-color--teal a:hover .fa-angle-right, .block.block--funding-priorities-full.background-color--teal a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--teal a:hover .slick-arrow.slick-next, .block.block--funding-priorities-full.background-color--teal a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--teal a:hover .slider-button.slider-next {
   color: #FFFFFF;
 }
-/* line 142, ../scss/components/_blocks.scss */
+/* line 131, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full.background-color--green a, .block.block--funding-priorities-full.background-color--green span {
   color: #6EA400;
 }
-/* line 147, ../scss/components/_blocks.scss */
+/* line 136, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full.background-color--green a:hover .fa-angle-right, .block.block--funding-priorities-full.background-color--green a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--green a:hover .slick-arrow.slick-next, .block.block--funding-priorities-full.background-color--green a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--green a:hover .slider-button.slider-next {
   color: #FFFFFF;
 }
-/* line 154, ../scss/components/_blocks.scss */
-.block.block--funding-priorities-full.background-color--light-blue a, .block.block--funding-priorities-full.background-color--light-blue span {
+/* line 143, ../scss/components/_blocks.scss */
+.block.block--funding-priorities-full.background-color--blue a, .block.block--funding-priorities-full.background-color--blue span {
   color: #007CBE;
 }
-/* line 159, ../scss/components/_blocks.scss */
-.block.block--funding-priorities-full.background-color--light-blue a:hover .fa-angle-right, .block.block--funding-priorities-full.background-color--light-blue a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--light-blue a:hover .slick-arrow.slick-next, .block.block--funding-priorities-full.background-color--light-blue a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--light-blue a:hover .slider-button.slider-next {
+/* line 148, ../scss/components/_blocks.scss */
+.block.block--funding-priorities-full.background-color--blue a:hover .fa-angle-right, .block.block--funding-priorities-full.background-color--blue a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--blue a:hover .slick-arrow.slick-next, .block.block--funding-priorities-full.background-color--blue a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--blue a:hover .slider-button.slider-next {
   color: #FFFFFF;
 }
-/* line 165, ../scss/components/_blocks.scss */
+/* line 154, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full a {
   position: absolute;
   bottom: 32px;
 }
-/* line 170, ../scss/components/_blocks.scss */
+/* line 159, ../scss/components/_blocks.scss */
 .block.block--impact-story-with-image {
   position: relative;
 }
-/* line 172, ../scss/components/_blocks.scss */
+/* line 161, ../scss/components/_blocks.scss */
 .block.block--impact-story-with-image .block--content {
   width: 100%;
   padding: 30px 15px;
 }
-/* line 175, ../scss/components/_blocks.scss */
+/* line 164, ../scss/components/_blocks.scss */
 .block.block--impact-story-with-image .block--content h2 {
   margin: 0;
   color: #FFFFFF;
   font-size: 2.53333rem;
   line-height: 1.05;
 }
-/* line 181, ../scss/components/_blocks.scss */
+/* line 170, ../scss/components/_blocks.scss */
 .block.block--impact-story-with-image.background-color--teal {
   background-color: #058488;
 }
-/* line 183, ../scss/components/_blocks.scss */
+/* line 172, ../scss/components/_blocks.scss */
 .block.block--impact-story-with-image.background-color--teal .block--content {
   background-color: #058488;
 }
-
+/* line 174, ../scss/components/_blocks.scss */
+.block.block--impact-story-with-image.background-color--green {
+  background-color: #6EA400;
+}
+/* line 176, ../scss/components/_blocks.scss */
+.block.block--impact-story-with-image.background-color--green .block--content {
+  background-color: #6EA400;
+}
+/* line 178, ../scss/components/_blocks.scss */
+.block.block--impact-story-with-image.background-color--blue {
+  background-color: #007CBE;
+}
+/* line 180, ../scss/components/_blocks.scss */
+.block.block--impact-story-with-image.background-color--blue .block--content {
+  background-color: #007CBE;
+}
+/* line 183, ../scss/components/_blocks.scss */
+.block.block--impact-stories-grid {
+  padding-bottom: 60px;
+}
+/* line 185, ../scss/components/_blocks.scss */
+.block.block--impact-stories-grid .see-more-link {
+  margin-top: 15px;
+}
 /* line 189, ../scss/components/_blocks.scss */
+.block.block--impact-stories-pillar {
+  margin-bottom: 20px;
+}
+/* line 192, ../scss/components/_blocks.scss */
+.block.block--give-block-full-width {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background-color: #F1F1F1;
+}
+/* line 196, ../scss/components/_blocks.scss */
+.block.block--give-block-full-width p {
+  font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 1.46667rem;
+  line-height: 1.14;
+  color: #052059;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+/* line 202, ../scss/components/_blocks.scss */
+.block.block--give-block-full-width p:last-child {
+  margin-bottom: 30px;
+}
+/* line 206, ../scss/components/_blocks.scss */
+.block.block--give-block-full-width a {
+  display: block;
+  max-width: 320px;
+  margin: 0 auto;
+}
+/* line 210, ../scss/components/_blocks.scss */
+.block.block--give-block-full-width a:hover {
+  text-decoration: none;
+}
+
+/* line 218, ../scss/components/_blocks.scss */
 .block--item.block--funding-priorities-items {
   margin: 0 auto;
   margin-bottom: 20px;
 }
-/* line 192, ../scss/components/_blocks.scss */
+/* line 221, ../scss/components/_blocks.scss */
 .block--item.block--funding-priorities-items .block--item-image {
   height: 200px;
   width: 100%;
@@ -7352,7 +7464,7 @@ html.mobile-nav-open .nav--wrapper {
   background-repeat: no-repeat;
   background-position: center center;
 }
-/* line 200, ../scss/components/_blocks.scss */
+/* line 229, ../scss/components/_blocks.scss */
 .block--item.block--funding-priorities-items .block--item-contents {
   background-color: #007CBE;
   height: 170px;
@@ -7360,133 +7472,216 @@ html.mobile-nav-open .nav--wrapper {
   padding: 20px 20px 25px 20px;
   position: relative;
 }
-/* line 206, ../scss/components/_blocks.scss */
+/* line 235, ../scss/components/_blocks.scss */
 .block--item.block--funding-priorities-items .block--item-contents .text {
   font-size: 1.2rem;
   line-height: 1.33;
   margin: 0;
 }
-/* line 210, ../scss/components/_blocks.scss */
+/* line 239, ../scss/components/_blocks.scss */
 .block--item.block--funding-priorities-items .block--item-contents a, .block--item.block--funding-priorities-items .block--item-contents span, .block--item.block--funding-priorities-items .block--item-contents p {
   color: #FFFFFF;
 }
-/* line 213, ../scss/components/_blocks.scss */
+/* line 242, ../scss/components/_blocks.scss */
 .block--item.block--funding-priorities-items .block--item-contents a {
   position: absolute;
   bottom: 25px;
 }
-/* line 217, ../scss/components/_blocks.scss */
+/* line 246, ../scss/components/_blocks.scss */
 .block--item.block--funding-priorities-items .block--item-contents a:hover .fa-angle-right, .block--item.block--funding-priorities-items .block--item-contents a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block--item.block--funding-priorities-items .block--item-contents a:hover .slick-arrow.slick-next, .block--item.block--funding-priorities-items .block--item-contents a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--funding-priorities-items .block--item-contents a:hover .slider-button.slider-next {
   color: #007CBE;
 }
-/* line 224, ../scss/components/_blocks.scss */
+/* line 253, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel {
   margin-bottom: 20px;
   position: relative;
 }
-/* line 227, ../scss/components/_blocks.scss */
+/* line 256, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel, .block--item.block--impact-stories-panel .block--item-image-panel {
   width: 50%;
   height: 100%;
   float: left;
   color: #FFFFFF;
 }
-/* line 233, ../scss/components/_blocks.scss */
+/* line 262, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel {
   padding: 30px;
   position: relative;
 }
-/* line 236, ../scss/components/_blocks.scss */
+/* line 265, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel a, .block--item.block--impact-stories-panel .block--item-colored-panel span, .block--item.block--impact-stories-panel .block--item-colored-panel h4, .block--item.block--impact-stories-panel .block--item-colored-panel p {
   color: #FFFFFF;
 }
-/* line 239, ../scss/components/_blocks.scss */
+/* line 268, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel a {
   position: absolute;
   bottom: 45px;
 }
-/* line 243, ../scss/components/_blocks.scss */
+/* line 272, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel h4, .block--item.block--impact-stories-panel .block--item-colored-panel p {
   margin-top: 0;
 }
-/* line 247, ../scss/components/_blocks.scss */
+/* line 276, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel h4 {
   margin-bottom: 10px;
 }
-/* line 250, ../scss/components/_blocks.scss */
+/* line 279, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel p {
   font-size: 1.2rem;
   line-height: 1.33;
 }
-/* line 253, ../scss/components/_blocks.scss */
+/* line 282, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel.background--green {
   background-color: #6EA400;
 }
-/* line 257, ../scss/components/_blocks.scss */
+/* line 286, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel.background--green a:hover .fa-angle-right, .block--item.block--impact-stories-panel .block--item-colored-panel.background--green a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--green a:hover .slick-arrow.slick-next, .block--item.block--impact-stories-panel .block--item-colored-panel.background--green a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--green a:hover .slider-button.slider-next {
   color: #6EA400;
 }
-/* line 263, ../scss/components/_blocks.scss */
+/* line 292, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel.background--orange {
   background-color: #F26D04;
 }
-/* line 267, ../scss/components/_blocks.scss */
+/* line 296, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel.background--orange a:hover .fa-angle-right, .block--item.block--impact-stories-panel .block--item-colored-panel.background--orange a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--orange a:hover .slick-arrow.slick-next, .block--item.block--impact-stories-panel .block--item-colored-panel.background--orange a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--orange a:hover .slider-button.slider-next {
   color: #F26D04;
 }
-/* line 273, ../scss/components/_blocks.scss */
+/* line 302, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel.background--blue {
   background-color: #007CBE;
 }
-/* line 277, ../scss/components/_blocks.scss */
+/* line 306, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel.background--blue a:hover .fa-angle-right, .block--item.block--impact-stories-panel .block--item-colored-panel.background--blue a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--blue a:hover .slick-arrow.slick-next, .block--item.block--impact-stories-panel .block--item-colored-panel.background--blue a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--blue a:hover .slider-button.slider-next {
   color: #007CBE;
 }
-/* line 285, ../scss/components/_blocks.scss */
+/* line 312, ../scss/components/_blocks.scss */
+.block--item.block--impact-stories-panel .block--item-colored-panel.background--teal {
+  background-color: #058488;
+}
+/* line 316, ../scss/components/_blocks.scss */
+.block--item.block--impact-stories-panel .block--item-colored-panel.background--teal a:hover .fa-angle-right, .block--item.block--impact-stories-panel .block--item-colored-panel.background--teal a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--teal a:hover .slick-arrow.slick-next, .block--item.block--impact-stories-panel .block--item-colored-panel.background--teal a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--teal a:hover .slider-button.slider-next {
+  color: #058488;
+}
+/* line 324, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-image-panel .image-display {
   height: 100%;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
+/* line 332, ../scss/components/_blocks.scss */
+.block--item.block-item--impact-story-small {
+  position: relative;
+  margin-bottom: 20px;
+}
+/* line 336, ../scss/components/_blocks.scss */
+.block--item.block-item--impact-story-small a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+/* line 339, ../scss/components/_blocks.scss */
+.block--item.block-item--impact-story-small a:hover {
+  text-decoration: none;
+}
+/* line 343, ../scss/components/_blocks.scss */
+.block--item.block-item--impact-story-small .block--item-content {
+  background-color: #F1F1F1;
+  height: 140px;
+  width: 100%;
+  padding: 20px;
+}
+/* line 348, ../scss/components/_blocks.scss */
+.block--item.block-item--impact-story-small .block--item-content .category {
+  font-size: 0.66667rem;
+  line-height: 2.2;
+  color: #FFFFFF;
+  text-align: center;
+  width: 112px;
+  height: 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+}
+/* line 361, ../scss/components/_blocks.scss */
+.block--item.block-item--impact-story-small .block--item-content .category.background--light-blue {
+  background-color: #007CBE;
+}
+/* line 364, ../scss/components/_blocks.scss */
+.block--item.block-item--impact-story-small .block--item-content .category.background--green {
+  background-color: #6EA400;
+}
+/* line 367, ../scss/components/_blocks.scss */
+.block--item.block-item--impact-story-small .block--item-content .category.background--teal {
+  background-color: #058488;
+}
+/* line 372, ../scss/components/_blocks.scss */
+.block--item.block-item--impact-story-small .block--item-content p {
+  margin: 0;
+}
+/* line 376, ../scss/components/_blocks.scss */
+.block--item.block-item--impact-story-small .block--item-content .category, .block--item.block-item--impact-story-small .block--item-content .date {
+  font-family: HelveticaNeue-bold, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+/* line 380, ../scss/components/_blocks.scss */
+.block--item.block-item--impact-story-small .block--item-content .date {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: #989898;
+  margin-top: 12px;
+  margin-bottom: 5px;
+}
+/* line 387, ../scss/components/_blocks.scss */
+.block--item.block-item--impact-story-small .block--item-content .content_text {
+  font-size: 1.06667rem;
+  line-height: 1.25;
+  color: #58595b;
+}
+
+/* line 395, ../scss/components/_blocks.scss */
+.impact-stories-wrapper {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #d1d3d3;
+  margin-bottom: 30px;
+}
 
 @media all and (max-width: 767px) {
-  /* line 297, ../scss/components/_blocks.scss */
+  /* line 404, ../scss/components/_blocks.scss */
   .block h3 {
     font-size: 2rem;
     line-height: 1.13;
   }
-  /* line 300, ../scss/components/_blocks.scss */
+  /* line 407, ../scss/components/_blocks.scss */
   .block h4 {
     font-size: 1.46667rem;
     line-height: 1.14;
   }
-  /* line 303, ../scss/components/_blocks.scss */
+  /* line 410, ../scss/components/_blocks.scss */
   .block.block--impact-stories {
     margin-bottom: 20px;
   }
-  /* line 307, ../scss/components/_blocks.scss */
+  /* line 414, ../scss/components/_blocks.scss */
   .block.block--homepage-prefooter h4 {
     margin-bottom: 10px;
   }
-  /* line 310, ../scss/components/_blocks.scss */
+  /* line 417, ../scss/components/_blocks.scss */
   .block.block--homepage-prefooter p {
     margin-bottom: 20px;
   }
-  /* line 313, ../scss/components/_blocks.scss */
+  /* line 420, ../scss/components/_blocks.scss */
   .block.block--homepage-prefooter .block--start-fundraiser, .block.block--homepage-prefooter .block--give-to {
     margin-bottom: 50px;
   }
 
-  /* line 319, ../scss/components/_blocks.scss */
+  /* line 426, ../scss/components/_blocks.scss */
   .block--item.block--impact-stories-panel {
     padding: 170px 15px 0;
   }
-  /* line 322, ../scss/components/_blocks.scss */
+  /* line 429, ../scss/components/_blocks.scss */
   .block--item.block--impact-stories-panel .block--item-image-panel, .block--item.block--impact-stories-panel .block--item-colored-panel {
     float: none;
   }
-  /* line 325, ../scss/components/_blocks.scss */
+  /* line 432, ../scss/components/_blocks.scss */
   .block--item.block--impact-stories-panel .block--item-image-panel {
     width: 100%;
     height: 208px;
@@ -7495,168 +7690,389 @@ html.mobile-nav-open .nav--wrapper {
     left: 0;
     z-index: -1;
   }
-  /* line 333, ../scss/components/_blocks.scss */
+  /* line 440, ../scss/components/_blocks.scss */
   .block--item.block--impact-stories-panel .block--item-colored-panel {
     height: 410px;
     width: 100%;
     padding: 25px;
   }
-  /* line 337, ../scss/components/_blocks.scss */
+  /* line 444, ../scss/components/_blocks.scss */
   .block--item.block--impact-stories-panel .block--item-colored-panel h4 {
     font-size: 1.46667rem;
     line-height: 1.14;
   }
 }
 @media all and (max-width: 1023px) {
-  /* line 347, ../scss/components/_blocks.scss */
+  /* line 454, ../scss/components/_blocks.scss */
   .block--item.block--funding-priorities-items {
     max-width: 100%;
   }
-  /* line 349, ../scss/components/_blocks.scss */
+  /* line 456, ../scss/components/_blocks.scss */
   .block--item.block--funding-priorities-items .block--item-image {
     display: none;
   }
 }
 @media all and (min-width: 768px) {
-  /* line 358, ../scss/components/_blocks.scss */
+  /* line 465, ../scss/components/_blocks.scss */
   .block.block--homepage-prefooter {
     height: 330px;
   }
-  /* line 360, ../scss/components/_blocks.scss */
+  /* line 467, ../scss/components/_blocks.scss */
   .block.block--homepage-prefooter .btn {
     display: inline-block;
     width: 270px;
     position: absolute;
     bottom: 0;
   }
-  /* line 366, ../scss/components/_blocks.scss */
+  /* line 473, ../scss/components/_blocks.scss */
   .block.block--homepage-prefooter .block--content {
     padding-bottom: 60px;
   }
-  /* line 368, ../scss/components/_blocks.scss */
+  /* line 475, ../scss/components/_blocks.scss */
   .block.block--homepage-prefooter .block--content .block--give-to, .block.block--homepage-prefooter .block--content .block--start-fundraiser {
     height: 210px;
   }
-  /* line 370, ../scss/components/_blocks.scss */
+  /* line 477, ../scss/components/_blocks.scss */
   .block.block--homepage-prefooter .block--content .block--give-to p, .block.block--homepage-prefooter .block--content .block--start-fundraiser p {
     position: absolute;
     margin: 0;
     bottom: 80px;
   }
-  /* line 380, ../scss/components/_blocks.scss */
+  /* line 487, ../scss/components/_blocks.scss */
   .block.block--funding-priorities-full .block--content-stats .stats-text {
     color: #052059;
     font-size: 0.8rem;
     line-height: 1.5;
   }
-  /* line 385, ../scss/components/_blocks.scss */
+  /* line 492, ../scss/components/_blocks.scss */
   .block.block--funding-priorities-full a {
     position: absolute;
     bottom: 42px;
   }
-  /* line 390, ../scss/components/_blocks.scss */
+  /* line 497, ../scss/components/_blocks.scss */
   .block.block--impact-story-with-image {
     height: 265px;
     background-size: cover;
     background-position: center center;
   }
-  /* line 394, ../scss/components/_blocks.scss */
+  /* line 501, ../scss/components/_blocks.scss */
   .block.block--impact-story-with-image .block--content {
     height: auto;
     position: absolute;
     bottom: 0;
   }
-  /* line 398, ../scss/components/_blocks.scss */
-  .block.block--impact-story-with-image .block--content h2 {
-    text-align: center;
+  /* line 507, ../scss/components/_blocks.scss */
+  .block.block--give-block-full-width {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  /* line 510, ../scss/components/_blocks.scss */
+  .block.block--give-block-full-width p {
+    margin-bottom: 10px;
+    font-size: 1.73333rem;
+    line-height: 1.15;
+  }
+  /* line 513, ../scss/components/_blocks.scss */
+  .block.block--give-block-full-width p:last-child {
+    margin-bottom: 10px;
+  }
+  /* line 517, ../scss/components/_blocks.scss */
+  .block.block--give-block-full-width a {
+    float: right;
+    width: 270px;
   }
 
-  /* line 405, ../scss/components/_blocks.scss */
+  /* line 524, ../scss/components/_blocks.scss */
   .block--item.block--impact-stories-panel {
     height: 330px;
   }
-  /* line 407, ../scss/components/_blocks.scss */
+  /* line 526, ../scss/components/_blocks.scss */
   .block--item.block--impact-stories-panel .block--give-to, .block--item.block--impact-stories-panel .block--start-fundraiser {
     height: 210px;
   }
 }
 @media all and (min-width: 1024px) {
-  /* line 418, ../scss/components/_blocks.scss */
+  /* line 537, ../scss/components/_blocks.scss */
   .block.block--funding-priorities .slick-arrow.slick-prev {
     left: -50px;
   }
-  /* line 421, ../scss/components/_blocks.scss */
+  /* line 540, ../scss/components/_blocks.scss */
   .block.block--funding-priorities .slick-arrow.slick-next {
     right: -50px;
   }
-  /* line 426, ../scss/components/_blocks.scss */
+  /* line 545, ../scss/components/_blocks.scss */
   .block.block--impact-story-with-image {
     height: 450px;
   }
 
-  /* line 431, ../scss/components/_blocks.scss */
+  /* line 549, ../scss/components/_blocks.scss */
+  .block--item {
+    /*&.block-item--impact-story-small{
+        .block--item-content{
+            width: 270px;
+        }
+    }*/
+  }
+  /* line 550, ../scss/components/_blocks.scss */
   .block--item.block--funding-priorities-items {
+    float: left;
+  }
+  /* line 552, ../scss/components/_blocks.scss */
+  .block--item.block--funding-priorities-items .block--content {
     width: 270px;
   }
 }
 @media all and (min-width: 1200px) and (max-width: 1315px) {
-  /* line 440, ../scss/components/_blocks.scss */
+  /* line 567, ../scss/components/_blocks.scss */
   .block.block--funding-priorities .slick-arrow.slick-prev {
     left: -35px;
   }
-  /* line 443, ../scss/components/_blocks.scss */
+  /* line 570, ../scss/components/_blocks.scss */
   .block.block--funding-priorities .slick-arrow.slick-next {
     right: -50px;
   }
 }
-/* line 451, ../scss/components/_blocks.scss */
+/* line 578, ../scss/components/_blocks.scss */
 .block-honor-page-body .body-give-link {
   margin-top: 20px;
   margin-bottom: 30px;
 }
-/* line 454, ../scss/components/_blocks.scss */
+/* line 581, ../scss/components/_blocks.scss */
 .block-honor-page-body .body-give-link a {
   width: 100%;
 }
-/* line 456, ../scss/components/_blocks.scss */
+/* line 583, ../scss/components/_blocks.scss */
 .block-honor-page-body .body-give-link a.btn--primary-small {
   display: none;
 }
-/* line 459, ../scss/components/_blocks.scss */
+/* line 586, ../scss/components/_blocks.scss */
 .block-honor-page-body .body-give-link a.btn--primary {
   display: inline-block;
 }
-/* line 465, ../scss/components/_blocks.scss */
+/* line 592, ../scss/components/_blocks.scss */
 .block-honor-page-body .note strong {
   font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
-/* line 469, ../scss/components/_blocks.scss */
+/* line 596, ../scss/components/_blocks.scss */
 .block-honor-page-body .non-list-item {
   padding-left: 0px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 477, ../scss/components/_blocks.scss */
+  /* line 604, ../scss/components/_blocks.scss */
   .block-honor-page-body .body-give-link {
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  /* line 480, ../scss/components/_blocks.scss */
+  /* line 607, ../scss/components/_blocks.scss */
   .block-honor-page-body .body-give-link a {
     width: auto;
   }
-  /* line 482, ../scss/components/_blocks.scss */
+  /* line 609, ../scss/components/_blocks.scss */
   .block-honor-page-body .body-give-link a.btn--primary-small {
     display: inline-block;
   }
-  /* line 485, ../scss/components/_blocks.scss */
+  /* line 612, ../scss/components/_blocks.scss */
   .block-honor-page-body .body-give-link a.btn--primary {
     display: none;
   }
-  /* line 490, ../scss/components/_blocks.scss */
+  /* line 617, ../scss/components/_blocks.scss */
   .block-honor-page-body .non-list-item {
     margin-bottom: 20px;
     padding-left: 31px;
+  }
+}
+/* line 624, ../scss/components/_blocks.scss */
+.block-contact-us {
+  display: block;
+  background-color: #ebf3fa;
+  color: #000000;
+  padding: 30px;
+  max-width: 265px;
+  margin: 0 auto;
+}
+/* line 631, ../scss/components/_blocks.scss */
+.block-contact-us h4 {
+  margin-bottom: 18px;
+  color: #052059;
+}
+/* line 635, ../scss/components/_blocks.scss */
+.block-contact-us h5 {
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+/* line 639, ../scss/components/_blocks.scss */
+.block-contact-us a {
+  color: #000000;
+}
+/* line 641, ../scss/components/_blocks.scss */
+.block-contact-us a:hover {
+  color: #000000;
+}
+/* line 646, ../scss/components/_blocks.scss */
+.block-contact-us .contact-detail-item {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 15px;
+}
+/* line 650, ../scss/components/_blocks.scss */
+.block-contact-us .contact-detail-item:last-child {
+  margin-bottom: 0px;
+}
+/* line 653, ../scss/components/_blocks.scss */
+.block-contact-us .contact-detail-item span {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 656, ../scss/components/_blocks.scss */
+.block-contact-us .contact-detail-item span.fa, .block-contact-us .contact-detail-item .block.block--funding-priorities span.slick-arrow, .block.block--funding-priorities .block-contact-us .contact-detail-item span.slick-arrow, .block-contact-us .contact-detail-item .block.block--funding-priorities span.slider-button, .block.block--funding-priorities .block-contact-us .contact-detail-item span.slider-button {
+  font-size: 1.3rem;
+  margin-right: 15px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (min-width: 768px) {
+  /* line 666, ../scss/components/_blocks.scss */
+  .block-contact-us {
+    margin: 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* line 671, ../scss/components/_blocks.scss */
+  .block-contact-us {
+    margin: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 676, ../scss/components/_blocks.scss */
+  .block-contact-us {
+    margin: 0;
+  }
+}
+/* line 682, ../scss/components/_blocks.scss */
+.block-story-nugget {
+  position: relative;
+  background-color: #F1F1F1;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+/* line 687, ../scss/components/_blocks.scss */
+.block-story-nugget:before, .block-story-nugget:after {
+  display: table;
+  content: " ";
+}
+/* line 691, ../scss/components/_blocks.scss */
+.block-story-nugget:after {
+  clear: both;
+}
+/* line 694, ../scss/components/_blocks.scss */
+.block-story-nugget .story-nugget-display-image {
+  position: relative;
+  width: 100%;
+  height: calc(100vw * 0.575);
+  background-color: #F1F1F1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 703, ../scss/components/_blocks.scss */
+.block-story-nugget .story-nugget-data {
+  position: relative;
+  display: block;
+}
+/* line 706, ../scss/components/_blocks.scss */
+.block-story-nugget .story-nugget-data .story-nugget-content--wrapper {
+  position: relative;
+  display: block;
+  top: -45px;
+}
+/* line 712, ../scss/components/_blocks.scss */
+.block-story-nugget .story-nugget-title {
+  position: relative;
+  display: block;
+  margin-bottom: 30px;
+}
+/* line 716, ../scss/components/_blocks.scss */
+.block-story-nugget .story-nugget-title h4 {
+  margin: 0px;
+  color: #FFFFFF;
+  padding: 20px;
+}
+/* line 720, ../scss/components/_blocks.scss */
+.block-story-nugget .story-nugget-title h4.background--green {
+  background-color: #6EA400;
+}
+/* line 723, ../scss/components/_blocks.scss */
+.block-story-nugget .story-nugget-title h4.background--orange {
+  background-color: #F26D04;
+}
+/* line 726, ../scss/components/_blocks.scss */
+.block-story-nugget .story-nugget-title h4.background--blue {
+  background-color: #007CBE;
+}
+/* line 729, ../scss/components/_blocks.scss */
+.block-story-nugget .story-nugget-title h4.background--teal {
+  background-color: #058488;
+}
+/* line 734, ../scss/components/_blocks.scss */
+.block-story-nugget .story-nugget-content {
+  position: relative;
+  width: 100%;
+}
+/* line 738, ../scss/components/_blocks.scss */
+.block-story-nugget .story-nugget-content p:first-child {
+  margin-top: 0px;
+}
+/* line 742, ../scss/components/_blocks.scss */
+.block-story-nugget .story-nugget-content .foot-caption {
+  font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  color: #58595b;
+}
+/* line 745, ../scss/components/_blocks.scss */
+.block-story-nugget .story-nugget-content .foot-caption p {
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 753, ../scss/components/_blocks.scss */
+  .block-story-nugget {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  /* line 756, ../scss/components/_blocks.scss */
+  .block-story-nugget .story-nugget-display-image {
+    height: 414px;
+  }
+  /* line 760, ../scss/components/_blocks.scss */
+  .block-story-nugget .story-nugget-title h4 {
+    padding: 20px 30px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* line 768, ../scss/components/_blocks.scss */
+  .block-story-nugget {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  /* line 771, ../scss/components/_blocks.scss */
+  .block-story-nugget .story-nugget-display-image {
+    height: 433px;
+  }
+  /* line 774, ../scss/components/_blocks.scss */
+  .block-story-nugget .story-nugget-content {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 782, ../scss/components/_blocks.scss */
+  .block-story-nugget {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  /* line 785, ../scss/components/_blocks.scss */
+  .block-story-nugget .story-nugget-display-image {
+    height: 433px;
   }
 }
 /* line 1, ../scss/components/_custom_lists.scss */

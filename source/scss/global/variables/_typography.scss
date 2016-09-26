@@ -96,7 +96,11 @@ h3 {
 }
 
 h4 {
-    @include heading-definition($text-body--medium, 26, 30px, normal);
+    @include heading-definition($text-body--medium, 22, 30px, normal);
+}
+
+h5 {
+    @include heading-definition($text-body--light, 20, 25px, normal);
 }
 
 @media screen and (min-width: $bp--small-up) {
