@@ -150,7 +150,7 @@
                 }
             }
         }
-        &.background-color--light-blue{
+        &.background-color--blue{
             a, span{
                 color: $color--light-blue;
             }
@@ -182,11 +182,23 @@
             background-color: $color--teal;
             .block--content{ background-color: $color--teal; }
         }
+        &.background-color--green{
+            background-color: $color--yellow-green;
+            .block--content{ background-color: $color--yellow-green; }
+        }
+        &.background-color--blue{
+            background-color: $color--light-blue;
+            .block--content{ background-color: $color--light-blue; }
+        }
     }
     &.block--impact-stories-grid{
+        padding-bottom: 60px;
         .see-more-link{
             margin-top: 15px;
         }
+    }
+    &.block--impact-stories-pillar{
+        margin-bottom: 20px;
     }
 }
 
@@ -281,6 +293,16 @@
                     &:hover{
                         .fa-angle-right{
                             color: $color--light-blue;
+                        }
+                    }
+                }
+            }
+            &.background--teal{
+                background-color: $color--teal;
+                a{
+                    &:hover{
+                        .fa-angle-right{
+                            color: $color--teal;
                         }
                     }
                 }
@@ -461,9 +483,9 @@
                 height: auto;
                 position: absolute;
                 bottom: 0;
-                h2{
+/*                h2{
                     text-align:center;
-                }
+                }*/
             }
         }
     }
@@ -568,6 +590,7 @@
     }
 }
 
+<<<<<<< HEAD
 .block-contact-us {
     display: block;
     background-color: $color--light-gray-3;
@@ -726,3 +749,10 @@
         }
     }
 }
+=======
+.impact-stories-wrapper{
+    padding-bottom: 20px;
+    border-bottom: 1px solid $color--border-impact-stories-pillar;
+    margin-bottom: 30px;
+}
+>>>>>>> features--impact-page-template

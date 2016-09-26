@@ -7366,12 +7366,21 @@ html.mobile-nav-open .nav--wrapper {
   color: #FFFFFF;
 }
 /* line 154, ../scss/components/_blocks.scss */
+<<<<<<< HEAD
 .block.block--funding-priorities-full.background-color--light-blue a, .block.block--funding-priorities-full.background-color--light-blue span {
   color: #007CBE;
 }
 /* line 159, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full.background-color--light-blue a:hover .fa-angle-right, .block.block--funding-priorities-full.background-color--light-blue a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--light-blue a:hover .slick-arrow.slick-next, .block.block--funding-priorities-full.background-color--light-blue a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--light-blue a:hover .slider-button.slider-next {
   color: #FFFFFF;
+=======
+.block.block--funding-priorities-full.background-color--blue a, .block.block--funding-priorities-full.background-color--blue span {
+  color: #007cbe;
+}
+/* line 159, ../scss/components/_blocks.scss */
+.block.block--funding-priorities-full.background-color--blue a:hover .fa-angle-right, .block.block--funding-priorities-full.background-color--blue a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--blue a:hover .slick-arrow.slick-next, .block.block--funding-priorities-full.background-color--blue a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--blue a:hover .slider-button.slider-next {
+  color: white;
+>>>>>>> features--impact-page-template
 }
 /* line 165, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full a {
@@ -7402,17 +7411,41 @@ html.mobile-nav-open .nav--wrapper {
 .block.block--impact-story-with-image.background-color--teal .block--content {
   background-color: #058488;
 }
+/* line 185, ../scss/components/_blocks.scss */
+.block.block--impact-story-with-image.background-color--green {
+  background-color: #6ea400;
+}
 /* line 187, ../scss/components/_blocks.scss */
+.block.block--impact-story-with-image.background-color--green .block--content {
+  background-color: #6ea400;
+}
+/* line 189, ../scss/components/_blocks.scss */
+.block.block--impact-story-with-image.background-color--blue {
+  background-color: #007cbe;
+}
+/* line 191, ../scss/components/_blocks.scss */
+.block.block--impact-story-with-image.background-color--blue .block--content {
+  background-color: #007cbe;
+}
+/* line 194, ../scss/components/_blocks.scss */
+.block.block--impact-stories-grid {
+  padding-bottom: 60px;
+}
+/* line 196, ../scss/components/_blocks.scss */
 .block.block--impact-stories-grid .see-more-link {
   margin-top: 15px;
 }
+/* line 200, ../scss/components/_blocks.scss */
+.block.block--impact-stories-pillar {
+  margin-bottom: 20px;
+}
 
-/* line 194, ../scss/components/_blocks.scss */
+/* line 206, ../scss/components/_blocks.scss */
 .block--item.block--funding-priorities-items {
   margin: 0 auto;
   margin-bottom: 20px;
 }
-/* line 197, ../scss/components/_blocks.scss */
+/* line 209, ../scss/components/_blocks.scss */
 .block--item.block--funding-priorities-items .block--item-image {
   height: 200px;
   width: 100%;
@@ -7421,7 +7454,7 @@ html.mobile-nav-open .nav--wrapper {
   background-repeat: no-repeat;
   background-position: center center;
 }
-/* line 205, ../scss/components/_blocks.scss */
+/* line 217, ../scss/components/_blocks.scss */
 .block--item.block--funding-priorities-items .block--item-contents {
   background-color: #007CBE;
   height: 170px;
@@ -7429,117 +7462,125 @@ html.mobile-nav-open .nav--wrapper {
   padding: 20px 20px 25px 20px;
   position: relative;
 }
-/* line 211, ../scss/components/_blocks.scss */
+/* line 223, ../scss/components/_blocks.scss */
 .block--item.block--funding-priorities-items .block--item-contents .text {
   font-size: 1.2rem;
   line-height: 1.33;
   margin: 0;
 }
-/* line 215, ../scss/components/_blocks.scss */
+/* line 227, ../scss/components/_blocks.scss */
 .block--item.block--funding-priorities-items .block--item-contents a, .block--item.block--funding-priorities-items .block--item-contents span, .block--item.block--funding-priorities-items .block--item-contents p {
   color: #FFFFFF;
 }
-/* line 218, ../scss/components/_blocks.scss */
+/* line 230, ../scss/components/_blocks.scss */
 .block--item.block--funding-priorities-items .block--item-contents a {
   position: absolute;
   bottom: 25px;
 }
-/* line 222, ../scss/components/_blocks.scss */
+/* line 234, ../scss/components/_blocks.scss */
 .block--item.block--funding-priorities-items .block--item-contents a:hover .fa-angle-right, .block--item.block--funding-priorities-items .block--item-contents a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block--item.block--funding-priorities-items .block--item-contents a:hover .slick-arrow.slick-next, .block--item.block--funding-priorities-items .block--item-contents a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--funding-priorities-items .block--item-contents a:hover .slider-button.slider-next {
   color: #007CBE;
 }
-/* line 229, ../scss/components/_blocks.scss */
+/* line 241, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel {
   margin-bottom: 20px;
   position: relative;
 }
-/* line 232, ../scss/components/_blocks.scss */
+/* line 244, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel, .block--item.block--impact-stories-panel .block--item-image-panel {
   width: 50%;
   height: 100%;
   float: left;
   color: #FFFFFF;
 }
-/* line 238, ../scss/components/_blocks.scss */
+/* line 250, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel {
   padding: 30px;
   position: relative;
 }
-/* line 241, ../scss/components/_blocks.scss */
+/* line 253, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel a, .block--item.block--impact-stories-panel .block--item-colored-panel span, .block--item.block--impact-stories-panel .block--item-colored-panel h4, .block--item.block--impact-stories-panel .block--item-colored-panel p {
   color: #FFFFFF;
 }
-/* line 244, ../scss/components/_blocks.scss */
+/* line 256, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel a {
   position: absolute;
   bottom: 45px;
 }
-/* line 248, ../scss/components/_blocks.scss */
+/* line 260, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel h4, .block--item.block--impact-stories-panel .block--item-colored-panel p {
   margin-top: 0;
 }
-/* line 252, ../scss/components/_blocks.scss */
+/* line 264, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel h4 {
   margin-bottom: 10px;
 }
-/* line 255, ../scss/components/_blocks.scss */
+/* line 267, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel p {
   font-size: 1.2rem;
   line-height: 1.33;
 }
-/* line 258, ../scss/components/_blocks.scss */
+/* line 270, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel.background--green {
   background-color: #6EA400;
 }
-/* line 262, ../scss/components/_blocks.scss */
+/* line 274, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel.background--green a:hover .fa-angle-right, .block--item.block--impact-stories-panel .block--item-colored-panel.background--green a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--green a:hover .slick-arrow.slick-next, .block--item.block--impact-stories-panel .block--item-colored-panel.background--green a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--green a:hover .slider-button.slider-next {
   color: #6EA400;
 }
-/* line 268, ../scss/components/_blocks.scss */
+/* line 280, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel.background--orange {
   background-color: #F26D04;
 }
-/* line 272, ../scss/components/_blocks.scss */
+/* line 284, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel.background--orange a:hover .fa-angle-right, .block--item.block--impact-stories-panel .block--item-colored-panel.background--orange a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--orange a:hover .slick-arrow.slick-next, .block--item.block--impact-stories-panel .block--item-colored-panel.background--orange a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--orange a:hover .slider-button.slider-next {
   color: #F26D04;
 }
-/* line 278, ../scss/components/_blocks.scss */
+/* line 290, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel.background--blue {
   background-color: #007CBE;
 }
-/* line 282, ../scss/components/_blocks.scss */
+/* line 294, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel.background--blue a:hover .fa-angle-right, .block--item.block--impact-stories-panel .block--item-colored-panel.background--blue a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--blue a:hover .slick-arrow.slick-next, .block--item.block--impact-stories-panel .block--item-colored-panel.background--blue a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--blue a:hover .slider-button.slider-next {
   color: #007CBE;
 }
-/* line 290, ../scss/components/_blocks.scss */
+/* line 300, ../scss/components/_blocks.scss */
+.block--item.block--impact-stories-panel .block--item-colored-panel.background--teal {
+  background-color: #058488;
+}
+/* line 304, ../scss/components/_blocks.scss */
+.block--item.block--impact-stories-panel .block--item-colored-panel.background--teal a:hover .fa-angle-right, .block--item.block--impact-stories-panel .block--item-colored-panel.background--teal a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--teal a:hover .slick-arrow.slick-next, .block--item.block--impact-stories-panel .block--item-colored-panel.background--teal a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--teal a:hover .slider-button.slider-next {
+  color: #058488;
+}
+/* line 312, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-image-panel .image-display {
   height: 100%;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
-/* line 298, ../scss/components/_blocks.scss */
+/* line 320, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small {
   position: relative;
   margin-bottom: 20px;
 }
-/* line 302, ../scss/components/_blocks.scss */
+/* line 324, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small a {
   color: #FFFFFF;
   text-decoration: none;
 }
-/* line 305, ../scss/components/_blocks.scss */
+/* line 327, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small a:hover {
   text-decoration: none;
 }
-/* line 309, ../scss/components/_blocks.scss */
+/* line 331, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small .block--item-content {
   background-color: #F1F1F1;
   height: 140px;
   width: 100%;
   padding: 20px;
 }
-/* line 314, ../scss/components/_blocks.scss */
+/* line 336, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small .block--item-content .category {
   font-size: 0.66667rem;
   line-height: 2.2;
@@ -7552,27 +7593,27 @@ html.mobile-nav-open .nav--wrapper {
   left: 0;
   background-color: #000000;
 }
-/* line 327, ../scss/components/_blocks.scss */
+/* line 349, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small .block--item-content .category.background--light-blue {
   background-color: #007CBE;
 }
-/* line 330, ../scss/components/_blocks.scss */
+/* line 352, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small .block--item-content .category.background--green {
   background-color: #6EA400;
 }
-/* line 333, ../scss/components/_blocks.scss */
+/* line 355, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small .block--item-content .category.background--teal {
   background-color: #058488;
 }
-/* line 338, ../scss/components/_blocks.scss */
+/* line 360, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small .block--item-content p {
   margin: 0;
 }
-/* line 342, ../scss/components/_blocks.scss */
+/* line 364, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small .block--item-content .category, .block--item.block-item--impact-story-small .block--item-content .date {
   font-family: HelveticaNeue-bold, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
-/* line 346, ../scss/components/_blocks.scss */
+/* line 368, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small .block--item-content .date {
   font-size: 0.8rem;
   line-height: 1.5;
@@ -7580,7 +7621,7 @@ html.mobile-nav-open .nav--wrapper {
   margin-top: 12px;
   margin-bottom: 5px;
 }
-/* line 353, ../scss/components/_blocks.scss */
+/* line 375, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small .block--item-content .content_text {
   font-size: 1.06667rem;
   line-height: 1.25;
@@ -7588,42 +7629,42 @@ html.mobile-nav-open .nav--wrapper {
 }
 
 @media all and (max-width: 767px) {
-  /* line 363, ../scss/components/_blocks.scss */
+  /* line 385, ../scss/components/_blocks.scss */
   .block h3 {
     font-size: 2rem;
     line-height: 1.13;
   }
-  /* line 366, ../scss/components/_blocks.scss */
+  /* line 388, ../scss/components/_blocks.scss */
   .block h4 {
     font-size: 1.46667rem;
     line-height: 1.14;
   }
-  /* line 369, ../scss/components/_blocks.scss */
+  /* line 391, ../scss/components/_blocks.scss */
   .block.block--impact-stories {
     margin-bottom: 20px;
   }
-  /* line 373, ../scss/components/_blocks.scss */
+  /* line 395, ../scss/components/_blocks.scss */
   .block.block--homepage-prefooter h4 {
     margin-bottom: 10px;
   }
-  /* line 376, ../scss/components/_blocks.scss */
+  /* line 398, ../scss/components/_blocks.scss */
   .block.block--homepage-prefooter p {
     margin-bottom: 20px;
   }
-  /* line 379, ../scss/components/_blocks.scss */
+  /* line 401, ../scss/components/_blocks.scss */
   .block.block--homepage-prefooter .block--start-fundraiser, .block.block--homepage-prefooter .block--give-to {
     margin-bottom: 50px;
   }
 
-  /* line 385, ../scss/components/_blocks.scss */
+  /* line 407, ../scss/components/_blocks.scss */
   .block--item.block--impact-stories-panel {
     padding: 170px 15px 0;
   }
-  /* line 388, ../scss/components/_blocks.scss */
+  /* line 410, ../scss/components/_blocks.scss */
   .block--item.block--impact-stories-panel .block--item-image-panel, .block--item.block--impact-stories-panel .block--item-colored-panel {
     float: none;
   }
-  /* line 391, ../scss/components/_blocks.scss */
+  /* line 413, ../scss/components/_blocks.scss */
   .block--item.block--impact-stories-panel .block--item-image-panel {
     width: 100%;
     height: 208px;
@@ -7632,106 +7673,105 @@ html.mobile-nav-open .nav--wrapper {
     left: 0;
     z-index: -1;
   }
-  /* line 399, ../scss/components/_blocks.scss */
+  /* line 421, ../scss/components/_blocks.scss */
   .block--item.block--impact-stories-panel .block--item-colored-panel {
     height: 410px;
     width: 100%;
     padding: 25px;
   }
-  /* line 403, ../scss/components/_blocks.scss */
+  /* line 425, ../scss/components/_blocks.scss */
   .block--item.block--impact-stories-panel .block--item-colored-panel h4 {
     font-size: 1.46667rem;
     line-height: 1.14;
   }
 }
 @media all and (max-width: 1023px) {
-  /* line 413, ../scss/components/_blocks.scss */
+  /* line 435, ../scss/components/_blocks.scss */
   .block--item.block--funding-priorities-items {
     max-width: 100%;
   }
-  /* line 415, ../scss/components/_blocks.scss */
+  /* line 437, ../scss/components/_blocks.scss */
   .block--item.block--funding-priorities-items .block--item-image {
     display: none;
   }
 }
 @media all and (min-width: 768px) {
-  /* line 424, ../scss/components/_blocks.scss */
+  /* line 446, ../scss/components/_blocks.scss */
   .block.block--homepage-prefooter {
     height: 330px;
   }
-  /* line 426, ../scss/components/_blocks.scss */
+  /* line 448, ../scss/components/_blocks.scss */
   .block.block--homepage-prefooter .btn {
     display: inline-block;
     width: 270px;
     position: absolute;
     bottom: 0;
   }
-  /* line 432, ../scss/components/_blocks.scss */
+  /* line 454, ../scss/components/_blocks.scss */
   .block.block--homepage-prefooter .block--content {
     padding-bottom: 60px;
   }
-  /* line 434, ../scss/components/_blocks.scss */
+  /* line 456, ../scss/components/_blocks.scss */
   .block.block--homepage-prefooter .block--content .block--give-to, .block.block--homepage-prefooter .block--content .block--start-fundraiser {
     height: 210px;
   }
-  /* line 436, ../scss/components/_blocks.scss */
+  /* line 458, ../scss/components/_blocks.scss */
   .block.block--homepage-prefooter .block--content .block--give-to p, .block.block--homepage-prefooter .block--content .block--start-fundraiser p {
     position: absolute;
     margin: 0;
     bottom: 80px;
   }
-  /* line 446, ../scss/components/_blocks.scss */
+  /* line 468, ../scss/components/_blocks.scss */
   .block.block--funding-priorities-full .block--content-stats .stats-text {
     color: #052059;
     font-size: 0.8rem;
     line-height: 1.5;
   }
-  /* line 451, ../scss/components/_blocks.scss */
+  /* line 473, ../scss/components/_blocks.scss */
   .block.block--funding-priorities-full a {
     position: absolute;
     bottom: 42px;
   }
-  /* line 456, ../scss/components/_blocks.scss */
+  /* line 478, ../scss/components/_blocks.scss */
   .block.block--impact-story-with-image {
     height: 265px;
     background-size: cover;
     background-position: center center;
   }
-  /* line 460, ../scss/components/_blocks.scss */
+  /* line 482, ../scss/components/_blocks.scss */
   .block.block--impact-story-with-image .block--content {
     height: auto;
     position: absolute;
     bottom: 0;
-  }
-  /* line 464, ../scss/components/_blocks.scss */
-  .block.block--impact-story-with-image .block--content h2 {
-    text-align: center;
+    /*                h2{
+                        text-align:center;
+                    }*/
   }
 
-  /* line 471, ../scss/components/_blocks.scss */
+  /* line 493, ../scss/components/_blocks.scss */
   .block--item.block--impact-stories-panel {
     height: 330px;
   }
-  /* line 473, ../scss/components/_blocks.scss */
+  /* line 495, ../scss/components/_blocks.scss */
   .block--item.block--impact-stories-panel .block--give-to, .block--item.block--impact-stories-panel .block--start-fundraiser {
     height: 210px;
   }
 }
 @media all and (min-width: 1024px) {
-  /* line 484, ../scss/components/_blocks.scss */
+  /* line 506, ../scss/components/_blocks.scss */
   .block.block--funding-priorities .slick-arrow.slick-prev {
     left: -50px;
   }
-  /* line 487, ../scss/components/_blocks.scss */
+  /* line 509, ../scss/components/_blocks.scss */
   .block.block--funding-priorities .slick-arrow.slick-next {
     right: -50px;
   }
-  /* line 492, ../scss/components/_blocks.scss */
+  /* line 514, ../scss/components/_blocks.scss */
   .block.block--impact-story-with-image {
     height: 450px;
   }
 
-  /* line 496, ../scss/components/_blocks.scss */
+  /* line 518, ../scss/components/_blocks.scss */
   .block--item {
     /*&.block-item--impact-story-small{
         .block--item-content{
@@ -7739,75 +7779,76 @@ html.mobile-nav-open .nav--wrapper {
         }
     }*/
   }
-  /* line 497, ../scss/components/_blocks.scss */
+  /* line 519, ../scss/components/_blocks.scss */
   .block--item.block--funding-priorities-items {
     float: left;
   }
-  /* line 499, ../scss/components/_blocks.scss */
+  /* line 521, ../scss/components/_blocks.scss */
   .block--item.block--funding-priorities-items .block--content {
     width: 270px;
   }
 }
 @media all and (min-width: 1200px) and (max-width: 1315px) {
-  /* line 514, ../scss/components/_blocks.scss */
+  /* line 536, ../scss/components/_blocks.scss */
   .block.block--funding-priorities .slick-arrow.slick-prev {
     left: -35px;
   }
-  /* line 517, ../scss/components/_blocks.scss */
+  /* line 539, ../scss/components/_blocks.scss */
   .block.block--funding-priorities .slick-arrow.slick-next {
     right: -50px;
   }
 }
-/* line 525, ../scss/components/_blocks.scss */
+/* line 547, ../scss/components/_blocks.scss */
 .block-honor-page-body .body-give-link {
   margin-top: 20px;
   margin-bottom: 30px;
 }
-/* line 528, ../scss/components/_blocks.scss */
+/* line 550, ../scss/components/_blocks.scss */
 .block-honor-page-body .body-give-link a {
   width: 100%;
 }
-/* line 530, ../scss/components/_blocks.scss */
+/* line 552, ../scss/components/_blocks.scss */
 .block-honor-page-body .body-give-link a.btn--primary-small {
   display: none;
 }
-/* line 533, ../scss/components/_blocks.scss */
+/* line 555, ../scss/components/_blocks.scss */
 .block-honor-page-body .body-give-link a.btn--primary {
   display: inline-block;
 }
-/* line 539, ../scss/components/_blocks.scss */
+/* line 561, ../scss/components/_blocks.scss */
 .block-honor-page-body .note strong {
   font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
-/* line 543, ../scss/components/_blocks.scss */
+/* line 565, ../scss/components/_blocks.scss */
 .block-honor-page-body .non-list-item {
   padding-left: 0px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 551, ../scss/components/_blocks.scss */
+  /* line 573, ../scss/components/_blocks.scss */
   .block-honor-page-body .body-give-link {
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  /* line 554, ../scss/components/_blocks.scss */
+  /* line 576, ../scss/components/_blocks.scss */
   .block-honor-page-body .body-give-link a {
     width: auto;
   }
-  /* line 556, ../scss/components/_blocks.scss */
+  /* line 578, ../scss/components/_blocks.scss */
   .block-honor-page-body .body-give-link a.btn--primary-small {
     display: inline-block;
   }
-  /* line 559, ../scss/components/_blocks.scss */
+  /* line 581, ../scss/components/_blocks.scss */
   .block-honor-page-body .body-give-link a.btn--primary {
     display: none;
   }
-  /* line 564, ../scss/components/_blocks.scss */
+  /* line 586, ../scss/components/_blocks.scss */
   .block-honor-page-body .non-list-item {
     margin-bottom: 20px;
     padding-left: 31px;
   }
 }
+<<<<<<< HEAD
 /* line 571, ../scss/components/_blocks.scss */
 .block-contact-us {
   display: block;
@@ -7984,6 +8025,15 @@ html.mobile-nav-open .nav--wrapper {
     height: 433px;
   }
 }
+=======
+/* line 593, ../scss/components/_blocks.scss */
+.impact-stories-wrapper {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #d1d3d3;
+  margin-bottom: 30px;
+}
+
+>>>>>>> features--impact-page-template
 /* line 1, ../scss/components/_custom_lists.scss */
 .htmytg-list {
   list-style: none;

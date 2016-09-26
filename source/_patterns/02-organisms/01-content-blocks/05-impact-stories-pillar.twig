@@ -1,10 +1,31 @@
-<div class="block block--impact-stories-pillar background-color--teal">
-    {% include "@atoms/03-lists/01-ordered.twig" %}
-    {# include "@molecules/02-blocks/04-impact-story-with-image" with {
-        "color" : "teal",
-        "image" : "/images/MBH_hospital.jpg",
-        "text" : "Research is at the Heart of What We Do"
-    } #}
-
-   {# dump() #}
+<div class="block block--impact-stories-pillar background-color--{{ color }}">
+    <div class="content-area content-area--fluid">
+        <div class="column-wrapper">
+            {% include "@molecules/02-blocks/04-impact-story-with-image.twig" with {
+                "color" : color,
+                "image" : hero_image,
+                "text"  : story_title
+            } %}
+        </div>
+    </div>
+    <div class="content-area">
+        <div class="column-wrapper">
+            {% include "@molecules/02-blocks/03-funding-priorities-full.twig" with {
+                "color" : color,
+                "body_text" : copy_text,
+                "link_label":link.label,
+                "link_href" : link.href,
+                "stats" : stats
+            } %}
+        </div>
+        <div class="column-wrapper">
+            {% include "@molecules/02-blocks/02-impact-stories-block.twig" with {
+                "color" : color, 
+                "link" : story.link,
+                "title" : story.title,
+                "image_url" : story.hero_image,
+                "copy_text" : story.sub_title
+            } %}
+        </div>
+    </div>
 </div>
