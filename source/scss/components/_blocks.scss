@@ -81,17 +81,6 @@
                     margin-top: 0;
                 }
             }
-
-            /*.block--start-fundraiser{
-                h4{
-                    margin-bottom: 55px;
-                }
-            }
-            .block--give-to{
-                h4{
-                    margin-bottom: 16px;
-                }
-            }*/
         }
     }
     &.block--funding-priorities-full{
@@ -199,6 +188,29 @@
     }
     &.block--impact-stories-pillar{
         margin-bottom: 20px;
+    }
+    &.block--give-block-full-width{
+        padding-top: 60px;
+        padding-bottom: 40px;
+        background-color: $color--light-gray;
+        p{
+            font-family: $text-body--light;
+            @include type-definition(22px, 1.14);
+            color: $color--oxford-blue;
+            margin-top: 0;
+            margin-bottom: 10px;
+            &:last-child{
+                margin-bottom: 30px;
+            }
+        }
+        a{
+            display: block;
+            max-width: 320px;
+            margin: 0 auto;
+            &:hover{
+                text-decoration: none;
+            }
+        }
     }
 }
 
@@ -380,6 +392,13 @@
     }
 }
 
+.impact-stories-wrapper{
+    padding-bottom: 20px;
+    border-bottom: 1px solid $color--border-impact-stories-pillar;
+    margin-bottom: 30px;
+}
+
+
 @media all and (max-width: $bp--xsmall-max){
     .block{
         h3{
@@ -483,9 +502,21 @@
                 height: auto;
                 position: absolute;
                 bottom: 0;
-/*                h2{
-                    text-align:center;
-                }*/
+            }
+        }
+        &.block--give-block-full-width{
+            padding-top: 50px;
+            padding-bottom: 50px;
+            p{
+                margin-bottom: 10px;
+                @include type-definition(26px, 1.15);
+                &:last-child{
+                    margin-bottom: 10px;
+                }
+            }
+            a{
+                float: right;
+                width: 270px;
             }
         }
     }
@@ -747,11 +778,5 @@
              height: 433px;
         }
     }
-}
-
-.impact-stories-wrapper{
-    padding-bottom: 20px;
-    border-bottom: 1px solid $color--border-impact-stories-pillar;
-    margin-bottom: 30px;
 }
 
