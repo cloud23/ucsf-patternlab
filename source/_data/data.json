@@ -306,5 +306,10 @@
     "body_text" : "Give a gift directly where it is needed the most.",
     "link_url" : "#",
     "link_label" : "Give to UCSF "
+  },
+  "give_to_full" : "<p>Your support is the foundation for our greatest innovations in <b>research, education, and patient care</b>.</p>",
+  "give" : {
+    "url" : "#",
+    "label" : "Give to UCSF "
   }
 }
