@@ -682,6 +682,8 @@
 .block-story-nugget {
     position: relative;
     background-color: $color--light-gray;
+    margin-left: -15px;
+    margin-right: -15px;
     &:before, &:after {
         display: table;
         content: " ";
@@ -749,6 +751,8 @@
 
 @media screen and (min-width: $width-small) {
     .block-story-nugget {
+        margin-left: 0px;
+        margin-right: 0px;
         .story-nugget-display-image {
              height: 414px;
         }
@@ -762,6 +766,8 @@
 
 @media screen and (min-width: $width-medium) {
     .block-story-nugget {
+        margin-left: 0px;
+        margin-right: 0px;
         .story-nugget-display-image {
              height: 433px;
         }
@@ -774,6 +780,8 @@
 
 @media screen and (min-width: $width-large) {
     .block-story-nugget {
+        margin-left: 0px;
+        margin-right: 0px;
         .story-nugget-display-image {
              height: 433px;
         }
