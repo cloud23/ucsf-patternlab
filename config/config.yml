@@ -40,3 +40,10 @@ ishControlsHide:
     - disco
 styleguideKit: pattern-lab/styleguidekit-twig-default
 styleguideKitPath: vendor/pattern-lab/styleguidekit-twig-default
+twig:
+    paths:
+        "_patterns/00-atoms/": atoms
+        "_patterns/01-molecules/": molecules
+        "_patterns/02-organisms/": organisms
+        "_patterns/03-templates/": templates
+        "_patterns/04-pages/": pages
