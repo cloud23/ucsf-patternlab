@@ -567,3 +567,60 @@
         }
     }
 }
+
+.block-contact-us {
+    display: block;
+    background-color: $color--light-gray-3;
+    color: $color--black;
+    padding: 30px;
+    max-width: 265px;
+    margin: 0 auto;
+    h4 {
+        margin-bottom: 18px;
+        color: $color--oxford-blue;
+    }
+    h5 {
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+    a {
+        color: $color--black;
+        &:hover {
+            color: $color--black;
+        }
+    }
+
+    .contact-detail-item {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 15px;
+        &:last-child {
+            margin-bottom: 0px;
+        }
+        span {
+            display: inline-block;
+            vertical-align: middle;
+            &.fa {
+                font-size: 1.3rem;
+                margin-right: 15px;
+                color: $color--translucent-black;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $width-small) {
+    .block-contact-us {
+        margin: 0;
+    }
+}
+@media screen and (min-width: $width-medium) {
+    .block-contact-us {
+        margin: 0;
+    }
+}
+@media screen and (min-width: $width-large) {
+    .block-contact-us {
+        margin: 0;
+    }
+}

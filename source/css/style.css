@@ -3789,8 +3789,16 @@ h4 {
   line-height: 30px;
 }
 
+/* line 102, ../scss/global/variables/_typography.scss */
+h5 {
+  font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+}
+
 @media screen and (min-width: 768px) {
-  /* line 103, ../scss/global/variables/_typography.scss */
+  /* line 107, ../scss/global/variables/_typography.scss */
   h1 {
     font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
     font-weight: normal;
@@ -3798,7 +3806,7 @@ h4 {
     line-height: 65px;
   }
 
-  /* line 107, ../scss/global/variables/_typography.scss */
+  /* line 111, ../scss/global/variables/_typography.scss */
   h2 {
     font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
     font-weight: normal;
@@ -3806,7 +3814,7 @@ h4 {
     line-height: 45px;
   }
 
-  /* line 111, ../scss/global/variables/_typography.scss */
+  /* line 115, ../scss/global/variables/_typography.scss */
   h3 {
     font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
     font-weight: normal;
@@ -3814,7 +3822,7 @@ h4 {
     line-height: 42px;
   }
 
-  /* line 115, ../scss/global/variables/_typography.scss */
+  /* line 119, ../scss/global/variables/_typography.scss */
   h4 {
     font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-weight: normal;
@@ -3822,7 +3830,7 @@ h4 {
     line-height: 30px;
   }
 }
-/* line 121, ../scss/global/variables/_typography.scss */
+/* line 125, ../scss/global/variables/_typography.scss */
 .granjon-heading-text {
   font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
 }
@@ -7758,6 +7766,73 @@ html.mobile-nav-open .nav--wrapper {
   .block-honor-page-body .non-list-item {
     margin-bottom: 20px;
     padding-left: 31px;
+  }
+}
+/* line 497, ../scss/components/_blocks.scss */
+.block-contact-us {
+  display: block;
+  background-color: #ebf3fa;
+  color: #000000;
+  padding: 30px;
+  max-width: 265px;
+  margin: 0 auto;
+}
+/* line 504, ../scss/components/_blocks.scss */
+.block-contact-us h4 {
+  margin-bottom: 18px;
+  color: #052059;
+}
+/* line 508, ../scss/components/_blocks.scss */
+.block-contact-us h5 {
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+/* line 512, ../scss/components/_blocks.scss */
+.block-contact-us a {
+  color: #000000;
+}
+/* line 514, ../scss/components/_blocks.scss */
+.block-contact-us a:hover {
+  color: #000000;
+}
+/* line 519, ../scss/components/_blocks.scss */
+.block-contact-us .contact-detail-item {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 15px;
+}
+/* line 523, ../scss/components/_blocks.scss */
+.block-contact-us .contact-detail-item:last-child {
+  margin-bottom: 0px;
+}
+/* line 526, ../scss/components/_blocks.scss */
+.block-contact-us .contact-detail-item span {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 529, ../scss/components/_blocks.scss */
+.block-contact-us .contact-detail-item span.fa, .block-contact-us .contact-detail-item .block.block--funding-priorities span.slick-arrow, .block.block--funding-priorities .block-contact-us .contact-detail-item span.slick-arrow, .block-contact-us .contact-detail-item .block.block--funding-priorities span.slider-button, .block.block--funding-priorities .block-contact-us .contact-detail-item span.slider-button {
+  font-size: 1.3rem;
+  margin-right: 15px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (min-width: 768px) {
+  /* line 539, ../scss/components/_blocks.scss */
+  .block-contact-us {
+    margin: 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* line 544, ../scss/components/_blocks.scss */
+  .block-contact-us {
+    margin: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 549, ../scss/components/_blocks.scss */
+  .block-contact-us {
+    margin: 0;
   }
 }
 /* line 1, ../scss/components/_custom_lists.scss */

@@ -246,8 +246,16 @@ h4 {
   line-height: 30px;
 }
 
+/* line 102, ../scss/global/variables/_typography.scss */
+h5 {
+  font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+}
+
 @media screen and (min-width: 768px) {
-  /* line 103, ../scss/global/variables/_typography.scss */
+  /* line 107, ../scss/global/variables/_typography.scss */
   h1 {
     font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
     font-weight: normal;
@@ -255,7 +263,7 @@ h4 {
     line-height: 65px;
   }
 
-  /* line 107, ../scss/global/variables/_typography.scss */
+  /* line 111, ../scss/global/variables/_typography.scss */
   h2 {
     font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
     font-weight: normal;
@@ -263,7 +271,7 @@ h4 {
     line-height: 45px;
   }
 
-  /* line 111, ../scss/global/variables/_typography.scss */
+  /* line 115, ../scss/global/variables/_typography.scss */
   h3 {
     font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
     font-weight: normal;
@@ -271,7 +279,7 @@ h4 {
     line-height: 42px;
   }
 
-  /* line 115, ../scss/global/variables/_typography.scss */
+  /* line 119, ../scss/global/variables/_typography.scss */
   h4 {
     font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-weight: normal;
@@ -279,7 +287,11 @@ h4 {
     line-height: 30px;
   }
 }
+<<<<<<< HEAD
 /* line 121, ../scss/global/variables/_typography.scss */
+=======
+/* line 125, ../scss/global/variables/_typography.scss */
+>>>>>>> block_contact_us
 .granjon-heading-text {
   font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
 }
