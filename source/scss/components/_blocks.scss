@@ -183,6 +183,11 @@
             .block--content{ background-color: $color--teal; }
         }
     }
+    &.block--impact-stories-grid{
+        .see-more-link{
+            margin-top: 15px;
+        }
+    }
 }
 
 .block--item{
@@ -287,6 +292,67 @@
                 background-size: cover;
                 background-position: center center;
                 background-repeat: no-repeat;
+            }
+        }
+    }
+    &.block-item--impact-story-small{
+        position: relative;
+        margin-bottom: 20px;
+        
+        a{
+            color: $color--white;
+            text-decoration: none;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+        .block--item-content{
+            background-color: $color--light-gray;
+            height: 140px;
+            width: 100%;
+            padding: 20px;
+            .category{
+                @include type-definition(10px, 2.2);
+                color: $color--white;
+                
+                text-align: center;
+                width: 112px;
+                height: 25px;
+                position: absolute;
+                top: 0;
+                left: 0;
+
+                background-color: $color--black;
+
+                &.background--light-blue{
+                    background-color: $color--light-blue;
+                }
+                &.background--green{
+                    background-color: $color--yellow-green;
+                }
+                &.background--teal{
+                    background-color: $color--teal
+                }
+            }
+
+            p{
+                margin: 0;
+            }
+
+            .category, .date{
+                font-family: $text-body--bold;
+            }
+            
+            .date{
+                @include type-definition(12px, 1.5);
+                color: $color--dark-gray-2;
+                margin-top: 12px;
+                margin-bottom: 5px;
+            }
+            
+            .content_text{
+                @include type-definition(16px, 1.25);
+                color: $color--medium-gray;
             }
         }
     }
@@ -429,8 +495,16 @@
     }
     .block--item{
         &.block--funding-priorities-items{
-            width: 270px;
+            float: left;
+            .block--content{
+                width: 270px;
+            }
         }
+        /*&.block-item--impact-story-small{
+            .block--item-content{
+                width: 270px;
+            }
+        }*/
     }
 }
 @media all and (min-width: 1200px) and (max-width: 1315px){
