@@ -1,20 +1,18 @@
 <div class="content-area">
 	<div class="column-wrapper">
 		<div class=" column-large-8 column-medium-8 column-small-12 column-xsmall-12">
-			<div class="column-wrapper">
-				<div class="block-story-nugget">
-					<div class="story-nugget-display-image" style="background-image: url('{{ image }}');"></div>
-					<div class="story-nugget-data">
-						<div class="story-nugget-content--wrapper">
-							<div class="story-nugget-title column-large-12 column-medium-12 column-small-12 column-xsmall-12">
-								<h4 class="background--{{ bgcolor }}">{{ title }}</h4>
-							</div>
-							<div class="story-nugget-content column-large-12 column-medium-12 column-small-12 column-xsmall-12">
-								{{ content|raw }}
-							</div>
+			<div class="block-story-nugget">
+				<div class="story-nugget-display-image" style="background-image: url('{{ image }}');"></div>
+				<div class="story-nugget-data">
+					<div class="story-nugget-content--wrapper">
+						<div class="story-nugget-title column-large-12 column-medium-12 column-small-12 column-xsmall-12">
+							<h4 class="background--{{ bgcolor }}">{{ title }}</h4>
 						</div>
-
+						<div class="story-nugget-content column-large-12 column-medium-12 column-small-12 column-xsmall-12">
+							{{ content|raw }}
+						</div>
 					</div>
+
 				</div>
 			</div>
 		</div>

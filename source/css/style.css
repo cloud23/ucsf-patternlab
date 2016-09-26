@@ -7910,17 +7910,19 @@ html.mobile-nav-open .nav--wrapper {
 .block-story-nugget {
   position: relative;
   background-color: #F1F1F1;
+  margin-left: -15px;
+  margin-right: -15px;
 }
-/* line 654, ../scss/components/_blocks.scss */
+/* line 656, ../scss/components/_blocks.scss */
 .block-story-nugget:before, .block-story-nugget:after {
   display: table;
   content: " ";
 }
-/* line 658, ../scss/components/_blocks.scss */
+/* line 660, ../scss/components/_blocks.scss */
 .block-story-nugget:after {
   clear: both;
 }
-/* line 661, ../scss/components/_blocks.scss */
+/* line 663, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-display-image {
   position: relative;
   width: 100%;
@@ -7930,92 +7932,107 @@ html.mobile-nav-open .nav--wrapper {
   background-size: cover;
   background-position: center center;
 }
-/* line 670, ../scss/components/_blocks.scss */
+/* line 672, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-data {
   position: relative;
   display: block;
 }
-/* line 673, ../scss/components/_blocks.scss */
+/* line 675, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-data .story-nugget-content--wrapper {
   position: relative;
   display: block;
   top: -45px;
 }
-/* line 679, ../scss/components/_blocks.scss */
+/* line 681, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-title {
   position: relative;
   display: block;
   margin-bottom: 30px;
 }
-/* line 683, ../scss/components/_blocks.scss */
+/* line 685, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-title h4 {
   margin: 0px;
   color: #FFFFFF;
   padding: 20px;
 }
-/* line 687, ../scss/components/_blocks.scss */
+/* line 689, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-title h4.background--green {
   background-color: #6EA400;
 }
-/* line 690, ../scss/components/_blocks.scss */
+/* line 692, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-title h4.background--orange {
   background-color: #F26D04;
 }
-/* line 693, ../scss/components/_blocks.scss */
+/* line 695, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-title h4.background--blue {
   background-color: #007CBE;
 }
-/* line 696, ../scss/components/_blocks.scss */
+/* line 698, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-title h4.background--teal {
   background-color: #058488;
 }
-/* line 701, ../scss/components/_blocks.scss */
+/* line 703, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-content {
   position: relative;
   width: 100%;
 }
-/* line 705, ../scss/components/_blocks.scss */
+/* line 707, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-content p:first-child {
   margin-top: 0px;
 }
-/* line 709, ../scss/components/_blocks.scss */
+/* line 711, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-content .foot-caption {
   font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   color: #58595b;
 }
-/* line 712, ../scss/components/_blocks.scss */
+/* line 714, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-content .foot-caption p {
   font-size: 12px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 721, ../scss/components/_blocks.scss */
+  /* line 722, ../scss/components/_blocks.scss */
+  .block-story-nugget {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  /* line 725, ../scss/components/_blocks.scss */
   .block-story-nugget .story-nugget-display-image {
     height: 414px;
   }
-  /* line 725, ../scss/components/_blocks.scss */
+  /* line 729, ../scss/components/_blocks.scss */
   .block-story-nugget .story-nugget-title h4 {
     padding: 20px 30px;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 734, ../scss/components/_blocks.scss */
+  /* line 737, ../scss/components/_blocks.scss */
+  .block-story-nugget {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  /* line 740, ../scss/components/_blocks.scss */
   .block-story-nugget .story-nugget-display-image {
     height: 433px;
   }
-  /* line 737, ../scss/components/_blocks.scss */
+  /* line 743, ../scss/components/_blocks.scss */
   .block-story-nugget .story-nugget-content {
     padding-left: 45px;
     padding-right: 45px;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 746, ../scss/components/_blocks.scss */
+  /* line 751, ../scss/components/_blocks.scss */
+  .block-story-nugget {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  /* line 754, ../scss/components/_blocks.scss */
   .block-story-nugget .story-nugget-display-image {
     height: 433px;
   }
 }
-/* line 752, ../scss/components/_blocks.scss */
+/* line 760, ../scss/components/_blocks.scss */
 .impact-stories-wrapper {
   padding-bottom: 20px;
   border-bottom: 1px solid #d1d3d3;
