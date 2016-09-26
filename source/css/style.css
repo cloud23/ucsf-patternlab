@@ -7934,48 +7934,52 @@ html.mobile-nav-open .nav--wrapper {
 .block-story-nugget .story-nugget-title h4.background--blue {
   background-color: #007CBE;
 }
-/* line 676, ../scss/components/_blocks.scss */
+/* line 674, ../scss/components/_blocks.scss */
+.block-story-nugget .story-nugget-title h4.background--teal {
+  background-color: #058488;
+}
+/* line 679, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-content {
   position: relative;
   width: 100%;
 }
-/* line 680, ../scss/components/_blocks.scss */
+/* line 683, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-content p:first-child {
   margin-top: 0px;
 }
-/* line 684, ../scss/components/_blocks.scss */
+/* line 687, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-content .foot-caption {
   font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   color: #58595b;
 }
-/* line 687, ../scss/components/_blocks.scss */
+/* line 690, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-content .foot-caption p {
   font-size: 12px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 696, ../scss/components/_blocks.scss */
+  /* line 699, ../scss/components/_blocks.scss */
   .block-story-nugget .story-nugget-display-image {
     height: 414px;
   }
-  /* line 700, ../scss/components/_blocks.scss */
+  /* line 703, ../scss/components/_blocks.scss */
   .block-story-nugget .story-nugget-title h4 {
     padding: 20px 30px;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 709, ../scss/components/_blocks.scss */
+  /* line 712, ../scss/components/_blocks.scss */
   .block-story-nugget .story-nugget-display-image {
     height: 433px;
   }
-  /* line 712, ../scss/components/_blocks.scss */
+  /* line 715, ../scss/components/_blocks.scss */
   .block-story-nugget .story-nugget-content {
     padding-left: 45px;
     padding-right: 45px;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 721, ../scss/components/_blocks.scss */
+  /* line 724, ../scss/components/_blocks.scss */
   .block-story-nugget .story-nugget-display-image {
     height: 433px;
   }

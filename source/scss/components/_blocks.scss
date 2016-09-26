@@ -663,13 +663,16 @@
             color: $color--white;
             padding: 20px;
             &.background--green{
-            background-color: $color--yellow-green;
+                background-color: $color--yellow-green;
             }
             &.background--orange{
                 background-color: $color--orange;
             }
             &.background--blue{
                 background-color: $color--light-blue;
+            }
+            &.background--teal{
+                background-color: $color--teal;
             }
         }
     }
