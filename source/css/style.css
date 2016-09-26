@@ -3780,7 +3780,7 @@ h3 {
 h4 {
   font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
-  font-size: 26px;
+  font-size: 22px;
   line-height: 30px;
 }
 
@@ -7873,6 +7873,111 @@ html.mobile-nav-open .nav--wrapper {
   /* line 623, ../scss/components/_blocks.scss */
   .block-contact-us {
     margin: 0;
+  }
+}
+/* line 629, ../scss/components/_blocks.scss */
+.block-story-nugget {
+  position: relative;
+  background-color: #F1F1F1;
+}
+/* line 632, ../scss/components/_blocks.scss */
+.block-story-nugget:before, .block-story-nugget:after {
+  display: table;
+  content: " ";
+}
+/* line 636, ../scss/components/_blocks.scss */
+.block-story-nugget:after {
+  clear: both;
+}
+/* line 639, ../scss/components/_blocks.scss */
+.block-story-nugget .story-nugget-display-image {
+  position: relative;
+  width: 100%;
+  height: calc(100vw * 0.575);
+  background-color: #F1F1F1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 648, ../scss/components/_blocks.scss */
+.block-story-nugget .story-nugget-data {
+  position: relative;
+  display: block;
+}
+/* line 651, ../scss/components/_blocks.scss */
+.block-story-nugget .story-nugget-data .story-nugget-content--wrapper {
+  position: relative;
+  display: block;
+  top: -45px;
+}
+/* line 657, ../scss/components/_blocks.scss */
+.block-story-nugget .story-nugget-title {
+  position: relative;
+  display: block;
+  margin-bottom: 30px;
+}
+/* line 661, ../scss/components/_blocks.scss */
+.block-story-nugget .story-nugget-title h4 {
+  margin: 0px;
+  color: #FFFFFF;
+  padding: 20px;
+}
+/* line 665, ../scss/components/_blocks.scss */
+.block-story-nugget .story-nugget-title h4.background--green {
+  background-color: #6EA400;
+}
+/* line 668, ../scss/components/_blocks.scss */
+.block-story-nugget .story-nugget-title h4.background--orange {
+  background-color: #F26D04;
+}
+/* line 671, ../scss/components/_blocks.scss */
+.block-story-nugget .story-nugget-title h4.background--blue {
+  background-color: #007CBE;
+}
+/* line 676, ../scss/components/_blocks.scss */
+.block-story-nugget .story-nugget-content {
+  position: relative;
+  width: 100%;
+}
+/* line 680, ../scss/components/_blocks.scss */
+.block-story-nugget .story-nugget-content p:first-child {
+  margin-top: 0px;
+}
+/* line 684, ../scss/components/_blocks.scss */
+.block-story-nugget .story-nugget-content .foot-caption {
+  font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  color: #58595b;
+}
+/* line 687, ../scss/components/_blocks.scss */
+.block-story-nugget .story-nugget-content .foot-caption p {
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 696, ../scss/components/_blocks.scss */
+  .block-story-nugget .story-nugget-display-image {
+    height: 414px;
+  }
+  /* line 700, ../scss/components/_blocks.scss */
+  .block-story-nugget .story-nugget-title h4 {
+    padding: 20px 30px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* line 709, ../scss/components/_blocks.scss */
+  .block-story-nugget .story-nugget-display-image {
+    height: 433px;
+  }
+  /* line 712, ../scss/components/_blocks.scss */
+  .block-story-nugget .story-nugget-content {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 721, ../scss/components/_blocks.scss */
+  .block-story-nugget .story-nugget-display-image {
+    height: 433px;
   }
 }
 /* line 1, ../scss/components/_custom_lists.scss */
