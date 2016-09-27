@@ -6,8 +6,22 @@ html {
 	}
 }
 
+body {
+	&.transparent {
+		.nav--wrapper {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			& ~ .contents--wrapper {
+				margin-top: 108px;
+			}
+		}
+	}
+}
+
 .nav--wrapper {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -16,16 +30,16 @@ html {
 	height: auto;
 	max-height: 100%;
 	display: block;
-	&.fixed-top{
-		position: fixed;
-	}
+	clear:both;
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
 }
 
 .nav--wrapper {
 	& ~ .contents--wrapper {
-		margin-top: 108px;
-	}
-	&.transparent ~ .contents--wrapper{
 		margin-top: 108px;
 	}
 }
@@ -225,12 +239,19 @@ html {
 
 
 @media screen and (min-width: $width-medium) {
+	body {
+		&.transparent {
+			.nav--wrapper {
+				& ~ .contents--wrapper {
+					margin-top: 40px;
+				}
+			}
+		}
+	}
+
 	.nav--wrapper {
 		& ~ .contents--wrapper {
 			margin-top: 135px;
-		}
-		&.transparent ~ .contents--wrapper{
-			margin-top: 40px;
 		}
 	}
 	.nav-global--wrapper {
@@ -377,31 +398,33 @@ html {
 }
 
 @media screen and (min-width: $width-medium) {
-	.nav--wrapper {
+	body {
 		&.transparent {
-			.nav-main--wrapper {
-				background-color: transparent;
-	  			background-color: rgba(0,0,0,0);
-				.nav-main {
-					a {
-						color: $color--white;
-					}
-					.nav-main-links {
-						& > li {
-							& > a {
-								color: $color--white;
-								&:hover {
-									color: $color--oxford-blue;
-									&.header-give-btn {
-										color: $color--white;
+			.nav--wrapper {
+				.nav-main--wrapper {
+					background-color: transparent;
+		  			background-color: rgba(0,0,0,0);
+					.nav-main {
+						a {
+							color: $color--white;
+						}
+						.nav-main-links {
+							& > li {
+								& > a {
+									color: $color--white;
+									&:hover {
+										color: $color--oxford-blue;
+										&.header-give-btn {
+											color: $color--white;
+										}
 									}
 								}
-							}
-							&:hover {
-								a {
-									color: $color--oxford-blue;
-									&.header-give-btn {
-										color: $color--white;
+								&:hover {
+									a {
+										color: $color--oxford-blue;
+										&.header-give-btn {
+											color: $color--white;
+										}
 									}
 								}
 							}
