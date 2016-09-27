@@ -1,1 +1,57 @@
 /*** Buttons ***/
+
+.btn{
+    font-family: $helvetica--medium;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: center;
+    line-height: 1;
+    color: $color--white;
+    padding: 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    @include border-radius(6px);
+    &.btn--primary{
+        background-color: $color--orange;
+        padding: 18.5px 15px;
+        &:hover{
+            background-color: $color--oxford-blue;
+        }
+    }
+    &.btn--primary-small {
+        background-color: $color--orange;
+        padding: 12px 15px;
+        font-size: 15px;
+        &:hover{
+            background-color: $color--oxford-blue;
+        }
+    }
+    &.btn--secondary{
+        background-color: $color--light-blue;
+        &:hover{
+            background-color: $color--oxford-blue;
+        }
+    }
+    &.btn--with-icon{
+        background-color: $color--orange;
+        i{
+            margin-left: 5px;
+            font-size: 15px;
+        }
+        &:hover{
+            background-color: $color--oxford-blue;
+            i{
+                color: $color--orange;
+            }
+        }
+    }
+    &.anchor{
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}
+

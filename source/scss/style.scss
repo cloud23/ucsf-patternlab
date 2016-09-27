@@ -15,12 +15,14 @@ $browser-minimum-versions: (
   "android-chrome": "0"
 );
 
+@import "../bower_components/font-awesome/scss/font-awesome.scss";
 
 @import
   "global/_reset",
+  "global/mixins/_mixins",
   "global/functions/_functions",
   "global/variables/_index",
-  "global/mixins/_mixins",
+  "global/extends/_index",
   "base/**/*",
   "layout/**/*",
-  "components/**/*";
+  "components/_index";

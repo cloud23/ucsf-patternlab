@@ -1,0 +1,790 @@
+.block{
+    h3, h4{
+        line-height: 1;
+        color: $color--oxford-blue;
+        margin-bottom: 30px;
+        margin-top: 0;
+    }
+    &.block--funding-priorities{
+        margin: 40px auto 20px;
+
+        .slick-arrow{
+            @extend .fa;
+            border: none;
+            background-color: transparent;
+            font-size: 0;
+            outline: 0;
+            position: absolute;
+            top:50%;
+            transform: translateY(-50%);
+            z-index: 10;
+            cursor: pointer;
+            &:before{
+                font-size: 100px;
+                line-height: 0;
+                color: $color--oxford-blue;
+            }
+            &.slick-prev{
+                @extend .fa-angle-left;
+                left: -55px;
+            }
+            &.slick-next{
+                @extend .fa-angle-right;
+                right: -55px;
+            }
+        }
+        .slider-button{
+            @extend .fa;
+            border: none;
+            background-color: transparent;
+            font-size: 0;
+            outline: 0;
+            position: absolute;
+            top:50%;
+            transform: translateY(-50%);
+            z-index: 10;
+            &:before{
+                font-size: 100px;
+                line-height: 0;
+                color: $color--oxford-blue;
+            }
+            &.slider-prev{
+                @extend .fa-angle-left;
+                left: -55px;
+            }
+            &.slider-next{
+                @extend .fa-angle-right;
+                right: -55px;
+            }
+        }
+    }
+    &.block--impact-stories{
+        margin-top: 30px;
+        margin-bottom: 50px;
+        h3{
+            margin-bottom: 20px;
+        }
+    }
+    &.block--homepage-prefooter{
+        background-color: $color--light-gray;
+        position: relative;
+        .btn{
+            display: block;
+            margin: 0 auto;
+            max-width: 320px;
+        }
+        .block--content{
+            padding-top: 60px;
+            padding-bottom: 10px;
+            .block--start-fundraiser, .block--give-to{
+                p{
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+    &.block--funding-priorities-full{
+        position: relative;
+        background-color: $color--light-gray;
+        padding-top: 30px;
+        padding-bottom: 90px;
+        padding-left: 15px;
+        padding-right: 15px;
+        .block--content-text{
+            margin-bottom: 25px;
+            p{
+                @include type-definition(18px, 1.33);
+                margin-top: 0;
+                margin-bottom: 25px;
+            }
+        }
+        .block--content-stats{
+            .stats-items{
+                margin-bottom: 20px;
+                .stats-value{
+                    @include type-definition(65px, 1);
+                    font-family: $text-headline-bold;
+                    margin-bottom: 5px;
+                }
+                .stats-text{
+                    margin-top: 5px;
+                    margin-bottom: 0;
+                }
+                &:last-child{
+                    margin-bottom: 0;
+                }
+            }
+        }
+        &.background-color--teal{
+            a, span{
+                color: $color--teal;
+            }
+            a{
+                &:hover{
+                    .fa-angle-right{
+                        color: $color--white;
+                    }
+                }
+            }
+        }
+        &.background-color--green{
+            a, span{
+                color: $color--yellow-green;
+            }
+            a{
+                &:hover{
+                    .fa-angle-right{
+                        color: $color--white;
+                    }
+                }
+            }
+        }
+        &.background-color--blue{
+            a, span{
+                color: $color--light-blue;
+            }
+            a{
+                &:hover{
+                    .fa-angle-right{
+                        color: $color--white;
+                    }
+                }
+            }
+        }
+        a{
+            position: absolute;
+            bottom: 32px;
+        }
+    }
+    &.block--impact-story-with-image{
+        position: relative;
+        .block--content{
+            width: 100%;
+            padding: 30px 15px;
+            h2{
+                margin: 0;
+                color: $color--white;
+                @include type-definition(38px, 1.05);
+            }
+        }
+        &.background-color--teal{
+            background-color: $color--teal;
+            .block--content{ background-color: $color--teal; }
+        }
+        &.background-color--green{
+            background-color: $color--yellow-green;
+            .block--content{ background-color: $color--yellow-green; }
+        }
+        &.background-color--blue{
+            background-color: $color--light-blue;
+            .block--content{ background-color: $color--light-blue; }
+        }
+    }
+    &.block--impact-stories-grid{
+        padding-bottom: 60px;
+        .see-more-link{
+            margin-top: 15px;
+        }
+    }
+    &.block--impact-stories-pillar{
+        margin-bottom: 20px;
+    }
+    &.block--give-block-full-width{
+        padding-top: 60px;
+        padding-bottom: 40px;
+        background-color: $color--light-gray;
+        p{
+            font-family: $text-body--light;
+            @include type-definition(22px, 1.14);
+            color: $color--oxford-blue;
+            margin-top: 0;
+            margin-bottom: 10px;
+            &:last-child{
+                margin-bottom: 30px;
+            }
+        }
+        a{
+            display: block;
+            max-width: 320px;
+            margin: 0 auto;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.block--item{
+    &.block--funding-priorities-items{
+        margin: 0 auto;
+        margin-bottom: 20px;
+        .block--item-image{
+            height: 200px;
+            width: 100%;
+            background-color: $color--dark-gray;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+        .block--item-contents{
+            background-color: $color--light-blue;
+            height: 170px;
+            width: 100%;
+            padding: 20px 20px 25px 20px;
+            position: relative;
+            .text{
+                @include type-definition(18px, 1.33);
+                margin: 0;
+            }
+            a, span, p{
+                color: $color--white;
+            }
+            a{
+                position: absolute;
+                bottom: 25px;
+                &:hover{
+                    .fa-angle-right{
+                        color: $color--light-blue;
+                    }
+                }
+            }
+        }
+    }
+    &.block--impact-stories-panel{
+        margin-bottom: 20px;
+        position: relative;
+        .block--item-colored-panel, .block--item-image-panel{
+            width: 50%;
+            height: 100%;
+            float: left;
+            color: $color--white;
+        }
+        .block--item-colored-panel{
+            padding: 30px;
+            position: relative;
+            a, span, h4, p{
+                color: $color--white;
+            }
+            a{
+                position: absolute;
+                bottom: 45px;
+            }
+            h4, p{
+                margin-top: 0;
+            }
+
+            h4{
+                margin-bottom: 10px;
+            }
+            p{
+                @include type-definition(18px, 1.33);
+            }
+            &.background--green{
+                background-color: $color--yellow-green;
+                a{
+                    &:hover{
+                        .fa-angle-right{
+                            color: $color--yellow-green;
+                        }
+                    }
+                }
+            }
+            &.background--orange{
+                background-color: $color--orange;
+                a{
+                    &:hover{
+                        .fa-angle-right{
+                            color: $color--orange;
+                        }
+                    }
+                }
+            }
+            &.background--blue{
+                background-color: $color--light-blue;
+                a{
+                    &:hover{
+                        .fa-angle-right{
+                            color: $color--light-blue;
+                        }
+                    }
+                }
+            }
+            &.background--teal{
+                background-color: $color--teal;
+                a{
+                    &:hover{
+                        .fa-angle-right{
+                            color: $color--teal;
+                        }
+                    }
+                }
+            }
+        }
+        .block--item-image-panel{
+            .image-display{
+                height: 100%;
+                background-size: cover;
+                background-position: center center;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+    &.block-item--impact-story-small{
+        position: relative;
+        margin-bottom: 20px;
+
+        a{
+            color: $color--white;
+            text-decoration: none;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+        .block--item-content{
+            background-color: $color--light-gray;
+            height: 140px;
+            width: 100%;
+            padding: 20px;
+            .category{
+                @include type-definition(10px, 2.2);
+                color: $color--white;
+
+                text-align: center;
+                width: 112px;
+                height: 25px;
+                position: absolute;
+                top: 0;
+                left: 0;
+
+                background-color: $color--black;
+
+                &.background--light-blue{
+                    background-color: $color--light-blue;
+                }
+                &.background--green{
+                    background-color: $color--yellow-green;
+                }
+                &.background--teal{
+                    background-color: $color--teal
+                }
+            }
+
+            p{
+                margin: 0;
+            }
+
+            .category, .date{
+                font-family: $text-body--bold;
+            }
+
+            .date{
+                @include type-definition(12px, 1.5);
+                color: $color--dark-gray-2;
+                margin-top: 12px;
+                margin-bottom: 5px;
+            }
+
+            .content_text{
+                @include type-definition(16px, 1.25);
+                color: $color--medium-gray;
+            }
+        }
+    }
+}
+
+.impact-stories-wrapper{
+    padding-bottom: 20px;
+    border-bottom: 1px solid $color--border-impact-stories-pillar;
+    margin-bottom: 30px;
+}
+
+
+@media all and (max-width: $bp--xsmall-max){
+    .block{
+        h3{
+            @include type-definition(30px, 1.13);
+        }
+        h4{
+            @include type-definition(22px, 1.14);
+        }
+        &.block--impact-stories{
+            margin-bottom: 20px;
+        }
+        &.block--homepage-prefooter{
+            h4{
+                margin-bottom: 10px;
+            }
+            p{
+                margin-bottom: 20px;
+            }
+            .block--start-fundraiser, .block--give-to{
+                margin-bottom: 50px
+            }
+        }
+    }
+    .block--item{
+        &.block--impact-stories-panel{
+            padding: 170px 15px 0;
+
+            .block--item-image-panel, .block--item-colored-panel{
+                float: none;
+            }
+            .block--item-image-panel{
+                width: 100%;
+                height: 208px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: -1;
+            }
+            .block--item-colored-panel{
+                height: 410px;
+                width: 100%;
+                padding: 25px;
+                h4{
+                    @include type-definition(22px,1.14);
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: $bp--small-max){
+    .block--item{
+        &.block--funding-priorities-items{
+            max-width: 100%;
+            .block--item-image{
+                display: none;
+            }
+        }
+    }
+}
+
+@media all and (min-width:$bp--small-up){
+    .block{
+        &.block--homepage-prefooter{
+            height: 330px;
+            .btn{
+                display: inline-block;
+                width: 270px;
+                position: absolute;
+                bottom: 0;
+            }
+            .block--content{
+                padding-bottom: 60px;
+                .block--give-to, .block--start-fundraiser{
+                    height: 210px;
+                    p{
+                        position: absolute;
+                        margin: 0;
+                        bottom: 80px;
+                    }
+                }
+            }
+        }
+        &.block--funding-priorities-full{
+            .block--content-stats{
+                .stats-text{
+                    color: $color--oxford-blue;
+                    @include type-definition(12px, 1.5);
+                }
+            }
+            a{
+                position: absolute;
+                bottom: 42px;
+            }
+        }
+        &.block--impact-story-with-image{
+            height: 265px;
+            background-size: cover;
+            background-position: center center;
+            .block--content{
+                height: auto;
+                position: absolute;
+                bottom: 0;
+            }
+        }
+        &.block--give-block-full-width{
+            padding-top: 50px;
+            padding-bottom: 50px;
+            p{
+                margin-bottom: 10px;
+                @include type-definition(26px, 1.15);
+                &:last-child{
+                    margin-bottom: 10px;
+                }
+            }
+            a{
+                float: right;
+                width: 270px;
+            }
+        }
+    }
+    .block--item{
+        &.block--impact-stories-panel{
+            height: 330px;
+            .block--give-to, .block--start-fundraiser{
+                height: 210px;
+            }
+        }
+    }
+}
+
+@media all and (min-width: $bp--medium-up){
+    .block{
+        &.block--funding-priorities{
+            .slick-arrow{
+                &.slick-prev{
+                    left: -50px;
+                }
+                &.slick-next{
+                    right: -50px;
+                }
+            }
+        }
+        &.block--impact-story-with-image{
+            height: 450px;
+        }
+    }
+    .block--item{
+        &.block--funding-priorities-items{
+            float: left;
+            .block--content{
+                width: 270px;
+            }
+        }
+        /*&.block-item--impact-story-small{
+            .block--item-content{
+                width: 270px;
+            }
+        }*/
+    }
+}
+@media all and (min-width: 1200px) and (max-width: 1315px){
+    .block{
+        &.block--funding-priorities{
+            .slick-arrow{
+                &.slick-prev{
+                    left: -35px;
+                }
+                &.slick-next{
+                    right: -50px;
+                }
+            }
+        }
+    }
+}
+.block-honor-page-body {
+    .body-give-link {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        a {
+            width: 100%;
+            &.btn--primary-small {
+                display: none;
+            }
+            &.btn--primary {
+                display: inline-block;
+            }
+        }
+    }
+    .note {
+        strong {
+            font-family: $text-body--medium;
+        }
+    }
+    .non-list-item {
+        padding-left: 0px;
+    }
+}
+
+@media screen and (min-width: $width-small) {
+    .block-honor-page-body {
+
+        .body-give-link {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            a {
+                width: auto;
+                &.btn--primary-small {
+                    display: inline-block;
+                }
+                &.btn--primary {
+                    display: none;
+                }
+            }
+        }
+        .non-list-item {
+            margin-bottom: 20px;
+            padding-left: 31px;
+        }
+    }
+}
+
+.block-contact-us {
+    display: block;
+    background-color: $color--light-gray-3;
+    color: $color--black;
+    padding: 30px;
+    max-width: 265px;
+    margin: 0 auto;
+    h4 {
+        margin-bottom: 18px;
+        color: $color--oxford-blue;
+    }
+    h5 {
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+    a {
+        color: $color--black;
+        &:hover {
+            color: $color--black;
+        }
+    }
+
+    .contact-detail-item {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 15px;
+        &:last-child {
+            margin-bottom: 0px;
+        }
+        span {
+            display: inline-block;
+            vertical-align: middle;
+            &.fa {
+                font-size: 1.3rem;
+                margin-right: 15px;
+                color: $color--translucent-black;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $width-small) {
+    .block-contact-us {
+        margin: 0;
+    }
+}
+@media screen and (min-width: $width-medium) {
+    .block-contact-us {
+        margin: 0;
+    }
+}
+@media screen and (min-width: $width-large) {
+    .block-contact-us {
+        margin: 0;
+    }
+}
+
+
+.block-story-nugget {
+    position: relative;
+    background-color: $color--light-gray;
+    margin-left: -15px;
+    margin-right: -15px;
+    &:before, &:after {
+        display: table;
+        content: " ";
+    }
+    &:after {
+        clear: both;
+    }
+    .story-nugget-display-image {
+        position: relative;
+        width: 100%;
+        height: calc(100vw * 0.575);
+        background-color: $color--light-gray;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    .story-nugget-data {
+        position: relative;
+        display: block;
+        .story-nugget-content--wrapper {
+            position: relative;
+            display: block;
+            top: -45px;
+        }
+    }
+    .story-nugget-title {
+        position: relative;
+        display: block;
+        margin-bottom: 30px;
+        h4 {
+            margin: 0px;
+            color: $color--white;
+            padding: 20px;
+            &.background--green{
+                background-color: $color--yellow-green;
+            }
+            &.background--orange{
+                background-color: $color--orange;
+            }
+            &.background--blue{
+                background-color: $color--light-blue;
+            }
+            &.background--teal{
+                background-color: $color--teal;
+            }
+        }
+    }
+    .story-nugget-content {
+        position: relative;
+        width: 100%;
+        p {
+            &:first-child {
+                margin-top: 0px;
+            }
+        }
+        .foot-caption {
+            font-family: $text-body--regular;
+            color: $color--medium-gray;
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $width-small) {
+    .block-story-nugget {
+        margin-left: 0px;
+        margin-right: 0px;
+        .story-nugget-display-image {
+             height: 414px;
+        }
+        .story-nugget-title {
+            h4 {
+                padding: 20px 30px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $width-medium) {
+    .block-story-nugget {
+        margin-left: 0px;
+        margin-right: 0px;
+        .story-nugget-display-image {
+             height: 433px;
+        }
+        .story-nugget-content {
+            padding-left: 45px;
+            padding-right: 45px;
+        }
+    }
+}
+
+@media screen and (min-width: $width-large) {
+    .block-story-nugget {
+        margin-left: 0px;
+        margin-right: 0px;
+        .story-nugget-display-image {
+             height: 433px;
+        }
+    }
+}
+

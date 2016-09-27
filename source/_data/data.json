@@ -2,6 +2,7 @@
   "key": "value",
   "key2": "use this for variables you want to load globally",
   "title": "Nullizzle shizznit velizzle, hizzle, suscipit own yo', gravida vizzle, arcu.",
+  "intro_text": "<p>Nullizzle shizznit velizzle, hizzle, suscipit own yo', gravida vizzle, arcu.</p>",
   "img": {
     "avatar": {
       "src": "http://placeimg.com/100/100/people",
@@ -22,6 +23,18 @@
     "landscape-16x9": {
       "src": "http://placeimg.com/640/360/tech",
       "alt": "16x9 Image"
+    },
+    "hero_image": {
+      "src" : "/images/home-hero-image.jpg",
+      "alt" : "Hero Image"
+    },
+    "ways_to_give_bg" : {
+      "src" : "/images/MBH_hospital_cropped.jpg",
+      "alt" : "Ways to Give background"
+    },
+    "placeholder_16x9" : {
+      "src" : "/images/placeholder_16x9.png",
+      "alt" : "Placeholder 16x9"
     }
   },
   "headline": {
@@ -71,5 +84,232 @@
     "long": "20",
     "short": "20"
   },
-  "seconds": "31"
+  "seconds": "31",
+  "footer" : {
+    "logo_link" : "/images/UCSF_logobox_white.png",
+    "copyright" :"© 2016 University of California San Francisco",
+    "contact" : {
+      "label" : "Contact",
+      "link" : "#"
+    },
+    "privacy" : {
+      "label" : "Privacy",
+      "link" : "#"
+    },
+    "social_links" : {
+      "facebook" : "https://facebook.com",
+      "twitter" : "https://twitter.com"
+    },
+    "left_section" : {
+      "title" : "THE FOUNDATION",
+      "content" : "The UCSF Foundation serves as the giving, receiving, and investing arm of the greater UCSF community and is operated by the Office of Development and Alumni Relations.",
+      "links" : {
+        "all" : [
+          { "label" : "UCSF Magazine", "link" : "#" },
+          { "label" : "UCSF Alumni", "link" : "#" }
+        ]
+      }
+    },
+    "center_section" : {
+      "title" : "About",
+      "links" : {
+        "left" : [
+          { "label" : "About", "link" : "#" },
+          { "label" : "Financials", "link" : "#" },
+          { "label" : "Careers", "link" : "#" },
+          { "label" : "Give", "link" : "#" }
+        ],
+        "right" : [
+          { "label" : "Planned Giving", "link" : "#" },
+          { "label" : "Corporate & Foundationsu", "link" : "#" },
+          { "label" : "Employee Giving", "link" : "#" }
+        ]
+      }
+    },
+    "right_section" : {
+      "title" : "THE FOUNDATION",
+      "description" : "The UCSF Foundation serves as the giving, receiving, and investing arm of the greater UCSF community and is operated by the Office of Development and Alumni Relations."
+    }
+  },
+  "nav_links" : {
+    "links" : [
+      {
+        "label" : "Why Give", "link" : "#", "sublinks" : ""
+      },
+      {
+        "label" : "How to Give",
+        "link" : "#",
+        "sublinks" : [
+            {
+              "label" : "Alumni / Class", "link" : "#"
+            },
+            {
+              "label" : "Honor / Memorial", "link" : "#"
+            },
+            {
+              "label" : "Corporate & Foundation", "link" : "#"
+            },
+            {
+              "label" : "Planned Giving", "link" : "#"
+            },
+            {
+              "label" : "Endowments", "link" : "#"
+            },
+            {
+              "label" : "In-kind / Stock", "link" : "#"
+            },
+            {
+              "label" : "Giving FAQ", "link" : "#"
+            }
+        ]
+      },
+      {
+        "label" : "What to Support", "link" : "#", "sublinks" : ""
+      },
+      {
+        "label" : "Get Involved", "link" : "#", "sublinks" : ""
+      }
+    ]
+  },
+  "header_logos" : {
+    "UCSF_logobox_small" : "/images/UCSF_logobox_navy_CMYK_small.png",
+    "UCSF_logowhite_small" : "/images/UCSF_logo_white_RGB_small.png"
+  },
+  "mobile_toggles" : {
+    "buttons" : [
+      {
+        "class" : "mobile-search-form-toggle", "icon" : "fa fa-search"
+      },
+      {
+        "class" : "mobile-menu-toggle", "icon" : "fa fa-bars"
+      }
+    ]
+  },
+  "global_header_links" : {
+    "links" : [
+      {
+        "label" : "About UCSF", "link" : "#"
+      },
+      {
+        "label" : "UCSF Medical Center", "link" : "#"
+      }
+    ]
+  },
+  "alert" : {
+    "text" : "<b>It’s Giving Tuesday!</b> Click here to make your gift now."
+  },
+  "hero_content" : {
+    "heading" : "Your giving inspires a world of good health.",
+    "link_text" : "SEE YOUR IMPACT",
+    "link_href" : "#",
+    "dummy" : {
+      "heading" : "Your text here.",
+      "link_text" : "Your link here",
+      "link_href" : "#"
+    }
+  },
+  "give_ways_content" : {
+    "full" : {
+      "heading" : "Give Where it’s Needed Most",
+      "body" : "Everyday, UCSF faces big challenges. Your gifts make it possible for us to act quickly or conduct research and nimbly develop innovative science. From responding to disease outbreaks to exploring a cure for cancer, give a gift where it is needed today.",
+      "cta" : {
+        "label" : "EXPLORE OTHER WAYS OF GIVING",
+        "link" : "#"
+      }
+    },
+    "small" : {
+      "heading" : "Give a Gift of Tribute",
+      "body" : "",
+      "cta" : ""
+    }
+  },
+  "funding_priorities" : {
+    "items" : [
+      {
+        "image" : "https://placeholdit.imgix.net/~text?txtsize=19&txt=270%C3%97200&w=270&h=200",
+        "link_text" : "NEUROSCIENCE 1",
+        "link_href" : "#",
+        "content_text" : "Revolutionize research and discovery for the most serious psychiatric illnesses"
+      },
+      {
+        "image" : "https://placeholdit.imgix.net/~text?txtsize=19&txt=270%C3%97200&w=270&h=200",
+        "link_text" : "NEUROSCIENCE 2",
+        "link_href" : "#",
+        "content_text" : "Revolutionize research and discovery for the most serious psychiatric illnesses"
+      },
+      {
+        "image" : "https://placeholdit.imgix.net/~text?txtsize=19&txt=270%C3%97200&w=270&h=200",
+        "link_text" : "NEUROSCIENCE 3",
+        "link_href" : "#",
+        "content_text" : "Revolutionize research and discovery for the most serious psychiatric illnesses"
+      },
+      {
+        "image" : "https://placeholdit.imgix.net/~text?txtsize=19&txt=270%C3%97200&w=270&h=200",
+        "link_text" : "NEUROSCIENCE 4",
+        "link_href" : "#",
+        "content_text" : "Revolutionize research and discovery for the most serious psychiatric illnesses"
+      },
+      {
+        "image" : "https://placeholdit.imgix.net/~text?txtsize=19&txt=270%C3%97200&w=270&h=200",
+        "link_text" : "NEUROSCIENCE 5",
+        "link_href" : "#",
+        "content_text" : "Revolutionize research and discovery for the most serious psychiatric illnesses"
+      },
+      {
+        "image" : "https://placeholdit.imgix.net/~text?txtsize=19&txt=270%C3%97200&w=270&h=200",
+        "link_text" : "NEUROSCIENCE 6",
+        "link_href" : "#",
+        "content_text" : "Revolutionize research and discovery for the most serious psychiatric illnesses"
+      },
+      {
+        "image" : "https://placeholdit.imgix.net/~text?txtsize=19&txt=270%C3%97200&w=270&h=200",
+        "link_text" : "NEUROSCIENCE 7",
+        "link_href" : "#",
+        "content_text" : "Revolutionize research and discovery for the most serious psychiatric illnesses"
+      },
+      {
+        "image" : "https://placeholdit.imgix.net/~text?txtsize=19&txt=270%C3%97200&w=270&h=200",
+        "link_text" : "NEUROSCIENCE 8",
+        "link_href" : "#",
+        "content_text" : "Revolutionize research and discovery for the most serious psychiatric illnesses"
+      }
+    ]
+  },
+  "homepage_impact_stories" : {
+    "first" : {
+      "title" : "Bluestone to Head Parker Cancer Immunotherapy Institute",
+      "copy_text" : "The Parker Foundation with a $250 million grant has launched the Parker Institute for Cancer Immunotherapy.",
+      "link" : "#",
+      "image_url" : "/images/MBH_hospital.jpg"
+    },
+    "second" : {
+      "title" : "Bluestone to Head Parker Cancer Immunotherapy Institute",
+      "copy_text" : "The Parker Foundation with a $250 million grant has launched the Parker Institute for Cancer Immunotherapy.",
+      "link" : "#",
+      "image_url" : "/images/MBH_hospital.jpg"
+    },
+    "third" : {
+      "title" : "Bluestone to Head Parker Cancer Immunotherapy Institute",
+      "copy_text" : "The Parker Foundation with a $250 million grant has launched the Parker Institute for Cancer Immunotherapy.",
+      "link" : "#",
+      "image_url" : "/images/MBH_hospital.jpg"
+    }
+  },
+  "start_fundraiser": {
+    "title" : "Make a Difference Where it Matters.",
+    "body_text" : "Start your own fundraiser and share why UCSF is important to you. Our online platform makes it easy to make a difference.",
+    "link_url" : "#",
+    "link_label" : "Start a Fundraiser"
+  },
+  "give_to": {
+    "title" : "Your giving is the foundation for our greatest innovations in research, education, and patient care.",
+    "body_text" : "Give a gift directly where it is needed the most.",
+    "link_url" : "#",
+    "link_label" : "Give to UCSF "
+  },
+  "give_to_full" : "<p>Your support is the foundation for our greatest innovations in <b>research, education, and patient care</b>.</p>",
+  "give" : {
+    "url" : "#",
+    "label" : "Give to UCSF "
+  }
 }

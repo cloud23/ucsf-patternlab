@@ -1,0 +1,15 @@
+<div class="block--item block--impact-stories-panel">
+    <div class="block--item-colored-panel background--{{ color ? color : 'green' }}">
+        <h4>{{ title }}</h4>
+        <p>{{ copy_text }}</p>
+        <a class="link link--with-icon" href="{{ link }}">read story<span class="fa-stack link--icon">
+                <i class="fa fa-circle fa-stack-2x icon--visible-hover icon--circle" aria-hidden="true"></i>
+                <i class="fa fa-circle-thin fa-stack-2x icon--circle" aria-hidden="true"></i>
+                <i class="fa fa-angle-right fa-stack-1x icon--angle" aria-hidden="true"></i>
+            </span>           
+        </a>
+    </div>
+    <div class="block--item-image-panel">
+        <div class="image-display" style="background-image: url({{ image_url }});"></div>
+    </div>
+</div>

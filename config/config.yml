@@ -32,9 +32,18 @@ twigFilterExt: filter.php
 twigFunctionExt: function.php
 twigTagExt: tag.php
 twigTestExt: test.php
-ishMinimum: '240'
+ishMinimum: '320'
 ishMaximum: '2600'
 ishControlsHide:
     - hay
+    - random
+    - disco
 styleguideKit: pattern-lab/styleguidekit-twig-default
 styleguideKitPath: vendor/pattern-lab/styleguidekit-twig-default
+twig:
+    paths:
+        "_patterns/00-atoms/": atoms
+        "_patterns/01-molecules/": molecules
+        "_patterns/02-organisms/": organisms
+        "_patterns/03-templates/": templates
+        "_patterns/04-pages/": pages

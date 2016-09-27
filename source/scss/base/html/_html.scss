@@ -1,1 +1,15 @@
 /*** HTML ***/
+* {
+  @include box-sizing(border-box);
+}
+
+html, body {
+    font-family: $text-body--regular;
+    margin: 0;
+    padding: 0;
+    font-size: $base--typesize;
+}
+
+body{
+    font-size: $base--typesize;
+}
