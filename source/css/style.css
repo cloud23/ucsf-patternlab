@@ -4,13 +4,6 @@ Stylesheet: Main Stylesheet
 Here's where the magic happens.
 All styles that are imported here will be compiled into css/style.css
 ******************************************************************/
-/* Colors
-   ========================================================================== */
-/*
- * Here's a great tutorial on how to
- * use color variables properly:
- * http://sachagreif.com/sass-color-variables/
- */
 /* ==========================================================================
    Breakpoint Configuration
    docs: https://github.com/Team-Sass/breakpoint/wiki
