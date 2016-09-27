@@ -76,12 +76,13 @@ $(function(){
 		});
 
 		$giveOptionLabel.on('click',function(){
+			$(this).prev().prop('checked',true);
 			$(this).parent().parent().find('.ways-to-give-option').each(function(){
 				var $radioOther = $(this).find('input[type="radio"]');
 				if($radioOther.val() == "other") {
 					$radioOther.val('').prev().find('.label-text').show();
 				}
-			})
+			});
 
 		});
 

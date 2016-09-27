@@ -212,12 +212,17 @@
 				margin-top: 0px;
 			}
 		}
+		&.sidebar {
+			.ways-to-give-options--wrapper {
+				margin-bottom: 20px;
+			}
+		}
 	}
 
 	.ways-to-give-options--wrapper {
 		width: auto;
 		margin-top: 17px;
-		margin-bottom: 20px;
+		margin-bottom: 0px;
 	}
 
 	.ways-to-give-option {
@@ -296,12 +301,17 @@
 			font-size: 18px;
 			margin: 0 0 10px;
 		}
+		&.sidebar {
+			.ways-to-give-options--wrapper {
+				margin-bottom: 20px;
+			}
+		}
 	}
 
 	.ways-to-give-options--wrapper {
 		width: auto;
 		margin-top: 17px;
-		margin-bottom: 20px;
+		margin-bottom: 0px;
 	}
 
 	.ways-to-give-option {
@@ -358,12 +368,17 @@
 			font-size: 18px;
 			margin: 0 0 10px;
 		}
+		&.sidebar {
+			.ways-to-give-options--wrapper {
+				margin-bottom: 20px;
+			}
+		}
 	}
 
 	.ways-to-give-options--wrapper {
 		width: auto;
 		margin-top: 17px;
-		margin-bottom: 20px;
+		margin-bottom: 0px;
 	}
 	.ways-to-give-option {
 		&:last-child {
@@ -409,8 +424,12 @@
 // WAYS TO GIVE SMALL
 
 .ways-to-give-form-small {
-	max-width: 265px;
+	max-width: 100%;
 	margin: 0 auto;
+	display: block;
+	&.sidebar {
+		display: none;
+	}
 	h4 {
 		font-family: $text-headline;
 		color: $color--oxford-blue;
@@ -492,6 +511,11 @@
 @media screen and (min-width: $width-medium) {
 	.ways-to-give-form-small {
 		max-width: 265px;
+		display: none;
+		&.sidebar {
+			display: block;
+			margin-bottom: 30px;
+		}
 		p {
 			display: none;
 		}
@@ -530,6 +554,10 @@
 @media screen and (min-width: $width-large) {
 	.ways-to-give-form-small {
 		max-width: 265px;
+		display: none;
+		&.sidebar {
+			display: block;
+		}
 		p {
 			display: none;
 		}

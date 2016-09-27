@@ -1,4 +1,6 @@
 {
+	"title" : "Lorep Ipsum Dolor Sit Amet",
+	"intro_text": "<p>Lorem ipsum dolor <strong>sit amet</strong>, consectetur adipiscing elit. Maecenas orci ipsum, dictum eget vehicula sed, lobortis ac dui.</p><p>Pellentesque <strong>sapien est</strong>, venenatis iaculis ultrices non, facilisis eget massa. Aliquam sem lectus, tristique vitae ultricies finibus, sagittis vitae odio.</p>",
 	"bgcolor" : "blue",
     "image" : "http://placehold.it/1280x720",
     "nugget_title" : "Interdum Et Malesuada Fames Ac Ante Ipsum Primis",
