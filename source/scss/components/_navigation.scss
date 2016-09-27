@@ -392,11 +392,17 @@ html {
 								color: $color--white;
 								&:hover {
 									color: $color--oxford-blue;
+									&.header-give-btn {
+										color: $color--white;
+									}
 								}
 							}
 							&:hover {
 								a {
 									color: $color--oxford-blue;
+									&.header-give-btn {
+										color: $color--white;
+									}
 								}
 							}
 						}
@@ -420,7 +426,7 @@ html {
 					text-decoration: none;
 				  	.nav-logo {
 				  		display: inline-block;
-				  		margin-right: 4px;
+				  		margin-right: 10px;
 				  		vertical-align: middle;
 				  	}
 				  	.nav-site-title {
@@ -451,6 +457,7 @@ html {
 							color: $color--oxford-blue;
 							&.header-give-btn {
 								background-color: $color--oxford-blue;
+								color: $color--white;
 								span {
 									color: $color--orange;
 								}
