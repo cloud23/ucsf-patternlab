@@ -765,3 +765,131 @@ body {
 	}
 }
 
+.breadcrumb {
+	ul {
+		list-style: none;
+		padding: 0px;
+		margin: 0px;
+		& > li {
+			display: none;
+			padding: 0px;
+			margin: 0px;
+			font-size: 23px;
+			vertical-align: middle;
+			float: left;
+			&:last-child {
+				display: inline-block;
+				&::before {
+					content: "\f104";
+					color: $color--oxford-blue;
+					margin-right: 15px;
+				}
+				&::after {
+					display: none;
+				}
+				& > a {
+					color: $color--oxford-blue;
+				}
+			}
+			&::before, &::after {
+				display: inline-block;
+			    font: normal normal normal 14px/1 FontAwesome;
+			    font-size: inherit;
+			    text-rendering: auto;
+			    -webkit-font-smoothing: antialiased;
+			    -moz-osx-font-smoothing: grayscale;
+				vertical-align: middle;
+			}
+			&::after {
+				display: none;
+				content: "\f105";
+				color: $color--dark-gray;
+				margin-left: 20px;
+				margin-right: 20px;
+			}
+			& > a {
+				font-family: $text-body--bold;
+				color: $color--dark-gray;
+				font-size: 18px;
+				margin-top: 2px;
+			    vertical-align: middle;
+			    display: inline-block;
+			    text-transform: uppercase;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: $width-small) {
+	.breadcrumb {
+		ul {
+			& > li {
+				display: inline-block;
+				font-size: 28px;
+				&:last-child {
+					&::before {
+						display: none;
+					}
+				}
+				&::after {
+					display: inline-block;
+				}
+				a {
+					font-family: $text-body--medium;
+					font-size: 15px;
+					margin-top: 3px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (min-width: $width-medium) {
+	.breadcrumb {
+		ul {
+			& > li {
+				display: inline-block;
+				font-size: 28px;
+				&:last-child {
+					&::before {
+						display: none;
+					}
+				}
+				&::after {
+					display: inline-block;
+				}
+				a {
+					font-family: $text-body--medium;
+					font-size: 15px;
+					margin-top: 3px;
+				}
+			}
+		}
+	}
+}
+
+
+@media screen and (min-width: $width-large) {
+	.breadcrumb {
+		ul {
+			& > li {
+				display: inline-block;
+				font-size: 28px;
+				&:last-child {
+					&::before {
+						display: none;
+					}
+				}
+				&::after {
+					display: inline-block;
+				}
+				a {
+					font-family: $text-body--medium;
+					font-size: 15px;
+					margin-top: 3px;
+				}
+			}
+		}
+	}
+}
+
