@@ -2,12 +2,14 @@
     <div class="content-area footer--upper">
         <div class="column-wrapper">
             <div class="column-large-1 column-medium-1 column-small-1 xsmall--hidden">
-                <a href="#">
-                    <img src="{{ footer.logo_link }}" alt="UCSF" class="footer--logo" />
-                </a>
+                {% block footer_logo %}
+                    <a href="#">
+                        <img src="{{ logo }}" alt="UCSF" class="footer--logo" />  
+                    </a>
+                {% endblock %}
             </div>
-            {% if footer.left_section %}
-                <div class="column-large-3 column-medium-3 column-small-3 xsmall--hidden">
+            <div class="column-large-3 column-medium-3 column-small-3 xsmall--hidden">
+                {% block left_section %}
                     {% if footer.left_section.title %}
                         <div class="footer--column-title">
                             {{ footer.left_section.title }}
@@ -29,8 +31,8 @@
                             {% endfor %}   
                         </div>
                     {% endif %}
-                </div>
-            {% endif %}
+                {% endblock %}
+            </div>
             {% if footer.center_section %}
                 <div class="column-large-4 column-medium-4 column-small-4">
                     {% if footer.center_section.title %}
@@ -86,16 +88,22 @@
                         <div class="footer--column-title">{{ footer.right_section.title }}</div>
                     {% endif %}
                     <div class="footer--column-content text-color--dark-gray">
+                        {% block contact_section %}
                         <p>
                             +1 (415) 476-6922 <br />
                             <a href="mailto:placeholder@ucsf.org">placeholder@ucsf.org</a>
                         </p>
+                        {% endblock %}
+                        {% block address_section %}
                         <p>
                             UCSF Foundation <br />
                             UCSF Box 0248 <br />
                             San Francisco, CA 94143-0248
                         </p>
+                        {% endblock %}
+                        {% block tax_number_id %}
                         <p>Tax ID# 94-2829914</p>
+                        {% endblock %}
                     </div>
                     {% if footer.social_links %}
                         <div class="footer--social-links">
@@ -140,11 +148,13 @@
                     </div> -->
                 </div>
             </div>
+            {% block copyright_text %}
             {% if footer.copyright %}
                 <div class="footer--copyright-left footer--copyright-text xsmall--visible">
                     {{ footer.copyright }}
                 </div>
             {% endif %}
+            {% endblock %}
         </div>
     </div>
 </footer>
