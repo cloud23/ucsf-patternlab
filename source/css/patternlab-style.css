@@ -292,6 +292,22 @@ h5 {
   font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
 }
 
+/* line 129, ../scss/global/variables/_typography.scss */
+p.photo-caption {
+  font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  color: #58595b;
+  font-size: 12px;
+}
+
+/* line 135, ../scss/global/variables/_typography.scss */
+p.fund-intro {
+  font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  line-height: 1.36;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
 /* From the current pattern library. I'm keeping this here in case we needed this in the future.
 
 $font-headline: $granjon, $header-font;
