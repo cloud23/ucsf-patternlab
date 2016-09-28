@@ -59,7 +59,7 @@
                 {% endblock %}
             </div>
             <div class="column-large-3 column-medium-3 column-small-3 xsmall--visible">
-                {% block left_section %}
+                {% block left_section_mobile %}
                     {% if footer.left_section.title %}
                         <div class="footer--column-title">{{ footer.left_section.title }}</div>
                     {% endif %}
@@ -119,7 +119,7 @@
                                     </a>
                                 </div>
                             {% endif %}
-                        {% endif %}
+                        {% endblock %}
                     </div>
                 {% endblock %}
             </div>
