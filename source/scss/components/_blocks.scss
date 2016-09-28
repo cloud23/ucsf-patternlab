@@ -703,7 +703,7 @@
     .story-nugget-display-image {
         position: relative;
         width: 100%;
-        height: calc(100vw * 0.575);
+        height: 184px;
         background-color: $color--light-gray;
         background-repeat: no-repeat;
         background-size: cover;
@@ -800,3 +800,86 @@
     }
 }
 
+
+.block--story-detail-hero {
+    height: 242px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+@media screen and (min-width: $width-small) {
+    .block--story-detail-hero {
+        height: 266px;
+    }
+}
+
+@media screen and (min-width: $width-medium) {
+    .block--story-detail-hero {
+        height: 450px;
+    }
+}
+
+@media screen and (min-width: $width-large) {
+    .block--story-detail-hero {
+        height: 450px;
+    }
+}
+
+.block--share-btns {
+    .article-share-btn {
+        background-color: $color--medium-gray;
+        width: 38px;
+        height: 38px;
+        display: block;
+        color: $color--white;
+        text-align: center;
+        padding: 9px 0px;
+        border-radius: 50px;
+        margin: 0px 10px 0px 0px;
+        font-size: 18px;
+        float: left;
+    }
+}
+
+@media screen and (min-width: $width-medium) {
+    .block--share-btns {
+        .article-share-btn {
+            background-color: $color--medium-gray;
+            width: 30px;
+            height: 30px;
+            float: none;
+            font-size: 15px;
+            margin: 0px 0px 15px 0px;
+            padding: 7px 0px;
+        }
+    }
+}
+
+
+.block-quote-custom {
+    background-color: $color--light-gray-3;
+    color: $color--black;
+    padding: 20px 23.5px;
+    .quote {
+        font-family: $text-headline;
+        font-size: 24px;
+        line-height: 1.33;
+        margin-bottom: 15px;
+        p {
+            font-family: inherit;
+            font-size: inherit;
+            margin: 0px;
+            display: inline;
+        }
+    }
+    .from {
+        font-family: $text-body--light;
+        color: $color--oxford-blue;
+        strong {
+            font-family: $text-body--medium;
+            font-weight: normal;
+        }
+    }
+}
