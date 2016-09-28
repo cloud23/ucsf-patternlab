@@ -3830,22 +3830,6 @@ h5 {
   font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
 }
 
-/* line 129, ../scss/global/variables/_typography.scss */
-p.photo-caption {
-  font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  color: #58595b;
-  font-size: 12px;
-}
-
-/* line 135, ../scss/global/variables/_typography.scss */
-p.fund-intro {
-  font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-size: 22px;
-  line-height: 1.36;
-  margin-top: 0px;
-  margin-bottom: 15px;
-}
-
 /* From the current pattern library. I'm keeping this here in case we needed this in the future.
 
 $font-headline: $granjon, $header-font;
@@ -8173,7 +8157,7 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
 .block-story-nugget .story-nugget-display-image {
   position: relative;
   width: 100%;
-  height: 184px;
+  height: calc(100vw * 0.575);
   background-color: #F1F1F1;
   background-repeat: no-repeat;
   background-size: cover;
@@ -8282,91 +8266,6 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
     height: 433px;
   }
 }
-/* line 804, ../scss/components/_blocks.scss */
-.block--story-detail-hero {
-  height: 242px;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;
-}
-
-@media screen and (min-width: 768px) {
-  /* line 813, ../scss/components/_blocks.scss */
-  .block--story-detail-hero {
-    height: 266px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  /* line 819, ../scss/components/_blocks.scss */
-  .block--story-detail-hero {
-    height: 450px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  /* line 825, ../scss/components/_blocks.scss */
-  .block--story-detail-hero {
-    height: 450px;
-  }
-}
-/* line 831, ../scss/components/_blocks.scss */
-.block--share-btns .article-share-btn {
-  background-color: #58595b;
-  width: 38px;
-  height: 38px;
-  display: block;
-  color: #FFFFFF;
-  text-align: center;
-  padding: 9px 0px;
-  border-radius: 50px;
-  margin: 0px 10px 0px 0px;
-  font-size: 18px;
-  float: left;
-}
-
-@media screen and (min-width: 1024px) {
-  /* line 848, ../scss/components/_blocks.scss */
-  .block--share-btns .article-share-btn {
-    background-color: #58595b;
-    width: 30px;
-    height: 30px;
-    float: none;
-    font-size: 15px;
-    margin: 0px 0px 15px 0px;
-    padding: 7px 0px;
-  }
-}
-/* line 861, ../scss/components/_blocks.scss */
-.block-quote-custom {
-  background-color: #ebf3fa;
-  color: #000000;
-  padding: 20px 23.5px;
-}
-/* line 865, ../scss/components/_blocks.scss */
-.block-quote-custom .quote {
-  font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
-  font-size: 24px;
-  line-height: 1.33;
-  margin-bottom: 15px;
-}
-/* line 870, ../scss/components/_blocks.scss */
-.block-quote-custom .quote p {
-  font-family: inherit;
-  font-size: inherit;
-  margin: 0px;
-  display: inline;
-}
-/* line 877, ../scss/components/_blocks.scss */
-.block-quote-custom .from {
-  font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  color: #052059;
-}
-/* line 880, ../scss/components/_blocks.scss */
-.block-quote-custom .from strong {
-  font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-}
-
 /* line 1, ../scss/components/_custom_lists.scss */
 .htmytg-list {
   list-style: none;
