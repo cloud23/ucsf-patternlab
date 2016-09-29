@@ -883,3 +883,93 @@
         }
     }
 }
+
+.block--article-carousel {
+    &.mobile-block {
+        .carousel-nav {
+            display: block;
+        }
+    }
+    &.desktop-block {
+        .carousel-nav {
+            display: none;
+        }
+    }
+    .carousel-nav {
+            position: absolute;
+            z-index: 2;
+            background-color: transparent;
+            background-color: rgba(0,0,0,0);
+            border: 0;
+            top: 50%;
+            margin-top: -23px;
+            font-size: 46px;
+            color: $color--white;
+            &:focus {
+                outline: none;
+            }
+            &.slick-prev {
+                left: 15px;
+            }
+            &.slick-next {
+                right: 15px;
+            }
+    }
+    .item {
+        width: 100%;
+        height: auto;
+        &:focus {
+            outline: none;
+        }
+        .item-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 0px;
+        }
+        .item-content {
+            display: block;
+            background-color: $color--light-gray;
+            color: $color--black;
+            padding: 15px 20px;
+            margin: 0px;
+            .date {
+                color: $color--oxford-blue;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px){
+    .block--article-carousel {
+        &.mobile-block {
+            .carousel-nav {
+                display: none;
+            }
+        }
+        &.desktop-block {
+            .carousel-nav {
+                display: block;
+            }
+        }
+        .carousel-nav {
+            color: $color--black;
+            background-color: $color--light-gray;
+            padding: 10px 20px;
+            top: 50%;
+            margin-top: -37px;
+            &.slick-prev {
+                left: 0px;
+            }
+            &.slick-next {
+                right: 0px;
+            }
+        }
+        .item {
+            .item-content {
+                padding: 28px 63px;
+            }
+        }
+    }
+}
+

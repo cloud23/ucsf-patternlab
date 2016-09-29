@@ -5392,9 +5392,11 @@ html, body {
   margin: 0;
   padding: 0;
   font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 13, ../scss/base/html/_html.scss */
+/* line 15, ../scss/base/html/_html.scss */
 body {
   font-size: 15px;
 }
@@ -8367,6 +8369,97 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   font-weight: normal;
 }
 
+/* line 889, ../scss/components/_blocks.scss */
+.block--article-carousel.mobile-block .carousel-nav {
+  display: block;
+}
+/* line 894, ../scss/components/_blocks.scss */
+.block--article-carousel.desktop-block .carousel-nav {
+  display: none;
+}
+/* line 898, ../scss/components/_blocks.scss */
+.block--article-carousel .carousel-nav {
+  position: absolute;
+  z-index: 2;
+  background-color: transparent;
+  background-color: transparent;
+  border: 0;
+  top: 50%;
+  margin-top: -23px;
+  font-size: 46px;
+  color: #FFFFFF;
+}
+/* line 908, ../scss/components/_blocks.scss */
+.block--article-carousel .carousel-nav:focus {
+  outline: none;
+}
+/* line 911, ../scss/components/_blocks.scss */
+.block--article-carousel .carousel-nav.slick-prev {
+  left: 15px;
+}
+/* line 914, ../scss/components/_blocks.scss */
+.block--article-carousel .carousel-nav.slick-next {
+  right: 15px;
+}
+/* line 918, ../scss/components/_blocks.scss */
+.block--article-carousel .item {
+  width: 100%;
+  height: auto;
+}
+/* line 921, ../scss/components/_blocks.scss */
+.block--article-carousel .item:focus {
+  outline: none;
+}
+/* line 924, ../scss/components/_blocks.scss */
+.block--article-carousel .item .item-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0px;
+}
+/* line 930, ../scss/components/_blocks.scss */
+.block--article-carousel .item .item-content {
+  display: block;
+  background-color: #F1F1F1;
+  color: #000000;
+  padding: 15px 20px;
+  margin: 0px;
+}
+/* line 936, ../scss/components/_blocks.scss */
+.block--article-carousel .item .item-content .date {
+  color: #052059;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 946, ../scss/components/_blocks.scss */
+  .block--article-carousel.mobile-block .carousel-nav {
+    display: none;
+  }
+  /* line 951, ../scss/components/_blocks.scss */
+  .block--article-carousel.desktop-block .carousel-nav {
+    display: block;
+  }
+  /* line 955, ../scss/components/_blocks.scss */
+  .block--article-carousel .carousel-nav {
+    color: #000000;
+    background-color: #F1F1F1;
+    padding: 10px 20px;
+    top: 50%;
+    margin-top: -37px;
+  }
+  /* line 961, ../scss/components/_blocks.scss */
+  .block--article-carousel .carousel-nav.slick-prev {
+    left: 0px;
+  }
+  /* line 964, ../scss/components/_blocks.scss */
+  .block--article-carousel .carousel-nav.slick-next {
+    right: 0px;
+  }
+  /* line 969, ../scss/components/_blocks.scss */
+  .block--article-carousel .item .item-content {
+    padding: 28px 63px;
+  }
+}
 /* line 1, ../scss/components/_custom_lists.scss */
 .htmytg-list {
   list-style: none;
