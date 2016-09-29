@@ -3830,6 +3830,22 @@ h5 {
   font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
 }
 
+/* line 129, ../scss/global/variables/_typography.scss */
+p.photo-caption {
+  font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  color: #58595b;
+  font-size: 12px;
+}
+
+/* line 135, ../scss/global/variables/_typography.scss */
+p.fund-intro {
+  font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  line-height: 1.36;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
 /* From the current pattern library. I'm keeping this here in case we needed this in the future.
 
 $font-headline: $granjon, $header-font;
@@ -5376,9 +5392,11 @@ html, body {
   margin: 0;
   padding: 0;
   font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 13, ../scss/base/html/_html.scss */
+/* line 15, ../scss/base/html/_html.scss */
 body {
   font-size: 15px;
 }
@@ -8157,7 +8175,7 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
 .block-story-nugget .story-nugget-display-image {
   position: relative;
   width: 100%;
-  height: calc(100vw * 0.575);
+  height: 184px;
   background-color: #F1F1F1;
   background-repeat: no-repeat;
   background-size: cover;
@@ -8264,6 +8282,182 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   /* line 797, ../scss/components/_blocks.scss */
   .block-story-nugget .story-nugget-display-image {
     height: 433px;
+  }
+}
+/* line 804, ../scss/components/_blocks.scss */
+.block--story-detail-hero {
+  height: 242px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 813, ../scss/components/_blocks.scss */
+  .block--story-detail-hero {
+    height: 266px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* line 819, ../scss/components/_blocks.scss */
+  .block--story-detail-hero {
+    height: 450px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 825, ../scss/components/_blocks.scss */
+  .block--story-detail-hero {
+    height: 450px;
+  }
+}
+/* line 831, ../scss/components/_blocks.scss */
+.block--share-btns .article-share-btn {
+  background-color: #58595b;
+  width: 38px;
+  height: 38px;
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 9px 0px;
+  border-radius: 50px;
+  margin: 0px 10px 0px 0px;
+  font-size: 18px;
+  float: left;
+}
+
+@media screen and (min-width: 1024px) {
+  /* line 848, ../scss/components/_blocks.scss */
+  .block--share-btns .article-share-btn {
+    background-color: #58595b;
+    width: 30px;
+    height: 30px;
+    float: none;
+    font-size: 15px;
+    margin: 0px 0px 15px 0px;
+    padding: 7px 0px;
+  }
+}
+/* line 861, ../scss/components/_blocks.scss */
+.block-quote-custom {
+  background-color: #ebf3fa;
+  color: #000000;
+  padding: 20px 23.5px;
+}
+/* line 865, ../scss/components/_blocks.scss */
+.block-quote-custom .quote {
+  font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
+  font-size: 24px;
+  line-height: 1.33;
+  margin-bottom: 15px;
+}
+/* line 870, ../scss/components/_blocks.scss */
+.block-quote-custom .quote p {
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0px;
+  display: inline;
+}
+/* line 877, ../scss/components/_blocks.scss */
+.block-quote-custom .from {
+  font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  color: #052059;
+}
+/* line 880, ../scss/components/_blocks.scss */
+.block-quote-custom .from strong {
+  font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+
+/* line 889, ../scss/components/_blocks.scss */
+.block--article-carousel.mobile-block .carousel-nav {
+  display: block;
+}
+/* line 894, ../scss/components/_blocks.scss */
+.block--article-carousel.desktop-block .carousel-nav {
+  display: none;
+}
+/* line 898, ../scss/components/_blocks.scss */
+.block--article-carousel .carousel-nav {
+  position: absolute;
+  z-index: 2;
+  background-color: transparent;
+  background-color: transparent;
+  border: 0;
+  top: 50%;
+  margin-top: -23px;
+  font-size: 46px;
+  color: #FFFFFF;
+}
+/* line 908, ../scss/components/_blocks.scss */
+.block--article-carousel .carousel-nav:focus {
+  outline: none;
+}
+/* line 911, ../scss/components/_blocks.scss */
+.block--article-carousel .carousel-nav.slick-prev {
+  left: 15px;
+}
+/* line 914, ../scss/components/_blocks.scss */
+.block--article-carousel .carousel-nav.slick-next {
+  right: 15px;
+}
+/* line 918, ../scss/components/_blocks.scss */
+.block--article-carousel .item {
+  width: 100%;
+  height: auto;
+}
+/* line 921, ../scss/components/_blocks.scss */
+.block--article-carousel .item:focus {
+  outline: none;
+}
+/* line 924, ../scss/components/_blocks.scss */
+.block--article-carousel .item .item-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0px;
+}
+/* line 930, ../scss/components/_blocks.scss */
+.block--article-carousel .item .item-content {
+  display: block;
+  background-color: #F1F1F1;
+  color: #000000;
+  padding: 15px 20px;
+  margin: 0px;
+}
+/* line 936, ../scss/components/_blocks.scss */
+.block--article-carousel .item .item-content .date {
+  color: #052059;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 946, ../scss/components/_blocks.scss */
+  .block--article-carousel.mobile-block .carousel-nav {
+    display: none;
+  }
+  /* line 951, ../scss/components/_blocks.scss */
+  .block--article-carousel.desktop-block .carousel-nav {
+    display: block;
+  }
+  /* line 955, ../scss/components/_blocks.scss */
+  .block--article-carousel .carousel-nav {
+    color: #000000;
+    background-color: #F1F1F1;
+    padding: 10px 20px;
+    top: 50%;
+    margin-top: -37px;
+  }
+  /* line 961, ../scss/components/_blocks.scss */
+  .block--article-carousel .carousel-nav.slick-prev {
+    left: 0px;
+  }
+  /* line 964, ../scss/components/_blocks.scss */
+  .block--article-carousel .carousel-nav.slick-next {
+    right: 0px;
+  }
+  /* line 969, ../scss/components/_blocks.scss */
+  .block--article-carousel .item .item-content {
+    padding: 28px 63px;
   }
 }
 /* line 1, ../scss/components/_custom_lists.scss */
