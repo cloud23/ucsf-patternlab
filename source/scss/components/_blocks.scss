@@ -940,7 +940,7 @@
     }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: $width-small){
     .block--article-carousel {
         &.mobile-block {
             .carousel-nav {
@@ -973,3 +973,67 @@
     }
 }
 
+.block--give-to-ucsf {
+    background-color: $color--light-gray;
+    height: auto;
+    display: block;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    .block--give-to-ucsf-content {
+        padding: 60px 0px;
+        display: block;
+        color: $color--oxford-blue;
+    }
+    h4 {
+        display: inline-block;
+        margin: 0px;
+        font-family: $text-body--medium;
+        float: none;
+        clear: both;
+        margin-bottom: 20px;
+        strong {
+            font-family: $text-body--medium;
+            display: block;
+        }
+    }
+    a, .btn--with-icon {
+        display: inline-block;
+        float: none;
+        clear: both;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: $width-small) {
+    .block--give-to-ucsf {
+        text-align: left;
+        height: auto;
+        .block--give-to-ucsf-content {
+            padding: 60px 0px;
+        }
+        h4 {
+            display: inline-block;
+            vertical-align: middle;
+            font-family: $text-body--light;
+            clear: none;
+            margin-bottom: 0px;
+            width: 60%;
+            strong {
+                display: initial;
+                font-family: $text-body--medium;
+            }
+        }
+        a, .btn--with-icon {
+            display: inline-block;
+            clear: none;
+            position: absolute;
+            top: 50%;
+            right: 15px;
+            margin-top: -25px;
+            width: 270px;
+
+        }
+    }
+}
