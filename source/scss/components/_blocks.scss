@@ -883,3 +883,157 @@
         }
     }
 }
+
+.block--article-carousel {
+    &.mobile-block {
+        .carousel-nav {
+            display: block;
+        }
+    }
+    &.desktop-block {
+        .carousel-nav {
+            display: none;
+        }
+    }
+    .carousel-nav {
+            position: absolute;
+            z-index: 2;
+            background-color: transparent;
+            background-color: rgba(0,0,0,0);
+            border: 0;
+            top: 50%;
+            margin-top: -23px;
+            font-size: 46px;
+            color: $color--white;
+            &:focus {
+                outline: none;
+            }
+            &.slick-prev {
+                left: 15px;
+            }
+            &.slick-next {
+                right: 15px;
+            }
+    }
+    .item {
+        width: 100%;
+        height: auto;
+        &:focus {
+            outline: none;
+        }
+        .item-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 0px;
+        }
+        .item-content {
+            display: block;
+            background-color: $color--light-gray;
+            color: $color--black;
+            padding: 15px 20px;
+            margin: 0px;
+            .date {
+                color: $color--oxford-blue;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $width-small){
+    .block--article-carousel {
+        &.mobile-block {
+            .carousel-nav {
+                display: none;
+            }
+        }
+        &.desktop-block {
+            .carousel-nav {
+                display: block;
+            }
+        }
+        .carousel-nav {
+            color: $color--black;
+            background-color: $color--light-gray;
+            padding: 10px 20px;
+            top: 50%;
+            margin-top: -37px;
+            &.slick-prev {
+                left: 0px;
+            }
+            &.slick-next {
+                right: 0px;
+            }
+        }
+        .item {
+            .item-content {
+                padding: 28px 63px;
+            }
+        }
+    }
+}
+
+.block--give-to-ucsf {
+    background-color: $color--light-gray;
+    height: auto;
+    display: block;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    .block--give-to-ucsf-content {
+        padding: 60px 0px;
+        display: block;
+        color: $color--oxford-blue;
+    }
+    h4 {
+        display: inline-block;
+        margin: 0px;
+        font-family: $text-body--medium;
+        float: none;
+        clear: both;
+        margin-bottom: 20px;
+        strong {
+            font-family: $text-body--medium;
+            display: block;
+        }
+    }
+    a, .btn--with-icon {
+        display: inline-block;
+        float: none;
+        clear: both;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: $width-small) {
+    .block--give-to-ucsf {
+        text-align: left;
+        height: auto;
+        .block--give-to-ucsf-content {
+            padding: 60px 0px;
+        }
+        h4 {
+            display: inline-block;
+            vertical-align: middle;
+            font-family: $text-body--light;
+            clear: none;
+            margin-bottom: 0px;
+            width: 60%;
+            strong {
+                display: initial;
+                font-family: $text-body--medium;
+            }
+        }
+        a, .btn--with-icon {
+            display: inline-block;
+            clear: none;
+            position: absolute;
+            top: 50%;
+            right: 15px;
+            margin-top: -25px;
+            width: 270px;
+
+        }
+    }
+}
