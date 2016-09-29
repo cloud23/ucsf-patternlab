@@ -8460,6 +8460,79 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
     padding: 28px 63px;
   }
 }
+/* line 976, ../scss/components/_blocks.scss */
+.block--give-to-ucsf {
+  background-color: #F1F1F1;
+  height: auto;
+  display: block;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+/* line 984, ../scss/components/_blocks.scss */
+.block--give-to-ucsf .block--give-to-ucsf-content {
+  padding: 60px 0px;
+  display: block;
+  color: #052059;
+}
+/* line 989, ../scss/components/_blocks.scss */
+.block--give-to-ucsf h4 {
+  display: inline-block;
+  margin: 0px;
+  font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  float: none;
+  clear: both;
+  margin-bottom: 20px;
+}
+/* line 996, ../scss/components/_blocks.scss */
+.block--give-to-ucsf h4 strong {
+  font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  display: block;
+}
+/* line 1001, ../scss/components/_blocks.scss */
+.block--give-to-ucsf a, .block--give-to-ucsf .btn--with-icon {
+  display: inline-block;
+  float: none;
+  clear: both;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 1010, ../scss/components/_blocks.scss */
+  .block--give-to-ucsf {
+    text-align: left;
+    height: auto;
+  }
+  /* line 1013, ../scss/components/_blocks.scss */
+  .block--give-to-ucsf .block--give-to-ucsf-content {
+    padding: 60px 0px;
+  }
+  /* line 1016, ../scss/components/_blocks.scss */
+  .block--give-to-ucsf h4 {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    clear: none;
+    margin-bottom: 0px;
+    width: 60%;
+  }
+  /* line 1023, ../scss/components/_blocks.scss */
+  .block--give-to-ucsf h4 strong {
+    display: initial;
+    font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  }
+  /* line 1028, ../scss/components/_blocks.scss */
+  .block--give-to-ucsf a, .block--give-to-ucsf .btn--with-icon {
+    display: inline-block;
+    clear: none;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    margin-top: -25px;
+    width: 270px;
+  }
+}
 /* line 1, ../scss/components/_custom_lists.scss */
 .htmytg-list {
   list-style: none;
