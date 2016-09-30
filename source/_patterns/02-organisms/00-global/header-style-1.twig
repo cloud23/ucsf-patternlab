@@ -10,9 +10,11 @@
 				</div>
 				<ul class="nav-link-list">
 					{% block upper_menu %}
-						{% for item in global_header_links.links %}
-							<li><a href="{{ item.link }}">{{ item.label }}</a></li>
-						{% endfor %}
+						{% if global_header_links.links %}
+							{% for item in global_header_links.links %}
+								<li><a href="{{ item.link }}">{{ item.label }}</a></li>
+							{% endfor %}
+						{% endif %}
 					{% endblock %}
 					{% block search_panel %}
 						<li>
@@ -68,19 +70,21 @@
 		
 				<ul class="nav-main-links">
 					{% block main_navigation %}
-						{% for item in nav_links.links %}
-							<li>
-								<a href="{{ item.link }}">{{ item.label }}</a>
-								{% if item.sublinks %}
-									<span class="line"></span>
-									<ul class="dropdown-menu">
-									{% for item in item.sublinks %}
-										<li><a href="{{ item.link }}">{{ item.label }}</a></li>
-									{% endfor %}
-									</ul>
-								{% endif %}
-							</li>
-						{% endfor %}
+						{% if nav_links.links %}
+							{% for item in nav_links.links %}
+								<li>
+									<a href="{{ item.link }}">{{ item.label }}</a>
+									{% if item.sublinks %}
+										<span class="line"></span>
+										<ul class="dropdown-menu">
+										{% for item in item.sublinks %}
+											<li><a href="{{ item.link }}">{{ item.label }}</a></li>
+										{% endfor %}
+										</ul>
+									{% endif %}
+								</li>
+							{% endfor %}
+						{% endif %}
 					{% endblock %}
 					{% block give_button %}
 					<li><a class="btn btn--with-icon header-give-btn" href="#">Give <span class="fa fa-heart"></span></a></li>
