@@ -8432,15 +8432,20 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
     line-height: 1.47;
   }
 }
-/* line 905, ../scss/components/_blocks.scss */
+/* line 903, ../scss/components/_blocks.scss */
+.block-article-carousel--wrapper {
+  margin-bottom: 40px;
+}
+
+/* line 910, ../scss/components/_blocks.scss */
 .block--article-carousel.mobile-block .carousel-nav {
   display: block;
 }
-/* line 910, ../scss/components/_blocks.scss */
+/* line 915, ../scss/components/_blocks.scss */
 .block--article-carousel.desktop-block .carousel-nav {
   display: none;
 }
-/* line 914, ../scss/components/_blocks.scss */
+/* line 919, ../scss/components/_blocks.scss */
 .block--article-carousel .carousel-nav {
   position: absolute;
   z-index: 2;
@@ -8454,35 +8459,35 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   padding-left: 15px;
   padding-right: 15px;
 }
-/* line 926, ../scss/components/_blocks.scss */
+/* line 931, ../scss/components/_blocks.scss */
 .block--article-carousel .carousel-nav:focus {
   outline: none;
 }
-/* line 929, ../scss/components/_blocks.scss */
+/* line 934, ../scss/components/_blocks.scss */
 .block--article-carousel .carousel-nav.slick-prev {
   left: 0px;
 }
-/* line 932, ../scss/components/_blocks.scss */
+/* line 937, ../scss/components/_blocks.scss */
 .block--article-carousel .carousel-nav.slick-next {
   right: 0px;
 }
-/* line 936, ../scss/components/_blocks.scss */
+/* line 941, ../scss/components/_blocks.scss */
 .block--article-carousel .item {
   width: 100%;
   height: auto;
 }
-/* line 939, ../scss/components/_blocks.scss */
+/* line 944, ../scss/components/_blocks.scss */
 .block--article-carousel .item:focus {
   outline: none;
 }
-/* line 942, ../scss/components/_blocks.scss */
+/* line 947, ../scss/components/_blocks.scss */
 .block--article-carousel .item .item-image {
   width: 100%;
   height: auto;
   display: block;
   margin: 0px;
 }
-/* line 948, ../scss/components/_blocks.scss */
+/* line 953, ../scss/components/_blocks.scss */
 .block--article-carousel .item .item-content {
   display: block;
   background-color: #F1F1F1;
@@ -8490,21 +8495,21 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   padding: 15px 20px;
   margin: 0px;
 }
-/* line 954, ../scss/components/_blocks.scss */
+/* line 959, ../scss/components/_blocks.scss */
 .block--article-carousel .item .item-content .date {
   color: #052059;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 964, ../scss/components/_blocks.scss */
+  /* line 969, ../scss/components/_blocks.scss */
   .block--article-carousel.mobile-block .carousel-nav {
     display: none;
   }
-  /* line 969, ../scss/components/_blocks.scss */
+  /* line 974, ../scss/components/_blocks.scss */
   .block--article-carousel.desktop-block .carousel-nav {
     display: block;
   }
-  /* line 973, ../scss/components/_blocks.scss */
+  /* line 978, ../scss/components/_blocks.scss */
   .block--article-carousel .carousel-nav {
     color: #000000;
     background-color: #F1F1F1;
@@ -8512,20 +8517,20 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
     top: 50%;
     margin-top: -37px;
   }
-  /* line 979, ../scss/components/_blocks.scss */
+  /* line 984, ../scss/components/_blocks.scss */
   .block--article-carousel .carousel-nav.slick-prev {
     left: 0px;
   }
-  /* line 982, ../scss/components/_blocks.scss */
+  /* line 987, ../scss/components/_blocks.scss */
   .block--article-carousel .carousel-nav.slick-next {
     right: 0px;
   }
-  /* line 987, ../scss/components/_blocks.scss */
+  /* line 992, ../scss/components/_blocks.scss */
   .block--article-carousel .item .item-content {
     padding: 28px 63px;
   }
 }
-/* line 994, ../scss/components/_blocks.scss */
+/* line 999, ../scss/components/_blocks.scss */
 .block--give-to-ucsf {
   background-color: #F1F1F1;
   height: auto;
@@ -8535,13 +8540,13 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   width: 100%;
   position: relative;
 }
-/* line 1002, ../scss/components/_blocks.scss */
+/* line 1007, ../scss/components/_blocks.scss */
 .block--give-to-ucsf .block--give-to-ucsf-content {
   padding: 60px 0px;
   display: block;
   color: #052059;
 }
-/* line 1007, ../scss/components/_blocks.scss */
+/* line 1012, ../scss/components/_blocks.scss */
 .block--give-to-ucsf h4 {
   display: inline-block;
   margin: 0px;
@@ -8550,12 +8555,12 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   clear: both;
   margin-bottom: 20px;
 }
-/* line 1014, ../scss/components/_blocks.scss */
+/* line 1019, ../scss/components/_blocks.scss */
 .block--give-to-ucsf h4 strong {
   font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   display: block;
 }
-/* line 1019, ../scss/components/_blocks.scss */
+/* line 1024, ../scss/components/_blocks.scss */
 .block--give-to-ucsf a, .block--give-to-ucsf .btn--with-icon {
   display: inline-block;
   float: none;
@@ -8564,16 +8569,16 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 1028, ../scss/components/_blocks.scss */
+  /* line 1033, ../scss/components/_blocks.scss */
   .block--give-to-ucsf {
     text-align: left;
     height: auto;
   }
-  /* line 1031, ../scss/components/_blocks.scss */
+  /* line 1036, ../scss/components/_blocks.scss */
   .block--give-to-ucsf .block--give-to-ucsf-content {
     padding: 60px 0px;
   }
-  /* line 1034, ../scss/components/_blocks.scss */
+  /* line 1039, ../scss/components/_blocks.scss */
   .block--give-to-ucsf h4 {
     display: inline-block;
     vertical-align: middle;
@@ -8582,12 +8587,12 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
     margin-bottom: 0px;
     width: 60%;
   }
-  /* line 1041, ../scss/components/_blocks.scss */
+  /* line 1046, ../scss/components/_blocks.scss */
   .block--give-to-ucsf h4 strong {
     display: initial;
     font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   }
-  /* line 1046, ../scss/components/_blocks.scss */
+  /* line 1051, ../scss/components/_blocks.scss */
   .block--give-to-ucsf a, .block--give-to-ucsf .btn--with-icon {
     display: inline-block;
     clear: none;

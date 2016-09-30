@@ -900,7 +900,12 @@
     }
 }
 
+.block-article-carousel--wrapper {
+    margin-bottom: 40px;
+}
+
 .block--article-carousel {
+
     &.mobile-block {
         .carousel-nav {
             display: block;
