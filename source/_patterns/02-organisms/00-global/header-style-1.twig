@@ -56,18 +56,18 @@
 				<div class="nav-main-brand">
 					{% block branding %}
 						<a href="#" title="Giving to UCSF">
-							<img class="nav-logo" src="{{ header_logos.UCSF_logobox_small}}" alt="UCSF Navy Logo Box">
+							<img class="nav-logo" src="{{ logo_box }}" alt="UCSF Navy Logo Box">
 							<span class="nav-site-title">Giving to UCSF</span>
 						</a>
 					{% endblock %}
 				</div>
 
-		
+
 				<ul class="nav-mobile-toggles">
 					<li><button class="mobile-search-form-toggle"><span class="fa fa-search"></span></button></li>
 					<li><button class="mobile-menu-toggle"><span class="fa fa-bars"></span></button></li>
 				</ul>
-		
+
 				<ul class="nav-main-links">
 					{% block main_navigation %}
 						{% if nav_links.links %}
