@@ -96,6 +96,14 @@ $alignments : left center right justify;
             margin-bottom: 15px;
         }
     }
+    &.story {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        h3 {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+    }
     &.section--intro-text{
         p{
             font-family: $text-body--light;
@@ -113,5 +121,43 @@ $alignments : left center right justify;
 @media all and (min-width: $bp--small-up){
     .header-section{
         margin-bottom: 40px;
+        &.story {
+            margin-bottom: 30px;
+        }
+        h3 {
+            margin-bottom: 0px;
+        }
     }
+}
+
+@media all and (min-width: $bp--medium-up){
+    .header-section{
+        &.story {
+            margin-bottom: 40px;
+        }
+        h3 {
+            margin-bottom: 0px;
+        }
+    }
+}
+
+.photo-caption--wrapper {
+    margin-bottom: 20px;
+    .photo-caption {
+        margin: 0px;
+    }
+}
+
+p.photo-caption {
+    font-family: $text-body--regular;
+        color: $color--medium-gray;
+    font-size: 12px;
+}
+
+p.fund-intro {
+    font-family: $text-body--light;
+    font-size: 22px;
+    line-height: 1.36;
+    margin-top: 0px;
+    margin-bottom: 15px;
 }

@@ -3830,22 +3830,6 @@ h5 {
   font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
 }
 
-/* line 129, ../scss/global/variables/_typography.scss */
-p.photo-caption {
-  font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  color: #58595b;
-  font-size: 12px;
-}
-
-/* line 135, ../scss/global/variables/_typography.scss */
-p.fund-intro {
-  font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-size: 22px;
-  line-height: 1.36;
-  margin-top: 0px;
-  margin-bottom: 15px;
-}
-
 /* From the current pattern library. I'm keeping this here in case we needed this in the future.
 
 $font-headline: $granjon, $header-font;
@@ -5363,7 +5347,17 @@ address > strong {
   margin-top: 0;
   margin-bottom: 15px;
 }
-/* line 100, ../scss/base/_text.scss */
+/* line 99, ../scss/base/_text.scss */
+.header-section.story {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+/* line 102, ../scss/base/_text.scss */
+.header-section.story h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+/* line 108, ../scss/base/_text.scss */
 .header-section.section--intro-text p {
   font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 1.33333rem;
@@ -5373,11 +5367,54 @@ address > strong {
 }
 
 @media all and (min-width: 768px) {
-  /* line 114, ../scss/base/_text.scss */
+  /* line 122, ../scss/base/_text.scss */
   .header-section {
     margin-bottom: 40px;
   }
+  /* line 124, ../scss/base/_text.scss */
+  .header-section.story {
+    margin-bottom: 30px;
+  }
+  /* line 127, ../scss/base/_text.scss */
+  .header-section h3 {
+    margin-bottom: 0px;
+  }
 }
+@media all and (min-width: 1024px) {
+  /* line 135, ../scss/base/_text.scss */
+  .header-section.story {
+    margin-bottom: 40px;
+  }
+  /* line 138, ../scss/base/_text.scss */
+  .header-section h3 {
+    margin-bottom: 0px;
+  }
+}
+/* line 144, ../scss/base/_text.scss */
+.photo-caption--wrapper {
+  margin-bottom: 20px;
+}
+/* line 146, ../scss/base/_text.scss */
+.photo-caption--wrapper .photo-caption {
+  margin: 0px;
+}
+
+/* line 151, ../scss/base/_text.scss */
+p.photo-caption {
+  font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  color: #58595b;
+  font-size: 12px;
+}
+
+/* line 157, ../scss/base/_text.scss */
+p.fund-intro {
+  font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  line-height: 1.36;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
 /*** HTML ***/
 /* line 2, ../scss/base/html/_html.scss */
 * {
@@ -7246,13 +7283,19 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
     display: none;
   }
 }
-/* line 769, ../scss/components/_navigation.scss */
+/* line 768, ../scss/components/_navigation.scss */
+.breadcrumb {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 0px;
+}
+/* line 772, ../scss/components/_navigation.scss */
 .breadcrumb ul {
   list-style: none;
   padding: 0px;
   margin: 0px;
 }
-/* line 773, ../scss/components/_navigation.scss */
+/* line 776, ../scss/components/_navigation.scss */
 .breadcrumb ul > li {
   display: none;
   padding: 0px;
@@ -7261,25 +7304,25 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   vertical-align: middle;
   float: left;
 }
-/* line 780, ../scss/components/_navigation.scss */
+/* line 783, ../scss/components/_navigation.scss */
 .breadcrumb ul > li:last-child {
   display: inline-block;
 }
-/* line 782, ../scss/components/_navigation.scss */
+/* line 785, ../scss/components/_navigation.scss */
 .breadcrumb ul > li:last-child::before {
   content: "\f104";
   color: #052059;
   margin-right: 15px;
 }
-/* line 787, ../scss/components/_navigation.scss */
+/* line 790, ../scss/components/_navigation.scss */
 .breadcrumb ul > li:last-child::after {
   display: none;
 }
-/* line 790, ../scss/components/_navigation.scss */
+/* line 793, ../scss/components/_navigation.scss */
 .breadcrumb ul > li:last-child > a {
   color: #052059;
 }
-/* line 794, ../scss/components/_navigation.scss */
+/* line 797, ../scss/components/_navigation.scss */
 .breadcrumb ul > li::before, .breadcrumb ul > li::after {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -7289,7 +7332,7 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   -moz-osx-font-smoothing: grayscale;
   vertical-align: middle;
 }
-/* line 803, ../scss/components/_navigation.scss */
+/* line 806, ../scss/components/_navigation.scss */
 .breadcrumb ul > li::after {
   display: none;
   content: "\f105";
@@ -7297,7 +7340,7 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   margin-left: 20px;
   margin-right: 20px;
 }
-/* line 810, ../scss/components/_navigation.scss */
+/* line 813, ../scss/components/_navigation.scss */
 .breadcrumb ul > li > a {
   font-family: HelveticaNeue-bold, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   color: #B4B9BF;
@@ -7309,20 +7352,20 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 826, ../scss/components/_navigation.scss */
+  /* line 829, ../scss/components/_navigation.scss */
   .breadcrumb ul > li {
     display: inline-block;
     font-size: 28px;
   }
-  /* line 830, ../scss/components/_navigation.scss */
+  /* line 833, ../scss/components/_navigation.scss */
   .breadcrumb ul > li:last-child::before {
     display: none;
   }
-  /* line 834, ../scss/components/_navigation.scss */
+  /* line 837, ../scss/components/_navigation.scss */
   .breadcrumb ul > li::after {
     display: inline-block;
   }
-  /* line 837, ../scss/components/_navigation.scss */
+  /* line 840, ../scss/components/_navigation.scss */
   .breadcrumb ul > li a {
     font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-size: 15px;
@@ -7330,20 +7373,20 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 850, ../scss/components/_navigation.scss */
+  /* line 853, ../scss/components/_navigation.scss */
   .breadcrumb ul > li {
     display: inline-block;
     font-size: 28px;
   }
-  /* line 854, ../scss/components/_navigation.scss */
+  /* line 857, ../scss/components/_navigation.scss */
   .breadcrumb ul > li:last-child::before {
     display: none;
   }
-  /* line 858, ../scss/components/_navigation.scss */
+  /* line 861, ../scss/components/_navigation.scss */
   .breadcrumb ul > li::after {
     display: inline-block;
   }
-  /* line 861, ../scss/components/_navigation.scss */
+  /* line 864, ../scss/components/_navigation.scss */
   .breadcrumb ul > li a {
     font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-size: 15px;
@@ -7351,20 +7394,20 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 875, ../scss/components/_navigation.scss */
+  /* line 878, ../scss/components/_navigation.scss */
   .breadcrumb ul > li {
     display: inline-block;
     font-size: 28px;
   }
-  /* line 879, ../scss/components/_navigation.scss */
+  /* line 882, ../scss/components/_navigation.scss */
   .breadcrumb ul > li:last-child::before {
     display: none;
   }
-  /* line 883, ../scss/components/_navigation.scss */
+  /* line 886, ../scss/components/_navigation.scss */
   .breadcrumb ul > li::after {
     display: inline-block;
   }
-  /* line 886, ../scss/components/_navigation.scss */
+  /* line 889, ../scss/components/_navigation.scss */
   .breadcrumb ul > li a {
     font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-size: 15px;
@@ -8287,6 +8330,7 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
 /* line 804, ../scss/components/_blocks.scss */
 .block--story-detail-hero {
   height: 242px;
+  margin-bottom: 20px;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -8294,24 +8338,30 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 813, ../scss/components/_blocks.scss */
+  /* line 814, ../scss/components/_blocks.scss */
   .block--story-detail-hero {
     height: 266px;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 819, ../scss/components/_blocks.scss */
+  /* line 820, ../scss/components/_blocks.scss */
   .block--story-detail-hero {
     height: 450px;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 825, ../scss/components/_blocks.scss */
+  /* line 826, ../scss/components/_blocks.scss */
   .block--story-detail-hero {
     height: 450px;
   }
 }
 /* line 831, ../scss/components/_blocks.scss */
+.block--share-btns {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+/* line 835, ../scss/components/_blocks.scss */
 .block--share-btns .article-share-btn {
   background-color: #58595b;
   width: 38px;
@@ -8327,7 +8377,11 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
 }
 
 @media screen and (min-width: 1024px) {
-  /* line 848, ../scss/components/_blocks.scss */
+  /* line 851, ../scss/components/_blocks.scss */
+  .block--share-btns {
+    margin-bottom: 0px;
+  }
+  /* line 853, ../scss/components/_blocks.scss */
   .block--share-btns .article-share-btn {
     background-color: #58595b;
     width: 30px;
@@ -8338,46 +8392,60 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
     padding: 7px 0px;
   }
 }
-/* line 861, ../scss/components/_blocks.scss */
+/* line 866, ../scss/components/_blocks.scss */
 .block-quote-custom {
   background-color: #ebf3fa;
   color: #000000;
   padding: 20px 23.5px;
 }
-/* line 865, ../scss/components/_blocks.scss */
+/* line 870, ../scss/components/_blocks.scss */
 .block-quote-custom .quote {
   font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
   font-size: 24px;
   line-height: 1.33;
   margin-bottom: 15px;
 }
-/* line 870, ../scss/components/_blocks.scss */
+/* line 875, ../scss/components/_blocks.scss */
 .block-quote-custom .quote p {
   font-family: inherit;
   font-size: inherit;
   margin: 0px;
   display: inline;
 }
-/* line 877, ../scss/components/_blocks.scss */
+/* line 882, ../scss/components/_blocks.scss */
 .block-quote-custom .from {
   font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   color: #052059;
+  font-size: 18px;
+  line-height: 1.44;
 }
-/* line 880, ../scss/components/_blocks.scss */
+/* line 887, ../scss/components/_blocks.scss */
 .block-quote-custom .from strong {
   font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
 
-/* line 889, ../scss/components/_blocks.scss */
+@media screen and (min-width: 768px) {
+  /* line 896, ../scss/components/_blocks.scss */
+  .block-quote-custom .from {
+    font-size: 15px;
+    line-height: 1.47;
+  }
+}
+/* line 903, ../scss/components/_blocks.scss */
+.block-article-carousel--wrapper {
+  margin-bottom: 40px;
+}
+
+/* line 910, ../scss/components/_blocks.scss */
 .block--article-carousel.mobile-block .carousel-nav {
   display: block;
 }
-/* line 894, ../scss/components/_blocks.scss */
+/* line 915, ../scss/components/_blocks.scss */
 .block--article-carousel.desktop-block .carousel-nav {
   display: none;
 }
-/* line 898, ../scss/components/_blocks.scss */
+/* line 919, ../scss/components/_blocks.scss */
 .block--article-carousel .carousel-nav {
   position: absolute;
   z-index: 2;
@@ -8388,36 +8456,38 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   margin-top: -23px;
   font-size: 46px;
   color: #FFFFFF;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-/* line 908, ../scss/components/_blocks.scss */
+/* line 931, ../scss/components/_blocks.scss */
 .block--article-carousel .carousel-nav:focus {
   outline: none;
 }
-/* line 911, ../scss/components/_blocks.scss */
+/* line 934, ../scss/components/_blocks.scss */
 .block--article-carousel .carousel-nav.slick-prev {
-  left: 15px;
+  left: 0px;
 }
-/* line 914, ../scss/components/_blocks.scss */
+/* line 937, ../scss/components/_blocks.scss */
 .block--article-carousel .carousel-nav.slick-next {
-  right: 15px;
+  right: 0px;
 }
-/* line 918, ../scss/components/_blocks.scss */
+/* line 941, ../scss/components/_blocks.scss */
 .block--article-carousel .item {
   width: 100%;
   height: auto;
 }
-/* line 921, ../scss/components/_blocks.scss */
+/* line 944, ../scss/components/_blocks.scss */
 .block--article-carousel .item:focus {
   outline: none;
 }
-/* line 924, ../scss/components/_blocks.scss */
+/* line 947, ../scss/components/_blocks.scss */
 .block--article-carousel .item .item-image {
   width: 100%;
   height: auto;
   display: block;
   margin: 0px;
 }
-/* line 930, ../scss/components/_blocks.scss */
+/* line 953, ../scss/components/_blocks.scss */
 .block--article-carousel .item .item-content {
   display: block;
   background-color: #F1F1F1;
@@ -8425,21 +8495,21 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   padding: 15px 20px;
   margin: 0px;
 }
-/* line 936, ../scss/components/_blocks.scss */
+/* line 959, ../scss/components/_blocks.scss */
 .block--article-carousel .item .item-content .date {
   color: #052059;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 946, ../scss/components/_blocks.scss */
+  /* line 969, ../scss/components/_blocks.scss */
   .block--article-carousel.mobile-block .carousel-nav {
     display: none;
   }
-  /* line 951, ../scss/components/_blocks.scss */
+  /* line 974, ../scss/components/_blocks.scss */
   .block--article-carousel.desktop-block .carousel-nav {
     display: block;
   }
-  /* line 955, ../scss/components/_blocks.scss */
+  /* line 978, ../scss/components/_blocks.scss */
   .block--article-carousel .carousel-nav {
     color: #000000;
     background-color: #F1F1F1;
@@ -8447,20 +8517,20 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
     top: 50%;
     margin-top: -37px;
   }
-  /* line 961, ../scss/components/_blocks.scss */
+  /* line 984, ../scss/components/_blocks.scss */
   .block--article-carousel .carousel-nav.slick-prev {
     left: 0px;
   }
-  /* line 964, ../scss/components/_blocks.scss */
+  /* line 987, ../scss/components/_blocks.scss */
   .block--article-carousel .carousel-nav.slick-next {
     right: 0px;
   }
-  /* line 969, ../scss/components/_blocks.scss */
+  /* line 992, ../scss/components/_blocks.scss */
   .block--article-carousel .item .item-content {
     padding: 28px 63px;
   }
 }
-/* line 976, ../scss/components/_blocks.scss */
+/* line 999, ../scss/components/_blocks.scss */
 .block--give-to-ucsf {
   background-color: #F1F1F1;
   height: auto;
@@ -8470,13 +8540,13 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   width: 100%;
   position: relative;
 }
-/* line 984, ../scss/components/_blocks.scss */
+/* line 1007, ../scss/components/_blocks.scss */
 .block--give-to-ucsf .block--give-to-ucsf-content {
   padding: 60px 0px;
   display: block;
   color: #052059;
 }
-/* line 989, ../scss/components/_blocks.scss */
+/* line 1012, ../scss/components/_blocks.scss */
 .block--give-to-ucsf h4 {
   display: inline-block;
   margin: 0px;
@@ -8485,12 +8555,12 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   clear: both;
   margin-bottom: 20px;
 }
-/* line 996, ../scss/components/_blocks.scss */
+/* line 1019, ../scss/components/_blocks.scss */
 .block--give-to-ucsf h4 strong {
   font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   display: block;
 }
-/* line 1001, ../scss/components/_blocks.scss */
+/* line 1024, ../scss/components/_blocks.scss */
 .block--give-to-ucsf a, .block--give-to-ucsf .btn--with-icon {
   display: inline-block;
   float: none;
@@ -8499,16 +8569,16 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 1010, ../scss/components/_blocks.scss */
+  /* line 1033, ../scss/components/_blocks.scss */
   .block--give-to-ucsf {
     text-align: left;
     height: auto;
   }
-  /* line 1013, ../scss/components/_blocks.scss */
+  /* line 1036, ../scss/components/_blocks.scss */
   .block--give-to-ucsf .block--give-to-ucsf-content {
     padding: 60px 0px;
   }
-  /* line 1016, ../scss/components/_blocks.scss */
+  /* line 1039, ../scss/components/_blocks.scss */
   .block--give-to-ucsf h4 {
     display: inline-block;
     vertical-align: middle;
@@ -8517,12 +8587,12 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
     margin-bottom: 0px;
     width: 60%;
   }
-  /* line 1023, ../scss/components/_blocks.scss */
+  /* line 1046, ../scss/components/_blocks.scss */
   .block--give-to-ucsf h4 strong {
     display: initial;
     font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   }
-  /* line 1028, ../scss/components/_blocks.scss */
+  /* line 1051, ../scss/components/_blocks.scss */
   .block--give-to-ucsf a, .block--give-to-ucsf .btn--with-icon {
     display: inline-block;
     clear: none;

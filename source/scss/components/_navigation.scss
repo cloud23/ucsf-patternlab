@@ -766,6 +766,9 @@ body {
 }
 
 .breadcrumb {
+	display: inline-block;
+    width: 100%;
+    padding: 10px 0px;
 	ul {
 		list-style: none;
 		padding: 0px;

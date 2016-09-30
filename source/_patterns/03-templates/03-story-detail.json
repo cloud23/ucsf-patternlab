@@ -1,0 +1,49 @@
+{
+	"story_title" : "Lorep Ipsum Dolor Sit Amet.",
+	"image" : "http://placehold.it/1280x720",
+	"breadcrumb_links" :  {
+		"links": [
+			{
+				"label" : "Home",
+				"link" : "#"
+			},
+			{
+				"label" : "Current Page's Title",
+				"link" : "#"
+			}
+		]
+	},
+	"fund_intro_text" : "Nullizzle shizznit velizzle, hizzle, suscipit own yo', gravida vizzle, arcu.",
+	"quote" : "<p>This gift will be a game-changer in our ability to recruit and support outstanding scientists in what is an extremely challenging funding climate… This also gives scientists the freedom to pursue research not only to unlock biological secrets, but to change the way that society views mental illness.</p>",
+	"from" : "<strong>- MATTHEW STATE</strong> CHILD PSYCHIATRIST ",
+	"caption" : "PHOTO: Lorep ipsum dolor sit amet.",
+	"article_carousel_content" : {
+		"items" : [
+			{
+				"image" : "http://placehold.it/1280x720",
+				"alt" : "",
+				"text" : "Proin ultrices molestie ex, id venenatis diam imperdiet eu. Aenean suscipit imperdiet mi, ut pulvinar sapien volutpat ut. Praesent in vehicula nisi."
+			},
+			{
+				"image" : "http://placehold.it/1280x720",
+				"alt" : "",
+				"text" : "Integer eget nunc nec nulla pulvinar finibus. Integer ac erat tristique, faucibus turpis vitae, viverra lacus. Nam mauris enim, porttitor nec dui sit amet, fermentum imperdiet mauris."
+			},
+			{
+				"image" : "http://placehold.it/1280x720",
+				"alt" : "",
+				"text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus congue a tortor a dignissim. Cras auctor interdum justo, eget efficitur lectus posuere non."
+			},
+			{
+				"image" : "http://placehold.it/1280x720",
+				"alt" : "",
+				"text" : "Integer eget nunc nec nulla pulvinar finibus. Integer ac erat tristique, faucibus turpis vitae, viverra lacus. Nam mauris enim, porttitor nec dui sit amet, fermentum imperdiet mauris."
+			}
+		]
+	},
+	"help_text" : "<strong>Lorep?</strong> Dolor sit ameti.",
+	"button" : {
+		"label" : "Give to UCSF",
+		"link" : "#"
+	}
+}

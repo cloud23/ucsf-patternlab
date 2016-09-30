@@ -4,15 +4,19 @@
 			<div class="nav-global">
 				<div class="nav-brand">
 					<a href="#">
-						<img class="nav-logo" src="{{ header_logos.UCSF_logowhite_small}}" alt="UCSF Logo White Small">
+						<img class="nav-logo" src="{{ logo }}" alt="UCSF Logo White Small">
 						<span class="nav-title">University of California San Francisco</span>
 					</a>
 				</div>
-				{% if global_header_links %}
-					<ul class="nav-link-list">
-					{% for item in global_header_links.links %}
-						<li><a href="{{ item.link }}">{{ item.label }}</a></li>
-					{% endfor %}
+				<ul class="nav-link-list">
+					{% block upper_menu %}
+						{% if global_header_links.links %}
+							{% for item in global_header_links.links %}
+								<li><a href="{{ item.link }}">{{ item.label }}</a></li>
+							{% endfor %}
+						{% endif %}
+					{% endblock %}
+					{% block search_panel %}
 						<li>
 							<div class="search-box--wrapper">
 								<form action="#" method="GET" name="form-search" id="form-search">
@@ -41,8 +45,8 @@
 								ADVANCED
 							</a>
 						</li>
-					</ul>
-				{% endif %}
+					{% endblock %}
+				</ul>
 			</div>
 		</div>
 	</div>
@@ -50,36 +54,42 @@
 		<div class="content-area">
 			<div class="nav-main">
 				<div class="nav-main-brand">
-					<a href="#" title="Giving to UCSF">
-						<img class="nav-logo" src="{{ header_logos.UCSF_logobox_small}}" alt="UCSF Navy Logo Box">
-						<span class="nav-site-title">Giving to UCSF</span>
-					</a>
+					{% block branding %}
+						<a href="#" title="Giving to UCSF">
+							<img class="nav-logo" src="{{ logo_box }}" alt="UCSF Navy Logo Box">
+							<span class="nav-site-title">Giving to UCSF</span>
+						</a>
+					{% endblock %}
 				</div>
-				{% if mobile_toggles %}
+
+
 				<ul class="nav-mobile-toggles">
-					{% for item in mobile_toggles.buttons %}
-					    <li><button class="{{ item.class }}"><span class="{{ item.icon }}"></span></button></li>
-					{% endfor %}
+					<li><button class="mobile-search-form-toggle"><span class="fa fa-search"></span></button></li>
+					<li><button class="mobile-menu-toggle"><span class="fa fa-bars"></span></button></li>
 				</ul>
-				{% endif %}
-				{% if nav_links.links %}
-					<ul class="nav-main-links">
-						{% for item in nav_links.links %}
-							<li>
-								<a href="{{ item.link }}">{{ item.label }}</a>
-								{% if item.sublinks %}
-									<span class="line"></span>
-									<ul class="dropdown-menu">
-									{% for item in item.sublinks %}
-										<li><a href="{{ item.link }}">{{ item.label }}</a></li>
-									{% endfor %}
-									</ul>
-								{% endif %}
-							</li>
-						{% endfor %}
-							<li><a class="btn btn--with-icon header-give-btn" href="#">Give <span class="fa fa-heart"></span></a></li>
-					</ul>
-				{% endif %}
+
+				<ul class="nav-main-links">
+					{% block main_navigation %}
+						{% if nav_links.links %}
+							{% for item in nav_links.links %}
+								<li>
+									<a href="{{ item.link }}">{{ item.label }}</a>
+									{% if item.sublinks %}
+										<span class="line"></span>
+										<ul class="dropdown-menu">
+										{% for item in item.sublinks %}
+											<li><a href="{{ item.link }}">{{ item.label }}</a></li>
+										{% endfor %}
+										</ul>
+									{% endif %}
+								</li>
+							{% endfor %}
+						{% endif %}
+					{% endblock %}
+					{% block give_button %}
+					<li><a class="btn btn--with-icon header-give-btn" href="#">Give <span class="fa fa-heart"></span></a></li>
+					{% endblock %}
+				</ul>
 			</div>
 		</div>
 	</div>
@@ -116,22 +126,22 @@
 		</form>
 	</div>
 	<div class="nav-main-mobile" aria-hidden="true">
-		{% if nav_links.links %}
-			<ul class="">
-			{% for item in nav_links.links %}
-				<li role="menuitem" aria-haspopup="true">
-					<a href="{{ item.link }}">{{ item.label }}</a>
-					{% if item.sublinks %}
-					<span class="display-arrow fa fa-play"></span>
-					<ul class="dropdown-menu">
-					{% for item in item.sublinks %}
-						<li><a href="{{ item.link }}">{{ item.label }}</a></li>
-					{% endfor %}
-					</ul>
-					{% endif %}
-				</li>
-			{% endfor %}
-			</ul>
-		{% endif %}
+		<ul class="">
+			{% block mobile_navigation %}
+				{% for item in nav_links.links %}
+					<li role="menuitem" aria-haspopup="true">
+						<a href="{{ item.link }}">{{ item.label }}</a>
+						{% if item.sublinks %}
+						<span class="display-arrow fa fa-play"></span>
+						<ul class="dropdown-menu">
+						{% for item in item.sublinks %}
+							<li><a href="{{ item.link }}">{{ item.label }}</a></li>
+						{% endfor %}
+						</ul>
+						{% endif %}
+					</li>
+				{% endfor %}
+			{% endblock %}
+		</ul>
 	</div>
 </nav>
