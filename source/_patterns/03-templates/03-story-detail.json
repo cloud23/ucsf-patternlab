@@ -1,5 +1,5 @@
 {
-	"title" : " Lorep Ipsum Dolor Sit Amet.",
+	"story_title" : "Lorep Ipsum Dolor Sit Amet.",
 	"image" : "http://placehold.it/1280x720",
 	"breadcrumb_links" :  {
 		"links": [
@@ -46,5 +46,4 @@
 		"label" : "Give to UCSF",
 		"link" : "#"
 	}
-}
 }

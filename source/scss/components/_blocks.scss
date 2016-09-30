@@ -803,6 +803,7 @@
 
 .block--story-detail-hero {
     height: 242px;
+    margin-bottom: 20px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -828,6 +829,9 @@
 }
 
 .block--share-btns {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
     .article-share-btn {
         background-color: $color--medium-gray;
         width: 38px;
@@ -845,6 +849,7 @@
 
 @media screen and (min-width: $width-medium) {
     .block--share-btns {
+        margin-bottom: 0px;
         .article-share-btn {
             background-color: $color--medium-gray;
             width: 30px;
@@ -877,9 +882,20 @@
     .from {
         font-family: $text-body--light;
         color: $color--oxford-blue;
+        font-size: 18px;
+        line-height: 1.44;
         strong {
             font-family: $text-body--medium;
             font-weight: normal;
+        }
+    }
+}
+
+@media screen and (min-width: $width-small) {
+    .block-quote-custom {
+        .from {
+            font-size: 15px;
+            line-height: 1.47;
         }
     }
 }
@@ -905,14 +921,16 @@
             margin-top: -23px;
             font-size: 46px;
             color: $color--white;
+            padding-left: 15px;
+            padding-right: 15px;
             &:focus {
                 outline: none;
             }
             &.slick-prev {
-                left: 15px;
+                left: 0px;
             }
             &.slick-next {
-                right: 15px;
+                right: 0px;
             }
     }
     .item {
