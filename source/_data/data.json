@@ -172,8 +172,9 @@
       }
     ]
   },
-  "logo_box" : "/images/UCSF_logobox_navy_CMYK_small.png",
-  "logo" : "/images/UCSF_logo_white_RGB_small.png",
+  "logo_box" : "/images/UCSF_logobox_navy_RGB.svg",
+  "logo" : "/images/UCSF_logo_white_RGB.svg",
+  "logo_footer" : "/images/UCSF_Logo_Footer.svg",
   "mobile_toggles" : {
     "buttons" : [
       {
