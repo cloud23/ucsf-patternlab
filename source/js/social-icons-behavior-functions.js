@@ -25,7 +25,6 @@ $(function(){
 				if(scrollTop >= calculatedThreshold) {
 					$shareBlck.addClass("followScroll").css(
 						{
-							"margin-top" : -$shareBlck.height()+"px",
 							"left" : offsetLeft+"px"
 						}
 					);
@@ -47,7 +46,9 @@ $(function(){
 	if($window.width() >= 1024) snsEvents.init();
 	$window.on('resize',function() {
 		if($window.width() >= 1024) snsEvents.init();
-		if($shareBlck.hasClass('followScroll')) { $shareBlck.removeClass('followScroll').removeAttr('style'); }
+		if($shareBlck.hasClass('followScroll')) {
+			$shareBlck.removeClass('followScroll').removeAttr('style');
+		}
 	});
 
 });
