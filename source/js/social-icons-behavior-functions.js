@@ -25,7 +25,6 @@ $(function(){
 				if(scrollTop >= calculatedThreshold) {
 					$shareBlck.addClass("followScroll").css(
 						{
-							"margin-top" : -$shareBlck.height()+"px",
 							"left" : offsetLeft+"px"
 						}
 					);

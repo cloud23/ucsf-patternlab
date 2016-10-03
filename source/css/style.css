@@ -8490,7 +8490,7 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   /* line 932, ../scss/components/_blocks.scss */
   .block--share-btns.followScroll {
     position: fixed;
-    top: 38%;
+    top: 150px;
   }
   /* line 936, ../scss/components/_blocks.scss */
   .block--share-btns .article-share-btn {
