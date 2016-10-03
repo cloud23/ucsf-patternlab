@@ -8484,9 +8484,15 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   .block--share-btns {
     margin-bottom: 0px;
     position: absolute;
+    width: auto;
     left: -30px;
   }
-  /* line 931, ../scss/components/_blocks.scss */
+  /* line 932, ../scss/components/_blocks.scss */
+  .block--share-btns.followScroll {
+    position: fixed;
+    top: 38%;
+  }
+  /* line 936, ../scss/components/_blocks.scss */
   .block--share-btns .article-share-btn {
     background-color: #58595b;
     width: 30px;
@@ -8497,69 +8503,69 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
     padding: 7px 0px;
   }
 }
-/* line 944, ../scss/components/_blocks.scss */
+/* line 949, ../scss/components/_blocks.scss */
 .block-quote-custom {
   background-color: #ebf3fa;
   color: #000000;
   padding: 20px 23.5px;
   margin: 1.5em 0em;
 }
-/* line 949, ../scss/components/_blocks.scss */
+/* line 954, ../scss/components/_blocks.scss */
 .block-quote-custom .quote {
   font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
   font-size: 24px;
   line-height: 1.33;
   margin-bottom: 15px;
 }
-/* line 954, ../scss/components/_blocks.scss */
+/* line 959, ../scss/components/_blocks.scss */
 .block-quote-custom .quote p {
   font-family: inherit;
   font-size: inherit;
   margin: 0px;
   display: inline;
 }
-/* line 961, ../scss/components/_blocks.scss */
+/* line 966, ../scss/components/_blocks.scss */
 .block-quote-custom .from {
   font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   color: #052059;
   font-size: 18px;
   line-height: 1.44;
 }
-/* line 966, ../scss/components/_blocks.scss */
+/* line 971, ../scss/components/_blocks.scss */
 .block-quote-custom .from strong {
   font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 975, ../scss/components/_blocks.scss */
+  /* line 980, ../scss/components/_blocks.scss */
   .block-quote-custom .from {
     font-size: 15px;
     line-height: 1.47;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 983, ../scss/components/_blocks.scss */
+  /* line 988, ../scss/components/_blocks.scss */
   .block-quote-custom {
     float: right;
     margin: 15px 0px 15px 30px;
     max-width: 50%;
   }
 }
-/* line 990, ../scss/components/_blocks.scss */
+/* line 995, ../scss/components/_blocks.scss */
 .block-article-carousel--wrapper {
   margin-bottom: 40px;
 }
 
-/* line 997, ../scss/components/_blocks.scss */
+/* line 1002, ../scss/components/_blocks.scss */
 .block--article-carousel.mobile-block .carousel-nav {
   display: block;
 }
-/* line 1002, ../scss/components/_blocks.scss */
+/* line 1007, ../scss/components/_blocks.scss */
 .block--article-carousel.desktop-block .carousel-nav {
   display: none;
 }
-/* line 1006, ../scss/components/_blocks.scss */
+/* line 1011, ../scss/components/_blocks.scss */
 .block--article-carousel .carousel-nav {
   position: absolute;
   z-index: 2;
@@ -8573,35 +8579,35 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   padding-left: 15px;
   padding-right: 15px;
 }
-/* line 1018, ../scss/components/_blocks.scss */
+/* line 1023, ../scss/components/_blocks.scss */
 .block--article-carousel .carousel-nav:focus {
   outline: none;
 }
-/* line 1021, ../scss/components/_blocks.scss */
+/* line 1026, ../scss/components/_blocks.scss */
 .block--article-carousel .carousel-nav.slick-prev {
   left: 0px;
 }
-/* line 1024, ../scss/components/_blocks.scss */
+/* line 1029, ../scss/components/_blocks.scss */
 .block--article-carousel .carousel-nav.slick-next {
   right: 0px;
 }
-/* line 1028, ../scss/components/_blocks.scss */
+/* line 1033, ../scss/components/_blocks.scss */
 .block--article-carousel .item {
   width: 100%;
   height: auto;
 }
-/* line 1031, ../scss/components/_blocks.scss */
+/* line 1036, ../scss/components/_blocks.scss */
 .block--article-carousel .item:focus {
   outline: none;
 }
-/* line 1034, ../scss/components/_blocks.scss */
+/* line 1039, ../scss/components/_blocks.scss */
 .block--article-carousel .item .item-image {
   width: 100%;
   height: auto;
   display: block;
   margin: 0px;
 }
-/* line 1040, ../scss/components/_blocks.scss */
+/* line 1045, ../scss/components/_blocks.scss */
 .block--article-carousel .item .item-content {
   display: block;
   background-color: #F1F1F1;
@@ -8609,26 +8615,26 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   padding: 15px 20px;
   margin: 0px;
 }
-/* line 1046, ../scss/components/_blocks.scss */
+/* line 1051, ../scss/components/_blocks.scss */
 .block--article-carousel .item .item-content .date {
   color: #052059;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 1055, ../scss/components/_blocks.scss */
+  /* line 1060, ../scss/components/_blocks.scss */
   .block-article-carousel--wrapper {
     margin-bottom: 30px;
   }
 
-  /* line 1061, ../scss/components/_blocks.scss */
+  /* line 1066, ../scss/components/_blocks.scss */
   .block--article-carousel.mobile-block .carousel-nav {
     display: none;
   }
-  /* line 1066, ../scss/components/_blocks.scss */
+  /* line 1071, ../scss/components/_blocks.scss */
   .block--article-carousel.desktop-block .carousel-nav {
     display: block;
   }
-  /* line 1070, ../scss/components/_blocks.scss */
+  /* line 1075, ../scss/components/_blocks.scss */
   .block--article-carousel .carousel-nav {
     color: #000000;
     background-color: #F1F1F1;
@@ -8636,21 +8642,21 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
     top: 50%;
     margin-top: -37px;
   }
-  /* line 1076, ../scss/components/_blocks.scss */
+  /* line 1081, ../scss/components/_blocks.scss */
   .block--article-carousel .carousel-nav.slick-prev {
     left: 0px;
   }
-  /* line 1079, ../scss/components/_blocks.scss */
+  /* line 1084, ../scss/components/_blocks.scss */
   .block--article-carousel .carousel-nav.slick-next {
     right: 0px;
   }
-  /* line 1084, ../scss/components/_blocks.scss */
+  /* line 1089, ../scss/components/_blocks.scss */
   .block--article-carousel .item .item-content {
     padding: 28px 63px;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 1092, ../scss/components/_blocks.scss */
+  /* line 1097, ../scss/components/_blocks.scss */
   .block-article-carousel--wrapper {
     margin-top: 15px;
   }

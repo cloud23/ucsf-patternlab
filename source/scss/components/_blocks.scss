@@ -927,7 +927,12 @@
     .block--share-btns {
         margin-bottom: 0px;
         position: absolute;
+        width: auto;
         left: -30px;
+        &.followScroll {
+            position: fixed;
+            top: 38%;
+        }
         .article-share-btn {
             background-color: $color--medium-gray;
             width: 30px;
