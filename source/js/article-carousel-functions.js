@@ -1,8 +1,7 @@
 $(function(){
 	var $blockCarouselMobile = $('.block--article-carousel.mobile-block'),
 		$blockCarouselDesktop = $('.block--article-carousel.desktop-block'),
-		$window = $(window),
-		windowWidth = $window.width();
+		$window = $(window);
 
 	var articleEvents = {
 		init: function() {
@@ -17,7 +16,7 @@ $(function(){
 			}
 		},
 		slickIt: function() {
-			windowWidth = $window.width();
+			var windowWidth = $window.width();
 			if($blockCarouselMobile.hasClass('slick-initialized')) $blockCarouselMobile.slick('unslick');
 			if($blockCarouselDesktop.hasClass('slick-initialized')) $blockCarouselDesktop.slick('unslick');
 			if(windowWidth <= 767) {

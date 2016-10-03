@@ -181,9 +181,13 @@
         }
     }
     &.block--impact-stories-grid{
-        padding-bottom: 60px;
         .see-more-link{
             margin-top: 15px;
+        }
+        &.related-articles {
+            h4 {
+                margin-bottom: 10px;
+            }
         }
     }
     &.block--impact-stories-pillar{
@@ -193,23 +197,45 @@
         padding-top: 60px;
         padding-bottom: 40px;
         background-color: $color--light-gray;
-        p{
+        p {
             font-family: $text-body--light;
             @include type-definition(22px, 1.14);
             color: $color--oxford-blue;
             margin-top: 0;
             margin-bottom: 10px;
+            b, strong {
+                font-family: $text-body--medium;
+            }
+            &:last-child{
+                margin-bottom: 30px;
+            }
+        }
+        h4 {
+            font-family: $text-body--light;
+            color: $color--oxford-blue;
+            margin-top: 0;
+            margin-bottom: 10px;
+            b, strong {
+                font-family: $text-body--medium;
+            }
             &:last-child{
                 margin-bottom: 30px;
             }
         }
         a{
             display: block;
+            width: 100%;
             max-width: 320px;
             margin: 0 auto;
             &:hover{
                 text-decoration: none;
             }
+        }
+    }
+    &.block--learn-more {
+        margin-top: 20px;
+        h4 {
+            margin-bottom: 10px;
         }
     }
 }
@@ -514,9 +540,34 @@
                     margin-bottom: 10px;
                 }
             }
+            h4 {
+                margin-bottom: 10px;
+                 &:last-child{
+                    margin-bottom: 10px;
+                }
+                b, strong {
+                    font-family: $text-body--medium;
+                }
+            }
             a{
                 float: right;
                 width: 270px;
+            }
+        }
+        &.block--impact-stories-grid {
+            &.related-articles {
+                h4 {
+                    padding-top: 30px;
+                    border-top:  1px solid $color--border-impact-stories-pillar;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+        &.block--learn-more {
+            margin-top: 0px;
+            h4 {
+                padding-top: 20px;
+                border-top:  1px solid $color--border-impact-stories-pillar;
             }
         }
     }
@@ -544,6 +595,27 @@
         }
         &.block--impact-story-with-image{
             height: 450px;
+        }
+        &.block--learn-more {
+            margin-bottom: 15px;
+        }
+         &.block--impact-stories-grid {
+            &.related-articles {
+                margin-bottom: 40px;
+                h4 {
+                    padding-top: 0px;
+                    border-top:  0px solid transparent;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+        &.block--learn-more {
+            margin-top: 0px;
+            h4 {
+                padding-top: 0px;
+                border-top:  0px solid transparent;
+                margin-bottom: 15px;
+            }
         }
     }
     .block--item{
@@ -819,6 +891,7 @@
 @media screen and (min-width: $width-medium) {
     .block--story-detail-hero {
         height: 450px;
+        margin-bottom: 30px;
     }
 }
 
@@ -844,12 +917,17 @@
         margin: 0px 10px 0px 0px;
         font-size: 18px;
         float: left;
+        &:hover {
+            background-color: $color--oxford-blue;
+        }
     }
 }
 
 @media screen and (min-width: $width-medium) {
     .block--share-btns {
         margin-bottom: 0px;
+        position: absolute;
+        left: -30px;
         .article-share-btn {
             background-color: $color--medium-gray;
             width: 30px;
@@ -867,6 +945,7 @@
     background-color: $color--light-gray-3;
     color: $color--black;
     padding: 20px 23.5px;
+    margin: 1.5em 0em;
     .quote {
         font-family: $text-headline;
         font-size: 24px;
@@ -897,6 +976,14 @@
             font-size: 15px;
             line-height: 1.47;
         }
+    }
+}
+
+@media screen and (min-width: $width-medium) {
+    .block-quote-custom {
+        float: right;
+        margin: 15px 0px 15px 30px;
+        max-width: 50%;
     }
 }
 
@@ -964,6 +1051,11 @@
 }
 
 @media screen and (min-width: $width-small){
+
+    .block-article-carousel--wrapper {
+        margin-bottom: 30px;
+    }
+
     .block--article-carousel {
         &.mobile-block {
             .carousel-nav {
@@ -996,67 +1088,73 @@
     }
 }
 
-.block--give-to-ucsf {
-    background-color: $color--light-gray;
-    height: auto;
-    display: block;
-    text-align: center;
-    display: inline-block;
-    width: 100%;
-    position: relative;
-    .block--give-to-ucsf-content {
-        padding: 60px 0px;
-        display: block;
-        color: $color--oxford-blue;
-    }
-    h4 {
-        display: inline-block;
-        margin: 0px;
-        font-family: $text-body--medium;
-        float: none;
-        clear: both;
-        margin-bottom: 20px;
-        strong {
-            font-family: $text-body--medium;
-            display: block;
-        }
-    }
-    a, .btn--with-icon {
-        display: inline-block;
-        float: none;
-        clear: both;
-        width: 100%;
+@media screen and (min-width: $width-medium) {
+    .block-article-carousel--wrapper {
+        margin-top: 15px;
     }
 }
 
-@media screen and (min-width: $width-small) {
-    .block--give-to-ucsf {
-        text-align: left;
-        height: auto;
-        .block--give-to-ucsf-content {
-            padding: 60px 0px;
-        }
-        h4 {
-            display: inline-block;
-            vertical-align: middle;
-            font-family: $text-body--light;
-            clear: none;
-            margin-bottom: 0px;
-            width: 60%;
-            strong {
-                display: initial;
-                font-family: $text-body--medium;
-            }
-        }
-        a, .btn--with-icon {
-            display: inline-block;
-            clear: none;
-            position: absolute;
-            top: 50%;
-            right: 15px;
-            margin-top: -25px;
-            width: 270px;
+// .block--give-to-ucsf {
+//     background-color: $color--light-gray;
+//     height: auto;
+//     display: block;
+//     text-align: center;
+//     display: inline-block;
+//     width: 100%;
+//     position: relative;
+//     .block--give-to-ucsf-content {
+//         padding: 60px 0px;
+//         display: block;
+//         color: $color--oxford-blue;
+//     }
+//     h4 {
+//         display: inline-block;
+//         margin: 0px;
+//         font-family: $text-body--medium;
+//         float: none;
+//         clear: both;
+//         margin-bottom: 20px;
+//         strong {
+//             font-family: $text-body--medium;
+//             display: block;
+//         }
+//     }
+//     a, .btn--with-icon {
+//         display: inline-block;
+//         float: none;
+//         clear: both;
+//         width: 100%;
+//     }
+// }
 
-        }
-    }
-}
+// @media screen and (min-width: $width-small) {
+//     .block--give-to-ucsf {
+//         text-align: left;
+//         height: auto;
+//         .block--give-to-ucsf-content {
+//             padding: 60px 0px;
+//         }
+//         h4 {
+//             display: inline-block;
+//             vertical-align: middle;
+//             font-family: $text-body--light;
+//             clear: none;
+//             margin-bottom: 0px;
+//             width: 60%;
+//             strong {
+//                 display: initial;
+//                 font-family: $text-body--medium;
+//             }
+//         }
+//         a, .btn--with-icon {
+//             display: inline-block;
+//             clear: none;
+//             position: absolute;
+//             top: 50%;
+//             right: 15px;
+//             margin-top: -25px;
+//             width: 270px;
+
+//         }
+//     }
+// }
