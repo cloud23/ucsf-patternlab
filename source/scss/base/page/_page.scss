@@ -1,1 +1,7 @@
 /*** Page ***/
+
+.contents--wrapper {
+	& > div:last-child {
+		padding-bottom: 60px;
+	}
+}

@@ -161,3 +161,9 @@ p.fund-intro {
     margin-top: 0px;
     margin-bottom: 15px;
 }
+
+@media screen and (min-width: $width-medium) {
+    p.fund-intro {
+        margin-bottom: 5px;
+    }
+}
