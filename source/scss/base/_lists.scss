@@ -20,20 +20,20 @@ li > ul, li > ol {  margin-bottom: 0; }
   > li{
     display: inline;
     margin-right: 12px;
-    margin-right: 0.85714rem; 
+    margin-right: 0.85714rem;
   }
 }
 
 /* Inline List */
 .list--unstyled {
   list-style: none;
-  margin-left: 0; 
+  margin-left: 0;
 }
 
 /* Block list */
 .list--block {
   list-style: none;
-  margin-left: 0; 
+  margin-left: 0;
   > li {
     border-bottom: 1px #BFBFBF solid;
     padding: 12px 0;
@@ -45,10 +45,17 @@ li > ul, li > ol {  margin-bottom: 0; }
 .list--grid {
   list-style: none;
   margin-left: 0;
-  font-size: 0; 
+  font-size: 0;
   > li {
     font-size: 14px;
     font-size: 1rem;
-    line-height: 1.71429; 
+    line-height: 1.71429;
   }
+}
+
+/* Custom list */
+.no-style {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0px;
 }
