@@ -39,6 +39,7 @@ ul {
 				&:hover {
 					color: $color--white;
 					background-color: $color--oxford-blue;
+					border-color: $color--oxford-blue;
 				}
 	    	}
 	    	&.is-active {
@@ -47,6 +48,7 @@ ul {
 	    			&:hover {
 						color: $color--white;
 						background-color: $color--oxford-blue;
+						border-color: $color--oxford-blue;
 					}
 	    		}
 	    	}
@@ -67,10 +69,28 @@ ul {
 					margin-right: 10px;
 				}
 	    	}
+	    	&.pager--nav {
+	    		a {
+	    			padding: 2px 10px;
+	    			.pager_item_text {
+	    				display: inline-block;
+					    vertical-align: middle;
+					    margin-top: 2px;
+	    			}
+	    			.fa {
+			    		font-size: 22px;
+					    display: inline-block;
+					    vertical-align: middle;
+			    	}
+	    		}
+	    	}
 	    	&.pager__item--first {
 	    		margin-right: 0px;
-				.fa-angle-double-left {
-					margin-right: 6px;
+				.pager_item_text {
+					margin-left: 6px;
+				}
+				.fa-angle-left ~ .fa-angle-left{
+					margin-left: -4px;
 				}
 	    	}
 	    	&.pager__item--previous {
@@ -88,9 +108,14 @@ ul {
 				}
 	    	}
 	    	&.pager__item--last {
-	    		margin-rigth: 0px;
-				.fa-angle-double-right {
-					margin-left: 6px;
+	    		margin-right: 0px;
+				.pager_item_text {
+					margin-right: 6px;
+				}
+				.fa-angle-right {
+					&:last-child {
+						margin-left: -4px;
+					}
 				}
 	    	}
 	    }
