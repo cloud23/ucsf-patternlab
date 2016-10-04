@@ -8824,4 +8824,29 @@ ul.pager__items > li.pager__item--last .fa-angle-right:last-child, ul.pager__ite
   margin-left: -4px;
 }
 
+/* line 127, ../scss/components/_custom_lists.scss */
+.masonry-wrapper ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 132, ../scss/components/_custom_lists.scss */
+.masonry-wrapper ul.masonry-results li {
+  width: 25%;
+  padding: 15px;
+  margin-bottom: 0px;
+}
+/* line 136, ../scss/components/_custom_lists.scss */
+.masonry-wrapper ul.masonry-results li .block-item--impact-story-small {
+  margin-bottom: 0px;
+}
+/* line 138, ../scss/components/_custom_lists.scss */
+.masonry-wrapper ul.masonry-results li .block-item--impact-story-small .block--item-content {
+  height: auto;
+}
+/* line 142, ../scss/components/_custom_lists.scss */
+.masonry-wrapper ul.masonry-results li.big-article {
+  width: 50%;
+}
+
 /*# sourceMappingURL=style.css.map */

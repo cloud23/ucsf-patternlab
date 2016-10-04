@@ -121,3 +121,28 @@ ul {
 	    }
 	}
 }
+
+
+.masonry-wrapper {
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		&.masonry-results {
+			li {
+				width: 25%;
+				padding: 15px;
+				margin-bottom: 0px;
+				.block-item--impact-story-small {
+					margin-bottom: 0px;
+					.block--item-content {
+						height: auto;
+					}
+				}
+				&.big-article {
+					width: 50%;
+				}
+			}
+		}
+	}
+}
