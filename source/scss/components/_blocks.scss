@@ -1099,6 +1099,24 @@
     }
 }
 
+
+.block-featured--article-image {
+    display: inline-block;
+    img {
+        max-width: 100%;
+        height: auto;
+        margin: 0px;
+        display: block;
+    }
+    .featured--article-text {
+        background-color: $color--light-gray;
+        padding: 15px 30px;
+        p {
+
+        }
+    }
+}
+
 // .block--give-to-ucsf {
 //     background-color: $color--light-gray;
 //     height: auto;

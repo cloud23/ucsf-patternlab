@@ -8666,6 +8666,23 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
     margin-top: 15px;
   }
 }
+/* line 1103, ../scss/components/_blocks.scss */
+.block-featured--article-image {
+  display: inline-block;
+}
+/* line 1105, ../scss/components/_blocks.scss */
+.block-featured--article-image img {
+  max-width: 100%;
+  height: auto;
+  margin: 0px;
+  display: block;
+}
+/* line 1111, ../scss/components/_blocks.scss */
+.block-featured--article-image .featured--article-text {
+  background-color: #F1F1F1;
+  padding: 15px 30px;
+}
+
 /* line 1, ../scss/components/_custom_lists.scss */
 .htmytg-list {
   list-style: none;
