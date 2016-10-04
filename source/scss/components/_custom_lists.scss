@@ -130,8 +130,8 @@ ul {
 		list-style: none;
 		&.masonry-results {
 			li {
-				width: 25%;
-				padding: 15px;
+				width: 100%;
+				padding: 15px 10px;
 				margin-bottom: 0px;
 				.block-item--impact-story-small {
 					margin-bottom: 0px;
@@ -140,7 +140,23 @@ ul {
 					}
 				}
 				&.big-article {
-					width: 50%;
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (min-width: $width-large ) {
+	.masonry-wrapper {
+		ul {
+			&.masonry-results {
+				li {
+					width: 25%;
+					padding: 15px;
+					&.big-article {
+						width: 50%;
+					}
 				}
 			}
 		}
