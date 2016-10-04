@@ -1,7 +1,7 @@
 $(function(){
 	var $masonryContainer = $('.masonry-wrapper .masonry-results');
 	var masonrySettings = {
-		"isFitWidth": true,
+		"isFitWidth": false,
 		"percentPosition": true,
 		"columnWidth": ".masonry-sizer",
 		"isInitLayout": false,

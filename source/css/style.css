@@ -8832,8 +8832,8 @@ ul.pager__items > li.pager__item--last .fa-angle-right:last-child, ul.pager__ite
 }
 /* line 132, ../scss/components/_custom_lists.scss */
 .masonry-wrapper ul.masonry-results li {
-  width: 25%;
-  padding: 15px;
+  width: 100%;
+  padding: 15px 10px;
   margin-bottom: 0px;
 }
 /* line 136, ../scss/components/_custom_lists.scss */
@@ -8846,7 +8846,19 @@ ul.pager__items > li.pager__item--last .fa-angle-right:last-child, ul.pager__ite
 }
 /* line 142, ../scss/components/_custom_lists.scss */
 .masonry-wrapper ul.masonry-results li.big-article {
-  width: 50%;
+  width: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+  /* line 154, ../scss/components/_custom_lists.scss */
+  .masonry-wrapper ul.masonry-results li {
+    width: 25%;
+    padding: 15px;
+  }
+  /* line 157, ../scss/components/_custom_lists.scss */
+  .masonry-wrapper ul.masonry-results li.big-article {
+    width: 50%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

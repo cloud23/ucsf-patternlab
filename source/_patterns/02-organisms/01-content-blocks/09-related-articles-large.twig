@@ -1,40 +1,36 @@
 
 <div class="content-area">
 	<div class="column-wrapper">
-		<div class="column-larger-12 column-medium-12 column-small-12 column-xsmall-12">
-			<div class="column-wrapper">
-				<div id="related_articles_all" class="active-tab">
-					<div class="block block--related-articles">
-						<div class="masonry-wrapper">
-							<ul class="masonry-results">
-								{% block featured_article_image %}
-								    {% if featured_item %}
+		<div id="related_articles_all" class="active-tab">
+			<div class="block block--related-articles">
+				<div class="masonry-wrapper">
+					<ul class="masonry-results">
+						{% block featured_article_image %}
+						    {% if featured_item %}
 
-										<li class="big-article">
-											{% include "@molecules/02-blocks/12-featured-related-article-image.twig" with {
-												"image" : featured_item.image,
-												"text" : featured_item.text
-											}%}
-										</li>
+								<li class="big-article">
+									{% include "@molecules/02-blocks/12-featured-related-article-image.twig" with {
+										"image" : featured_item.image,
+										"text" : featured_item.text
+									}%}
+								</li>
 
-									{% endif %}
-								{% endblock %}
-								{% block article_list %}
-								    {% for item in items %}
-										<li class="masonry-sizer">
-											{% include "@molecules/02-blocks/05-impact-story-small.twig" with {
-							                    "color" : item.color,
-							                    "date" : item.date,
-							                    "text" : item.text,
-							                    "category" : item.category,
-							                    "link" : item.link
-							                } %}
-										</li>
-									{% endfor %}
-								{% endblock %}
-							</ul>
-						</div>
-					</div>
+							{% endif %}
+						{% endblock %}
+						{% block article_list %}
+						    {% for item in items %}
+								<li class="masonry-sizer">
+									{% include "@molecules/02-blocks/05-impact-story-small.twig" with {
+					                    "color" : item.color,
+					                    "date" : item.date,
+					                    "text" : item.text,
+					                    "category" : item.category,
+					                    "link" : item.link
+					                } %}
+								</li>
+							{% endfor %}
+						{% endblock %}
+					</ul>
 				</div>
 			</div>
 		</div>
