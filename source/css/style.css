@@ -4993,6 +4993,11 @@ $font-header: $helvetica, $default-font;
     display: none;
   }
 }
+/* line 44, ../scss/global/extends/_decorative-extends.scss */
+.visually-hidden {
+  display: none;
+}
+
 /*** Accessibility ***/
 /*** Base ***/
 /*** Brand ***/
@@ -8682,6 +8687,98 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   .htmytg-list > li {
     padding-left: 15px;
   }
+}
+/* line 21, ../scss/components/_custom_lists.scss */
+ul.pager__items {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+/* line 25, ../scss/components/_custom_lists.scss */
+ul.pager__items > li, ul.pager__items .pager__item {
+  float: left;
+  margin: 0px;
+  margin-right: 10px;
+}
+/* line 29, ../scss/components/_custom_lists.scss */
+ul.pager__items > li > a, ul.pager__items .pager__item > a {
+  min-width: 28px;
+  width: auto;
+  height: 30px;
+  padding: 7px 10px;
+  font-size: 12px;
+  font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  border: solid 1px #007CBE;
+  display: block;
+  text-decoration: none;
+}
+/* line 39, ../scss/components/_custom_lists.scss */
+ul.pager__items > li > a:hover, ul.pager__items .pager__item > a:hover {
+  color: #FFFFFF;
+  background-color: #052059;
+}
+/* line 45, ../scss/components/_custom_lists.scss */
+ul.pager__items > li.is-active > a, ul.pager__items .pager__item.is-active > a {
+  background-color: #F1F1F1;
+}
+/* line 47, ../scss/components/_custom_lists.scss */
+ul.pager__items > li.is-active > a:hover, ul.pager__items .pager__item.is-active > a:hover {
+  color: #FFFFFF;
+  background-color: #052059;
+}
+/* line 53, ../scss/components/_custom_lists.scss */
+ul.pager__items > li.pager__item--ellipsis, ul.pager__items .pager__item.pager__item--ellipsis {
+  color: #052059;
+  border: 0px solid transparent;
+  font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  min-width: 0px;
+  width: auto;
+  height: 30px;
+}
+/* line 61, ../scss/components/_custom_lists.scss */
+ul.pager__items > li.pager__item--ellipsis.ellipsis-next, ul.pager__items .pager__item.pager__item--ellipsis.ellipsis-next {
+  padding: 2px 0px;
+  margin: 0px;
+}
+/* line 65, ../scss/components/_custom_lists.scss */
+ul.pager__items > li.pager__item--ellipsis .ellipsis-prev, ul.pager__items .pager__item.pager__item--ellipsis .ellipsis-prev {
+  padding: 2px 0px;
+  margin-right: 10px;
+}
+/* line 70, ../scss/components/_custom_lists.scss */
+ul.pager__items > li.pager__item--first, ul.pager__items .pager__item.pager__item--first {
+  margin-right: 0px;
+}
+/* line 72, ../scss/components/_custom_lists.scss */
+ul.pager__items > li.pager__item--first .fa-angle-double-left, ul.pager__items .pager__item.pager__item--first .fa-angle-double-left {
+  margin-right: 6px;
+}
+/* line 76, ../scss/components/_custom_lists.scss */
+ul.pager__items > li.pager__item--previous, ul.pager__items .pager__item.pager__item--previous {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+/* line 79, ../scss/components/_custom_lists.scss */
+ul.pager__items > li.pager__item--previous .fa-angle-left, ul.pager__items > li.pager__item--previous .block.block--funding-priorities .slick-arrow.slick-prev, .block.block--funding-priorities ul.pager__items > li.pager__item--previous .slick-arrow.slick-prev, ul.pager__items > li.pager__item--previous .block.block--funding-priorities .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items > li.pager__item--previous .slider-button.slider-prev, ul.pager__items .pager__item.pager__item--previous .fa-angle-left, ul.pager__items .pager__item.pager__item--previous .block.block--funding-priorities .slick-arrow.slick-prev, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--previous .slick-arrow.slick-prev, ul.pager__items .pager__item.pager__item--previous .block.block--funding-priorities .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--previous .slider-button.slider-prev {
+  margin-right: 6px;
+}
+/* line 83, ../scss/components/_custom_lists.scss */
+ul.pager__items > li.pager__item--next, ul.pager__items .pager__item.pager__item--next {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+/* line 86, ../scss/components/_custom_lists.scss */
+ul.pager__items > li.pager__item--next .fa-angle-right, ul.pager__items > li.pager__item--next .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities ul.pager__items > li.pager__item--next .slick-arrow.slick-next, ul.pager__items > li.pager__item--next .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities ul.pager__items > li.pager__item--next .slider-button.slider-next, ul.pager__items .pager__item.pager__item--next .fa-angle-right, ul.pager__items .pager__item.pager__item--next .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--next .slick-arrow.slick-next, ul.pager__items .pager__item.pager__item--next .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--next .slider-button.slider-next {
+  margin-left: 6px;
+}
+/* line 90, ../scss/components/_custom_lists.scss */
+ul.pager__items > li.pager__item--last, ul.pager__items .pager__item.pager__item--last {
+  margin-rigth: 0px;
+}
+/* line 92, ../scss/components/_custom_lists.scss */
+ul.pager__items > li.pager__item--last .fa-angle-double-right, ul.pager__items .pager__item.pager__item--last .fa-angle-double-right {
+  margin-left: 6px;
 }
 
 /*# sourceMappingURL=style.css.map */

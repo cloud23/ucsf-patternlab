@@ -40,3 +40,7 @@
     .xsmall--hidden, .small--hidden, .medium--hidden{ display: block; }
     .large--hidden{ display: none; }
 }
+
+.visually-hidden {
+    display: none;
+}
