@@ -4993,6 +4993,11 @@ $font-header: $helvetica, $default-font;
     display: none;
   }
 }
+/* line 44, ../scss/global/extends/_decorative-extends.scss */
+.visually-hidden {
+  display: none;
+}
+
 /*** Accessibility ***/
 /*** Base ***/
 /*** Brand ***/
@@ -8661,6 +8666,23 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
     margin-top: 15px;
   }
 }
+/* line 1103, ../scss/components/_blocks.scss */
+.block-featured--article-image {
+  display: inline-block;
+}
+/* line 1105, ../scss/components/_blocks.scss */
+.block-featured--article-image img {
+  max-width: 100%;
+  height: auto;
+  margin: 0px;
+  display: block;
+}
+/* line 1111, ../scss/components/_blocks.scss */
+.block-featured--article-image .featured--article-text {
+  background-color: #F1F1F1;
+  padding: 15px 30px;
+}
+
 /* line 1, ../scss/components/_custom_lists.scss */
 .htmytg-list {
   list-style: none;
@@ -8681,6 +8703,161 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   /* line 14, ../scss/components/_custom_lists.scss */
   .htmytg-list > li {
     padding-left: 15px;
+  }
+}
+/* line 21, ../scss/components/_custom_lists.scss */
+ul.pager__items {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+/* line 25, ../scss/components/_custom_lists.scss */
+ul.pager__items > li, ul.pager__items .pager__item {
+  float: left;
+  margin: 0px;
+  margin-right: 10px;
+}
+/* line 29, ../scss/components/_custom_lists.scss */
+ul.pager__items > li > a, ul.pager__items .pager__item > a {
+  min-width: 28px;
+  width: auto;
+  height: 30px;
+  padding: 7px 10px;
+  font-size: 12px;
+  font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  border: solid 1px #007CBE;
+  display: block;
+  text-decoration: none;
+}
+/* line 39, ../scss/components/_custom_lists.scss */
+ul.pager__items > li > a:hover, ul.pager__items .pager__item > a:hover {
+  color: #FFFFFF;
+  background-color: #052059;
+  border-color: #052059;
+}
+/* line 46, ../scss/components/_custom_lists.scss */
+ul.pager__items > li.is-active > a, ul.pager__items .pager__item.is-active > a {
+  background-color: #F1F1F1;
+}
+/* line 48, ../scss/components/_custom_lists.scss */
+ul.pager__items > li.is-active > a:hover, ul.pager__items .pager__item.is-active > a:hover {
+  color: #FFFFFF;
+  background-color: #052059;
+  border-color: #052059;
+}
+/* line 55, ../scss/components/_custom_lists.scss */
+ul.pager__items > li.pager__item--ellipsis, ul.pager__items .pager__item.pager__item--ellipsis {
+  color: #052059;
+  border: 0px solid transparent;
+  font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  min-width: 0px;
+  width: auto;
+  height: 30px;
+}
+/* line 63, ../scss/components/_custom_lists.scss */
+ul.pager__items > li.pager__item--ellipsis.ellipsis-next, ul.pager__items .pager__item.pager__item--ellipsis.ellipsis-next {
+  padding: 2px 0px;
+  margin: 0px;
+}
+/* line 67, ../scss/components/_custom_lists.scss */
+ul.pager__items > li.pager__item--ellipsis .ellipsis-prev, ul.pager__items .pager__item.pager__item--ellipsis .ellipsis-prev {
+  padding: 2px 0px;
+  margin-right: 10px;
+}
+/* line 73, ../scss/components/_custom_lists.scss */
+ul.pager__items > li.pager--nav a, ul.pager__items .pager__item.pager--nav a {
+  padding: 2px 10px;
+}
+/* line 75, ../scss/components/_custom_lists.scss */
+ul.pager__items > li.pager--nav a .pager_item_text, ul.pager__items .pager__item.pager--nav a .pager_item_text {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 2px;
+}
+/* line 80, ../scss/components/_custom_lists.scss */
+ul.pager__items > li.pager--nav a .fa, ul.pager__items > li.pager--nav a .block.block--funding-priorities .slick-arrow, .block.block--funding-priorities ul.pager__items > li.pager--nav a .slick-arrow, ul.pager__items > li.pager--nav a .block.block--funding-priorities .slider-button, .block.block--funding-priorities ul.pager__items > li.pager--nav a .slider-button, ul.pager__items .pager__item.pager--nav a .fa, ul.pager__items .pager__item.pager--nav a .block.block--funding-priorities .slick-arrow, .block.block--funding-priorities ul.pager__items .pager__item.pager--nav a .slick-arrow, ul.pager__items .pager__item.pager--nav a .block.block--funding-priorities .slider-button, .block.block--funding-priorities ul.pager__items .pager__item.pager--nav a .slider-button {
+  font-size: 22px;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 87, ../scss/components/_custom_lists.scss */
+ul.pager__items > li.pager__item--first, ul.pager__items .pager__item.pager__item--first {
+  margin-right: 0px;
+}
+/* line 89, ../scss/components/_custom_lists.scss */
+ul.pager__items > li.pager__item--first .pager_item_text, ul.pager__items .pager__item.pager__item--first .pager_item_text {
+  margin-left: 6px;
+}
+/* line 92, ../scss/components/_custom_lists.scss */
+ul.pager__items > li.pager__item--first .fa-angle-left ~ .fa-angle-left, ul.pager__items > li.pager__item--first .block.block--funding-priorities .slick-arrow.slick-prev ~ .fa-angle-left, .block.block--funding-priorities ul.pager__items > li.pager__item--first .slick-arrow.slick-prev ~ .fa-angle-left, ul.pager__items > li.pager__item--first .block.block--funding-priorities .slider-button.slider-prev ~ .fa-angle-left, .block.block--funding-priorities ul.pager__items > li.pager__item--first .slider-button.slider-prev ~ .fa-angle-left, ul.pager__items > li.pager__item--first .block.block--funding-priorities .fa-angle-left ~ .slick-arrow.slick-prev, .block.block--funding-priorities ul.pager__items > li.pager__item--first .fa-angle-left ~ .slick-arrow.slick-prev, ul.pager__items > li.pager__item--first .block.block--funding-priorities .slick-arrow.slick-prev ~ .slick-arrow.slick-prev, .block.block--funding-priorities ul.pager__items > li.pager__item--first .slick-arrow.slick-prev ~ .slick-arrow.slick-prev, ul.pager__items > li.pager__item--first .block.block--funding-priorities .slider-button.slider-prev ~ .slick-arrow.slick-prev, .block.block--funding-priorities ul.pager__items > li.pager__item--first .slider-button.slider-prev ~ .slick-arrow.slick-prev, ul.pager__items > li.pager__item--first .block.block--funding-priorities .fa-angle-left ~ .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items > li.pager__item--first .fa-angle-left ~ .slider-button.slider-prev, ul.pager__items > li.pager__item--first .block.block--funding-priorities .slick-arrow.slick-prev ~ .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items > li.pager__item--first .slick-arrow.slick-prev ~ .slider-button.slider-prev, ul.pager__items > li.pager__item--first .block.block--funding-priorities .slider-button.slider-prev ~ .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items > li.pager__item--first .slider-button.slider-prev ~ .slider-button.slider-prev, ul.pager__items .pager__item.pager__item--first .fa-angle-left ~ .fa-angle-left, ul.pager__items .pager__item.pager__item--first .block.block--funding-priorities .slick-arrow.slick-prev ~ .fa-angle-left, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--first .slick-arrow.slick-prev ~ .fa-angle-left, ul.pager__items .pager__item.pager__item--first .block.block--funding-priorities .slider-button.slider-prev ~ .fa-angle-left, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--first .slider-button.slider-prev ~ .fa-angle-left, ul.pager__items .pager__item.pager__item--first .block.block--funding-priorities .fa-angle-left ~ .slick-arrow.slick-prev, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--first .fa-angle-left ~ .slick-arrow.slick-prev, ul.pager__items .pager__item.pager__item--first .block.block--funding-priorities .slick-arrow.slick-prev ~ .slick-arrow.slick-prev, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--first .slick-arrow.slick-prev ~ .slick-arrow.slick-prev, ul.pager__items .pager__item.pager__item--first .block.block--funding-priorities .slider-button.slider-prev ~ .slick-arrow.slick-prev, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--first .slider-button.slider-prev ~ .slick-arrow.slick-prev, ul.pager__items .pager__item.pager__item--first .block.block--funding-priorities .fa-angle-left ~ .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--first .fa-angle-left ~ .slider-button.slider-prev, ul.pager__items .pager__item.pager__item--first .block.block--funding-priorities .slick-arrow.slick-prev ~ .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--first .slick-arrow.slick-prev ~ .slider-button.slider-prev, ul.pager__items .pager__item.pager__item--first .block.block--funding-priorities .slider-button.slider-prev ~ .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--first .slider-button.slider-prev ~ .slider-button.slider-prev {
+  margin-left: -4px;
+}
+/* line 96, ../scss/components/_custom_lists.scss */
+ul.pager__items > li.pager__item--previous, ul.pager__items .pager__item.pager__item--previous {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+/* line 99, ../scss/components/_custom_lists.scss */
+ul.pager__items > li.pager__item--previous .fa-angle-left, ul.pager__items > li.pager__item--previous .block.block--funding-priorities .slick-arrow.slick-prev, .block.block--funding-priorities ul.pager__items > li.pager__item--previous .slick-arrow.slick-prev, ul.pager__items > li.pager__item--previous .block.block--funding-priorities .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items > li.pager__item--previous .slider-button.slider-prev, ul.pager__items .pager__item.pager__item--previous .fa-angle-left, ul.pager__items .pager__item.pager__item--previous .block.block--funding-priorities .slick-arrow.slick-prev, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--previous .slick-arrow.slick-prev, ul.pager__items .pager__item.pager__item--previous .block.block--funding-priorities .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--previous .slider-button.slider-prev {
+  margin-right: 6px;
+}
+/* line 103, ../scss/components/_custom_lists.scss */
+ul.pager__items > li.pager__item--next, ul.pager__items .pager__item.pager__item--next {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+/* line 106, ../scss/components/_custom_lists.scss */
+ul.pager__items > li.pager__item--next .fa-angle-right, ul.pager__items > li.pager__item--next .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities ul.pager__items > li.pager__item--next .slick-arrow.slick-next, ul.pager__items > li.pager__item--next .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities ul.pager__items > li.pager__item--next .slider-button.slider-next, ul.pager__items .pager__item.pager__item--next .fa-angle-right, ul.pager__items .pager__item.pager__item--next .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--next .slick-arrow.slick-next, ul.pager__items .pager__item.pager__item--next .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--next .slider-button.slider-next {
+  margin-left: 6px;
+}
+/* line 110, ../scss/components/_custom_lists.scss */
+ul.pager__items > li.pager__item--last, ul.pager__items .pager__item.pager__item--last {
+  margin-right: 0px;
+}
+/* line 112, ../scss/components/_custom_lists.scss */
+ul.pager__items > li.pager__item--last .pager_item_text, ul.pager__items .pager__item.pager__item--last .pager_item_text {
+  margin-right: 6px;
+}
+/* line 116, ../scss/components/_custom_lists.scss */
+ul.pager__items > li.pager__item--last .fa-angle-right:last-child, ul.pager__items > li.pager__item--last .block.block--funding-priorities .slick-arrow.slick-next:last-child, .block.block--funding-priorities ul.pager__items > li.pager__item--last .slick-arrow.slick-next:last-child, ul.pager__items > li.pager__item--last .block.block--funding-priorities .slider-button.slider-next:last-child, .block.block--funding-priorities ul.pager__items > li.pager__item--last .slider-button.slider-next:last-child, ul.pager__items .pager__item.pager__item--last .fa-angle-right:last-child, ul.pager__items .pager__item.pager__item--last .block.block--funding-priorities .slick-arrow.slick-next:last-child, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--last .slick-arrow.slick-next:last-child, ul.pager__items .pager__item.pager__item--last .block.block--funding-priorities .slider-button.slider-next:last-child, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--last .slider-button.slider-next:last-child {
+  margin-left: -4px;
+}
+
+/* line 127, ../scss/components/_custom_lists.scss */
+.masonry-wrapper ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 132, ../scss/components/_custom_lists.scss */
+.masonry-wrapper ul.masonry-results li {
+  width: 100%;
+  padding: 15px 10px;
+  margin-bottom: 0px;
+}
+/* line 136, ../scss/components/_custom_lists.scss */
+.masonry-wrapper ul.masonry-results li .block-item--impact-story-small {
+  margin-bottom: 0px;
+}
+/* line 138, ../scss/components/_custom_lists.scss */
+.masonry-wrapper ul.masonry-results li .block-item--impact-story-small .block--item-content {
+  height: auto;
+}
+/* line 142, ../scss/components/_custom_lists.scss */
+.masonry-wrapper ul.masonry-results li.big-article {
+  width: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+  /* line 154, ../scss/components/_custom_lists.scss */
+  .masonry-wrapper ul.masonry-results li {
+    width: 25%;
+    padding: 15px;
+  }
+  /* line 157, ../scss/components/_custom_lists.scss */
+  .masonry-wrapper ul.masonry-results li.big-article {
+    width: 50%;
   }
 }
 

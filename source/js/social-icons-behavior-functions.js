@@ -6,9 +6,9 @@ $(function(){
 		$nav = $('.nav--wrapper'),
 		$hero = $('.block--story-detail-hero');
 
-	var threshold = $nav.height()+$hero.height(),
-		calculatedThreshold = threshold,
-		offsetLeft = $contentArea.offset().left-30;
+	var threshold,
+		calculatedThreshold,
+		offsetLeft;
 
 	var snsEvents = {
 		init: function() {
@@ -43,12 +43,19 @@ $(function(){
 		}
 	};
 
-	if($window.width() >= 1024) snsEvents.init();
-	$window.on('resize',function() {
+
+	if($shareBlck.length > 0 ) {
+		threshold = $nav.height()+$hero.height(),
+		calculatedThreshold = threshold,
+		offsetLeft = $contentArea.offset().left-30;
+
 		if($window.width() >= 1024) snsEvents.init();
-		if($shareBlck.hasClass('followScroll')) {
-			$shareBlck.removeClass('followScroll').removeAttr('style');
-		}
-	});
+		$window.on('resize',function() {
+			if($window.width() >= 1024) snsEvents.init();
+			if($shareBlck.hasClass('followScroll')) {
+				$shareBlck.removeClass('followScroll').removeAttr('style');
+			}
+		});
+	}
 
 });
