@@ -8977,7 +8977,7 @@ ul.category-nav > li a {
     padding: 0px 15px;
   }
   /* line 1183, ../scss/components/_blocks.scss */
-  .photo--caption-side ~ .related-articles {
+  .photo--caption-side ~ div {
     margin-top: 50px;
   }
   /* line 1186, ../scss/components/_blocks.scss */

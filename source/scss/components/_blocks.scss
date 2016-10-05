@@ -1180,7 +1180,7 @@
     .photo--caption-side {
         display: block;
         padding: 0px 15px;
-        & ~ .related-articles {
+        & ~ div {
             margin-top: 50px;
         }
         .photo-caption--wrapper {
