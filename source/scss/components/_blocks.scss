@@ -875,7 +875,6 @@
 
 .block--story-detail-hero {
     height: 242px;
-    margin-bottom: 20px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -1068,12 +1067,33 @@
             }
         }
         &.desktop-block {
+            margin-top: -30px;
+            margin-left: 24px;
+            margin-right: 24px;
+            background-color: $color--light-gray;
+            &::before, &::after {
+                content: " ";
+                position: absolute;
+                background-color: $color--light-gray;
+            }
+            &::before {
+                left: -1px;
+                width: 56.44px;
+                top: 0;
+                bottom: 0;
+            }
+            &::after {
+                right: -1px;
+                width: 56.44px;
+                top: 0;
+                bottom: 0;
+            }
             .carousel-nav {
                 display: block;
             }
         }
         .carousel-nav {
-            color: $color--black;
+            color: $color--oxford-blue;
             background-color: $color--light-gray;
             padding: 10px 20px;
             top: 50%;
@@ -1087,7 +1107,7 @@
         }
         .item {
             .item-content {
-                padding: 28px 63px;
+                padding: 30px 63px;
             }
         }
     }
@@ -1096,6 +1116,12 @@
 @media screen and (min-width: $width-medium) {
     .block-article-carousel--wrapper {
         margin-top: 15px;
+    }
+    .block--article-carousel {
+       &.desktop-block {
+         margin-left: 40px;
+         margin-right: 40px;
+       }
     }
 }
 
@@ -1110,9 +1136,55 @@
     }
     .featured--article-text {
         background-color: $color--light-gray;
-        padding: 15px 30px;
+        padding: 15px;
         p {
 
+        }
+    }
+}
+
+@media screen and (min-width: $width-small) {
+    .block-featured--article-image {
+        .featured--article-text {
+            background-color: $color--light-gray;
+            padding: 15px;
+            p {
+
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $width-medium) {
+    .block-featured--article-image {
+        .featured--article-text {
+            background-color: $color--light-gray;
+            padding: 15px;
+            p {
+
+            }
+        }
+    }
+}
+
+
+.photo--caption-side {
+    display: none;
+    padding: 0px 15px;
+    & ~ .related-articles {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (min-width: $width-medium) {
+    .photo--caption-side {
+        display: block;
+        padding: 0px 15px;
+        & ~ div {
+            margin-top: 50px;
+        }
+        .photo-caption--wrapper {
+            margin-bottom: 0px
         }
     }
 }

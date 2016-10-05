@@ -90,6 +90,8 @@
 .button-demo{
   .button-sample{
     padding: 20px 10px;
+    display: inline-block;
+    width: 100%;
     &.dark{
       background: $color--black;
     }
