@@ -5022,56 +5022,61 @@ $font-header: $helvetica, $default-font;
   -ms-border-radius: 2px;
   -o-border-radius: 2px;
   border-radius: 2px;
+  -webkit-transition: all 250ms ease-in-out;
+  -moz-transition: all 250ms ease-in-out;
+  -ms-transition: all 250ms ease-in-out;
+  -o-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
 }
-/* line 17, ../scss/base/_btn.scss */
+/* line 22, ../scss/base/_btn.scss */
 .btn.btn--primary {
   background-color: #F26D04;
   padding: 18.5px 15px;
 }
-/* line 20, ../scss/base/_btn.scss */
+/* line 25, ../scss/base/_btn.scss */
 .btn.btn--primary:hover {
-  background-color: #052059;
+  background-color: #D45E00;
 }
-/* line 24, ../scss/base/_btn.scss */
+/* line 29, ../scss/base/_btn.scss */
 .btn.btn--primary-small {
   background-color: #F26D04;
   padding: 12px 15px;
   font-size: 15px;
 }
-/* line 28, ../scss/base/_btn.scss */
+/* line 33, ../scss/base/_btn.scss */
 .btn.btn--primary-small:hover {
   background-color: #052059;
 }
-/* line 32, ../scss/base/_btn.scss */
+/* line 37, ../scss/base/_btn.scss */
 .btn.btn--secondary {
   background-color: #007CBE;
 }
-/* line 34, ../scss/base/_btn.scss */
+/* line 39, ../scss/base/_btn.scss */
 .btn.btn--secondary:hover {
   background-color: #052059;
 }
-/* line 38, ../scss/base/_btn.scss */
+/* line 43, ../scss/base/_btn.scss */
 .btn.btn--with-icon {
   background-color: #F26D04;
 }
-/* line 40, ../scss/base/_btn.scss */
+/* line 45, ../scss/base/_btn.scss */
 .btn.btn--with-icon i {
   margin-left: 5px;
   font-size: 15px;
 }
-/* line 44, ../scss/base/_btn.scss */
+/* line 49, ../scss/base/_btn.scss */
 .btn.btn--with-icon:hover {
-  background-color: #052059;
+  background-color: #D45E00;
 }
-/* line 46, ../scss/base/_btn.scss */
+/* line 51, ../scss/base/_btn.scss */
 .btn.btn--with-icon:hover i {
-  color: #F26D04;
+  color: #FFFFFF;
 }
-/* line 52, ../scss/base/_btn.scss */
+/* line 57, ../scss/base/_btn.scss */
 .btn.anchor:hover {
   text-decoration: none;
 }
-/* line 56, ../scss/base/_btn.scss */
+/* line 61, ../scss/base/_btn.scss */
 .btn.btn--category {
   font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 10px;
@@ -5081,29 +5086,29 @@ $font-header: $helvetica, $default-font;
   border-radius: 0px;
   text-decoration: none;
 }
-/* line 64, ../scss/base/_btn.scss */
+/* line 69, ../scss/base/_btn.scss */
 .btn.btn--category:hover {
   background-color: #4d4d4d;
 }
-/* line 68, ../scss/base/_btn.scss */
+/* line 73, ../scss/base/_btn.scss */
 .btn.btn--category.btn--research:hover {
   background-color: #058488;
 }
-/* line 73, ../scss/base/_btn.scss */
+/* line 78, ../scss/base/_btn.scss */
 .btn.btn--category.btn--education:hover {
   background-color: #6EA400;
 }
-/* line 78, ../scss/base/_btn.scss */
+/* line 83, ../scss/base/_btn.scss */
 .btn.btn--category.btn--patient-care:hover {
   background-color: #007CBE;
 }
-/* line 83, ../scss/base/_btn.scss */
+/* line 88, ../scss/base/_btn.scss */
 .btn.btn--category.btn--news:hover {
   background-color: #052059;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 92, ../scss/base/_btn.scss */
+  /* line 97, ../scss/base/_btn.scss */
   .btn.btn--category {
     padding: 10px;
   }
@@ -7053,12 +7058,12 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   }
   /* line 481, ../scss/components/_navigation.scss */
   .nav-main--wrapper .nav-main .nav-main-links > li:hover a.header-give-btn {
-    background-color: #052059;
+    background-color: #D45E00;
     color: #FFFFFF;
   }
   /* line 484, ../scss/components/_navigation.scss */
   .nav-main--wrapper .nav-main .nav-main-links > li:hover a.header-give-btn span {
-    color: #F26D04;
+    color: #FFFFFF;
   }
   /* line 489, ../scss/components/_navigation.scss */
   .nav-main--wrapper .nav-main .nav-main-links > li:hover .line {

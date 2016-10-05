@@ -14,11 +14,16 @@
     outline: none;
     cursor: pointer;
     @include border-radius(2px);
+    -webkit-transition: all 250ms ease-in-out;
+    -moz-transition: all 250ms ease-in-out;
+    -ms-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
     &.btn--primary{
         background-color: $color--orange;
         padding: 18.5px 15px;
         &:hover{
-            background-color: $color--oxford-blue;
+            background-color: $color--orange-2;
         }
     }
     &.btn--primary-small {
@@ -42,9 +47,9 @@
             font-size: 15px;
         }
         &:hover{
-            background-color: $color--oxford-blue;
+            background-color: $color--orange-2;
             i{
-                color: $color--orange;
+                color: $color--white;
             }
         }
     }
