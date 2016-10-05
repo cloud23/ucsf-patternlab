@@ -1,10 +1,14 @@
 {% include "02-organisms/00-global/header-style-2" %}
+<div class="contents--wrapper">
 {% include "01-molecules/02-blocks/01-block-hero" %}
+{% include "@molecules/08-messaging/00-alert.twig" %}
 {% include "02-organisms/01-content-blocks/01-funding-priorities" %}
 {% include "02-organisms/01-content-blocks/00-ways-to-give" %}
 {% include "02-organisms/01-content-blocks/02-homepage-impact-stories" %}
 {% include "02-organisms/01-content-blocks/03-home-ankle" %}
+</div>
 {% include "02-organisms/00-global/footer" %}
+
 <script>
 	document.getElementsByTagName('body')[0].className+=' transparent';
 </script>
