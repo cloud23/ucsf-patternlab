@@ -5,18 +5,13 @@
 				<li>
 					<a class="btn btn--category" href="#">ALL</a>
 				</li>
+				{% if terms %}
+				{% for key, item in terms %}
 				<li>
-					<a class="btn btn--category btn--research" href="#">RESEARCH</a>
+					<a class="btn btn--category btn--{{ key }}" href="{{ item.href }}">{{ item.term_name|upper }}</a>
 				</li>
-				<li>
-					<a class="btn btn--category btn--education" href="#">EDUCATION</a>
-				</li>
-			    <li>
-			    	<a class="btn btn--category btn--patient-care" href="#">PATIENT CARE</a>
-			    </li>
-			    <li>
-			    	<a class="btn btn--category btn--news" href="#">NEWS</a>
-			    </li>
+				{% endfor %}
+				{% endif %}
 			</ul>
 		</div>
 	</div>
