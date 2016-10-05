@@ -8680,9 +8680,23 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
 /* line 1111, ../scss/components/_blocks.scss */
 .block-featured--article-image .featured--article-text {
   background-color: #F1F1F1;
-  padding: 15px 30px;
+  padding: 15px;
 }
 
+@media screen and (min-width: 768px) {
+  /* line 1122, ../scss/components/_blocks.scss */
+  .block-featured--article-image .featured--article-text {
+    background-color: #F1F1F1;
+    padding: 15px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* line 1134, ../scss/components/_blocks.scss */
+  .block-featured--article-image .featured--article-text {
+    background-color: #F1F1F1;
+    padding: 15px;
+  }
+}
 /* line 1, ../scss/components/_custom_lists.scss */
 .htmytg-list {
   list-style: none;
@@ -8849,13 +8863,46 @@ ul.pager__items > li.pager__item--last .fa-angle-right:last-child, ul.pager__ite
   width: 100%;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 481px) and (max-width: 767px) {
   /* line 154, ../scss/components/_custom_lists.scss */
+  .masonry-wrapper ul.masonry-results li {
+    width: 50%;
+    padding: 15px;
+  }
+  /* line 157, ../scss/components/_custom_lists.scss */
+  .masonry-wrapper ul.masonry-results li.big-article {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 170, ../scss/components/_custom_lists.scss */
+  .masonry-wrapper ul.masonry-results li {
+    width: 33.333%;
+    padding: 15px;
+  }
+  /* line 173, ../scss/components/_custom_lists.scss */
+  .masonry-wrapper ul.masonry-results li.big-article {
+    width: 66.666%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* line 187, ../scss/components/_custom_lists.scss */
   .masonry-wrapper ul.masonry-results li {
     width: 25%;
     padding: 15px;
   }
-  /* line 157, ../scss/components/_custom_lists.scss */
+  /* line 190, ../scss/components/_custom_lists.scss */
+  .masonry-wrapper ul.masonry-results li.big-article {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 204, ../scss/components/_custom_lists.scss */
+  .masonry-wrapper ul.masonry-results li {
+    width: 25%;
+    padding: 15px;
+  }
+  /* line 207, ../scss/components/_custom_lists.scss */
   .masonry-wrapper ul.masonry-results li.big-article {
     width: 50%;
   }
