@@ -13,11 +13,15 @@
 	{% include "@molecules/02-blocks/08-article-hero-no-text.twig" %}
 	<div class="content-area">
 		<div class="column-wrapper">
+			<div class="large--hidden medium--hidden">
+				{% include "@molecules/01-text/02-photo-caption.twig" %}
+			</div>
+		</div>
+	</div>
+	<div class="content-area">
+		<div class="column-wrapper">
 			<div class="column-large-8 column-medium-8 column-small-12 column-xsmall-12">
 				<div class="column-wrapper">
-					<div class="column-small-12 column-xsmall-12 large--hidden medium--hidden">
-						{% include "@molecules/01-text/02-photo-caption.twig" %}
-					</div>
 					<div class="column-large-12 column-medium-12 column-small-12 column-xsmall-12">
 						{% include "@molecules/02-blocks/09-block-share-icons.twig" %}
 					</div>
@@ -49,7 +53,7 @@
 			</div>
 			<div class="column-large-3 column-large-offset-1 column-medium-4 column-small-12 column-xsmall-12">
 				<div class="column-wrapper">
-					<div class="column-large-12 column-medium-12 small--hidden xsmall--hidden">
+					<div class="column-large-12 column-medium-12 small--hidden xsmall--hidden photo--caption-side">
 						{% include "@molecules/01-text/02-photo-caption.twig" %}
 					</div>
 					{% include "@organisms/01-content-blocks/07-related-articles.twig" %}
