@@ -875,7 +875,6 @@
 
 .block--story-detail-hero {
     height: 242px;
-    margin-bottom: 20px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -1168,6 +1167,27 @@
     }
 }
 
+
+.photo--caption-side {
+    display: none;
+    padding: 0px 15px;
+    & ~ .related-articles {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (min-width: $width-medium) {
+    .photo--caption-side {
+        display: block;
+        padding: 0px 15px;
+        & ~ div {
+            margin-top: 50px;
+        }
+        .photo-caption--wrapper {
+            margin-bottom: 0px
+        }
+    }
+}
 
 // .block--give-to-ucsf {
 //     background-color: $color--light-gray;

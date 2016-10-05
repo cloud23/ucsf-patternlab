@@ -144,10 +144,20 @@ $alignments : left center right justify;
     }
 }
 
+
 .photo-caption--wrapper {
+    padding: 20px 15px;
     margin-bottom: 20px;
+    background-color: $color--oxford-blue;
     .photo-caption {
         margin: 0px;
+        color: $color--white;
+    }
+}
+
+@media screen and (min-width: $width-medium) {
+    .photo-caption--wrapper {
+        margin-top: -73px;
     }
 }
 
