@@ -1110,12 +1110,37 @@
     }
     .featured--article-text {
         background-color: $color--light-gray;
-        padding: 15px 30px;
+        padding: 15px;
         p {
 
         }
     }
 }
+
+@media screen and (min-width: $width-small) {
+    .block-featured--article-image {
+        .featured--article-text {
+            background-color: $color--light-gray;
+            padding: 15px;
+            p {
+
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $width-medium) {
+    .block-featured--article-image {
+        .featured--article-text {
+            background-color: $color--light-gray;
+            padding: 15px;
+            p {
+
+            }
+        }
+    }
+}
+
 
 // .block--give-to-ucsf {
 //     background-color: $color--light-gray;
