@@ -901,6 +901,8 @@ ul{
 		list-style: none;
 		padding: 0px;
 		margin: 0px;
+		display: inline-block;
+		width: 100%;
 		& > li {
 			float: left;
 			margin: 0px;
@@ -919,6 +921,8 @@ ul{
 @media screen and (min-width: $width-small) {
 	ul{
 		&.category-nav {
+			display: inline-block;
+			width: 100%;
 			& > li {
 				margin-bottom: 0px;
 				margin-left: 10px;
@@ -929,3 +933,22 @@ ul{
 		}
 	}
 }
+
+
+@media screen and (min-width: $width-medium) {
+	ul{
+		&.category-nav {
+			margin-bottom: 20px;
+		}
+	}
+}
+
+
+@media screen and (min-width: $width-large) {
+	ul{
+		&.category-nav {
+			margin-bottom: 20px;
+		}
+	}
+}
+

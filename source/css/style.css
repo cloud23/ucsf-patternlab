@@ -5390,23 +5390,24 @@ address > strong {
 /* line 92, ../scss/base/_text.scss */
 .header-section.section--title {
   color: #052059;
+  margin-top: 40px;
 }
-/* line 94, ../scss/base/_text.scss */
+/* line 95, ../scss/base/_text.scss */
 .header-section.section--title .heading {
   margin-top: 0;
   margin-bottom: 15px;
 }
-/* line 99, ../scss/base/_text.scss */
+/* line 100, ../scss/base/_text.scss */
 .header-section.story {
   margin-top: 10px;
   margin-bottom: 20px;
 }
-/* line 102, ../scss/base/_text.scss */
+/* line 103, ../scss/base/_text.scss */
 .header-section.story h3 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-/* line 108, ../scss/base/_text.scss */
+/* line 109, ../scss/base/_text.scss */
 .header-section.section--intro-text p {
   font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 1.33333rem;
@@ -5416,46 +5417,48 @@ address > strong {
 }
 
 @media all and (min-width: 768px) {
-  /* line 122, ../scss/base/_text.scss */
+  /* line 123, ../scss/base/_text.scss */
   .header-section {
-    margin-bottom: 40px;
+    margin-bottom: 15px;
   }
-  /* line 124, ../scss/base/_text.scss */
+  /* line 125, ../scss/base/_text.scss */
   .header-section.story {
+    margin-top: 10px;
     margin-bottom: 30px;
   }
-  /* line 127, ../scss/base/_text.scss */
+  /* line 129, ../scss/base/_text.scss */
   .header-section h3 {
     margin-bottom: 0px;
   }
 }
 @media all and (min-width: 1024px) {
-  /* line 135, ../scss/base/_text.scss */
+  /* line 137, ../scss/base/_text.scss */
   .header-section.story {
-    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-bottom: 15px;
   }
-  /* line 138, ../scss/base/_text.scss */
+  /* line 141, ../scss/base/_text.scss */
   .header-section h3 {
     margin-bottom: 0px;
   }
 }
-/* line 144, ../scss/base/_text.scss */
+/* line 147, ../scss/base/_text.scss */
 .photo-caption--wrapper {
   margin-bottom: 20px;
 }
-/* line 146, ../scss/base/_text.scss */
+/* line 149, ../scss/base/_text.scss */
 .photo-caption--wrapper .photo-caption {
   margin: 0px;
 }
 
-/* line 151, ../scss/base/_text.scss */
+/* line 154, ../scss/base/_text.scss */
 p.photo-caption {
   font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   color: #58595b;
   font-size: 12px;
 }
 
-/* line 157, ../scss/base/_text.scss */
+/* line 160, ../scss/base/_text.scss */
 p.fund-intro {
   font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 22px;
@@ -5465,7 +5468,7 @@ p.fund-intro {
 }
 
 @media screen and (min-width: 1024px) {
-  /* line 166, ../scss/base/_text.scss */
+  /* line 169, ../scss/base/_text.scss */
   p.fund-intro {
     margin-bottom: 5px;
   }
@@ -7479,32 +7482,51 @@ ul.category-nav {
   list-style: none;
   padding: 0px;
   margin: 0px;
+  display: inline-block;
+  width: 100%;
 }
-/* line 904, ../scss/components/_navigation.scss */
+/* line 906, ../scss/components/_navigation.scss */
 ul.category-nav > li {
   float: left;
   margin: 0px;
   margin-bottom: 20px;
   margin-left: 20px;
 }
-/* line 909, ../scss/components/_navigation.scss */
+/* line 911, ../scss/components/_navigation.scss */
 ul.category-nav > li:first-child {
   margin-left: 0px;
 }
-/* line 912, ../scss/components/_navigation.scss */
+/* line 914, ../scss/components/_navigation.scss */
 ul.category-nav > li a {
   display: block;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 922, ../scss/components/_navigation.scss */
+  /* line 923, ../scss/components/_navigation.scss */
+  ul.category-nav {
+    display: inline-block;
+    width: 100%;
+  }
+  /* line 926, ../scss/components/_navigation.scss */
   ul.category-nav > li {
     margin-bottom: 0px;
     margin-left: 10px;
   }
-  /* line 925, ../scss/components/_navigation.scss */
+  /* line 929, ../scss/components/_navigation.scss */
   ul.category-nav > li a {
     display: block;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* line 940, ../scss/components/_navigation.scss */
+  ul.category-nav {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 949, ../scss/components/_navigation.scss */
+  ul.category-nav {
+    margin-bottom: 20px;
   }
 }
 /* line 1, ../scss/components/_alert-bar.scss */
@@ -8931,47 +8953,53 @@ ul.pager__items > li.pager__item--last .fa-angle-right:last-child, ul.pager__ite
 .masonry-wrapper ul.masonry-results li.big-article {
   width: 100%;
 }
+/* line 146, ../scss/components/_custom_lists.scss */
+.masonry-wrapper ul.masonry-results:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
 
 @media screen and (min-width: 481px) and (max-width: 767px) {
-  /* line 154, ../scss/components/_custom_lists.scss */
+  /* line 159, ../scss/components/_custom_lists.scss */
   .masonry-wrapper ul.masonry-results li {
     width: 50%;
-    padding: 15px;
+    padding: 10px 15px;
   }
-  /* line 157, ../scss/components/_custom_lists.scss */
+  /* line 162, ../scss/components/_custom_lists.scss */
   .masonry-wrapper ul.masonry-results li.big-article {
     width: 50%;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 170, ../scss/components/_custom_lists.scss */
+  /* line 175, ../scss/components/_custom_lists.scss */
   .masonry-wrapper ul.masonry-results li {
     width: 33.333%;
-    padding: 15px;
+    padding: 10px 15px;
   }
-  /* line 173, ../scss/components/_custom_lists.scss */
+  /* line 178, ../scss/components/_custom_lists.scss */
   .masonry-wrapper ul.masonry-results li.big-article {
     width: 66.666%;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 187, ../scss/components/_custom_lists.scss */
+  /* line 192, ../scss/components/_custom_lists.scss */
   .masonry-wrapper ul.masonry-results li {
     width: 25%;
-    padding: 15px;
+    padding: 10px 15px;
   }
-  /* line 190, ../scss/components/_custom_lists.scss */
+  /* line 195, ../scss/components/_custom_lists.scss */
   .masonry-wrapper ul.masonry-results li.big-article {
     width: 50%;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 204, ../scss/components/_custom_lists.scss */
+  /* line 209, ../scss/components/_custom_lists.scss */
   .masonry-wrapper ul.masonry-results li {
     width: 25%;
-    padding: 15px;
+    padding: 10px 15px;
   }
-  /* line 207, ../scss/components/_custom_lists.scss */
+  /* line 212, ../scss/components/_custom_lists.scss */
   .masonry-wrapper ul.masonry-results li.big-article {
     width: 50%;
   }
