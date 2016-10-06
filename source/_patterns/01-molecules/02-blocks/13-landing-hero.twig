@@ -1,12 +1,11 @@
-
-	<div class="hero--wrapper">
-		<div class="block block-hero">
-			{% block hero_image %}
+<div class="hero--wrapper">
+	<div class="block block--landing-hero">
+		{% block hero_image %}
 			<div class="hero-background" style="background-image: url('{{ background_image }}');"></div>
-			{% endblock %}
-			<div class="content-area">
-				<div class="column-wrapper">
-					<div class="column-large-12 column-medium-12 column-small-12 column-xsmall-12">
+		{% endblock %}
+		<div class="content-area">
+			<div class="column-wrapper">
+				<div class="column-large-12 column-medium-12 column-small-12 column-xsmall-12">
 					{% block hero_content %}
 						{% include '@molecules/01-text/05-hero-text.twig' with {
 							"alignment" : alignment,
@@ -16,17 +15,17 @@
 							"body" : body
 						} %}
 					{% endblock %}
-					</div>
 				</div>
 			</div>
-			{% block link_to_small %}
+		</div>
+		{% block link_to_small %}
 				{% if link_text %}
 					{% include '@molecules/01-text/06-link-with-icon.twig' with {
 							"link_text" : link_text,
 							"link_href" : link_href
 					} %}
 			    {% endif %}
-		    {% endblock %}
-		</div>
+		{% endblock %}
 	</div>
+</div>
 

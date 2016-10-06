@@ -106,6 +106,7 @@ $alignments : left center right justify;
         }
     }
     &.section--intro-text{
+        color: $color--black-2;
         p{
             font-family: $text-body--light;
             @include type-definition(20px, 1.3);

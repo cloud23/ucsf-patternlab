@@ -1,13 +1,13 @@
-{% include "02-organisms/00-global/header-style-2" %}
+{% include "@organisms/00-global/header-style-2.twig" %}
 <div class="contents--wrapper">
-{% include "01-molecules/02-blocks/01-block-hero" %}
+{% include "@molecules/02-blocks/01-block-hero.twig" %}
 {% include "@molecules/08-messaging/00-alert.twig" %}
-{% include "02-organisms/01-content-blocks/01-funding-priorities" %}
-{% include "02-organisms/01-content-blocks/00-ways-to-give" %}
-{% include "02-organisms/01-content-blocks/02-homepage-impact-stories" %}
-{% include "02-organisms/01-content-blocks/03-home-ankle" %}
+{% include "@organisms/01-content-blocks/01-funding-priorities.twig" %}
+{% include "@organisms/01-content-blocks/00-ways-to-give.twig" %}
+{% include "@organisms/01-content-blocks/02-homepage-impact-stories.twig"%}
 </div>
-{% include "02-organisms/00-global/footer" %}
+{% include "@organisms/01-content-blocks/03-home-ankle.twig" %}
+{% include "@organisms/00-global/footer.twig" %}
 
 <script>
 	document.getElementsByTagName('body')[0].className+=' transparent';
