@@ -1167,11 +1167,16 @@
     }
 }
 
-
+.photo--caption-full {
+    margin-bottom: 20px;
+    .photo-caption--wrapper {
+        margin-bottom: 0px;
+    }
+}
 .photo--caption-side {
     display: none;
     padding: 0px 15px;
-    & ~ .related-articles {
+    & ~ div {
         margin-top: 0px;
     }
 }
@@ -1184,7 +1189,7 @@
             margin-top: 50px;
         }
         .photo-caption--wrapper {
-            margin-bottom: 0px
+            margin-bottom: 0px;
         }
     }
 }
