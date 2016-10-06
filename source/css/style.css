@@ -8965,27 +8965,36 @@ ul.category-nav > li a {
     padding: 15px;
   }
 }
-/* line 1171, ../scss/components/_blocks.scss */
+/* line 1170, ../scss/components/_blocks.scss */
+.photo--caption-full {
+  margin-bottom: 20px;
+}
+/* line 1172, ../scss/components/_blocks.scss */
+.photo--caption-full .photo-caption--wrapper {
+  margin-bottom: 0px;
+}
+
+/* line 1176, ../scss/components/_blocks.scss */
 .photo--caption-side {
   display: none;
   padding: 0px 15px;
 }
-/* line 1174, ../scss/components/_blocks.scss */
-.photo--caption-side ~ .related-articles {
+/* line 1179, ../scss/components/_blocks.scss */
+.photo--caption-side ~ div {
   margin-top: 0px;
 }
 
 @media screen and (min-width: 1024px) {
-  /* line 1180, ../scss/components/_blocks.scss */
+  /* line 1185, ../scss/components/_blocks.scss */
   .photo--caption-side {
     display: block;
     padding: 0px 15px;
   }
-  /* line 1183, ../scss/components/_blocks.scss */
+  /* line 1188, ../scss/components/_blocks.scss */
   .photo--caption-side ~ div {
     margin-top: 50px;
   }
-  /* line 1186, ../scss/components/_blocks.scss */
+  /* line 1191, ../scss/components/_blocks.scss */
   .photo--caption-side .photo-caption--wrapper {
     margin-bottom: 0px;
   }
