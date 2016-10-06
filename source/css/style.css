@@ -5412,7 +5412,11 @@ address > strong {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-/* line 109, ../scss/base/_text.scss */
+/* line 108, ../scss/base/_text.scss */
+.header-section.section--intro-text {
+  color: #353a3f;
+}
+/* line 110, ../scss/base/_text.scss */
 .header-section.section--intro-text p {
   font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 1.33333rem;
@@ -5422,57 +5426,57 @@ address > strong {
 }
 
 @media all and (min-width: 768px) {
-  /* line 123, ../scss/base/_text.scss */
+  /* line 124, ../scss/base/_text.scss */
   .header-section {
     margin-bottom: 15px;
   }
-  /* line 125, ../scss/base/_text.scss */
+  /* line 126, ../scss/base/_text.scss */
   .header-section.story {
     margin-top: 10px;
     margin-bottom: 30px;
   }
-  /* line 129, ../scss/base/_text.scss */
+  /* line 130, ../scss/base/_text.scss */
   .header-section h3 {
     margin-bottom: 0px;
   }
 }
 @media all and (min-width: 1024px) {
-  /* line 137, ../scss/base/_text.scss */
+  /* line 138, ../scss/base/_text.scss */
   .header-section.story {
     margin-top: 10px;
     margin-bottom: 15px;
   }
-  /* line 141, ../scss/base/_text.scss */
+  /* line 142, ../scss/base/_text.scss */
   .header-section h3 {
     margin-bottom: 0px;
   }
 }
-/* line 148, ../scss/base/_text.scss */
+/* line 149, ../scss/base/_text.scss */
 .photo-caption--wrapper {
   padding: 20px 15px;
   margin-bottom: 20px;
   background-color: #052059;
 }
-/* line 152, ../scss/base/_text.scss */
+/* line 153, ../scss/base/_text.scss */
 .photo-caption--wrapper .photo-caption {
   margin: 0px;
   color: #FFFFFF;
 }
 
 @media screen and (min-width: 1024px) {
-  /* line 159, ../scss/base/_text.scss */
+  /* line 160, ../scss/base/_text.scss */
   .photo-caption--wrapper {
     margin-top: -73px;
   }
 }
-/* line 164, ../scss/base/_text.scss */
+/* line 165, ../scss/base/_text.scss */
 p.photo-caption {
   font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   color: #58595b;
   font-size: 12px;
 }
 
-/* line 170, ../scss/base/_text.scss */
+/* line 171, ../scss/base/_text.scss */
 p.fund-intro {
   font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 22px;
@@ -5482,7 +5486,7 @@ p.fund-intro {
 }
 
 @media screen and (min-width: 1024px) {
-  /* line 179, ../scss/base/_text.scss */
+  /* line 180, ../scss/base/_text.scss */
   p.fund-intro {
     margin-bottom: 5px;
   }
@@ -6415,7 +6419,7 @@ footer .footer--colum-content, footer .footer--column-links {
   display: block;
 }
 /* line 12, ../scss/layout/component-layout/_hero-image-block.scss */
-.block.block-hero {
+.block.block-hero, .block.block--landing-hero {
   position: relative;
   display: block;
   background-position: top center;
@@ -6425,19 +6429,19 @@ footer .footer--colum-content, footer .footer--column-links {
   background-color: #000000;
 }
 /* line 20, ../scss/layout/component-layout/_hero-image-block.scss */
-.block.block-hero .content-area {
+.block.block-hero .content-area, .block.block--landing-hero .content-area {
   height: 100%;
 }
 /* line 22, ../scss/layout/component-layout/_hero-image-block.scss */
-.block.block-hero .content-area .column-wrapper {
+.block.block-hero .content-area .column-wrapper, .block.block--landing-hero .content-area .column-wrapper {
   height: 100%;
 }
 /* line 24, ../scss/layout/component-layout/_hero-image-block.scss */
-.block.block-hero .content-area .column-wrapper > div:last-child {
+.block.block-hero .content-area .column-wrapper > div:last-child, .block.block--landing-hero .content-area .column-wrapper > div:last-child {
   height: 100%;
 }
 /* line 29, ../scss/layout/component-layout/_hero-image-block.scss */
-.block.block-hero .hero-background {
+.block.block-hero .hero-background, .block.block--landing-hero .hero-background {
   position: absolute;
   top: 0;
   left: 0;
@@ -6451,7 +6455,7 @@ footer .footer--colum-content, footer .footer--column-links {
   z-index: 0;
 }
 /* line 42, ../scss/layout/component-layout/_hero-image-block.scss */
-.block.block-hero .hero-text {
+.block.block-hero .hero-text, .block.block--landing-hero .hero-text {
   display: block;
   opacity: 1;
   text-align: center;
@@ -6463,25 +6467,42 @@ footer .footer--colum-content, footer .footer--column-links {
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
+  color: #FFFFFF;
 }
-/* line 54, ../scss/layout/component-layout/_hero-image-block.scss */
-.block.block-hero .hero-text > a {
+/* line 55, ../scss/layout/component-layout/_hero-image-block.scss */
+.block.block-hero .hero-text.align-left, .block.block--landing-hero .hero-text.align-left {
+  left: 15px;
+  right: 15px;
+}
+/* line 59, ../scss/layout/component-layout/_hero-image-block.scss */
+.block.block-hero .hero-text.align-right, .block.block--landing-hero .hero-text.align-right {
+  left: 15px;
+  right: 15px;
+}
+/* line 63, ../scss/layout/component-layout/_hero-image-block.scss */
+.block.block-hero .hero-text p, .block.block--landing-hero .hero-text p {
+  font-size: 18px;
+  display: none;
+  margin: 0px;
+}
+/* line 68, ../scss/layout/component-layout/_hero-image-block.scss */
+.block.block-hero .hero-text > a, .block.block--landing-hero .hero-text > a {
   display: none;
 }
-/* line 56, ../scss/layout/component-layout/_hero-image-block.scss */
-.block.block-hero .hero-text > a.link.link--with-icon {
+/* line 70, ../scss/layout/component-layout/_hero-image-block.scss */
+.block.block-hero .hero-text > a.link.link--with-icon, .block.block--landing-hero .hero-text > a.link.link--with-icon {
   color: #FFFFFF;
 }
-/* line 58, ../scss/layout/component-layout/_hero-image-block.scss */
-.block.block-hero .hero-text > a.link.link--with-icon .link--icon {
+/* line 72, ../scss/layout/component-layout/_hero-image-block.scss */
+.block.block-hero .hero-text > a.link.link--with-icon .link--icon, .block.block--landing-hero .hero-text > a.link.link--with-icon .link--icon {
   color: #FFFFFF;
 }
-/* line 62, ../scss/layout/component-layout/_hero-image-block.scss */
-.block.block-hero .hero-text > a.link.link--with-icon:hover .icon--angle {
+/* line 76, ../scss/layout/component-layout/_hero-image-block.scss */
+.block.block-hero .hero-text > a.link.link--with-icon:hover .icon--angle, .block.block--landing-hero .hero-text > a.link.link--with-icon:hover .icon--angle {
   color: #007CBE;
 }
-/* line 69, ../scss/layout/component-layout/_hero-image-block.scss */
-.block.block-hero .hero-link--mobile {
+/* line 83, ../scss/layout/component-layout/_hero-image-block.scss */
+.block.block-hero > .link--with-icon, .block.block--landing-hero > .link--with-icon {
   display: block;
   position: absolute;
   bottom: 40px;
@@ -6490,61 +6511,153 @@ footer .footer--colum-content, footer .footer--column-links {
   text-align: center;
   z-index: 1;
 }
-/* line 77, ../scss/layout/component-layout/_hero-image-block.scss */
-.block.block-hero .hero-link--mobile.link.link--with-icon {
+/* line 91, ../scss/layout/component-layout/_hero-image-block.scss */
+.block.block-hero > .link--with-icon.link.link--with-icon, .block.block--landing-hero > .link--with-icon.link.link--with-icon {
   color: #FFFFFF;
 }
-/* line 79, ../scss/layout/component-layout/_hero-image-block.scss */
-.block.block-hero .hero-link--mobile.link.link--with-icon .link--icon {
+/* line 93, ../scss/layout/component-layout/_hero-image-block.scss */
+.block.block-hero > .link--with-icon.link.link--with-icon .link--icon, .block.block--landing-hero > .link--with-icon.link.link--with-icon .link--icon {
   color: #FFFFFF;
 }
-/* line 83, ../scss/layout/component-layout/_hero-image-block.scss */
-.block.block-hero .hero-link--mobile.link.link--with-icon:hover .icon--angle {
+/* line 97, ../scss/layout/component-layout/_hero-image-block.scss */
+.block.block-hero > .link--with-icon.link.link--with-icon:hover .icon--angle, .block.block--landing-hero > .link--with-icon.link.link--with-icon:hover .icon--angle {
   color: #007CBE;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 94, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 108, ../scss/layout/component-layout/_hero-image-block.scss */
   .hero--wrapper {
     background-color: #FFFFFF;
   }
 
-  /* line 98, ../scss/layout/component-layout/_hero-image-block.scss */
-  .block.block-hero {
+  /* line 112, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block-hero, .block.block--landing-hero {
     background-position: top center;
-    height: 516px;
   }
-  /* line 101, ../scss/layout/component-layout/_hero-image-block.scss */
-  .block.block-hero .hero-background {
+  /* line 114, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block-hero .hero-background, .block.block--landing-hero .hero-background {
     background-color: #FFFFFF;
     opacity: 1;
   }
-  /* line 105, ../scss/layout/component-layout/_hero-image-block.scss */
-  .block.block-hero .hero-text {
+  /* line 118, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block-hero .hero-text, .block.block--landing-hero .hero-text {
     position: absolute;
     text-align: left;
+    max-width: 57%;
   }
-  /* line 109, ../scss/layout/component-layout/_hero-image-block.scss */
-  .block.block-hero .hero-text > a {
+  /* line 122, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block-hero .hero-text.align-left, .block.block--landing-hero .hero-text.align-left {
+    left: 15px;
+    right: initial;
+  }
+  /* line 126, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block-hero .hero-text.align-right, .block.block--landing-hero .hero-text.align-right {
+    left: initial;
+    right: 15px;
+  }
+  /* line 130, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block-hero .hero-text h1, .block.block--landing-hero .hero-text h1 {
+    margin-bottom: 20px;
+  }
+  /* line 133, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block-hero .hero-text p, .block.block--landing-hero .hero-text p {
     display: block;
   }
-  /* line 113, ../scss/layout/component-layout/_hero-image-block.scss */
-  .block.block-hero .hero-link--mobile {
+  /* line 136, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block-hero .hero-text > a, .block.block--landing-hero .hero-text > a {
+    display: block;
+  }
+  /* line 140, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block-hero > .link--with-icon, .block.block--landing-hero > .link--with-icon {
     display: none;
+  }
+  /* line 144, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block-hero {
+    height: 516px;
+  }
+  /* line 147, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block--landing-hero {
+    height: 450px;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 124, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 157, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero {
     background-position: top center;
     height: 660px;
   }
+  /* line 160, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block-hero .hero-text {
+    max-width: 57%;
+  }
+  /* line 162, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block-hero .hero-text.align-left {
+    left: 15px;
+    right: initial;
+  }
+  /* line 166, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block-hero .hero-text.align-right {
+    left: initial;
+    right: 15px;
+  }
+  /* line 172, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block--landing-hero {
+    background-position: top center;
+    height: 450px;
+  }
+  /* line 175, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block--landing-hero .hero-text {
+    max-width: 57%;
+  }
+  /* line 177, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block--landing-hero .hero-text.align-left {
+    left: 15px;
+    right: initial;
+  }
+  /* line 181, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block--landing-hero .hero-text.align-right {
+    left: initial;
+    right: 15px;
+  }
 }
 @media screen and (min-width: 1200px) {
-  /* line 138, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 194, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero {
     background-position: top center;
     height: 660px;
+  }
+  /* line 197, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block-hero .hero-text {
+    max-width: 47%;
+  }
+  /* line 199, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block-hero .hero-text.align-left {
+    left: 15px;
+    right: initial;
+  }
+  /* line 203, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block-hero .hero-text.align-right {
+    left: initial;
+    right: 15px;
+  }
+  /* line 209, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block--landing-hero {
+    background-position: top center;
+    height: 450px;
+  }
+  /* line 212, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block--landing-hero .hero-text {
+    max-width: 47%;
+  }
+  /* line 214, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block--landing-hero .hero-text.align-left {
+    left: 15px;
+    right: initial;
+  }
+  /* line 218, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block--landing-hero .hero-text.align-right {
+    left: initial;
+    right: 15px;
   }
 }
 /* line 3, ../scss/components/_navigation.scss */
@@ -8476,7 +8589,7 @@ ul.category-nav > li a {
   color: #000000;
   padding: 30px;
   max-width: 265px;
-  margin: 0 auto 30px auto;
+  margin: 0 0 30px 0;
 }
 /* line 711, ../scss/components/_blocks.scss */
 .block-contact-us h4 {
