@@ -114,5 +114,9 @@
           "body" : "",
           "cta" : ""
         }
-    }
+    },
+    "heading" : "Your text here.",
+    "link_text" : "Your link here",
+    "link_href" : "#",
+    "alignment" : "right"
 }
