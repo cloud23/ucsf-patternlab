@@ -83,56 +83,6 @@ $base--line-height: 1.5;
         url('../fonts/ucsf/2D0D15_9_0.ttf') format('truetype');
 }
 
-h1 {
-    @include heading-definition($text-headline, 40, 45px, normal);
-    color: $color--oxford-blue;
-}
-
-h2 {
-    @include heading-definition($text-headline, 45, 45px, normal);
-    color: $color--oxford-blue;
-}
-
-h3 {
-    @include heading-definition($text-headline, 30, 42px, normal);
-    color: $color--oxford-blue;
-}
-
-h4 {
-    @include heading-definition($text-body--medium, 22, 30px, normal);
-    color: $color--oxford-blue;
-    margin-bottom: 10px;
-}
-
-h5 {
-    @include heading-definition($text-body--light, 20, 25px, normal);
-
-}
-
-@media screen and (min-width: $bp--small-up) {
-    h1 {
-        @include heading-definition($text-headline, 60, 65px, normal);
-    }
-
-    h2 {
-        @include heading-definition($text-headline, 45, 45px, normal);
-    }
-
-    h3 {
-        @include heading-definition($text-headline, 36, 42px, normal);
-    }
-
-    h4 {
-        @include heading-definition($text-body--medium, 26, 30px, normal);
-        margin-bottom: 15px;
-    }
-}
-
-
-.granjon-heading-text {
-    font-family: $text-headline;
-}
-
 
 /* From the current pattern library. I'm keeping this here in case we needed this in the future.
 
