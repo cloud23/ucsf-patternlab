@@ -38,7 +38,7 @@
 	}
 	p {
 		font-size: 18px;
-		color: $color--medium-gray;
+		color: $color--black;
 		text-align: left;
 		margin: 0 0 10px;
 	}
@@ -222,7 +222,7 @@
 	.ways-to-give-options--wrapper {
 		width: auto;
 		margin-top: 17px;
-		margin-bottom: 0px;
+		margin-bottom: 20px;
 	}
 
 	.ways-to-give-option {
@@ -378,7 +378,7 @@
 	.ways-to-give-options--wrapper {
 		width: auto;
 		margin-top: 17px;
-		margin-bottom: 0px;
+		margin-bottom: 25px;
 	}
 	.ways-to-give-option {
 		&:last-child {

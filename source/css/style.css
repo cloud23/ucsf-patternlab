@@ -3752,90 +3752,6 @@ $bp--small-down: max-width $width-medium - 1;*/
   src: url("../fonts/ucsf/2D0D15_9_0.eot");
   src: url("../fonts/ucsf/2D0D15_9_0.eot?#iefix") format("embedded-opentype"), url("../fonts/ucsf/2D0D15_9_0.woff2") format("woff2"), url("../fonts/ucsf/2D0D15_9_0.woff") format("woff"), url("../fonts/ucsf/2D0D15_9_0.ttf") format("truetype");
 }
-/* line 86, ../scss/global/variables/_typography.scss */
-h1 {
-  font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
-  font-weight: normal;
-  font-size: 40px;
-  line-height: 45px;
-  color: #052059;
-}
-
-/* line 91, ../scss/global/variables/_typography.scss */
-h2 {
-  font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
-  font-weight: normal;
-  font-size: 45px;
-  line-height: 45px;
-  color: #052059;
-}
-
-/* line 96, ../scss/global/variables/_typography.scss */
-h3 {
-  font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 42px;
-  color: #052059;
-}
-
-/* line 101, ../scss/global/variables/_typography.scss */
-h4 {
-  font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 30px;
-  color: #052059;
-  margin-bottom: 10px;
-}
-
-/* line 107, ../scss/global/variables/_typography.scss */
-h5 {
-  font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 25px;
-}
-
-@media screen and (min-width: 768px) {
-  /* line 113, ../scss/global/variables/_typography.scss */
-  h1 {
-    font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
-    font-weight: normal;
-    font-size: 60px;
-    line-height: 65px;
-  }
-
-  /* line 117, ../scss/global/variables/_typography.scss */
-  h2 {
-    font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
-    font-weight: normal;
-    font-size: 45px;
-    line-height: 45px;
-  }
-
-  /* line 121, ../scss/global/variables/_typography.scss */
-  h3 {
-    font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 42px;
-  }
-
-  /* line 125, ../scss/global/variables/_typography.scss */
-  h4 {
-    font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-    font-weight: normal;
-    font-size: 26px;
-    line-height: 30px;
-    margin-bottom: 15px;
-  }
-}
-/* line 132, ../scss/global/variables/_typography.scss */
-.granjon-heading-text {
-  font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
-}
-
 /* From the current pattern library. I'm keeping this here in case we needed this in the future.
 
 $font-headline: $granjon, $header-font;
@@ -5315,38 +5231,116 @@ b, strong {
 }
 
 /* line 32, ../scss/base/_text.scss */
-h1, h2, h3, h4, h5, h6 {
+h1 {
   font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
   font-weight: normal;
+  font-size: 40px;
+  line-height: 45px;
+  color: #052059;
 }
 
 /* line 37, ../scss/base/_text.scss */
+h2 {
+  font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 45px;
+  color: #052059;
+}
+
+/* line 42, ../scss/base/_text.scss */
+h3 {
+  font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 42px;
+  color: #052059;
+}
+
+/* line 47, ../scss/base/_text.scss */
+h4 {
+  font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 30px;
+  color: #052059;
+  margin-bottom: 10px;
+}
+
+/* line 53, ../scss/base/_text.scss */
+h5 {
+  font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 59, ../scss/base/_text.scss */
+  h1 {
+    font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 65px;
+  }
+
+  /* line 63, ../scss/base/_text.scss */
+  h2 {
+    font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 45px;
+  }
+
+  /* line 67, ../scss/base/_text.scss */
+  h3 {
+    font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  /* line 71, ../scss/base/_text.scss */
+  h4 {
+    font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    margin-bottom: 15px;
+  }
+}
+/* line 78, ../scss/base/_text.scss */
+.granjon-heading-text {
+  font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
+}
+
+/* line 83, ../scss/base/_text.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* line 41, ../scss/base/_text.scss */
+/* line 87, ../scss/base/_text.scss */
 small {
   font-size: 80%;
 }
 
-/* line 45, ../scss/base/_text.scss */
+/* line 91, ../scss/base/_text.scss */
 blockquote {
   padding: 30px;
   background-color: #ebf3fa;
   text-align: justify;
 }
-/* line 49, ../scss/base/_text.scss */
+/* line 95, ../scss/base/_text.scss */
 blockquote, blockquote p {
   font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
   font-size: 1.6rem;
   line-height: 1.33;
 }
-/* line 53, ../scss/base/_text.scss */
+/* line 99, ../scss/base/_text.scss */
 blockquote p {
   margin: 0;
 }
-/* line 55, ../scss/base/_text.scss */
+/* line 101, ../scss/base/_text.scss */
 blockquote p:before, blockquote p:after {
   font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
   font-size: 4rem;
@@ -5355,74 +5349,74 @@ blockquote p:before, blockquote p:after {
   top: 15px;
   position: relative;
 }
-/* line 62, ../scss/base/_text.scss */
+/* line 108, ../scss/base/_text.scss */
 blockquote p:before {
   content: "\201C";
 }
-/* line 65, ../scss/base/_text.scss */
+/* line 111, ../scss/base/_text.scss */
 blockquote p:after {
   content: "\201D";
 }
 
-/* line 72, ../scss/base/_text.scss */
+/* line 118, ../scss/base/_text.scss */
 address {
   font-style: normal;
   font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
-/* line 75, ../scss/base/_text.scss */
+/* line 121, ../scss/base/_text.scss */
 address > strong {
   font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
-/* line 85, ../scss/base/_text.scss */
+/* line 131, ../scss/base/_text.scss */
 .text-align--left {
   text-align: left;
 }
 
-/* line 85, ../scss/base/_text.scss */
+/* line 131, ../scss/base/_text.scss */
 .text-align--center {
   text-align: center;
 }
 
-/* line 85, ../scss/base/_text.scss */
+/* line 131, ../scss/base/_text.scss */
 .text-align--right {
   text-align: right;
 }
 
-/* line 85, ../scss/base/_text.scss */
+/* line 131, ../scss/base/_text.scss */
 .text-align--justify {
   text-align: justify;
 }
 
-/* line 90, ../scss/base/_text.scss */
+/* line 136, ../scss/base/_text.scss */
 .header-section {
   margin-bottom: 30px;
 }
-/* line 92, ../scss/base/_text.scss */
+/* line 138, ../scss/base/_text.scss */
 .header-section.section--title {
   color: #052059;
   margin-top: 40px;
 }
-/* line 95, ../scss/base/_text.scss */
+/* line 141, ../scss/base/_text.scss */
 .header-section.section--title .heading {
   margin-top: 0;
   margin-bottom: 15px;
 }
-/* line 100, ../scss/base/_text.scss */
+/* line 146, ../scss/base/_text.scss */
 .header-section.story {
   margin-top: 10px;
   margin-bottom: 20px;
 }
-/* line 103, ../scss/base/_text.scss */
+/* line 149, ../scss/base/_text.scss */
 .header-section.story h3 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-/* line 108, ../scss/base/_text.scss */
+/* line 154, ../scss/base/_text.scss */
 .header-section.section--intro-text {
   color: #353a3f;
 }
-/* line 110, ../scss/base/_text.scss */
+/* line 156, ../scss/base/_text.scss */
 .header-section.section--intro-text p {
   font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 1.33333rem;
@@ -5432,57 +5426,57 @@ address > strong {
 }
 
 @media all and (min-width: 768px) {
-  /* line 124, ../scss/base/_text.scss */
+  /* line 170, ../scss/base/_text.scss */
   .header-section {
     margin-bottom: 15px;
   }
-  /* line 126, ../scss/base/_text.scss */
+  /* line 172, ../scss/base/_text.scss */
   .header-section.story {
     margin-top: 10px;
     margin-bottom: 30px;
   }
-  /* line 130, ../scss/base/_text.scss */
+  /* line 176, ../scss/base/_text.scss */
   .header-section h3 {
     margin-bottom: 0px;
   }
 }
 @media all and (min-width: 1024px) {
-  /* line 138, ../scss/base/_text.scss */
+  /* line 184, ../scss/base/_text.scss */
   .header-section.story {
     margin-top: 10px;
     margin-bottom: 15px;
   }
-  /* line 142, ../scss/base/_text.scss */
+  /* line 188, ../scss/base/_text.scss */
   .header-section h3 {
     margin-bottom: 0px;
   }
 }
-/* line 149, ../scss/base/_text.scss */
+/* line 195, ../scss/base/_text.scss */
 .photo-caption--wrapper {
   padding: 20px 15px;
   margin-bottom: 20px;
   background-color: #052059;
 }
-/* line 153, ../scss/base/_text.scss */
+/* line 199, ../scss/base/_text.scss */
 .photo-caption--wrapper .photo-caption {
   margin: 0px;
   color: #FFFFFF;
 }
 
 @media screen and (min-width: 1024px) {
-  /* line 160, ../scss/base/_text.scss */
+  /* line 206, ../scss/base/_text.scss */
   .photo-caption--wrapper {
     margin-top: -73px;
   }
 }
-/* line 165, ../scss/base/_text.scss */
+/* line 211, ../scss/base/_text.scss */
 p.photo-caption {
   font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   color: #58595b;
   font-size: 12px;
 }
 
-/* line 171, ../scss/base/_text.scss */
+/* line 217, ../scss/base/_text.scss */
 p.fund-intro {
   font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 22px;
@@ -5492,7 +5486,7 @@ p.fund-intro {
 }
 
 @media screen and (min-width: 1024px) {
-  /* line 180, ../scss/base/_text.scss */
+  /* line 226, ../scss/base/_text.scss */
   p.fund-intro {
     margin-bottom: 5px;
   }
@@ -5792,7 +5786,7 @@ footer .footer--colum-content, footer .footer--column-links {
 /* line 39, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-form p {
   font-size: 18px;
-  color: #58595b;
+  color: #000000;
   text-align: left;
   margin: 0 0 10px;
 }
@@ -5996,7 +5990,7 @@ footer .footer--colum-content, footer .footer--column-links {
   .ways-to-give-options--wrapper {
     width: auto;
     margin-top: 17px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
   }
 
   /* line 228, ../scss/layout/component-layout/_global_component.scss */
@@ -6162,7 +6156,7 @@ footer .footer--colum-content, footer .footer--column-links {
   .ways-to-give-options--wrapper {
     width: auto;
     margin-top: 17px;
-    margin-bottom: 0px;
+    margin-bottom: 25px;
   }
 
   /* line 384, ../scss/layout/component-layout/_global_component.scss */
@@ -7214,7 +7208,7 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   /* line 505, ../scss/components/_navigation.scss */
   .nav-main--wrapper .nav-main .nav-main-links > li > a.header-give-btn {
     width: auto;
-    border-radius: 6px;
+    border-radius: 2px;
     color: #FFFFFF;
     font-weight: bold;
     margin-left: 10px;
