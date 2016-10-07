@@ -1438,12 +1438,12 @@ All styles that are imported here will be compiled into css/style.css
 }
 
 /* line 265, ../bower_components/font-awesome/scss/_icons.scss */
-.fa-angle-left:before, .block.block--funding-priorities .slick-arrow.slick-prev:before, .block.block--funding-priorities .slider-button.slider-prev:before {
+.fa-angle-left:before, .block.block--funding-priorities .slider-button.slider-prev:before {
   content: "";
 }
 
 /* line 266, ../bower_components/font-awesome/scss/_icons.scss */
-.fa-angle-right:before, .block.block--funding-priorities .slick-arrow.slick-next:before, .block.block--funding-priorities .slider-button.slider-next:before {
+.fa-angle-right:before, .block.block--funding-priorities .slider-button.slider-next:before {
   content: "";
 }
 
@@ -7727,7 +7727,7 @@ ul.pager__items > li.pager__item--first .pager_item_text, ul.pager__items .pager
   margin-left: 6px;
 }
 /* line 984, ../scss/components/_navigation.scss */
-ul.pager__items > li.pager__item--first .fa-angle-left ~ .fa-angle-left, ul.pager__items > li.pager__item--first .block.block--funding-priorities .slick-arrow.slick-prev ~ .fa-angle-left, .block.block--funding-priorities ul.pager__items > li.pager__item--first .slick-arrow.slick-prev ~ .fa-angle-left, ul.pager__items > li.pager__item--first .block.block--funding-priorities .slider-button.slider-prev ~ .fa-angle-left, .block.block--funding-priorities ul.pager__items > li.pager__item--first .slider-button.slider-prev ~ .fa-angle-left, ul.pager__items > li.pager__item--first .block.block--funding-priorities .fa-angle-left ~ .slick-arrow.slick-prev, .block.block--funding-priorities ul.pager__items > li.pager__item--first .fa-angle-left ~ .slick-arrow.slick-prev, ul.pager__items > li.pager__item--first .block.block--funding-priorities .slick-arrow.slick-prev ~ .slick-arrow.slick-prev, .block.block--funding-priorities ul.pager__items > li.pager__item--first .slick-arrow.slick-prev ~ .slick-arrow.slick-prev, ul.pager__items > li.pager__item--first .block.block--funding-priorities .slider-button.slider-prev ~ .slick-arrow.slick-prev, .block.block--funding-priorities ul.pager__items > li.pager__item--first .slider-button.slider-prev ~ .slick-arrow.slick-prev, ul.pager__items > li.pager__item--first .block.block--funding-priorities .fa-angle-left ~ .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items > li.pager__item--first .fa-angle-left ~ .slider-button.slider-prev, ul.pager__items > li.pager__item--first .block.block--funding-priorities .slick-arrow.slick-prev ~ .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items > li.pager__item--first .slick-arrow.slick-prev ~ .slider-button.slider-prev, ul.pager__items > li.pager__item--first .block.block--funding-priorities .slider-button.slider-prev ~ .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items > li.pager__item--first .slider-button.slider-prev ~ .slider-button.slider-prev, ul.pager__items .pager__item.pager__item--first .fa-angle-left ~ .fa-angle-left, ul.pager__items .pager__item.pager__item--first .block.block--funding-priorities .slick-arrow.slick-prev ~ .fa-angle-left, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--first .slick-arrow.slick-prev ~ .fa-angle-left, ul.pager__items .pager__item.pager__item--first .block.block--funding-priorities .slider-button.slider-prev ~ .fa-angle-left, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--first .slider-button.slider-prev ~ .fa-angle-left, ul.pager__items .pager__item.pager__item--first .block.block--funding-priorities .fa-angle-left ~ .slick-arrow.slick-prev, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--first .fa-angle-left ~ .slick-arrow.slick-prev, ul.pager__items .pager__item.pager__item--first .block.block--funding-priorities .slick-arrow.slick-prev ~ .slick-arrow.slick-prev, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--first .slick-arrow.slick-prev ~ .slick-arrow.slick-prev, ul.pager__items .pager__item.pager__item--first .block.block--funding-priorities .slider-button.slider-prev ~ .slick-arrow.slick-prev, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--first .slider-button.slider-prev ~ .slick-arrow.slick-prev, ul.pager__items .pager__item.pager__item--first .block.block--funding-priorities .fa-angle-left ~ .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--first .fa-angle-left ~ .slider-button.slider-prev, ul.pager__items .pager__item.pager__item--first .block.block--funding-priorities .slick-arrow.slick-prev ~ .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--first .slick-arrow.slick-prev ~ .slider-button.slider-prev, ul.pager__items .pager__item.pager__item--first .block.block--funding-priorities .slider-button.slider-prev ~ .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--first .slider-button.slider-prev ~ .slider-button.slider-prev {
+ul.pager__items > li.pager__item--first .fa-angle-left ~ .fa-angle-left, ul.pager__items > li.pager__item--first .block.block--funding-priorities .slider-button.slider-prev ~ .fa-angle-left, .block.block--funding-priorities ul.pager__items > li.pager__item--first .slider-button.slider-prev ~ .fa-angle-left, ul.pager__items > li.pager__item--first .block.block--funding-priorities .fa-angle-left ~ .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items > li.pager__item--first .fa-angle-left ~ .slider-button.slider-prev, ul.pager__items > li.pager__item--first .block.block--funding-priorities .slider-button.slider-prev ~ .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items > li.pager__item--first .slider-button.slider-prev ~ .slider-button.slider-prev, ul.pager__items .pager__item.pager__item--first .fa-angle-left ~ .fa-angle-left, ul.pager__items .pager__item.pager__item--first .block.block--funding-priorities .slider-button.slider-prev ~ .fa-angle-left, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--first .slider-button.slider-prev ~ .fa-angle-left, ul.pager__items .pager__item.pager__item--first .block.block--funding-priorities .fa-angle-left ~ .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--first .fa-angle-left ~ .slider-button.slider-prev, ul.pager__items .pager__item.pager__item--first .block.block--funding-priorities .slider-button.slider-prev ~ .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--first .slider-button.slider-prev ~ .slider-button.slider-prev {
   margin-left: -4px;
 }
 /* line 988, ../scss/components/_navigation.scss */
@@ -7736,7 +7736,7 @@ ul.pager__items > li.pager__item--previous, ul.pager__items .pager__item.pager__
   margin-right: 15px;
 }
 /* line 991, ../scss/components/_navigation.scss */
-ul.pager__items > li.pager__item--previous .fa-angle-left, ul.pager__items > li.pager__item--previous .block.block--funding-priorities .slick-arrow.slick-prev, .block.block--funding-priorities ul.pager__items > li.pager__item--previous .slick-arrow.slick-prev, ul.pager__items > li.pager__item--previous .block.block--funding-priorities .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items > li.pager__item--previous .slider-button.slider-prev, ul.pager__items .pager__item.pager__item--previous .fa-angle-left, ul.pager__items .pager__item.pager__item--previous .block.block--funding-priorities .slick-arrow.slick-prev, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--previous .slick-arrow.slick-prev, ul.pager__items .pager__item.pager__item--previous .block.block--funding-priorities .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--previous .slider-button.slider-prev {
+ul.pager__items > li.pager__item--previous .fa-angle-left, ul.pager__items > li.pager__item--previous .block.block--funding-priorities .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items > li.pager__item--previous .slider-button.slider-prev, ul.pager__items .pager__item.pager__item--previous .fa-angle-left, ul.pager__items .pager__item.pager__item--previous .block.block--funding-priorities .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--previous .slider-button.slider-prev {
   margin-right: 6px;
 }
 /* line 995, ../scss/components/_navigation.scss */
@@ -7745,7 +7745,7 @@ ul.pager__items > li.pager__item--next, ul.pager__items .pager__item.pager__item
   margin-right: 15px;
 }
 /* line 998, ../scss/components/_navigation.scss */
-ul.pager__items > li.pager__item--next .fa-angle-right, ul.pager__items > li.pager__item--next .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities ul.pager__items > li.pager__item--next .slick-arrow.slick-next, ul.pager__items > li.pager__item--next .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities ul.pager__items > li.pager__item--next .slider-button.slider-next, ul.pager__items .pager__item.pager__item--next .fa-angle-right, ul.pager__items .pager__item.pager__item--next .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--next .slick-arrow.slick-next, ul.pager__items .pager__item.pager__item--next .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--next .slider-button.slider-next {
+ul.pager__items > li.pager__item--next .fa-angle-right, ul.pager__items > li.pager__item--next .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities ul.pager__items > li.pager__item--next .slider-button.slider-next, ul.pager__items .pager__item.pager__item--next .fa-angle-right, ul.pager__items .pager__item.pager__item--next .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--next .slider-button.slider-next {
   margin-left: 6px;
 }
 /* line 1002, ../scss/components/_navigation.scss */
@@ -7757,7 +7757,7 @@ ul.pager__items > li.pager__item--last .pager_item_text, ul.pager__items .pager_
   margin-right: 6px;
 }
 /* line 1008, ../scss/components/_navigation.scss */
-ul.pager__items > li.pager__item--last .fa-angle-right:last-child, ul.pager__items > li.pager__item--last .block.block--funding-priorities .slick-arrow.slick-next:last-child, .block.block--funding-priorities ul.pager__items > li.pager__item--last .slick-arrow.slick-next:last-child, ul.pager__items > li.pager__item--last .block.block--funding-priorities .slider-button.slider-next:last-child, .block.block--funding-priorities ul.pager__items > li.pager__item--last .slider-button.slider-next:last-child, ul.pager__items .pager__item.pager__item--last .fa-angle-right:last-child, ul.pager__items .pager__item.pager__item--last .block.block--funding-priorities .slick-arrow.slick-next:last-child, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--last .slick-arrow.slick-next:last-child, ul.pager__items .pager__item.pager__item--last .block.block--funding-priorities .slider-button.slider-next:last-child, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--last .slider-button.slider-next:last-child {
+ul.pager__items > li.pager__item--last .fa-angle-right:last-child, ul.pager__items > li.pager__item--last .block.block--funding-priorities .slider-button.slider-next:last-child, .block.block--funding-priorities ul.pager__items > li.pager__item--last .slider-button.slider-next:last-child, ul.pager__items .pager__item.pager__item--last .fa-angle-right:last-child, ul.pager__items .pager__item.pager__item--last .block.block--funding-priorities .slider-button.slider-next:last-child, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--last .slider-button.slider-next:last-child {
   margin-left: -4px;
 }
 
@@ -7865,7 +7865,7 @@ ul.category-nav > li a {
   cursor: pointer;
 }
 /* line 22, ../scss/components/_blocks.scss */
-.block.block--funding-priorities .slick-arrow:before {
+.block.block--funding-priorities .slick-arrow.slick-arrow {
   font-size: 100px;
   line-height: 0;
   color: #052059;
@@ -7874,11 +7874,11 @@ ul.category-nav > li a {
 .block.block--funding-priorities .slick-arrow.slick-prev {
   left: -55px;
 }
-/* line 31, ../scss/components/_blocks.scss */
+/* line 30, ../scss/components/_blocks.scss */
 .block.block--funding-priorities .slick-arrow.slick-next {
   right: -55px;
 }
-/* line 36, ../scss/components/_blocks.scss */
+/* line 34, ../scss/components/_blocks.scss */
 .block.block--funding-priorities .slider-button {
   border: none;
   background-color: transparent;
@@ -7889,50 +7889,50 @@ ul.category-nav > li a {
   transform: translateY(-50%);
   z-index: 10;
 }
-/* line 46, ../scss/components/_blocks.scss */
+/* line 44, ../scss/components/_blocks.scss */
 .block.block--funding-priorities .slider-button:before {
   font-size: 100px;
   line-height: 0;
   color: #052059;
 }
-/* line 51, ../scss/components/_blocks.scss */
+/* line 49, ../scss/components/_blocks.scss */
 .block.block--funding-priorities .slider-button.slider-prev {
   left: -55px;
 }
-/* line 55, ../scss/components/_blocks.scss */
+/* line 53, ../scss/components/_blocks.scss */
 .block.block--funding-priorities .slider-button.slider-next {
   right: -55px;
 }
-/* line 61, ../scss/components/_blocks.scss */
+/* line 59, ../scss/components/_blocks.scss */
 .block.block--impact-stories {
   margin-top: 30px;
   margin-bottom: 50px;
 }
-/* line 64, ../scss/components/_blocks.scss */
+/* line 62, ../scss/components/_blocks.scss */
 .block.block--impact-stories h3 {
   margin-bottom: 20px;
 }
-/* line 68, ../scss/components/_blocks.scss */
+/* line 66, ../scss/components/_blocks.scss */
 .block.block--homepage-prefooter {
   background-color: #F1F1F1;
   position: relative;
 }
-/* line 71, ../scss/components/_blocks.scss */
+/* line 69, ../scss/components/_blocks.scss */
 .block.block--homepage-prefooter .btn {
   display: block;
   margin: 0 auto;
   max-width: 320px;
 }
-/* line 76, ../scss/components/_blocks.scss */
+/* line 74, ../scss/components/_blocks.scss */
 .block.block--homepage-prefooter .block--content {
   padding-top: 60px;
   padding-bottom: 10px;
 }
-/* line 80, ../scss/components/_blocks.scss */
+/* line 78, ../scss/components/_blocks.scss */
 .block.block--homepage-prefooter .block--content .block--start-fundraiser p, .block.block--homepage-prefooter .block--content .block--give-to p {
   margin-top: 0;
 }
-/* line 86, ../scss/components/_blocks.scss */
+/* line 84, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full {
   position: relative;
   background-color: #F1F1F1;
@@ -7941,125 +7941,125 @@ ul.category-nav > li a {
   padding-left: 15px;
   padding-right: 15px;
 }
-/* line 93, ../scss/components/_blocks.scss */
+/* line 91, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full .block--content-text {
   margin-bottom: 25px;
 }
-/* line 95, ../scss/components/_blocks.scss */
+/* line 93, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full .block--content-text p {
   font-size: 1.2rem;
   line-height: 1.33;
   margin-top: 0;
   margin-bottom: 25px;
 }
-/* line 102, ../scss/components/_blocks.scss */
+/* line 100, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full .block--content-stats .stats-items {
   margin-bottom: 20px;
 }
-/* line 104, ../scss/components/_blocks.scss */
+/* line 102, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full .block--content-stats .stats-items .stats-value {
   font-size: 4.33333rem;
   line-height: 1;
   font-family: granjon-bold, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
   margin-bottom: 5px;
 }
-/* line 109, ../scss/components/_blocks.scss */
+/* line 107, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full .block--content-stats .stats-items .stats-text {
   margin-top: 5px;
   margin-bottom: 0;
 }
-/* line 113, ../scss/components/_blocks.scss */
+/* line 111, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full .block--content-stats .stats-items:last-child {
   margin-bottom: 0;
 }
-/* line 119, ../scss/components/_blocks.scss */
+/* line 117, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full.background-color--teal a, .block.block--funding-priorities-full.background-color--teal span {
   color: #058488;
 }
-/* line 124, ../scss/components/_blocks.scss */
-.block.block--funding-priorities-full.background-color--teal a:hover .fa-angle-right, .block.block--funding-priorities-full.background-color--teal a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--teal a:hover .slick-arrow.slick-next, .block.block--funding-priorities-full.background-color--teal a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--teal a:hover .slider-button.slider-next {
+/* line 122, ../scss/components/_blocks.scss */
+.block.block--funding-priorities-full.background-color--teal a:hover .fa-angle-right, .block.block--funding-priorities-full.background-color--teal a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--teal a:hover .slider-button.slider-next {
   color: #FFFFFF;
 }
-/* line 131, ../scss/components/_blocks.scss */
+/* line 129, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full.background-color--green a, .block.block--funding-priorities-full.background-color--green span {
   color: #6EA400;
 }
-/* line 136, ../scss/components/_blocks.scss */
-.block.block--funding-priorities-full.background-color--green a:hover .fa-angle-right, .block.block--funding-priorities-full.background-color--green a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--green a:hover .slick-arrow.slick-next, .block.block--funding-priorities-full.background-color--green a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--green a:hover .slider-button.slider-next {
+/* line 134, ../scss/components/_blocks.scss */
+.block.block--funding-priorities-full.background-color--green a:hover .fa-angle-right, .block.block--funding-priorities-full.background-color--green a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--green a:hover .slider-button.slider-next {
   color: #FFFFFF;
 }
-/* line 143, ../scss/components/_blocks.scss */
+/* line 141, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full.background-color--blue a, .block.block--funding-priorities-full.background-color--blue span {
   color: #007CBE;
 }
-/* line 148, ../scss/components/_blocks.scss */
-.block.block--funding-priorities-full.background-color--blue a:hover .fa-angle-right, .block.block--funding-priorities-full.background-color--blue a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--blue a:hover .slick-arrow.slick-next, .block.block--funding-priorities-full.background-color--blue a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--blue a:hover .slider-button.slider-next {
+/* line 146, ../scss/components/_blocks.scss */
+.block.block--funding-priorities-full.background-color--blue a:hover .fa-angle-right, .block.block--funding-priorities-full.background-color--blue a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--blue a:hover .slider-button.slider-next {
   color: #FFFFFF;
 }
-/* line 154, ../scss/components/_blocks.scss */
+/* line 152, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full a {
   position: absolute;
   bottom: 32px;
 }
-/* line 159, ../scss/components/_blocks.scss */
+/* line 157, ../scss/components/_blocks.scss */
 .block.block--impact-story-with-image {
   position: relative;
 }
-/* line 161, ../scss/components/_blocks.scss */
+/* line 159, ../scss/components/_blocks.scss */
 .block.block--impact-story-with-image .block--content {
   width: 100%;
   padding: 30px 15px;
 }
-/* line 164, ../scss/components/_blocks.scss */
+/* line 162, ../scss/components/_blocks.scss */
 .block.block--impact-story-with-image .block--content h2 {
   margin: 0;
   color: #FFFFFF;
   font-size: 2.53333rem;
   line-height: 1.05;
 }
-/* line 170, ../scss/components/_blocks.scss */
+/* line 168, ../scss/components/_blocks.scss */
 .block.block--impact-story-with-image.background-color--teal {
   background-color: #058488;
 }
-/* line 172, ../scss/components/_blocks.scss */
+/* line 170, ../scss/components/_blocks.scss */
 .block.block--impact-story-with-image.background-color--teal .block--content {
   background-color: #058488;
 }
-/* line 174, ../scss/components/_blocks.scss */
+/* line 172, ../scss/components/_blocks.scss */
 .block.block--impact-story-with-image.background-color--green {
   background-color: #6EA400;
 }
-/* line 176, ../scss/components/_blocks.scss */
+/* line 174, ../scss/components/_blocks.scss */
 .block.block--impact-story-with-image.background-color--green .block--content {
   background-color: #6EA400;
 }
-/* line 178, ../scss/components/_blocks.scss */
+/* line 176, ../scss/components/_blocks.scss */
 .block.block--impact-story-with-image.background-color--blue {
   background-color: #007CBE;
 }
-/* line 180, ../scss/components/_blocks.scss */
+/* line 178, ../scss/components/_blocks.scss */
 .block.block--impact-story-with-image.background-color--blue .block--content {
   background-color: #007CBE;
 }
-/* line 184, ../scss/components/_blocks.scss */
+/* line 182, ../scss/components/_blocks.scss */
 .block.block--impact-stories-grid .see-more-link {
   margin-top: 15px;
 }
-/* line 188, ../scss/components/_blocks.scss */
+/* line 186, ../scss/components/_blocks.scss */
 .block.block--impact-stories-grid.related-articles h4 {
   margin-bottom: 10px;
 }
-/* line 193, ../scss/components/_blocks.scss */
+/* line 191, ../scss/components/_blocks.scss */
 .block.block--impact-stories-pillar {
   margin-bottom: 20px;
 }
-/* line 196, ../scss/components/_blocks.scss */
+/* line 194, ../scss/components/_blocks.scss */
 .block.block--give-block-full-width {
   padding-top: 60px;
   padding-bottom: 40px;
   background-color: #F1F1F1;
 }
-/* line 200, ../scss/components/_blocks.scss */
+/* line 198, ../scss/components/_blocks.scss */
 .block.block--give-block-full-width p {
   font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 1.46667rem;
@@ -8068,55 +8068,55 @@ ul.category-nav > li a {
   margin-top: 0;
   margin-bottom: 10px;
 }
-/* line 206, ../scss/components/_blocks.scss */
+/* line 204, ../scss/components/_blocks.scss */
 .block.block--give-block-full-width p b, .block.block--give-block-full-width p strong {
   font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
-/* line 209, ../scss/components/_blocks.scss */
+/* line 207, ../scss/components/_blocks.scss */
 .block.block--give-block-full-width p:last-child {
   margin-bottom: 30px;
 }
-/* line 213, ../scss/components/_blocks.scss */
+/* line 211, ../scss/components/_blocks.scss */
 .block.block--give-block-full-width h4 {
   font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   color: #052059;
   margin-top: 0;
   margin-bottom: 10px;
 }
-/* line 218, ../scss/components/_blocks.scss */
+/* line 216, ../scss/components/_blocks.scss */
 .block.block--give-block-full-width h4 b, .block.block--give-block-full-width h4 strong {
   font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
-/* line 221, ../scss/components/_blocks.scss */
+/* line 219, ../scss/components/_blocks.scss */
 .block.block--give-block-full-width h4:last-child {
   margin-bottom: 30px;
 }
-/* line 225, ../scss/components/_blocks.scss */
+/* line 223, ../scss/components/_blocks.scss */
 .block.block--give-block-full-width a {
   display: block;
   width: 100%;
   max-width: 320px;
   margin: 0 auto;
 }
-/* line 230, ../scss/components/_blocks.scss */
+/* line 228, ../scss/components/_blocks.scss */
 .block.block--give-block-full-width a:hover {
   text-decoration: none;
 }
-/* line 235, ../scss/components/_blocks.scss */
+/* line 233, ../scss/components/_blocks.scss */
 .block.block--learn-more {
   margin-top: 20px;
 }
-/* line 237, ../scss/components/_blocks.scss */
+/* line 235, ../scss/components/_blocks.scss */
 .block.block--learn-more h4 {
   margin-bottom: 10px;
 }
 
-/* line 244, ../scss/components/_blocks.scss */
+/* line 242, ../scss/components/_blocks.scss */
 .block--item.block--funding-priorities-items {
   margin: 0 auto;
   margin-bottom: 20px;
 }
-/* line 247, ../scss/components/_blocks.scss */
+/* line 245, ../scss/components/_blocks.scss */
 .block--item.block--funding-priorities-items .block--item-image {
   height: 200px;
   width: 100%;
@@ -8125,7 +8125,7 @@ ul.category-nav > li a {
   background-repeat: no-repeat;
   background-position: center center;
 }
-/* line 255, ../scss/components/_blocks.scss */
+/* line 253, ../scss/components/_blocks.scss */
 .block--item.block--funding-priorities-items .block--item-contents {
   background-color: #007CBE;
   height: 170px;
@@ -8133,125 +8133,125 @@ ul.category-nav > li a {
   padding: 20px 20px 25px 20px;
   position: relative;
 }
-/* line 261, ../scss/components/_blocks.scss */
+/* line 259, ../scss/components/_blocks.scss */
 .block--item.block--funding-priorities-items .block--item-contents .text {
   font-size: 1.2rem;
   line-height: 1.33;
   margin: 0;
 }
-/* line 265, ../scss/components/_blocks.scss */
+/* line 263, ../scss/components/_blocks.scss */
 .block--item.block--funding-priorities-items .block--item-contents a, .block--item.block--funding-priorities-items .block--item-contents span, .block--item.block--funding-priorities-items .block--item-contents p {
   color: #FFFFFF;
 }
-/* line 268, ../scss/components/_blocks.scss */
+/* line 266, ../scss/components/_blocks.scss */
 .block--item.block--funding-priorities-items .block--item-contents a {
   position: absolute;
   bottom: 25px;
 }
-/* line 272, ../scss/components/_blocks.scss */
-.block--item.block--funding-priorities-items .block--item-contents a:hover .fa-angle-right, .block--item.block--funding-priorities-items .block--item-contents a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block--item.block--funding-priorities-items .block--item-contents a:hover .slick-arrow.slick-next, .block--item.block--funding-priorities-items .block--item-contents a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--funding-priorities-items .block--item-contents a:hover .slider-button.slider-next {
+/* line 270, ../scss/components/_blocks.scss */
+.block--item.block--funding-priorities-items .block--item-contents a:hover .fa-angle-right, .block--item.block--funding-priorities-items .block--item-contents a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--funding-priorities-items .block--item-contents a:hover .slider-button.slider-next {
   color: #007CBE;
 }
-/* line 279, ../scss/components/_blocks.scss */
+/* line 277, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel {
   margin-bottom: 20px;
   position: relative;
 }
-/* line 282, ../scss/components/_blocks.scss */
+/* line 280, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel, .block--item.block--impact-stories-panel .block--item-image-panel {
   width: 50%;
   height: 100%;
   float: left;
   color: #FFFFFF;
 }
-/* line 288, ../scss/components/_blocks.scss */
+/* line 286, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel {
   padding: 30px;
   position: relative;
 }
-/* line 291, ../scss/components/_blocks.scss */
+/* line 289, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel a, .block--item.block--impact-stories-panel .block--item-colored-panel span, .block--item.block--impact-stories-panel .block--item-colored-panel h4, .block--item.block--impact-stories-panel .block--item-colored-panel p {
   color: #FFFFFF;
 }
-/* line 294, ../scss/components/_blocks.scss */
+/* line 292, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel a {
   position: absolute;
   bottom: 45px;
 }
-/* line 298, ../scss/components/_blocks.scss */
+/* line 296, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel h4, .block--item.block--impact-stories-panel .block--item-colored-panel p {
   margin-top: 0;
 }
-/* line 302, ../scss/components/_blocks.scss */
+/* line 300, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel h4 {
   margin-bottom: 10px;
 }
-/* line 305, ../scss/components/_blocks.scss */
+/* line 303, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel p {
   font-size: 1.2rem;
   line-height: 1.33;
 }
-/* line 308, ../scss/components/_blocks.scss */
+/* line 306, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel.background--green {
   background-color: #6EA400;
 }
-/* line 312, ../scss/components/_blocks.scss */
-.block--item.block--impact-stories-panel .block--item-colored-panel.background--green a:hover .fa-angle-right, .block--item.block--impact-stories-panel .block--item-colored-panel.background--green a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--green a:hover .slick-arrow.slick-next, .block--item.block--impact-stories-panel .block--item-colored-panel.background--green a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--green a:hover .slider-button.slider-next {
+/* line 310, ../scss/components/_blocks.scss */
+.block--item.block--impact-stories-panel .block--item-colored-panel.background--green a:hover .fa-angle-right, .block--item.block--impact-stories-panel .block--item-colored-panel.background--green a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--green a:hover .slider-button.slider-next {
   color: #6EA400;
 }
-/* line 318, ../scss/components/_blocks.scss */
+/* line 316, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel.background--orange {
   background-color: #F26D04;
 }
-/* line 322, ../scss/components/_blocks.scss */
-.block--item.block--impact-stories-panel .block--item-colored-panel.background--orange a:hover .fa-angle-right, .block--item.block--impact-stories-panel .block--item-colored-panel.background--orange a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--orange a:hover .slick-arrow.slick-next, .block--item.block--impact-stories-panel .block--item-colored-panel.background--orange a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--orange a:hover .slider-button.slider-next {
+/* line 320, ../scss/components/_blocks.scss */
+.block--item.block--impact-stories-panel .block--item-colored-panel.background--orange a:hover .fa-angle-right, .block--item.block--impact-stories-panel .block--item-colored-panel.background--orange a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--orange a:hover .slider-button.slider-next {
   color: #F26D04;
 }
-/* line 328, ../scss/components/_blocks.scss */
+/* line 326, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel.background--blue {
   background-color: #007CBE;
 }
-/* line 332, ../scss/components/_blocks.scss */
-.block--item.block--impact-stories-panel .block--item-colored-panel.background--blue a:hover .fa-angle-right, .block--item.block--impact-stories-panel .block--item-colored-panel.background--blue a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--blue a:hover .slick-arrow.slick-next, .block--item.block--impact-stories-panel .block--item-colored-panel.background--blue a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--blue a:hover .slider-button.slider-next {
+/* line 330, ../scss/components/_blocks.scss */
+.block--item.block--impact-stories-panel .block--item-colored-panel.background--blue a:hover .fa-angle-right, .block--item.block--impact-stories-panel .block--item-colored-panel.background--blue a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--blue a:hover .slider-button.slider-next {
   color: #007CBE;
 }
-/* line 338, ../scss/components/_blocks.scss */
+/* line 336, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel.background--teal {
   background-color: #058488;
 }
-/* line 342, ../scss/components/_blocks.scss */
-.block--item.block--impact-stories-panel .block--item-colored-panel.background--teal a:hover .fa-angle-right, .block--item.block--impact-stories-panel .block--item-colored-panel.background--teal a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--teal a:hover .slick-arrow.slick-next, .block--item.block--impact-stories-panel .block--item-colored-panel.background--teal a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--teal a:hover .slider-button.slider-next {
+/* line 340, ../scss/components/_blocks.scss */
+.block--item.block--impact-stories-panel .block--item-colored-panel.background--teal a:hover .fa-angle-right, .block--item.block--impact-stories-panel .block--item-colored-panel.background--teal a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--teal a:hover .slider-button.slider-next {
   color: #058488;
 }
-/* line 350, ../scss/components/_blocks.scss */
+/* line 348, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-image-panel .image-display {
   height: 100%;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
-/* line 358, ../scss/components/_blocks.scss */
+/* line 356, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small {
   position: relative;
   margin-bottom: 20px;
 }
-/* line 362, ../scss/components/_blocks.scss */
+/* line 360, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small a {
   color: #FFFFFF;
   text-decoration: none;
 }
-/* line 365, ../scss/components/_blocks.scss */
+/* line 363, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small a:hover {
   text-decoration: none;
 }
-/* line 369, ../scss/components/_blocks.scss */
+/* line 367, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small .block--item-content {
   background-color: #F1F1F1;
   height: 140px;
   width: 100%;
   padding: 20px;
 }
-/* line 374, ../scss/components/_blocks.scss */
+/* line 372, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small .block--item-content .category {
   font-size: 0.66667rem;
   line-height: 2.2;
@@ -8264,27 +8264,27 @@ ul.category-nav > li a {
   left: 0;
   background-color: #000000;
 }
-/* line 387, ../scss/components/_blocks.scss */
+/* line 385, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small .block--item-content .category.background--light-blue {
   background-color: #007CBE;
 }
-/* line 390, ../scss/components/_blocks.scss */
+/* line 388, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small .block--item-content .category.background--green {
   background-color: #6EA400;
 }
-/* line 393, ../scss/components/_blocks.scss */
+/* line 391, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small .block--item-content .category.background--teal {
   background-color: #058488;
 }
-/* line 398, ../scss/components/_blocks.scss */
+/* line 396, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small .block--item-content p {
   margin: 0;
 }
-/* line 402, ../scss/components/_blocks.scss */
+/* line 400, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small .block--item-content .category, .block--item.block-item--impact-story-small .block--item-content .date {
   font-family: HelveticaNeue-bold, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
-/* line 406, ../scss/components/_blocks.scss */
+/* line 404, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small .block--item-content .date {
   font-size: 0.8rem;
   line-height: 1.5;
@@ -8292,14 +8292,14 @@ ul.category-nav > li a {
   margin-top: 12px;
   margin-bottom: 5px;
 }
-/* line 413, ../scss/components/_blocks.scss */
+/* line 411, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small .block--item-content .content_text {
   font-size: 1.06667rem;
   line-height: 1.25;
   color: #58595b;
 }
 
-/* line 421, ../scss/components/_blocks.scss */
+/* line 419, ../scss/components/_blocks.scss */
 .impact-stories-wrapper {
   padding-bottom: 20px;
   border-bottom: 1px solid #d1d3d3;
@@ -8307,42 +8307,42 @@ ul.category-nav > li a {
 }
 
 @media all and (max-width: 767px) {
-  /* line 430, ../scss/components/_blocks.scss */
+  /* line 428, ../scss/components/_blocks.scss */
   .block h3 {
     font-size: 2rem;
     line-height: 1.13;
   }
-  /* line 433, ../scss/components/_blocks.scss */
+  /* line 431, ../scss/components/_blocks.scss */
   .block h4 {
     font-size: 1.46667rem;
     line-height: 1.14;
   }
-  /* line 436, ../scss/components/_blocks.scss */
+  /* line 434, ../scss/components/_blocks.scss */
   .block.block--impact-stories {
     margin-bottom: 20px;
   }
-  /* line 440, ../scss/components/_blocks.scss */
+  /* line 438, ../scss/components/_blocks.scss */
   .block.block--homepage-prefooter h4 {
     margin-bottom: 10px;
   }
-  /* line 443, ../scss/components/_blocks.scss */
+  /* line 441, ../scss/components/_blocks.scss */
   .block.block--homepage-prefooter p {
     margin-bottom: 20px;
   }
-  /* line 446, ../scss/components/_blocks.scss */
+  /* line 444, ../scss/components/_blocks.scss */
   .block.block--homepage-prefooter .block--start-fundraiser, .block.block--homepage-prefooter .block--give-to {
     margin-bottom: 50px;
   }
 
-  /* line 452, ../scss/components/_blocks.scss */
+  /* line 450, ../scss/components/_blocks.scss */
   .block--item.block--impact-stories-panel {
     padding: 170px 15px 0;
   }
-  /* line 455, ../scss/components/_blocks.scss */
+  /* line 453, ../scss/components/_blocks.scss */
   .block--item.block--impact-stories-panel .block--item-image-panel, .block--item.block--impact-stories-panel .block--item-colored-panel {
     float: none;
   }
-  /* line 458, ../scss/components/_blocks.scss */
+  /* line 456, ../scss/components/_blocks.scss */
   .block--item.block--impact-stories-panel .block--item-image-panel {
     width: 100%;
     height: 208px;
@@ -8351,173 +8351,173 @@ ul.category-nav > li a {
     left: 0;
     z-index: -1;
   }
-  /* line 466, ../scss/components/_blocks.scss */
+  /* line 464, ../scss/components/_blocks.scss */
   .block--item.block--impact-stories-panel .block--item-colored-panel {
     height: 410px;
     width: 100%;
     padding: 25px;
   }
-  /* line 470, ../scss/components/_blocks.scss */
+  /* line 468, ../scss/components/_blocks.scss */
   .block--item.block--impact-stories-panel .block--item-colored-panel h4 {
     font-size: 1.46667rem;
     line-height: 1.14;
   }
 }
 @media all and (max-width: 1023px) {
-  /* line 480, ../scss/components/_blocks.scss */
+  /* line 478, ../scss/components/_blocks.scss */
   .block--item.block--funding-priorities-items {
     max-width: 100%;
   }
-  /* line 482, ../scss/components/_blocks.scss */
+  /* line 480, ../scss/components/_blocks.scss */
   .block--item.block--funding-priorities-items .block--item-image {
     display: none;
   }
 }
 @media all and (min-width: 768px) {
-  /* line 491, ../scss/components/_blocks.scss */
+  /* line 489, ../scss/components/_blocks.scss */
   .block.block--homepage-prefooter {
     height: 330px;
   }
-  /* line 493, ../scss/components/_blocks.scss */
+  /* line 491, ../scss/components/_blocks.scss */
   .block.block--homepage-prefooter .btn {
     display: inline-block;
     width: 270px;
     position: absolute;
     bottom: 0;
   }
-  /* line 499, ../scss/components/_blocks.scss */
+  /* line 497, ../scss/components/_blocks.scss */
   .block.block--homepage-prefooter .block--content {
     padding-bottom: 60px;
   }
-  /* line 501, ../scss/components/_blocks.scss */
+  /* line 499, ../scss/components/_blocks.scss */
   .block.block--homepage-prefooter .block--content .block--give-to, .block.block--homepage-prefooter .block--content .block--start-fundraiser {
     height: 210px;
   }
-  /* line 503, ../scss/components/_blocks.scss */
+  /* line 501, ../scss/components/_blocks.scss */
   .block.block--homepage-prefooter .block--content .block--give-to p, .block.block--homepage-prefooter .block--content .block--start-fundraiser p {
     position: absolute;
     margin: 0;
     bottom: 80px;
   }
-  /* line 513, ../scss/components/_blocks.scss */
+  /* line 511, ../scss/components/_blocks.scss */
   .block.block--funding-priorities-full .block--content-stats .stats-text {
     color: #052059;
     font-size: 0.8rem;
     line-height: 1.5;
   }
-  /* line 518, ../scss/components/_blocks.scss */
+  /* line 516, ../scss/components/_blocks.scss */
   .block.block--funding-priorities-full a {
     position: absolute;
     bottom: 42px;
   }
-  /* line 523, ../scss/components/_blocks.scss */
+  /* line 521, ../scss/components/_blocks.scss */
   .block.block--impact-story-with-image {
     height: 265px;
     background-size: cover;
     background-position: center center;
   }
-  /* line 527, ../scss/components/_blocks.scss */
+  /* line 525, ../scss/components/_blocks.scss */
   .block.block--impact-story-with-image .block--content {
     height: auto;
     position: absolute;
     bottom: 0;
   }
-  /* line 533, ../scss/components/_blocks.scss */
+  /* line 531, ../scss/components/_blocks.scss */
   .block.block--give-block-full-width {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  /* line 536, ../scss/components/_blocks.scss */
+  /* line 534, ../scss/components/_blocks.scss */
   .block.block--give-block-full-width p {
     margin-bottom: 10px;
     font-size: 1.73333rem;
     line-height: 1.15;
   }
-  /* line 539, ../scss/components/_blocks.scss */
+  /* line 537, ../scss/components/_blocks.scss */
   .block.block--give-block-full-width p:last-child {
     margin-bottom: 10px;
   }
-  /* line 543, ../scss/components/_blocks.scss */
+  /* line 541, ../scss/components/_blocks.scss */
   .block.block--give-block-full-width h4 {
     margin-bottom: 10px;
   }
-  /* line 545, ../scss/components/_blocks.scss */
+  /* line 543, ../scss/components/_blocks.scss */
   .block.block--give-block-full-width h4:last-child {
     margin-bottom: 10px;
   }
-  /* line 548, ../scss/components/_blocks.scss */
+  /* line 546, ../scss/components/_blocks.scss */
   .block.block--give-block-full-width h4 b, .block.block--give-block-full-width h4 strong {
     font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   }
-  /* line 552, ../scss/components/_blocks.scss */
+  /* line 550, ../scss/components/_blocks.scss */
   .block.block--give-block-full-width a {
     float: right;
     width: 270px;
   }
-  /* line 559, ../scss/components/_blocks.scss */
+  /* line 557, ../scss/components/_blocks.scss */
   .block.block--impact-stories-grid.related-articles h4 {
     padding-top: 30px;
     border-top: 1px solid #d1d3d3;
     margin-bottom: 15px;
   }
-  /* line 566, ../scss/components/_blocks.scss */
+  /* line 564, ../scss/components/_blocks.scss */
   .block.block--learn-more {
     margin-top: 0px;
   }
-  /* line 568, ../scss/components/_blocks.scss */
+  /* line 566, ../scss/components/_blocks.scss */
   .block.block--learn-more h4 {
     padding-top: 20px;
     border-top: 1px solid #d1d3d3;
   }
 
-  /* line 575, ../scss/components/_blocks.scss */
+  /* line 573, ../scss/components/_blocks.scss */
   .block--item.block--impact-stories-panel {
     height: 330px;
   }
-  /* line 577, ../scss/components/_blocks.scss */
+  /* line 575, ../scss/components/_blocks.scss */
   .block--item.block--impact-stories-panel .block--give-to, .block--item.block--impact-stories-panel .block--start-fundraiser {
     height: 210px;
   }
 }
 @media all and (min-width: 1024px) {
-  /* line 588, ../scss/components/_blocks.scss */
+  /* line 586, ../scss/components/_blocks.scss */
   .block.block--funding-priorities .slick-arrow.slick-prev {
     left: -50px;
   }
-  /* line 591, ../scss/components/_blocks.scss */
+  /* line 589, ../scss/components/_blocks.scss */
   .block.block--funding-priorities .slick-arrow.slick-next {
     right: -50px;
   }
-  /* line 596, ../scss/components/_blocks.scss */
+  /* line 594, ../scss/components/_blocks.scss */
   .block.block--impact-story-with-image {
     height: 450px;
   }
-  /* line 599, ../scss/components/_blocks.scss */
+  /* line 597, ../scss/components/_blocks.scss */
   .block.block--learn-more {
     margin-bottom: 15px;
   }
-  /* line 603, ../scss/components/_blocks.scss */
+  /* line 601, ../scss/components/_blocks.scss */
   .block.block--impact-stories-grid.related-articles {
     margin-bottom: 40px;
   }
-  /* line 605, ../scss/components/_blocks.scss */
+  /* line 603, ../scss/components/_blocks.scss */
   .block.block--impact-stories-grid.related-articles h4 {
     padding-top: 0px;
     border-top: 0px solid transparent;
     margin-bottom: 15px;
   }
-  /* line 612, ../scss/components/_blocks.scss */
+  /* line 610, ../scss/components/_blocks.scss */
   .block.block--learn-more {
     margin-top: 0px;
   }
-  /* line 614, ../scss/components/_blocks.scss */
+  /* line 612, ../scss/components/_blocks.scss */
   .block.block--learn-more h4 {
     padding-top: 0px;
     border-top: 0px solid transparent;
     margin-bottom: 15px;
   }
 
-  /* line 621, ../scss/components/_blocks.scss */
+  /* line 619, ../scss/components/_blocks.scss */
   .block--item {
     /*&.block-item--impact-story-small{
         .block--item-content{
@@ -8525,90 +8525,90 @@ ul.category-nav > li a {
         }
     }*/
   }
-  /* line 622, ../scss/components/_blocks.scss */
+  /* line 620, ../scss/components/_blocks.scss */
   .block--item.block--funding-priorities-items {
     float: left;
   }
-  /* line 624, ../scss/components/_blocks.scss */
+  /* line 622, ../scss/components/_blocks.scss */
   .block--item.block--funding-priorities-items .block--content {
     width: 270px;
   }
 }
 @media all and (min-width: 1200px) and (max-width: 1315px) {
-  /* line 639, ../scss/components/_blocks.scss */
+  /* line 637, ../scss/components/_blocks.scss */
   .block.block--funding-priorities .slick-arrow.slick-prev {
     left: -35px;
   }
-  /* line 642, ../scss/components/_blocks.scss */
+  /* line 640, ../scss/components/_blocks.scss */
   .block.block--funding-priorities .slick-arrow.slick-next {
     right: -50px;
   }
 }
-/* line 649, ../scss/components/_blocks.scss */
+/* line 647, ../scss/components/_blocks.scss */
 .block-honor-page-body {
   margin-bottom: 40px;
 }
-/* line 651, ../scss/components/_blocks.scss */
+/* line 649, ../scss/components/_blocks.scss */
 .block-honor-page-body h3 {
   margin-top: 30px;
   margin-bottom: 10px;
 }
-/* line 655, ../scss/components/_blocks.scss */
+/* line 653, ../scss/components/_blocks.scss */
 .block-honor-page-body .body-give-link {
   margin-top: 20px;
   margin-bottom: 30px;
 }
-/* line 658, ../scss/components/_blocks.scss */
+/* line 656, ../scss/components/_blocks.scss */
 .block-honor-page-body .body-give-link a {
   width: 100%;
 }
-/* line 660, ../scss/components/_blocks.scss */
+/* line 658, ../scss/components/_blocks.scss */
 .block-honor-page-body .body-give-link a.btn--primary-small {
   display: none;
 }
-/* line 663, ../scss/components/_blocks.scss */
+/* line 661, ../scss/components/_blocks.scss */
 .block-honor-page-body .body-give-link a.btn--primary {
   display: inline-block;
 }
-/* line 669, ../scss/components/_blocks.scss */
+/* line 667, ../scss/components/_blocks.scss */
 .block-honor-page-body .note strong {
   font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
-/* line 673, ../scss/components/_blocks.scss */
+/* line 671, ../scss/components/_blocks.scss */
 .block-honor-page-body .non-list-item {
   padding-left: 0px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 680, ../scss/components/_blocks.scss */
+  /* line 678, ../scss/components/_blocks.scss */
   .block-honor-page-body h3 {
     margin-top: 30px;
     margin-bottom: 19px;
   }
-  /* line 684, ../scss/components/_blocks.scss */
+  /* line 682, ../scss/components/_blocks.scss */
   .block-honor-page-body .body-give-link {
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  /* line 687, ../scss/components/_blocks.scss */
+  /* line 685, ../scss/components/_blocks.scss */
   .block-honor-page-body .body-give-link a {
     width: auto;
   }
-  /* line 689, ../scss/components/_blocks.scss */
+  /* line 687, ../scss/components/_blocks.scss */
   .block-honor-page-body .body-give-link a.btn--primary-small {
     display: inline-block;
   }
-  /* line 692, ../scss/components/_blocks.scss */
+  /* line 690, ../scss/components/_blocks.scss */
   .block-honor-page-body .body-give-link a.btn--primary {
     display: none;
   }
-  /* line 697, ../scss/components/_blocks.scss */
+  /* line 695, ../scss/components/_blocks.scss */
   .block-honor-page-body .non-list-item {
     margin-bottom: 20px;
     padding-left: 31px;
   }
 }
-/* line 704, ../scss/components/_blocks.scss */
+/* line 702, ../scss/components/_blocks.scss */
 .block-contact-us {
   display: block;
   background-color: #ebf3fa;
@@ -8617,40 +8617,40 @@ ul.category-nav > li a {
   max-width: 265px;
   margin: 0 0 30px 0;
 }
-/* line 711, ../scss/components/_blocks.scss */
+/* line 709, ../scss/components/_blocks.scss */
 .block-contact-us h4 {
   margin-bottom: 18px;
   color: #052059;
 }
-/* line 715, ../scss/components/_blocks.scss */
+/* line 713, ../scss/components/_blocks.scss */
 .block-contact-us h5 {
   margin-top: 0px;
   margin-bottom: 15px;
 }
-/* line 719, ../scss/components/_blocks.scss */
+/* line 717, ../scss/components/_blocks.scss */
 .block-contact-us a {
   color: #000000;
 }
-/* line 721, ../scss/components/_blocks.scss */
+/* line 719, ../scss/components/_blocks.scss */
 .block-contact-us a:hover {
   color: #000000;
 }
-/* line 726, ../scss/components/_blocks.scss */
+/* line 724, ../scss/components/_blocks.scss */
 .block-contact-us .contact-detail-item {
   display: inline-block;
   width: 100%;
   margin-bottom: 15px;
 }
-/* line 730, ../scss/components/_blocks.scss */
+/* line 728, ../scss/components/_blocks.scss */
 .block-contact-us .contact-detail-item:last-child {
   margin-bottom: 0px;
 }
-/* line 733, ../scss/components/_blocks.scss */
+/* line 731, ../scss/components/_blocks.scss */
 .block-contact-us .contact-detail-item span {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 736, ../scss/components/_blocks.scss */
+/* line 734, ../scss/components/_blocks.scss */
 .block-contact-us .contact-detail-item span.fa, .block-contact-us .contact-detail-item .block.block--funding-priorities span.slick-arrow, .block.block--funding-priorities .block-contact-us .contact-detail-item span.slick-arrow, .block-contact-us .contact-detail-item .block.block--funding-priorities span.slider-button, .block.block--funding-priorities .block-contact-us .contact-detail-item span.slider-button {
   font-size: 1.3rem;
   margin-right: 15px;
@@ -8658,24 +8658,24 @@ ul.category-nav > li a {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 746, ../scss/components/_blocks.scss */
+  /* line 744, ../scss/components/_blocks.scss */
   .block-contact-us {
     margin: 0 0 50px 0;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 751, ../scss/components/_blocks.scss */
+  /* line 749, ../scss/components/_blocks.scss */
   .block-contact-us {
     margin: 0 0 30px 0;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 756, ../scss/components/_blocks.scss */
+  /* line 754, ../scss/components/_blocks.scss */
   .block-contact-us {
     margin: 0 0 30px 0;
   }
 }
-/* line 762, ../scss/components/_blocks.scss */
+/* line 760, ../scss/components/_blocks.scss */
 .block-story-nugget {
   position: relative;
   background-color: #F1F1F1;
@@ -8683,16 +8683,16 @@ ul.category-nav > li a {
   margin-right: -15px;
   margin-bottom: 30px;
 }
-/* line 768, ../scss/components/_blocks.scss */
+/* line 766, ../scss/components/_blocks.scss */
 .block-story-nugget:before, .block-story-nugget:after {
   display: table;
   content: " ";
 }
-/* line 772, ../scss/components/_blocks.scss */
+/* line 770, ../scss/components/_blocks.scss */
 .block-story-nugget:after {
   clear: both;
 }
-/* line 775, ../scss/components/_blocks.scss */
+/* line 773, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-display-image {
   position: relative;
   width: 100%;
@@ -8702,110 +8702,110 @@ ul.category-nav > li a {
   background-size: cover;
   background-position: center center;
 }
-/* line 784, ../scss/components/_blocks.scss */
+/* line 782, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-data {
   position: relative;
   display: block;
 }
-/* line 787, ../scss/components/_blocks.scss */
+/* line 785, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-data .story-nugget-content--wrapper {
   position: relative;
   display: block;
   top: -45px;
 }
-/* line 793, ../scss/components/_blocks.scss */
+/* line 791, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-title {
   position: relative;
   display: block;
   margin-bottom: 30px;
 }
-/* line 797, ../scss/components/_blocks.scss */
+/* line 795, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-title h4 {
   margin: 0px;
   color: #FFFFFF;
   padding: 20px;
 }
-/* line 801, ../scss/components/_blocks.scss */
+/* line 799, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-title h4.background--green {
   background-color: #6EA400;
 }
-/* line 804, ../scss/components/_blocks.scss */
+/* line 802, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-title h4.background--orange {
   background-color: #F26D04;
 }
-/* line 807, ../scss/components/_blocks.scss */
+/* line 805, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-title h4.background--blue {
   background-color: #007CBE;
 }
-/* line 810, ../scss/components/_blocks.scss */
+/* line 808, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-title h4.background--teal {
   background-color: #058488;
 }
-/* line 815, ../scss/components/_blocks.scss */
+/* line 813, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-content {
   position: relative;
   width: 100%;
 }
-/* line 819, ../scss/components/_blocks.scss */
+/* line 817, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-content p:first-child {
   margin-top: 0px;
 }
-/* line 823, ../scss/components/_blocks.scss */
+/* line 821, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-content .foot-caption {
   font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   color: #58595b;
 }
-/* line 826, ../scss/components/_blocks.scss */
+/* line 824, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-content .foot-caption p {
   font-size: 12px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 834, ../scss/components/_blocks.scss */
+  /* line 832, ../scss/components/_blocks.scss */
   .block-story-nugget {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 30px;
   }
-  /* line 838, ../scss/components/_blocks.scss */
+  /* line 836, ../scss/components/_blocks.scss */
   .block-story-nugget .story-nugget-display-image {
     height: 414px;
   }
-  /* line 842, ../scss/components/_blocks.scss */
+  /* line 840, ../scss/components/_blocks.scss */
   .block-story-nugget .story-nugget-title h4 {
     padding: 20px 30px;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 850, ../scss/components/_blocks.scss */
+  /* line 848, ../scss/components/_blocks.scss */
   .block-story-nugget {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 60px;
   }
-  /* line 854, ../scss/components/_blocks.scss */
+  /* line 852, ../scss/components/_blocks.scss */
   .block-story-nugget .story-nugget-display-image {
     height: 433px;
   }
-  /* line 857, ../scss/components/_blocks.scss */
+  /* line 855, ../scss/components/_blocks.scss */
   .block-story-nugget .story-nugget-content {
     padding-left: 45px;
     padding-right: 45px;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 865, ../scss/components/_blocks.scss */
+  /* line 863, ../scss/components/_blocks.scss */
   .block-story-nugget {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 60px;
   }
-  /* line 869, ../scss/components/_blocks.scss */
+  /* line 867, ../scss/components/_blocks.scss */
   .block-story-nugget .story-nugget-display-image {
     height: 433px;
   }
 }
-/* line 876, ../scss/components/_blocks.scss */
+/* line 874, ../scss/components/_blocks.scss */
 .block--story-detail-hero {
   height: 242px;
   background-repeat: no-repeat;
@@ -8815,31 +8815,31 @@ ul.category-nav > li a {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 885, ../scss/components/_blocks.scss */
+  /* line 883, ../scss/components/_blocks.scss */
   .block--story-detail-hero {
     height: 266px;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 891, ../scss/components/_blocks.scss */
+  /* line 889, ../scss/components/_blocks.scss */
   .block--story-detail-hero {
     height: 450px;
     margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 898, ../scss/components/_blocks.scss */
+  /* line 896, ../scss/components/_blocks.scss */
   .block--story-detail-hero {
     height: 450px;
   }
 }
-/* line 903, ../scss/components/_blocks.scss */
+/* line 901, ../scss/components/_blocks.scss */
 .block--share-btns {
   display: inline-block;
   width: 100%;
   margin-bottom: 20px;
 }
-/* line 907, ../scss/components/_blocks.scss */
+/* line 905, ../scss/components/_blocks.scss */
 .block--share-btns .article-share-btn {
   background-color: #58595b;
   width: 38px;
@@ -8853,25 +8853,25 @@ ul.category-nav > li a {
   font-size: 18px;
   float: left;
 }
-/* line 919, ../scss/components/_blocks.scss */
+/* line 917, ../scss/components/_blocks.scss */
 .block--share-btns .article-share-btn:hover {
   background-color: #052059;
 }
 
 @media screen and (min-width: 1024px) {
-  /* line 926, ../scss/components/_blocks.scss */
+  /* line 924, ../scss/components/_blocks.scss */
   .block--share-btns {
     margin-bottom: 0px;
     position: absolute;
     width: auto;
     left: -30px;
   }
-  /* line 931, ../scss/components/_blocks.scss */
+  /* line 929, ../scss/components/_blocks.scss */
   .block--share-btns.followScroll {
     position: fixed;
     top: 150px;
   }
-  /* line 935, ../scss/components/_blocks.scss */
+  /* line 933, ../scss/components/_blocks.scss */
   .block--share-btns .article-share-btn {
     background-color: #58595b;
     width: 30px;
@@ -8882,69 +8882,69 @@ ul.category-nav > li a {
     padding: 7px 0px;
   }
 }
-/* line 948, ../scss/components/_blocks.scss */
+/* line 946, ../scss/components/_blocks.scss */
 .block-quote-custom {
   background-color: #ebf3fa;
   color: #000000;
   padding: 20px 23.5px;
   margin: 1.5em 0em;
 }
-/* line 953, ../scss/components/_blocks.scss */
+/* line 951, ../scss/components/_blocks.scss */
 .block-quote-custom .quote {
   font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
   font-size: 24px;
   line-height: 1.33;
   margin-bottom: 15px;
 }
-/* line 958, ../scss/components/_blocks.scss */
+/* line 956, ../scss/components/_blocks.scss */
 .block-quote-custom .quote p {
   font-family: inherit;
   font-size: inherit;
   margin: 0px;
   display: inline;
 }
-/* line 965, ../scss/components/_blocks.scss */
+/* line 963, ../scss/components/_blocks.scss */
 .block-quote-custom .from {
   font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   color: #052059;
   font-size: 18px;
   line-height: 1.44;
 }
-/* line 970, ../scss/components/_blocks.scss */
+/* line 968, ../scss/components/_blocks.scss */
 .block-quote-custom .from strong {
   font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 979, ../scss/components/_blocks.scss */
+  /* line 977, ../scss/components/_blocks.scss */
   .block-quote-custom .from {
     font-size: 15px;
     line-height: 1.47;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 987, ../scss/components/_blocks.scss */
+  /* line 985, ../scss/components/_blocks.scss */
   .block-quote-custom {
     float: right;
     margin: 15px 0px 15px 30px;
     max-width: 50%;
   }
 }
-/* line 994, ../scss/components/_blocks.scss */
+/* line 992, ../scss/components/_blocks.scss */
 .block-article-carousel--wrapper {
   margin-bottom: 40px;
 }
 
-/* line 1001, ../scss/components/_blocks.scss */
+/* line 999, ../scss/components/_blocks.scss */
 .block--article-carousel.mobile-block .carousel-nav {
   display: block;
 }
-/* line 1006, ../scss/components/_blocks.scss */
+/* line 1004, ../scss/components/_blocks.scss */
 .block--article-carousel.desktop-block .carousel-nav {
   display: none;
 }
-/* line 1010, ../scss/components/_blocks.scss */
+/* line 1008, ../scss/components/_blocks.scss */
 .block--article-carousel .carousel-nav {
   position: absolute;
   z-index: 2;
@@ -8958,35 +8958,35 @@ ul.category-nav > li a {
   padding-left: 15px;
   padding-right: 15px;
 }
-/* line 1022, ../scss/components/_blocks.scss */
+/* line 1020, ../scss/components/_blocks.scss */
 .block--article-carousel .carousel-nav:focus {
   outline: none;
 }
-/* line 1025, ../scss/components/_blocks.scss */
+/* line 1023, ../scss/components/_blocks.scss */
 .block--article-carousel .carousel-nav.slick-prev {
   left: 0px;
 }
-/* line 1028, ../scss/components/_blocks.scss */
+/* line 1026, ../scss/components/_blocks.scss */
 .block--article-carousel .carousel-nav.slick-next {
   right: 0px;
 }
-/* line 1032, ../scss/components/_blocks.scss */
+/* line 1030, ../scss/components/_blocks.scss */
 .block--article-carousel .item {
   width: 100%;
   height: auto;
 }
-/* line 1035, ../scss/components/_blocks.scss */
+/* line 1033, ../scss/components/_blocks.scss */
 .block--article-carousel .item:focus {
   outline: none;
 }
-/* line 1038, ../scss/components/_blocks.scss */
+/* line 1036, ../scss/components/_blocks.scss */
 .block--article-carousel .item .item-image {
   width: 100%;
   height: auto;
   display: block;
   margin: 0px;
 }
-/* line 1044, ../scss/components/_blocks.scss */
+/* line 1042, ../scss/components/_blocks.scss */
 .block--article-carousel .item .item-content {
   display: block;
   background-color: #F1F1F1;
@@ -8994,53 +8994,53 @@ ul.category-nav > li a {
   padding: 15px 20px;
   margin: 0px;
 }
-/* line 1050, ../scss/components/_blocks.scss */
+/* line 1048, ../scss/components/_blocks.scss */
 .block--article-carousel .item .item-content .date {
   color: #052059;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 1059, ../scss/components/_blocks.scss */
+  /* line 1057, ../scss/components/_blocks.scss */
   .block-article-carousel--wrapper {
     margin-bottom: 30px;
   }
 
-  /* line 1065, ../scss/components/_blocks.scss */
+  /* line 1063, ../scss/components/_blocks.scss */
   .block--article-carousel.mobile-block .carousel-nav {
     display: none;
   }
-  /* line 1069, ../scss/components/_blocks.scss */
+  /* line 1067, ../scss/components/_blocks.scss */
   .block--article-carousel.desktop-block {
     margin-top: -30px;
     margin-left: 24px;
     margin-right: 24px;
     background-color: #F1F1F1;
   }
-  /* line 1074, ../scss/components/_blocks.scss */
+  /* line 1072, ../scss/components/_blocks.scss */
   .block--article-carousel.desktop-block::before, .block--article-carousel.desktop-block::after {
     content: " ";
     position: absolute;
     background-color: #F1F1F1;
   }
-  /* line 1079, ../scss/components/_blocks.scss */
+  /* line 1077, ../scss/components/_blocks.scss */
   .block--article-carousel.desktop-block::before {
     left: -1px;
     width: 56.44px;
     top: 0;
     bottom: 0;
   }
-  /* line 1085, ../scss/components/_blocks.scss */
+  /* line 1083, ../scss/components/_blocks.scss */
   .block--article-carousel.desktop-block::after {
     right: -1px;
     width: 56.44px;
     top: 0;
     bottom: 0;
   }
-  /* line 1091, ../scss/components/_blocks.scss */
+  /* line 1089, ../scss/components/_blocks.scss */
   .block--article-carousel.desktop-block .carousel-nav {
     display: block;
   }
-  /* line 1095, ../scss/components/_blocks.scss */
+  /* line 1093, ../scss/components/_blocks.scss */
   .block--article-carousel .carousel-nav {
     color: #052059;
     background-color: #F1F1F1;
@@ -9048,92 +9048,92 @@ ul.category-nav > li a {
     top: 50%;
     margin-top: -37px;
   }
-  /* line 1101, ../scss/components/_blocks.scss */
+  /* line 1099, ../scss/components/_blocks.scss */
   .block--article-carousel .carousel-nav.slick-prev {
     left: 0px;
   }
-  /* line 1104, ../scss/components/_blocks.scss */
+  /* line 1102, ../scss/components/_blocks.scss */
   .block--article-carousel .carousel-nav.slick-next {
     right: 0px;
   }
-  /* line 1109, ../scss/components/_blocks.scss */
+  /* line 1107, ../scss/components/_blocks.scss */
   .block--article-carousel .item .item-content {
     padding: 30px 63px;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 1117, ../scss/components/_blocks.scss */
+  /* line 1115, ../scss/components/_blocks.scss */
   .block-article-carousel--wrapper {
     margin-top: 15px;
   }
 
-  /* line 1121, ../scss/components/_blocks.scss */
+  /* line 1119, ../scss/components/_blocks.scss */
   .block--article-carousel.desktop-block {
     margin-left: 40px;
     margin-right: 40px;
   }
 }
-/* line 1129, ../scss/components/_blocks.scss */
+/* line 1127, ../scss/components/_blocks.scss */
 .block-featured--article-image {
   display: inline-block;
 }
-/* line 1131, ../scss/components/_blocks.scss */
+/* line 1129, ../scss/components/_blocks.scss */
 .block-featured--article-image img {
   max-width: 100%;
   height: auto;
   margin: 0px;
   display: block;
 }
-/* line 1137, ../scss/components/_blocks.scss */
+/* line 1135, ../scss/components/_blocks.scss */
 .block-featured--article-image .featured--article-text {
   background-color: #F1F1F1;
   padding: 15px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 1148, ../scss/components/_blocks.scss */
+  /* line 1146, ../scss/components/_blocks.scss */
   .block-featured--article-image .featured--article-text {
     background-color: #F1F1F1;
     padding: 15px;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 1160, ../scss/components/_blocks.scss */
+  /* line 1158, ../scss/components/_blocks.scss */
   .block-featured--article-image .featured--article-text {
     background-color: #F1F1F1;
     padding: 15px;
   }
 }
-/* line 1170, ../scss/components/_blocks.scss */
+/* line 1168, ../scss/components/_blocks.scss */
 .photo--caption-full {
   margin-bottom: 20px;
 }
-/* line 1172, ../scss/components/_blocks.scss */
+/* line 1170, ../scss/components/_blocks.scss */
 .photo--caption-full .photo-caption--wrapper {
   margin-bottom: 0px;
 }
 
-/* line 1176, ../scss/components/_blocks.scss */
+/* line 1174, ../scss/components/_blocks.scss */
 .photo--caption-side {
   display: none;
   padding: 0px 15px;
 }
-/* line 1179, ../scss/components/_blocks.scss */
+/* line 1177, ../scss/components/_blocks.scss */
 .photo--caption-side ~ div {
   margin-top: 0px;
 }
 
 @media screen and (min-width: 1024px) {
-  /* line 1185, ../scss/components/_blocks.scss */
+  /* line 1183, ../scss/components/_blocks.scss */
   .photo--caption-side {
     display: block;
     padding: 0px 15px;
   }
-  /* line 1188, ../scss/components/_blocks.scss */
+  /* line 1186, ../scss/components/_blocks.scss */
   .photo--caption-side ~ div {
     margin-top: 50px;
   }
-  /* line 1191, ../scss/components/_blocks.scss */
+  /* line 1189, ../scss/components/_blocks.scss */
   .photo--caption-side .photo-caption--wrapper {
     margin-bottom: 0px;
   }
