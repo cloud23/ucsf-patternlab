@@ -5786,7 +5786,7 @@ footer .footer--colum-content, footer .footer--column-links {
 /* line 39, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-form p {
   font-size: 18px;
-  color: #58595b;
+  color: #000000;
   text-align: left;
   margin: 0 0 10px;
 }
@@ -5990,7 +5990,7 @@ footer .footer--colum-content, footer .footer--column-links {
   .ways-to-give-options--wrapper {
     width: auto;
     margin-top: 17px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
   }
 
   /* line 228, ../scss/layout/component-layout/_global_component.scss */
@@ -6156,7 +6156,7 @@ footer .footer--colum-content, footer .footer--column-links {
   .ways-to-give-options--wrapper {
     width: auto;
     margin-top: 17px;
-    margin-bottom: 0px;
+    margin-bottom: 25px;
   }
 
   /* line 384, ../scss/layout/component-layout/_global_component.scss */
@@ -7208,7 +7208,7 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   /* line 505, ../scss/components/_navigation.scss */
   .nav-main--wrapper .nav-main .nav-main-links > li > a.header-give-btn {
     width: auto;
-    border-radius: 6px;
+    border-radius: 2px;
     color: #FFFFFF;
     font-weight: bold;
     margin-left: 10px;
