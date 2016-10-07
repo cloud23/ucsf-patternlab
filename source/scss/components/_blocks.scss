@@ -19,17 +19,15 @@
             transform: translateY(-50%);
             z-index: 10;
             cursor: pointer;
-            &:before{
+            &.slick-arrow {
                 font-size: 100px;
                 line-height: 0;
                 color: $color--oxford-blue;
             }
             &.slick-prev{
-                @extend .fa-angle-left;
                 left: -55px;
             }
             &.slick-next{
-                @extend .fa-angle-right;
                 right: -55px;
             }
         }
