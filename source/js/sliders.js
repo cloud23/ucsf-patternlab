@@ -3,7 +3,7 @@ $(function(){
     var windowWidth = $(window).width();
     var slidesToShow;
     var $fundingPrioritiesItems = $('#fundingPrioritiesItems');
-    
+
     if(windowWidth >= 1300){
         slidesToShow = 4;
     }
@@ -16,6 +16,8 @@ $(function(){
         slidesToShow: slidesToShow,
         slidesToScroll: 1,
         mobileFirst: true,
+        prevArrow: "<button type=\"button\" class=\"slick-prev\"><span class=\"fa fa-angle-left\"></span></button>",
+        nextArrow: "<button type=\"button\" class=\"slick-next\"><span class=\"fa fa-angle-right\"></span></button>",
         responsive:[
             {
                 breakpoint: 320,
@@ -37,7 +39,7 @@ $(function(){
                 breakpoint: 1299,
                 settings: { slidesToShow: 4, slidesToScroll: 1, arrows:true }
             }
-            
+
         ]
     });
 
