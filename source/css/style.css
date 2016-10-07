@@ -1438,12 +1438,12 @@ All styles that are imported here will be compiled into css/style.css
 }
 
 /* line 265, ../bower_components/font-awesome/scss/_icons.scss */
-.fa-angle-left:before, .block.block--funding-priorities .slick-arrow.slick-prev:before, .block.block--funding-priorities .slider-button.slider-prev:before {
+.fa-angle-left:before, .block.block--funding-priorities .slider-button.slider-prev:before {
   content: "";
 }
 
 /* line 266, ../bower_components/font-awesome/scss/_icons.scss */
-.fa-angle-right:before, .block.block--funding-priorities .slick-arrow.slick-next:before, .block.block--funding-priorities .slider-button.slider-next:before {
+.fa-angle-right:before, .block.block--funding-priorities .slick-arrow.slick-prev:before, .block.block--funding-priorities .slick-arrow.slick-next:before, .block.block--funding-priorities .slider-button.slider-next:before {
   content: "";
 }
 
@@ -5519,7 +5519,25 @@ body {
 .contents--wrapper > div:last-child {
   padding-bottom: 60px;
 }
+/* line 6, ../scss/base/page/_page.scss */
+.contents--wrapper > div:last-child.block--homepage-prefooter {
+  padding-bottom: 0px;
+}
+/* line 9, ../scss/base/page/_page.scss */
+.contents--wrapper > div:last-child.block--give-block-full-width {
+  padding-bottom: 40px;
+}
 
+@media screen and (min-width: 768px) {
+  /* line 18, ../scss/base/page/_page.scss */
+  .contents--wrapper > div:last-child.block--homepage-prefooter {
+    padding-bottom: 0px;
+  }
+  /* line 21, ../scss/base/page/_page.scss */
+  .contents--wrapper > div:last-child.block--give-block-full-width {
+    padding-bottom: 50px;
+  }
+}
 /*** Footer ***/
 /* line 3, ../scss/layout/component-layout/_footer-layout.scss */
 footer {
@@ -7709,7 +7727,7 @@ ul.pager__items > li.pager__item--first .pager_item_text, ul.pager__items .pager
   margin-left: 6px;
 }
 /* line 984, ../scss/components/_navigation.scss */
-ul.pager__items > li.pager__item--first .fa-angle-left ~ .fa-angle-left, ul.pager__items > li.pager__item--first .block.block--funding-priorities .slick-arrow.slick-prev ~ .fa-angle-left, .block.block--funding-priorities ul.pager__items > li.pager__item--first .slick-arrow.slick-prev ~ .fa-angle-left, ul.pager__items > li.pager__item--first .block.block--funding-priorities .slider-button.slider-prev ~ .fa-angle-left, .block.block--funding-priorities ul.pager__items > li.pager__item--first .slider-button.slider-prev ~ .fa-angle-left, ul.pager__items > li.pager__item--first .block.block--funding-priorities .fa-angle-left ~ .slick-arrow.slick-prev, .block.block--funding-priorities ul.pager__items > li.pager__item--first .fa-angle-left ~ .slick-arrow.slick-prev, ul.pager__items > li.pager__item--first .block.block--funding-priorities .slick-arrow.slick-prev ~ .slick-arrow.slick-prev, .block.block--funding-priorities ul.pager__items > li.pager__item--first .slick-arrow.slick-prev ~ .slick-arrow.slick-prev, ul.pager__items > li.pager__item--first .block.block--funding-priorities .slider-button.slider-prev ~ .slick-arrow.slick-prev, .block.block--funding-priorities ul.pager__items > li.pager__item--first .slider-button.slider-prev ~ .slick-arrow.slick-prev, ul.pager__items > li.pager__item--first .block.block--funding-priorities .fa-angle-left ~ .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items > li.pager__item--first .fa-angle-left ~ .slider-button.slider-prev, ul.pager__items > li.pager__item--first .block.block--funding-priorities .slick-arrow.slick-prev ~ .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items > li.pager__item--first .slick-arrow.slick-prev ~ .slider-button.slider-prev, ul.pager__items > li.pager__item--first .block.block--funding-priorities .slider-button.slider-prev ~ .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items > li.pager__item--first .slider-button.slider-prev ~ .slider-button.slider-prev, ul.pager__items .pager__item.pager__item--first .fa-angle-left ~ .fa-angle-left, ul.pager__items .pager__item.pager__item--first .block.block--funding-priorities .slick-arrow.slick-prev ~ .fa-angle-left, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--first .slick-arrow.slick-prev ~ .fa-angle-left, ul.pager__items .pager__item.pager__item--first .block.block--funding-priorities .slider-button.slider-prev ~ .fa-angle-left, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--first .slider-button.slider-prev ~ .fa-angle-left, ul.pager__items .pager__item.pager__item--first .block.block--funding-priorities .fa-angle-left ~ .slick-arrow.slick-prev, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--first .fa-angle-left ~ .slick-arrow.slick-prev, ul.pager__items .pager__item.pager__item--first .block.block--funding-priorities .slick-arrow.slick-prev ~ .slick-arrow.slick-prev, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--first .slick-arrow.slick-prev ~ .slick-arrow.slick-prev, ul.pager__items .pager__item.pager__item--first .block.block--funding-priorities .slider-button.slider-prev ~ .slick-arrow.slick-prev, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--first .slider-button.slider-prev ~ .slick-arrow.slick-prev, ul.pager__items .pager__item.pager__item--first .block.block--funding-priorities .fa-angle-left ~ .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--first .fa-angle-left ~ .slider-button.slider-prev, ul.pager__items .pager__item.pager__item--first .block.block--funding-priorities .slick-arrow.slick-prev ~ .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--first .slick-arrow.slick-prev ~ .slider-button.slider-prev, ul.pager__items .pager__item.pager__item--first .block.block--funding-priorities .slider-button.slider-prev ~ .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--first .slider-button.slider-prev ~ .slider-button.slider-prev {
+ul.pager__items > li.pager__item--first .fa-angle-left ~ .fa-angle-left, ul.pager__items > li.pager__item--first .block.block--funding-priorities .slider-button.slider-prev ~ .fa-angle-left, .block.block--funding-priorities ul.pager__items > li.pager__item--first .slider-button.slider-prev ~ .fa-angle-left, ul.pager__items > li.pager__item--first .block.block--funding-priorities .fa-angle-left ~ .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items > li.pager__item--first .fa-angle-left ~ .slider-button.slider-prev, ul.pager__items > li.pager__item--first .block.block--funding-priorities .slider-button.slider-prev ~ .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items > li.pager__item--first .slider-button.slider-prev ~ .slider-button.slider-prev, ul.pager__items .pager__item.pager__item--first .fa-angle-left ~ .fa-angle-left, ul.pager__items .pager__item.pager__item--first .block.block--funding-priorities .slider-button.slider-prev ~ .fa-angle-left, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--first .slider-button.slider-prev ~ .fa-angle-left, ul.pager__items .pager__item.pager__item--first .block.block--funding-priorities .fa-angle-left ~ .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--first .fa-angle-left ~ .slider-button.slider-prev, ul.pager__items .pager__item.pager__item--first .block.block--funding-priorities .slider-button.slider-prev ~ .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--first .slider-button.slider-prev ~ .slider-button.slider-prev {
   margin-left: -4px;
 }
 /* line 988, ../scss/components/_navigation.scss */
@@ -7718,7 +7736,7 @@ ul.pager__items > li.pager__item--previous, ul.pager__items .pager__item.pager__
   margin-right: 15px;
 }
 /* line 991, ../scss/components/_navigation.scss */
-ul.pager__items > li.pager__item--previous .fa-angle-left, ul.pager__items > li.pager__item--previous .block.block--funding-priorities .slick-arrow.slick-prev, .block.block--funding-priorities ul.pager__items > li.pager__item--previous .slick-arrow.slick-prev, ul.pager__items > li.pager__item--previous .block.block--funding-priorities .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items > li.pager__item--previous .slider-button.slider-prev, ul.pager__items .pager__item.pager__item--previous .fa-angle-left, ul.pager__items .pager__item.pager__item--previous .block.block--funding-priorities .slick-arrow.slick-prev, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--previous .slick-arrow.slick-prev, ul.pager__items .pager__item.pager__item--previous .block.block--funding-priorities .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--previous .slider-button.slider-prev {
+ul.pager__items > li.pager__item--previous .fa-angle-left, ul.pager__items > li.pager__item--previous .block.block--funding-priorities .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items > li.pager__item--previous .slider-button.slider-prev, ul.pager__items .pager__item.pager__item--previous .fa-angle-left, ul.pager__items .pager__item.pager__item--previous .block.block--funding-priorities .slider-button.slider-prev, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--previous .slider-button.slider-prev {
   margin-right: 6px;
 }
 /* line 995, ../scss/components/_navigation.scss */
@@ -7727,7 +7745,7 @@ ul.pager__items > li.pager__item--next, ul.pager__items .pager__item.pager__item
   margin-right: 15px;
 }
 /* line 998, ../scss/components/_navigation.scss */
-ul.pager__items > li.pager__item--next .fa-angle-right, ul.pager__items > li.pager__item--next .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities ul.pager__items > li.pager__item--next .slick-arrow.slick-next, ul.pager__items > li.pager__item--next .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities ul.pager__items > li.pager__item--next .slider-button.slider-next, ul.pager__items .pager__item.pager__item--next .fa-angle-right, ul.pager__items .pager__item.pager__item--next .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--next .slick-arrow.slick-next, ul.pager__items .pager__item.pager__item--next .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--next .slider-button.slider-next {
+ul.pager__items > li.pager__item--next .fa-angle-right, ul.pager__items > li.pager__item--next .block.block--funding-priorities .slick-arrow.slick-prev, .block.block--funding-priorities ul.pager__items > li.pager__item--next .slick-arrow.slick-prev, ul.pager__items > li.pager__item--next .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities ul.pager__items > li.pager__item--next .slick-arrow.slick-next, ul.pager__items > li.pager__item--next .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities ul.pager__items > li.pager__item--next .slider-button.slider-next, ul.pager__items .pager__item.pager__item--next .fa-angle-right, ul.pager__items .pager__item.pager__item--next .block.block--funding-priorities .slick-arrow.slick-prev, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--next .slick-arrow.slick-prev, ul.pager__items .pager__item.pager__item--next .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--next .slick-arrow.slick-next, ul.pager__items .pager__item.pager__item--next .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--next .slider-button.slider-next {
   margin-left: 6px;
 }
 /* line 1002, ../scss/components/_navigation.scss */
@@ -7739,7 +7757,7 @@ ul.pager__items > li.pager__item--last .pager_item_text, ul.pager__items .pager_
   margin-right: 6px;
 }
 /* line 1008, ../scss/components/_navigation.scss */
-ul.pager__items > li.pager__item--last .fa-angle-right:last-child, ul.pager__items > li.pager__item--last .block.block--funding-priorities .slick-arrow.slick-next:last-child, .block.block--funding-priorities ul.pager__items > li.pager__item--last .slick-arrow.slick-next:last-child, ul.pager__items > li.pager__item--last .block.block--funding-priorities .slider-button.slider-next:last-child, .block.block--funding-priorities ul.pager__items > li.pager__item--last .slider-button.slider-next:last-child, ul.pager__items .pager__item.pager__item--last .fa-angle-right:last-child, ul.pager__items .pager__item.pager__item--last .block.block--funding-priorities .slick-arrow.slick-next:last-child, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--last .slick-arrow.slick-next:last-child, ul.pager__items .pager__item.pager__item--last .block.block--funding-priorities .slider-button.slider-next:last-child, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--last .slider-button.slider-next:last-child {
+ul.pager__items > li.pager__item--last .fa-angle-right:last-child, ul.pager__items > li.pager__item--last .block.block--funding-priorities .slick-arrow.slick-prev:last-child, .block.block--funding-priorities ul.pager__items > li.pager__item--last .slick-arrow.slick-prev:last-child, ul.pager__items > li.pager__item--last .block.block--funding-priorities .slick-arrow.slick-next:last-child, .block.block--funding-priorities ul.pager__items > li.pager__item--last .slick-arrow.slick-next:last-child, ul.pager__items > li.pager__item--last .block.block--funding-priorities .slider-button.slider-next:last-child, .block.block--funding-priorities ul.pager__items > li.pager__item--last .slider-button.slider-next:last-child, ul.pager__items .pager__item.pager__item--last .fa-angle-right:last-child, ul.pager__items .pager__item.pager__item--last .block.block--funding-priorities .slick-arrow.slick-prev:last-child, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--last .slick-arrow.slick-prev:last-child, ul.pager__items .pager__item.pager__item--last .block.block--funding-priorities .slick-arrow.slick-next:last-child, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--last .slick-arrow.slick-next:last-child, ul.pager__items .pager__item.pager__item--last .block.block--funding-priorities .slider-button.slider-next:last-child, .block.block--funding-priorities ul.pager__items .pager__item.pager__item--last .slider-button.slider-next:last-child {
   margin-left: -4px;
 }
 
@@ -7959,7 +7977,7 @@ ul.category-nav > li a {
   color: #058488;
 }
 /* line 124, ../scss/components/_blocks.scss */
-.block.block--funding-priorities-full.background-color--teal a:hover .fa-angle-right, .block.block--funding-priorities-full.background-color--teal a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--teal a:hover .slick-arrow.slick-next, .block.block--funding-priorities-full.background-color--teal a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--teal a:hover .slider-button.slider-next {
+.block.block--funding-priorities-full.background-color--teal a:hover .fa-angle-right, .block.block--funding-priorities-full.background-color--teal a:hover .block.block--funding-priorities .slick-arrow.slick-prev, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--teal a:hover .slick-arrow.slick-prev, .block.block--funding-priorities-full.background-color--teal a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--teal a:hover .slick-arrow.slick-next, .block.block--funding-priorities-full.background-color--teal a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--teal a:hover .slider-button.slider-next {
   color: #FFFFFF;
 }
 /* line 131, ../scss/components/_blocks.scss */
@@ -7967,7 +7985,7 @@ ul.category-nav > li a {
   color: #6EA400;
 }
 /* line 136, ../scss/components/_blocks.scss */
-.block.block--funding-priorities-full.background-color--green a:hover .fa-angle-right, .block.block--funding-priorities-full.background-color--green a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--green a:hover .slick-arrow.slick-next, .block.block--funding-priorities-full.background-color--green a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--green a:hover .slider-button.slider-next {
+.block.block--funding-priorities-full.background-color--green a:hover .fa-angle-right, .block.block--funding-priorities-full.background-color--green a:hover .block.block--funding-priorities .slick-arrow.slick-prev, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--green a:hover .slick-arrow.slick-prev, .block.block--funding-priorities-full.background-color--green a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--green a:hover .slick-arrow.slick-next, .block.block--funding-priorities-full.background-color--green a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--green a:hover .slider-button.slider-next {
   color: #FFFFFF;
 }
 /* line 143, ../scss/components/_blocks.scss */
@@ -7975,7 +7993,7 @@ ul.category-nav > li a {
   color: #007CBE;
 }
 /* line 148, ../scss/components/_blocks.scss */
-.block.block--funding-priorities-full.background-color--blue a:hover .fa-angle-right, .block.block--funding-priorities-full.background-color--blue a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--blue a:hover .slick-arrow.slick-next, .block.block--funding-priorities-full.background-color--blue a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--blue a:hover .slider-button.slider-next {
+.block.block--funding-priorities-full.background-color--blue a:hover .fa-angle-right, .block.block--funding-priorities-full.background-color--blue a:hover .block.block--funding-priorities .slick-arrow.slick-prev, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--blue a:hover .slick-arrow.slick-prev, .block.block--funding-priorities-full.background-color--blue a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--blue a:hover .slick-arrow.slick-next, .block.block--funding-priorities-full.background-color--blue a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--blue a:hover .slider-button.slider-next {
   color: #FFFFFF;
 }
 /* line 154, ../scss/components/_blocks.scss */
@@ -8131,7 +8149,7 @@ ul.category-nav > li a {
   bottom: 25px;
 }
 /* line 272, ../scss/components/_blocks.scss */
-.block--item.block--funding-priorities-items .block--item-contents a:hover .fa-angle-right, .block--item.block--funding-priorities-items .block--item-contents a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block--item.block--funding-priorities-items .block--item-contents a:hover .slick-arrow.slick-next, .block--item.block--funding-priorities-items .block--item-contents a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--funding-priorities-items .block--item-contents a:hover .slider-button.slider-next {
+.block--item.block--funding-priorities-items .block--item-contents a:hover .fa-angle-right, .block--item.block--funding-priorities-items .block--item-contents a:hover .block.block--funding-priorities .slick-arrow.slick-prev, .block.block--funding-priorities .block--item.block--funding-priorities-items .block--item-contents a:hover .slick-arrow.slick-prev, .block--item.block--funding-priorities-items .block--item-contents a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block--item.block--funding-priorities-items .block--item-contents a:hover .slick-arrow.slick-next, .block--item.block--funding-priorities-items .block--item-contents a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--funding-priorities-items .block--item-contents a:hover .slider-button.slider-next {
   color: #007CBE;
 }
 /* line 279, ../scss/components/_blocks.scss */
@@ -8178,7 +8196,7 @@ ul.category-nav > li a {
   background-color: #6EA400;
 }
 /* line 312, ../scss/components/_blocks.scss */
-.block--item.block--impact-stories-panel .block--item-colored-panel.background--green a:hover .fa-angle-right, .block--item.block--impact-stories-panel .block--item-colored-panel.background--green a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--green a:hover .slick-arrow.slick-next, .block--item.block--impact-stories-panel .block--item-colored-panel.background--green a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--green a:hover .slider-button.slider-next {
+.block--item.block--impact-stories-panel .block--item-colored-panel.background--green a:hover .fa-angle-right, .block--item.block--impact-stories-panel .block--item-colored-panel.background--green a:hover .block.block--funding-priorities .slick-arrow.slick-prev, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--green a:hover .slick-arrow.slick-prev, .block--item.block--impact-stories-panel .block--item-colored-panel.background--green a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--green a:hover .slick-arrow.slick-next, .block--item.block--impact-stories-panel .block--item-colored-panel.background--green a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--green a:hover .slider-button.slider-next {
   color: #6EA400;
 }
 /* line 318, ../scss/components/_blocks.scss */
@@ -8186,7 +8204,7 @@ ul.category-nav > li a {
   background-color: #F26D04;
 }
 /* line 322, ../scss/components/_blocks.scss */
-.block--item.block--impact-stories-panel .block--item-colored-panel.background--orange a:hover .fa-angle-right, .block--item.block--impact-stories-panel .block--item-colored-panel.background--orange a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--orange a:hover .slick-arrow.slick-next, .block--item.block--impact-stories-panel .block--item-colored-panel.background--orange a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--orange a:hover .slider-button.slider-next {
+.block--item.block--impact-stories-panel .block--item-colored-panel.background--orange a:hover .fa-angle-right, .block--item.block--impact-stories-panel .block--item-colored-panel.background--orange a:hover .block.block--funding-priorities .slick-arrow.slick-prev, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--orange a:hover .slick-arrow.slick-prev, .block--item.block--impact-stories-panel .block--item-colored-panel.background--orange a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--orange a:hover .slick-arrow.slick-next, .block--item.block--impact-stories-panel .block--item-colored-panel.background--orange a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--orange a:hover .slider-button.slider-next {
   color: #F26D04;
 }
 /* line 328, ../scss/components/_blocks.scss */
@@ -8194,7 +8212,7 @@ ul.category-nav > li a {
   background-color: #007CBE;
 }
 /* line 332, ../scss/components/_blocks.scss */
-.block--item.block--impact-stories-panel .block--item-colored-panel.background--blue a:hover .fa-angle-right, .block--item.block--impact-stories-panel .block--item-colored-panel.background--blue a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--blue a:hover .slick-arrow.slick-next, .block--item.block--impact-stories-panel .block--item-colored-panel.background--blue a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--blue a:hover .slider-button.slider-next {
+.block--item.block--impact-stories-panel .block--item-colored-panel.background--blue a:hover .fa-angle-right, .block--item.block--impact-stories-panel .block--item-colored-panel.background--blue a:hover .block.block--funding-priorities .slick-arrow.slick-prev, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--blue a:hover .slick-arrow.slick-prev, .block--item.block--impact-stories-panel .block--item-colored-panel.background--blue a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--blue a:hover .slick-arrow.slick-next, .block--item.block--impact-stories-panel .block--item-colored-panel.background--blue a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--blue a:hover .slider-button.slider-next {
   color: #007CBE;
 }
 /* line 338, ../scss/components/_blocks.scss */
@@ -8202,7 +8220,7 @@ ul.category-nav > li a {
   background-color: #058488;
 }
 /* line 342, ../scss/components/_blocks.scss */
-.block--item.block--impact-stories-panel .block--item-colored-panel.background--teal a:hover .fa-angle-right, .block--item.block--impact-stories-panel .block--item-colored-panel.background--teal a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--teal a:hover .slick-arrow.slick-next, .block--item.block--impact-stories-panel .block--item-colored-panel.background--teal a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--teal a:hover .slider-button.slider-next {
+.block--item.block--impact-stories-panel .block--item-colored-panel.background--teal a:hover .fa-angle-right, .block--item.block--impact-stories-panel .block--item-colored-panel.background--teal a:hover .block.block--funding-priorities .slick-arrow.slick-prev, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--teal a:hover .slick-arrow.slick-prev, .block--item.block--impact-stories-panel .block--item-colored-panel.background--teal a:hover .block.block--funding-priorities .slick-arrow.slick-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--teal a:hover .slick-arrow.slick-next, .block--item.block--impact-stories-panel .block--item-colored-panel.background--teal a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--teal a:hover .slider-button.slider-next {
   color: #058488;
 }
 /* line 350, ../scss/components/_blocks.scss */
