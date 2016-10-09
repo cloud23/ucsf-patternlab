@@ -1,26 +1,32 @@
 <div class="content-area block block--impact-stories-grid">
     <div class="column-wrapper">
-        <h3 class="text-align--center">Impact Stories</h3>
+        {% block label %}
+            <h3 class="text-align--center">Impact Stories</h3>
+        {% endblock %}
     </div>
     <div class="column-wrapper">
-        {% for item in items %}
-            <div class="column-large-3 column-medium-3 column-small-6 column-xsmall-12">
-                {% include "@molecules/02-blocks/05-impact-story-small.twig" with {
-                    "color" : item.color,
-                    "date" : item.date,
-                    "text" : item.text,
-                    "category" : item.category,
-                    "link" : item.link
-                } %}
-            </div>
-        {% endfor %}
+        {% block items %}
+            {% for item in items %}
+                <div class="column-large-3 column-medium-3 column-small-6 column-xsmall-12">
+                    {% include "@molecules/02-blocks/05-impact-story-small.twig" with {
+                        "color" : item.color,
+                        "date" : item.date,
+                        "text" : item.text,
+                        "category" : item.category,
+                        "link" : item.link
+                    } %}
+                </div>
+            {% endfor %}
+        {% endblock %}
     </div>
     <div class="column-wrapper text-align--center see-more-link">
-        <a class="link link--with-icon">SEE MORE IMPACT STORIES<span class="fa-stack link--icon">
-                <i class="fa fa-circle fa-stack-2x icon--visible-hover icon--circle" aria-hidden="true"></i>
-                <i class="fa fa-circle-thin fa-stack-2x icon--circle" aria-hidden="true"></i>
-                <i class="fa fa-angle-right fa-stack-1x icon--angle" aria-hidden="true"></i>
-            </span>
-        </a>
+        {% block more_links %}
+            <a class="link link--with-icon">SEE MORE IMPACT STORIES<span class="fa-stack link--icon">
+                    <i class="fa fa-circle fa-stack-2x icon--visible-hover icon--circle" aria-hidden="true"></i>
+                    <i class="fa fa-circle-thin fa-stack-2x icon--circle" aria-hidden="true"></i>
+                    <i class="fa fa-angle-right fa-stack-1x icon--angle" aria-hidden="true"></i>
+                </span>
+            </a>
+        {% endblock %}
     </div>
 </div>
