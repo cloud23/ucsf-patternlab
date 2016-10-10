@@ -5502,8 +5502,17 @@ p.fund-intro {
   margin-bottom: 15px;
 }
 
+/* line 226, ../scss/base/_text.scss */
+.fund-intro p {
+  font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  line-height: 1.36;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
 @media screen and (min-width: 1024px) {
-  /* line 226, ../scss/base/_text.scss */
+  /* line 236, ../scss/base/_text.scss */
   p.fund-intro {
     margin-bottom: 5px;
   }
