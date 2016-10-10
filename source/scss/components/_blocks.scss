@@ -376,6 +376,9 @@
             text-decoration: none;
             &:hover{
                 text-decoration: none;
+                .content_text{
+                    text-decoration: underline;;
+                }
             }
         }
         .block--item-content{
@@ -388,6 +391,7 @@
                 color: $color--white;
 
                 text-align: center;
+                text-transform: uppercase;
                 width: 112px;
                 height: 25px;
                 position: absolute;
