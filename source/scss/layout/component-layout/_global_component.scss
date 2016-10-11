@@ -457,6 +457,9 @@
 			}
 			&.submit-btn {
 				display: block;
+				.btn--primary {
+					font-size: 22px;
+				}
 			}
 			.btn {
 				width: 100%;
@@ -486,6 +489,7 @@
 				&:nth-last-child(2) {
 					width: auto;
 					margin-right: 0px;
+					clear: right;
 				}
 				&:last-child {
 					width: auto;
@@ -498,6 +502,10 @@
 				}
 				&.submit-btn {
 					display: block;
+					clear: right;
+					.btn--primary {
+						font-size: 18px;
+					}
 				}
 				.btn {
 					width: calc(128px + 111%);
@@ -531,6 +539,7 @@
 				}
 				&:last-child, &:nth-last-child(2) {
 					width: 100%;
+					clear: none;
 				}
 				label {
 					width: 100%;

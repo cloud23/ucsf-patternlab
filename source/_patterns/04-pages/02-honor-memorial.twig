@@ -45,7 +45,14 @@
                         </div>
                     </div>
 
-                    {% include "@molecules/02-blocks/06-block-story-nugget.twig" %}
+                    {% include "@molecules/02-blocks/06-block-story-nugget.twig" with {
+                        "image" : image,
+                        "bgcolor" : bgcolor,
+                        "nugget_title" : nugget_title,
+                        "nugget_content" : nugget_content,
+                        "nugget_link_label" : nugget_link_label,
+                        "nugget_link" : nugget_link
+                    }%}
                 </div>
                 <div class="column-large-3 column-large-offset-1 column-medium-4 column-small-12 column-xsmall-12">
                     <div class="ways-to-give-form-small sidebar">

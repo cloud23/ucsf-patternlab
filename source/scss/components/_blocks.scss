@@ -169,25 +169,25 @@
         }
         &.background-color--teal{
             /*background-color: $color--teal;*/
-            .block--content{ 
+            .block--content{
                 .content-area{
-                    background-color: $color--teal; 
+                    background-color: $color--teal;
                 }
             }
         }
         &.background-color--green{
-            /*background-color: $color--yellow-green;*/            
-            .block--content{ 
+            /*background-color: $color--yellow-green;*/
+            .block--content{
                 .content-area{
-                    background-color: $color--yellow-green; 
+                    background-color: $color--yellow-green;
                 }
             }
         }
         &.background-color--blue{
             /*background-color: $color--light-blue;*/
-            .block--content{ 
+            .block--content{
                 .content-area{
-                    background-color: $color--light-blue; 
+                    background-color: $color--light-blue;
                 }
             }
         }
@@ -686,9 +686,11 @@
             width: 100%;
             &.btn--primary-small {
                 display: none;
+                text-decoration: none;
             }
             &.btn--primary {
                 display: inline-block;
+                font-size: 22px;
             }
         }
     }
@@ -715,6 +717,7 @@
                 width: auto;
                 &.btn--primary-small {
                     display: inline-block;
+                    font-size: 15px;
                 }
                 &.btn--primary {
                     display: none;
@@ -855,6 +858,12 @@
             }
         }
     }
+    .story-nugget-link {
+        margin-top: 18px;
+        a {
+            color: $color--light-blue;
+        }
+    }
 }
 
 @media screen and (min-width: $width-small) {
@@ -881,7 +890,7 @@
         .story-nugget-display-image {
              height: 433px;
         }
-        .story-nugget-content {
+        .story-nugget-content, .story-nugget-link {
             padding-left: 45px;
             padding-right: 45px;
         }
