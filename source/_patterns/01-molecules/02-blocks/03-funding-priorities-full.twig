@@ -1,19 +1,21 @@
 <div class="block block--funding-priorities-full background-color--{{ color }}">
     <div class="content-area">
         <div class="column-wrapper">
-            <div class="column-large-8 column-medium-8 column-small-8 column-xsmall-12">
-                <div class="block--content-text">
-                    <p>{{ body_text }}</p>
+            <div class="column-large-12">
+                <div class="column-large-8 column-medium-8 column-small-8 column-xsmall-12">
+                    <div class="block--content-text">
+                        <p>{{ body_text }}</p>
+                    </div>
                 </div>
-            </div>
-            <div class="column-large-offset-1 column-medium--offset-1 column-small-offset-1 column-large-3 column-medium-3 column-small-3 column-xsmall-12">
-                <div class="block--content-stats">
-                    {% for item in stats %}
-                        <div class="stats-items">
-                            <span class="stats-value">{{ item.value }}</span>
-                            <p class="stats-text">{{ item.text }}</p>
-                        </div>
-                    {% endfor %}
+                <div class="column-large-offset-1 column-medium--offset-1 column-small-offset-1 column-large-3 column-medium-3 column-small-3 column-xsmall-12">
+                    <div class="block--content-stats">
+                        {% for item in stats %}
+                            <div class="stats-items">
+                                <span class="stats-value">{{ item.value }}</span>
+                                <p class="stats-text">{{ item.text }}</p>
+                            </div>
+                        {% endfor %}
+                    </div>
                 </div>
             </div>
         </div>

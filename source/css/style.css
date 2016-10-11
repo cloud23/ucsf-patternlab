@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /******************************************************************
 Stylesheet: Main Stylesheet
 
@@ -89,7 +88,7 @@ All styles that are imported here will be compiled into css/style.css
 /* line 4, ../bower_components/font-awesome/scss/_bordered-pulled.scss */
 .fa-border {
   padding: .2em .25em .15em;
-  border: solid 0.08em #eee;
+  border: solid 0.08em #eeeeee;
   border-radius: .1em;
 }
 
@@ -145,20 +144,26 @@ All styles that are imported here will be compiled into css/style.css
 }
 
 @-webkit-keyframes fa-spin {
+  /* line 15, ../bower_components/font-awesome/scss/_animated.scss */
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
+  /* line 19, ../bower_components/font-awesome/scss/_animated.scss */
   100% {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg);
   }
 }
 @keyframes fa-spin {
+  /* line 26, ../bower_components/font-awesome/scss/_animated.scss */
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
+  /* line 30, ../bower_components/font-awesome/scss/_animated.scss */
   100% {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg);
@@ -243,1590 +248,1590 @@ All styles that are imported here will be compiled into css/style.css
 
 /* line 20, ../bower_components/font-awesome/scss/_stacked.scss */
 .fa-inverse {
-  color: #fff;
+  color: white;
 }
 
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
    readers do not read off random characters that represent icons */
 /* line 4, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-glass:before {
-  content: "";
+  content: "\f000";
 }
 
 /* line 5, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-music:before {
-  content: "";
+  content: "\f001";
 }
 
 /* line 6, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-search:before {
-  content: "";
+  content: "\f002";
 }
 
 /* line 7, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-envelope-o:before {
-  content: "";
+  content: "\f003";
 }
 
 /* line 8, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-heart:before {
-  content: "";
+  content: "\f004";
 }
 
 /* line 9, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-star:before {
-  content: "";
+  content: "\f005";
 }
 
 /* line 10, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-star-o:before {
-  content: "";
+  content: "\f006";
 }
 
 /* line 11, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-user:before {
-  content: "";
+  content: "\f007";
 }
 
 /* line 12, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-film:before {
-  content: "";
+  content: "\f008";
 }
 
 /* line 13, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-th-large:before {
-  content: "";
+  content: "\f009";
 }
 
 /* line 14, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-th:before {
-  content: "";
+  content: "\f00a";
 }
 
 /* line 15, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-th-list:before {
-  content: "";
+  content: "\f00b";
 }
 
 /* line 16, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-check:before {
-  content: "";
+  content: "\f00c";
 }
 
 /* line 17, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-remove:before,
 .fa-close:before,
 .fa-times:before {
-  content: "";
+  content: "\f00d";
 }
 
 /* line 20, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-search-plus:before {
-  content: "";
+  content: "\f00e";
 }
 
 /* line 21, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-search-minus:before {
-  content: "";
+  content: "\f010";
 }
 
 /* line 22, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-power-off:before {
-  content: "";
+  content: "\f011";
 }
 
 /* line 23, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-signal:before {
-  content: "";
+  content: "\f012";
 }
 
 /* line 24, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-gear:before,
 .fa-cog:before {
-  content: "";
+  content: "\f013";
 }
 
 /* line 26, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-trash-o:before {
-  content: "";
+  content: "\f014";
 }
 
 /* line 27, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-home:before {
-  content: "";
+  content: "\f015";
 }
 
 /* line 28, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-file-o:before {
-  content: "";
+  content: "\f016";
 }
 
 /* line 29, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-clock-o:before {
-  content: "";
+  content: "\f017";
 }
 
 /* line 30, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-road:before {
-  content: "";
+  content: "\f018";
 }
 
 /* line 31, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-download:before {
-  content: "";
+  content: "\f019";
 }
 
 /* line 32, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-arrow-circle-o-down:before {
-  content: "";
+  content: "\f01a";
 }
 
 /* line 33, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-arrow-circle-o-up:before {
-  content: "";
+  content: "\f01b";
 }
 
 /* line 34, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-inbox:before {
-  content: "";
+  content: "\f01c";
 }
 
 /* line 35, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-play-circle-o:before {
-  content: "";
+  content: "\f01d";
 }
 
 /* line 36, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-rotate-right:before,
 .fa-repeat:before {
-  content: "";
+  content: "\f01e";
 }
 
 /* line 38, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-refresh:before {
-  content: "";
+  content: "\f021";
 }
 
 /* line 39, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-list-alt:before {
-  content: "";
+  content: "\f022";
 }
 
 /* line 40, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-lock:before {
-  content: "";
+  content: "\f023";
 }
 
 /* line 41, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-flag:before {
-  content: "";
+  content: "\f024";
 }
 
 /* line 42, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-headphones:before {
-  content: "";
+  content: "\f025";
 }
 
 /* line 43, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-volume-off:before {
-  content: "";
+  content: "\f026";
 }
 
 /* line 44, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-volume-down:before {
-  content: "";
+  content: "\f027";
 }
 
 /* line 45, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-volume-up:before {
-  content: "";
+  content: "\f028";
 }
 
 /* line 46, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-qrcode:before {
-  content: "";
+  content: "\f029";
 }
 
 /* line 47, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-barcode:before {
-  content: "";
+  content: "\f02a";
 }
 
 /* line 48, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-tag:before {
-  content: "";
+  content: "\f02b";
 }
 
 /* line 49, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-tags:before {
-  content: "";
+  content: "\f02c";
 }
 
 /* line 50, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-book:before {
-  content: "";
+  content: "\f02d";
 }
 
 /* line 51, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bookmark:before {
-  content: "";
+  content: "\f02e";
 }
 
 /* line 52, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-print:before {
-  content: "";
+  content: "\f02f";
 }
 
 /* line 53, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-camera:before {
-  content: "";
+  content: "\f030";
 }
 
 /* line 54, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-font:before {
-  content: "";
+  content: "\f031";
 }
 
 /* line 55, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bold:before {
-  content: "";
+  content: "\f032";
 }
 
 /* line 56, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-italic:before {
-  content: "";
+  content: "\f033";
 }
 
 /* line 57, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-text-height:before {
-  content: "";
+  content: "\f034";
 }
 
 /* line 58, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-text-width:before {
-  content: "";
+  content: "\f035";
 }
 
 /* line 59, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-align-left:before {
-  content: "";
+  content: "\f036";
 }
 
 /* line 60, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-align-center:before {
-  content: "";
+  content: "\f037";
 }
 
 /* line 61, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-align-right:before {
-  content: "";
+  content: "\f038";
 }
 
 /* line 62, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-align-justify:before {
-  content: "";
+  content: "\f039";
 }
 
 /* line 63, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-list:before {
-  content: "";
+  content: "\f03a";
 }
 
 /* line 64, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-dedent:before,
 .fa-outdent:before {
-  content: "";
+  content: "\f03b";
 }
 
 /* line 66, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-indent:before {
-  content: "";
+  content: "\f03c";
 }
 
 /* line 67, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-video-camera:before {
-  content: "";
+  content: "\f03d";
 }
 
 /* line 68, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-photo:before,
 .fa-image:before,
 .fa-picture-o:before {
-  content: "";
+  content: "\f03e";
 }
 
 /* line 71, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-pencil:before {
-  content: "";
+  content: "\f040";
 }
 
 /* line 72, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-map-marker:before {
-  content: "";
+  content: "\f041";
 }
 
 /* line 73, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-adjust:before {
-  content: "";
+  content: "\f042";
 }
 
 /* line 74, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-tint:before {
-  content: "";
+  content: "\f043";
 }
 
 /* line 75, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-edit:before,
 .fa-pencil-square-o:before {
-  content: "";
+  content: "\f044";
 }
 
 /* line 77, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-share-square-o:before {
-  content: "";
+  content: "\f045";
 }
 
 /* line 78, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-check-square-o:before {
-  content: "";
+  content: "\f046";
 }
 
 /* line 79, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-arrows:before {
-  content: "";
+  content: "\f047";
 }
 
 /* line 80, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-step-backward:before {
-  content: "";
+  content: "\f048";
 }
 
 /* line 81, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-fast-backward:before {
-  content: "";
+  content: "\f049";
 }
 
 /* line 82, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-backward:before {
-  content: "";
+  content: "\f04a";
 }
 
 /* line 83, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-play:before {
-  content: "";
+  content: "\f04b";
 }
 
 /* line 84, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-pause:before {
-  content: "";
+  content: "\f04c";
 }
 
 /* line 85, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-stop:before {
-  content: "";
+  content: "\f04d";
 }
 
 /* line 86, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-forward:before {
-  content: "";
+  content: "\f04e";
 }
 
 /* line 87, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-fast-forward:before {
-  content: "";
+  content: "\f050";
 }
 
 /* line 88, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-step-forward:before {
-  content: "";
+  content: "\f051";
 }
 
 /* line 89, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-eject:before {
-  content: "";
+  content: "\f052";
 }
 
 /* line 90, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-chevron-left:before {
-  content: "";
+  content: "\f053";
 }
 
 /* line 91, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-chevron-right:before {
-  content: "";
+  content: "\f054";
 }
 
 /* line 92, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-plus-circle:before {
-  content: "";
+  content: "\f055";
 }
 
 /* line 93, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-minus-circle:before {
-  content: "";
+  content: "\f056";
 }
 
 /* line 94, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-times-circle:before {
-  content: "";
+  content: "\f057";
 }
 
 /* line 95, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-check-circle:before {
-  content: "";
+  content: "\f058";
 }
 
 /* line 96, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-question-circle:before {
-  content: "";
+  content: "\f059";
 }
 
 /* line 97, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-info-circle:before {
-  content: "";
+  content: "\f05a";
 }
 
 /* line 98, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-crosshairs:before {
-  content: "";
+  content: "\f05b";
 }
 
 /* line 99, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-times-circle-o:before {
-  content: "";
+  content: "\f05c";
 }
 
 /* line 100, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-check-circle-o:before {
-  content: "";
+  content: "\f05d";
 }
 
 /* line 101, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-ban:before {
-  content: "";
+  content: "\f05e";
 }
 
 /* line 102, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-arrow-left:before {
-  content: "";
+  content: "\f060";
 }
 
 /* line 103, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-arrow-right:before {
-  content: "";
+  content: "\f061";
 }
 
 /* line 104, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-arrow-up:before {
-  content: "";
+  content: "\f062";
 }
 
 /* line 105, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-arrow-down:before {
-  content: "";
+  content: "\f063";
 }
 
 /* line 106, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-mail-forward:before,
 .fa-share:before {
-  content: "";
+  content: "\f064";
 }
 
 /* line 108, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-expand:before {
-  content: "";
+  content: "\f065";
 }
 
 /* line 109, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-compress:before {
-  content: "";
+  content: "\f066";
 }
 
 /* line 110, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-plus:before {
-  content: "";
+  content: "\f067";
 }
 
 /* line 111, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-minus:before {
-  content: "";
+  content: "\f068";
 }
 
 /* line 112, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-asterisk:before {
-  content: "";
+  content: "\f069";
 }
 
 /* line 113, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-exclamation-circle:before {
-  content: "";
+  content: "\f06a";
 }
 
 /* line 114, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-gift:before {
-  content: "";
+  content: "\f06b";
 }
 
 /* line 115, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-leaf:before {
-  content: "";
+  content: "\f06c";
 }
 
 /* line 116, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-fire:before {
-  content: "";
+  content: "\f06d";
 }
 
 /* line 117, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-eye:before {
-  content: "";
+  content: "\f06e";
 }
 
 /* line 118, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-eye-slash:before {
-  content: "";
+  content: "\f070";
 }
 
 /* line 119, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-warning:before,
 .fa-exclamation-triangle:before {
-  content: "";
+  content: "\f071";
 }
 
 /* line 121, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-plane:before {
-  content: "";
+  content: "\f072";
 }
 
 /* line 122, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-calendar:before {
-  content: "";
+  content: "\f073";
 }
 
 /* line 123, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-random:before {
-  content: "";
+  content: "\f074";
 }
 
 /* line 124, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-comment:before {
-  content: "";
+  content: "\f075";
 }
 
 /* line 125, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-magnet:before {
-  content: "";
+  content: "\f076";
 }
 
 /* line 126, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-chevron-up:before {
-  content: "";
+  content: "\f077";
 }
 
 /* line 127, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-chevron-down:before {
-  content: "";
+  content: "\f078";
 }
 
 /* line 128, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-retweet:before {
-  content: "";
+  content: "\f079";
 }
 
 /* line 129, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-shopping-cart:before {
-  content: "";
+  content: "\f07a";
 }
 
 /* line 130, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-folder:before {
-  content: "";
+  content: "\f07b";
 }
 
 /* line 131, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-folder-open:before {
-  content: "";
+  content: "\f07c";
 }
 
 /* line 132, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-arrows-v:before {
-  content: "";
+  content: "\f07d";
 }
 
 /* line 133, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-arrows-h:before {
-  content: "";
+  content: "\f07e";
 }
 
 /* line 134, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bar-chart-o:before,
 .fa-bar-chart:before {
-  content: "";
+  content: "\f080";
 }
 
 /* line 136, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-twitter-square:before {
-  content: "";
+  content: "\f081";
 }
 
 /* line 137, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-facebook-square:before {
-  content: "";
+  content: "\f082";
 }
 
 /* line 138, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-camera-retro:before {
-  content: "";
+  content: "\f083";
 }
 
 /* line 139, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-key:before {
-  content: "";
+  content: "\f084";
 }
 
 /* line 140, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-gears:before,
 .fa-cogs:before {
-  content: "";
+  content: "\f085";
 }
 
 /* line 142, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-comments:before {
-  content: "";
+  content: "\f086";
 }
 
 /* line 143, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-thumbs-o-up:before {
-  content: "";
+  content: "\f087";
 }
 
 /* line 144, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-thumbs-o-down:before {
-  content: "";
+  content: "\f088";
 }
 
 /* line 145, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-star-half:before {
-  content: "";
+  content: "\f089";
 }
 
 /* line 146, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-heart-o:before {
-  content: "";
+  content: "\f08a";
 }
 
 /* line 147, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-sign-out:before {
-  content: "";
+  content: "\f08b";
 }
 
 /* line 148, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-linkedin-square:before {
-  content: "";
+  content: "\f08c";
 }
 
 /* line 149, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-thumb-tack:before {
-  content: "";
+  content: "\f08d";
 }
 
 /* line 150, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-external-link:before {
-  content: "";
+  content: "\f08e";
 }
 
 /* line 151, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-sign-in:before {
-  content: "";
+  content: "\f090";
 }
 
 /* line 152, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-trophy:before {
-  content: "";
+  content: "\f091";
 }
 
 /* line 153, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-github-square:before {
-  content: "";
+  content: "\f092";
 }
 
 /* line 154, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-upload:before {
-  content: "";
+  content: "\f093";
 }
 
 /* line 155, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-lemon-o:before {
-  content: "";
+  content: "\f094";
 }
 
 /* line 156, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-phone:before {
-  content: "";
+  content: "\f095";
 }
 
 /* line 157, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-square-o:before {
-  content: "";
+  content: "\f096";
 }
 
 /* line 158, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bookmark-o:before {
-  content: "";
+  content: "\f097";
 }
 
 /* line 159, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-phone-square:before {
-  content: "";
+  content: "\f098";
 }
 
 /* line 160, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-twitter:before {
-  content: "";
+  content: "\f099";
 }
 
 /* line 161, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-facebook-f:before,
 .fa-facebook:before {
-  content: "";
+  content: "\f09a";
 }
 
 /* line 163, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-github:before {
-  content: "";
+  content: "\f09b";
 }
 
 /* line 164, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-unlock:before {
-  content: "";
+  content: "\f09c";
 }
 
 /* line 165, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-credit-card:before {
-  content: "";
+  content: "\f09d";
 }
 
 /* line 166, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-feed:before,
 .fa-rss:before {
-  content: "";
+  content: "\f09e";
 }
 
 /* line 168, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hdd-o:before {
-  content: "";
+  content: "\f0a0";
 }
 
 /* line 169, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bullhorn:before {
-  content: "";
+  content: "\f0a1";
 }
 
 /* line 170, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bell:before {
-  content: "";
+  content: "\f0f3";
 }
 
 /* line 171, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-certificate:before {
-  content: "";
+  content: "\f0a3";
 }
 
 /* line 172, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hand-o-right:before {
-  content: "";
+  content: "\f0a4";
 }
 
 /* line 173, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hand-o-left:before {
-  content: "";
+  content: "\f0a5";
 }
 
 /* line 174, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hand-o-up:before {
-  content: "";
+  content: "\f0a6";
 }
 
 /* line 175, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hand-o-down:before {
-  content: "";
+  content: "\f0a7";
 }
 
 /* line 176, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-arrow-circle-left:before {
-  content: "";
+  content: "\f0a8";
 }
 
 /* line 177, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-arrow-circle-right:before {
-  content: "";
+  content: "\f0a9";
 }
 
 /* line 178, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-arrow-circle-up:before {
-  content: "";
+  content: "\f0aa";
 }
 
 /* line 179, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-arrow-circle-down:before {
-  content: "";
+  content: "\f0ab";
 }
 
 /* line 180, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-globe:before {
-  content: "";
+  content: "\f0ac";
 }
 
 /* line 181, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-wrench:before {
-  content: "";
+  content: "\f0ad";
 }
 
 /* line 182, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-tasks:before {
-  content: "";
+  content: "\f0ae";
 }
 
 /* line 183, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-filter:before {
-  content: "";
+  content: "\f0b0";
 }
 
 /* line 184, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-briefcase:before {
-  content: "";
+  content: "\f0b1";
 }
 
 /* line 185, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-arrows-alt:before {
-  content: "";
+  content: "\f0b2";
 }
 
 /* line 186, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-group:before,
 .fa-users:before {
-  content: "";
+  content: "\f0c0";
 }
 
 /* line 188, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-chain:before,
 .fa-link:before {
-  content: "";
+  content: "\f0c1";
 }
 
 /* line 190, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cloud:before {
-  content: "";
+  content: "\f0c2";
 }
 
 /* line 191, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-flask:before {
-  content: "";
+  content: "\f0c3";
 }
 
 /* line 192, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cut:before,
 .fa-scissors:before {
-  content: "";
+  content: "\f0c4";
 }
 
 /* line 194, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-copy:before,
 .fa-files-o:before {
-  content: "";
+  content: "\f0c5";
 }
 
 /* line 196, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-paperclip:before {
-  content: "";
+  content: "\f0c6";
 }
 
 /* line 197, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-save:before,
 .fa-floppy-o:before {
-  content: "";
+  content: "\f0c7";
 }
 
 /* line 199, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-square:before {
-  content: "";
+  content: "\f0c8";
 }
 
 /* line 200, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-navicon:before,
 .fa-reorder:before,
 .fa-bars:before {
-  content: "";
+  content: "\f0c9";
 }
 
 /* line 203, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-list-ul:before {
-  content: "";
+  content: "\f0ca";
 }
 
 /* line 204, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-list-ol:before {
-  content: "";
+  content: "\f0cb";
 }
 
 /* line 205, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-strikethrough:before {
-  content: "";
+  content: "\f0cc";
 }
 
 /* line 206, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-underline:before {
-  content: "";
+  content: "\f0cd";
 }
 
 /* line 207, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-table:before {
-  content: "";
+  content: "\f0ce";
 }
 
 /* line 208, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-magic:before {
-  content: "";
+  content: "\f0d0";
 }
 
 /* line 209, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-truck:before {
-  content: "";
+  content: "\f0d1";
 }
 
 /* line 210, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-pinterest:before {
-  content: "";
+  content: "\f0d2";
 }
 
 /* line 211, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-pinterest-square:before {
-  content: "";
+  content: "\f0d3";
 }
 
 /* line 212, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-google-plus-square:before {
-  content: "";
+  content: "\f0d4";
 }
 
 /* line 213, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-google-plus:before {
-  content: "";
+  content: "\f0d5";
 }
 
 /* line 214, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-money:before {
-  content: "";
+  content: "\f0d6";
 }
 
 /* line 215, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-caret-down:before {
-  content: "";
+  content: "\f0d7";
 }
 
 /* line 216, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-caret-up:before {
-  content: "";
+  content: "\f0d8";
 }
 
 /* line 217, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-caret-left:before {
-  content: "";
+  content: "\f0d9";
 }
 
 /* line 218, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-caret-right:before {
-  content: "";
+  content: "\f0da";
 }
 
 /* line 219, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-columns:before {
-  content: "";
+  content: "\f0db";
 }
 
 /* line 220, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-unsorted:before,
 .fa-sort:before {
-  content: "";
+  content: "\f0dc";
 }
 
 /* line 222, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-sort-down:before,
 .fa-sort-desc:before {
-  content: "";
+  content: "\f0dd";
 }
 
 /* line 224, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-sort-up:before,
 .fa-sort-asc:before {
-  content: "";
+  content: "\f0de";
 }
 
 /* line 226, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-envelope:before {
-  content: "";
+  content: "\f0e0";
 }
 
 /* line 227, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-linkedin:before {
-  content: "";
+  content: "\f0e1";
 }
 
 /* line 228, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-rotate-left:before,
 .fa-undo:before {
-  content: "";
+  content: "\f0e2";
 }
 
 /* line 230, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-legal:before,
 .fa-gavel:before {
-  content: "";
+  content: "\f0e3";
 }
 
 /* line 232, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-dashboard:before,
 .fa-tachometer:before {
-  content: "";
+  content: "\f0e4";
 }
 
 /* line 234, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-comment-o:before {
-  content: "";
+  content: "\f0e5";
 }
 
 /* line 235, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-comments-o:before {
-  content: "";
+  content: "\f0e6";
 }
 
 /* line 236, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-flash:before,
 .fa-bolt:before {
-  content: "";
+  content: "\f0e7";
 }
 
 /* line 238, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-sitemap:before {
-  content: "";
+  content: "\f0e8";
 }
 
 /* line 239, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-umbrella:before {
-  content: "";
+  content: "\f0e9";
 }
 
 /* line 240, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-paste:before,
 .fa-clipboard:before {
-  content: "";
+  content: "\f0ea";
 }
 
 /* line 242, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-lightbulb-o:before {
-  content: "";
+  content: "\f0eb";
 }
 
 /* line 243, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-exchange:before {
-  content: "";
+  content: "\f0ec";
 }
 
 /* line 244, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cloud-download:before {
-  content: "";
+  content: "\f0ed";
 }
 
 /* line 245, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cloud-upload:before {
-  content: "";
+  content: "\f0ee";
 }
 
 /* line 246, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-user-md:before {
-  content: "";
+  content: "\f0f0";
 }
 
 /* line 247, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-stethoscope:before {
-  content: "";
+  content: "\f0f1";
 }
 
 /* line 248, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-suitcase:before {
-  content: "";
+  content: "\f0f2";
 }
 
 /* line 249, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bell-o:before {
-  content: "";
+  content: "\f0a2";
 }
 
 /* line 250, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-coffee:before {
-  content: "";
+  content: "\f0f4";
 }
 
 /* line 251, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cutlery:before {
-  content: "";
+  content: "\f0f5";
 }
 
 /* line 252, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-file-text-o:before {
-  content: "";
+  content: "\f0f6";
 }
 
 /* line 253, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-building-o:before {
-  content: "";
+  content: "\f0f7";
 }
 
 /* line 254, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hospital-o:before {
-  content: "";
+  content: "\f0f8";
 }
 
 /* line 255, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-ambulance:before {
-  content: "";
+  content: "\f0f9";
 }
 
 /* line 256, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-medkit:before {
-  content: "";
+  content: "\f0fa";
 }
 
 /* line 257, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-fighter-jet:before {
-  content: "";
+  content: "\f0fb";
 }
 
 /* line 258, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-beer:before {
-  content: "";
+  content: "\f0fc";
 }
 
 /* line 259, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-h-square:before {
-  content: "";
+  content: "\f0fd";
 }
 
 /* line 260, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-plus-square:before {
-  content: "";
+  content: "\f0fe";
 }
 
 /* line 261, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-angle-double-left:before {
-  content: "";
+  content: "\f100";
 }
 
 /* line 262, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-angle-double-right:before {
-  content: "";
+  content: "\f101";
 }
 
 /* line 263, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-angle-double-up:before {
-  content: "";
+  content: "\f102";
 }
 
 /* line 264, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-angle-double-down:before {
-  content: "";
+  content: "\f103";
 }
 
 /* line 265, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-angle-left:before, .block.block--funding-priorities .slider-button.slider-prev:before {
-  content: "";
+  content: "\f104";
 }
 
 /* line 266, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-angle-right:before, .block.block--funding-priorities .slider-button.slider-next:before {
-  content: "";
+  content: "\f105";
 }
 
 /* line 267, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-angle-up:before {
-  content: "";
+  content: "\f106";
 }
 
 /* line 268, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-angle-down:before {
-  content: "";
+  content: "\f107";
 }
 
 /* line 269, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-desktop:before {
-  content: "";
+  content: "\f108";
 }
 
 /* line 270, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-laptop:before {
-  content: "";
+  content: "\f109";
 }
 
 /* line 271, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-tablet:before {
-  content: "";
+  content: "\f10a";
 }
 
 /* line 272, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-mobile-phone:before,
 .fa-mobile:before {
-  content: "";
+  content: "\f10b";
 }
 
 /* line 274, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-circle-o:before {
-  content: "";
+  content: "\f10c";
 }
 
 /* line 275, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-quote-left:before {
-  content: "";
+  content: "\f10d";
 }
 
 /* line 276, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-quote-right:before {
-  content: "";
+  content: "\f10e";
 }
 
 /* line 277, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-spinner:before {
-  content: "";
+  content: "\f110";
 }
 
 /* line 278, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-circle:before {
-  content: "";
+  content: "\f111";
 }
 
 /* line 279, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-mail-reply:before,
 .fa-reply:before {
-  content: "";
+  content: "\f112";
 }
 
 /* line 281, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-github-alt:before {
-  content: "";
+  content: "\f113";
 }
 
 /* line 282, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-folder-o:before {
-  content: "";
+  content: "\f114";
 }
 
 /* line 283, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-folder-open-o:before {
-  content: "";
+  content: "\f115";
 }
 
 /* line 284, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-smile-o:before {
-  content: "";
+  content: "\f118";
 }
 
 /* line 285, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-frown-o:before {
-  content: "";
+  content: "\f119";
 }
 
 /* line 286, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-meh-o:before {
-  content: "";
+  content: "\f11a";
 }
 
 /* line 287, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-gamepad:before {
-  content: "";
+  content: "\f11b";
 }
 
 /* line 288, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-keyboard-o:before {
-  content: "";
+  content: "\f11c";
 }
 
 /* line 289, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-flag-o:before {
-  content: "";
+  content: "\f11d";
 }
 
 /* line 290, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-flag-checkered:before {
-  content: "";
+  content: "\f11e";
 }
 
 /* line 291, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-terminal:before {
-  content: "";
+  content: "\f120";
 }
 
 /* line 292, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-code:before {
-  content: "";
+  content: "\f121";
 }
 
 /* line 293, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-mail-reply-all:before,
 .fa-reply-all:before {
-  content: "";
+  content: "\f122";
 }
 
 /* line 295, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-star-half-empty:before,
 .fa-star-half-full:before,
 .fa-star-half-o:before {
-  content: "";
+  content: "\f123";
 }
 
 /* line 298, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-location-arrow:before {
-  content: "";
+  content: "\f124";
 }
 
 /* line 299, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-crop:before {
-  content: "";
+  content: "\f125";
 }
 
 /* line 300, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-code-fork:before {
-  content: "";
+  content: "\f126";
 }
 
 /* line 301, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-unlink:before,
 .fa-chain-broken:before {
-  content: "";
+  content: "\f127";
 }
 
 /* line 303, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-question:before {
-  content: "";
+  content: "\f128";
 }
 
 /* line 304, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-info:before {
-  content: "";
+  content: "\f129";
 }
 
 /* line 305, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-exclamation:before {
-  content: "";
+  content: "\f12a";
 }
 
 /* line 306, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-superscript:before {
-  content: "";
+  content: "\f12b";
 }
 
 /* line 307, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-subscript:before {
-  content: "";
+  content: "\f12c";
 }
 
 /* line 308, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-eraser:before {
-  content: "";
+  content: "\f12d";
 }
 
 /* line 309, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-puzzle-piece:before {
-  content: "";
+  content: "\f12e";
 }
 
 /* line 310, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-microphone:before {
-  content: "";
+  content: "\f130";
 }
 
 /* line 311, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-microphone-slash:before {
-  content: "";
+  content: "\f131";
 }
 
 /* line 312, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-shield:before {
-  content: "";
+  content: "\f132";
 }
 
 /* line 313, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-calendar-o:before {
-  content: "";
+  content: "\f133";
 }
 
 /* line 314, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-fire-extinguisher:before {
-  content: "";
+  content: "\f134";
 }
 
 /* line 315, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-rocket:before {
-  content: "";
+  content: "\f135";
 }
 
 /* line 316, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-maxcdn:before {
-  content: "";
+  content: "\f136";
 }
 
 /* line 317, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-chevron-circle-left:before {
-  content: "";
+  content: "\f137";
 }
 
 /* line 318, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-chevron-circle-right:before {
-  content: "";
+  content: "\f138";
 }
 
 /* line 319, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-chevron-circle-up:before {
-  content: "";
+  content: "\f139";
 }
 
 /* line 320, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-chevron-circle-down:before {
-  content: "";
+  content: "\f13a";
 }
 
 /* line 321, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-html5:before {
-  content: "";
+  content: "\f13b";
 }
 
 /* line 322, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-css3:before {
-  content: "";
+  content: "\f13c";
 }
 
 /* line 323, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-anchor:before {
-  content: "";
+  content: "\f13d";
 }
 
 /* line 324, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-unlock-alt:before {
-  content: "";
+  content: "\f13e";
 }
 
 /* line 325, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bullseye:before {
-  content: "";
+  content: "\f140";
 }
 
 /* line 326, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-ellipsis-h:before {
-  content: "";
+  content: "\f141";
 }
 
 /* line 327, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-ellipsis-v:before {
-  content: "";
+  content: "\f142";
 }
 
 /* line 328, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-rss-square:before {
-  content: "";
+  content: "\f143";
 }
 
 /* line 329, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-play-circle:before {
-  content: "";
+  content: "\f144";
 }
 
 /* line 330, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-ticket:before {
-  content: "";
+  content: "\f145";
 }
 
 /* line 331, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-minus-square:before {
-  content: "";
+  content: "\f146";
 }
 
 /* line 332, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-minus-square-o:before {
-  content: "";
+  content: "\f147";
 }
 
 /* line 333, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-level-up:before {
-  content: "";
+  content: "\f148";
 }
 
 /* line 334, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-level-down:before {
-  content: "";
+  content: "\f149";
 }
 
 /* line 335, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-check-square:before {
-  content: "";
+  content: "\f14a";
 }
 
 /* line 336, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-pencil-square:before {
-  content: "";
+  content: "\f14b";
 }
 
 /* line 337, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-external-link-square:before {
-  content: "";
+  content: "\f14c";
 }
 
 /* line 338, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-share-square:before {
-  content: "";
+  content: "\f14d";
 }
 
 /* line 339, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-compass:before {
-  content: "";
+  content: "\f14e";
 }
 
 /* line 340, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-toggle-down:before,
 .fa-caret-square-o-down:before {
-  content: "";
+  content: "\f150";
 }
 
 /* line 342, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-toggle-up:before,
 .fa-caret-square-o-up:before {
-  content: "";
+  content: "\f151";
 }
 
 /* line 344, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-toggle-right:before,
 .fa-caret-square-o-right:before {
-  content: "";
+  content: "\f152";
 }
 
 /* line 346, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-euro:before,
 .fa-eur:before {
-  content: "";
+  content: "\f153";
 }
 
 /* line 348, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-gbp:before {
-  content: "";
+  content: "\f154";
 }
 
 /* line 349, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-dollar:before,
 .fa-usd:before {
-  content: "";
+  content: "\f155";
 }
 
 /* line 351, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-rupee:before,
 .fa-inr:before {
-  content: "";
+  content: "\f156";
 }
 
 /* line 353, ../bower_components/font-awesome/scss/_icons.scss */
@@ -1834,574 +1839,574 @@ All styles that are imported here will be compiled into css/style.css
 .fa-rmb:before,
 .fa-yen:before,
 .fa-jpy:before {
-  content: "";
+  content: "\f157";
 }
 
 /* line 357, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-ruble:before,
 .fa-rouble:before,
 .fa-rub:before {
-  content: "";
+  content: "\f158";
 }
 
 /* line 360, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-won:before,
 .fa-krw:before {
-  content: "";
+  content: "\f159";
 }
 
 /* line 362, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bitcoin:before,
 .fa-btc:before {
-  content: "";
+  content: "\f15a";
 }
 
 /* line 364, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-file:before {
-  content: "";
+  content: "\f15b";
 }
 
 /* line 365, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-file-text:before {
-  content: "";
+  content: "\f15c";
 }
 
 /* line 366, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-sort-alpha-asc:before {
-  content: "";
+  content: "\f15d";
 }
 
 /* line 367, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-sort-alpha-desc:before {
-  content: "";
+  content: "\f15e";
 }
 
 /* line 368, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-sort-amount-asc:before {
-  content: "";
+  content: "\f160";
 }
 
 /* line 369, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-sort-amount-desc:before {
-  content: "";
+  content: "\f161";
 }
 
 /* line 370, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-sort-numeric-asc:before {
-  content: "";
+  content: "\f162";
 }
 
 /* line 371, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-sort-numeric-desc:before {
-  content: "";
+  content: "\f163";
 }
 
 /* line 372, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-thumbs-up:before {
-  content: "";
+  content: "\f164";
 }
 
 /* line 373, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-thumbs-down:before {
-  content: "";
+  content: "\f165";
 }
 
 /* line 374, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-youtube-square:before {
-  content: "";
+  content: "\f166";
 }
 
 /* line 375, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-youtube:before {
-  content: "";
+  content: "\f167";
 }
 
 /* line 376, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-xing:before {
-  content: "";
+  content: "\f168";
 }
 
 /* line 377, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-xing-square:before {
-  content: "";
+  content: "\f169";
 }
 
 /* line 378, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-youtube-play:before {
-  content: "";
+  content: "\f16a";
 }
 
 /* line 379, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-dropbox:before {
-  content: "";
+  content: "\f16b";
 }
 
 /* line 380, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-stack-overflow:before {
-  content: "";
+  content: "\f16c";
 }
 
 /* line 381, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-instagram:before {
-  content: "";
+  content: "\f16d";
 }
 
 /* line 382, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-flickr:before {
-  content: "";
+  content: "\f16e";
 }
 
 /* line 383, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-adn:before {
-  content: "";
+  content: "\f170";
 }
 
 /* line 384, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bitbucket:before {
-  content: "";
+  content: "\f171";
 }
 
 /* line 385, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bitbucket-square:before {
-  content: "";
+  content: "\f172";
 }
 
 /* line 386, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-tumblr:before {
-  content: "";
+  content: "\f173";
 }
 
 /* line 387, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-tumblr-square:before {
-  content: "";
+  content: "\f174";
 }
 
 /* line 388, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-long-arrow-down:before {
-  content: "";
+  content: "\f175";
 }
 
 /* line 389, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-long-arrow-up:before {
-  content: "";
+  content: "\f176";
 }
 
 /* line 390, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-long-arrow-left:before {
-  content: "";
+  content: "\f177";
 }
 
 /* line 391, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-long-arrow-right:before {
-  content: "";
+  content: "\f178";
 }
 
 /* line 392, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-apple:before {
-  content: "";
+  content: "\f179";
 }
 
 /* line 393, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-windows:before {
-  content: "";
+  content: "\f17a";
 }
 
 /* line 394, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-android:before {
-  content: "";
+  content: "\f17b";
 }
 
 /* line 395, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-linux:before {
-  content: "";
+  content: "\f17c";
 }
 
 /* line 396, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-dribbble:before {
-  content: "";
+  content: "\f17d";
 }
 
 /* line 397, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-skype:before {
-  content: "";
+  content: "\f17e";
 }
 
 /* line 398, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-foursquare:before {
-  content: "";
+  content: "\f180";
 }
 
 /* line 399, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-trello:before {
-  content: "";
+  content: "\f181";
 }
 
 /* line 400, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-female:before {
-  content: "";
+  content: "\f182";
 }
 
 /* line 401, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-male:before {
-  content: "";
+  content: "\f183";
 }
 
 /* line 402, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-gittip:before,
 .fa-gratipay:before {
-  content: "";
+  content: "\f184";
 }
 
 /* line 404, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-sun-o:before {
-  content: "";
+  content: "\f185";
 }
 
 /* line 405, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-moon-o:before {
-  content: "";
+  content: "\f186";
 }
 
 /* line 406, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-archive:before {
-  content: "";
+  content: "\f187";
 }
 
 /* line 407, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bug:before {
-  content: "";
+  content: "\f188";
 }
 
 /* line 408, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-vk:before {
-  content: "";
+  content: "\f189";
 }
 
 /* line 409, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-weibo:before {
-  content: "";
+  content: "\f18a";
 }
 
 /* line 410, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-renren:before {
-  content: "";
+  content: "\f18b";
 }
 
 /* line 411, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-pagelines:before {
-  content: "";
+  content: "\f18c";
 }
 
 /* line 412, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-stack-exchange:before {
-  content: "";
+  content: "\f18d";
 }
 
 /* line 413, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-arrow-circle-o-right:before {
-  content: "";
+  content: "\f18e";
 }
 
 /* line 414, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-arrow-circle-o-left:before {
-  content: "";
+  content: "\f190";
 }
 
 /* line 415, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-toggle-left:before,
 .fa-caret-square-o-left:before {
-  content: "";
+  content: "\f191";
 }
 
 /* line 417, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-dot-circle-o:before {
-  content: "";
+  content: "\f192";
 }
 
 /* line 418, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-wheelchair:before {
-  content: "";
+  content: "\f193";
 }
 
 /* line 419, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-vimeo-square:before {
-  content: "";
+  content: "\f194";
 }
 
 /* line 420, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-turkish-lira:before,
 .fa-try:before {
-  content: "";
+  content: "\f195";
 }
 
 /* line 422, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-plus-square-o:before {
-  content: "";
+  content: "\f196";
 }
 
 /* line 423, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-space-shuttle:before {
-  content: "";
+  content: "\f197";
 }
 
 /* line 424, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-slack:before {
-  content: "";
+  content: "\f198";
 }
 
 /* line 425, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-envelope-square:before {
-  content: "";
+  content: "\f199";
 }
 
 /* line 426, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-wordpress:before {
-  content: "";
+  content: "\f19a";
 }
 
 /* line 427, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-openid:before {
-  content: "";
+  content: "\f19b";
 }
 
 /* line 428, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-institution:before,
 .fa-bank:before,
 .fa-university:before {
-  content: "";
+  content: "\f19c";
 }
 
 /* line 431, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-mortar-board:before,
 .fa-graduation-cap:before {
-  content: "";
+  content: "\f19d";
 }
 
 /* line 433, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-yahoo:before {
-  content: "";
+  content: "\f19e";
 }
 
 /* line 434, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-google:before {
-  content: "";
+  content: "\f1a0";
 }
 
 /* line 435, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-reddit:before {
-  content: "";
+  content: "\f1a1";
 }
 
 /* line 436, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-reddit-square:before {
-  content: "";
+  content: "\f1a2";
 }
 
 /* line 437, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-stumbleupon-circle:before {
-  content: "";
+  content: "\f1a3";
 }
 
 /* line 438, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-stumbleupon:before {
-  content: "";
+  content: "\f1a4";
 }
 
 /* line 439, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-delicious:before {
-  content: "";
+  content: "\f1a5";
 }
 
 /* line 440, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-digg:before {
-  content: "";
+  content: "\f1a6";
 }
 
 /* line 441, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-pied-piper-pp:before {
-  content: "";
+  content: "\f1a7";
 }
 
 /* line 442, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-pied-piper-alt:before {
-  content: "";
+  content: "\f1a8";
 }
 
 /* line 443, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-drupal:before {
-  content: "";
+  content: "\f1a9";
 }
 
 /* line 444, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-joomla:before {
-  content: "";
+  content: "\f1aa";
 }
 
 /* line 445, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-language:before {
-  content: "";
+  content: "\f1ab";
 }
 
 /* line 446, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-fax:before {
-  content: "";
+  content: "\f1ac";
 }
 
 /* line 447, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-building:before {
-  content: "";
+  content: "\f1ad";
 }
 
 /* line 448, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-child:before {
-  content: "";
+  content: "\f1ae";
 }
 
 /* line 449, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-paw:before {
-  content: "";
+  content: "\f1b0";
 }
 
 /* line 450, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-spoon:before {
-  content: "";
+  content: "\f1b1";
 }
 
 /* line 451, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cube:before {
-  content: "";
+  content: "\f1b2";
 }
 
 /* line 452, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cubes:before {
-  content: "";
+  content: "\f1b3";
 }
 
 /* line 453, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-behance:before {
-  content: "";
+  content: "\f1b4";
 }
 
 /* line 454, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-behance-square:before {
-  content: "";
+  content: "\f1b5";
 }
 
 /* line 455, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-steam:before {
-  content: "";
+  content: "\f1b6";
 }
 
 /* line 456, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-steam-square:before {
-  content: "";
+  content: "\f1b7";
 }
 
 /* line 457, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-recycle:before {
-  content: "";
+  content: "\f1b8";
 }
 
 /* line 458, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-automobile:before,
 .fa-car:before {
-  content: "";
+  content: "\f1b9";
 }
 
 /* line 460, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cab:before,
 .fa-taxi:before {
-  content: "";
+  content: "\f1ba";
 }
 
 /* line 462, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-tree:before {
-  content: "";
+  content: "\f1bb";
 }
 
 /* line 463, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-spotify:before {
-  content: "";
+  content: "\f1bc";
 }
 
 /* line 464, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-deviantart:before {
-  content: "";
+  content: "\f1bd";
 }
 
 /* line 465, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-soundcloud:before {
-  content: "";
+  content: "\f1be";
 }
 
 /* line 466, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-database:before {
-  content: "";
+  content: "\f1c0";
 }
 
 /* line 467, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-file-pdf-o:before {
-  content: "";
+  content: "\f1c1";
 }
 
 /* line 468, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-file-word-o:before {
-  content: "";
+  content: "\f1c2";
 }
 
 /* line 469, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-file-excel-o:before {
-  content: "";
+  content: "\f1c3";
 }
 
 /* line 470, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-file-powerpoint-o:before {
-  content: "";
+  content: "\f1c4";
 }
 
 /* line 471, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-file-photo-o:before,
 .fa-file-picture-o:before,
 .fa-file-image-o:before {
-  content: "";
+  content: "\f1c5";
 }
 
 /* line 474, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-file-zip-o:before,
 .fa-file-archive-o:before {
-  content: "";
+  content: "\f1c6";
 }
 
 /* line 476, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-file-sound-o:before,
 .fa-file-audio-o:before {
-  content: "";
+  content: "\f1c7";
 }
 
 /* line 478, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-file-movie-o:before,
 .fa-file-video-o:before {
-  content: "";
+  content: "\f1c8";
 }
 
 /* line 480, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-file-code-o:before {
-  content: "";
+  content: "\f1c9";
 }
 
 /* line 481, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-vine:before {
-  content: "";
+  content: "\f1ca";
 }
 
 /* line 482, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-codepen:before {
-  content: "";
+  content: "\f1cb";
 }
 
 /* line 483, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-jsfiddle:before {
-  content: "";
+  content: "\f1cc";
 }
 
 /* line 484, ../bower_components/font-awesome/scss/_icons.scss */
@@ -2410,1108 +2415,1108 @@ All styles that are imported here will be compiled into css/style.css
 .fa-life-saver:before,
 .fa-support:before,
 .fa-life-ring:before {
-  content: "";
+  content: "\f1cd";
 }
 
 /* line 489, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-circle-o-notch:before {
-  content: "";
+  content: "\f1ce";
 }
 
 /* line 490, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-ra:before,
 .fa-resistance:before,
 .fa-rebel:before {
-  content: "";
+  content: "\f1d0";
 }
 
 /* line 493, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-ge:before,
 .fa-empire:before {
-  content: "";
+  content: "\f1d1";
 }
 
 /* line 495, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-git-square:before {
-  content: "";
+  content: "\f1d2";
 }
 
 /* line 496, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-git:before {
-  content: "";
+  content: "\f1d3";
 }
 
 /* line 497, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-y-combinator-square:before,
 .fa-yc-square:before,
 .fa-hacker-news:before {
-  content: "";
+  content: "\f1d4";
 }
 
 /* line 500, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-tencent-weibo:before {
-  content: "";
+  content: "\f1d5";
 }
 
 /* line 501, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-qq:before {
-  content: "";
+  content: "\f1d6";
 }
 
 /* line 502, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-wechat:before,
 .fa-weixin:before {
-  content: "";
+  content: "\f1d7";
 }
 
 /* line 504, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-send:before,
 .fa-paper-plane:before {
-  content: "";
+  content: "\f1d8";
 }
 
 /* line 506, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-send-o:before,
 .fa-paper-plane-o:before {
-  content: "";
+  content: "\f1d9";
 }
 
 /* line 508, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-history:before {
-  content: "";
+  content: "\f1da";
 }
 
 /* line 509, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-circle-thin:before {
-  content: "";
+  content: "\f1db";
 }
 
 /* line 510, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-header:before {
-  content: "";
+  content: "\f1dc";
 }
 
 /* line 511, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-paragraph:before {
-  content: "";
+  content: "\f1dd";
 }
 
 /* line 512, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-sliders:before {
-  content: "";
+  content: "\f1de";
 }
 
 /* line 513, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-share-alt:before {
-  content: "";
+  content: "\f1e0";
 }
 
 /* line 514, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-share-alt-square:before {
-  content: "";
+  content: "\f1e1";
 }
 
 /* line 515, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bomb:before {
-  content: "";
+  content: "\f1e2";
 }
 
 /* line 516, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-soccer-ball-o:before,
 .fa-futbol-o:before {
-  content: "";
+  content: "\f1e3";
 }
 
 /* line 518, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-tty:before {
-  content: "";
+  content: "\f1e4";
 }
 
 /* line 519, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-binoculars:before {
-  content: "";
+  content: "\f1e5";
 }
 
 /* line 520, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-plug:before {
-  content: "";
+  content: "\f1e6";
 }
 
 /* line 521, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-slideshare:before {
-  content: "";
+  content: "\f1e7";
 }
 
 /* line 522, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-twitch:before {
-  content: "";
+  content: "\f1e8";
 }
 
 /* line 523, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-yelp:before {
-  content: "";
+  content: "\f1e9";
 }
 
 /* line 524, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-newspaper-o:before {
-  content: "";
+  content: "\f1ea";
 }
 
 /* line 525, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-wifi:before {
-  content: "";
+  content: "\f1eb";
 }
 
 /* line 526, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-calculator:before {
-  content: "";
+  content: "\f1ec";
 }
 
 /* line 527, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-paypal:before {
-  content: "";
+  content: "\f1ed";
 }
 
 /* line 528, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-google-wallet:before {
-  content: "";
+  content: "\f1ee";
 }
 
 /* line 529, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cc-visa:before {
-  content: "";
+  content: "\f1f0";
 }
 
 /* line 530, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cc-mastercard:before {
-  content: "";
+  content: "\f1f1";
 }
 
 /* line 531, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cc-discover:before {
-  content: "";
+  content: "\f1f2";
 }
 
 /* line 532, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cc-amex:before {
-  content: "";
+  content: "\f1f3";
 }
 
 /* line 533, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cc-paypal:before {
-  content: "";
+  content: "\f1f4";
 }
 
 /* line 534, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cc-stripe:before {
-  content: "";
+  content: "\f1f5";
 }
 
 /* line 535, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bell-slash:before {
-  content: "";
+  content: "\f1f6";
 }
 
 /* line 536, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bell-slash-o:before {
-  content: "";
+  content: "\f1f7";
 }
 
 /* line 537, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-trash:before {
-  content: "";
+  content: "\f1f8";
 }
 
 /* line 538, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-copyright:before {
-  content: "";
+  content: "\f1f9";
 }
 
 /* line 539, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-at:before {
-  content: "";
+  content: "\f1fa";
 }
 
 /* line 540, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-eyedropper:before {
-  content: "";
+  content: "\f1fb";
 }
 
 /* line 541, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-paint-brush:before {
-  content: "";
+  content: "\f1fc";
 }
 
 /* line 542, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-birthday-cake:before {
-  content: "";
+  content: "\f1fd";
 }
 
 /* line 543, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-area-chart:before {
-  content: "";
+  content: "\f1fe";
 }
 
 /* line 544, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-pie-chart:before {
-  content: "";
+  content: "\f200";
 }
 
 /* line 545, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-line-chart:before {
-  content: "";
+  content: "\f201";
 }
 
 /* line 546, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-lastfm:before {
-  content: "";
+  content: "\f202";
 }
 
 /* line 547, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-lastfm-square:before {
-  content: "";
+  content: "\f203";
 }
 
 /* line 548, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-toggle-off:before {
-  content: "";
+  content: "\f204";
 }
 
 /* line 549, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-toggle-on:before {
-  content: "";
+  content: "\f205";
 }
 
 /* line 550, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bicycle:before {
-  content: "";
+  content: "\f206";
 }
 
 /* line 551, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bus:before {
-  content: "";
+  content: "\f207";
 }
 
 /* line 552, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-ioxhost:before {
-  content: "";
+  content: "\f208";
 }
 
 /* line 553, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-angellist:before {
-  content: "";
+  content: "\f209";
 }
 
 /* line 554, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cc:before {
-  content: "";
+  content: "\f20a";
 }
 
 /* line 555, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-shekel:before,
 .fa-sheqel:before,
 .fa-ils:before {
-  content: "";
+  content: "\f20b";
 }
 
 /* line 558, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-meanpath:before {
-  content: "";
+  content: "\f20c";
 }
 
 /* line 559, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-buysellads:before {
-  content: "";
+  content: "\f20d";
 }
 
 /* line 560, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-connectdevelop:before {
-  content: "";
+  content: "\f20e";
 }
 
 /* line 561, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-dashcube:before {
-  content: "";
+  content: "\f210";
 }
 
 /* line 562, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-forumbee:before {
-  content: "";
+  content: "\f211";
 }
 
 /* line 563, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-leanpub:before {
-  content: "";
+  content: "\f212";
 }
 
 /* line 564, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-sellsy:before {
-  content: "";
+  content: "\f213";
 }
 
 /* line 565, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-shirtsinbulk:before {
-  content: "";
+  content: "\f214";
 }
 
 /* line 566, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-simplybuilt:before {
-  content: "";
+  content: "\f215";
 }
 
 /* line 567, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-skyatlas:before {
-  content: "";
+  content: "\f216";
 }
 
 /* line 568, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cart-plus:before {
-  content: "";
+  content: "\f217";
 }
 
 /* line 569, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cart-arrow-down:before {
-  content: "";
+  content: "\f218";
 }
 
 /* line 570, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-diamond:before {
-  content: "";
+  content: "\f219";
 }
 
 /* line 571, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-ship:before {
-  content: "";
+  content: "\f21a";
 }
 
 /* line 572, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-user-secret:before {
-  content: "";
+  content: "\f21b";
 }
 
 /* line 573, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-motorcycle:before {
-  content: "";
+  content: "\f21c";
 }
 
 /* line 574, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-street-view:before {
-  content: "";
+  content: "\f21d";
 }
 
 /* line 575, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-heartbeat:before {
-  content: "";
+  content: "\f21e";
 }
 
 /* line 576, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-venus:before {
-  content: "";
+  content: "\f221";
 }
 
 /* line 577, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-mars:before {
-  content: "";
+  content: "\f222";
 }
 
 /* line 578, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-mercury:before {
-  content: "";
+  content: "\f223";
 }
 
 /* line 579, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-intersex:before,
 .fa-transgender:before {
-  content: "";
+  content: "\f224";
 }
 
 /* line 581, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-transgender-alt:before {
-  content: "";
+  content: "\f225";
 }
 
 /* line 582, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-venus-double:before {
-  content: "";
+  content: "\f226";
 }
 
 /* line 583, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-mars-double:before {
-  content: "";
+  content: "\f227";
 }
 
 /* line 584, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-venus-mars:before {
-  content: "";
+  content: "\f228";
 }
 
 /* line 585, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-mars-stroke:before {
-  content: "";
+  content: "\f229";
 }
 
 /* line 586, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-mars-stroke-v:before {
-  content: "";
+  content: "\f22a";
 }
 
 /* line 587, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-mars-stroke-h:before {
-  content: "";
+  content: "\f22b";
 }
 
 /* line 588, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-neuter:before {
-  content: "";
+  content: "\f22c";
 }
 
 /* line 589, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-genderless:before {
-  content: "";
+  content: "\f22d";
 }
 
 /* line 590, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-facebook-official:before {
-  content: "";
+  content: "\f230";
 }
 
 /* line 591, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-pinterest-p:before {
-  content: "";
+  content: "\f231";
 }
 
 /* line 592, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-whatsapp:before {
-  content: "";
+  content: "\f232";
 }
 
 /* line 593, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-server:before {
-  content: "";
+  content: "\f233";
 }
 
 /* line 594, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-user-plus:before {
-  content: "";
+  content: "\f234";
 }
 
 /* line 595, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-user-times:before {
-  content: "";
+  content: "\f235";
 }
 
 /* line 596, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hotel:before,
 .fa-bed:before {
-  content: "";
+  content: "\f236";
 }
 
 /* line 598, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-viacoin:before {
-  content: "";
+  content: "\f237";
 }
 
 /* line 599, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-train:before {
-  content: "";
+  content: "\f238";
 }
 
 /* line 600, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-subway:before {
-  content: "";
+  content: "\f239";
 }
 
 /* line 601, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-medium:before {
-  content: "";
+  content: "\f23a";
 }
 
 /* line 602, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-yc:before,
 .fa-y-combinator:before {
-  content: "";
+  content: "\f23b";
 }
 
 /* line 604, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-optin-monster:before {
-  content: "";
+  content: "\f23c";
 }
 
 /* line 605, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-opencart:before {
-  content: "";
+  content: "\f23d";
 }
 
 /* line 606, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-expeditedssl:before {
-  content: "";
+  content: "\f23e";
 }
 
 /* line 607, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-battery-4:before,
 .fa-battery-full:before {
-  content: "";
+  content: "\f240";
 }
 
 /* line 609, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-battery-3:before,
 .fa-battery-three-quarters:before {
-  content: "";
+  content: "\f241";
 }
 
 /* line 611, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-battery-2:before,
 .fa-battery-half:before {
-  content: "";
+  content: "\f242";
 }
 
 /* line 613, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-battery-1:before,
 .fa-battery-quarter:before {
-  content: "";
+  content: "\f243";
 }
 
 /* line 615, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-battery-0:before,
 .fa-battery-empty:before {
-  content: "";
+  content: "\f244";
 }
 
 /* line 617, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-mouse-pointer:before {
-  content: "";
+  content: "\f245";
 }
 
 /* line 618, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-i-cursor:before {
-  content: "";
+  content: "\f246";
 }
 
 /* line 619, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-object-group:before {
-  content: "";
+  content: "\f247";
 }
 
 /* line 620, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-object-ungroup:before {
-  content: "";
+  content: "\f248";
 }
 
 /* line 621, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-sticky-note:before {
-  content: "";
+  content: "\f249";
 }
 
 /* line 622, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-sticky-note-o:before {
-  content: "";
+  content: "\f24a";
 }
 
 /* line 623, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cc-jcb:before {
-  content: "";
+  content: "\f24b";
 }
 
 /* line 624, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cc-diners-club:before {
-  content: "";
+  content: "\f24c";
 }
 
 /* line 625, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-clone:before {
-  content: "";
+  content: "\f24d";
 }
 
 /* line 626, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-balance-scale:before {
-  content: "";
+  content: "\f24e";
 }
 
 /* line 627, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hourglass-o:before {
-  content: "";
+  content: "\f250";
 }
 
 /* line 628, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hourglass-1:before,
 .fa-hourglass-start:before {
-  content: "";
+  content: "\f251";
 }
 
 /* line 630, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hourglass-2:before,
 .fa-hourglass-half:before {
-  content: "";
+  content: "\f252";
 }
 
 /* line 632, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hourglass-3:before,
 .fa-hourglass-end:before {
-  content: "";
+  content: "\f253";
 }
 
 /* line 634, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hourglass:before {
-  content: "";
+  content: "\f254";
 }
 
 /* line 635, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hand-grab-o:before,
 .fa-hand-rock-o:before {
-  content: "";
+  content: "\f255";
 }
 
 /* line 637, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hand-stop-o:before,
 .fa-hand-paper-o:before {
-  content: "";
+  content: "\f256";
 }
 
 /* line 639, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hand-scissors-o:before {
-  content: "";
+  content: "\f257";
 }
 
 /* line 640, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hand-lizard-o:before {
-  content: "";
+  content: "\f258";
 }
 
 /* line 641, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hand-spock-o:before {
-  content: "";
+  content: "\f259";
 }
 
 /* line 642, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hand-pointer-o:before {
-  content: "";
+  content: "\f25a";
 }
 
 /* line 643, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hand-peace-o:before {
-  content: "";
+  content: "\f25b";
 }
 
 /* line 644, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-trademark:before {
-  content: "";
+  content: "\f25c";
 }
 
 /* line 645, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-registered:before {
-  content: "";
+  content: "\f25d";
 }
 
 /* line 646, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-creative-commons:before {
-  content: "";
+  content: "\f25e";
 }
 
 /* line 647, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-gg:before {
-  content: "";
+  content: "\f260";
 }
 
 /* line 648, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-gg-circle:before {
-  content: "";
+  content: "\f261";
 }
 
 /* line 649, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-tripadvisor:before {
-  content: "";
+  content: "\f262";
 }
 
 /* line 650, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-odnoklassniki:before {
-  content: "";
+  content: "\f263";
 }
 
 /* line 651, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-odnoklassniki-square:before {
-  content: "";
+  content: "\f264";
 }
 
 /* line 652, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-get-pocket:before {
-  content: "";
+  content: "\f265";
 }
 
 /* line 653, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-wikipedia-w:before {
-  content: "";
+  content: "\f266";
 }
 
 /* line 654, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-safari:before {
-  content: "";
+  content: "\f267";
 }
 
 /* line 655, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-chrome:before {
-  content: "";
+  content: "\f268";
 }
 
 /* line 656, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-firefox:before {
-  content: "";
+  content: "\f269";
 }
 
 /* line 657, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-opera:before {
-  content: "";
+  content: "\f26a";
 }
 
 /* line 658, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-internet-explorer:before {
-  content: "";
+  content: "\f26b";
 }
 
 /* line 659, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-tv:before,
 .fa-television:before {
-  content: "";
+  content: "\f26c";
 }
 
 /* line 661, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-contao:before {
-  content: "";
+  content: "\f26d";
 }
 
 /* line 662, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-500px:before {
-  content: "";
+  content: "\f26e";
 }
 
 /* line 663, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-amazon:before {
-  content: "";
+  content: "\f270";
 }
 
 /* line 664, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-calendar-plus-o:before {
-  content: "";
+  content: "\f271";
 }
 
 /* line 665, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-calendar-minus-o:before {
-  content: "";
+  content: "\f272";
 }
 
 /* line 666, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-calendar-times-o:before {
-  content: "";
+  content: "\f273";
 }
 
 /* line 667, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-calendar-check-o:before {
-  content: "";
+  content: "\f274";
 }
 
 /* line 668, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-industry:before {
-  content: "";
+  content: "\f275";
 }
 
 /* line 669, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-map-pin:before {
-  content: "";
+  content: "\f276";
 }
 
 /* line 670, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-map-signs:before {
-  content: "";
+  content: "\f277";
 }
 
 /* line 671, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-map-o:before {
-  content: "";
+  content: "\f278";
 }
 
 /* line 672, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-map:before {
-  content: "";
+  content: "\f279";
 }
 
 /* line 673, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-commenting:before {
-  content: "";
+  content: "\f27a";
 }
 
 /* line 674, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-commenting-o:before {
-  content: "";
+  content: "\f27b";
 }
 
 /* line 675, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-houzz:before {
-  content: "";
+  content: "\f27c";
 }
 
 /* line 676, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-vimeo:before {
-  content: "";
+  content: "\f27d";
 }
 
 /* line 677, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-black-tie:before {
-  content: "";
+  content: "\f27e";
 }
 
 /* line 678, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-fonticons:before {
-  content: "";
+  content: "\f280";
 }
 
 /* line 679, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-reddit-alien:before {
-  content: "";
+  content: "\f281";
 }
 
 /* line 680, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-edge:before {
-  content: "";
+  content: "\f282";
 }
 
 /* line 681, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-credit-card-alt:before {
-  content: "";
+  content: "\f283";
 }
 
 /* line 682, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-codiepie:before {
-  content: "";
+  content: "\f284";
 }
 
 /* line 683, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-modx:before {
-  content: "";
+  content: "\f285";
 }
 
 /* line 684, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-fort-awesome:before {
-  content: "";
+  content: "\f286";
 }
 
 /* line 685, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-usb:before {
-  content: "";
+  content: "\f287";
 }
 
 /* line 686, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-product-hunt:before {
-  content: "";
+  content: "\f288";
 }
 
 /* line 687, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-mixcloud:before {
-  content: "";
+  content: "\f289";
 }
 
 /* line 688, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-scribd:before {
-  content: "";
+  content: "\f28a";
 }
 
 /* line 689, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-pause-circle:before {
-  content: "";
+  content: "\f28b";
 }
 
 /* line 690, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-pause-circle-o:before {
-  content: "";
+  content: "\f28c";
 }
 
 /* line 691, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-stop-circle:before {
-  content: "";
+  content: "\f28d";
 }
 
 /* line 692, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-stop-circle-o:before {
-  content: "";
+  content: "\f28e";
 }
 
 /* line 693, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-shopping-bag:before {
-  content: "";
+  content: "\f290";
 }
 
 /* line 694, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-shopping-basket:before {
-  content: "";
+  content: "\f291";
 }
 
 /* line 695, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hashtag:before {
-  content: "";
+  content: "\f292";
 }
 
 /* line 696, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bluetooth:before {
-  content: "";
+  content: "\f293";
 }
 
 /* line 697, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bluetooth-b:before {
-  content: "";
+  content: "\f294";
 }
 
 /* line 698, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-percent:before {
-  content: "";
+  content: "\f295";
 }
 
 /* line 699, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-gitlab:before {
-  content: "";
+  content: "\f296";
 }
 
 /* line 700, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-wpbeginner:before {
-  content: "";
+  content: "\f297";
 }
 
 /* line 701, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-wpforms:before {
-  content: "";
+  content: "\f298";
 }
 
 /* line 702, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-envira:before {
-  content: "";
+  content: "\f299";
 }
 
 /* line 703, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-universal-access:before {
-  content: "";
+  content: "\f29a";
 }
 
 /* line 704, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-wheelchair-alt:before {
-  content: "";
+  content: "\f29b";
 }
 
 /* line 705, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-question-circle-o:before {
-  content: "";
+  content: "\f29c";
 }
 
 /* line 706, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-blind:before {
-  content: "";
+  content: "\f29d";
 }
 
 /* line 707, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-audio-description:before {
-  content: "";
+  content: "\f29e";
 }
 
 /* line 708, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-volume-control-phone:before {
-  content: "";
+  content: "\f2a0";
 }
 
 /* line 709, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-braille:before {
-  content: "";
+  content: "\f2a1";
 }
 
 /* line 710, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-assistive-listening-systems:before {
-  content: "";
+  content: "\f2a2";
 }
 
 /* line 711, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-asl-interpreting:before,
 .fa-american-sign-language-interpreting:before {
-  content: "";
+  content: "\f2a3";
 }
 
 /* line 713, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-deafness:before,
 .fa-hard-of-hearing:before,
 .fa-deaf:before {
-  content: "";
+  content: "\f2a4";
 }
 
 /* line 716, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-glide:before {
-  content: "";
+  content: "\f2a5";
 }
 
 /* line 717, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-glide-g:before {
-  content: "";
+  content: "\f2a6";
 }
 
 /* line 718, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-signing:before,
 .fa-sign-language:before {
-  content: "";
+  content: "\f2a7";
 }
 
 /* line 720, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-low-vision:before {
-  content: "";
+  content: "\f2a8";
 }
 
 /* line 721, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-viadeo:before {
-  content: "";
+  content: "\f2a9";
 }
 
 /* line 722, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-viadeo-square:before {
-  content: "";
+  content: "\f2aa";
 }
 
 /* line 723, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-snapchat:before {
-  content: "";
+  content: "\f2ab";
 }
 
 /* line 724, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-snapchat-ghost:before {
-  content: "";
+  content: "\f2ac";
 }
 
 /* line 725, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-snapchat-square:before {
-  content: "";
+  content: "\f2ad";
 }
 
 /* line 726, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-pied-piper:before {
-  content: "";
+  content: "\f2ae";
 }
 
 /* line 727, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-first-order:before {
-  content: "";
+  content: "\f2b0";
 }
 
 /* line 728, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-yoast:before {
-  content: "";
+  content: "\f2b1";
 }
 
 /* line 729, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-themeisle:before {
-  content: "";
+  content: "\f2b2";
 }
 
 /* line 730, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-google-plus-circle:before,
 .fa-google-plus-official:before {
-  content: "";
+  content: "\f2b3";
 }
 
 /* line 732, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-fa:before,
 .fa-font-awesome:before {
-  content: "";
+  content: "\f2b4";
 }
 
 /* line 4, ../bower_components/font-awesome/scss/_screen-reader.scss */
@@ -3599,22 +3604,22 @@ $bp--small-down: max-width $width-medium - 1;*/
 
 /* line 43, ../scss/global/variables/_colors.scss */
 .light-blue-text {
-  color: #007CBE;
+  color: #007cbe;
 }
 
 /* line 47, ../scss/global/variables/_colors.scss */
 .light-blue-bg {
-  background-color: #007CBE;
+  background-color: #007cbe;
 }
 
 /* line 43, ../scss/global/variables/_colors.scss */
 .yellow-green-text {
-  color: #6EA400;
+  color: #6ea400;
 }
 
 /* line 47, ../scss/global/variables/_colors.scss */
 .yellow-green-bg {
-  background-color: #6EA400;
+  background-color: #6ea400;
 }
 
 /* line 43, ../scss/global/variables/_colors.scss */
@@ -3629,22 +3634,22 @@ $bp--small-down: max-width $width-medium - 1;*/
 
 /* line 43, ../scss/global/variables/_colors.scss */
 .orange-text {
-  color: #F26D04;
+  color: #f26d04;
 }
 
 /* line 47, ../scss/global/variables/_colors.scss */
 .orange-bg {
-  background-color: #F26D04;
+  background-color: #f26d04;
 }
 
 /* line 43, ../scss/global/variables/_colors.scss */
 .light-gray-text {
-  color: #F1F1F1;
+  color: #f1f1f1;
 }
 
 /* line 47, ../scss/global/variables/_colors.scss */
 .light-gray-bg {
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
 }
 
 /* line 43, ../scss/global/variables/_colors.scss */
@@ -3659,12 +3664,12 @@ $bp--small-down: max-width $width-medium - 1;*/
 
 /* line 43, ../scss/global/variables/_colors.scss */
 .black-text {
-  color: #000000;
+  color: black;
 }
 
 /* line 47, ../scss/global/variables/_colors.scss */
 .black-bg {
-  background-color: #000000;
+  background-color: black;
 }
 
 /* line 43, ../scss/global/variables/_colors.scss */
@@ -3679,22 +3684,22 @@ $bp--small-down: max-width $width-medium - 1;*/
 
 /* line 43, ../scss/global/variables/_colors.scss */
 .white-text {
-  color: #FFFFFF;
+  color: white;
 }
 
 /* line 47, ../scss/global/variables/_colors.scss */
 .white-bg {
-  background-color: #FFFFFF;
+  background-color: white;
 }
 
 /* line 43, ../scss/global/variables/_colors.scss */
 .dark-gray-text {
-  color: #B4B9BF;
+  color: #b4b9bf;
 }
 
 /* line 47, ../scss/global/variables/_colors.scss */
 .dark-gray-bg {
-  background-color: #B4B9BF;
+  background-color: #b4b9bf;
 }
 
 /* line 43, ../scss/global/variables/_colors.scss */
@@ -3821,33 +3826,45 @@ $font-header: $helvetica, $default-font;
 
 */
 @-webkit-keyframes slideFromLeft {
+  /* line 2, ../scss/global/variables/_animations.scss */
   0% {
     left: -20px;
   }
+
+  /* line 5, ../scss/global/variables/_animations.scss */
   100% {
     left: 0;
   }
 }
 @-moz-keyframes slideFromLeft {
+  /* line 2, ../scss/global/variables/_animations.scss */
   0% {
     left: -20px;
   }
+
+  /* line 5, ../scss/global/variables/_animations.scss */
   100% {
     left: 0;
   }
 }
 @-o-keyframes slideFromLeft {
+  /* line 2, ../scss/global/variables/_animations.scss */
   0% {
     left: -20px;
   }
+
+  /* line 5, ../scss/global/variables/_animations.scss */
   100% {
     left: 0;
   }
 }
 @keyframes slideFromLeft {
+  /* line 2, ../scss/global/variables/_animations.scss */
   0% {
     left: -20px;
   }
+
+  /* line 5, ../scss/global/variables/_animations.scss */
   100% {
     left: 0;
   }
@@ -4934,7 +4951,7 @@ $font-header: $helvetica, $default-font;
   font-stretch: normal;
   text-align: center;
   line-height: 1;
-  color: #FFFFFF;
+  color: white;
   padding: 16px;
   border: none;
   outline: none;
@@ -4952,16 +4969,16 @@ $font-header: $helvetica, $default-font;
 }
 /* line 22, ../scss/base/_btn.scss */
 .btn.btn--primary {
-  background-color: #F26D04;
+  background-color: #f26d04;
   padding: 18.5px 15px;
 }
 /* line 25, ../scss/base/_btn.scss */
 .btn.btn--primary:hover {
-  background-color: #D45E00;
+  background-color: #d45e00;
 }
 /* line 29, ../scss/base/_btn.scss */
 .btn.btn--primary-small {
-  background-color: #F26D04;
+  background-color: #f26d04;
   padding: 12px 15px;
   font-size: 15px;
 }
@@ -4971,7 +4988,7 @@ $font-header: $helvetica, $default-font;
 }
 /* line 37, ../scss/base/_btn.scss */
 .btn.btn--secondary {
-  background-color: #007CBE;
+  background-color: #007cbe;
 }
 /* line 39, ../scss/base/_btn.scss */
 .btn.btn--secondary:hover {
@@ -4979,7 +4996,7 @@ $font-header: $helvetica, $default-font;
 }
 /* line 43, ../scss/base/_btn.scss */
 .btn.btn--with-icon {
-  background-color: #F26D04;
+  background-color: #f26d04;
 }
 /* line 45, ../scss/base/_btn.scss */
 .btn.btn--with-icon i {
@@ -4988,11 +5005,11 @@ $font-header: $helvetica, $default-font;
 }
 /* line 49, ../scss/base/_btn.scss */
 .btn.btn--with-icon:hover {
-  background-color: #D45E00;
+  background-color: #d45e00;
 }
 /* line 51, ../scss/base/_btn.scss */
 .btn.btn--with-icon:hover i {
-  color: #FFFFFF;
+  color: white;
 }
 /* line 57, ../scss/base/_btn.scss */
 .btn.anchor:hover {
@@ -5003,7 +5020,7 @@ $font-header: $helvetica, $default-font;
   font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 10px;
   background-color: #abb3ba;
-  color: #FFFFFF;
+  color: white;
   padding: 20px;
   border-radius: 0px;
   text-decoration: none;
@@ -5018,11 +5035,11 @@ $font-header: $helvetica, $default-font;
 }
 /* line 78, ../scss/base/_btn.scss */
 .btn.btn--category.btn--education:hover {
-  background-color: #6EA400;
+  background-color: #6ea400;
 }
 /* line 83, ../scss/base/_btn.scss */
 .btn.btn--category.btn--patient-care:hover {
-  background-color: #007CBE;
+  background-color: #007cbe;
 }
 /* line 88, ../scss/base/_btn.scss */
 .btn.btn--category.btn--news:hover {
@@ -5051,7 +5068,7 @@ $font-header: $helvetica, $default-font;
 a {
   cursor: pointer;
   font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  color: #007CBE;
+  color: #007cbe;
   text-decoration: none;
 }
 /* line 8, ../scss/base/_links.scss */
@@ -5068,7 +5085,7 @@ a.link {
 }
 /* line 17, ../scss/base/_links.scss */
 a.link.link--with-icon .link--icon {
-  color: #007CBE;
+  color: #007cbe;
   height: 26px;
   width: 23px;
   position: relative;
@@ -5101,19 +5118,19 @@ a.link.link--with-icon:hover .icon--angle {
   -ms-animation: slideFromLeft 0.4s;
   -o-animation: slideFromLeft 0.4s;
   animation: slideFromLeft 0.4s;
-  color: #FFFFFF;
+  color: white;
 }
 /* line 40, ../scss/base/_links.scss */
 a.link.link--with-icon.background--dark {
-  color: #FFFFFF;
+  color: white;
 }
 /* line 42, ../scss/base/_links.scss */
 a.link.link--with-icon.background--dark .link--icon {
-  color: #FFFFFF;
+  color: white;
 }
 /* line 46, ../scss/base/_links.scss */
 a.link.link--with-icon.background--dark:hover .icon--angle {
-  color: #000000;
+  color: black;
 }
 
 /*** Lists ***/
@@ -5345,7 +5362,7 @@ blockquote p:before, blockquote p:after {
   font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
   font-size: 4rem;
   line-height: 0.53;
-  color: #007CBE;
+  color: #007cbe;
   top: 15px;
   position: relative;
 }
@@ -5395,7 +5412,7 @@ address > strong {
 /* line 138, ../scss/base/_text.scss */
 .header-section.section--title {
   color: #052059;
-  margin-top: 40px;
+  margin-top: 25px;
 }
 /* line 141, ../scss/base/_text.scss */
 .header-section.section--title .heading {
@@ -5460,7 +5477,7 @@ address > strong {
 /* line 199, ../scss/base/_text.scss */
 .photo-caption--wrapper .photo-caption {
   margin: 0px;
-  color: #FFFFFF;
+  color: white;
 }
 
 @media screen and (min-width: 1024px) {
@@ -5485,8 +5502,17 @@ p.fund-intro {
   margin-bottom: 15px;
 }
 
+/* line 226, ../scss/base/_text.scss */
+.fund-intro p {
+  font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  line-height: 1.36;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
 @media screen and (min-width: 1024px) {
-  /* line 226, ../scss/base/_text.scss */
+  /* line 236, ../scss/base/_text.scss */
   p.fund-intro {
     margin-bottom: 5px;
   }
@@ -5515,40 +5541,42 @@ body {
 }
 
 /*** Page ***/
-/* line 4, ../scss/base/page/_page.scss */
-.contents--wrapper > div:last-child {
-  padding-bottom: 60px;
-}
-/* line 6, ../scss/base/page/_page.scss */
-.contents--wrapper > div:last-child.block--homepage-prefooter {
-  padding-bottom: 0px;
-}
-/* line 9, ../scss/base/page/_page.scss */
-.contents--wrapper > div:last-child.block--give-block-full-width {
-  padding-bottom: 40px;
+/*.contents--wrapper {
+	& > div:last-child {
+		padding-bottom: 60px;
+		&.block--homepage-prefooter {
+			padding-bottom: 0px;
+		}
+		&.block--give-block-full-width {
+			padding-bottom: 0px;
+		}
+	}
 }
 
-@media screen and (min-width: 768px) {
-  /* line 18, ../scss/base/page/_page.scss */
-  .contents--wrapper > div:last-child.block--homepage-prefooter {
-    padding-bottom: 0px;
-  }
-  /* line 21, ../scss/base/page/_page.scss */
-  .contents--wrapper > div:last-child.block--give-block-full-width {
-    padding-bottom: 50px;
-  }
+@media screen and (min-width: $width-small) {
+	.contents--wrapper {
+		& > div:last-child {
+			&.block--homepage-prefooter {
+				padding-bottom: 0px;
+			}
+			&.block--give-block-full-width {
+				padding-bottom: 0px;
+			}
+		}
+	}
 }
+*/
 /*** Footer ***/
 /* line 3, ../scss/layout/component-layout/_footer-layout.scss */
 footer {
   /*height: 340px;*/
   background-color: #052059;
-  color: #FFFFFF;
+  color: white;
   padding-top: 30px;
 }
 /* line 10, ../scss/layout/component-layout/_footer-layout.scss */
 footer a {
-  color: #FFFFFF;
+  color: white;
   text-decoration: none;
 }
 /* line 15, ../scss/layout/component-layout/_footer-layout.scss */
@@ -5562,9 +5590,9 @@ footer .footer--upper .footer--logo {
 /* line 22, ../scss/layout/component-layout/_footer-layout.scss */
 footer .footer--column-title {
   font-family: HelveticaNeue-bold, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  color: #FFFFFF;
+  color: white;
   text-transform: uppercase;
-  border-bottom: 1px #FFFFFF solid;
+  border-bottom: 1px white solid;
   padding: 13px 0;
 }
 /* line 30, ../scss/layout/component-layout/_footer-layout.scss */
@@ -5581,18 +5609,18 @@ footer .footer--column-content p:last-child {
 }
 /* line 37, ../scss/layout/component-layout/_footer-layout.scss */
 footer .footer--column-content.text-color--dark-gray p, footer .footer--column-content.text-color--dark-gray a {
-  color: #B4B9BF;
+  color: #b4b9bf;
 }
 /* line 43, ../scss/layout/component-layout/_footer-layout.scss */
 footer .footer--column-links {
-  color: #B4B9BF;
+  color: #b4b9bf;
 }
 /* line 45, ../scss/layout/component-layout/_footer-layout.scss */
 footer .footer--column-links a {
   font-size: 0.8rem;
   line-height: 1.67;
   font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  color: #B4B9BF;
+  color: #b4b9bf;
 }
 /* line 50, ../scss/layout/component-layout/_footer-layout.scss */
 footer .footer--column-links ul, footer .footer--column-links ol {
@@ -5607,7 +5635,7 @@ footer .footer--copyright {
 }
 /* line 58, ../scss/layout/component-layout/_footer-layout.scss */
 footer .footer--copyright .column-wrapper {
-  border-top: 1px #FFFFFF solid;
+  border-top: 1px white solid;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -5627,7 +5655,7 @@ footer .footer--copyright .footer--copyright-links .footer--copyright-link-item:
 /* line 74, ../scss/layout/component-layout/_footer-layout.scss */
 footer .footer--social-link-item {
   float: left;
-  background-color: #FFFFFF;
+  background-color: white;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -5790,8 +5818,8 @@ footer .footer--colum-content, footer .footer--column-links {
 /* line 28, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-form {
   text-align: center;
-  background-color: #F1F1F1;
-  color: #000000;
+  background-color: #f1f1f1;
+  color: black;
   min-height: 408px;
   padding: 25px 20px;
 }
@@ -5804,7 +5832,7 @@ footer .footer--colum-content, footer .footer--column-links {
 /* line 39, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-form p {
   font-size: 18px;
-  color: #000000;
+  color: black;
   text-align: left;
   margin: 0 0 10px;
 }
@@ -5868,8 +5896,8 @@ footer .footer--colum-content, footer .footer--column-links {
   font-size: 20px;
   text-align: center;
   border-radius: 2px;
-  border: solid 2px #B4B9BF;
-  background-color: #FFFFFF;
+  border: solid 2px #b4b9bf;
+  background-color: white;
   color: #052059;
   cursor: pointer;
   -webkit-transition: all 250ms ease-in-out;
@@ -5879,15 +5907,15 @@ footer .footer--colum-content, footer .footer--column-links {
 }
 /* line 104, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-option label:hover {
-  background-color: #007CBE;
-  border-color: #007CBE;
-  color: #FFFFFF;
+  background-color: #007cbe;
+  border-color: #007cbe;
+  color: white;
 }
 /* line 109, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-option label:active, .ways-to-give-option label:focus {
   background-color: #052059;
   border-color: #052059;
-  color: #FFFFFF;
+  color: white;
 }
 /* line 115, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-option input[type="radio"] {
@@ -5901,13 +5929,13 @@ footer .footer--colum-content, footer .footer--column-links {
 .ways-to-give-option input[type="radio"]:checked ~ label {
   background-color: #052059;
   border-color: #052059;
-  color: #FFFFFF;
+  color: white;
 }
 /* line 126, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-option input[type="radio"]:checked ~ label:hover {
-  background-color: #007CBE;
-  border-color: #007CBE;
-  color: #FFFFFF;
+  background-color: #007cbe;
+  border-color: #007cbe;
+  color: white;
 }
 /* line 134, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-option input[type="text"] {
@@ -5920,7 +5948,7 @@ footer .footer--colum-content, footer .footer--column-links {
   padding-left: 34px;
   padding-right: 10px;
   border-radius: 2px;
-  border: solid 2px #B4B9BF;
+  border: solid 2px #b4b9bf;
   color: #052059;
   font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 20px;
@@ -5940,7 +5968,7 @@ footer .footer--colum-content, footer .footer--column-links {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #FFFFFF;
+  background-color: white;
   padding: 16px 0px;
   padding-left: 19px;
   z-index: 0;
@@ -5971,9 +5999,9 @@ footer .footer--colum-content, footer .footer--column-links {
   /* line 190, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form {
     text-align: center;
-    background-color: #FFFFFF;
+    background-color: white;
     text-align: center;
-    color: #000000;
+    color: black;
     min-height: 408px;
     padding: 30px 36px;
   }
@@ -6083,9 +6111,9 @@ footer .footer--colum-content, footer .footer--column-links {
   .ways-to-give-form {
     padding: 30px 36px;
     min-height: 287px;
-    background-color: #FFFFFF;
+    background-color: white;
     text-align: center;
-    color: #000000;
+    color: black;
   }
   /* line 295, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form h3 {
@@ -6150,9 +6178,9 @@ footer .footer--colum-content, footer .footer--column-links {
   .ways-to-give-form {
     padding: 30px 36px;
     min-height: 287px;
-    background-color: #FFFFFF;
+    background-color: white;
     text-align: center;
-    color: #000000;
+    color: black;
   }
   /* line 362, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form h3 {
@@ -6444,7 +6472,7 @@ footer .footer--colum-content, footer .footer--column-links {
   background-repeat: no-repeat;
   background-size: cover;
   height: 350px;
-  background-color: #000000;
+  background-color: black;
 }
 /* line 20, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .content-area, .block.block--landing-hero .content-area {
@@ -6486,7 +6514,7 @@ footer .footer--colum-content, footer .footer--column-links {
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
-  color: #FFFFFF;
+  color: white;
 }
 /* line 56, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .hero-text.align-left, .block.block--landing-hero .hero-text.align-left {
@@ -6510,15 +6538,15 @@ footer .footer--colum-content, footer .footer--column-links {
 }
 /* line 71, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .hero-text > a.link.link--with-icon, .block.block--landing-hero .hero-text > a.link.link--with-icon {
-  color: #FFFFFF;
+  color: white;
 }
 /* line 73, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .hero-text > a.link.link--with-icon .link--icon, .block.block--landing-hero .hero-text > a.link.link--with-icon .link--icon {
-  color: #FFFFFF;
+  color: white;
 }
 /* line 77, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .hero-text > a.link.link--with-icon:hover .icon--angle, .block.block--landing-hero .hero-text > a.link.link--with-icon:hover .icon--angle {
-  color: #007CBE;
+  color: #007cbe;
 }
 /* line 84, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero > .link--with-icon, .block.block--landing-hero > .link--with-icon {
@@ -6532,15 +6560,15 @@ footer .footer--colum-content, footer .footer--column-links {
 }
 /* line 92, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero > .link--with-icon.link.link--with-icon, .block.block--landing-hero > .link--with-icon.link.link--with-icon {
-  color: #FFFFFF;
+  color: white;
 }
 /* line 94, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero > .link--with-icon.link.link--with-icon .link--icon, .block.block--landing-hero > .link--with-icon.link.link--with-icon .link--icon {
-  color: #FFFFFF;
+  color: white;
 }
 /* line 98, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero > .link--with-icon.link.link--with-icon:hover .icon--angle, .block.block--landing-hero > .link--with-icon.link.link--with-icon:hover .icon--angle {
-  color: #007CBE;
+  color: #007cbe;
 }
 /* line 105, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block--landing-hero {
@@ -6550,7 +6578,7 @@ footer .footer--colum-content, footer .footer--column-links {
 @media screen and (min-width: 768px) {
   /* line 112, ../scss/layout/component-layout/_hero-image-block.scss */
   .hero--wrapper {
-    background-color: #FFFFFF;
+    background-color: white;
   }
 
   /* line 116, ../scss/layout/component-layout/_hero-image-block.scss */
@@ -6559,7 +6587,7 @@ footer .footer--colum-content, footer .footer--column-links {
   }
   /* line 118, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-background, .block.block--landing-hero .hero-background {
-    background-color: #FFFFFF;
+    background-color: white;
     opacity: 1;
   }
   /* line 122, ../scss/layout/component-layout/_hero-image-block.scss */
@@ -6748,7 +6776,7 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
 }
 /* line 60, ../scss/components/_navigation.scss */
 .nav-global--wrapper .nav-global .nav-brand a {
-  color: #FFFFFF;
+  color: white;
   text-decoration: none;
 }
 /* line 63, ../scss/components/_navigation.scss */
@@ -6793,10 +6821,10 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   height: 24px;
   border-radius: 2px;
   font-size: 12px;
-  border: solid 1px #FFFFFF;
+  border: solid 1px white;
   background-color: #052059;
   font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  color: #FFFFFF;
+  color: white;
   float: left;
 }
 /* line 108, ../scss/components/_navigation.scss */
@@ -6813,7 +6841,7 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   background-color: transparent;
   font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 12px;
-  color: #FFFFFF;
+  color: white;
   outline: none;
   border: 0px;
   width: 85%;
@@ -6840,7 +6868,7 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   min-width: 307px;
   width: auto;
   height: 50px;
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   position: absolute;
   top: 40px;
   right: 0px;
@@ -6857,14 +6885,14 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
 .search-advanced-form-toggle {
   margin-top: 8px;
   font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  color: #FFFFFF;
+  color: white;
   font-size: 12px;
   float: left;
   width: 102px;
   height: 24px;
   border-radius: 2px;
-  background-color: #007CBE;
-  border: solid 1px #007CBE;
+  background-color: #007cbe;
+  border: solid 1px #007cbe;
   text-align: center;
   text-decoration: none;
 }
@@ -6881,7 +6909,7 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  color: #000000;
+  color: black;
   vertical-align: middle;
   padding: 5px 5px 5px 0;
   line-height: 2.9;
@@ -6920,14 +6948,14 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
 }
 /* line 219, ../scss/components/_navigation.scss */
 .radio-circle .radio-ui {
-  color: #FFFFFF;
+  color: white;
   display: none;
   font-size: 12px;
 }
 /* line 224, ../scss/components/_navigation.scss */
 .radio-circle.checked {
-  background: #007CBE;
-  border-color: #007CBE;
+  background: #007cbe;
+  border-color: #007cbe;
 }
 /* line 227, ../scss/components/_navigation.scss */
 .radio-circle.checked .radio-ui {
@@ -6940,7 +6968,7 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
 /* line 234, ../scss/components/_navigation.scss */
 .radio-circle.hover {
   border-width: 2px;
-  border-color: #007CBE;
+  border-color: #007cbe;
 }
 
 @media screen and (min-width: 1024px) {
@@ -6982,7 +7010,7 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   }
   /* line 280, ../scss/components/_navigation.scss */
   .nav-global--wrapper .nav-global .nav-link-list > li > a {
-    color: #FFFFFF;
+    color: white;
     font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-size: 12px;
     font-weight: normal;
@@ -7005,7 +7033,7 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
  */
 /* line 309, ../scss/components/_navigation.scss */
 .nav-main--wrapper {
-  background-color: #FFFFFF;
+  background-color: white;
   display: block;
   width: 100%;
 }
@@ -7114,11 +7142,11 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   }
   /* line 408, ../scss/components/_navigation.scss */
   body.transparent .nav--wrapper .nav-main--wrapper .nav-main a {
-    color: #FFFFFF;
+    color: white;
   }
   /* line 413, ../scss/components/_navigation.scss */
   body.transparent .nav--wrapper .nav-main--wrapper .nav-main .nav-main-links > li > a {
-    color: #FFFFFF;
+    color: white;
   }
   /* line 415, ../scss/components/_navigation.scss */
   body.transparent .nav--wrapper .nav-main--wrapper .nav-main .nav-main-links > li > a:hover {
@@ -7126,7 +7154,7 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   }
   /* line 417, ../scss/components/_navigation.scss */
   body.transparent .nav--wrapper .nav-main--wrapper .nav-main .nav-main-links > li > a:hover.header-give-btn {
-    color: #FFFFFF;
+    color: white;
   }
   /* line 423, ../scss/components/_navigation.scss */
   body.transparent .nav--wrapper .nav-main--wrapper .nav-main .nav-main-links > li:hover a {
@@ -7134,12 +7162,12 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   }
   /* line 425, ../scss/components/_navigation.scss */
   body.transparent .nav--wrapper .nav-main--wrapper .nav-main .nav-main-links > li:hover a.header-give-btn {
-    color: #FFFFFF;
+    color: white;
   }
 
   /* line 437, ../scss/components/_navigation.scss */
   .nav-main--wrapper {
-    background-color: #FFFFFF;
+    background-color: white;
     display: block;
     width: 100%;
   }
@@ -7197,12 +7225,12 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   }
   /* line 481, ../scss/components/_navigation.scss */
   .nav-main--wrapper .nav-main .nav-main-links > li:hover a.header-give-btn {
-    background-color: #D45E00;
-    color: #FFFFFF;
+    background-color: #d45e00;
+    color: white;
   }
   /* line 484, ../scss/components/_navigation.scss */
   .nav-main--wrapper .nav-main .nav-main-links > li:hover a.header-give-btn span {
-    color: #FFFFFF;
+    color: white;
   }
   /* line 489, ../scss/components/_navigation.scss */
   .nav-main--wrapper .nav-main .nav-main-links > li:hover .line {
@@ -7227,7 +7255,7 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   .nav-main--wrapper .nav-main .nav-main-links > li > a.header-give-btn {
     width: auto;
     border-radius: 2px;
-    color: #FFFFFF;
+    color: white;
     font-weight: bold;
     margin-left: 10px;
   }
@@ -7265,7 +7293,7 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   }
   /* line 541, ../scss/components/_navigation.scss */
   .nav-main--wrapper .nav-main .nav-main-links > li .dropdown-menu > li > a:hover {
-    color: #007CBE;
+    color: #007cbe;
   }
 }
 /**
@@ -7277,7 +7305,7 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
 /* line 563, ../scss/components/_navigation.scss */
 .nav-main-mobile-search {
   position: absolute;
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   display: none;
   padding-bottom: 20px;
 }
@@ -7297,7 +7325,7 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
 }
 /* line 579, ../scss/components/_navigation.scss */
 .nav-main-mobile-search .mobile-search-field--wrapper .mobile-field-ui {
-  background-color: #FFFFFF;
+  background-color: white;
   width: 100%;
   height: auto;
   position: relative;
@@ -7311,7 +7339,7 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   width: 93%;
   font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 18px;
-  color: #000000;
+  color: black;
   position: relative;
   z-index: 0;
   background-color: transparent;
@@ -7331,7 +7359,7 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  color: #000000;
+  color: black;
   z-index: 0;
 }
 /* line 614, ../scss/components/_navigation.scss */
@@ -7385,7 +7413,7 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
 /* line 663, ../scss/components/_navigation.scss */
 .nav-main-mobile {
   position: absolute;
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   display: none;
   max-height: 0px;
 }
@@ -7422,7 +7450,7 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
 }
 /* line 693, ../scss/components/_navigation.scss */
 .nav-main-mobile ul > li.active > a {
-  color: #007CBE;
+  color: #007cbe;
 }
 /* line 697, ../scss/components/_navigation.scss */
 .nav-main-mobile ul > li > a {
@@ -7454,7 +7482,7 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
 }
 /* line 722, ../scss/components/_navigation.scss */
 .nav-main-mobile ul > li .display-arrow.active {
-  color: #007CBE;
+  color: #007cbe;
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   -o-transform: rotate(90deg);
@@ -7506,13 +7534,13 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   padding: 10px 0px;
 }
 /* line 772, ../scss/components/_navigation.scss */
-.breadcrumb ul {
+.breadcrumb ul, .breadcrumb ol {
   list-style: none;
   padding: 0px;
   margin: 0px;
 }
 /* line 776, ../scss/components/_navigation.scss */
-.breadcrumb ul > li {
+.breadcrumb ul > li, .breadcrumb ol > li {
   display: none;
   padding: 0px;
   margin: 0px;
@@ -7521,25 +7549,25 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   float: left;
 }
 /* line 783, ../scss/components/_navigation.scss */
-.breadcrumb ul > li:last-child {
+.breadcrumb ul > li:last-child, .breadcrumb ol > li:last-child {
   display: inline-block;
 }
 /* line 785, ../scss/components/_navigation.scss */
-.breadcrumb ul > li:last-child::before {
+.breadcrumb ul > li:last-child::before, .breadcrumb ol > li:last-child::before {
   content: "\f104";
   color: #052059;
   margin-right: 15px;
 }
 /* line 790, ../scss/components/_navigation.scss */
-.breadcrumb ul > li:last-child::after {
+.breadcrumb ul > li:last-child::after, .breadcrumb ol > li:last-child::after {
   display: none;
 }
 /* line 793, ../scss/components/_navigation.scss */
-.breadcrumb ul > li:last-child > a {
+.breadcrumb ul > li:last-child > a, .breadcrumb ol > li:last-child > a {
   color: #052059;
 }
 /* line 797, ../scss/components/_navigation.scss */
-.breadcrumb ul > li::before, .breadcrumb ul > li::after {
+.breadcrumb ul > li::before, .breadcrumb ul > li::after, .breadcrumb ol > li::before, .breadcrumb ol > li::after {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -7549,17 +7577,17 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
   vertical-align: middle;
 }
 /* line 806, ../scss/components/_navigation.scss */
-.breadcrumb ul > li::after {
+.breadcrumb ul > li::after, .breadcrumb ol > li::after {
   display: none;
   content: "\f105";
-  color: #B4B9BF;
+  color: #b4b9bf;
   margin-left: 20px;
   margin-right: 20px;
 }
 /* line 813, ../scss/components/_navigation.scss */
-.breadcrumb ul > li > a {
+.breadcrumb ul > li > a, .breadcrumb ol > li > a {
   font-family: HelveticaNeue-bold, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  color: #B4B9BF;
+  color: #b4b9bf;
   font-size: 18px;
   margin-top: 2px;
   vertical-align: middle;
@@ -7569,20 +7597,20 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
 
 @media screen and (min-width: 768px) {
   /* line 829, ../scss/components/_navigation.scss */
-  .breadcrumb ul > li {
+  .breadcrumb ul > li, .breadcrumb ol > li {
     display: inline-block;
     font-size: 28px;
   }
   /* line 833, ../scss/components/_navigation.scss */
-  .breadcrumb ul > li:last-child::before {
+  .breadcrumb ul > li:last-child::before, .breadcrumb ol > li:last-child::before {
     display: none;
   }
   /* line 837, ../scss/components/_navigation.scss */
-  .breadcrumb ul > li::after {
+  .breadcrumb ul > li::after, .breadcrumb ol > li::after {
     display: inline-block;
   }
   /* line 840, ../scss/components/_navigation.scss */
-  .breadcrumb ul > li a {
+  .breadcrumb ul > li a, .breadcrumb ol > li a {
     font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-size: 15px;
     margin-top: 3px;
@@ -7590,20 +7618,20 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
 }
 @media screen and (min-width: 1024px) {
   /* line 853, ../scss/components/_navigation.scss */
-  .breadcrumb ul > li {
+  .breadcrumb ul > li, .breadcrumb ol > li {
     display: inline-block;
     font-size: 28px;
   }
   /* line 857, ../scss/components/_navigation.scss */
-  .breadcrumb ul > li:last-child::before {
+  .breadcrumb ul > li:last-child::before, .breadcrumb ol > li:last-child::before {
     display: none;
   }
   /* line 861, ../scss/components/_navigation.scss */
-  .breadcrumb ul > li::after {
+  .breadcrumb ul > li::after, .breadcrumb ol > li::after {
     display: inline-block;
   }
   /* line 864, ../scss/components/_navigation.scss */
-  .breadcrumb ul > li a {
+  .breadcrumb ul > li a, .breadcrumb ol > li a {
     font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-size: 15px;
     margin-top: 3px;
@@ -7611,20 +7639,20 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
 }
 @media screen and (min-width: 1200px) {
   /* line 878, ../scss/components/_navigation.scss */
-  .breadcrumb ul > li {
+  .breadcrumb ul > li, .breadcrumb ol > li {
     display: inline-block;
     font-size: 28px;
   }
   /* line 882, ../scss/components/_navigation.scss */
-  .breadcrumb ul > li:last-child::before {
+  .breadcrumb ul > li:last-child::before, .breadcrumb ol > li:last-child::before {
     display: none;
   }
   /* line 886, ../scss/components/_navigation.scss */
-  .breadcrumb ul > li::after {
+  .breadcrumb ul > li::after, .breadcrumb ol > li::after {
     display: inline-block;
   }
   /* line 889, ../scss/components/_navigation.scss */
-  .breadcrumb ul > li a {
+  .breadcrumb ul > li a, .breadcrumb ol > li a {
     font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-size: 15px;
     margin-top: 3px;
@@ -7662,23 +7690,23 @@ ul.pager__items > li > a, ul.pager__items .pager__item > a {
   padding: 7px 10px;
   font-size: 12px;
   font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  border: solid 1px #007CBE;
+  border: solid 1px #007cbe;
   display: block;
   text-decoration: none;
 }
 /* line 931, ../scss/components/_navigation.scss */
 ul.pager__items > li > a:hover, ul.pager__items .pager__item > a:hover {
-  color: #FFFFFF;
+  color: white;
   background-color: #052059;
   border-color: #052059;
 }
 /* line 938, ../scss/components/_navigation.scss */
 ul.pager__items > li.is-active > a, ul.pager__items .pager__item.is-active > a {
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
 }
 /* line 940, ../scss/components/_navigation.scss */
 ul.pager__items > li.is-active > a:hover, ul.pager__items .pager__item.is-active > a:hover {
-  color: #FFFFFF;
+  color: white;
   background-color: #052059;
   border-color: #052059;
 }
@@ -7823,8 +7851,8 @@ ul.category-nav > li a {
 }
 /* line 6, ../scss/components/_alert-bar.scss */
 .alert.alert--info {
-  background-color: #F26D04;
-  color: #FFFFFF;
+  background-color: #f26d04;
+  color: white;
 }
 
 @media all and (max-width: 767px) {
@@ -7914,7 +7942,7 @@ ul.category-nav > li a {
 }
 /* line 66, ../scss/components/_blocks.scss */
 .block.block--homepage-prefooter {
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   position: relative;
 }
 /* line 69, ../scss/components/_blocks.scss */
@@ -7935,11 +7963,11 @@ ul.category-nav > li a {
 /* line 84, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full {
   position: relative;
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   padding-top: 30px;
   padding-bottom: 90px;
-  padding-left: 15px;
-  padding-right: 15px;
+  /*padding-left: 15px;
+  padding-right: 15px;*/
 }
 /* line 91, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full .block--content-text {
@@ -7978,23 +8006,23 @@ ul.category-nav > li a {
 }
 /* line 122, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full.background-color--teal a:hover .fa-angle-right, .block.block--funding-priorities-full.background-color--teal a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--teal a:hover .slider-button.slider-next {
-  color: #FFFFFF;
+  color: white;
 }
 /* line 129, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full.background-color--green a, .block.block--funding-priorities-full.background-color--green span {
-  color: #6EA400;
+  color: #6ea400;
 }
 /* line 134, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full.background-color--green a:hover .fa-angle-right, .block.block--funding-priorities-full.background-color--green a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--green a:hover .slider-button.slider-next {
-  color: #FFFFFF;
+  color: white;
 }
 /* line 141, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full.background-color--blue a, .block.block--funding-priorities-full.background-color--blue span {
-  color: #007CBE;
+  color: #007cbe;
 }
 /* line 146, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full.background-color--blue a:hover .fa-angle-right, .block.block--funding-priorities-full.background-color--blue a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--blue a:hover .slider-button.slider-next {
-  color: #FFFFFF;
+  color: white;
 }
 /* line 152, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full a {
@@ -8008,283 +8036,246 @@ ul.category-nav > li a {
 /* line 159, ../scss/components/_blocks.scss */
 .block.block--impact-story-with-image .block--content {
   width: 100%;
+}
+/* line 161, ../scss/components/_blocks.scss */
+.block.block--impact-story-with-image .block--content .content-area {
   padding: 30px 15px;
 }
-/* line 162, ../scss/components/_blocks.scss */
+/* line 164, ../scss/components/_blocks.scss */
 .block.block--impact-story-with-image .block--content h2 {
   margin: 0;
-  color: #FFFFFF;
+  color: white;
   font-size: 2.53333rem;
   line-height: 1.05;
 }
-/* line 168, ../scss/components/_blocks.scss */
-.block.block--impact-story-with-image.background-color--teal {
-  background-color: #058488;
-}
 /* line 170, ../scss/components/_blocks.scss */
-.block.block--impact-story-with-image.background-color--teal .block--content {
+.block.block--impact-story-with-image.background-color--teal {
+  /*background-color: $color--teal;*/
+}
+/* line 173, ../scss/components/_blocks.scss */
+.block.block--impact-story-with-image.background-color--teal .block--content .content-area {
   background-color: #058488;
-}
-/* line 172, ../scss/components/_blocks.scss */
-.block.block--impact-story-with-image.background-color--green {
-  background-color: #6EA400;
-}
-/* line 174, ../scss/components/_blocks.scss */
-.block.block--impact-story-with-image.background-color--green .block--content {
-  background-color: #6EA400;
-}
-/* line 176, ../scss/components/_blocks.scss */
-.block.block--impact-story-with-image.background-color--blue {
-  background-color: #007CBE;
 }
 /* line 178, ../scss/components/_blocks.scss */
-.block.block--impact-story-with-image.background-color--blue .block--content {
-  background-color: #007CBE;
+.block.block--impact-story-with-image.background-color--green {
+  /*background-color: $color--yellow-green;*/
 }
-/* line 182, ../scss/components/_blocks.scss */
+/* line 181, ../scss/components/_blocks.scss */
+.block.block--impact-story-with-image.background-color--green .block--content .content-area {
+  background-color: #6ea400;
+}
+/* line 186, ../scss/components/_blocks.scss */
+.block.block--impact-story-with-image.background-color--blue {
+  /*background-color: $color--light-blue;*/
+}
+/* line 189, ../scss/components/_blocks.scss */
+.block.block--impact-story-with-image.background-color--blue .block--content .content-area {
+  background-color: #007cbe;
+}
+/* line 195, ../scss/components/_blocks.scss */
+.block.block--impact-stories-grid {
+  margin-bottom: 40px;
+}
+/* line 197, ../scss/components/_blocks.scss */
 .block.block--impact-stories-grid .see-more-link {
   margin-top: 15px;
 }
-/* line 186, ../scss/components/_blocks.scss */
+/* line 201, ../scss/components/_blocks.scss */
 .block.block--impact-stories-grid.related-articles h4 {
   margin-bottom: 10px;
 }
-/* line 191, ../scss/components/_blocks.scss */
+/* line 206, ../scss/components/_blocks.scss */
 .block.block--impact-stories-pillar {
   margin-bottom: 20px;
 }
-/* line 194, ../scss/components/_blocks.scss */
-.block.block--give-block-full-width {
-  padding-top: 60px;
-  padding-bottom: 40px;
-  background-color: #F1F1F1;
-}
-/* line 198, ../scss/components/_blocks.scss */
-.block.block--give-block-full-width p {
-  font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-size: 1.46667rem;
-  line-height: 1.14;
-  color: #052059;
-  margin-top: 0;
-  margin-bottom: 10px;
-}
-/* line 204, ../scss/components/_blocks.scss */
-.block.block--give-block-full-width p b, .block.block--give-block-full-width p strong {
-  font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-}
-/* line 207, ../scss/components/_blocks.scss */
-.block.block--give-block-full-width p:last-child {
-  margin-bottom: 30px;
-}
-/* line 211, ../scss/components/_blocks.scss */
-.block.block--give-block-full-width h4 {
-  font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  color: #052059;
-  margin-top: 0;
-  margin-bottom: 10px;
-}
-/* line 216, ../scss/components/_blocks.scss */
-.block.block--give-block-full-width h4 b, .block.block--give-block-full-width h4 strong {
-  font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-}
-/* line 219, ../scss/components/_blocks.scss */
-.block.block--give-block-full-width h4:last-child {
-  margin-bottom: 30px;
-}
-/* line 223, ../scss/components/_blocks.scss */
-.block.block--give-block-full-width a {
-  display: block;
-  width: 100%;
-  max-width: 320px;
-  margin: 0 auto;
-}
-/* line 228, ../scss/components/_blocks.scss */
-.block.block--give-block-full-width a:hover {
-  text-decoration: none;
-}
-/* line 233, ../scss/components/_blocks.scss */
+/* line 247, ../scss/components/_blocks.scss */
 .block.block--learn-more {
   margin-top: 20px;
 }
-/* line 235, ../scss/components/_blocks.scss */
+/* line 249, ../scss/components/_blocks.scss */
 .block.block--learn-more h4 {
   margin-bottom: 10px;
 }
 
-/* line 242, ../scss/components/_blocks.scss */
+/* line 256, ../scss/components/_blocks.scss */
 .block--item.block--funding-priorities-items {
   margin: 0 auto;
   margin-bottom: 20px;
 }
-/* line 245, ../scss/components/_blocks.scss */
+/* line 259, ../scss/components/_blocks.scss */
 .block--item.block--funding-priorities-items .block--item-image {
   height: 200px;
   width: 100%;
-  background-color: #B4B9BF;
+  background-color: #b4b9bf;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
-/* line 253, ../scss/components/_blocks.scss */
+/* line 267, ../scss/components/_blocks.scss */
 .block--item.block--funding-priorities-items .block--item-contents {
-  background-color: #007CBE;
+  background-color: #007cbe;
   height: 170px;
   width: 100%;
   padding: 20px 20px 25px 20px;
   position: relative;
 }
-/* line 259, ../scss/components/_blocks.scss */
+/* line 273, ../scss/components/_blocks.scss */
 .block--item.block--funding-priorities-items .block--item-contents .text {
   font-size: 1.2rem;
   line-height: 1.33;
   margin: 0;
 }
-/* line 263, ../scss/components/_blocks.scss */
+/* line 277, ../scss/components/_blocks.scss */
 .block--item.block--funding-priorities-items .block--item-contents a, .block--item.block--funding-priorities-items .block--item-contents span, .block--item.block--funding-priorities-items .block--item-contents p {
-  color: #FFFFFF;
+  color: white;
 }
-/* line 266, ../scss/components/_blocks.scss */
+/* line 280, ../scss/components/_blocks.scss */
 .block--item.block--funding-priorities-items .block--item-contents a {
   position: absolute;
   bottom: 25px;
 }
-/* line 270, ../scss/components/_blocks.scss */
+/* line 284, ../scss/components/_blocks.scss */
 .block--item.block--funding-priorities-items .block--item-contents a:hover .fa-angle-right, .block--item.block--funding-priorities-items .block--item-contents a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--funding-priorities-items .block--item-contents a:hover .slider-button.slider-next {
-  color: #007CBE;
+  color: #007cbe;
 }
-/* line 277, ../scss/components/_blocks.scss */
+/* line 291, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel {
   margin-bottom: 20px;
   position: relative;
 }
-/* line 280, ../scss/components/_blocks.scss */
+/* line 294, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel, .block--item.block--impact-stories-panel .block--item-image-panel {
   width: 50%;
   height: 100%;
   float: left;
-  color: #FFFFFF;
+  color: white;
 }
-/* line 286, ../scss/components/_blocks.scss */
+/* line 300, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel {
   padding: 30px;
   position: relative;
 }
-/* line 289, ../scss/components/_blocks.scss */
+/* line 303, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel a, .block--item.block--impact-stories-panel .block--item-colored-panel span, .block--item.block--impact-stories-panel .block--item-colored-panel h4, .block--item.block--impact-stories-panel .block--item-colored-panel p {
-  color: #FFFFFF;
+  color: white;
 }
-/* line 292, ../scss/components/_blocks.scss */
+/* line 306, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel a {
   position: absolute;
   bottom: 45px;
 }
-/* line 296, ../scss/components/_blocks.scss */
+/* line 310, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel h4, .block--item.block--impact-stories-panel .block--item-colored-panel p {
   margin-top: 0;
 }
-/* line 300, ../scss/components/_blocks.scss */
+/* line 314, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel h4 {
   margin-bottom: 10px;
 }
-/* line 303, ../scss/components/_blocks.scss */
+/* line 317, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel p {
   font-size: 1.2rem;
   line-height: 1.33;
 }
-/* line 306, ../scss/components/_blocks.scss */
-.block--item.block--impact-stories-panel .block--item-colored-panel.background--green {
-  background-color: #6EA400;
-}
-/* line 310, ../scss/components/_blocks.scss */
-.block--item.block--impact-stories-panel .block--item-colored-panel.background--green a:hover .fa-angle-right, .block--item.block--impact-stories-panel .block--item-colored-panel.background--green a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--green a:hover .slider-button.slider-next {
-  color: #6EA400;
-}
-/* line 316, ../scss/components/_blocks.scss */
-.block--item.block--impact-stories-panel .block--item-colored-panel.background--orange {
-  background-color: #F26D04;
-}
 /* line 320, ../scss/components/_blocks.scss */
-.block--item.block--impact-stories-panel .block--item-colored-panel.background--orange a:hover .fa-angle-right, .block--item.block--impact-stories-panel .block--item-colored-panel.background--orange a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--orange a:hover .slider-button.slider-next {
-  color: #F26D04;
+.block--item.block--impact-stories-panel .block--item-colored-panel.background--green {
+  background-color: #6ea400;
 }
-/* line 326, ../scss/components/_blocks.scss */
-.block--item.block--impact-stories-panel .block--item-colored-panel.background--blue {
-  background-color: #007CBE;
+/* line 324, ../scss/components/_blocks.scss */
+.block--item.block--impact-stories-panel .block--item-colored-panel.background--green a:hover .fa-angle-right, .block--item.block--impact-stories-panel .block--item-colored-panel.background--green a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--green a:hover .slider-button.slider-next {
+  color: #6ea400;
 }
 /* line 330, ../scss/components/_blocks.scss */
-.block--item.block--impact-stories-panel .block--item-colored-panel.background--blue a:hover .fa-angle-right, .block--item.block--impact-stories-panel .block--item-colored-panel.background--blue a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--blue a:hover .slider-button.slider-next {
-  color: #007CBE;
+.block--item.block--impact-stories-panel .block--item-colored-panel.background--orange {
+  background-color: #f26d04;
 }
-/* line 336, ../scss/components/_blocks.scss */
+/* line 334, ../scss/components/_blocks.scss */
+.block--item.block--impact-stories-panel .block--item-colored-panel.background--orange a:hover .fa-angle-right, .block--item.block--impact-stories-panel .block--item-colored-panel.background--orange a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--orange a:hover .slider-button.slider-next {
+  color: #f26d04;
+}
+/* line 340, ../scss/components/_blocks.scss */
+.block--item.block--impact-stories-panel .block--item-colored-panel.background--blue {
+  background-color: #007cbe;
+}
+/* line 344, ../scss/components/_blocks.scss */
+.block--item.block--impact-stories-panel .block--item-colored-panel.background--blue a:hover .fa-angle-right, .block--item.block--impact-stories-panel .block--item-colored-panel.background--blue a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--blue a:hover .slider-button.slider-next {
+  color: #007cbe;
+}
+/* line 350, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel.background--teal {
   background-color: #058488;
 }
-/* line 340, ../scss/components/_blocks.scss */
+/* line 354, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel.background--teal a:hover .fa-angle-right, .block--item.block--impact-stories-panel .block--item-colored-panel.background--teal a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel .block--item-colored-panel.background--teal a:hover .slider-button.slider-next {
   color: #058488;
 }
-/* line 348, ../scss/components/_blocks.scss */
+/* line 362, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-image-panel .image-display {
   height: 100%;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
-/* line 356, ../scss/components/_blocks.scss */
+/* line 370, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small {
   position: relative;
   margin-bottom: 20px;
 }
-/* line 360, ../scss/components/_blocks.scss */
+/* line 374, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small a {
-  color: #FFFFFF;
+  color: white;
   text-decoration: none;
 }
-/* line 363, ../scss/components/_blocks.scss */
+/* line 377, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small a:hover {
   text-decoration: none;
 }
-/* line 367, ../scss/components/_blocks.scss */
+/* line 379, ../scss/components/_blocks.scss */
+.block--item.block-item--impact-story-small a:hover .content_text {
+  text-decoration: underline;
+}
+/* line 384, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small .block--item-content {
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   height: 140px;
   width: 100%;
   padding: 20px;
 }
-/* line 372, ../scss/components/_blocks.scss */
+/* line 389, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small .block--item-content .category {
   font-size: 0.66667rem;
   line-height: 2.2;
-  color: #FFFFFF;
+  color: white;
   text-align: center;
+  text-transform: uppercase;
   width: 112px;
   height: 25px;
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #000000;
+  background-color: black;
 }
-/* line 385, ../scss/components/_blocks.scss */
+/* line 403, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small .block--item-content .category.background--light-blue {
-  background-color: #007CBE;
+  background-color: #007cbe;
 }
-/* line 388, ../scss/components/_blocks.scss */
+/* line 406, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small .block--item-content .category.background--green {
-  background-color: #6EA400;
+  background-color: #6ea400;
 }
-/* line 391, ../scss/components/_blocks.scss */
+/* line 409, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small .block--item-content .category.background--teal {
   background-color: #058488;
 }
-/* line 396, ../scss/components/_blocks.scss */
+/* line 414, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small .block--item-content p {
   margin: 0;
 }
-/* line 400, ../scss/components/_blocks.scss */
+/* line 418, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small .block--item-content .category, .block--item.block-item--impact-story-small .block--item-content .date {
   font-family: HelveticaNeue-bold, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
-/* line 404, ../scss/components/_blocks.scss */
+/* line 422, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small .block--item-content .date {
   font-size: 0.8rem;
   line-height: 1.5;
@@ -8292,14 +8283,14 @@ ul.category-nav > li a {
   margin-top: 12px;
   margin-bottom: 5px;
 }
-/* line 411, ../scss/components/_blocks.scss */
+/* line 429, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small .block--item-content .content_text {
   font-size: 1.06667rem;
   line-height: 1.25;
   color: #58595b;
 }
 
-/* line 419, ../scss/components/_blocks.scss */
+/* line 437, ../scss/components/_blocks.scss */
 .impact-stories-wrapper {
   padding-bottom: 20px;
   border-bottom: 1px solid #d1d3d3;
@@ -8307,42 +8298,42 @@ ul.category-nav > li a {
 }
 
 @media all and (max-width: 767px) {
-  /* line 428, ../scss/components/_blocks.scss */
+  /* line 446, ../scss/components/_blocks.scss */
   .block h3 {
     font-size: 2rem;
     line-height: 1.13;
   }
-  /* line 431, ../scss/components/_blocks.scss */
+  /* line 449, ../scss/components/_blocks.scss */
   .block h4 {
     font-size: 1.46667rem;
     line-height: 1.14;
   }
-  /* line 434, ../scss/components/_blocks.scss */
+  /* line 452, ../scss/components/_blocks.scss */
   .block.block--impact-stories {
     margin-bottom: 20px;
   }
-  /* line 438, ../scss/components/_blocks.scss */
+  /* line 456, ../scss/components/_blocks.scss */
   .block.block--homepage-prefooter h4 {
     margin-bottom: 10px;
   }
-  /* line 441, ../scss/components/_blocks.scss */
+  /* line 459, ../scss/components/_blocks.scss */
   .block.block--homepage-prefooter p {
     margin-bottom: 20px;
   }
-  /* line 444, ../scss/components/_blocks.scss */
+  /* line 462, ../scss/components/_blocks.scss */
   .block.block--homepage-prefooter .block--start-fundraiser, .block.block--homepage-prefooter .block--give-to {
     margin-bottom: 50px;
   }
 
-  /* line 450, ../scss/components/_blocks.scss */
+  /* line 468, ../scss/components/_blocks.scss */
   .block--item.block--impact-stories-panel {
     padding: 170px 15px 0;
   }
-  /* line 453, ../scss/components/_blocks.scss */
+  /* line 471, ../scss/components/_blocks.scss */
   .block--item.block--impact-stories-panel .block--item-image-panel, .block--item.block--impact-stories-panel .block--item-colored-panel {
     float: none;
   }
-  /* line 456, ../scss/components/_blocks.scss */
+  /* line 474, ../scss/components/_blocks.scss */
   .block--item.block--impact-stories-panel .block--item-image-panel {
     width: 100%;
     height: 208px;
@@ -8351,173 +8342,143 @@ ul.category-nav > li a {
     left: 0;
     z-index: -1;
   }
-  /* line 464, ../scss/components/_blocks.scss */
+  /* line 482, ../scss/components/_blocks.scss */
   .block--item.block--impact-stories-panel .block--item-colored-panel {
     height: 410px;
     width: 100%;
     padding: 25px;
   }
-  /* line 468, ../scss/components/_blocks.scss */
+  /* line 486, ../scss/components/_blocks.scss */
   .block--item.block--impact-stories-panel .block--item-colored-panel h4 {
     font-size: 1.46667rem;
     line-height: 1.14;
   }
 }
 @media all and (max-width: 1023px) {
-  /* line 478, ../scss/components/_blocks.scss */
+  /* line 496, ../scss/components/_blocks.scss */
   .block--item.block--funding-priorities-items {
     max-width: 100%;
   }
-  /* line 480, ../scss/components/_blocks.scss */
+  /* line 498, ../scss/components/_blocks.scss */
   .block--item.block--funding-priorities-items .block--item-image {
     display: none;
   }
 }
 @media all and (min-width: 768px) {
-  /* line 489, ../scss/components/_blocks.scss */
+  /* line 507, ../scss/components/_blocks.scss */
   .block.block--homepage-prefooter {
     height: 330px;
   }
-  /* line 491, ../scss/components/_blocks.scss */
+  /* line 509, ../scss/components/_blocks.scss */
   .block.block--homepage-prefooter .btn {
     display: inline-block;
     width: 270px;
     position: absolute;
     bottom: 0;
   }
-  /* line 497, ../scss/components/_blocks.scss */
+  /* line 515, ../scss/components/_blocks.scss */
   .block.block--homepage-prefooter .block--content {
     padding-bottom: 60px;
   }
-  /* line 499, ../scss/components/_blocks.scss */
+  /* line 517, ../scss/components/_blocks.scss */
   .block.block--homepage-prefooter .block--content .block--give-to, .block.block--homepage-prefooter .block--content .block--start-fundraiser {
     height: 210px;
   }
-  /* line 501, ../scss/components/_blocks.scss */
+  /* line 519, ../scss/components/_blocks.scss */
   .block.block--homepage-prefooter .block--content .block--give-to p, .block.block--homepage-prefooter .block--content .block--start-fundraiser p {
     position: absolute;
     margin: 0;
     bottom: 80px;
   }
-  /* line 511, ../scss/components/_blocks.scss */
+  /* line 529, ../scss/components/_blocks.scss */
   .block.block--funding-priorities-full .block--content-stats .stats-text {
     color: #052059;
     font-size: 0.8rem;
     line-height: 1.5;
   }
-  /* line 516, ../scss/components/_blocks.scss */
+  /* line 534, ../scss/components/_blocks.scss */
   .block.block--funding-priorities-full a {
     position: absolute;
     bottom: 42px;
+    left: 30px;
   }
-  /* line 521, ../scss/components/_blocks.scss */
+  /* line 540, ../scss/components/_blocks.scss */
   .block.block--impact-story-with-image {
     height: 265px;
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
   }
-  /* line 525, ../scss/components/_blocks.scss */
+  /* line 545, ../scss/components/_blocks.scss */
   .block.block--impact-story-with-image .block--content {
     height: auto;
     position: absolute;
     bottom: 0;
   }
-  /* line 531, ../scss/components/_blocks.scss */
-  .block.block--give-block-full-width {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  /* line 534, ../scss/components/_blocks.scss */
-  .block.block--give-block-full-width p {
-    margin-bottom: 10px;
-    font-size: 1.73333rem;
-    line-height: 1.15;
-  }
-  /* line 537, ../scss/components/_blocks.scss */
-  .block.block--give-block-full-width p:last-child {
-    margin-bottom: 10px;
-  }
-  /* line 541, ../scss/components/_blocks.scss */
-  .block.block--give-block-full-width h4 {
-    margin-bottom: 10px;
-  }
-  /* line 543, ../scss/components/_blocks.scss */
-  .block.block--give-block-full-width h4:last-child {
-    margin-bottom: 10px;
-  }
-  /* line 546, ../scss/components/_blocks.scss */
-  .block.block--give-block-full-width h4 b, .block.block--give-block-full-width h4 strong {
-    font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  }
-  /* line 550, ../scss/components/_blocks.scss */
-  .block.block--give-block-full-width a {
-    float: right;
-    width: 270px;
-  }
-  /* line 557, ../scss/components/_blocks.scss */
+  /* line 586, ../scss/components/_blocks.scss */
   .block.block--impact-stories-grid.related-articles h4 {
     padding-top: 30px;
     border-top: 1px solid #d1d3d3;
     margin-bottom: 15px;
   }
-  /* line 564, ../scss/components/_blocks.scss */
+  /* line 593, ../scss/components/_blocks.scss */
   .block.block--learn-more {
     margin-top: 0px;
   }
-  /* line 566, ../scss/components/_blocks.scss */
+  /* line 595, ../scss/components/_blocks.scss */
   .block.block--learn-more h4 {
     padding-top: 20px;
     border-top: 1px solid #d1d3d3;
   }
 
-  /* line 573, ../scss/components/_blocks.scss */
+  /* line 602, ../scss/components/_blocks.scss */
   .block--item.block--impact-stories-panel {
     height: 330px;
   }
-  /* line 575, ../scss/components/_blocks.scss */
+  /* line 604, ../scss/components/_blocks.scss */
   .block--item.block--impact-stories-panel .block--give-to, .block--item.block--impact-stories-panel .block--start-fundraiser {
     height: 210px;
   }
 }
 @media all and (min-width: 1024px) {
-  /* line 586, ../scss/components/_blocks.scss */
+  /* line 615, ../scss/components/_blocks.scss */
   .block.block--funding-priorities .slick-arrow.slick-prev {
     left: -50px;
   }
-  /* line 589, ../scss/components/_blocks.scss */
+  /* line 618, ../scss/components/_blocks.scss */
   .block.block--funding-priorities .slick-arrow.slick-next {
     right: -50px;
   }
-  /* line 594, ../scss/components/_blocks.scss */
+  /* line 623, ../scss/components/_blocks.scss */
   .block.block--impact-story-with-image {
     height: 450px;
   }
-  /* line 597, ../scss/components/_blocks.scss */
+  /* line 626, ../scss/components/_blocks.scss */
   .block.block--learn-more {
     margin-bottom: 15px;
   }
-  /* line 601, ../scss/components/_blocks.scss */
+  /* line 630, ../scss/components/_blocks.scss */
   .block.block--impact-stories-grid.related-articles {
     margin-bottom: 40px;
   }
-  /* line 603, ../scss/components/_blocks.scss */
+  /* line 632, ../scss/components/_blocks.scss */
   .block.block--impact-stories-grid.related-articles h4 {
     padding-top: 0px;
     border-top: 0px solid transparent;
     margin-bottom: 15px;
   }
-  /* line 610, ../scss/components/_blocks.scss */
+  /* line 639, ../scss/components/_blocks.scss */
   .block.block--learn-more {
     margin-top: 0px;
   }
-  /* line 612, ../scss/components/_blocks.scss */
+  /* line 641, ../scss/components/_blocks.scss */
   .block.block--learn-more h4 {
     padding-top: 0px;
     border-top: 0px solid transparent;
     margin-bottom: 15px;
   }
 
-  /* line 619, ../scss/components/_blocks.scss */
+  /* line 648, ../scss/components/_blocks.scss */
   .block--item {
     /*&.block-item--impact-story-small{
         .block--item-content{
@@ -8525,132 +8486,132 @@ ul.category-nav > li a {
         }
     }*/
   }
-  /* line 620, ../scss/components/_blocks.scss */
+  /* line 649, ../scss/components/_blocks.scss */
   .block--item.block--funding-priorities-items {
     float: left;
   }
-  /* line 622, ../scss/components/_blocks.scss */
+  /* line 651, ../scss/components/_blocks.scss */
   .block--item.block--funding-priorities-items .block--content {
     width: 270px;
   }
 }
 @media all and (min-width: 1200px) and (max-width: 1315px) {
-  /* line 637, ../scss/components/_blocks.scss */
+  /* line 666, ../scss/components/_blocks.scss */
   .block.block--funding-priorities .slick-arrow.slick-prev {
     left: -35px;
   }
-  /* line 640, ../scss/components/_blocks.scss */
+  /* line 669, ../scss/components/_blocks.scss */
   .block.block--funding-priorities .slick-arrow.slick-next {
     right: -50px;
   }
 }
-/* line 647, ../scss/components/_blocks.scss */
+/* line 676, ../scss/components/_blocks.scss */
 .block-honor-page-body {
   margin-bottom: 40px;
 }
-/* line 649, ../scss/components/_blocks.scss */
+/* line 678, ../scss/components/_blocks.scss */
 .block-honor-page-body h3 {
   margin-top: 30px;
   margin-bottom: 10px;
 }
-/* line 653, ../scss/components/_blocks.scss */
+/* line 682, ../scss/components/_blocks.scss */
 .block-honor-page-body .body-give-link {
   margin-top: 20px;
   margin-bottom: 30px;
 }
-/* line 656, ../scss/components/_blocks.scss */
+/* line 685, ../scss/components/_blocks.scss */
 .block-honor-page-body .body-give-link a {
   width: 100%;
 }
-/* line 658, ../scss/components/_blocks.scss */
+/* line 687, ../scss/components/_blocks.scss */
 .block-honor-page-body .body-give-link a.btn--primary-small {
   display: none;
 }
-/* line 661, ../scss/components/_blocks.scss */
+/* line 690, ../scss/components/_blocks.scss */
 .block-honor-page-body .body-give-link a.btn--primary {
   display: inline-block;
 }
-/* line 667, ../scss/components/_blocks.scss */
+/* line 696, ../scss/components/_blocks.scss */
 .block-honor-page-body .note strong {
   font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
-/* line 671, ../scss/components/_blocks.scss */
+/* line 700, ../scss/components/_blocks.scss */
 .block-honor-page-body .non-list-item {
   padding-left: 0px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 678, ../scss/components/_blocks.scss */
+  /* line 707, ../scss/components/_blocks.scss */
   .block-honor-page-body h3 {
     margin-top: 30px;
     margin-bottom: 19px;
   }
-  /* line 682, ../scss/components/_blocks.scss */
+  /* line 711, ../scss/components/_blocks.scss */
   .block-honor-page-body .body-give-link {
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  /* line 685, ../scss/components/_blocks.scss */
+  /* line 714, ../scss/components/_blocks.scss */
   .block-honor-page-body .body-give-link a {
     width: auto;
   }
-  /* line 687, ../scss/components/_blocks.scss */
+  /* line 716, ../scss/components/_blocks.scss */
   .block-honor-page-body .body-give-link a.btn--primary-small {
     display: inline-block;
   }
-  /* line 690, ../scss/components/_blocks.scss */
+  /* line 719, ../scss/components/_blocks.scss */
   .block-honor-page-body .body-give-link a.btn--primary {
     display: none;
   }
-  /* line 695, ../scss/components/_blocks.scss */
+  /* line 724, ../scss/components/_blocks.scss */
   .block-honor-page-body .non-list-item {
     margin-bottom: 20px;
     padding-left: 31px;
   }
 }
-/* line 702, ../scss/components/_blocks.scss */
+/* line 731, ../scss/components/_blocks.scss */
 .block-contact-us {
   display: block;
   background-color: #ebf3fa;
-  color: #000000;
+  color: black;
   padding: 30px;
   max-width: 265px;
   margin: 0 0 30px 0;
 }
-/* line 709, ../scss/components/_blocks.scss */
+/* line 738, ../scss/components/_blocks.scss */
 .block-contact-us h4 {
   margin-bottom: 18px;
   color: #052059;
 }
-/* line 713, ../scss/components/_blocks.scss */
+/* line 742, ../scss/components/_blocks.scss */
 .block-contact-us h5 {
   margin-top: 0px;
   margin-bottom: 15px;
 }
-/* line 717, ../scss/components/_blocks.scss */
+/* line 746, ../scss/components/_blocks.scss */
 .block-contact-us a {
-  color: #000000;
+  color: black;
 }
-/* line 719, ../scss/components/_blocks.scss */
+/* line 748, ../scss/components/_blocks.scss */
 .block-contact-us a:hover {
-  color: #000000;
+  color: black;
 }
-/* line 724, ../scss/components/_blocks.scss */
+/* line 753, ../scss/components/_blocks.scss */
 .block-contact-us .contact-detail-item {
   display: inline-block;
   width: 100%;
   margin-bottom: 15px;
 }
-/* line 728, ../scss/components/_blocks.scss */
+/* line 757, ../scss/components/_blocks.scss */
 .block-contact-us .contact-detail-item:last-child {
   margin-bottom: 0px;
 }
-/* line 731, ../scss/components/_blocks.scss */
+/* line 760, ../scss/components/_blocks.scss */
 .block-contact-us .contact-detail-item span {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 734, ../scss/components/_blocks.scss */
+/* line 763, ../scss/components/_blocks.scss */
 .block-contact-us .contact-detail-item span.fa, .block-contact-us .contact-detail-item .block.block--funding-priorities span.slick-arrow, .block.block--funding-priorities .block-contact-us .contact-detail-item span.slick-arrow, .block-contact-us .contact-detail-item .block.block--funding-priorities span.slider-button, .block.block--funding-priorities .block-contact-us .contact-detail-item span.slider-button {
   font-size: 1.3rem;
   margin-right: 15px;
@@ -8658,154 +8619,154 @@ ul.category-nav > li a {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 744, ../scss/components/_blocks.scss */
+  /* line 773, ../scss/components/_blocks.scss */
   .block-contact-us {
     margin: 0 0 50px 0;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 749, ../scss/components/_blocks.scss */
+  /* line 778, ../scss/components/_blocks.scss */
   .block-contact-us {
     margin: 0 0 30px 0;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 754, ../scss/components/_blocks.scss */
+  /* line 783, ../scss/components/_blocks.scss */
   .block-contact-us {
     margin: 0 0 30px 0;
   }
 }
-/* line 760, ../scss/components/_blocks.scss */
+/* line 789, ../scss/components/_blocks.scss */
 .block-story-nugget {
   position: relative;
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   margin-left: -15px;
   margin-right: -15px;
   margin-bottom: 30px;
 }
-/* line 766, ../scss/components/_blocks.scss */
+/* line 795, ../scss/components/_blocks.scss */
 .block-story-nugget:before, .block-story-nugget:after {
   display: table;
   content: " ";
 }
-/* line 770, ../scss/components/_blocks.scss */
+/* line 799, ../scss/components/_blocks.scss */
 .block-story-nugget:after {
   clear: both;
 }
-/* line 773, ../scss/components/_blocks.scss */
+/* line 802, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-display-image {
   position: relative;
   width: 100%;
   height: 184px;
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
-/* line 782, ../scss/components/_blocks.scss */
+/* line 811, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-data {
   position: relative;
   display: block;
 }
-/* line 785, ../scss/components/_blocks.scss */
+/* line 814, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-data .story-nugget-content--wrapper {
   position: relative;
   display: block;
   top: -45px;
 }
-/* line 791, ../scss/components/_blocks.scss */
+/* line 820, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-title {
   position: relative;
   display: block;
   margin-bottom: 30px;
 }
-/* line 795, ../scss/components/_blocks.scss */
+/* line 824, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-title h4 {
   margin: 0px;
-  color: #FFFFFF;
+  color: white;
   padding: 20px;
 }
-/* line 799, ../scss/components/_blocks.scss */
+/* line 828, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-title h4.background--green {
-  background-color: #6EA400;
+  background-color: #6ea400;
 }
-/* line 802, ../scss/components/_blocks.scss */
+/* line 831, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-title h4.background--orange {
-  background-color: #F26D04;
+  background-color: #f26d04;
 }
-/* line 805, ../scss/components/_blocks.scss */
+/* line 834, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-title h4.background--blue {
-  background-color: #007CBE;
+  background-color: #007cbe;
 }
-/* line 808, ../scss/components/_blocks.scss */
+/* line 837, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-title h4.background--teal {
   background-color: #058488;
 }
-/* line 813, ../scss/components/_blocks.scss */
+/* line 842, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-content {
   position: relative;
   width: 100%;
 }
-/* line 817, ../scss/components/_blocks.scss */
+/* line 846, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-content p:first-child {
   margin-top: 0px;
 }
-/* line 821, ../scss/components/_blocks.scss */
+/* line 850, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-content .foot-caption {
   font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   color: #58595b;
 }
-/* line 824, ../scss/components/_blocks.scss */
+/* line 853, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-content .foot-caption p {
   font-size: 12px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 832, ../scss/components/_blocks.scss */
+  /* line 861, ../scss/components/_blocks.scss */
   .block-story-nugget {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 30px;
   }
-  /* line 836, ../scss/components/_blocks.scss */
+  /* line 865, ../scss/components/_blocks.scss */
   .block-story-nugget .story-nugget-display-image {
     height: 414px;
   }
-  /* line 840, ../scss/components/_blocks.scss */
+  /* line 869, ../scss/components/_blocks.scss */
   .block-story-nugget .story-nugget-title h4 {
     padding: 20px 30px;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 848, ../scss/components/_blocks.scss */
+  /* line 877, ../scss/components/_blocks.scss */
   .block-story-nugget {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 60px;
   }
-  /* line 852, ../scss/components/_blocks.scss */
+  /* line 881, ../scss/components/_blocks.scss */
   .block-story-nugget .story-nugget-display-image {
     height: 433px;
   }
-  /* line 855, ../scss/components/_blocks.scss */
+  /* line 884, ../scss/components/_blocks.scss */
   .block-story-nugget .story-nugget-content {
     padding-left: 45px;
     padding-right: 45px;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 863, ../scss/components/_blocks.scss */
+  /* line 892, ../scss/components/_blocks.scss */
   .block-story-nugget {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 60px;
   }
-  /* line 867, ../scss/components/_blocks.scss */
+  /* line 896, ../scss/components/_blocks.scss */
   .block-story-nugget .story-nugget-display-image {
     height: 433px;
   }
 }
-/* line 874, ../scss/components/_blocks.scss */
+/* line 903, ../scss/components/_blocks.scss */
 .block--story-detail-hero {
   height: 242px;
   background-repeat: no-repeat;
@@ -8815,37 +8776,37 @@ ul.category-nav > li a {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 883, ../scss/components/_blocks.scss */
+  /* line 912, ../scss/components/_blocks.scss */
   .block--story-detail-hero {
     height: 266px;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 889, ../scss/components/_blocks.scss */
+  /* line 918, ../scss/components/_blocks.scss */
   .block--story-detail-hero {
     height: 450px;
     margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 896, ../scss/components/_blocks.scss */
+  /* line 925, ../scss/components/_blocks.scss */
   .block--story-detail-hero {
     height: 450px;
   }
 }
-/* line 901, ../scss/components/_blocks.scss */
+/* line 930, ../scss/components/_blocks.scss */
 .block--share-btns {
   display: inline-block;
   width: 100%;
   margin-bottom: 20px;
 }
-/* line 905, ../scss/components/_blocks.scss */
+/* line 934, ../scss/components/_blocks.scss */
 .block--share-btns .article-share-btn {
   background-color: #58595b;
   width: 38px;
   height: 38px;
   display: block;
-  color: #FFFFFF;
+  color: white;
   text-align: center;
   padding: 9px 0px;
   border-radius: 50px;
@@ -8853,25 +8814,25 @@ ul.category-nav > li a {
   font-size: 18px;
   float: left;
 }
-/* line 917, ../scss/components/_blocks.scss */
+/* line 946, ../scss/components/_blocks.scss */
 .block--share-btns .article-share-btn:hover {
   background-color: #052059;
 }
 
 @media screen and (min-width: 1024px) {
-  /* line 924, ../scss/components/_blocks.scss */
+  /* line 953, ../scss/components/_blocks.scss */
   .block--share-btns {
     margin-bottom: 0px;
     position: absolute;
     width: auto;
     left: -30px;
   }
-  /* line 929, ../scss/components/_blocks.scss */
+  /* line 958, ../scss/components/_blocks.scss */
   .block--share-btns.followScroll {
     position: fixed;
     top: 150px;
   }
-  /* line 933, ../scss/components/_blocks.scss */
+  /* line 962, ../scss/components/_blocks.scss */
   .block--share-btns .article-share-btn {
     background-color: #58595b;
     width: 30px;
@@ -8882,69 +8843,69 @@ ul.category-nav > li a {
     padding: 7px 0px;
   }
 }
-/* line 946, ../scss/components/_blocks.scss */
+/* line 975, ../scss/components/_blocks.scss */
 .block-quote-custom {
   background-color: #ebf3fa;
-  color: #000000;
+  color: black;
   padding: 20px 23.5px;
   margin: 1.5em 0em;
 }
-/* line 951, ../scss/components/_blocks.scss */
+/* line 980, ../scss/components/_blocks.scss */
 .block-quote-custom .quote {
   font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
   font-size: 24px;
   line-height: 1.33;
   margin-bottom: 15px;
 }
-/* line 956, ../scss/components/_blocks.scss */
+/* line 985, ../scss/components/_blocks.scss */
 .block-quote-custom .quote p {
   font-family: inherit;
   font-size: inherit;
   margin: 0px;
   display: inline;
 }
-/* line 963, ../scss/components/_blocks.scss */
+/* line 992, ../scss/components/_blocks.scss */
 .block-quote-custom .from {
   font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   color: #052059;
   font-size: 18px;
   line-height: 1.44;
 }
-/* line 968, ../scss/components/_blocks.scss */
+/* line 997, ../scss/components/_blocks.scss */
 .block-quote-custom .from strong {
   font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 977, ../scss/components/_blocks.scss */
+  /* line 1006, ../scss/components/_blocks.scss */
   .block-quote-custom .from {
     font-size: 15px;
     line-height: 1.47;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 985, ../scss/components/_blocks.scss */
+  /* line 1014, ../scss/components/_blocks.scss */
   .block-quote-custom {
     float: right;
     margin: 15px 0px 15px 30px;
     max-width: 50%;
   }
 }
-/* line 992, ../scss/components/_blocks.scss */
+/* line 1021, ../scss/components/_blocks.scss */
 .block-article-carousel--wrapper {
   margin-bottom: 40px;
 }
 
-/* line 999, ../scss/components/_blocks.scss */
+/* line 1028, ../scss/components/_blocks.scss */
 .block--article-carousel.mobile-block .carousel-nav {
   display: block;
 }
-/* line 1004, ../scss/components/_blocks.scss */
+/* line 1033, ../scss/components/_blocks.scss */
 .block--article-carousel.desktop-block .carousel-nav {
   display: none;
 }
-/* line 1008, ../scss/components/_blocks.scss */
+/* line 1037, ../scss/components/_blocks.scss */
 .block--article-carousel .carousel-nav {
   position: absolute;
   z-index: 2;
@@ -8954,188 +8915,267 @@ ul.category-nav > li a {
   top: 50%;
   margin-top: -23px;
   font-size: 46px;
-  color: #FFFFFF;
+  color: white;
   padding-left: 15px;
   padding-right: 15px;
 }
-/* line 1020, ../scss/components/_blocks.scss */
+/* line 1049, ../scss/components/_blocks.scss */
 .block--article-carousel .carousel-nav:focus {
   outline: none;
 }
-/* line 1023, ../scss/components/_blocks.scss */
+/* line 1052, ../scss/components/_blocks.scss */
 .block--article-carousel .carousel-nav.slick-prev {
   left: 0px;
 }
-/* line 1026, ../scss/components/_blocks.scss */
+/* line 1055, ../scss/components/_blocks.scss */
 .block--article-carousel .carousel-nav.slick-next {
   right: 0px;
 }
-/* line 1030, ../scss/components/_blocks.scss */
+/* line 1059, ../scss/components/_blocks.scss */
 .block--article-carousel .item {
   width: 100%;
   height: auto;
 }
-/* line 1033, ../scss/components/_blocks.scss */
+/* line 1062, ../scss/components/_blocks.scss */
 .block--article-carousel .item:focus {
   outline: none;
 }
-/* line 1036, ../scss/components/_blocks.scss */
+/* line 1065, ../scss/components/_blocks.scss */
 .block--article-carousel .item .item-image {
   width: 100%;
   height: auto;
   display: block;
   margin: 0px;
 }
-/* line 1042, ../scss/components/_blocks.scss */
+/* line 1071, ../scss/components/_blocks.scss */
 .block--article-carousel .item .item-content {
   display: block;
-  background-color: #F1F1F1;
-  color: #000000;
+  background-color: #f1f1f1;
+  color: black;
   padding: 15px 20px;
   margin: 0px;
 }
-/* line 1048, ../scss/components/_blocks.scss */
+/* line 1077, ../scss/components/_blocks.scss */
 .block--article-carousel .item .item-content .date {
   color: #052059;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 1057, ../scss/components/_blocks.scss */
+  /* line 1086, ../scss/components/_blocks.scss */
   .block-article-carousel--wrapper {
     margin-bottom: 30px;
   }
 
-  /* line 1063, ../scss/components/_blocks.scss */
+  /* line 1092, ../scss/components/_blocks.scss */
   .block--article-carousel.mobile-block .carousel-nav {
     display: none;
   }
-  /* line 1067, ../scss/components/_blocks.scss */
+  /* line 1096, ../scss/components/_blocks.scss */
   .block--article-carousel.desktop-block {
     margin-top: -30px;
     margin-left: 24px;
     margin-right: 24px;
-    background-color: #F1F1F1;
+    background-color: #f1f1f1;
   }
-  /* line 1072, ../scss/components/_blocks.scss */
+  /* line 1101, ../scss/components/_blocks.scss */
   .block--article-carousel.desktop-block::before, .block--article-carousel.desktop-block::after {
     content: " ";
     position: absolute;
-    background-color: #F1F1F1;
+    background-color: #f1f1f1;
   }
-  /* line 1077, ../scss/components/_blocks.scss */
+  /* line 1106, ../scss/components/_blocks.scss */
   .block--article-carousel.desktop-block::before {
     left: -1px;
     width: 56.44px;
     top: 0;
     bottom: 0;
   }
-  /* line 1083, ../scss/components/_blocks.scss */
+  /* line 1112, ../scss/components/_blocks.scss */
   .block--article-carousel.desktop-block::after {
     right: -1px;
     width: 56.44px;
     top: 0;
     bottom: 0;
   }
-  /* line 1089, ../scss/components/_blocks.scss */
+  /* line 1118, ../scss/components/_blocks.scss */
   .block--article-carousel.desktop-block .carousel-nav {
     display: block;
   }
-  /* line 1093, ../scss/components/_blocks.scss */
+  /* line 1122, ../scss/components/_blocks.scss */
   .block--article-carousel .carousel-nav {
     color: #052059;
-    background-color: #F1F1F1;
+    background-color: #f1f1f1;
     padding: 10px 20px;
     top: 50%;
     margin-top: -37px;
   }
-  /* line 1099, ../scss/components/_blocks.scss */
+  /* line 1128, ../scss/components/_blocks.scss */
   .block--article-carousel .carousel-nav.slick-prev {
     left: 0px;
   }
-  /* line 1102, ../scss/components/_blocks.scss */
+  /* line 1131, ../scss/components/_blocks.scss */
   .block--article-carousel .carousel-nav.slick-next {
     right: 0px;
   }
-  /* line 1107, ../scss/components/_blocks.scss */
+  /* line 1136, ../scss/components/_blocks.scss */
   .block--article-carousel .item .item-content {
     padding: 30px 63px;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 1115, ../scss/components/_blocks.scss */
+  /* line 1144, ../scss/components/_blocks.scss */
   .block-article-carousel--wrapper {
     margin-top: 15px;
   }
 
-  /* line 1119, ../scss/components/_blocks.scss */
+  /* line 1148, ../scss/components/_blocks.scss */
   .block--article-carousel.desktop-block {
     margin-left: 40px;
     margin-right: 40px;
   }
 }
-/* line 1127, ../scss/components/_blocks.scss */
+/* line 1156, ../scss/components/_blocks.scss */
 .block-featured--article-image {
   display: inline-block;
 }
-/* line 1129, ../scss/components/_blocks.scss */
+/* line 1158, ../scss/components/_blocks.scss */
 .block-featured--article-image img {
   max-width: 100%;
   height: auto;
   margin: 0px;
   display: block;
 }
-/* line 1135, ../scss/components/_blocks.scss */
+/* line 1164, ../scss/components/_blocks.scss */
 .block-featured--article-image .featured--article-text {
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   padding: 15px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 1146, ../scss/components/_blocks.scss */
+  /* line 1175, ../scss/components/_blocks.scss */
   .block-featured--article-image .featured--article-text {
-    background-color: #F1F1F1;
+    background-color: #f1f1f1;
     padding: 15px;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 1158, ../scss/components/_blocks.scss */
+  /* line 1187, ../scss/components/_blocks.scss */
   .block-featured--article-image .featured--article-text {
-    background-color: #F1F1F1;
+    background-color: #f1f1f1;
     padding: 15px;
   }
 }
-/* line 1168, ../scss/components/_blocks.scss */
+/* line 1197, ../scss/components/_blocks.scss */
 .photo--caption-full {
   margin-bottom: 20px;
 }
-/* line 1170, ../scss/components/_blocks.scss */
+/* line 1199, ../scss/components/_blocks.scss */
 .photo--caption-full .photo-caption--wrapper {
   margin-bottom: 0px;
 }
 
-/* line 1174, ../scss/components/_blocks.scss */
+/* line 1203, ../scss/components/_blocks.scss */
 .photo--caption-side {
   display: none;
   padding: 0px 15px;
 }
-/* line 1177, ../scss/components/_blocks.scss */
+/* line 1206, ../scss/components/_blocks.scss */
 .photo--caption-side ~ div {
   margin-top: 0px;
 }
 
 @media screen and (min-width: 1024px) {
-  /* line 1183, ../scss/components/_blocks.scss */
+  /* line 1212, ../scss/components/_blocks.scss */
   .photo--caption-side {
     display: block;
     padding: 0px 15px;
   }
-  /* line 1186, ../scss/components/_blocks.scss */
+  /* line 1215, ../scss/components/_blocks.scss */
   .photo--caption-side ~ div {
     margin-top: 50px;
   }
-  /* line 1189, ../scss/components/_blocks.scss */
+  /* line 1218, ../scss/components/_blocks.scss */
   .photo--caption-side .photo-caption--wrapper {
     margin-bottom: 0px;
+  }
+}
+/* line 1224, ../scss/components/_blocks.scss */
+.block--give-block-full-width {
+  background-color: #f1f1f1;
+  height: auto;
+  display: block;
+  text-align: left;
+  display: block;
+  width: 100%;
+  position: relative;
+}
+/* line 1232, ../scss/components/_blocks.scss */
+.block--give-block-full-width .block--give-to-ucsf-content {
+  padding: 60px 0px;
+  display: block;
+  color: #052059;
+}
+/* line 1237, ../scss/components/_blocks.scss */
+.block--give-block-full-width h4, .block--give-block-full-width p {
+  display: inline-block;
+  margin: 0px;
+  font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  float: none;
+  clear: both;
+  margin-bottom: 20px;
+  font-size: 1.46667rem;
+  line-height: 1.14;
+}
+/* line 1245, ../scss/components/_blocks.scss */
+.block--give-block-full-width h4 b, .block--give-block-full-width h4 strong, .block--give-block-full-width p b, .block--give-block-full-width p strong {
+  font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+/* line 1249, ../scss/components/_blocks.scss */
+.block--give-block-full-width a, .block--give-block-full-width .btn--with-icon {
+  display: inline-block;
+  float: none;
+  clear: both;
+  width: 100%;
+}
+/* line 1254, ../scss/components/_blocks.scss */
+.block--give-block-full-width a:hover, .block--give-block-full-width .btn--with-icon:hover {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 1261, ../scss/components/_blocks.scss */
+  .block--give-block-full-width {
+    text-align: left;
+    height: auto;
+  }
+  /* line 1264, ../scss/components/_blocks.scss */
+  .block--give-block-full-width .block--give-to-ucsf-content {
+    padding: 60px 0px;
+  }
+  /* line 1267, ../scss/components/_blocks.scss */
+  .block--give-block-full-width h4, .block--give-block-full-width p {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-size: 1.73333rem;
+    line-height: 1.15;
+    clear: none;
+    margin-bottom: 0px;
+    width: 60%;
+  }
+  /* line 1275, ../scss/components/_blocks.scss */
+  .block--give-block-full-width h4 b, .block--give-block-full-width h4 strong, .block--give-block-full-width p b, .block--give-block-full-width p strong {
+    font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  }
+  /* line 1279, ../scss/components/_blocks.scss */
+  .block--give-block-full-width a, .block--give-block-full-width .btn--with-icon {
+    display: inline-block;
+    clear: none;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    margin-top: -25px;
+    width: 270px;
   }
 }
 /* line 1, ../scss/components/_custom_lists.scss */

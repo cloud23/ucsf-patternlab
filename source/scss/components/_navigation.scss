@@ -769,7 +769,7 @@ body {
 	display: inline-block;
     width: 100%;
     padding: 10px 0px;
-	ul {
+	ul, ol {
 		list-style: none;
 		padding: 0px;
 		margin: 0px;
@@ -825,7 +825,7 @@ body {
 
 @media screen and (min-width: $width-small) {
 	.breadcrumb {
-		ul {
+		ul, ol {
 			& > li {
 				display: inline-block;
 				font-size: 28px;
@@ -849,7 +849,7 @@ body {
 
 @media screen and (min-width: $width-medium) {
 	.breadcrumb {
-		ul {
+		ul, ol {
 			& > li {
 				display: inline-block;
 				font-size: 28px;
@@ -874,7 +874,7 @@ body {
 
 @media screen and (min-width: $width-large) {
 	.breadcrumb {
-		ul {
+		ul, ol {
 			& > li {
 				display: inline-block;
 				font-size: 28px;

@@ -1,3 +1,5 @@
-<p class="fund-intro">
-	{{ fund_intro_text|raw }}
-</p>
+<div class="fund-intro">
+    {% block intro_text %}
+        {{ fund_intro_text }}
+    {% endblock %}
+</div>
