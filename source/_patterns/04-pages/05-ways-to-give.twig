@@ -1,35 +1,37 @@
-{% include "@organisms/00-global/header-style-2.twig" %}
-	<div class="contents--wrapper">
-		{% include "@molecules/02-blocks/13-landing-hero.twig" with {
-			"background_image" : background_image,
-			"heading" : heading,
-			"body" : hero_body,
-			"alignment" : alignment,
-			"link_text" : link_text,
-			"link_href" : link_href
-		}
-		%}
-		<div class="content-area">
-			<div class="column-wrapper">
-				<div class="column-large-8 column-medium-8 column-small-12 column-xsmall-12">
+{% extends "@pages/_base-page.twig" %}
+{% block content %}
+    <div class="contents--wrapper">
+        {% include "@molecules/02-blocks/13-landing-hero.twig" with {
+            "background_image" : background_image,
+            "heading" : heading,
+            "body" : hero_body,
+            "alignment" : alignment,
+            "link_text" : link_text,
+            "link_href" : link_href
+        }
+        %}
+        <div class="content-area">
+            <div class="column-wrapper">
+               <div class="large--hidden medium--hidden small--hidden column-xsmall-12">
 					 {% include "@molecules/01-text/01-section-intro.twig" with {
-			            "intro_text" : intro_text
+			            "intro_text" : hero_body
 			        } %}
 				</div>
-			</div>
-		</div>
+            </div>
+        </div>
 
-		{% block page_body %}
-			{% if body %}
-				<div class="content-area">
-					{{ body|raw }}
-				</div>
-			{% endif %}
-		{% endblock %}
-{% include "@molecules/02-blocks/07-give-block-full-width.twig" with {
-	"give_to_full" : give_to_full,
-	"give" : give
-} %}
-	</div>
+        {% block page_body %}
+            {% if body %}
+                <div class="content-area">
+                    {{ body|raw }}
+                </div>
+            {% endif %}
+        {% endblock %}
+        {% include "@molecules/02-blocks/07-give-block-full-width.twig" with {
+            "give_to_full" : give_to_full,
+            "give" : give
+        } %}
+    </div>
+{% endblock %}
 
-{% include "@organisms/00-global/footer.twig" %}
+

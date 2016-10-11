@@ -137,7 +137,7 @@ $alignments : left center right justify;
     margin-bottom: 30px;
     &.section--title{
         color: $color--oxford-blue;
-        margin-top: 40px;
+        margin-top: 25px;
         .heading{
             margin-top: 0;
             margin-bottom: 15px;
@@ -220,6 +220,16 @@ p.fund-intro {
     line-height: 1.36;
     margin-top: 0px;
     margin-bottom: 15px;
+}
+
+.fund-intro{
+    p{
+        font-family: $text-body--light;
+        font-size: 22px;
+        line-height: 1.36;
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
 }
 
 @media screen and (min-width: $width-medium) {
