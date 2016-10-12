@@ -70,6 +70,8 @@
 	color: $color--oxford-blue;
 	font-size: 20px;
 	margin-bottom: 4%;
+	padding: 0px;
+	border: 0px solid transparent;
 	&:nth-child(odd) {
 		margin-right: 4%;
 	}
