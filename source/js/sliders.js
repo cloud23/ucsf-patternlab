@@ -1,4 +1,4 @@
-$(function(){
+jQuery(function($){
     // Funding priorities section
     var windowWidth = $(window).width();
     var slidesToShow;

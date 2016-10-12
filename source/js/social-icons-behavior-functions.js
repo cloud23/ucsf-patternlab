@@ -1,4 +1,4 @@
-$(function(){
+jQuery(function($){
 
 	var $window = $(window),
 		$shareBlck = $('.block--share-btns'),

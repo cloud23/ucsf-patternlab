@@ -1,4 +1,4 @@
-$(function(){
+jQuery(function($){
 
 	var $searchMobile = $("#searchMobile"),
 	$parent = $searchMobile.parent(),

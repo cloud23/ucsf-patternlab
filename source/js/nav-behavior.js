@@ -1,4 +1,4 @@
-$(function(){
+jQuery(function($){
 	var $window = $(window), $body = $('body'), $nav = $('.nav--wrapper'), $content = $('.contents--wrapper');
 	var navHeight = ($('body').hasClass('transparent')) ? $nav.find('.nav-global--wrapper').height() : $nav.height();
 	var firstElementHeight = $content.find('div:first').height();
