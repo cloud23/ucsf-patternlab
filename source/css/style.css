@@ -5038,6 +5038,11 @@ $font-header: $helvetica, $default-font;
   }
 }
 /*** Forms ***/
+/* line 3, ../scss/base/_forms.scss */
+fieldset {
+  padding: 0px;
+}
+
 /*** Grid ***/
 /*** Headings ***/
 /*** Helper ***/
