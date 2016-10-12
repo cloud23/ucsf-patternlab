@@ -1,4 +1,4 @@
-$(function(){
+jQuery(function($){
 	var $blockCarouselMobile = $('.block--article-carousel.mobile-block'),
 		$blockCarouselDesktop = $('.block--article-carousel.desktop-block'),
 		$window = $(window);
