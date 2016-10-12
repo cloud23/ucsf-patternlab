@@ -311,5 +311,6 @@
   "give" : {
     "url" : "#",
     "label" : "Give to UCSF "
-  }
+  },
+  "nav_close_icon" : "/images/close_icon.svg"
 }

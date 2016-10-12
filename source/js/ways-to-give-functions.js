@@ -1,4 +1,4 @@
-$(function(){
+jQuery(function($){
 	var $giveOptionLabel = $('.ways-to-give-option label'),
 		$defaultValue = "100",
 		$giveOtherField = $('.give-value-other-input');

@@ -1,4 +1,4 @@
-$(function(){
+jQuery(function($){
 	var $masonryContainer = $('.masonry-wrapper .masonry-results');
 
 	var masonryEvents = {

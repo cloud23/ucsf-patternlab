@@ -1,4 +1,4 @@
-$(function(){
+jQuery(function($){
 	/**
 	 * Desktop Search Script
 	 */

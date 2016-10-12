@@ -111,3 +111,14 @@
 		}
 	}
 }
+
+ul {
+	&.custom-padded-list {
+		margin: 0px;
+		padding-left: 17px;
+		& > li {
+			padding-left: 12px;
+			margin-bottom: 5px;
+		}
+	}
+}

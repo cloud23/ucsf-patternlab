@@ -208,18 +208,59 @@ $alignments : left center right justify;
     }
 }
 
-p.photo-caption {
-    font-family: $text-body--regular;
-        color: $color--medium-gray;
-    font-size: 12px;
+p {
+    &.photo-caption {
+        font-family: $text-body--regular;
+            color: $color--medium-gray;
+        font-size: 12px;
+    }
 }
 
-p.fund-intro {
-    font-family: $text-body--light;
-    font-size: 22px;
-    line-height: 1.36;
-    margin-top: 0px;
-    margin-bottom: 15px;
+p, a {
+    &.body-text-medium-20 {
+        font-size: 20px;
+        margin-top: 0px;
+        font-family: $text-body--medium;
+    }
+    &.body-text-regular-18 {
+        font-size: 18px;
+        margin-top: 0px;
+        font-family: $text-body--regular;
+    }
+    &.body-text-regular-20 {
+        font-size: 20px;
+        margin-top: 0px;
+        font-family: $text-body--regular;
+    }
+}
+
+ul {
+    &.body-text-medium-20 > li {
+        font-size: 20px;
+        margin-top: 0px;
+        font-family: $text-body--medium;
+    }
+    &.body-text-regular-18 > li {
+        font-size: 18px;
+        margin-top: 0px;
+        font-family: $text-body--regular;
+    }
+    &.body-text-regular-20 > li {
+        font-size: 20px;
+        margin-top: 0px;
+        font-family: $text-body--regular;
+    }
+}
+
+
+.padded-paragraph-group-wrapper {
+    padding-left: 40px;
+    display: block;
+    margin-bottom: 10px;
+    p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
 }
 
 .fund-intro{
@@ -233,7 +274,42 @@ p.fund-intro {
 }
 
 @media screen and (min-width: $width-medium) {
-    p.fund-intro {
-        margin-bottom: 5px;
+    .fund-intro {
+        p {
+            margin-bottom: 5px;
+        }
+    }
+}
+
+.paragraph-with-icon {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    &::before, &::after {
+        content: ' ';
+        display: table;
+    }
+    &::after {
+        clear: both;
+    }
+    .icon {
+        display: inline-block;
+        color: $color--light-blue;
+        margin-right: 20px;
+        float: left;
+        vertical-align: middle;
+        padding-top: 2px;
+        i, span {
+            font-size: 24px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
+    p{
+        display: inline-block;
+        float: left;
+        margin: 0px;
+        vertical-align: middle;
+
     }
 }

@@ -1,4 +1,9 @@
 {% extends "@pages/_base-page.twig" %}
+
+{% block header %}
+    {% include "@organisms/00-global/header-style-2.twig" %}
+{% endblock %}
+
 {% block content %}
     <div class="contents--wrapper">
         {% include "@molecules/02-blocks/13-landing-hero.twig" with {
