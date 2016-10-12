@@ -1,0 +1,49 @@
+{% extends "@pages/_base-page.twig" %}
+
+{% block content %}
+	<div class="contents--wrapper">
+		<div class="content-area">
+	        <div class="column-wrapper">
+	            <div class="column-large-8 column-medium-8 column-small-12 column-xsmall-12">
+	            	{% include "@molecules/01-text/00-section-header.twig" with {
+	                    "title" : title
+	                } %}
+	            </div>
+	        </div>
+	    </div>
+	    <div class="content-area">
+	    	<div class="column-wrapper">
+	    		<div class="column-large-9 column-medium-9 column-small-12 column-xsmall-12">
+	    			<h3>What are my payment options?</h3>
+	    			<div class="paragraph-with-icon">
+	    				<div class="icon"><i class="fa fa-question-circle-o"></i></div>
+	    				<p class="body-text-medium-20">Online</p>
+	    			</div>
+	    			<div class="padded-paragraph-group-wrapper">
+	    				<p class="body-text-regular-18">Visit UCSF online giving.</p>
+	    				<p class="body-text-regular-20">(There are no additional fees added to your credit card when you make a gift online.)</p>
+	    			</div>
+	    			<div class="paragraph-with-icon body-text-medium-20">
+	    				<div class="icon"><i class="fa fa-question-circle-o"></i></div>
+	    				<p class="body-text-medium-20">Mail</p>
+	    			</div>
+	    			<div class="padded-paragraph-group-wrapper">
+	    				<ul class="custom-padded-list body-text-regular-18">
+		    				<li>Make checks payable to: UCSF Foundation. </li>
+		    				<li>Include allocation instructions on the memo line. </li>
+		    				<li>Attach a note as to how you would like to designate your gift. </li>
+		    				<li>Send gifts by U.S. Mail to:</li>
+		    			</ul>
+	    			</div>
+	    		</div>
+	    	</div>
+	    </div>
+	    <div class="content-area">
+	    	<div class="column-wrapper">
+		    	<div class="column-large-12 column-medium-12 column-small-12 column-xsmall-12">
+		    		<h3>Frequently Asked Questions</h3>
+		    	</div>
+		    </div>
+	    </div>
+	</div>
+{% endblock %}

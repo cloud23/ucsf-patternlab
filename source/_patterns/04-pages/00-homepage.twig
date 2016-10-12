@@ -1,5 +1,10 @@
 {% extends "@pages/_base-page.twig" %}
 
+{% block header %}
+    {% include "@organisms/00-global/header-style-2.twig" %}
+{% endblock %}
+
+
 {% block content %}
     <div class="contents--wrapper">
         {% include "@molecules/02-blocks/01-block-hero.twig" %}
@@ -9,9 +14,6 @@
         {% include "@organisms/01-content-blocks/02-homepage-impact-stories.twig"%}
         {% include "@organisms/01-content-blocks/03-home-ankle.twig" %}
     </div>
-    <script>
-        document.getElementsByTagName('body')[0].className+=' transparent';
-    </script>
 {% endblock %}
 
 
