@@ -588,6 +588,9 @@
                     border-top:  1px solid $color--border-impact-stories-pillar;
                     margin-bottom: 15px;
                 }
+                .block--item-content {
+                    height: auto;
+                }
             }
         }
         &.block--learn-more {
@@ -986,16 +989,38 @@
     color: $color--black;
     padding: 20px 23.5px;
     margin: 1.5em 0em;
+    position: relative;
     .quote {
         font-family: $text-headline;
         font-size: 24px;
+        position: relative;
         line-height: 1.33;
         margin-bottom: 15px;
+        quotes: "“" "”" "‘" "’";
+        text-indent: 23px;
         p {
             font-family: inherit;
             font-size: inherit;
             margin: 0px;
             display: inline;
+            margin-left: 6px;
+        }
+        .open-quote, .close-quote {
+            font-size: 60px;
+            color: $color--light-blue;
+        }
+        .open-quote{
+            position: absolute;
+            left: -24px;
+            top: -10px;
+        }
+        .close-quote {
+            height: 0;
+            line-height: 0;
+            vertical-align: middle;
+            display: inline-block;
+            padding-top: 20px;
+            margin-left: -23px;
         }
     }
     .from {
@@ -1026,6 +1051,15 @@
         max-width: 50%;
     }
 }
+
+@media screen and (min-width: $width-large) {
+    .block-quote-custom {
+        width: 470px;
+        max-width: 470px;
+        margin-right: -95px;
+    }
+}
+
 
 .block-article-carousel--wrapper {
     margin-bottom: 40px;
