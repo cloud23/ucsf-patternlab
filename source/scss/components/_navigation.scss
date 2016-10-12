@@ -189,13 +189,15 @@ body {
 		margin-right: 22px;
 	}
 	.advanced-form-close-button {
-		background: url(/images/x-icon.png) no-repeat center;
+		// background: url(/images/x-icon.png) no-repeat center;
 		width: 25px;
 		height: 25px;
 		position: absolute;
 		right: 15px;
     	top: 12px;
     	cursor: pointer;
+    	padding: 2px;
+    	text-align: center;
 	}
 }
 
@@ -642,7 +644,7 @@ body {
 		}
 	}
 	.mobile-search-submit--wrapper {
-		padding: 0px 28px;
+		padding: 10px 28px 0px;
 		position: relative;
 		display: block;
 		.search-submit {
