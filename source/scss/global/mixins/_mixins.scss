@@ -90,3 +90,14 @@
        -moz-box-sizing: $param;
             box-sizing: $param;
 }
+
+@mixin body-text-definition($size, $font) {
+  font-size: $size;
+  margin-top: 0px;
+  font-family: $font;
+  * > {
+      font-size: $size;
+      margin-top: 0px;
+      font-family: $font;
+  }
+}
