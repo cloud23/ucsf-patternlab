@@ -1,0 +1,10 @@
+<div class="accordion-list">
+	{% if faq_items %}
+		{% for item in faq_items %}
+		    {% include '@molecules/02-blocks/14-accordion-item.twig' with {
+		    	"faq_item_header" : item.faq_item_header,
+		    	"faq_item_body" : item.faq_item_body
+		    } %}
+		{% endfor %}
+	{% endif %}
+</div>

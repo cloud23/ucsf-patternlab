@@ -42,6 +42,7 @@ h2 {
 h3 {
     @include heading-definition($text-headline, 30, 42px, normal);
     color: $color--oxford-blue;
+    margin-top: 0px;
 }
 
 h4 {
@@ -115,11 +116,14 @@ blockquote{
 
 }
 
-address {
+address, details {
     font-style: normal;
     font-family: $text-body--light;
-    & > strong {
+    & > b, & > strong {
         font-family: $text-body--medium;
+    }
+    &.content-padded {
+        padding-left: 30px;
     }
 }
 
@@ -216,42 +220,39 @@ p {
     }
 }
 
-p, a {
-    &.body-text-medium-20 {
-        font-size: 20px;
-        margin-top: 0px;
+.content-padded {
+    padding-left: 30px;
+}
+
+.address_account_detail {
+    b, strong {
         font-family: $text-body--medium;
-    }
-    &.body-text-regular-18 {
-        font-size: 18px;
-        margin-top: 0px;
-        font-family: $text-body--regular;
-    }
-    &.body-text-regular-20 {
-        font-size: 20px;
-        margin-top: 0px;
-        font-family: $text-body--regular;
     }
 }
 
-ul {
-    &.body-text-medium-20 > li {
-        font-size: 20px;
-        margin-top: 0px;
-        font-family: $text-body--medium;
-    }
-    &.body-text-regular-18 > li {
-        font-size: 18px;
-        margin-top: 0px;
-        font-family: $text-body--regular;
-    }
-    &.body-text-regular-20 > li {
-        font-size: 20px;
-        margin-top: 0px;
-        font-family: $text-body--regular;
-    }
+.body-text-light-18 {
+    @include body-text-definition(18px, $text-body--light);
 }
 
+.body-text-light-20 {
+    @include body-text-definition(20px, $text-body--light);
+}
+
+.body-text-regular-18 {
+    @include body-text-definition(18px, $text-body--regular);
+}
+
+.body-text-regular-20 {
+    @include body-text-definition(20px, $text-body--regular);
+}
+
+.body-text-medium-18 {
+    @include body-text-definition(18px, $text-body--medium);
+}
+
+.body-text-medium-20 {
+    @include body-text-definition(20px, $text-body--medium);
+}
 
 .padded-paragraph-group-wrapper {
     padding-left: 40px;
@@ -305,7 +306,7 @@ ul {
             vertical-align: middle;
         }
     }
-    p{
+    p {
         display: inline-block;
         float: left;
         margin: 0px;

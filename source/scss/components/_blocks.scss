@@ -698,7 +698,7 @@
         }
     }
     .note {
-        strong {
+        strong,b {
             font-family: $text-body--medium;
         }
     }
@@ -1028,7 +1028,7 @@
         color: $color--oxford-blue;
         font-size: 18px;
         line-height: 1.44;
-        strong {
+        strong, b {
             font-family: $text-body--medium;
             font-weight: normal;
         }
