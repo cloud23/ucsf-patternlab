@@ -4,7 +4,7 @@ jQuery(function($){
 		$shareBlck = $('.block--share-btns'),
 		$contentArea = $('.content-area'),
 		$nav = $('.nav--wrapper'),
-		$hero = $('.block--story-detail-hero');
+		$thresholdId = ( $('.block--story-detail-hero').length > 0 ) ? $('.block--story-detail-hero') : $('.header-section.section--title.story');
 
 	var threshold,
 		calculatedThreshold,
@@ -19,7 +19,7 @@ jQuery(function($){
 		scrollEvent: function() {
 			$window.on('scroll',function(){
 				var scrollTop = $(this).scrollTop();
-				maxThreshold = $nav.height()+$hero.height(),
+				maxThreshold = $nav.height()+$thresholdId.height(),
 				calculatedThreshold = threshold,
 				offsetLeft = $contentArea.offset().left-30;
 				if(scrollTop >= calculatedThreshold) {
@@ -36,7 +36,7 @@ jQuery(function($){
 		},
 		resizeEvent: function() {
 			$window.on('resize',function(){
-				maxThreshold = $nav.height()+$hero.height(),
+				maxThreshold = $nav.height()+$thresholdId.height(),
 				calculatedThreshold = threshold,
 				offsetLeft = $contentArea.offset().left-30;
 			});
@@ -45,7 +45,7 @@ jQuery(function($){
 
 
 	if($shareBlck.length > 0 ) {
-		threshold = $nav.height()+$hero.height(),
+		threshold = $nav.height()+$thresholdId.height(),
 		calculatedThreshold = threshold,
 		offsetLeft = $contentArea.offset().left-30;
 

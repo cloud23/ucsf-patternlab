@@ -39,6 +39,7 @@ body {
 }
 
 .nav--wrapper {
+	box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5);
 	& ~ .contents--wrapper {
 		margin-top: 108px;
 	}
@@ -239,11 +240,11 @@ body {
 	}
 }
 
-
 @media screen and (min-width: $width-medium) {
 	body {
 		&.transparent {
 			.nav--wrapper {
+				box-shadow: none;
 				& ~ .contents--wrapper {
 					margin-top: 40px;
 				}
@@ -252,6 +253,7 @@ body {
 	}
 
 	.nav--wrapper {
+		box-shadow: none;
 		& ~ .contents--wrapper {
 			margin-top: 135px;
 		}
