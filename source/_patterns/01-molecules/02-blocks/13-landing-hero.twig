@@ -28,4 +28,12 @@
 		{% endblock %}
 	</div>
 </div>
-
+<div class="content-area xsmall--visible">
+    <div class="column-wrapper">
+       <div class="large--hidden medium--hidden small--hidden column-xsmall-12">
+			{% include "@molecules/01-text/01-section-intro.twig" with {
+	            "intro_text" : body
+	        } %}
+		</div>
+    </div>
+</div>

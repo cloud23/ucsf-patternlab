@@ -5,6 +5,9 @@
     padding: 0;
     margin: 0;
     display: block;
+    & ~ .content-area {
+    	margin-bottom: 30px;
+    }
 }
 
 .block {
@@ -102,15 +105,15 @@
 			}
 		}
 	}
-	&.block--landing-hero {
-		margin-bottom: 30px;
-	}
 }
 
 
 @media screen and (min-width: $width-small){
 	.hero--wrapper {
 		background-color: $color--white;
+		& ~ .content-area {
+			margin-top: 40px;
+		}
 	}
 	.block {
 		&.block-hero, &.block--landing-hero {
@@ -150,7 +153,6 @@
 		}
 		&.block--landing-hero {
 			height: 450px;
-			margin-bottom: 40px;
 		}
 	}
 }
@@ -158,6 +160,11 @@
 
 
 @media screen and (min-width: $width-medium){
+	.hero--wrapper {
+		& ~ .content-area {
+			margin-top: 40px;
+		}
+	}
 	.block {
 		&.block-hero {
 			background-position: top center;
@@ -177,7 +184,7 @@
 		&.block--landing-hero {
 			background-position: top center;
 			height: 450px;
-			margin-bottom: 40px;
+			// margin-bottom: 40px;
 			.hero-text {
 				max-width: 57%;
    				&.align-left {
@@ -196,6 +203,11 @@
 
 
 @media screen and (min-width: $width-large){
+	.hero--wrapper {
+		& ~ .content-area {
+			margin-top: 40px;
+		}
+	}
 	.block {
 		&.block-hero{
 			background-position: top center;
@@ -215,7 +227,7 @@
 		&.block--landing-hero {
 			background-position: top center;
 			height: 450px;
-			margin-bottom: 40px;
+			// margin-bottom: 40px;
 			.hero-text {
 				max-width: 47%;
    				&.align-left {

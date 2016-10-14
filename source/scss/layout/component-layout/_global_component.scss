@@ -601,3 +601,122 @@
 		}
 	}
 }
+
+.ways-to-give-form--inline-wrapper {
+	background-color: $color--white;
+	display: block;
+	width: 100%;
+	height: auto;
+	position: relative;
+	h3 {
+		margin-bottom: 15px;
+	}
+}
+.ways-to-give-form--inline {
+	padding: 0px;
+}
+
+@media screen and (min-width: $width-small) {
+	.ways-to-give-form--inline-wrapper{
+		background-color: $color--light-gray;
+	}
+	.ways-to-give-form--inline {
+		padding: 30px 37px;
+		.ways-to-give-options--wrapper {
+			margin-top: 0px;
+			margin-bottom: 20px;
+			.ways-to-give-option {
+				label, .others-dollar-label {
+					background-color: $color--light-gray;
+				}
+				label {
+					&:hover {
+						background-color: $color--light-blue;
+					}
+					&:active {
+						background-color: $color--oxford-blue;
+					}
+				}
+			}
+		}
+		.submit-button-small-xsmall--medium--wrapper {
+		    margin-bottom: 0px;
+		    .btn {
+		    	min-width: 304px;
+		    }
+		}
+	}
+}
+
+
+@media screen and (min-width: $width-medium) {
+	.ways-to-give-form--inline {
+		padding: 0px;
+		.ways-to-give-options--wrapper {
+			margin-top: 48px;
+			margin-bottom: 48px;
+			.ways-to-give-option {
+				&:nth-child(odd) {
+
+				}
+				&:nth-child(even) {
+
+				}
+				&:last-child, &:nth-last-child(2) {
+
+				}
+				&:nth-last-child(2) {
+					margin-right: 10px;
+				}
+				&.submit-btn {
+					display: block;
+				}
+				input[type="text"] {
+					width: 138px;
+				}
+			}
+		}
+		.submit-button-small-xsmall--medium--wrapper {
+		    display: none;
+		}
+	}
+}
+
+@media screen and (min-width: $width-large) {
+	.ways-to-give-form--inline {
+		padding: 0px;
+		.ways-to-give-options--wrapper {
+			margin-top: 48px;
+			margin-bottom: 48px;
+			.ways-to-give-option {
+				&:nth-child(odd) {
+
+				}
+				&:nth-child(even) {
+
+				}
+				&:last-child, &:nth-last-child(2) {
+
+				}
+				&:nth-last-child(2) {
+					margin-right: 10px;
+				}
+				&.submit-btn {
+					display: block;
+					.btn {
+						width: 307px;
+					}
+				}
+				label {
+					width: 128px;
+				}
+				input[type="text"] {
+					width: 270px;
+				}
+			}
+		}
+		.submit-button-small-xsmall--medium--wrapper {
+		    display: none;
+		}
+	}
+}

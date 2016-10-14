@@ -5041,6 +5041,7 @@ $font-header: $helvetica, $default-font;
 /* line 3, ../scss/base/_forms.scss */
 fieldset {
   padding: 0px;
+  margin: 0px;
   border: 0px solid transparent;
 }
 
@@ -6587,6 +6588,122 @@ footer .footer--colum-content, footer .footer--column-links {
     width: 100%;
   }
 }
+/* line 605, ../scss/layout/component-layout/_global_component.scss */
+.ways-to-give-form--inline-wrapper {
+  background-color: #FFFFFF;
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+/* line 611, ../scss/layout/component-layout/_global_component.scss */
+.ways-to-give-form--inline-wrapper h3 {
+  margin-bottom: 15px;
+}
+
+/* line 615, ../scss/layout/component-layout/_global_component.scss */
+.ways-to-give-form--inline {
+  padding: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 620, ../scss/layout/component-layout/_global_component.scss */
+  .ways-to-give-form--inline-wrapper {
+    background-color: #F1F1F1;
+  }
+
+  /* line 623, ../scss/layout/component-layout/_global_component.scss */
+  .ways-to-give-form--inline {
+    padding: 30px 37px;
+  }
+  /* line 625, ../scss/layout/component-layout/_global_component.scss */
+  .ways-to-give-form--inline .ways-to-give-options--wrapper {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  /* line 629, ../scss/layout/component-layout/_global_component.scss */
+  .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option label, .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option .others-dollar-label {
+    background-color: #F1F1F1;
+  }
+  /* line 633, ../scss/layout/component-layout/_global_component.scss */
+  .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option label:hover {
+    background-color: #007CBE;
+  }
+  /* line 636, ../scss/layout/component-layout/_global_component.scss */
+  .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option label:active {
+    background-color: #052059;
+  }
+  /* line 642, ../scss/layout/component-layout/_global_component.scss */
+  .ways-to-give-form--inline .submit-button-small-xsmall--medium--wrapper {
+    margin-bottom: 0px;
+  }
+  /* line 644, ../scss/layout/component-layout/_global_component.scss */
+  .ways-to-give-form--inline .submit-button-small-xsmall--medium--wrapper .btn {
+    min-width: 304px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* line 653, ../scss/layout/component-layout/_global_component.scss */
+  .ways-to-give-form--inline {
+    padding: 0px;
+  }
+  /* line 655, ../scss/layout/component-layout/_global_component.scss */
+  .ways-to-give-form--inline .ways-to-give-options--wrapper {
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+  /* line 668, ../scss/layout/component-layout/_global_component.scss */
+  .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option:nth-last-child(2) {
+    margin-right: 10px;
+  }
+  /* line 671, ../scss/layout/component-layout/_global_component.scss */
+  .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option.submit-btn {
+    display: block;
+  }
+  /* line 674, ../scss/layout/component-layout/_global_component.scss */
+  .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option input[type="text"] {
+    width: 138px;
+  }
+  /* line 679, ../scss/layout/component-layout/_global_component.scss */
+  .ways-to-give-form--inline .submit-button-small-xsmall--medium--wrapper {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 686, ../scss/layout/component-layout/_global_component.scss */
+  .ways-to-give-form--inline {
+    padding: 0px;
+  }
+  /* line 688, ../scss/layout/component-layout/_global_component.scss */
+  .ways-to-give-form--inline .ways-to-give-options--wrapper {
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+  /* line 701, ../scss/layout/component-layout/_global_component.scss */
+  .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option:nth-last-child(2) {
+    margin-right: 10px;
+  }
+  /* line 704, ../scss/layout/component-layout/_global_component.scss */
+  .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option.submit-btn {
+    display: block;
+  }
+  /* line 706, ../scss/layout/component-layout/_global_component.scss */
+  .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option.submit-btn .btn {
+    width: 307px;
+  }
+  /* line 710, ../scss/layout/component-layout/_global_component.scss */
+  .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option label {
+    width: 128px;
+  }
+  /* line 713, ../scss/layout/component-layout/_global_component.scss */
+  .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option input[type="text"] {
+    width: 270px;
+  }
+  /* line 718, ../scss/layout/component-layout/_global_component.scss */
+  .ways-to-give-form--inline .submit-button-small-xsmall--medium--wrapper {
+    display: none;
+  }
+}
 /*** Header ***/
 /* line 1, ../scss/layout/component-layout/_hero-image-block.scss */
 .hero--wrapper {
@@ -6597,12 +6714,16 @@ footer .footer--colum-content, footer .footer--column-links {
   margin: 0;
   display: block;
 }
+/* line 8, ../scss/layout/component-layout/_hero-image-block.scss */
+.hero--wrapper ~ .content-area {
+  margin-bottom: 30px;
+}
 
-/* line 10, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 13, ../scss/layout/component-layout/_hero-image-block.scss */
 .block {
   display: block;
 }
-/* line 12, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 15, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero, .block.block--landing-hero {
   position: relative;
   display: block;
@@ -6612,19 +6733,19 @@ footer .footer--colum-content, footer .footer--column-links {
   height: 350px;
   background-color: #000000;
 }
-/* line 20, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 23, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .content-area, .block.block--landing-hero .content-area {
   height: 100%;
 }
-/* line 22, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 25, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .content-area .column-wrapper, .block.block--landing-hero .content-area .column-wrapper {
   height: 100%;
 }
-/* line 24, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 27, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .content-area .column-wrapper > div:last-child, .block.block--landing-hero .content-area .column-wrapper > div:last-child {
   height: 100%;
 }
-/* line 29, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 32, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .hero-background, .block.block--landing-hero .hero-background {
   position: absolute;
   top: 0;
@@ -6639,7 +6760,7 @@ footer .footer--colum-content, footer .footer--column-links {
   opacity: 0.7;
   z-index: 0;
 }
-/* line 43, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 46, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .hero-text, .block.block--landing-hero .hero-text {
   display: block;
   opacity: 1;
@@ -6654,39 +6775,39 @@ footer .footer--colum-content, footer .footer--column-links {
   transform: translateY(-50%);
   color: #FFFFFF;
 }
-/* line 56, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 59, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .hero-text.align-left, .block.block--landing-hero .hero-text.align-left {
   left: 15px;
   right: 15px;
 }
-/* line 60, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 63, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .hero-text.align-right, .block.block--landing-hero .hero-text.align-right {
   left: 15px;
   right: 15px;
 }
-/* line 64, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 67, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .hero-text p, .block.block--landing-hero .hero-text p {
   font-size: 18px;
   display: none;
   margin: 0px;
 }
-/* line 69, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 72, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .hero-text > a, .block.block--landing-hero .hero-text > a {
   display: none;
 }
-/* line 71, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 74, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .hero-text > a.link.link--with-icon, .block.block--landing-hero .hero-text > a.link.link--with-icon {
   color: #FFFFFF;
 }
-/* line 73, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 76, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .hero-text > a.link.link--with-icon .link--icon, .block.block--landing-hero .hero-text > a.link.link--with-icon .link--icon {
   color: #FFFFFF;
 }
-/* line 77, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 80, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .hero-text > a.link.link--with-icon:hover .icon--angle, .block.block--landing-hero .hero-text > a.link.link--with-icon:hover .icon--angle {
   color: #007CBE;
 }
-/* line 84, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 87, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero > .link--with-icon, .block.block--landing-hero > .link--with-icon {
   display: block;
   position: absolute;
@@ -6696,21 +6817,17 @@ footer .footer--colum-content, footer .footer--column-links {
   text-align: center;
   z-index: 1;
 }
-/* line 92, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 95, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero > .link--with-icon.link.link--with-icon, .block.block--landing-hero > .link--with-icon.link.link--with-icon {
   color: #FFFFFF;
 }
-/* line 94, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 97, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero > .link--with-icon.link.link--with-icon .link--icon, .block.block--landing-hero > .link--with-icon.link.link--with-icon .link--icon {
   color: #FFFFFF;
 }
-/* line 98, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 101, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero > .link--with-icon.link.link--with-icon:hover .icon--angle, .block.block--landing-hero > .link--with-icon.link.link--with-icon:hover .icon--angle {
   color: #007CBE;
-}
-/* line 105, ../scss/layout/component-layout/_hero-image-block.scss */
-.block.block--landing-hero {
-  margin-bottom: 30px;
 }
 
 @media screen and (min-width: 768px) {
@@ -6718,135 +6835,146 @@ footer .footer--colum-content, footer .footer--column-links {
   .hero--wrapper {
     background-color: #FFFFFF;
   }
+  /* line 114, ../scss/layout/component-layout/_hero-image-block.scss */
+  .hero--wrapper ~ .content-area {
+    margin-top: 40px;
+  }
 
-  /* line 116, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 119, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero, .block.block--landing-hero {
     background-position: top center;
   }
-  /* line 118, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 121, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-background, .block.block--landing-hero .hero-background {
     background-color: #FFFFFF;
     opacity: 1;
   }
-  /* line 122, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 125, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text, .block.block--landing-hero .hero-text {
     position: absolute;
     text-align: left;
     max-width: 57%;
   }
-  /* line 126, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 129, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text.align-left, .block.block--landing-hero .hero-text.align-left {
     left: 15px;
     right: initial;
   }
-  /* line 130, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 133, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text.align-right, .block.block--landing-hero .hero-text.align-right {
     left: initial;
     right: 15px;
   }
-  /* line 134, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 137, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text h1, .block.block--landing-hero .hero-text h1 {
     margin-bottom: 20px;
   }
-  /* line 137, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 140, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text p, .block.block--landing-hero .hero-text p {
     display: block;
   }
-  /* line 140, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 143, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text > a, .block.block--landing-hero .hero-text > a {
     display: block;
   }
-  /* line 144, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 147, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero > .link--with-icon, .block.block--landing-hero > .link--with-icon {
     display: none;
   }
-  /* line 148, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 151, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero {
     height: 516px;
   }
-  /* line 151, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 154, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero {
     height: 450px;
-    margin-bottom: 40px;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 162, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 164, ../scss/layout/component-layout/_hero-image-block.scss */
+  .hero--wrapper ~ .content-area {
+    margin-top: 40px;
+  }
+
+  /* line 169, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero {
     background-position: top center;
     height: 660px;
   }
-  /* line 165, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 172, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text {
     max-width: 57%;
   }
-  /* line 167, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 174, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text.align-left {
     left: 15px;
     right: initial;
   }
-  /* line 171, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 178, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text.align-right {
     left: initial;
     right: 15px;
   }
-  /* line 177, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 184, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero {
     background-position: top center;
     height: 450px;
-    margin-bottom: 40px;
   }
-  /* line 181, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 188, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero .hero-text {
     max-width: 57%;
   }
-  /* line 183, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 190, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero .hero-text.align-left {
     left: 15px;
     right: initial;
   }
-  /* line 187, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 194, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero .hero-text.align-right {
     left: initial;
     right: 15px;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 200, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 207, ../scss/layout/component-layout/_hero-image-block.scss */
+  .hero--wrapper ~ .content-area {
+    margin-top: 40px;
+  }
+
+  /* line 212, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero {
     background-position: top center;
     height: 660px;
   }
-  /* line 203, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 215, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text {
     max-width: 47%;
   }
-  /* line 205, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 217, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text.align-left {
     left: 15px;
     right: initial;
   }
-  /* line 209, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 221, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text.align-right {
     left: initial;
     right: 15px;
   }
-  /* line 215, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 227, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero {
     background-position: top center;
     height: 450px;
-    margin-bottom: 40px;
   }
-  /* line 219, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 231, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero .hero-text {
     max-width: 47%;
   }
-  /* line 221, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 233, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero .hero-text.align-left {
     left: 15px;
     right: initial;
   }
-  /* line 225, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 237, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero .hero-text.align-right {
     left: initial;
     right: 15px;

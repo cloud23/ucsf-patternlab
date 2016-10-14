@@ -1,0 +1,20 @@
+{% extends "@pages/_base-page.twig" %}
+
+{% block header %}
+    {% include "@organisms/00-global/header-style-2.twig" %}
+{% endblock %}
+
+{% block content %}
+	<div class="contents--wrapper">
+		 {% include "@molecules/02-blocks/13-landing-hero.twig" with {
+            "background_image" : background_image,
+            "heading" : heading,
+            "body" : hero_body,
+            "alignment" : alignment,
+            "link_text" : link_text,
+            "link_href" : link_href
+        }
+        %}
+        {% include "@organisms/01-content-blocks/11-ways-to-give-inline.twig" %}
+	</div>
+{% endblock %}
