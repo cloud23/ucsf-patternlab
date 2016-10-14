@@ -432,6 +432,9 @@
 	&.sidebar {
 		display: none;
 	}
+	&.visible_always {
+		display: block;
+	}
 	h4 {
 		font-family: $text-headline;
 		color: $color--oxford-blue;
