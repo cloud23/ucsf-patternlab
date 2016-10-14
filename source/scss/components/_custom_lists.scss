@@ -140,11 +140,6 @@ ul {
 
 .accordion-list {
 	margin-bottom: 60px;
-	.accordion-item {
-		&:last-child {
-			border-bottom: 1px solid $color--border-impact-stories-pillar;
-		}
-	}
 }
 
 .accordion-item {
@@ -153,6 +148,9 @@ ul {
 	height: auto;
 	display: block;
 	padding-bottom: 10px;
+	&:last-child {
+		border-bottom: 1px solid $color--border-impact-stories-pillar;
+	}
 	.accordion-header {
 		display: block;
 		padding: 20px 10px 10px 0px;
@@ -275,5 +273,67 @@ ul {
 				padding-right: 0;
 			}
 		}
+	}
+}
+
+
+.whats-hot-list {
+	margin-bottom: 50px;
+}
+
+.whats-hot-item {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top: 1px solid $color--border-impact-stories-pillar;
+	&:last-child {
+		border-bottom: 1px solid $color--border-impact-stories-pillar;
+	}
+	h4 {
+		margin-top: 0px;
+		margin-bottom: 10px;
+	}
+	p {
+		margin-top: 0px;
+		margin-bottom: 10px;
+	}
+	a {
+		color: $color--oxford-blue;
+		text-decoration: none;
+		p {
+			color: $color--black;
+			margin: 0px;
+		}
+		h4 {
+			font-family: $text-body--medium;
+		}
+		&:hover {
+			color: $color--oxford-blue;
+			h4 {
+				text-decoration: underline;
+			}
+		}
+	}
+}
+
+
+@media screen and (min-width: $width-small ) {
+	.whats-hot-item {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+}
+
+
+@media screen and (min-width: $width-medium ) {
+	.whats-hot-item {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+}
+
+@media screen and (min-width: $width-large ) {
+	.whats-hot-item {
+		padding-top: 30px;
+		padding-bottom: 30px;
 	}
 }
