@@ -6,5 +6,6 @@
     "nugget_title" : "Tribute Fund Establishes Childhood Cancer Rescue Initiative",
  	"nugget_content" : "<p>Unlike some her age, Penelope Patient was not a passive kid playing computer games. She was far more likely to be doing cartwheels, jumping on the trampoline, or running with her friends. It was her gymnastics coach who noticed her limping. Penelope said it was just muscle pain. But when she asked to sit out of a competition, her mother knew something was very wrong. Soon after, Penelope was diagnosed with osteosarcoma, a rare bone cancer, that  sidelined her with surgeries, chemotherapy and radiation.</p><p>Penelope’s friends started a campaign and raised $430,000 for her care. Since Penelope’s UCSF treatment team were able to push her cancer into remission, she was able to jump back into her activities quickly. With the excess money raised, the family established a fund to provide necessary treatment to children without means. Today, that fund serves over 9,000 needy children annually and has provided treatment for 45,000 Bay Area children. </p><p class=\"photo-caption\">PHOTO: A research project that seemed to be floundering is instead transforming the world of science as three unlikely candidates for the Nobel Prize have cured the world’s deadliest disease. <i>Captured By: Richard Wilson</i></p>",
  	"nugget_link_label" : "READ FULL STORY",
-    "nugget_link" : "#"
+    "nugget_link" : "#",
+    "give_class_controller" : "sidebar"
  }
