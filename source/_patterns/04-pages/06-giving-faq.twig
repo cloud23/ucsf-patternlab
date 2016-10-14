@@ -115,21 +115,9 @@
 	    		</div>
 	    	</div>
 	    </div>
-	    <div class="content-area">
-	    	<div class="column-wrapper">
-		    	<div class="column-large-12 column-medium-12 column-small-12 column-xsmall-12">
-		    		<h3>Frequently Asked Questions</h3>
-		    	</div>
-		    </div>
-		    <div class="column-wrapper">
-		    	<div class="column-large-12 column-medium-12 column-small-12 column-xsmall-12">
-		    		<div class="faq-list">
-						{% include "@organisms/01-content-blocks/10-accordion-list.twig" with {
-							"faq_items" : faq_items
-						} %}
-		    		</div>
-		    	</div>
-		    </div>
-	    </div>
+		{% include "@organisms/01-content-blocks/10-accordion-list.twig" with {
+			"accordion_list_title" : accordion_list_title,
+			"accordion_items" : faq_items
+		} %}
 	</div>
 {% endblock %}

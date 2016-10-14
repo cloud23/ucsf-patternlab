@@ -280,6 +280,8 @@
             a{
                 position: absolute;
                 bottom: 25px;
+                left: 20px;
+                right: 20px;
                 &:hover{
                     .fa-angle-right{
                         color: $color--light-blue;
