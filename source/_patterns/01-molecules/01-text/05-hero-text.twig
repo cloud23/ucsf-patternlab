@@ -3,7 +3,7 @@
 	<h1 class="white-text">{{ heading }}</h1>
 
 	{% if body %}
-		{{ body|raw }}
+		<p>{{ body|raw }}</p>	
 	{% endif %}
 	{% if link_text %}
 		{% include '@molecules/01-text/06-link-with-icon.twig' with {
