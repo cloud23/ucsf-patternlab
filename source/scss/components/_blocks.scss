@@ -113,8 +113,40 @@
                 }
             }
         }
+        .block--contact-details {
+            p {
+                margin-top: 0px;
+            }
+            .detail-label {
+                display: none;
+                p {
+                    font-family: $text-body--medium;
+                }
+            }
+            .contact-detail-item {
+                display: inline-block;
+                width: 100%;
+                margin-bottom: 15px;
+                &:last-child {
+                    margin-bottom: 0px;
+                }
+                span {
+                    display: inline-block;
+                    vertical-align: middle;
+                    &.fa {
+                        @include type-definition(20px, 1.33);
+                        margin-right: 15px;
+                    }
+                    a {
+                        position: static;
+                        color: $color--black;
+                        @include type-definition(18px, 1.33);
+                    }
+                }
+            }
+        }
         &.background-color--teal{
-            a, span{
+            a, span, .detail-label p {
                 color: $color--teal;
             }
             a{
@@ -126,7 +158,7 @@
             }
         }
         &.background-color--green{
-            a, span{
+            a, span, .detail-label p {
                 color: $color--yellow-green;
             }
             a{
@@ -138,7 +170,7 @@
             }
         }
         &.background-color--light-blue{
-            a, span{
+            a, span, .detail-label p {
                 color: $color--light-blue;
             }
             a{
@@ -150,8 +182,20 @@
             }
         }
         &.background-color--dark-blue{
-            a, span{
+            a, span, .detail-label p {
                 color: $color--oxford-blue;
+            }
+            a{
+                &:hover{
+                    .fa-angle-right{
+                        color: $color--white;
+                    }
+                }
+            }
+        }
+         &.background-color--orange{
+            a, span, .detail-label p {
+                color: $color--orange;
             }
             a{
                 &:hover{
@@ -208,6 +252,14 @@
             .block--content{
                 .content-area{
                     background-color: $color--oxford-blue;
+                }
+            }
+        }
+        &.background-color--orange{
+            /*background-color: $color--orange;*/
+            .block--content{
+                .content-area{
+                    background-color: $color--orange;
                 }
             }
         }
@@ -359,7 +411,7 @@
                     }
                 }
             }
-            &.background--blue{
+            &.background--light-blue{
                 background-color: $color--light-blue;
                 a{
                     &:hover{
@@ -463,6 +515,9 @@
     padding-bottom: 20px;
     border-bottom: 1px solid $color--border-impact-stories-pillar;
     margin-bottom: 30px;
+    &.giving-societies--extend {
+        margin-bottom: 0px;
+    }
 }
 
 
@@ -527,7 +582,7 @@
     }
 }
 
-@media all and (min-width:$bp--small-up){
+@media all and (min-width: $bp--small-up){
     .block{
         &.block--homepage-prefooter{
             height: 330px;
@@ -554,6 +609,34 @@
                 .stats-text{
                     color: $color--oxford-blue;
                     @include type-definition(12px, 1.5);
+                }
+            }
+            .block--contact-details {
+                .detail-label {
+                    margin-bottom: 5px;
+                    p {
+                        margin: 0px;
+                    }
+                }
+                .detail--wrapper {
+                    margin-bottom: 8px;
+                }
+                .contact-detail-item {
+                    margin-bottom: 5px;
+                    span {
+                        display: inline-block;
+                        vertical-align: middle;
+                        &.fa {
+                            @include type-definition(16px, 1.33);
+                            margin-right: 10px;
+                            display: none;
+                        }
+                        a {
+                            position: static;
+                            color: $color--black;
+                            @include type-definition(14px, 1.33);
+                        }
+                    }
                 }
             }
             a{
@@ -672,6 +755,34 @@
                 margin-bottom: 15px;
             }
         }
+         &.block--funding-priorities-full {
+            min-height: 350px;
+            .block--contact-details {
+                .detail-label {
+                    display: none;
+                }
+                .detail--wrapper {
+                    margin-bottom: 0px;
+                }
+                .contact-detail-item {
+                    margin-bottom: 10px;
+                    span {
+                        display: inline-block;
+                        vertical-align: middle;
+                        &.fa {
+                            @include type-definition(16px, 1.33);
+                            margin-right: 15px;
+                            display: inline-block;
+                        }
+                        a {
+                            position: static;
+                            color: $color--black;
+                            @include type-definition(14px, 1.33);
+                        }
+                    }
+                }
+            }
+        }
     }
     .block--item{
         &.block--funding-priorities-items{
@@ -696,6 +807,39 @@
                 }
                 &.slick-next{
                     right: -50px;
+                }
+            }
+        }
+    }
+}
+
+@media all and (min-width: $width-large) {
+    .block {
+        &.block--funding-priorities-full {
+            min-height: 350px;
+            .block--contact-details {
+                .detail-label {
+                    display: none;
+                }
+                .detail--wrapper {
+                    margin-bottom: 0px;
+                }
+                .contact-detail-item {
+                    margin-bottom: 10px;
+                    span {
+                        display: inline-block;
+                        vertical-align: middle;
+                        &.fa {
+                            @include type-definition(20px, 1.33);
+                            margin-right: 15px;
+                            display: inline-block;
+                        }
+                        a {
+                            position: static;
+                            color: $color--black;
+                            @include type-definition(18px, 1.33);
+                        }
+                    }
                 }
             }
         }
