@@ -605,6 +605,7 @@
             }
         }
         &.block--funding-priorities-full{
+            min-height: 350px;
             .block--content-stats{
                 .stats-text{
                     color: $color--oxford-blue;
