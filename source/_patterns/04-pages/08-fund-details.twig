@@ -5,7 +5,9 @@
         <div class="column-wrapper">
             <div class="column-large-12 column-medium-12 column-small-12 column-xsmall-12">
                 {% block breadcrumbs %}
-                    {% include "@molecules/05-navigation/03-breadcrumb.twig" %}
+                    {% include "@molecules/05-navigation/06-back-to-page.twig" with {
+                        "breadcrumb_link" : breadcrumb_links
+                    } %}
                 {% endblock %}
             </div>
             <div class="column-large-12 column-medium-12 column-small-12 column-xsmall-12">

@@ -825,6 +825,17 @@ body {
 			}
 		}
 	}
+	&.back-to-page {
+		ul, ol {
+			& > li {
+				&::before {
+					content: "\f104";
+					color: $color--dark-gray;
+					display: inline-block;
+				}
+			}
+		}
+	}
 }
 
 @media screen and (min-width: $width-small) {
@@ -845,6 +856,15 @@ body {
 					font-family: $text-body--medium;
 					font-size: 15px;
 					margin-top: 3px;
+				}
+			}
+		}
+		&.back-to-page {
+			ul, ol {
+				& > li {
+					&::before {
+						display: inline-block;
+					}
 				}
 			}
 		}
@@ -872,6 +892,15 @@ body {
 				}
 			}
 		}
+		&.back-to-page {
+		ul, ol {
+				& > li {
+					&::before {
+						display: inline-block;
+					}
+				}
+			}
+		}
 	}
 }
 
@@ -894,6 +923,15 @@ body {
 					font-family: $text-body--medium;
 					font-size: 15px;
 					margin-top: 3px;
+				}
+			}
+		}
+		&.back-to-page {
+			ul, ol {
+				& > li {
+					&::before {
+						display: inline-block;
+					}
 				}
 			}
 		}
