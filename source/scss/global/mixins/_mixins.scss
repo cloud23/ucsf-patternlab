@@ -92,12 +92,14 @@
 }
 
 @mixin body-text-definition($size, $font) {
-  font-size: $size;
+  // font-size: $size;
   margin-top: 0px;
   font-family: $font;
+  @include type-definition($size);
   * > {
-      font-size: $size;
+      // font-size: $size;
       margin-top: 0px;
       font-family: $font;
+      @include type-definition($size);
   }
 }

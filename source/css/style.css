@@ -5502,80 +5502,92 @@ p.photo-caption {
 
 /* line 233, ../scss/base/_text.scss */
 .body-text-light-18 {
-  font-size: 18px;
   margin-top: 0px;
   font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
-/* line 98, ../scss/global/mixins/_mixins.scss */
+/* line 99, ../scss/global/mixins/_mixins.scss */
 .body-text-light-18 * > {
-  font-size: 18px;
   margin-top: 0px;
   font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
 
 /* line 237, ../scss/base/_text.scss */
 .body-text-light-20 {
-  font-size: 20px;
   margin-top: 0px;
   font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 1.33333rem;
+  line-height: 1.5;
 }
-/* line 98, ../scss/global/mixins/_mixins.scss */
+/* line 99, ../scss/global/mixins/_mixins.scss */
 .body-text-light-20 * > {
-  font-size: 20px;
   margin-top: 0px;
   font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 1.33333rem;
+  line-height: 1.5;
 }
 
 /* line 241, ../scss/base/_text.scss */
 .body-text-regular-18 {
-  font-size: 18px;
   margin-top: 0px;
   font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
-/* line 98, ../scss/global/mixins/_mixins.scss */
+/* line 99, ../scss/global/mixins/_mixins.scss */
 .body-text-regular-18 * > {
-  font-size: 18px;
   margin-top: 0px;
   font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
 
 /* line 245, ../scss/base/_text.scss */
 .body-text-regular-20 {
-  font-size: 20px;
   margin-top: 0px;
   font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 1.33333rem;
+  line-height: 1.5;
 }
-/* line 98, ../scss/global/mixins/_mixins.scss */
+/* line 99, ../scss/global/mixins/_mixins.scss */
 .body-text-regular-20 * > {
-  font-size: 20px;
   margin-top: 0px;
   font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 1.33333rem;
+  line-height: 1.5;
 }
 
 /* line 249, ../scss/base/_text.scss */
 .body-text-medium-18 {
-  font-size: 18px;
   margin-top: 0px;
   font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
-/* line 98, ../scss/global/mixins/_mixins.scss */
+/* line 99, ../scss/global/mixins/_mixins.scss */
 .body-text-medium-18 * > {
-  font-size: 18px;
   margin-top: 0px;
   font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
 
 /* line 253, ../scss/base/_text.scss */
 .body-text-medium-20 {
-  font-size: 20px;
   margin-top: 0px;
   font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 1.33333rem;
+  line-height: 1.5;
 }
-/* line 98, ../scss/global/mixins/_mixins.scss */
+/* line 99, ../scss/global/mixins/_mixins.scss */
 .body-text-medium-20 * > {
-  font-size: 20px;
   margin-top: 0px;
   font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 1.33333rem;
+  line-height: 1.5;
 }
 
 /* line 257, ../scss/base/_text.scss */
@@ -9541,6 +9553,129 @@ ul.category-nav > li a {
     width: 270px;
   }
 }
+/* line 1369, ../scss/components/_blocks.scss */
+.block--ways-to-get-involved-list {
+  margin-bottom: 10px;
+}
+/* line 1371, ../scss/components/_blocks.scss */
+.block--ways-to-get-involved-list h3 {
+  display: none;
+}
+
+/* line 1376, ../scss/components/_blocks.scss */
+.block-ways-to-get-involved--item {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+/* line 1380, ../scss/components/_blocks.scss */
+.block-ways-to-get-involved--item .block--item-image {
+  height: 200px;
+  width: 100%;
+  background-color: #B4B9BF;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/* line 1388, ../scss/components/_blocks.scss */
+.block-ways-to-get-involved--item .block--item-contents {
+  background-color: #007CBE;
+  height: 210px;
+  width: 100%;
+  display: block;
+  padding: 20px 20px 25px 20px;
+  position: relative;
+}
+/* line 1395, ../scss/components/_blocks.scss */
+.block-ways-to-get-involved--item .block--item-contents .text {
+  font-size: 1.2rem;
+  line-height: 1.33;
+  line-height: 1.33;
+  margin: 0;
+}
+/* line 1401, ../scss/components/_blocks.scss */
+.block-ways-to-get-involved--item .block--item-contents a, .block-ways-to-get-involved--item .block--item-contents span, .block-ways-to-get-involved--item .block--item-contents p {
+  color: #FFFFFF;
+}
+/* line 1404, ../scss/components/_blocks.scss */
+.block-ways-to-get-involved--item .block--item-contents a {
+  position: absolute;
+  bottom: 25px;
+  left: 20px;
+  right: 20px;
+}
+/* line 1409, ../scss/components/_blocks.scss */
+.block-ways-to-get-involved--item .block--item-contents a > .link--icon {
+  color: #FFFFFF;
+  margin-left: 10px;
+  display: inline-block;
+  padding-top: 1px;
+}
+/* line 1416, ../scss/components/_blocks.scss */
+.block-ways-to-get-involved--item .block--item-contents a:hover .fa-angle-right, .block-ways-to-get-involved--item .block--item-contents a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block-ways-to-get-involved--item .block--item-contents a:hover .slider-button.slider-next {
+  color: #007CBE;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 1426, ../scss/components/_blocks.scss */
+  .block--ways-to-get-involved-list h3 {
+    margin-top: 40px;
+    display: block;
+  }
+
+  /* line 1431, ../scss/components/_blocks.scss */
+  .block-ways-to-get-involved--item {
+    margin-bottom: 50px;
+  }
+  /* line 1433, ../scss/components/_blocks.scss */
+  .block-ways-to-get-involved--item .block--item-image {
+    height: 404px;
+  }
+  /* line 1436, ../scss/components/_blocks.scss */
+  .block-ways-to-get-involved--item .block--item-contents {
+    width: auto;
+    height: 130px;
+    margin-top: -40px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* line 1448, ../scss/components/_blocks.scss */
+  .block-ways-to-get-involved--item {
+    margin-bottom: 50px;
+  }
+  /* line 1450, ../scss/components/_blocks.scss */
+  .block-ways-to-get-involved--item .block--item-image {
+    height: 255px;
+  }
+  /* line 1453, ../scss/components/_blocks.scss */
+  .block-ways-to-get-involved--item .block--item-contents {
+    width: auto;
+    height: 130px;
+    margin-top: -40px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 1465, ../scss/components/_blocks.scss */
+  .block-ways-to-get-involved--item {
+    margin-bottom: 50px;
+  }
+  /* line 1467, ../scss/components/_blocks.scss */
+  .block-ways-to-get-involved--item .block--item-image {
+    height: 320px;
+  }
+  /* line 1470, ../scss/components/_blocks.scss */
+  .block-ways-to-get-involved--item .block--item-contents {
+    width: auto;
+    height: 130px;
+    margin-top: -40px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
 /* line 1, ../scss/components/_custom_lists.scss */
 .htmytg-list {
   list-style: none;
@@ -9715,16 +9850,18 @@ ul.dashed > li::before {
   display: inline-block;
   width: 93%;
   float: left;
-  font-size: 18px;
   margin-top: 0px;
   font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
   margin-bottom: 0px;
 }
-/* line 98, ../scss/global/mixins/_mixins.scss */
+/* line 99, ../scss/global/mixins/_mixins.scss */
 .accordion-item .accordion-header .question .text * > {
-  font-size: 18px;
   margin-top: 0px;
   font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
 /* line 183, ../scss/components/_custom_lists.scss */
 .accordion-item .accordion-content {
