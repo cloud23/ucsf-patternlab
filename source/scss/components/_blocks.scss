@@ -1365,3 +1365,114 @@
         }
     }
 }
+
+.block--ways-to-get-involved-list {
+    margin-bottom: 10px;
+    h3 {
+        display: none;
+    }
+}
+
+.block-ways-to-get-involved--item {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+    .block--item-image{
+        height: 200px;
+        width: 100%;
+        background-color: $color--dark-gray;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .block--item-contents {
+        background-color: $color--light-blue;
+        height: 210px;
+        width: 100%;
+        display: block;
+        padding: 20px 20px 25px 20px;
+        position: relative;
+        .text{
+            // @include body-text-definition(18px, $text-body--regular);
+            @include type-definition(18px, 1.33);
+            line-height: 1.33;
+            margin: 0;
+        }
+        a, span, p{
+            color: $color--white;
+        }
+        a{
+            position: absolute;
+            bottom: 25px;
+            left: 20px;
+            right: 20px;
+            & > .link--icon {
+                color: $color--white;
+                margin-left: 10px;
+                display: inline-block;
+                padding-top: 1px;
+            }
+            &:hover{
+                .fa-angle-right{
+                    color: $color--light-blue;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $width-small) {
+    .block--ways-to-get-involved-list {
+        h3 {
+            margin-top: 40px;
+            display: block;
+        }
+    }
+    .block-ways-to-get-involved--item {
+        margin-bottom: 50px;
+        .block--item-image{
+            height: 404px;
+        }
+        .block--item-contents {
+            width: auto;
+            height: 130px;
+            margin-top: -40px;
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+    }
+}
+
+
+@media screen and (min-width: $width-medium) {
+    .block-ways-to-get-involved--item {
+        margin-bottom: 50px;
+        .block--item-image {
+            height: 255px;
+        }
+        .block--item-contents {
+            width: auto;
+            height: 130px;
+            margin-top: -40px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    }
+}
+
+
+@media screen and (min-width: $width-large) {
+    .block-ways-to-get-involved--item {
+        margin-bottom: 50px;
+        .block--item-image{
+            height: 320px;
+        }
+        .block--item-contents {
+            width: auto;
+            height: 130px;
+            margin-top: -40px;
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+    }
+}
