@@ -348,11 +348,12 @@ ul {
 
 .stats-card {
 	background-color: $color--light-gray-3;
-	padding: 30px 45px;
+	padding: 30px 0px;
 	min-height: 280px;
 	margin-bottom: 30px;
 	.stats-card-data {
 		text-align: center;
+		padding: 0px 15px;
 		p {
 			font-size: 65px;
 			font-family: $text-headline;
@@ -371,6 +372,7 @@ ul {
 	.stats-card-description {
 		text-align: center;
 		margin-top: 20px;
+		padding: 0px 25px;
 		p {
 			font-size: 20px;
 			color: $color--oxford-blue;
@@ -386,7 +388,13 @@ ul {
 		margin-bottom: 20px;
 	}
 	.stats-card {
-		padding: 30px 25px;
+		padding: 30px 0px;
+		.stats-card-data {
+			padding: 0px 15px;
+		}
+		.stats-card-description {
+			padding: 0px 25px;
+		}
 	}
 }
 
@@ -396,7 +404,13 @@ ul {
 		margin-bottom: 30px;
 	}
 	.stats-card {
-		padding: 30px 45px;
+		padding: 30px 0px;
+		.stats-card-data {
+			padding: 0px 15px;
+		}
+		.stats-card-description {
+			padding: 0px 45px;
+		}
 	}
 }
 
@@ -404,7 +418,13 @@ ul {
 
 @media screen and (min-width: $width-large ) {
 	.stats-card {
-		padding: 30px 45px;
+		padding: 30px 0px;
+		.stats-card-data {
+			padding: 0px 15px;
+		}
+		.stats-card-description {
+			padding: 0px 45px;
+		}
 	}
 }
 

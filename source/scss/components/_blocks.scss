@@ -113,8 +113,40 @@
                 }
             }
         }
+        .block--contact-details {
+            p {
+                margin-top: 0px;
+            }
+            .detail-label {
+                display: none;
+                p {
+                    font-family: $text-body--medium;
+                }
+            }
+            .contact-detail-item {
+                display: inline-block;
+                width: 100%;
+                margin-bottom: 15px;
+                &:last-child {
+                    margin-bottom: 0px;
+                }
+                span {
+                    display: inline-block;
+                    vertical-align: middle;
+                    &.fa {
+                        @include type-definition(20px, 1.33);
+                        margin-right: 15px;
+                    }
+                    a {
+                        position: static;
+                        color: $color--black;
+                        @include type-definition(18px, 1.33);
+                    }
+                }
+            }
+        }
         &.background-color--teal{
-            a, span{
+            a, span, .detail-label p {
                 color: $color--teal;
             }
             a{
@@ -126,7 +158,7 @@
             }
         }
         &.background-color--green{
-            a, span{
+            a, span, .detail-label p {
                 color: $color--yellow-green;
             }
             a{
@@ -138,7 +170,7 @@
             }
         }
         &.background-color--light-blue{
-            a, span{
+            a, span, .detail-label p {
                 color: $color--light-blue;
             }
             a{
@@ -150,8 +182,20 @@
             }
         }
         &.background-color--dark-blue{
-            a, span{
+            a, span, .detail-label p {
                 color: $color--oxford-blue;
+            }
+            a{
+                &:hover{
+                    .fa-angle-right{
+                        color: $color--white;
+                    }
+                }
+            }
+        }
+         &.background-color--orange{
+            a, span, .detail-label p {
+                color: $color--orange;
             }
             a{
                 &:hover{
@@ -208,6 +252,14 @@
             .block--content{
                 .content-area{
                     background-color: $color--oxford-blue;
+                }
+            }
+        }
+        &.background-color--orange{
+            /*background-color: $color--orange;*/
+            .block--content{
+                .content-area{
+                    background-color: $color--orange;
                 }
             }
         }
@@ -359,7 +411,7 @@
                     }
                 }
             }
-            &.background--blue{
+            &.background--light-blue{
                 background-color: $color--light-blue;
                 a{
                     &:hover{
@@ -463,6 +515,9 @@
     padding-bottom: 20px;
     border-bottom: 1px solid $color--border-impact-stories-pillar;
     margin-bottom: 30px;
+    &.giving-societies--extend {
+        margin-bottom: 0px;
+    }
 }
 
 
@@ -527,7 +582,7 @@
     }
 }
 
-@media all and (min-width:$bp--small-up){
+@media all and (min-width: $bp--small-up){
     .block{
         &.block--homepage-prefooter{
             height: 330px;
@@ -550,10 +605,39 @@
             }
         }
         &.block--funding-priorities-full{
+            min-height: 350px;
             .block--content-stats{
                 .stats-text{
                     color: $color--oxford-blue;
                     @include type-definition(12px, 1.5);
+                }
+            }
+            .block--contact-details {
+                .detail-label {
+                    margin-bottom: 5px;
+                    p {
+                        margin: 0px;
+                    }
+                }
+                .detail--wrapper {
+                    margin-bottom: 8px;
+                }
+                .contact-detail-item {
+                    margin-bottom: 5px;
+                    span {
+                        display: inline-block;
+                        vertical-align: middle;
+                        &.fa {
+                            @include type-definition(16px, 1.33);
+                            margin-right: 10px;
+                            display: none;
+                        }
+                        a {
+                            position: static;
+                            color: $color--black;
+                            @include type-definition(14px, 1.33);
+                        }
+                    }
                 }
             }
             a{
@@ -672,6 +756,34 @@
                 margin-bottom: 15px;
             }
         }
+         &.block--funding-priorities-full {
+            min-height: 350px;
+            .block--contact-details {
+                .detail-label {
+                    display: none;
+                }
+                .detail--wrapper {
+                    margin-bottom: 0px;
+                }
+                .contact-detail-item {
+                    margin-bottom: 10px;
+                    span {
+                        display: inline-block;
+                        vertical-align: middle;
+                        &.fa {
+                            @include type-definition(16px, 1.33);
+                            margin-right: 15px;
+                            display: inline-block;
+                        }
+                        a {
+                            position: static;
+                            color: $color--black;
+                            @include type-definition(14px, 1.33);
+                        }
+                    }
+                }
+            }
+        }
     }
     .block--item{
         &.block--funding-priorities-items{
@@ -696,6 +808,39 @@
                 }
                 &.slick-next{
                     right: -50px;
+                }
+            }
+        }
+    }
+}
+
+@media all and (min-width: $width-large) {
+    .block {
+        &.block--funding-priorities-full {
+            min-height: 350px;
+            .block--contact-details {
+                .detail-label {
+                    display: none;
+                }
+                .detail--wrapper {
+                    margin-bottom: 0px;
+                }
+                .contact-detail-item {
+                    margin-bottom: 10px;
+                    span {
+                        display: inline-block;
+                        vertical-align: middle;
+                        &.fa {
+                            @include type-definition(20px, 1.33);
+                            margin-right: 15px;
+                            display: inline-block;
+                        }
+                        a {
+                            position: static;
+                            color: $color--black;
+                            @include type-definition(18px, 1.33);
+                        }
+                    }
                 }
             }
         }
@@ -1268,6 +1413,15 @@
         margin-bottom: 0px;
     }
 }
+
+@media screen and (min-width: $width-small) {
+    .photo--caption-full {
+        margin-top: -40px;
+        .photo-caption--wrapper {
+            padding: 25px 30px;
+        }
+    }
+}
 .photo--caption-side {
     display: none;
     padding: 0px 15px;
@@ -1353,6 +1507,117 @@
             margin-top: -25px;
             width: 270px;
 
+        }
+    }
+}
+
+.block--ways-to-get-involved-list {
+    margin-bottom: 10px;
+    h3 {
+        display: none;
+    }
+}
+
+.block-ways-to-get-involved--item {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+    .block--item-image{
+        height: 200px;
+        width: 100%;
+        background-color: $color--dark-gray;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .block--item-contents {
+        background-color: $color--light-blue;
+        height: 210px;
+        width: 100%;
+        display: block;
+        padding: 20px 20px 25px 20px;
+        position: relative;
+        .text{
+            // @include body-text-definition(18px, $text-body--regular);
+            @include type-definition(18px, 1.33);
+            line-height: 1.33;
+            margin: 0;
+        }
+        a, span, p{
+            color: $color--white;
+        }
+        a{
+            position: absolute;
+            bottom: 25px;
+            left: 20px;
+            right: 20px;
+            & > .link--icon {
+                color: $color--white;
+                margin-left: 10px;
+                display: inline-block;
+                padding-top: 1px;
+            }
+            &:hover{
+                .fa-angle-right{
+                    color: $color--light-blue;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $width-small) {
+    .block--ways-to-get-involved-list {
+        h3 {
+            margin-top: 40px;
+            display: block;
+        }
+    }
+    .block-ways-to-get-involved--item {
+        margin-bottom: 50px;
+        .block--item-image{
+            height: 404px;
+        }
+        .block--item-contents {
+            width: auto;
+            height: 130px;
+            margin-top: -40px;
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+    }
+}
+
+
+@media screen and (min-width: $width-medium) {
+    .block-ways-to-get-involved--item {
+        margin-bottom: 50px;
+        .block--item-image {
+            height: 255px;
+        }
+        .block--item-contents {
+            width: auto;
+            height: 130px;
+            margin-top: -40px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    }
+}
+
+
+@media screen and (min-width: $width-large) {
+    .block-ways-to-get-involved--item {
+        margin-bottom: 50px;
+        .block--item-image{
+            height: 320px;
+        }
+        .block--item-contents {
+            width: auto;
+            height: 130px;
+            margin-top: -40px;
+            margin-left: 40px;
+            margin-right: 40px;
         }
     }
 }
