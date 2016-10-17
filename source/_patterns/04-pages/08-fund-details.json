@@ -4,11 +4,7 @@
 	"breadcrumb_links" :  {
 		"links": [
 			{
-				"label" : "Home",
-				"link" : "#"
-			},
-			{
-				"label" : "Current Page's Title",
+				"label" : "Funds",
 				"link" : "#"
 			}
 		]
