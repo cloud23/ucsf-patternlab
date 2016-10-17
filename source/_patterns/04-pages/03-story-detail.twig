@@ -18,12 +18,19 @@
     {% block hero_image %}
         {% include "@molecules/02-blocks/08-article-hero-no-text.twig" %}
     {% endblock %}
-    <div class="oxford-blue-bg photo--caption-full large--hidden medium--hidden">
+    <div class="photo--caption-full large--hidden medium--hidden">
         <div class="content-area">
-            <div class="column-wrapper">
+            <div class="column-wrapper xsmall--visible">
                 {% block hero_image_caption %}
                     {% include "@molecules/01-text/02-photo-caption.twig" %}
                 {% endblock %}
+            </div>
+             <div class="column-wrapper small--visible">
+                <div class="column-small-12">
+                    {% block hero_image_caption_small %}
+                        {% include "@molecules/01-text/02-photo-caption.twig" %}
+                    {% endblock %}
+                </div>
             </div>
         </div>
     </div>

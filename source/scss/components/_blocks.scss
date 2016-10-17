@@ -1268,6 +1268,15 @@
         margin-bottom: 0px;
     }
 }
+
+@media screen and (min-width: $width-small) {
+    .photo--caption-full {
+        margin-top: -40px;
+        .photo-caption--wrapper {
+            padding: 25px 30px;
+        }
+    }
+}
 .photo--caption-side {
     display: none;
     padding: 0px 15px;

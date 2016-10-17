@@ -9427,32 +9427,42 @@ ul.category-nav > li a {
   margin-bottom: 0px;
 }
 
-/* line 1271, ../scss/components/_blocks.scss */
+@media screen and (min-width: 768px) {
+  /* line 1273, ../scss/components/_blocks.scss */
+  .photo--caption-full {
+    margin-top: -40px;
+  }
+  /* line 1275, ../scss/components/_blocks.scss */
+  .photo--caption-full .photo-caption--wrapper {
+    padding: 25px 30px;
+  }
+}
+/* line 1280, ../scss/components/_blocks.scss */
 .photo--caption-side {
   display: none;
   padding: 0px 15px;
 }
-/* line 1274, ../scss/components/_blocks.scss */
+/* line 1283, ../scss/components/_blocks.scss */
 .photo--caption-side ~ div {
   margin-top: 0px;
 }
 
 @media screen and (min-width: 1024px) {
-  /* line 1280, ../scss/components/_blocks.scss */
+  /* line 1289, ../scss/components/_blocks.scss */
   .photo--caption-side {
     display: block;
     padding: 0px 15px;
   }
-  /* line 1283, ../scss/components/_blocks.scss */
+  /* line 1292, ../scss/components/_blocks.scss */
   .photo--caption-side ~ div {
     margin-top: 50px;
   }
-  /* line 1286, ../scss/components/_blocks.scss */
+  /* line 1295, ../scss/components/_blocks.scss */
   .photo--caption-side .photo-caption--wrapper {
     margin-bottom: 0px;
   }
 }
-/* line 1292, ../scss/components/_blocks.scss */
+/* line 1301, ../scss/components/_blocks.scss */
 .block--give-block-full-width {
   background-color: #F1F1F1;
   height: auto;
@@ -9462,13 +9472,13 @@ ul.category-nav > li a {
   width: 100%;
   position: relative;
 }
-/* line 1300, ../scss/components/_blocks.scss */
+/* line 1309, ../scss/components/_blocks.scss */
 .block--give-block-full-width .block--give-to-ucsf-content {
   padding: 60px 0px;
   display: block;
   color: #052059;
 }
-/* line 1305, ../scss/components/_blocks.scss */
+/* line 1314, ../scss/components/_blocks.scss */
 .block--give-block-full-width h4, .block--give-block-full-width p {
   display: inline-block;
   margin: 0px;
@@ -9479,33 +9489,33 @@ ul.category-nav > li a {
   font-size: 1.46667rem;
   line-height: 1.14;
 }
-/* line 1313, ../scss/components/_blocks.scss */
+/* line 1322, ../scss/components/_blocks.scss */
 .block--give-block-full-width h4 b, .block--give-block-full-width h4 strong, .block--give-block-full-width p b, .block--give-block-full-width p strong {
   font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
-/* line 1317, ../scss/components/_blocks.scss */
+/* line 1326, ../scss/components/_blocks.scss */
 .block--give-block-full-width a, .block--give-block-full-width .btn--with-icon {
   display: inline-block;
   float: none;
   clear: both;
   width: 100%;
 }
-/* line 1322, ../scss/components/_blocks.scss */
+/* line 1331, ../scss/components/_blocks.scss */
 .block--give-block-full-width a:hover, .block--give-block-full-width .btn--with-icon:hover {
   text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 1329, ../scss/components/_blocks.scss */
+  /* line 1338, ../scss/components/_blocks.scss */
   .block--give-block-full-width {
     text-align: left;
     height: auto;
   }
-  /* line 1332, ../scss/components/_blocks.scss */
+  /* line 1341, ../scss/components/_blocks.scss */
   .block--give-block-full-width .block--give-to-ucsf-content {
     padding: 60px 0px;
   }
-  /* line 1335, ../scss/components/_blocks.scss */
+  /* line 1344, ../scss/components/_blocks.scss */
   .block--give-block-full-width h4, .block--give-block-full-width p {
     display: inline-block;
     vertical-align: middle;
@@ -9516,11 +9526,11 @@ ul.category-nav > li a {
     margin-bottom: 0px;
     width: 60%;
   }
-  /* line 1343, ../scss/components/_blocks.scss */
+  /* line 1352, ../scss/components/_blocks.scss */
   .block--give-block-full-width h4 b, .block--give-block-full-width h4 strong, .block--give-block-full-width p b, .block--give-block-full-width p strong {
     font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   }
-  /* line 1347, ../scss/components/_blocks.scss */
+  /* line 1356, ../scss/components/_blocks.scss */
   .block--give-block-full-width a, .block--give-block-full-width .btn--with-icon {
     display: inline-block;
     clear: none;
