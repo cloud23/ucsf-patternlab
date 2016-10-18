@@ -127,6 +127,48 @@ address, details {
     }
 }
 
+a {
+    &.link--light-blue {
+        color: $color--light-blue;
+        &:hover {
+            color: $color--light-blue;
+        }
+    }
+    &.link--orange {
+        color: $color--orange;
+        &:hover {
+            color: $color--orange;
+
+        }
+
+    }
+    &.link--green {
+        color: $color--yellow-green;
+        &:hover {
+            color: $color--yellow-green;
+
+        }
+
+    }
+    &.link--teal {
+        color: $color--teal;
+        &:hover {
+            color: $color--teal;
+
+        }
+
+    }
+    &.link--dark-blue {
+        color: $color--oxford-blue;
+        &:hover {
+            color: $color--oxford-blue;
+
+        }
+
+    }
+}
+
+
 // Text alignments
 
 $alignments : left center right justify;
@@ -192,31 +234,6 @@ $alignments : left center right justify;
         h3 {
             margin-bottom: 0px;
         }
-    }
-}
-
-
-.photo-caption--wrapper {
-    padding: 20px 15px;
-    margin-bottom: 20px;
-    background-color: $color--oxford-blue;
-    .photo-caption {
-        margin: 0px;
-        color: $color--white;
-    }
-}
-
-@media screen and (min-width: $width-medium) {
-    .photo-caption--wrapper {
-        margin-top: -73px;
-    }
-}
-
-p {
-    &.photo-caption {
-        font-family: $text-body--regular;
-            color: $color--medium-gray;
-        font-size: 12px;
     }
 }
 
@@ -312,5 +329,19 @@ p {
         margin: 0px;
         vertical-align: middle;
 
+    }
+}
+
+h3 {
+    &.giving-societies-detail-heading {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (min-width: $width-small) {
+    h3 {
+        &.giving-societies-detail-heading {
+            margin-top: 30px;
+        }
     }
 }
