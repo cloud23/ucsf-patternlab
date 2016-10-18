@@ -128,7 +128,7 @@
 			.hero-text {
 				position: absolute;
    				text-align: left;
-   				max-width: 57%;
+   				width: 57%;
    				&.align-left {
 					left: 15px;
 					right: initial;
@@ -138,6 +138,7 @@
 					right: 15px;
 				}
    				h1 {
+   					@include type-definition(40px);
 					margin-bottom: 20px;
 				}
    				p{
@@ -175,7 +176,7 @@
 			background-position: top center;
 			height: 660px;
 			.hero-text {
-				max-width: 57%;
+				width: 47%;
    				&.align-left {
 					left: 15px;
 					right: initial;
@@ -183,6 +184,9 @@
 				&.align-right {
 					left: initial;
 					right: 15px;
+				}
+				h1 {
+					@include type-definition(60px);
 				}
 			}
 		}
@@ -191,7 +195,7 @@
 			height: 450px;
 			margin-bottom: 0px;
 			.hero-text {
-				max-width: 57%;
+				width: 65%;
    				&.align-left {
 					left: 15px;
 					right: initial;
@@ -199,6 +203,9 @@
 				&.align-right {
 					left: initial;
 					right: 15px;
+				}
+				h1 {
+					@include type-definition(60px);
 				}
 			}
 		}
@@ -219,7 +226,7 @@
 			background-position: top center;
 			height: 660px;
 			.hero-text {
-				max-width: 47%;
+				width: 57%;
    				&.align-left {
 					left: 15px;
 					right: initial;
@@ -227,6 +234,9 @@
 				&.align-right {
 					left: initial;
 					right: 15px;
+				}
+				h1 {
+					@include type-definition(60px);
 				}
 			}
 		}
@@ -235,7 +245,7 @@
 			height: 450px;
 			margin-bottom: 0px;
 			.hero-text {
-				max-width: 47%;
+				width: 57%;
    				&.align-left {
 					left: 15px;
 					right: initial;
@@ -243,6 +253,9 @@
 				&.align-right {
 					left: initial;
 					right: 15px;
+				}
+				h1 {
+					@include type-definition(60px);
 				}
 			}
 		}
