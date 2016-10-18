@@ -18,6 +18,11 @@
         {% include "@organisms/01-content-blocks/16-featured-events.twig" with {
             "events" : events
         } %}
+        {% include '@organisms/01-content-blocks/17-photo-cta.twig' with {
+            "cta_title" : cta_title,
+            "cta_background" : cta_background,
+            "ctas" : ctas
+        } %}
         {% include "@molecules/02-blocks/07-give-block-full-width.twig" with {
             "give_to_full" : give_to_full,
             "give" : give

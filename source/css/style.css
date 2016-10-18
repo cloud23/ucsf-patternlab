@@ -10001,6 +10001,168 @@ ul.category-nav > li a {
   color: #058488;
 }
 
+/* line 1828, ../scss/components/_blocks.scss */
+.photo-cta {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 30px 0px;
+}
+
+/* line 1835, ../scss/components/_blocks.scss */
+.photo-cta-list {
+  padding: 10px 20px;
+  background-color: #FFFFFF;
+  display: inline-block;
+}
+
+/* line 1841, ../scss/components/_blocks.scss */
+.photo-cta-item {
+  background-color: #FFFFFF;
+  position: relative;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 1846, ../scss/components/_blocks.scss */
+.photo-cta-item:nth-of-type(3n+2) {
+  border-top: 1px solid #007CBE;
+  border-bottom: 1px solid #007CBE;
+}
+/* line 1850, ../scss/components/_blocks.scss */
+.photo-cta-item .photo-cta-content--wrapper {
+  padding: 15px 0px;
+  color: #052049;
+  min-height: 139px;
+  position: relative;
+}
+/* line 1855, ../scss/components/_blocks.scss */
+.photo-cta-item .photo-cta-content--wrapper a {
+  font-size: 1.06667rem;
+  line-height: 1.5;
+  font-family: HelveticaNeue-bold, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  position: absolute;
+  bottom: 12px;
+}
+/* line 1860, ../scss/components/_blocks.scss */
+.photo-cta-item .photo-cta-content--wrapper a .link--icon {
+  margin-left: 10px;
+}
+/* line 1864, ../scss/components/_blocks.scss */
+.photo-cta-item .photo-cta-content--wrapper p {
+  margin-bottom: 35px;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 1872, ../scss/components/_blocks.scss */
+  .photo-cta {
+    padding: 100px 0px;
+  }
+
+  /* line 1875, ../scss/components/_blocks.scss */
+  .photo-cta-list {
+    padding: 30px 0px;
+  }
+
+  /* line 1878, ../scss/components/_blocks.scss */
+  .photo-cta-item {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  /* line 1881, ../scss/components/_blocks.scss */
+  .photo-cta-item:nth-of-type(3n+2) {
+    border-top: 0px solid #007CBE;
+    border-bottom: 0px solid #007CBE;
+    border-right: 1px solid #007CBE;
+    border-left: 1px solid #007CBE;
+  }
+  /* line 1887, ../scss/components/_blocks.scss */
+  .photo-cta-item:last-child {
+    border-right: 0px solid transparent;
+  }
+  /* line 1890, ../scss/components/_blocks.scss */
+  .photo-cta-item .photo-cta-content--wrapper {
+    min-height: 160px;
+    padding: 10px 5px;
+  }
+  /* line 1893, ../scss/components/_blocks.scss */
+  .photo-cta-item .photo-cta-content--wrapper p {
+    margin-bottom: 35px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* line 1901, ../scss/components/_blocks.scss */
+  .photo-cta {
+    padding: 150px 0px;
+  }
+
+  /* line 1904, ../scss/components/_blocks.scss */
+  .photo-cta-list {
+    padding: 25px 8px;
+  }
+
+  /* line 1907, ../scss/components/_blocks.scss */
+  .photo-cta-item {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  /* line 1910, ../scss/components/_blocks.scss */
+  .photo-cta-item:nth-of-type(3n+2) {
+    border-top: 0px solid #007CBE;
+    border-bottom: 0px solid #007CBE;
+    border-right: 1px solid #007CBE;
+    border-left: 1px solid #007CBE;
+  }
+  /* line 1916, ../scss/components/_blocks.scss */
+  .photo-cta-item:last-child {
+    border-right: 0px solid transparent;
+  }
+  /* line 1919, ../scss/components/_blocks.scss */
+  .photo-cta-item .photo-cta-content--wrapper {
+    min-height: 139px;
+    padding: 15px 25px;
+  }
+  /* line 1922, ../scss/components/_blocks.scss */
+  .photo-cta-item .photo-cta-content--wrapper p {
+    margin-bottom: 35px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 1930, ../scss/components/_blocks.scss */
+  .photo-cta {
+    padding: 150px 0px;
+  }
+
+  /* line 1933, ../scss/components/_blocks.scss */
+  .photo-cta-item {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  /* line 1936, ../scss/components/_blocks.scss */
+  .photo-cta-item:nth-of-type(3n+2) {
+    border-top: 0px solid #007CBE;
+    border-bottom: 0px solid #007CBE;
+    border-right: 1px solid #007CBE;
+    border-left: 1px solid #007CBE;
+  }
+  /* line 1942, ../scss/components/_blocks.scss */
+  .photo-cta-item:last-child {
+    border-right: 0px solid transparent;
+  }
+  /* line 1945, ../scss/components/_blocks.scss */
+  .photo-cta-item .photo-cta-content--wrapper {
+    min-height: 139px;
+    padding: 15px 25px;
+  }
+  /* line 1948, ../scss/components/_blocks.scss */
+  .photo-cta-item .photo-cta-content--wrapper p {
+    margin-bottom: 35px;
+  }
+  /* line 1951, ../scss/components/_blocks.scss */
+  .photo-cta-item .photo-cta-content--wrapper a {
+    left: 25px;
+    right: 25px;
+  }
+}
 /* line 1, ../scss/components/_custom_lists.scss */
 .htmytg-list {
   list-style: none;
