@@ -51,12 +51,12 @@ $bp--xxlarge-up : $width-xxlarge;
 $bp--small-down: max-width $width-medium - 1;*/
 /* line 43, ../scss/global/variables/_colors.scss */
 .oxford-blue-text {
-  color: #052059;
+  color: #052049;
 }
 
 /* line 47, ../scss/global/variables/_colors.scss */
 .oxford-blue-bg {
-  background-color: #052059;
+  background-color: #052049;
 }
 
 /* line 43, ../scss/global/variables/_colors.scss */
@@ -407,7 +407,7 @@ $font-header: $helvetica, $default-font;
 
 /* line 119, ../scss/patternlab/_styleguide-specific.scss */
 .patternLink {
-  color: #052059;
+  color: #052049;
   text-decoration: none;
   outline: 0;
   text-transform: capitalize;
