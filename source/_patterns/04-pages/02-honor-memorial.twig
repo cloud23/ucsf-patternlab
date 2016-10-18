@@ -58,7 +58,12 @@
                     {% include "@organisms/01-content-blocks/04-ways-to-give-small.twig" with {
                         "class_controller" : give_class_controller
                     } %}
-                    {% include "@molecules/02-blocks/05-block-contact-us.twig" %}
+                    {% include "@molecules/02-blocks/05-block-contact-us.twig" with {
+                        "title" : contact_us_title,
+                        "department" : department,
+                        "telephone" : telephone,
+                        "email" : email
+                    } %}
                 </div>
             </div>
         </div>
