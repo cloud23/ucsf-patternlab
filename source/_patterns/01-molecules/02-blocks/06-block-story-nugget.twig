@@ -7,23 +7,29 @@
 					<h4 class="background--{{ bgcolor }}">{{ nugget_title }}</h4>
 				</div>
 				<div class="story-nugget-content column-large-12 column-medium-12 column-small-12 column-xsmall-12">
-					{{ nugget_content|raw }}
+					{% if nugget_content %}
+						{{ nugget_content|raw }}
+					{% endif %}
+					
+					{% if caption %}
+						<div class="photo-caption">
+							{{ caption|raw }}
+						</div>
+					{% endif %}
 				</div>
 				{% block nugget_link %}
-						{% if nugget_link %}
-				<div class="story-nugget-link column-large-12 column-medium-12 column-small-12 column-xsmall-12">
-						{% include '@molecules/01-text/06-link-with-icon.twig' with {
+					{% if nugget_link %}
+						<div class="story-nugget-link column-large-12 column-medium-12 column-small-12 column-xsmall-12">
+							{% include '@molecules/01-text/06-link-with-icon.twig' with {
 								"link_text" : nugget_link_label,
 								"link_href" : nugget_link
-						} %}
-				</div>
+							} %}
+						</div>
 					{% endif %}
 				{% endblock %}
 			</div>
 		</div>
 
 	</div>
-
-
 {% endblock %}
 
