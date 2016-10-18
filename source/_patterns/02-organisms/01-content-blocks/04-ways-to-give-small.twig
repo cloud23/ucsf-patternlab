@@ -1,20 +1,17 @@
-<div class="ways-to-give-form-small {{ class_controller }}">
-	{% if give_ways_content.small %}
-
+<div class="ways-to-give-form-small {% block classes %}{{ class_controller }}{% endblock %}">
+	{% block label %}
 		<h4>{{ give_ways_content.small.heading }}</h4>
-
-		{% if give_ways_content.small.body %}
-			<p>{{ give_ways_content.small.body }}</p>
-		{% endif %}
-		<form name="ways-to-give" id="give" method="GET" action="">
-			<fieldset>
-				<legend class="visually-hidden">Give Form:</legend>
-				<div class="ways-to-give-options--wrapper ">
+	{% endblock %}
+	<form name="ways-to-give" id="give" method="GET" action="{% block post_url %}{% endblock %}">
+		<fieldset>
+			<legend class="visually-hidden">Give Form:</legend>
+			<div class="ways-to-give-options--wrapper ">
+				{% block amounts %}
 			      	<div class="ways-to-give-option" role="button">
 			            <input type="radio" name="give-value" id="give_value_50" value="50" />
 			            <label for="give_value_50">$50</label>
 			        </div>
-			         <div class="ways-to-give-option" role="button">
+			        <div class="ways-to-give-option" role="button">
 			            <input type="radio" name="give-value" id="give_value_100" value="100" checked="true"/>
 			            <label for="give_value_100">$100</label>
 			        </div>
@@ -22,22 +19,22 @@
 			            <input type="radio" name="give-value" id="give_value_200" value="200" />
 			            <label for="give_value_200">$200</label>
 			        </div>
-			         <div class="ways-to-give-option" role="button">
+			        <div class="ways-to-give-option" role="button">
 			            <input type="radio" name="give-value" id="give_value_500" value="500" />
 			            <label for="give_value_500">$500</label>
 			        </div>
-			        <div class="ways-to-give-option" role="button">
-			        	<label class="visually-hidden" for="give_value_other">Others</label>
-			            <input type="radio" name="give-value" id="give_value_other" value="other" />
-			            <div class="others-dollar-label"><span>$</span> <span class="label-text">Others</span></div>
-			            <input class="give-value-other-input"type="text" id="give_input_other" name="give-value-other" />
-			            <label class="visually-hidden" for="give_input_other">Others</label>
-			        </div>
-			        <div class="ways-to-give-option submit-btn" role="button">
-			           <button class="btn btn--primary" type="submit">Make a gift</button>
-			        </div>
-				</div>
-			</fieldset>
-		</form>
-	{% endif %}
+		        {% endblock %}
+		        <div class="ways-to-give-option" role="button">
+		        	<label class="visually-hidden" for="give_value_other">Others</label>
+		            <input type="radio" name="give-value" id="give_value_other" value="other" />
+		            <div class="others-dollar-label"><span>$</span> <span class="label-text">Others</span></div>
+		            <input class="give-value-other-input" type="text" id="give_input_other" name="give-value-other" />
+		            <label class="visually-hidden" for="give_input_other">Others</label>
+		        </div>
+		        <div class="ways-to-give-option submit-btn" role="button">
+		           <button class="btn btn--primary" type="submit">Make a gift</button>
+		        </div>
+			</div>
+		</fieldset>
+	</form>
 </div>
