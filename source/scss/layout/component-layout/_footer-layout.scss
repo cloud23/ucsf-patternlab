@@ -11,14 +11,14 @@ footer{
         color: $color--white;
         text-decoration: none;
     }
-    
+
     .footer--upper{
         padding-bottom: 30px;
         .footer--logo{
             height: auto;
         }
     }
-    
+
     .footer--column-title{
         font-family: $text-body--bold;
         color: $color--white;
@@ -39,7 +39,7 @@ footer{
             }
         }
     }
-    
+
     .footer--column-links{
         color: $color--dark-gray;
         a{
@@ -72,15 +72,19 @@ footer{
         }
     }
     .footer--social-link-item{
-        
+
         float: left;
         background-color: $color--white;
         @include border-radius(50%);
+        @include transition(all 200ms linear);
+         &:hover {
+            background-color: $color--light-blue;
+         }
         a{
             color: $color--oxford-blue;
             text-align: center;
             display: block;
-            padding: 7px;
+            padding: 11px;
         }
     }
 
@@ -96,7 +100,7 @@ footer{
             padding-left: 15px;
             padding-right: 15px;
         }
-        
+
         .footer--column-title, .footer--column-links a{
             @include type-definition(16px, 1.625);
         }
@@ -108,7 +112,7 @@ footer{
         .footer--column-content{
             p{
                 @include type-definition(14px, 1.428);
-            }   
+            }
         }
 
         .footer--column-links{
@@ -142,7 +146,7 @@ footer{
                     padding-right: 25px;
                 }
             }
-            
+
             .footer--copyright-right, .footer--copyright-links{
                  float: none;
                  width: 100%;
@@ -167,6 +171,9 @@ footer{
             width: 30px;
             margin-right: 10px;
             font-size: initial;
+            a{
+                padding: 7px;
+            }
         }
         .footer--column-title{
             @include type-definition(12px, 1);
