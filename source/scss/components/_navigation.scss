@@ -761,7 +761,7 @@ body {
  */
 
 @media screen and (min-width: $width-medium) {
-	.nav-main-mobile {
+	.nav-main-mobile, .nav-main-mobile-search {
 		display: none;
 		&.open {
 			display: none;
