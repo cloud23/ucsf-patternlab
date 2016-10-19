@@ -577,7 +577,7 @@ body {
 	.mobile-search-field--wrapper {
 		position: relative;
 		height: auto;
-		padding: 25px 28px;
+		padding: 25px 0px;
 		padding-bottom: 10px;
 		width: 100%;
 		.mobile-field-ui {
@@ -626,7 +626,7 @@ body {
 	}
 	.mobile-search-advanced-form {
 		.mobile-search-option {
-			padding: 10px 28px;
+			padding: 10px 0px;
 			.radio-circle {
 				width: 30px;
 				height: 30px;
@@ -646,7 +646,7 @@ body {
 		}
 	}
 	.mobile-search-submit--wrapper {
-		padding: 10px 28px 0px;
+		padding: 10px 0px 0px;
 		position: relative;
 		display: block;
 		.search-submit {
@@ -700,7 +700,7 @@ body {
 			}
 			& > a {
 				position: relative;
-				padding: 13px 28px;
+				padding: 13px 0px;
 				padding-right: 56px;
 				font-family: $text-headline;
 				font-size: 25px;
@@ -710,7 +710,7 @@ body {
 			}
 			.display-arrow {
 				position: absolute;
-				right: 28px;
+				right: 4px;
 				top: 20px;
 				cursor: pointer;
 				-webkit-transform: rotate(0deg);
