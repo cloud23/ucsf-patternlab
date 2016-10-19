@@ -7922,11 +7922,11 @@ body.transparent .nav--wrapper ~ .contents--wrapper {
  */
 @media screen and (min-width: 1024px) {
   /* line 764, ../scss/components/_navigation.scss */
-  .nav-main-mobile {
+  .nav-main-mobile, .nav-main-mobile-search {
     display: none;
   }
   /* line 766, ../scss/components/_navigation.scss */
-  .nav-main-mobile.open {
+  .nav-main-mobile.open, .nav-main-mobile-search.open {
     display: none;
   }
 }
