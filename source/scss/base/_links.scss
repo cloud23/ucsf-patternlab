@@ -70,3 +70,20 @@ a{
         }
     }
 }
+
+@media screen and (max-width: $bp--small-max) {
+    a {
+        &.link{
+            &.link--with-icon {
+                 &:hover{
+                    .text {
+                        text-decoration: underline;
+                        &::after {
+                            height: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
