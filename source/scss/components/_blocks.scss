@@ -156,6 +156,13 @@
                     }
                 }
             }
+            .link--with-icon {
+                .text {
+                    &::after {
+                        background-color: $color--teal;
+                    }
+                }
+            }
         }
         &.background-color--green{
             a, span, .detail-label p {
@@ -168,6 +175,13 @@
                     }
                 }
             }
+            .link--with-icon {
+                    .text {
+                        &::after {
+                            background-color: $color--yellow-green;
+                        }
+                    }
+                }
         }
         &.background-color--light-blue{
             a, span, .detail-label p {
@@ -177,6 +191,13 @@
                 &:hover{
                     .fa-angle-right{
                         color: $color--white;
+                    }
+                }
+            }
+            .link--with-icon {
+                .text {
+                    &::after {
+                        background-color: $color--light-blue;
                     }
                 }
             }
@@ -192,6 +213,13 @@
                     }
                 }
             }
+            .link--with-icon {
+                .text {
+                    &::after {
+                        background-color: $color--oxford-blue;
+                    }
+                }
+            }
         }
         &.background-color--orange{
             a, span, .detail-label p {
@@ -201,6 +229,13 @@
                 &:hover{
                     .fa-angle-right{
                         color: $color--white;
+                    }
+                }
+            }
+            .link--with-icon {
+                    .text {
+                    &::after {
+                        background-color: $color--orange;
                     }
                 }
             }
@@ -1741,6 +1776,13 @@
                         }
                     }
                 }
+                .link--with-icon {
+                    .text {
+                        &::after {
+                            background-color: $color--light-blue;
+                        }
+                    }
+                }
             }
             .block--impact-stories-panel {
                 .block--item-colored-panel {
@@ -1771,6 +1813,13 @@
                     &:hover {
                         .fa-angle-right {
                             color: $color--white;
+                        }
+                    }
+                }
+                .link--with-icon {
+                    .text {
+                        &::after {
+                            background-color: $color--orange;
                         }
                     }
                 }
@@ -1807,6 +1856,13 @@
                         }
                     }
                 }
+                .link--with-icon {
+                    .text {
+                        &::after {
+                            background-color: $color--yellow-green;
+                        }
+                    }
+                }
             }
             .block--impact-stories-panel {
                 .block--item-colored-panel {
@@ -1837,6 +1893,13 @@
                     &:hover {
                         .fa-angle-right {
                             color: $color--white;
+                        }
+                    }
+                }
+                .link--with-icon {
+                    .text {
+                        &::after {
+                            background-color: $color--teal;
                         }
                     }
                 }
