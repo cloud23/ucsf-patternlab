@@ -1,4 +1,4 @@
-$(function(){
+jQuery(function($){
 	var $accordionList = $('.accordion-list'),
 	$accordionItem = $('.accordion-item'),
 	$accordionToggle = $accordionItem.find('.accordion-header');

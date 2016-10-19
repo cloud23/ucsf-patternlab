@@ -36,9 +36,9 @@
 							        <div class="ways-to-give-option" role="button">
 							        	<label class="visually-hidden" for="give_value_other">Others</label>
 							            <input type="radio" name="give-value" id="give_value_other" value="other" />
-							            <div class="others-dollar-label"><span>$</span> <span class="label-text">Others</span></div>
+							            <label class="visually-hidden" for="give_input_other">Others Input</label>
 							            <input class="give-value-other-input"type="text" id="give_input_other" name="give-value-other" />
-							            <label class="visually-hidden" for="give_input_other">Others</label>
+							            <div class="others-dollar-label"><span>$</span> <span class="label-text">Others</span></div>
 							        </div>
 							        <div class="ways-to-give-option submit-btn" role="button">
 							           <button class="btn btn--primary" type="submit">Give where it’s needed most</button>
@@ -51,14 +51,10 @@
 						</form>
 					{% endblock %}
 					{% block section_link %}
-						<a class="link link--with-icon" href="{{ give_ways_content.full.cta.link }}">
-							{{ give_ways_content.full.cta.label }}
-						 	<span class="fa-stack link--icon">
-				                <i class="fa fa-circle fa-stack-2x icon--visible-hover icon--circle" aria-hidden="true"></i>
-				                <i class="fa fa-circle-thin fa-stack-2x icon--circle" aria-hidden="true"></i>
-				                <i class="fa fa-angle-right fa-stack-1x icon--angle" aria-hidden="true"></i>
-				            </span>
-				        </a>
+						{% include '@molecules/01-text/06-link-with-icon.twig' with {
+				            "link_text" : give_ways_content.full.cta.label,
+				            "link_href" : give_ways_content.full.cta.link
+				        } %}
 				    {% endblock %}
 				</div>
 			</div>

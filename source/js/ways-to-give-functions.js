@@ -45,12 +45,19 @@ jQuery(function($){
 				if(!new RegExp('^[0-9]*$').test(currentValue)) {
 					$(this).val(currentValue.replace(/\D/g, ""));
 				}
+				if( currentValue != '' ) {
+					$(this).addClass('selected');
+					$(this).removeClass('empty');
+				} else {
+					$(this).removeClass('selected');
+					$(this).addClass('empty');
+				}
 			},
 			focusin: function(e) {
 				e.preventDefault();
 				$(this).prev().prev().prop('checked', true);
 				var val = $(this).val(),
-				$label = $(this).prev().find('.label-text');
+				$label = $(this).next().find('.label-text');
 				if( '' != val) {
 					 return;
 				}
@@ -59,7 +66,7 @@ jQuery(function($){
 			focusout: function(e) {
 				e.preventDefault();
 				var val = $(this).val(),
-				$label = $(this).prev().find('.label-text');
+				$label = $(this).next().find('.label-text');
 				if( '' != val) {
 					 return;
 				}
@@ -70,7 +77,8 @@ jQuery(function($){
 					if( $radioDefault.val() == $defaultValue ) {
 						$radioDefault.prop('checked',true);
 					}
-				})
+				});
+				$(this).removeClass('empty');
 				$label.show();
 			}
 		});
@@ -78,9 +86,12 @@ jQuery(function($){
 		$giveOptionLabel.on('click',function(){
 			$(this).prev().prop('checked',true);
 			$(this).parent().parent().find('.ways-to-give-option').each(function(){
-				var $radioOther = $(this).find('input[type="radio"]');
+				var $radioOther = $(this).find('input[type="radio"]'),
+					$radioParent = $radioOther.parent();
 				if($radioOther.val() == "other") {
-					$radioOther.val('').prev().find('.label-text').show();
+					$radioParent.find('.selected').removeClass('selected').val('');
+					$radioParent.find('.empty').removeClass('empty').val('');
+					$radioParent.find('input[type="text"]').next().find('.label-text').show()
 				}
 			});
 

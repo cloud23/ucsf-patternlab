@@ -99,13 +99,10 @@
   		background-color: $color--white;
   		color: $color--oxford-blue;
   		cursor: pointer;
-  		-webkit-transition: all 250ms ease-in-out;
-  		-moz-transition: all 250ms ease-in-out;
-  		-o-transition: all 250ms ease-in-out;
-  		transition: all 250ms ease-in-out;
+  		@include transition(all 250ms ease-in-out);
   		&:hover {
-  			background-color: $color--light-blue;
-  			border-color: $color--light-blue;
+  			background-color: $color--orange;
+  			border-color: $color--orange;
   			color: $color--white;
   		}
   		&:active, &:focus {
@@ -135,7 +132,7 @@
 	}
 	input[type="text"] {
 		position: relative;
-  		z-index: 0;
+  		z-index: 1;
 		height: 100%;
 		width: 100%;
 	    padding: 15px 0px;
@@ -149,8 +146,40 @@
   		font-size: 20px;
   		background-color: transparent;
   		background-color: rgba(0,0,0,0);
+  		@include transition(all 250ms ease-in-out);
   		&:focus {
   			outline: none;
+  			color: $color--white;
+  			border-color: $color--oxford-blue;
+  			& ~ .others-dollar-label {
+  				background-color: $color--oxford-blue;
+  				color: $color--white;
+  			}
+  		}
+  		&:focus:hover {
+  			border-color: $color--oxford-blue;
+  		}
+  		&:hover {
+  			border-color: $color--orange;
+  		}
+  		&.selected {
+  			border-color: $color--oxford-blue;
+  			color: $color--white;
+  			& ~ .others-dollar-label {
+  				background-color: $color--oxford-blue;
+  				color: $color--white;
+  			}
+  		}
+  		&.empty {
+  			border-color: $color--dark-gray;
+  			color: $color--oxford-blue;
+  			& ~ .others-dollar-label {
+  				background-color: $color--white;
+  				color: $color--oxford-blue;
+  			}
+  			&:focus:hover {
+	  			border-color: $color--dark-gray;
+	  		}
   		}
 	}
 	.others-dollar-label {
@@ -165,6 +194,7 @@
 	    padding: 16px 0px;
 	    padding-left: 19px;
 	    z-index: 0;
+	    @include transition(all 250ms ease-in-out);
 	    .label-text {
 	    	font-family: $text-body--light;
 	    }
@@ -252,7 +282,6 @@
 		}
 		input[type="text"] {
 			position: relative;
-	  		z-index: 0;
 			height: 100%;
 			width: 121px;
 		    padding: 15px 0px;
@@ -325,7 +354,6 @@
 		}
 		input[type="text"] {
 			position: relative;
-	  		z-index: 0;
 			height: 100%;
 			width: 121px;
 		    padding: 15px 0px;
@@ -397,7 +425,6 @@
 		}
 		input[type="text"] {
 			position: relative;
-	  		z-index: 0;
 			height: 100%;
 			width: 254px;
 		    padding: 15px 0px;
