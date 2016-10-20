@@ -726,22 +726,25 @@
 			margin-bottom: 48px;
 			.ways-to-give-option {
 				&:nth-child(odd) {
-
+					margin-right: 5px;
 				}
 				&:nth-child(even) {
-
+					margin-right: 5px;
 				}
 				&:last-child, &:nth-last-child(2) {
 
 				}
+				&:last-child {
+					margin-right: 0px;
+				}
 				&:nth-last-child(2) {
-					margin-right: 10px;
+					margin-right: 5px;
 				}
 				&.submit-btn {
 					display: block;
 				}
 				input[type="text"] {
-					width: 138px;
+					width: 163px;
 				}
 			}
 		}
@@ -759,13 +762,16 @@
 			margin-bottom: 48px;
 			.ways-to-give-option {
 				&:nth-child(odd) {
-
+					margin-right: 10px;
 				}
 				&:nth-child(even) {
-
+					margin-right: 10px;
 				}
 				&:last-child, &:nth-last-child(2) {
 
+				}
+				&:last-child {
+					margin-right: 0px;
 				}
 				&:nth-last-child(2) {
 					margin-right: 10px;
