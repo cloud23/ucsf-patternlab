@@ -9146,7 +9146,6 @@ ul.category-nav > li a {
     height: 265px;
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
   }
   /* line 707, ../scss/components/_blocks.scss */
   .block.block--impact-story-with-image .block--content {
@@ -9628,7 +9627,6 @@ ul.category-nav > li a {
 .block--story-detail-hero {
   height: 242px;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position: center center;
   background-size: cover;
 }

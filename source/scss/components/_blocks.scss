@@ -703,7 +703,7 @@
             height: 265px;
             background-size: cover;
             background-position: center center;
-            background-attachment: fixed;
+            // background-attachment: fixed;
             .block--content{
                 height: auto;
                 position: absolute;
@@ -1161,7 +1161,7 @@
 .block--story-detail-hero {
     height: 242px;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    // background-attachment: fixed;
     background-position: center center;
     background-size: cover;
 }
