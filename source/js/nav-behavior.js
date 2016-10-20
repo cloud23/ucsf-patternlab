@@ -7,7 +7,7 @@ jQuery(function($){
 
 	if($window.width() >= 1024) {
 		if($body.hasClass('transparent')) {
-			console.log(threshold);
+			// console.log(threshold);
 			$window.on('scroll',function(e){
 				var scrollTop = $(this).scrollTop();
 				if(scrollTop >= threshold) {
