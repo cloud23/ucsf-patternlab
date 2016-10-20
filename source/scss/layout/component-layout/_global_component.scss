@@ -712,6 +712,19 @@
     					border: 0px;
 					}
 				}
+				input[type="text"] {
+					&.empty {
+			  			border-color: $color--dark-gray;
+			  			color: $color--oxford-blue;
+			  			& ~ .others-dollar-label {
+			  				background-color: $color--light-gray;
+			  				color: $color--oxford-blue;
+			  			}
+			  			&:focus:hover {
+				  			border-color: $color--dark-gray;
+				  		}
+			  		}
+				}
 			}
 		}
 		.submit-button-small-xsmall--medium--wrapper {
@@ -754,7 +767,7 @@
 					}
 				}
 				input[type="text"] {
-					width: 160px;
+					width: 163px;
 				}
 			}
 		}
