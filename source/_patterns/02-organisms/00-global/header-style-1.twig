@@ -81,7 +81,7 @@
 								<li>
 									<a href="{{ item.link }}">{{ item.label }}</a>
 									{% if item.sublinks %}
-										<span class="line"></span>
+										<div class="line"><span></span></div>
 										<ul class="dropdown-menu">
 										{% for item in item.sublinks %}
 											<li><a href="{{ item.link }}">{{ item.label }}</a></li>

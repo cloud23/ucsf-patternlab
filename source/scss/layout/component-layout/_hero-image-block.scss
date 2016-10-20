@@ -138,7 +138,7 @@
 					right: 15px;
 				}
    				h1 {
-   					@include type-definition(40px);
+   					@include type-definition(40px,1.2);
 					margin-bottom: 20px;
 				}
    				p{
@@ -175,7 +175,7 @@
 	.block {
 		&.block-hero {
 			background-position: top center;
-			height: 660px;
+			height: 72.567vh;
 			.hero-text {
 				width: 47%;
    				&.align-left {
@@ -187,7 +187,7 @@
 					right: 15px;
 				}
 				h1 {
-					@include type-definition(60px);
+					@include type-definition(60px,1.08);
 				}
 			}
 		}
@@ -206,13 +206,12 @@
 					right: 15px;
 				}
 				h1 {
-					@include type-definition(60px);
+					@include type-definition(60px,1.08);
 				}
 			}
 		}
 	}
 }
-
 
 
 @media screen and (min-width: $width-large){
@@ -225,9 +224,10 @@
 	.block {
 		&.block-hero{
 			background-position: top center;
-			height: 660px;
+			min-height: 480px;
+			height: 76.567vh;
 			.hero-text {
-				width: 57%;
+				width: 47%;
    				&.align-left {
 					left: 15px;
 					right: initial;
@@ -237,7 +237,7 @@
 					right: 15px;
 				}
 				h1 {
-					@include type-definition(60px);
+					@include type-definition(60px,1.08);
 				}
 			}
 		}
@@ -259,6 +259,14 @@
 					@include type-definition(60px);
 				}
 			}
+		}
+	}
+}
+
+@media screen and (min-width: $width-large) and (max-width: 1366px) {
+	.block {
+		&.block-hero{
+			height: 72.567vh;
 		}
 	}
 }

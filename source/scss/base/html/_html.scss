@@ -10,8 +10,10 @@ html, body {
     font-size: $base--typesize;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    height: 100%;
 }
 
 body{
     font-size: $base--typesize;
+    height: 100%;
 }

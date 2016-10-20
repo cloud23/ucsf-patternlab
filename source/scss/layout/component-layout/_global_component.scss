@@ -44,11 +44,17 @@
 	}
 	.link.link--with-icon {
 		display: inline-block;
-		width: 70%;
+		width: 90%;
 		font-family: $text-body--bold;
+		margin-top: 20px;
 		& > .link--icon {
 			width: 100%;
 			margin-top: 5px;
+		}
+		.text {
+			&::after {
+				background-color: $color--oxford-blue;
+			}
 		}
 	}
 }
@@ -205,12 +211,36 @@
 	display: block;
 	width: 100%;
 	text-align: center;
+	margin-top: 10px;
 	margin-bottom: 15px;
 	.btn {
 		width: 100%;
 	}
 }
 
+@media screen and (max-width: $bp--small-max) {
+	.ways-to-give-form {
+		.link--with-icon {
+			@include type-definition(18px);
+			.text {
+				display: block;
+			}
+			&:hover {
+				.text {
+					text-decoration: underline;
+					&::after {
+						display:none;
+					}
+				}
+			}
+		}
+	}
+	.submit-button-small-xsmall--medium--wrapper {
+		.btn {
+			padding: 18.5px 35px;
+		}
+	}
+}
 
 @media screen and (min-width: $width-small) {
 	.ways-to-give--wrapper {
@@ -239,6 +269,8 @@
 		.link.link--with-icon {
 			width: auto;
 			font-family: $text-body--medium;
+			@include type-definition(16px);
+			margin-top: 20px;
 			& > .link--icon {
 				width: 23px;
 				margin-top: 0px;
@@ -302,7 +334,8 @@
 		}
 	}
 	.submit-button-small-xsmall--medium--wrapper {
-		margin-bottom: 20px;
+		margin-top: 20px;
+		margin-bottom: 10px;
 		.btn {
 			width: auto;
 		}
@@ -331,6 +364,9 @@
 		p {
 			font-size: 18px;
 			margin: 0 0 10px;
+		}
+		a {
+			margin-top: 0px;
 		}
 		&.sidebar {
 			.ways-to-give-options--wrapper {
@@ -397,6 +433,9 @@
 		p {
 			font-size: 18px;
 			margin: 0 0 10px;
+		}
+		a {
+			margin-top: 0px;
 		}
 		&.sidebar {
 			.ways-to-give-options--wrapper {
@@ -667,6 +706,25 @@
 						background-color: $color--oxford-blue;
 					}
 				}
+				&.submit-btn {
+					.btn {
+						margin: 0px;
+    					border: 0px;
+					}
+				}
+				input[type="text"] {
+					&.empty {
+			  			border-color: $color--dark-gray;
+			  			color: $color--oxford-blue;
+			  			& ~ .others-dollar-label {
+			  				background-color: $color--light-gray;
+			  				color: $color--oxford-blue;
+			  			}
+			  			&:focus:hover {
+				  			border-color: $color--dark-gray;
+				  		}
+			  		}
+				}
 			}
 		}
 		.submit-button-small-xsmall--medium--wrapper {
@@ -687,22 +745,29 @@
 			margin-bottom: 48px;
 			.ways-to-give-option {
 				&:nth-child(odd) {
-
+					margin-right: 5px;
 				}
 				&:nth-child(even) {
-
+					margin-right: 5px;
 				}
 				&:last-child, &:nth-last-child(2) {
 
 				}
+				&:last-child {
+					margin-right: 0px;
+				}
 				&:nth-last-child(2) {
-					margin-right: 10px;
+					margin-right: 5px;
 				}
 				&.submit-btn {
 					display: block;
+					.btn {
+						margin: 0px;
+    					border: 0px;
+					}
 				}
 				input[type="text"] {
-					width: 138px;
+					width: 163px;
 				}
 			}
 		}
@@ -720,13 +785,16 @@
 			margin-bottom: 48px;
 			.ways-to-give-option {
 				&:nth-child(odd) {
-
+					margin-right: 10px;
 				}
 				&:nth-child(even) {
-
+					margin-right: 10px;
 				}
 				&:last-child, &:nth-last-child(2) {
 
+				}
+				&:last-child {
+					margin-right: 0px;
 				}
 				&:nth-last-child(2) {
 					margin-right: 10px;

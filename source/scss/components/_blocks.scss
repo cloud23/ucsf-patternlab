@@ -7,6 +7,7 @@
     }
     &.block--funding-priorities{
         margin: 40px auto 20px;
+        background-color: $color--white;
 
         .slick-arrow{
             @extend .fa;
@@ -23,6 +24,10 @@
                 font-size: 100px;
                 line-height: 0;
                 color: $color--oxford-blue;
+                @include transition(all 250ms ease-in-out);
+                &:hover {
+                    color: $color--light-blue;
+                }
             }
             &.slick-prev{
                 left: -55px;
@@ -59,6 +64,7 @@
     &.block--impact-stories{
         margin-top: 30px;
         margin-bottom: 50px;
+        background-color: $color--white;
         h3{
             margin-bottom: 20px;
         }
@@ -305,7 +311,9 @@
             margin-top: 15px;
         }
         &.related-articles {
+            margin-bottom: 36px;
             h4 {
+                @include type-definition(30px);
                 margin-bottom: 10px;
             }
         }
@@ -352,9 +360,19 @@
     //     }
     // }
     &.block--learn-more {
-        margin-top: 20px;
+        margin-top: 0px;
+        margin-bottom: 60px;
         h4 {
             margin-bottom: 10px;
+            @include type-definition(30px, 1);
+        }
+        ul {
+            li {
+                margin-bottom: 20px;
+                a {
+                    font-family: $text-body--medium;
+                }
+            }
         }
     }
 }
@@ -685,7 +703,7 @@
             height: 265px;
             background-size: cover;
             background-position: center center;
-            background-attachment: fixed;
+            // background-attachment: fixed;
             .block--content{
                 height: auto;
                 position: absolute;
@@ -727,13 +745,16 @@
         // }
         &.block--impact-stories-grid {
             &.related-articles {
+                margin-bottom: 36px;
                 h4 {
                     padding-top: 30px;
                     border-top:  1px solid $color--border-impact-stories-pillar;
                     margin-bottom: 15px;
+                     @include type-definition(30px);
                 }
                 .block--item-content {
                     height: auto;
+                    min-height: 140px;
                 }
             }
         }
@@ -741,7 +762,17 @@
             margin-top: 0px;
             h4 {
                 padding-top: 20px;
-                border-top:  1px solid $color--border-impact-stories-pillar;
+                border-top: 1px solid $color--border-impact-stories-pillar;
+                @include type-definition(30px, 1);
+            }
+            ul {
+                li {
+                    margin-bottom: 15px;
+                    a {
+                        font-family: $text-body--medium;
+                        @include type-definition(18px);
+                    }
+                }
             }
         }
     }
@@ -772,11 +803,20 @@
         }
         &.block--learn-more {
             margin-bottom: 15px;
+            ul {
+                li {
+                    margin-bottom: 15px;
+                    a {
+                        @include type-definition(15px);
+                    }
+                }
+            }
         }
          &.block--impact-stories-grid {
             &.related-articles {
                 margin-bottom: 40px;
                 h4 {
+                    @include type-definition(26px);
                     padding-top: 0px;
                     border-top:  0px solid transparent;
                     margin-bottom: 15px;
@@ -789,6 +829,7 @@
                 padding-top: 0px;
                 border-top:  0px solid transparent;
                 margin-bottom: 15px;
+                 @include type-definition(26px);
             }
         }
          &.block--funding-priorities-full {
@@ -1120,7 +1161,7 @@
 .block--story-detail-hero {
     height: 242px;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    // background-attachment: fixed;
     background-position: center center;
     background-size: cover;
 }
