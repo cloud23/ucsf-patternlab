@@ -5045,6 +5045,17 @@ fieldset {
   border: 0px solid transparent;
 }
 
+/* line 9, ../scss/base/_forms.scss */
+.related_articles_all {
+  position: relative;
+  overflow: hidden;
+}
+/* line 12, ../scss/base/_forms.scss */
+.related_articles_all form {
+  position: absolute;
+  left: -99999px;
+}
+
 /*** Grid ***/
 /*** Headings ***/
 /*** Helper ***/
@@ -5172,17 +5183,22 @@ li > ul, li > ol {
 }
 
 /* line 14, ../scss/base/_lists.scss */
+li > ul, li > ol {
+  margin-top: 10px;
+}
+
+/* line 16, ../scss/base/_lists.scss */
 .numbered-list {
   list-style-type: decimal;
 }
 
 /* Inline List */
-/* line 17, ../scss/base/_lists.scss */
+/* line 19, ../scss/base/_lists.scss */
 .list--inline {
   list-style: none;
   margin-left: 0;
 }
-/* line 20, ../scss/base/_lists.scss */
+/* line 22, ../scss/base/_lists.scss */
 .list--inline > li {
   display: inline;
   margin-right: 12px;
@@ -5190,19 +5206,19 @@ li > ul, li > ol {
 }
 
 /* Inline List */
-/* line 28, ../scss/base/_lists.scss */
+/* line 30, ../scss/base/_lists.scss */
 .list--unstyled {
   list-style: none;
   margin-left: 0;
 }
 
 /* Block list */
-/* line 34, ../scss/base/_lists.scss */
+/* line 36, ../scss/base/_lists.scss */
 .list--block {
   list-style: none;
   margin-left: 0;
 }
-/* line 37, ../scss/base/_lists.scss */
+/* line 39, ../scss/base/_lists.scss */
 .list--block > li {
   border-bottom: 1px #BFBFBF solid;
   padding: 12px 0;
@@ -5210,13 +5226,13 @@ li > ul, li > ol {
 }
 
 /* Grid list */
-/* line 45, ../scss/base/_lists.scss */
+/* line 47, ../scss/base/_lists.scss */
 .list--grid {
   list-style: none;
   margin-left: 0;
   font-size: 0;
 }
-/* line 49, ../scss/base/_lists.scss */
+/* line 51, ../scss/base/_lists.scss */
 .list--grid > li {
   font-size: 14px;
   font-size: 1rem;
@@ -5224,7 +5240,7 @@ li > ul, li > ol {
 }
 
 /* Custom list */
-/* line 57, ../scss/base/_lists.scss */
+/* line 59, ../scss/base/_lists.scss */
 .no-style {
   list-style: none;
   padding-left: 0px;
@@ -9726,8 +9742,9 @@ ul.category-nav > li a {
   margin-bottom: 15px;
   quotes: "“" "”" "‘" "’";
   text-indent: 23px;
+  letter-spacing: -0.01em;
 }
-/* line 1247, ../scss/components/_blocks.scss */
+/* line 1248, ../scss/components/_blocks.scss */
 .block-quote-custom .quote p {
   font-family: inherit;
   font-size: inherit;
@@ -9735,18 +9752,18 @@ ul.category-nav > li a {
   display: inline;
   margin-left: 6px;
 }
-/* line 1254, ../scss/components/_blocks.scss */
+/* line 1255, ../scss/components/_blocks.scss */
 .block-quote-custom .quote .open-quote, .block-quote-custom .quote .close-quote {
   font-size: 60px;
   color: #007CBE;
 }
-/* line 1258, ../scss/components/_blocks.scss */
+/* line 1259, ../scss/components/_blocks.scss */
 .block-quote-custom .quote .open-quote {
   position: absolute;
   left: -24px;
   top: -10px;
 }
-/* line 1263, ../scss/components/_blocks.scss */
+/* line 1264, ../scss/components/_blocks.scss */
 .block-quote-custom .quote .close-quote {
   height: 0;
   line-height: 0;
@@ -9755,28 +9772,29 @@ ul.category-nav > li a {
   padding-top: 20px;
   margin-left: -23px;
 }
-/* line 1272, ../scss/components/_blocks.scss */
+/* line 1273, ../scss/components/_blocks.scss */
 .block-quote-custom .from {
   font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   color: #052049;
   font-size: 18px;
   line-height: 1.44;
+  letter-spacing: -0.01em;
 }
-/* line 1277, ../scss/components/_blocks.scss */
+/* line 1279, ../scss/components/_blocks.scss */
 .block-quote-custom .from strong, .block-quote-custom .from b {
   font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 1286, ../scss/components/_blocks.scss */
+  /* line 1288, ../scss/components/_blocks.scss */
   .block-quote-custom .from {
     font-size: 15px;
     line-height: 1.47;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 1294, ../scss/components/_blocks.scss */
+  /* line 1296, ../scss/components/_blocks.scss */
   .block-quote-custom {
     float: right;
     margin: 15px 0px 15px 30px;
@@ -9784,27 +9802,27 @@ ul.category-nav > li a {
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 1302, ../scss/components/_blocks.scss */
+  /* line 1304, ../scss/components/_blocks.scss */
   .block-quote-custom {
     width: 470px;
     max-width: 470px;
     margin-right: -95px;
   }
 }
-/* line 1310, ../scss/components/_blocks.scss */
+/* line 1312, ../scss/components/_blocks.scss */
 .block-article-carousel--wrapper {
   margin-bottom: 40px;
 }
 
-/* line 1317, ../scss/components/_blocks.scss */
+/* line 1319, ../scss/components/_blocks.scss */
 .block--article-carousel.mobile-block .carousel-nav {
   display: block;
 }
-/* line 1322, ../scss/components/_blocks.scss */
+/* line 1324, ../scss/components/_blocks.scss */
 .block--article-carousel.desktop-block .carousel-nav {
   display: none;
 }
-/* line 1326, ../scss/components/_blocks.scss */
+/* line 1328, ../scss/components/_blocks.scss */
 .block--article-carousel .carousel-nav {
   position: absolute;
   z-index: 2;
@@ -9818,35 +9836,35 @@ ul.category-nav > li a {
   padding-left: 15px;
   padding-right: 15px;
 }
-/* line 1338, ../scss/components/_blocks.scss */
+/* line 1340, ../scss/components/_blocks.scss */
 .block--article-carousel .carousel-nav:focus {
   outline: none;
 }
-/* line 1341, ../scss/components/_blocks.scss */
+/* line 1343, ../scss/components/_blocks.scss */
 .block--article-carousel .carousel-nav.slick-prev {
   left: 0px;
 }
-/* line 1344, ../scss/components/_blocks.scss */
+/* line 1346, ../scss/components/_blocks.scss */
 .block--article-carousel .carousel-nav.slick-next {
   right: 0px;
 }
-/* line 1348, ../scss/components/_blocks.scss */
+/* line 1350, ../scss/components/_blocks.scss */
 .block--article-carousel .item {
   width: 100%;
   height: auto;
 }
-/* line 1351, ../scss/components/_blocks.scss */
+/* line 1353, ../scss/components/_blocks.scss */
 .block--article-carousel .item:focus {
   outline: none;
 }
-/* line 1354, ../scss/components/_blocks.scss */
+/* line 1356, ../scss/components/_blocks.scss */
 .block--article-carousel .item .item-image {
   width: 100%;
   height: auto;
   display: block;
   margin: 0px;
 }
-/* line 1360, ../scss/components/_blocks.scss */
+/* line 1362, ../scss/components/_blocks.scss */
 .block--article-carousel .item .item-content {
   display: block;
   background-color: #F1F1F1;
@@ -9854,53 +9872,53 @@ ul.category-nav > li a {
   padding: 15px 20px;
   margin: 0px;
 }
-/* line 1366, ../scss/components/_blocks.scss */
+/* line 1368, ../scss/components/_blocks.scss */
 .block--article-carousel .item .item-content .date {
   color: #052049;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 1375, ../scss/components/_blocks.scss */
+  /* line 1377, ../scss/components/_blocks.scss */
   .block-article-carousel--wrapper {
     margin-bottom: 30px;
   }
 
-  /* line 1381, ../scss/components/_blocks.scss */
+  /* line 1383, ../scss/components/_blocks.scss */
   .block--article-carousel.mobile-block .carousel-nav {
     display: none;
   }
-  /* line 1385, ../scss/components/_blocks.scss */
+  /* line 1387, ../scss/components/_blocks.scss */
   .block--article-carousel.desktop-block {
     margin-top: -30px;
     margin-left: 24px;
     margin-right: 24px;
     background-color: #F1F1F1;
   }
-  /* line 1390, ../scss/components/_blocks.scss */
+  /* line 1392, ../scss/components/_blocks.scss */
   .block--article-carousel.desktop-block::before, .block--article-carousel.desktop-block::after {
     content: " ";
     position: absolute;
     background-color: #F1F1F1;
   }
-  /* line 1395, ../scss/components/_blocks.scss */
+  /* line 1397, ../scss/components/_blocks.scss */
   .block--article-carousel.desktop-block::before {
     left: -1px;
     width: 56.44px;
     top: 0;
     bottom: 0;
   }
-  /* line 1401, ../scss/components/_blocks.scss */
+  /* line 1403, ../scss/components/_blocks.scss */
   .block--article-carousel.desktop-block::after {
     right: -1px;
     width: 56.44px;
     top: 0;
     bottom: 0;
   }
-  /* line 1407, ../scss/components/_blocks.scss */
+  /* line 1409, ../scss/components/_blocks.scss */
   .block--article-carousel.desktop-block .carousel-nav {
     display: block;
   }
-  /* line 1411, ../scss/components/_blocks.scss */
+  /* line 1413, ../scss/components/_blocks.scss */
   .block--article-carousel .carousel-nav {
     color: #052049;
     background-color: #F1F1F1;
@@ -9908,137 +9926,137 @@ ul.category-nav > li a {
     top: 50%;
     margin-top: -37px;
   }
-  /* line 1417, ../scss/components/_blocks.scss */
+  /* line 1419, ../scss/components/_blocks.scss */
   .block--article-carousel .carousel-nav.slick-prev {
     left: 0px;
   }
-  /* line 1420, ../scss/components/_blocks.scss */
+  /* line 1422, ../scss/components/_blocks.scss */
   .block--article-carousel .carousel-nav.slick-next {
     right: 0px;
   }
-  /* line 1425, ../scss/components/_blocks.scss */
+  /* line 1427, ../scss/components/_blocks.scss */
   .block--article-carousel .item .item-content {
     padding: 30px 63px;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 1433, ../scss/components/_blocks.scss */
+  /* line 1435, ../scss/components/_blocks.scss */
   .block-article-carousel--wrapper {
     margin-bottom: 60px;
   }
 
-  /* line 1436, ../scss/components/_blocks.scss */
+  /* line 1438, ../scss/components/_blocks.scss */
   .block-article-carousel--wrapper {
     margin-top: 15px;
   }
 
-  /* line 1440, ../scss/components/_blocks.scss */
+  /* line 1442, ../scss/components/_blocks.scss */
   .block--article-carousel.desktop-block {
     margin-left: 40px;
     margin-right: 40px;
   }
 }
-/* line 1448, ../scss/components/_blocks.scss */
+/* line 1450, ../scss/components/_blocks.scss */
 .block-featured--article-image {
   display: inline-block;
 }
-/* line 1450, ../scss/components/_blocks.scss */
+/* line 1452, ../scss/components/_blocks.scss */
 .block-featured--article-image img {
   max-width: 100%;
   height: auto;
   margin: 0px;
   display: block;
 }
-/* line 1456, ../scss/components/_blocks.scss */
+/* line 1458, ../scss/components/_blocks.scss */
 .block-featured--article-image .featured--article-text {
   background-color: #F1F1F1;
   padding: 15px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 1467, ../scss/components/_blocks.scss */
+  /* line 1469, ../scss/components/_blocks.scss */
   .block-featured--article-image .featured--article-text {
     background-color: #F1F1F1;
     padding: 15px;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 1479, ../scss/components/_blocks.scss */
+  /* line 1481, ../scss/components/_blocks.scss */
   .block-featured--article-image .featured--article-text {
     background-color: #F1F1F1;
     padding: 15px;
   }
 }
-/* line 1491, ../scss/components/_blocks.scss */
+/* line 1493, ../scss/components/_blocks.scss */
 .photo-caption--wrapper {
   padding: 20px 15px;
   margin-bottom: 20px;
   background-color: #052049;
 }
-/* line 1496, ../scss/components/_blocks.scss */
+/* line 1498, ../scss/components/_blocks.scss */
 .photo-caption--wrapper .photo-caption p {
   margin: 0px;
   color: #FFFFFF;
 }
 
 @media screen and (min-width: 1024px) {
-  /* line 1504, ../scss/components/_blocks.scss */
+  /* line 1506, ../scss/components/_blocks.scss */
   .photo-caption--wrapper {
     margin-top: -73px;
   }
 }
-/* line 1511, ../scss/components/_blocks.scss */
+/* line 1513, ../scss/components/_blocks.scss */
 .photo-caption p {
   font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   color: #58595b;
   font-size: 12px;
 }
 
-/* line 1519, ../scss/components/_blocks.scss */
+/* line 1521, ../scss/components/_blocks.scss */
 .photo--caption-full {
   margin-bottom: 20px;
 }
-/* line 1521, ../scss/components/_blocks.scss */
+/* line 1523, ../scss/components/_blocks.scss */
 .photo--caption-full .photo-caption--wrapper {
   margin-bottom: 0px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 1527, ../scss/components/_blocks.scss */
+  /* line 1529, ../scss/components/_blocks.scss */
   .photo--caption-full {
     margin-top: -40px;
   }
-  /* line 1529, ../scss/components/_blocks.scss */
+  /* line 1531, ../scss/components/_blocks.scss */
   .photo--caption-full .photo-caption--wrapper {
     padding: 25px 30px;
   }
 }
-/* line 1534, ../scss/components/_blocks.scss */
+/* line 1536, ../scss/components/_blocks.scss */
 .photo--caption-side {
   display: none;
   padding: 0px 15px;
 }
-/* line 1537, ../scss/components/_blocks.scss */
+/* line 1539, ../scss/components/_blocks.scss */
 .photo--caption-side ~ div {
   margin-top: 0px;
 }
 
 @media screen and (min-width: 1024px) {
-  /* line 1543, ../scss/components/_blocks.scss */
+  /* line 1545, ../scss/components/_blocks.scss */
   .photo--caption-side {
     display: block;
     padding: 0px 15px;
   }
-  /* line 1546, ../scss/components/_blocks.scss */
+  /* line 1548, ../scss/components/_blocks.scss */
   .photo--caption-side ~ div {
     margin-top: 50px;
   }
-  /* line 1549, ../scss/components/_blocks.scss */
+  /* line 1551, ../scss/components/_blocks.scss */
   .photo--caption-side .photo-caption--wrapper {
     margin-bottom: 0px;
   }
 }
-/* line 1555, ../scss/components/_blocks.scss */
+/* line 1557, ../scss/components/_blocks.scss */
 .block--give-block-full-width {
   background-color: #F1F1F1;
   height: auto;
@@ -10048,13 +10066,13 @@ ul.category-nav > li a {
   width: 100%;
   position: relative;
 }
-/* line 1563, ../scss/components/_blocks.scss */
+/* line 1565, ../scss/components/_blocks.scss */
 .block--give-block-full-width .block--give-to-ucsf-content {
   padding: 60px 0px;
   display: block;
   color: #052049;
 }
-/* line 1568, ../scss/components/_blocks.scss */
+/* line 1570, ../scss/components/_blocks.scss */
 .block--give-block-full-width h4, .block--give-block-full-width p {
   display: inline-block;
   margin: 0px;
@@ -10065,33 +10083,33 @@ ul.category-nav > li a {
   font-size: 1.46667rem;
   line-height: 1.14;
 }
-/* line 1576, ../scss/components/_blocks.scss */
+/* line 1578, ../scss/components/_blocks.scss */
 .block--give-block-full-width h4 b, .block--give-block-full-width h4 strong, .block--give-block-full-width p b, .block--give-block-full-width p strong {
   font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
-/* line 1580, ../scss/components/_blocks.scss */
+/* line 1582, ../scss/components/_blocks.scss */
 .block--give-block-full-width a, .block--give-block-full-width .btn--with-icon {
   display: inline-block;
   float: none;
   clear: both;
   width: 100%;
 }
-/* line 1585, ../scss/components/_blocks.scss */
+/* line 1587, ../scss/components/_blocks.scss */
 .block--give-block-full-width a:hover, .block--give-block-full-width .btn--with-icon:hover {
   text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 1592, ../scss/components/_blocks.scss */
+  /* line 1594, ../scss/components/_blocks.scss */
   .block--give-block-full-width {
     text-align: left;
     height: auto;
   }
-  /* line 1595, ../scss/components/_blocks.scss */
+  /* line 1597, ../scss/components/_blocks.scss */
   .block--give-block-full-width .block--give-to-ucsf-content {
     padding: 60px 0px;
   }
-  /* line 1598, ../scss/components/_blocks.scss */
+  /* line 1600, ../scss/components/_blocks.scss */
   .block--give-block-full-width h4, .block--give-block-full-width p {
     display: inline-block;
     vertical-align: middle;
@@ -10102,11 +10120,11 @@ ul.category-nav > li a {
     margin-bottom: 0px;
     width: 60%;
   }
-  /* line 1606, ../scss/components/_blocks.scss */
+  /* line 1608, ../scss/components/_blocks.scss */
   .block--give-block-full-width h4 b, .block--give-block-full-width h4 strong, .block--give-block-full-width p b, .block--give-block-full-width p strong {
     font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   }
-  /* line 1610, ../scss/components/_blocks.scss */
+  /* line 1612, ../scss/components/_blocks.scss */
   .block--give-block-full-width a, .block--give-block-full-width .btn--with-icon {
     display: inline-block;
     clear: none;
@@ -10117,22 +10135,22 @@ ul.category-nav > li a {
     width: 270px;
   }
 }
-/* line 1623, ../scss/components/_blocks.scss */
+/* line 1625, ../scss/components/_blocks.scss */
 .block--ways-to-get-involved-list {
   margin-bottom: 10px;
 }
-/* line 1625, ../scss/components/_blocks.scss */
+/* line 1627, ../scss/components/_blocks.scss */
 .block--ways-to-get-involved-list h3 {
   display: none;
 }
 
-/* line 1630, ../scss/components/_blocks.scss */
+/* line 1632, ../scss/components/_blocks.scss */
 .block-ways-to-get-involved--item {
   position: relative;
   width: 100%;
   margin-bottom: 20px;
 }
-/* line 1634, ../scss/components/_blocks.scss */
+/* line 1636, ../scss/components/_blocks.scss */
 .block-ways-to-get-involved--item .block--item-image {
   height: 200px;
   width: 100%;
@@ -10141,7 +10159,7 @@ ul.category-nav > li a {
   background-repeat: no-repeat;
   background-position: center center;
 }
-/* line 1642, ../scss/components/_blocks.scss */
+/* line 1644, ../scss/components/_blocks.scss */
 .block-ways-to-get-involved--item .block--item-contents {
   background-color: #007CBE;
   height: 210px;
@@ -10150,52 +10168,52 @@ ul.category-nav > li a {
   padding: 20px 20px 25px 20px;
   position: relative;
 }
-/* line 1649, ../scss/components/_blocks.scss */
+/* line 1651, ../scss/components/_blocks.scss */
 .block-ways-to-get-involved--item .block--item-contents .text {
   font-size: 1.2rem;
   line-height: 1.33;
   line-height: 1.33;
   margin: 0;
 }
-/* line 1655, ../scss/components/_blocks.scss */
+/* line 1657, ../scss/components/_blocks.scss */
 .block-ways-to-get-involved--item .block--item-contents a, .block-ways-to-get-involved--item .block--item-contents span, .block-ways-to-get-involved--item .block--item-contents p {
   color: #FFFFFF;
 }
-/* line 1658, ../scss/components/_blocks.scss */
+/* line 1660, ../scss/components/_blocks.scss */
 .block-ways-to-get-involved--item .block--item-contents a {
   position: absolute;
   bottom: 25px;
   left: 20px;
   right: 20px;
 }
-/* line 1663, ../scss/components/_blocks.scss */
+/* line 1665, ../scss/components/_blocks.scss */
 .block-ways-to-get-involved--item .block--item-contents a > .link--icon {
   color: #FFFFFF;
   margin-left: 10px;
   display: inline-block;
   padding-top: 1px;
 }
-/* line 1670, ../scss/components/_blocks.scss */
+/* line 1672, ../scss/components/_blocks.scss */
 .block-ways-to-get-involved--item .block--item-contents a:hover .fa-angle-right, .block-ways-to-get-involved--item .block--item-contents a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block-ways-to-get-involved--item .block--item-contents a:hover .slider-button.slider-next {
   color: #007CBE;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 1680, ../scss/components/_blocks.scss */
+  /* line 1682, ../scss/components/_blocks.scss */
   .block--ways-to-get-involved-list h3 {
     margin-top: 40px;
     display: block;
   }
 
-  /* line 1685, ../scss/components/_blocks.scss */
+  /* line 1687, ../scss/components/_blocks.scss */
   .block-ways-to-get-involved--item {
     margin-bottom: 50px;
   }
-  /* line 1687, ../scss/components/_blocks.scss */
+  /* line 1689, ../scss/components/_blocks.scss */
   .block-ways-to-get-involved--item .block--item-image {
     height: 404px;
   }
-  /* line 1690, ../scss/components/_blocks.scss */
+  /* line 1692, ../scss/components/_blocks.scss */
   .block-ways-to-get-involved--item .block--item-contents {
     width: auto;
     height: 130px;
@@ -10205,15 +10223,15 @@ ul.category-nav > li a {
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 1702, ../scss/components/_blocks.scss */
+  /* line 1704, ../scss/components/_blocks.scss */
   .block-ways-to-get-involved--item {
     margin-bottom: 50px;
   }
-  /* line 1704, ../scss/components/_blocks.scss */
+  /* line 1706, ../scss/components/_blocks.scss */
   .block-ways-to-get-involved--item .block--item-image {
     height: 255px;
   }
-  /* line 1707, ../scss/components/_blocks.scss */
+  /* line 1709, ../scss/components/_blocks.scss */
   .block-ways-to-get-involved--item .block--item-contents {
     width: auto;
     height: 130px;
@@ -10223,15 +10241,15 @@ ul.category-nav > li a {
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 1719, ../scss/components/_blocks.scss */
+  /* line 1721, ../scss/components/_blocks.scss */
   .block-ways-to-get-involved--item {
     margin-bottom: 50px;
   }
-  /* line 1721, ../scss/components/_blocks.scss */
+  /* line 1723, ../scss/components/_blocks.scss */
   .block-ways-to-get-involved--item .block--item-image {
     height: 320px;
   }
-  /* line 1724, ../scss/components/_blocks.scss */
+  /* line 1726, ../scss/components/_blocks.scss */
   .block-ways-to-get-involved--item .block--item-contents {
     width: auto;
     height: 130px;
@@ -10240,137 +10258,137 @@ ul.category-nav > li a {
     margin-right: 40px;
   }
 }
-/* line 1740, ../scss/components/_blocks.scss */
+/* line 1742, ../scss/components/_blocks.scss */
 .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+1) .block--impact-stories-panel .block--item-colored-panel {
   background-color: #007CBE;
 }
-/* line 1744, ../scss/components/_blocks.scss */
+/* line 1746, ../scss/components/_blocks.scss */
 .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+1) .block--impact-stories-panel .block--item-colored-panel a:hover .fa-angle-right, .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+1) .block--impact-stories-panel .block--item-colored-panel a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+1) .block--impact-stories-panel .block--item-colored-panel a:hover .slider-button.slider-next {
   color: #007CBE;
 }
-/* line 1754, ../scss/components/_blocks.scss */
+/* line 1756, ../scss/components/_blocks.scss */
 .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+2) .block--impact-stories-panel .block--item-colored-panel {
   background-color: #F26D04;
 }
-/* line 1758, ../scss/components/_blocks.scss */
+/* line 1760, ../scss/components/_blocks.scss */
 .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+2) .block--impact-stories-panel .block--item-colored-panel a:hover .fa-angle-right, .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+2) .block--impact-stories-panel .block--item-colored-panel a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+2) .block--impact-stories-panel .block--item-colored-panel a:hover .slider-button.slider-next {
   color: #F26D04;
 }
-/* line 1768, ../scss/components/_blocks.scss */
+/* line 1770, ../scss/components/_blocks.scss */
 .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+3) .block--impact-stories-panel .block--item-colored-panel {
   background-color: #6EA400;
 }
-/* line 1772, ../scss/components/_blocks.scss */
+/* line 1774, ../scss/components/_blocks.scss */
 .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+3) .block--impact-stories-panel .block--item-colored-panel a:hover .fa-angle-right, .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+3) .block--impact-stories-panel .block--item-colored-panel a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+3) .block--impact-stories-panel .block--item-colored-panel a:hover .slider-button.slider-next {
   color: #6EA400;
 }
-/* line 1782, ../scss/components/_blocks.scss */
+/* line 1784, ../scss/components/_blocks.scss */
 .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+4) .block--impact-stories-panel .block--item-colored-panel {
   background-color: #058488;
 }
-/* line 1786, ../scss/components/_blocks.scss */
+/* line 1788, ../scss/components/_blocks.scss */
 .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+4) .block--impact-stories-panel .block--item-colored-panel a:hover .fa-angle-right, .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+4) .block--impact-stories-panel .block--item-colored-panel a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+4) .block--impact-stories-panel .block--item-colored-panel a:hover .slider-button.slider-next {
   color: #058488;
 }
 
-/* line 1804, ../scss/components/_blocks.scss */
+/* line 1806, ../scss/components/_blocks.scss */
 .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+1) .block--impact-story-with-image .block--content .content-area {
   background-color: #007CBE;
 }
-/* line 1810, ../scss/components/_blocks.scss */
+/* line 1812, ../scss/components/_blocks.scss */
 .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+1) .block--funding-priorities-full a, .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+1) .block--funding-priorities-full span, .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+1) .block--funding-priorities-full .detail-label p {
   color: #007CBE;
 }
-/* line 1815, ../scss/components/_blocks.scss */
+/* line 1817, ../scss/components/_blocks.scss */
 .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+1) .block--funding-priorities-full a:hover .fa-angle-right, .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+1) .block--funding-priorities-full a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+1) .block--funding-priorities-full a:hover .slider-button.slider-next {
   color: #FFFFFF;
 }
-/* line 1822, ../scss/components/_blocks.scss */
+/* line 1824, ../scss/components/_blocks.scss */
 .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+1) .block--funding-priorities-full .link--with-icon .text::after {
   background-color: #007CBE;
 }
-/* line 1829, ../scss/components/_blocks.scss */
+/* line 1831, ../scss/components/_blocks.scss */
 .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+1) .block--impact-stories-panel .block--item-colored-panel {
   background-color: #007CBE;
 }
-/* line 1833, ../scss/components/_blocks.scss */
+/* line 1835, ../scss/components/_blocks.scss */
 .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+1) .block--impact-stories-panel .block--item-colored-panel a:hover .fa-angle-right, .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+1) .block--impact-stories-panel .block--item-colored-panel a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+1) .block--impact-stories-panel .block--item-colored-panel a:hover .slider-button.slider-next {
   color: #007CBE;
 }
-/* line 1844, ../scss/components/_blocks.scss */
+/* line 1846, ../scss/components/_blocks.scss */
 .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+2) .block--impact-story-with-image .block--content .content-area {
   background-color: #F26D04;
 }
-/* line 1850, ../scss/components/_blocks.scss */
+/* line 1852, ../scss/components/_blocks.scss */
 .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+2) .block--funding-priorities-full a, .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+2) .block--funding-priorities-full span, .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+2) .block--funding-priorities-full .detail-label p {
   color: #F26D04;
 }
-/* line 1855, ../scss/components/_blocks.scss */
+/* line 1857, ../scss/components/_blocks.scss */
 .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+2) .block--funding-priorities-full a:hover .fa-angle-right, .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+2) .block--funding-priorities-full a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+2) .block--funding-priorities-full a:hover .slider-button.slider-next {
   color: #FFFFFF;
 }
-/* line 1862, ../scss/components/_blocks.scss */
+/* line 1864, ../scss/components/_blocks.scss */
 .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+2) .block--funding-priorities-full .link--with-icon .text::after {
   background-color: #F26D04;
 }
-/* line 1869, ../scss/components/_blocks.scss */
+/* line 1871, ../scss/components/_blocks.scss */
 .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+2) .block--impact-stories-panel .block--item-colored-panel {
   background-color: #F26D04;
 }
-/* line 1873, ../scss/components/_blocks.scss */
+/* line 1875, ../scss/components/_blocks.scss */
 .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+2) .block--impact-stories-panel .block--item-colored-panel a:hover .fa-angle-right, .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+2) .block--impact-stories-panel .block--item-colored-panel a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+2) .block--impact-stories-panel .block--item-colored-panel a:hover .slider-button.slider-next {
   color: #F26D04;
 }
-/* line 1884, ../scss/components/_blocks.scss */
+/* line 1886, ../scss/components/_blocks.scss */
 .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+3) .block--impact-story-with-image .block--content .content-area {
   background-color: #6EA400;
 }
-/* line 1890, ../scss/components/_blocks.scss */
+/* line 1892, ../scss/components/_blocks.scss */
 .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+3) .block--funding-priorities-full a, .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+3) .block--funding-priorities-full span, .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+3) .block--funding-priorities-full .detail-label p {
   color: #6EA400;
 }
-/* line 1895, ../scss/components/_blocks.scss */
+/* line 1897, ../scss/components/_blocks.scss */
 .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+3) .block--funding-priorities-full a:hover .fa-angle-right, .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+3) .block--funding-priorities-full a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+3) .block--funding-priorities-full a:hover .slider-button.slider-next {
   color: #FFFFFF;
 }
-/* line 1902, ../scss/components/_blocks.scss */
+/* line 1904, ../scss/components/_blocks.scss */
 .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+3) .block--funding-priorities-full .link--with-icon .text::after {
   background-color: #6EA400;
 }
-/* line 1909, ../scss/components/_blocks.scss */
+/* line 1911, ../scss/components/_blocks.scss */
 .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+3) .block--impact-stories-panel .block--item-colored-panel {
   background-color: #6EA400;
 }
-/* line 1913, ../scss/components/_blocks.scss */
+/* line 1915, ../scss/components/_blocks.scss */
 .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+3) .block--impact-stories-panel .block--item-colored-panel a:hover .fa-angle-right, .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+3) .block--impact-stories-panel .block--item-colored-panel a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+3) .block--impact-stories-panel .block--item-colored-panel a:hover .slider-button.slider-next {
   color: #6EA400;
 }
-/* line 1924, ../scss/components/_blocks.scss */
+/* line 1926, ../scss/components/_blocks.scss */
 .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+4) .block--impact-story-with-image .block--content .content-area {
   background-color: #058488;
 }
-/* line 1930, ../scss/components/_blocks.scss */
+/* line 1932, ../scss/components/_blocks.scss */
 .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+4) .block--funding-priorities-full a, .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+4) .block--funding-priorities-full span, .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+4) .block--funding-priorities-full .detail-label p {
   color: #058488;
 }
-/* line 1935, ../scss/components/_blocks.scss */
+/* line 1937, ../scss/components/_blocks.scss */
 .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+4) .block--funding-priorities-full a:hover .fa-angle-right, .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+4) .block--funding-priorities-full a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+4) .block--funding-priorities-full a:hover .slider-button.slider-next {
   color: #FFFFFF;
 }
-/* line 1942, ../scss/components/_blocks.scss */
+/* line 1944, ../scss/components/_blocks.scss */
 .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+4) .block--funding-priorities-full .link--with-icon .text::after {
   background-color: #058488;
 }
-/* line 1949, ../scss/components/_blocks.scss */
+/* line 1951, ../scss/components/_blocks.scss */
 .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+4) .block--impact-stories-panel .block--item-colored-panel {
   background-color: #058488;
 }
-/* line 1953, ../scss/components/_blocks.scss */
+/* line 1955, ../scss/components/_blocks.scss */
 .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+4) .block--impact-stories-panel .block--item-colored-panel a:hover .fa-angle-right, .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+4) .block--impact-stories-panel .block--item-colored-panel a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+4) .block--impact-stories-panel .block--item-colored-panel a:hover .slider-button.slider-next {
   color: #058488;
 }
 
-/* line 1965, ../scss/components/_blocks.scss */
+/* line 1967, ../scss/components/_blocks.scss */
 .photo-cta {
   background-repeat: no-repeat;
   background-size: cover;
@@ -10378,33 +10396,33 @@ ul.category-nav > li a {
   padding: 30px 0px;
 }
 
-/* line 1972, ../scss/components/_blocks.scss */
+/* line 1974, ../scss/components/_blocks.scss */
 .photo-cta-list {
   padding: 10px 20px;
   background-color: #FFFFFF;
   display: inline-block;
 }
 
-/* line 1978, ../scss/components/_blocks.scss */
+/* line 1980, ../scss/components/_blocks.scss */
 .photo-cta-item {
   background-color: #FFFFFF;
   position: relative;
   padding-left: 0px;
   padding-right: 0px;
 }
-/* line 1983, ../scss/components/_blocks.scss */
+/* line 1985, ../scss/components/_blocks.scss */
 .photo-cta-item:nth-of-type(3n+2) {
   border-top: 1px solid #007CBE;
   border-bottom: 1px solid #007CBE;
 }
-/* line 1987, ../scss/components/_blocks.scss */
+/* line 1989, ../scss/components/_blocks.scss */
 .photo-cta-item .photo-cta-content--wrapper {
   padding: 15px 0px;
   color: #052049;
   min-height: 139px;
   position: relative;
 }
-/* line 1992, ../scss/components/_blocks.scss */
+/* line 1994, ../scss/components/_blocks.scss */
 .photo-cta-item .photo-cta-content--wrapper a {
   font-size: 1.06667rem;
   line-height: 1.5;
@@ -10412,133 +10430,133 @@ ul.category-nav > li a {
   position: absolute;
   bottom: 12px;
 }
-/* line 1997, ../scss/components/_blocks.scss */
+/* line 1999, ../scss/components/_blocks.scss */
 .photo-cta-item .photo-cta-content--wrapper a .link--icon {
   margin-left: 10px;
 }
-/* line 2001, ../scss/components/_blocks.scss */
+/* line 2003, ../scss/components/_blocks.scss */
 .photo-cta-item .photo-cta-content--wrapper p {
   margin-bottom: 35px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 2009, ../scss/components/_blocks.scss */
+  /* line 2011, ../scss/components/_blocks.scss */
   .photo-cta {
     padding: 100px 0px;
   }
 
-  /* line 2012, ../scss/components/_blocks.scss */
+  /* line 2014, ../scss/components/_blocks.scss */
   .photo-cta-list {
     padding: 30px 0px;
   }
 
-  /* line 2015, ../scss/components/_blocks.scss */
+  /* line 2017, ../scss/components/_blocks.scss */
   .photo-cta-item {
     padding-left: 15px;
     padding-right: 15px;
   }
-  /* line 2018, ../scss/components/_blocks.scss */
+  /* line 2020, ../scss/components/_blocks.scss */
   .photo-cta-item:nth-of-type(3n+2) {
     border-top: 0px solid #007CBE;
     border-bottom: 0px solid #007CBE;
     border-right: 1px solid #007CBE;
     border-left: 1px solid #007CBE;
   }
-  /* line 2024, ../scss/components/_blocks.scss */
+  /* line 2026, ../scss/components/_blocks.scss */
   .photo-cta-item:last-child {
     border-right: 0px solid transparent;
   }
-  /* line 2027, ../scss/components/_blocks.scss */
+  /* line 2029, ../scss/components/_blocks.scss */
   .photo-cta-item .photo-cta-content--wrapper {
     min-height: 160px;
     padding: 10px 5px;
   }
-  /* line 2030, ../scss/components/_blocks.scss */
+  /* line 2032, ../scss/components/_blocks.scss */
   .photo-cta-item .photo-cta-content--wrapper p {
     margin-bottom: 35px;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 2038, ../scss/components/_blocks.scss */
+  /* line 2040, ../scss/components/_blocks.scss */
   .photo-cta {
     padding: 150px 0px;
   }
 
-  /* line 2041, ../scss/components/_blocks.scss */
+  /* line 2043, ../scss/components/_blocks.scss */
   .photo-cta-list {
     padding: 25px 8px;
   }
 
-  /* line 2044, ../scss/components/_blocks.scss */
+  /* line 2046, ../scss/components/_blocks.scss */
   .photo-cta-item {
     padding-left: 15px;
     padding-right: 15px;
   }
-  /* line 2047, ../scss/components/_blocks.scss */
+  /* line 2049, ../scss/components/_blocks.scss */
   .photo-cta-item:nth-of-type(3n+2) {
     border-top: 0px solid #007CBE;
     border-bottom: 0px solid #007CBE;
     border-right: 1px solid #007CBE;
     border-left: 1px solid #007CBE;
   }
-  /* line 2053, ../scss/components/_blocks.scss */
+  /* line 2055, ../scss/components/_blocks.scss */
   .photo-cta-item:last-child {
     border-right: 0px solid transparent;
   }
-  /* line 2056, ../scss/components/_blocks.scss */
+  /* line 2058, ../scss/components/_blocks.scss */
   .photo-cta-item .photo-cta-content--wrapper {
     min-height: 139px;
     padding: 15px 25px;
   }
-  /* line 2059, ../scss/components/_blocks.scss */
+  /* line 2061, ../scss/components/_blocks.scss */
   .photo-cta-item .photo-cta-content--wrapper p {
     margin-bottom: 35px;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 2067, ../scss/components/_blocks.scss */
+  /* line 2069, ../scss/components/_blocks.scss */
   .photo-cta {
     padding: 150px 0px;
   }
 
-  /* line 2070, ../scss/components/_blocks.scss */
+  /* line 2072, ../scss/components/_blocks.scss */
   .photo-cta-item {
     padding-left: 15px;
     padding-right: 15px;
   }
-  /* line 2073, ../scss/components/_blocks.scss */
+  /* line 2075, ../scss/components/_blocks.scss */
   .photo-cta-item:nth-of-type(3n+2) {
     border-top: 0px solid #007CBE;
     border-bottom: 0px solid #007CBE;
     border-right: 1px solid #007CBE;
     border-left: 1px solid #007CBE;
   }
-  /* line 2079, ../scss/components/_blocks.scss */
+  /* line 2081, ../scss/components/_blocks.scss */
   .photo-cta-item:last-child {
     border-right: 0px solid transparent;
   }
-  /* line 2082, ../scss/components/_blocks.scss */
+  /* line 2084, ../scss/components/_blocks.scss */
   .photo-cta-item .photo-cta-content--wrapper {
     min-height: 139px;
     padding: 15px 25px;
   }
-  /* line 2085, ../scss/components/_blocks.scss */
+  /* line 2087, ../scss/components/_blocks.scss */
   .photo-cta-item .photo-cta-content--wrapper p {
     margin-bottom: 35px;
   }
-  /* line 2088, ../scss/components/_blocks.scss */
+  /* line 2090, ../scss/components/_blocks.scss */
   .photo-cta-item .photo-cta-content--wrapper a {
     left: 25px;
     right: 25px;
   }
 }
-/* line 2096, ../scss/components/_blocks.scss */
+/* line 2098, ../scss/components/_blocks.scss */
 .body_content {
   padding-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 2101, ../scss/components/_blocks.scss */
+  /* line 2103, ../scss/components/_blocks.scss */
   .body_content {
     border-bottom: 2px solid #d1d3d3;
   }

@@ -1244,6 +1244,7 @@
         margin-bottom: 15px;
         quotes: "“" "”" "‘" "’";
         text-indent: 23px;
+        letter-spacing: -0.01em;
         p {
             font-family: inherit;
             font-size: inherit;
@@ -1274,6 +1275,7 @@
         color: $color--oxford-blue;
         font-size: 18px;
         line-height: 1.44;
+        letter-spacing: -0.01em;
         strong, b {
             font-family: $text-body--medium;
             font-weight: normal;
