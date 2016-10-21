@@ -6,9 +6,8 @@
         margin-top: 0;
     }
     &.block--funding-priorities{
-        margin: 40px auto 20px;
+        margin: 50px auto 50px;
         background-color: $color--white;
-
         .slick-arrow{
             @extend .fa;
             border: none;
@@ -62,7 +61,7 @@
         }
     }
     &.block--impact-stories{
-        margin-top: 30px;
+        margin-top: 50px;
         margin-bottom: 50px;
         background-color: $color--white;
         h3{
@@ -320,7 +319,7 @@
         }
     }
     &.block--impact-stories-pillar{
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     // &.block--give-block-full-width{
     //     padding-top: 60px;
@@ -422,7 +421,7 @@
         }
     }
     &.block--impact-stories-panel{
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         position: relative;
         display: block;
         .block--item-colored-panel, .block--item-image-panel{
@@ -1216,7 +1215,7 @@
         left: -30px;
         &.followScroll {
             position: fixed;
-            top: 150px;
+            top: 170px;
         }
         .article-share-btn {
             background-color: $color--medium-gray;
