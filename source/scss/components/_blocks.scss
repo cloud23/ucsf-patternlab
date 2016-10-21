@@ -424,6 +424,7 @@
     &.block--impact-stories-panel{
         margin-bottom: 20px;
         position: relative;
+        display: block;
         .block--item-colored-panel, .block--item-image-panel{
             width: 50%;
             height: 100%;
@@ -437,7 +438,7 @@
             a, span, h4, p{
                 color: $color--white;
             }
-            a{
+            .text--with-icon{
                 position: absolute;
                 bottom: 45px;
             }
@@ -453,99 +454,15 @@
             }
             &.background--green{
                 background-color: $color--yellow-green;
-                a{
-                    &:hover{
-                        .fa-angle-right{
-                            color: $color--yellow-green;
-                        }
-                    }
-                }
-                &:hover {
-                    a {
-                        .icon--visible-hover{
-                                display: block;
-                        }
-                        .icon--angle{
-                            @include animation(slideFromLeft 0.4s);
-                            color: $color--white;
-                        }
-                        .fa-angle-right{
-                            color: $color--yellow-green;
-                        }
-                    }
-                }
             }
             &.background--orange{
                 background-color: $color--orange;
-                a{
-                    &:hover{
-                        .fa-angle-right{
-                            color: $color--orange;
-                        }
-                    }
-                }
-                &:hover {
-                    a {
-                        .icon--visible-hover{
-                                display: block;
-                        }
-                        .icon--angle{
-                            @include animation(slideFromLeft 0.4s);
-                            color: $color--white;
-                        }
-                        .fa-angle-right{
-                            color: $color--orange;
-                        }
-                    }
-                }
             }
             &.background--light-blue{
                 background-color: $color--light-blue;
-                a{
-                    &:hover{
-                        .fa-angle-right{
-                            color: $color--light-blue;
-                        }
-                    }
-                }
-                &:hover {
-                    a {
-                        .icon--visible-hover{
-                                display: block;
-                        }
-                        .icon--angle{
-                            @include animation(slideFromLeft 0.4s);
-                            color: $color--white;
-                        }
-                        .fa-angle-right{
-                            color: $color--light-blue;
-                        }
-                    }
-                }
             }
             &.background--teal{
                 background-color: $color--teal;
-                a{
-                    &:hover{
-                        .fa-angle-right{
-                            color: $color--teal;
-                        }
-                    }
-                }
-                &:hover {
-                    a {
-                        .icon--visible-hover{
-                                display: block;
-                        }
-                        .icon--angle{
-                            @include animation(slideFromLeft 0.4s);
-                            color: $color--white;
-                        }
-                        .fa-angle-right{
-                            color: $color--teal;
-                        }
-                    }
-                }
             }
         }
         .block--item-image-panel{
@@ -554,6 +471,20 @@
                 background-size: cover;
                 background-position: center center;
                 background-repeat: no-repeat;
+            }
+        }
+        &:hover {
+            .background--green {
+                 @include text_with_icon_hover_state($color--yellow-green);
+            }
+            .background--orange {
+                @include text_with_icon_hover_state($color--orange);
+            }
+            .background--light-blue {
+                @include text_with_icon_hover_state($color--light-blue);
+            }
+            .background--teal {
+                @include text_with_icon_hover_state($color--light-blue);
             }
         }
     }
