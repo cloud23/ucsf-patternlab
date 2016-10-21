@@ -13,7 +13,7 @@ jQuery(function($){
 				if(scrollTop >= threshold) {
 
 					if($body.hasClass('transparent')) {
-						$body.removeClass('transparent').find('.nav--wrapper').css({'top':'-'+$nav.height()+'px'});
+						$body.removeClass('transparent').find('.nav--wrapper').addClass('scrolling').css({'top':'-'+$nav.height()+'px'});
 						$content.css({'margin-top':'40px'});
 						$nav.animate({'top':'0'},300,'linear',function(){
 								$(this).removeAttr('style');
@@ -22,6 +22,7 @@ jQuery(function($){
 				} else if (scrollTop <= thresholdHide ) {
 					if(!$body.hasClass('transparent')) {
 						$body.addClass('transparent');
+						$nav.removeClass('scrolling');
 						$content.removeAttr('style');
 					}
 				}
@@ -36,13 +37,13 @@ jQuery(function($){
 				if(scrollTop >= threshold) {
 					if($nav.hasClass('static')) {
 						$nav.css({'position':'fixed'}).css({'top':'-'+$nav.height()+'px'}).animate({'top':'0'},300,'linear',function(){
-									$(this).removeAttr('style').removeClass('static');
+									$(this).removeAttr('style').removeClass('static').addClass('scrolling');
 							});
 						$content.css({'margin-top':$nav.height()+'px'});
 					}
 				} else if (scrollTop <= thresholdHide ) {
 					if(!$nav.hasClass('static')) {
-						$nav.css({'position':'absolute'}).addClass("static");
+						$nav.css({'position':'absolute'}).addClass("static").removeClass("scrolling");
 						$content.removeAttr('style');
 					}
 				}
