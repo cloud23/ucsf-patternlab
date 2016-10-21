@@ -345,3 +345,65 @@ h3 {
         }
     }
 }
+
+
+/*** Page ***/
+p {
+    &.text--with-icon {
+        @include type-definition(16px, 1.125);
+        color: $color--oxford-blue;
+        text-transform: uppercase;
+        font-family: $text-body--medium;
+        position: relative;
+        text-decoration: none;
+        margin: 0px;
+        .content-text {
+            position: relative;
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: -1px;
+                left: 0px;
+                width: 100%;
+                height: 0px;
+                background-color: $color--white;
+            }
+        }
+        .text--icon {
+            color: $color--light-blue;
+            height: 26px;
+            width: 23px;
+            position: relative;
+            top: -1px;
+            margin-left: 5px;
+            overflow: hidden;
+            .icon--visible-hover{ display: none; }
+            .icon--circle{ @include type-definition(25px, 1); }
+            .icon--angle{ @include type-definition(19px, 1.27); }
+        }
+    }
+}
+
+a {
+    &:hover {
+        .text--with-icon {
+            .content-text {
+                text-decoration: underline;
+            }
+            .text--icon {
+                .icon--visible-hover{
+                    display: block;
+                }
+                .icon--angle{
+                    @include animation(slideFromLeft 0.4s);
+                    color: $color--white;
+                }
+                .text {
+                    &::after {
+                        height: 1px;
+                    }
+                }
+            }
+        }
+    }
+}

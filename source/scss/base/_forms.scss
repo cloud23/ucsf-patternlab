@@ -5,3 +5,12 @@ fieldset {
 	margin: 0px;
 	border: 0px solid transparent;
 }
+
+.related_articles_all {
+	position: relative;
+	overflow: hidden;
+	form {
+		position: absolute;
+		left: -99999px;
+	}
+}

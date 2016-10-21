@@ -1,4 +1,4 @@
-<div class="block--item block--impact-stories-panel">
+<a {% if link %} href="{{ link }}" {% endif %} class="block--item block--impact-stories-panel">
     <div class="block--item-image-panel">
         <div class="image-display" style="background-image: url({{ image_url }});"></div>
     </div>
@@ -6,11 +6,10 @@
         <h4>{{ title }}</h4>
         <p>{{ copy_text }}</p>
         {% if link %}
-            {% include '@molecules/01-text/06-link-with-icon.twig' with {
-            "link_text" : "read story",
-            "link_href" : link_href
-        } %}
+            {% include '@molecules/01-text/07-text-with-icon.twig' with {
+            "link_text" : "read story"
+            } %}
 
         {% endif %}
     </div>
-</div>
+</a>

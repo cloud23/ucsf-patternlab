@@ -196,6 +196,7 @@
     ]
   },
   "alert" : {
+    "href" : "#",
     "text" : "<b>It’s Giving Tuesday!</b> Click here to make your gift now."
   },
   "hero_content" : {

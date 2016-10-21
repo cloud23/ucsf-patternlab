@@ -6,9 +6,8 @@
         margin-top: 0;
     }
     &.block--funding-priorities{
-        margin: 40px auto 20px;
+        margin: 50px auto 50px;
         background-color: $color--white;
-
         .slick-arrow{
             @extend .fa;
             border: none;
@@ -62,7 +61,7 @@
         }
     }
     &.block--impact-stories{
-        margin-top: 30px;
+        margin-top: 50px;
         margin-bottom: 50px;
         background-color: $color--white;
         h3{
@@ -97,7 +96,7 @@
         .block--content-text{
             margin-bottom: 25px;
             p{
-                @include type-definition(18px, 1.33);
+                @include type-definition(18px, 1.5);
                 margin-top: 0;
                 margin-bottom: 25px;
             }
@@ -141,6 +140,7 @@
                     vertical-align: middle;
                     &.fa {
                         @include type-definition(20px, 1.33);
+                        width: 20px;
                         margin-right: 15px;
                     }
                     a {
@@ -307,8 +307,12 @@
     }
     &.block--impact-stories-grid{
         margin-bottom: 40px;
+        h3 {
+            padding-top: 20px;
+        }
         .see-more-link{
             margin-top: 15px;
+            padding-bottom: 40px;
         }
         &.related-articles {
             margin-bottom: 36px;
@@ -319,7 +323,7 @@
         }
     }
     &.block--impact-stories-pillar{
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     // &.block--give-block-full-width{
     //     padding-top: 60px;
@@ -395,20 +399,25 @@
             width: 100%;
             padding: 20px 20px 25px 20px;
             position: relative;
+            display: block;
             .text{
                 @include type-definition(18px, 1.33);
                 margin: 0;
             }
-            a, span, p{
+            .text--with-icon, span, p{
                 color: $color--white;
             }
-            a{
+            .text--with-icon {
                 position: absolute;
                 bottom: 25px;
                 left: 20px;
                 right: 20px;
-                &:hover{
-                    .fa-angle-right{
+            }
+        }
+        &:hover {
+            .block--item-contents {
+                .text--with-icon {
+                    .fa-angle-right {
                         color: $color--light-blue;
                     }
                 }
@@ -416,8 +425,9 @@
         }
     }
     &.block--impact-stories-panel{
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         position: relative;
+        display: block;
         .block--item-colored-panel, .block--item-image-panel{
             width: 50%;
             height: 100%;
@@ -427,10 +437,11 @@
         .block--item-colored-panel{
             padding: 30px;
             position: relative;
+            cursor: pointer;
             a, span, h4, p{
                 color: $color--white;
             }
-            a{
+            .text--with-icon{
                 position: absolute;
                 bottom: 45px;
             }
@@ -446,43 +457,15 @@
             }
             &.background--green{
                 background-color: $color--yellow-green;
-                a{
-                    &:hover{
-                        .fa-angle-right{
-                            color: $color--yellow-green;
-                        }
-                    }
-                }
             }
             &.background--orange{
                 background-color: $color--orange;
-                a{
-                    &:hover{
-                        .fa-angle-right{
-                            color: $color--orange;
-                        }
-                    }
-                }
             }
             &.background--light-blue{
                 background-color: $color--light-blue;
-                a{
-                    &:hover{
-                        .fa-angle-right{
-                            color: $color--light-blue;
-                        }
-                    }
-                }
             }
             &.background--teal{
                 background-color: $color--teal;
-                a{
-                    &:hover{
-                        .fa-angle-right{
-                            color: $color--teal;
-                        }
-                    }
-                }
             }
         }
         .block--item-image-panel{
@@ -491,6 +474,20 @@
                 background-size: cover;
                 background-position: center center;
                 background-repeat: no-repeat;
+            }
+        }
+        &:hover {
+            .background--green {
+                 @include text_with_icon_hover_state($color--yellow-green);
+            }
+            .background--orange {
+                @include text_with_icon_hover_state($color--orange);
+            }
+            .background--light-blue {
+                @include text_with_icon_hover_state($color--light-blue);
+            }
+            .background--teal {
+                @include text_with_icon_hover_state($color--light-blue);
             }
         }
     }
@@ -610,14 +607,21 @@
                 position: absolute;
                 top: 0;
                 left: 0;
-                z-index: -1;
+                z-index: 0;
             }
             .block--item-colored-panel{
-                height: 410px;
+                height: auto;
                 width: 100%;
                 padding: 25px;
+                z-index: 1;
+                p {
+                   margin-bottom: 30px
+                }
                 h4{
                     @include type-definition(22px,1.14);
+                }
+                a {
+                    bottom: 20px;
                 }
             }
         }
@@ -1215,7 +1219,7 @@
         left: -30px;
         &.followScroll {
             position: fixed;
-            top: 150px;
+            top: 170px;
         }
         .article-share-btn {
             background-color: $color--medium-gray;
@@ -1244,6 +1248,7 @@
         margin-bottom: 15px;
         quotes: "“" "”" "‘" "’";
         text-indent: 23px;
+        letter-spacing: -0.01em;
         p {
             font-family: inherit;
             font-size: inherit;
@@ -1274,6 +1279,7 @@
         color: $color--oxford-blue;
         font-size: 18px;
         line-height: 1.44;
+        letter-spacing: -0.01em;
         strong, b {
             font-family: $text-body--medium;
             font-weight: normal;
@@ -1631,6 +1637,7 @@
     position: relative;
     width: 100%;
     margin-bottom: 20px;
+    display: block;
     .block--item-image{
         height: 200px;
         width: 100%;
@@ -1646,34 +1653,44 @@
         display: block;
         padding: 20px 20px 25px 20px;
         position: relative;
+
+        .text{
+                @include type-definition(18px, 1.33);
+                margin: 0;
+        }
+        .text--with-icon, span, p{
+            color: $color--white;
+        }
+        .text--with-icon {
+            position: absolute;
+            bottom: 25px;
+            left: 20px;
+            right: 20px;
+            .text--icon {
+                color: $color--white;
+                margin-left: 10px;
+                display: inline-block;
+                padding-top: 1px;
+            }
+        }
         .text{
             // @include body-text-definition(18px, $text-body--regular);
             @include type-definition(18px, 1.33);
             line-height: 1.33;
             margin: 0;
         }
-        a, span, p{
-            color: $color--white;
-        }
-        a{
-            position: absolute;
-            bottom: 25px;
-            left: 20px;
-            right: 20px;
-            & > .link--icon {
-                color: $color--white;
-                margin-left: 10px;
-                display: inline-block;
-                padding-top: 1px;
-            }
-            &:hover{
-                .fa-angle-right{
+    }
+    &:hover {
+        .block--item-contents {
+            .text--with-icon {
+                .fa-angle-right {
                     color: $color--light-blue;
                 }
             }
         }
     }
 }
+
 
 @media screen and (min-width: $width-small) {
     .block--ways-to-get-involved-list {
@@ -1684,7 +1701,7 @@
     }
     .block-ways-to-get-involved--item {
         margin-bottom: 50px;
-        .block--item-image{
+        .block--item-image {
             height: 404px;
         }
         .block--item-contents {
@@ -1736,226 +1753,35 @@
         .featured-events-list {
             .featured-event-item {
                 &:nth-of-type(4n+1) {
-                    .block--impact-stories-panel {
-                        .block--item-colored-panel {
-                            background-color: $color--light-blue;
-                            a{
-                                &:hover{
-                                    .fa-angle-right{
-                                        color: $color--light-blue;
-                                    }
-                                }
-                            }
-                        }
-                    }
+                    @include impact_story_block($color--light-blue);
                 }
                 &:nth-of-type(4n+2) {
-                    .block--impact-stories-panel {
-                        .block--item-colored-panel {
-                            background-color: $color--orange;
-                            a{
-                                &:hover{
-                                    .fa-angle-right{
-                                        color: $color--orange;
-                                    }
-                                }
-                            }
-                        }
-                    }
+                    @include impact_story_block($color--orange);
                 }
                 &:nth-of-type(4n+3) {
-                    .block--impact-stories-panel {
-                        .block--item-colored-panel {
-                            background-color: $color--yellow-green;
-                            a{
-                                &:hover{
-                                    .fa-angle-right{
-                                        color: $color--yellow-green;
-                                    }
-                                }
-                            }
-                        }
-                    }
+                    @include impact_story_block($color--yellow-green);
                 }
                 &:nth-of-type(4n+4) {
-                    .block--impact-stories-panel {
-                        .block--item-colored-panel {
-                            background-color: $color--teal;
-                            a{
-                                &:hover{
-                                    .fa-angle-right{
-                                        color: $color--teal;
-                                    }
-                                }
-                            }
-                        }
-                    }
+                    @include impact_story_block($color--teal);
                 }
             }
         }
     }
 }
-
-.giving-societies--extend {
-    .block--impact-stories-pillar {
-        &:nth-of-type(4n+1) {
-            .block--impact-story-with-image {
-                .block--content {
-                    .content-area {
-                        background-color: $color--light-blue;
-                    }
-                }
+.impact-stories-wrapper{
+    &.giving-societies--extend {
+        .block--impact-stories-pillar {
+            &:nth-of-type(4n+1) {
+                @include impact_story_pillar_set($color--light-blue);
             }
-            .block--funding-priorities-full {
-                a, span, .detail-label p {
-                    color: $color--light-blue;
-                }
-                a {
-                    &:hover {
-                        .fa-angle-right {
-                            color: $color--white;
-                        }
-                    }
-                }
-                .link--with-icon {
-                    .text {
-                        &::after {
-                            background-color: $color--light-blue;
-                        }
-                    }
-                }
+            &:nth-of-type(4n+2) {
+                @include impact_story_pillar_set($color--orange);
             }
-            .block--impact-stories-panel {
-                .block--item-colored-panel {
-                    background-color: $color--light-blue;
-                    a {
-                        &:hover {
-                            .fa-angle-right {
-                                 color: $color--light-blue;
-                            }
-                        }
-                    }
-                }
+            &:nth-of-type(4n+3) {
+                @include impact_story_pillar_set($color--yellow-green);
             }
-        }
-        &:nth-of-type(4n+2) {
-            .block--impact-story-with-image {
-                .block--content {
-                    .content-area {
-                        background-color: $color--orange;
-                    }
-                }
-            }
-            .block--funding-priorities-full {
-                a, span, .detail-label p {
-                    color: $color--orange;
-                }
-                a {
-                    &:hover {
-                        .fa-angle-right {
-                            color: $color--white;
-                        }
-                    }
-                }
-                .link--with-icon {
-                    .text {
-                        &::after {
-                            background-color: $color--orange;
-                        }
-                    }
-                }
-            }
-            .block--impact-stories-panel {
-                .block--item-colored-panel {
-                    background-color: $color--orange;
-                    a {
-                        &:hover {
-                            .fa-angle-right {
-                                color: $color--orange;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        &:nth-of-type(4n+3) {
-            .block--impact-story-with-image {
-                .block--content {
-                    .content-area {
-                        background-color: $color--yellow-green;
-                    }
-                }
-            }
-            .block--funding-priorities-full {
-                a, span, .detail-label p {
-                    color: $color--yellow-green;
-                }
-                a {
-                    &:hover {
-                        .fa-angle-right {
-                            color: $color--white;
-                        }
-                    }
-                }
-                .link--with-icon {
-                    .text {
-                        &::after {
-                            background-color: $color--yellow-green;
-                        }
-                    }
-                }
-            }
-            .block--impact-stories-panel {
-                .block--item-colored-panel {
-                    background-color: $color--yellow-green;
-                    a {
-                        &:hover {
-                            .fa-angle-right {
-                                color: $color--yellow-green;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        &:nth-of-type(4n+4) {
-            .block--impact-story-with-image {
-                .block--content {
-                    .content-area {
-                        background-color: $color--teal;
-                    }
-                }
-            }
-            .block--funding-priorities-full {
-                a, span, .detail-label p {
-                    color: $color--teal;
-                }
-                a {
-                    &:hover {
-                        .fa-angle-right {
-                            color: $color--white;
-                        }
-                    }
-                }
-                .link--with-icon {
-                    .text {
-                        &::after {
-                            background-color: $color--teal;
-                        }
-                    }
-                }
-            }
-            .block--impact-stories-panel {
-                .block--item-colored-panel {
-                    background-color: $color--teal;
-                    a {
-                        &:hover {
-                            .fa-angle-right {
-                                color: $color--teal;
-                            }
-                        }
-                    }
-                }
+            &:nth-of-type(4n+4) {
+                @include impact_story_pillar_set($color--teal);
             }
         }
     }
