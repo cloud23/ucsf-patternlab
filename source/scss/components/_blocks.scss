@@ -307,8 +307,12 @@
     }
     &.block--impact-stories-grid{
         margin-bottom: 40px;
+        h3 {
+            padding-top: 20px;
+        }
         .see-more-link{
             margin-top: 15px;
+            padding-bottom: 40px;
         }
         &.related-articles {
             margin-bottom: 36px;
