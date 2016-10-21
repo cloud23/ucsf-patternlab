@@ -5860,6 +5860,11 @@ body {
 	}
 }
 */
+/* line 29, ../scss/base/page/_page.scss */
+.page-body {
+  margin-bottom: 60px;
+}
+
 /*** Footer ***/
 /* line 3, ../scss/layout/component-layout/_footer-layout.scss */
 footer {
