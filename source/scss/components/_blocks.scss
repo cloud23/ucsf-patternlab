@@ -141,6 +141,7 @@
                     vertical-align: middle;
                     &.fa {
                         @include type-definition(20px, 1.33);
+                        width: 20px;
                         margin-right: 15px;
                     }
                     a {
@@ -432,6 +433,7 @@
         .block--item-colored-panel{
             padding: 30px;
             position: relative;
+            cursor: pointer;
             a, span, h4, p{
                 color: $color--white;
             }
@@ -458,11 +460,39 @@
                         }
                     }
                 }
+                &:hover {
+                    a {
+                        .icon--visible-hover{
+                                display: block;
+                        }
+                        .icon--angle{
+                            @include animation(slideFromLeft 0.4s);
+                            color: $color--white;
+                        }
+                        .fa-angle-right{
+                            color: $color--yellow-green;
+                        }
+                    }
+                }
             }
             &.background--orange{
                 background-color: $color--orange;
                 a{
                     &:hover{
+                        .fa-angle-right{
+                            color: $color--orange;
+                        }
+                    }
+                }
+                &:hover {
+                    a {
+                        .icon--visible-hover{
+                                display: block;
+                        }
+                        .icon--angle{
+                            @include animation(slideFromLeft 0.4s);
+                            color: $color--white;
+                        }
                         .fa-angle-right{
                             color: $color--orange;
                         }
@@ -478,11 +508,39 @@
                         }
                     }
                 }
+                &:hover {
+                    a {
+                        .icon--visible-hover{
+                                display: block;
+                        }
+                        .icon--angle{
+                            @include animation(slideFromLeft 0.4s);
+                            color: $color--white;
+                        }
+                        .fa-angle-right{
+                            color: $color--light-blue;
+                        }
+                    }
+                }
             }
             &.background--teal{
                 background-color: $color--teal;
                 a{
                     &:hover{
+                        .fa-angle-right{
+                            color: $color--teal;
+                        }
+                    }
+                }
+                &:hover {
+                    a {
+                        .icon--visible-hover{
+                                display: block;
+                        }
+                        .icon--angle{
+                            @include animation(slideFromLeft 0.4s);
+                            color: $color--white;
+                        }
                         .fa-angle-right{
                             color: $color--teal;
                         }
@@ -615,14 +673,21 @@
                 position: absolute;
                 top: 0;
                 left: 0;
-                z-index: -1;
+                z-index: 0;
             }
             .block--item-colored-panel{
-                height: 410px;
+                height: auto;
                 width: 100%;
                 padding: 25px;
+                z-index: 1;
+                p {
+                   margin-bottom: 30px
+                }
                 h4{
                     @include type-definition(22px,1.14);
+                }
+                a {
+                    bottom: 20px;
                 }
             }
         }
@@ -1702,7 +1767,7 @@
     }
     .block-ways-to-get-involved--item {
         margin-bottom: 50px;
-        .block--item-image{
+        .block--item-image {
             height: 404px;
         }
         .block--item-contents {
@@ -1754,226 +1819,35 @@
         .featured-events-list {
             .featured-event-item {
                 &:nth-of-type(4n+1) {
-                    .block--impact-stories-panel {
-                        .block--item-colored-panel {
-                            background-color: $color--light-blue;
-                            a{
-                                &:hover{
-                                    .fa-angle-right{
-                                        color: $color--light-blue;
-                                    }
-                                }
-                            }
-                        }
-                    }
+                    @include impact_story_block($color--light-blue);
                 }
                 &:nth-of-type(4n+2) {
-                    .block--impact-stories-panel {
-                        .block--item-colored-panel {
-                            background-color: $color--orange;
-                            a{
-                                &:hover{
-                                    .fa-angle-right{
-                                        color: $color--orange;
-                                    }
-                                }
-                            }
-                        }
-                    }
+                    @include impact_story_block($color--orange);
                 }
                 &:nth-of-type(4n+3) {
-                    .block--impact-stories-panel {
-                        .block--item-colored-panel {
-                            background-color: $color--yellow-green;
-                            a{
-                                &:hover{
-                                    .fa-angle-right{
-                                        color: $color--yellow-green;
-                                    }
-                                }
-                            }
-                        }
-                    }
+                    @include impact_story_block($color--yellow-green);
                 }
                 &:nth-of-type(4n+4) {
-                    .block--impact-stories-panel {
-                        .block--item-colored-panel {
-                            background-color: $color--teal;
-                            a{
-                                &:hover{
-                                    .fa-angle-right{
-                                        color: $color--teal;
-                                    }
-                                }
-                            }
-                        }
-                    }
+                    @include impact_story_block($color--teal);
                 }
             }
         }
     }
 }
-
-.giving-societies--extend {
-    .block--impact-stories-pillar {
-        &:nth-of-type(4n+1) {
-            .block--impact-story-with-image {
-                .block--content {
-                    .content-area {
-                        background-color: $color--light-blue;
-                    }
-                }
+.impact-stories-wrapper{
+    &.giving-societies--extend {
+        .block--impact-stories-pillar {
+            &:nth-of-type(4n+1) {
+                @include impact_story_pillar_set($color--light-blue);
             }
-            .block--funding-priorities-full {
-                a, span, .detail-label p {
-                    color: $color--light-blue;
-                }
-                a {
-                    &:hover {
-                        .fa-angle-right {
-                            color: $color--white;
-                        }
-                    }
-                }
-                .link--with-icon {
-                    .text {
-                        &::after {
-                            background-color: $color--light-blue;
-                        }
-                    }
-                }
+            &:nth-of-type(4n+2) {
+                @include impact_story_pillar_set($color--orange);
             }
-            .block--impact-stories-panel {
-                .block--item-colored-panel {
-                    background-color: $color--light-blue;
-                    a {
-                        &:hover {
-                            .fa-angle-right {
-                                 color: $color--light-blue;
-                            }
-                        }
-                    }
-                }
+            &:nth-of-type(4n+3) {
+                @include impact_story_pillar_set($color--yellow-green);
             }
-        }
-        &:nth-of-type(4n+2) {
-            .block--impact-story-with-image {
-                .block--content {
-                    .content-area {
-                        background-color: $color--orange;
-                    }
-                }
-            }
-            .block--funding-priorities-full {
-                a, span, .detail-label p {
-                    color: $color--orange;
-                }
-                a {
-                    &:hover {
-                        .fa-angle-right {
-                            color: $color--white;
-                        }
-                    }
-                }
-                .link--with-icon {
-                    .text {
-                        &::after {
-                            background-color: $color--orange;
-                        }
-                    }
-                }
-            }
-            .block--impact-stories-panel {
-                .block--item-colored-panel {
-                    background-color: $color--orange;
-                    a {
-                        &:hover {
-                            .fa-angle-right {
-                                color: $color--orange;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        &:nth-of-type(4n+3) {
-            .block--impact-story-with-image {
-                .block--content {
-                    .content-area {
-                        background-color: $color--yellow-green;
-                    }
-                }
-            }
-            .block--funding-priorities-full {
-                a, span, .detail-label p {
-                    color: $color--yellow-green;
-                }
-                a {
-                    &:hover {
-                        .fa-angle-right {
-                            color: $color--white;
-                        }
-                    }
-                }
-                .link--with-icon {
-                    .text {
-                        &::after {
-                            background-color: $color--yellow-green;
-                        }
-                    }
-                }
-            }
-            .block--impact-stories-panel {
-                .block--item-colored-panel {
-                    background-color: $color--yellow-green;
-                    a {
-                        &:hover {
-                            .fa-angle-right {
-                                color: $color--yellow-green;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        &:nth-of-type(4n+4) {
-            .block--impact-story-with-image {
-                .block--content {
-                    .content-area {
-                        background-color: $color--teal;
-                    }
-                }
-            }
-            .block--funding-priorities-full {
-                a, span, .detail-label p {
-                    color: $color--teal;
-                }
-                a {
-                    &:hover {
-                        .fa-angle-right {
-                            color: $color--white;
-                        }
-                    }
-                }
-                .link--with-icon {
-                    .text {
-                        &::after {
-                            background-color: $color--teal;
-                        }
-                    }
-                }
-            }
-            .block--impact-stories-panel {
-                .block--item-colored-panel {
-                    background-color: $color--teal;
-                    a {
-                        &:hover {
-                            .fa-angle-right {
-                                color: $color--teal;
-                            }
-                        }
-                    }
-                }
+            &:nth-of-type(4n+4) {
+                @include impact_story_pillar_set($color--teal);
             }
         }
     }

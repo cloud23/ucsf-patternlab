@@ -103,3 +103,69 @@
       @include type-definition($size);
   }
 }
+
+
+@mixin impact_story_block( $color ) {
+  .block--impact-stories-panel {
+    .block--item-colored-panel {
+        background-color:  $color ;
+        a{
+            &:hover{
+                .fa-angle-right{
+                    color: $color ;
+                }
+            }
+        }
+        &:hover {
+            text-decoration: none;
+            a {
+                .icon--visible-hover{
+                        display: block;
+                }
+                .icon--angle{
+                    @include animation(slideFromLeft 0.4s);
+                    color: $color--white;
+                }
+                .fa-angle-right{
+                    color: $color;
+                }
+            }
+        }
+    }
+  }
+}
+
+@mixin impact_story_pillar_set( $color ) {
+  .block--impact-story-with-image {
+      .block--content {
+          .content-area {
+              background-color: $color;
+          }
+      }
+  }
+  .block--funding-priorities-full {
+      a, span, .detail-label p {
+          color: $color;
+      }
+      span[itemprop] {
+          a {
+            color: $color--black;
+          }
+      }
+      a {
+          &:hover {
+              .fa-angle-right {
+                  color: $color--white;
+              }
+          }
+      }
+      .link--with-icon {
+          .text {
+              &::after {
+                  background-color: $color;
+              }
+          }
+      }
+  }
+  @include impact_story_block($color);
+}
