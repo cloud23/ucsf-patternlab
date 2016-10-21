@@ -258,7 +258,7 @@ body {
 	.nav--wrapper {
 		box-shadow: none;
 		& ~ .contents--wrapper {
-			margin-top: 135px;
+			margin-top: 145px;
 		}
 	}
 	.nav-global--wrapper {
@@ -446,8 +446,8 @@ body {
 	  display: block;
 	  width: 100%;
 		.nav-main {
-		  padding: 15px 0px;
-	  	  height: 95px;
+		  padding: 20px 0px;
+	  	  height: auto;
 	  	   .nav-main-brand {
 	  	  	padding: 0px;
 			display: inline-block;
