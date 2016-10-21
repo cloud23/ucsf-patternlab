@@ -104,33 +104,33 @@
   }
 }
 
+@mixin text_with_icon_hover_state($color) {
+  .text--with-icon {
+    .fa-angle-right{
+        color: $color;
+    }
+    .icon--visible-hover{
+        display: block;
+    }
+    .icon--angle{
+        @include animation(slideFromLeft 0.4s);
+    }
+    .fa-angle-right{
+        color: $color;
+    }
+  }
+}
+
 
 @mixin impact_story_block( $color ) {
   .block--impact-stories-panel {
     .block--item-colored-panel {
         background-color:  $color ;
-        a{
-            &:hover{
-                .fa-angle-right{
-                    color: $color ;
-                }
-            }
-        }
-        &:hover {
-            text-decoration: none;
-            a {
-                .icon--visible-hover{
-                        display: block;
-                }
-                .icon--angle{
-                    @include animation(slideFromLeft 0.4s);
-                    color: $color--white;
-                }
-                .fa-angle-right{
-                    color: $color;
-                }
-            }
-        }
+    }
+    &:hover {
+      .block--item-colored-panel {
+        @include text_with_icon_hover_state($color);
+      }
     }
   }
 }
