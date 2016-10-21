@@ -8583,7 +8583,7 @@ ul.category-nav > li a {
 /* line 99, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full .block--content-text p {
   font-size: 1.2rem;
-  line-height: 1.33;
+  line-height: 1.5;
   margin-top: 0;
   margin-bottom: 25px;
 }
