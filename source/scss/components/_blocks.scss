@@ -395,20 +395,25 @@
             width: 100%;
             padding: 20px 20px 25px 20px;
             position: relative;
+            display: block;
             .text{
                 @include type-definition(18px, 1.33);
                 margin: 0;
             }
-            a, span, p{
+            .text--with-icon, span, p{
                 color: $color--white;
             }
-            a{
+            .text--with-icon {
                 position: absolute;
                 bottom: 25px;
                 left: 20px;
                 right: 20px;
-                &:hover{
-                    .fa-angle-right{
+            }
+        }
+        &:hover {
+            .block--item-contents {
+                .text--with-icon {
+                    .fa-angle-right {
                         color: $color--light-blue;
                     }
                 }

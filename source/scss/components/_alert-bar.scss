@@ -5,12 +5,20 @@
     display: block;
     @include type-definition(18px, 1.2);
     @include transition(all 250ms ease-in-out);
+    div {
+        text-decoration: none;
+    }
     &.alert--info{
         background-color: $color--orange;
         color: $color--white;
         &:hover {
             background-color: $color--orange-2;
         }
+    }
+    &:hover {
+       div {
+         text-decoration: underline;
+       }
     }
 }
 
