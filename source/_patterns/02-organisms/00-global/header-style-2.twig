@@ -64,7 +64,7 @@
 				{% if mobile_toggles %}
 				<ul class="nav-mobile-toggles">
 					{% for item in mobile_toggles.buttons %}
-					    <li><button class="{{ item.class }}"><span class="{{ item.icon }}"></span></button></li>
+					    <li><button class="{{ item.class }}"><span class="visually-hidden">{{ item.label }}</span><span class="{{ item.icon }}"></span></button></li>
 					{% endfor %}
 				</ul>
 				{% endif %}
