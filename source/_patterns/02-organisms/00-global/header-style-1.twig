@@ -70,8 +70,9 @@
 
 
 				<ul class="nav-mobile-toggles">
-					<li><button class="mobile-search-form-toggle"><span class="fa fa-search"></span></button></li>
-					<li><button class="mobile-menu-toggle"><span class="fa fa-bars"></span></button></li>
+					{% for item in mobile_toggles.buttons %}
+					    <li><button class="{{ item.class }}"><span class="visually-hidden">{{ item.label }}</span><span class="{{ item.icon }}"></span></button></li>
+					{% endfor %}
 				</ul>
 
 				<ul class="nav-main-links">
