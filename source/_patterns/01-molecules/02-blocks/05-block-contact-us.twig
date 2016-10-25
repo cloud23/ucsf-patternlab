@@ -6,6 +6,16 @@
 	{% block department %}
 	    <h5>{{ department }}</h5>
 	{% endblock %}
+	{% block address %}
+	    {% for item in address %}
+	    <div class="contact-detail-item">
+			<span class="fa fa-map-marker"></span>
+			<span itemprop="address">
+				{{ item.address|raw }}
+			</span>
+		</div>
+		{% endfor %}
+	{% endblock %}
 	{% block telephone %}
 	    {% for item in telephone %}
 	        <div class="contact-detail-item">

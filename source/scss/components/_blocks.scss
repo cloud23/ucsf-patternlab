@@ -1029,10 +1029,11 @@
         }
         span {
             display: inline-block;
-            vertical-align: middle;
+            vertical-align: top;
             &.fa {
                 font-size: 1.3rem;
-                margin-right: 15px;
+                width: 19.5px;
+                margin-right: 10px;
                 color: $color--translucent-black;
             }
         }
@@ -1937,5 +1938,16 @@
 @media screen and (min-width: $width-small) {
     .body_content {
         border-bottom: 2px solid $color--border-impact-stories-pillar;
+    }
+}
+
+.block--basic-page-content {
+    margin-bottom: 60px;
+}
+
+.title-and-content-group--wrapper {
+    margin-bottom: 30px;
+    h1, h2, h3, h4, h5, h6 {
+        margin-bottom: 0px;
     }
 }
