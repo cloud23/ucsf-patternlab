@@ -5051,16 +5051,72 @@ fieldset {
 }
 
 /* line 9, ../scss/base/_forms.scss */
-.related_articles_all {
+#related_articles_all {
   position: relative;
   overflow: hidden;
 }
 /* line 12, ../scss/base/_forms.scss */
-.related_articles_all form {
+#related_articles_all form {
   position: absolute;
   left: -99999px;
 }
 
+/* line 18, ../scss/base/_forms.scss */
+.contact-form--wrapper {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 27, ../scss/base/_forms.scss */
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+/* line 29, ../scss/base/_forms.scss */
+.contact-form .form-group label {
+  font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  color: #052049;
+  display: block;
+  font-size: 1.33333rem;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+/* line 35, ../scss/base/_forms.scss */
+.contact-form .form-group label > span.required {
+  color: #F26D04;
+  font-family: HelveticaNeue-bold, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+/* line 40, ../scss/base/_forms.scss */
+.contact-form .form-group input, .contact-form .form-group textarea {
+  display: block;
+  width: 100%;
+  font-size: 1.33333rem;
+  line-height: 1.3;
+  color: #353a3f;
+  padding: 15px;
+}
+/* line 46, ../scss/base/_forms.scss */
+.contact-form .form-group input:focus, .contact-form .form-group textarea:focus {
+  outline: none;
+}
+/* line 50, ../scss/base/_forms.scss */
+.contact-form .form-group input {
+  height: 55px;
+  border: 2px solid #B4B9BF;
+}
+/* line 55, ../scss/base/_forms.scss */
+.contact-form button[type="submit"] {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 62, ../scss/base/_forms.scss */
+  .contact-form button[type="submit"] {
+    width: 269px;
+  }
+}
 /*** Grid ***/
 /*** Headings ***/
 /*** Helper ***/
@@ -6130,7 +6186,7 @@ footer .footer--colum-content, footer .footer--column-links {
 /* line 28, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-form {
   text-align: center;
-  background-color: #F1F1F1;
+  background-color: #FFFFFF;
   color: #000000;
   min-height: 408px;
   padding: 25px 20px;
@@ -10929,6 +10985,91 @@ ul.category-nav > li a {
   margin-bottom: 0px;
 }
 
+/* line 1956, ../scss/components/_blocks.scss */
+.block-contact-us--big {
+  display: block;
+  background-color: #FFFFFF;
+  color: #000000;
+  margin-bottom: 60px;
+}
+/* line 1961, ../scss/components/_blocks.scss */
+.block-contact-us--big a {
+  color: #000000;
+}
+/* line 1963, ../scss/components/_blocks.scss */
+.block-contact-us--big a:hover {
+  color: #000000;
+}
+/* line 1968, ../scss/components/_blocks.scss */
+.block-contact-us--big .contact-detail-item {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 15px;
+}
+/* line 1972, ../scss/components/_blocks.scss */
+.block-contact-us--big .contact-detail-item:last-child {
+  margin-bottom: 0px;
+}
+/* line 1975, ../scss/components/_blocks.scss */
+.block-contact-us--big .contact-detail-item span {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 1.2rem;
+  line-height: 1.44;
+}
+/* line 1979, ../scss/components/_blocks.scss */
+.block-contact-us--big .contact-detail-item span.fa, .block-contact-us--big .contact-detail-item .block.block--funding-priorities span.slick-arrow, .block.block--funding-priorities .block-contact-us--big .contact-detail-item span.slick-arrow, .block-contact-us--big .contact-detail-item .block.block--funding-priorities span.slider-button, .block.block--funding-priorities .block-contact-us--big .contact-detail-item span.slider-button {
+  font-size: 1.5rem;
+  line-height: 1;
+  width: 22.5px;
+  margin-right: 15px;
+  color: #007CBE;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 1990, ../scss/components/_blocks.scss */
+  .block-contact-us--big {
+    margin-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* line 1995, ../scss/components/_blocks.scss */
+  .block-contact-us--big {
+    margin-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 2000, ../scss/components/_blocks.scss */
+  .block-contact-us--big {
+    margin-bottom: 60px;
+  }
+}
+/* line 2005, ../scss/components/_blocks.scss */
+.block--questions {
+  font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 1.33333rem;
+  line-height: 1.25;
+  max-width: 269px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+/* line 2011, ../scss/components/_blocks.scss */
+.block--questions h4 {
+  margin-top: 0px;
+}
+/* line 2014, ../scss/components/_blocks.scss */
+.block--questions p {
+  font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 1.33333rem;
+  line-height: 1.25;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 2021, ../scss/components/_blocks.scss */
+  .block--questions {
+    margin: 0;
+  }
+}
 /* line 1, ../scss/components/_custom_lists.scss */
 .htmytg-list {
   list-style: none;
