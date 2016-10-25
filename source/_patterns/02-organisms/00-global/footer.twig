@@ -109,12 +109,13 @@
                         {% block social_links %}
                             {% if footer.social_links.facebook %}
                                 <div class="footer--social-link-item">
-                                    <a href="{{ footer.social_links.facebook }}"><i class="fa fa-facebook-official"></i></a>
+                                    <a href="{{ footer.social_links.facebook }}" title="Link to UCSF's Facebook Page" target="_blank"><span class="visually-hidden">UCSF's Facebook Page</span><i class="fa fa-facebook-official"></i></a>
                                 </div>
                             {% endif %}
                             {% if footer.social_links.twitter %}
                                 <div class="footer--social-link-item">
-                                    <a href="{{ footer.social_links.twitter }}">
+                                    <a href="{{ footer.social_links.twitter }}" title="Link to UCSF's Twitter Account" target="_blank">
+                                        <span class="visually-hidden">UCSF's Twitter Account</span>
                                         <i class="fa fa-twitter"></i>
                                     </a>
                                 </div>
