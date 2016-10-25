@@ -1,9 +1,8 @@
 {
-	"title": "Contact Us",
-	"department" : "Department Name",
+	"contact_list_title" : "UCSF Foundation",
 	"address" : [
 		{
-		"address" : "UCSF Box 45339,<br> San Francisco, CA<br> 94145-0339"
+		"address" : "UCSF Box 45339,<br> San Francisco, CA 94145-0339"
 		}
 	],
 	"telephone" : [

@@ -1,10 +1,7 @@
 
-<div class="block block-contact-us">
-	{% block title %}
-	    <h4 class="granjon-heading-text">{{ title }}</h4>
-	{% endblock %}
-	{% block department %}
-	    <h5>{{ department }}</h5>
+<div class="block block-contact-us--big">
+	{% block contact_list_title %}
+	<p class="body-text-medium-20">{{ contact_list_title }}</h5>
 	{% endblock %}
 	{% block address %}
 	    {% for item in address %}

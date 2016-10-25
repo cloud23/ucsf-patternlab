@@ -1,6 +1,7 @@
 {
-	"title": "Contact Us",
-	"department" : "Department Name",
+	"title" : "Contact",
+	"bgcolor" : "blue",
+	"contact_list_title": "UCSF Foundation",
 	"address" : [
 		{
 		"address" : "UCSF Box 45339,<br> San Francisco, CA<br> 94145-0339"
@@ -16,5 +17,7 @@
 		{
 			"email" : "email@deparment.com"
 		}
-	]
-}
+	],
+	"heading" : "Questions?",
+	"body" : "<p>Visit our <a href=\"#\" title=\"FAQ Page\">FAQ page</a> and get answers to common questions.</p>"
+ }
