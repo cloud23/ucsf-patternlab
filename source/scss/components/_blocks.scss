@@ -1951,3 +1951,74 @@
         margin-bottom: 0px;
     }
 }
+
+
+.block-contact-us--big {
+    display: block;
+    background-color: $color--white;
+    color: $color--black;
+    margin-bottom: 60px;
+    a {
+        color: $color--black;
+        &:hover {
+            color: $color--black;
+        }
+    }
+
+    .contact-detail-item {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 15px;
+        &:last-child {
+            margin-bottom: 0px;
+        }
+        span {
+            display: inline-block;
+            vertical-align: top;
+            @include type-definition(18px, 1.44);
+            &.fa {
+                @include type-definition(22.5px, 1);
+                width: 22.5px;
+                margin-right: 15px;
+                color: $color--light-blue;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $width-small) {
+    .block-contact-us--big {
+        margin-bottom: 60px;
+    }
+}
+@media screen and (min-width: $width-medium) {
+    .block-contact-us--big {
+        margin-bottom: 60px;
+    }
+}
+@media screen and (min-width: $width-large) {
+    .block-contact-us--big {
+        margin-bottom: 60px;
+    }
+}
+
+.block--questions {
+    font-family: $text-body--light;
+    @include type-definition(20px, 1.25);
+    max-width: 269px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    h4 {
+        margin-top: 0px;
+    }
+    p {
+        font-family: $text-body--light;
+        @include type-definition(20px, 1.25);
+    }
+}
+
+@media screen and (min-width: $width-small) {
+    .block--questions {
+        margin: 0;
+    }
+}
