@@ -178,10 +178,10 @@
   "mobile_toggles" : {
     "buttons" : [
       {
-        "class" : "mobile-search-form-toggle", "icon" : "fa fa-search"
+        "class" : "mobile-search-form-toggle", "icon" : "fa fa-search", "label" : "Search giving.ucsf.edu"
       },
       {
-        "class" : "mobile-menu-toggle", "icon" : "fa fa-bars"
+        "class" : "mobile-menu-toggle", "icon" : "fa fa-bars", "label" : "Toggle Menu"
       }
     ]
   },
