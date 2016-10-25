@@ -428,22 +428,30 @@
         margin-bottom: 30px;
         position: relative;
         display: block;
+        text-decoration: none;
+        &:hover {
+            .block--item-colored-panel {
+                .text--with-icon {
+                    text-decoration: underline;
+                }
+            }
+        }
         .block--item-colored-panel, .block--item-image-panel{
             width: 50%;
             height: 100%;
             float: left;
             color: $color--white;
         }
-        .block--item-colored-panel{
+        .block--item-colored-panel {
             padding: 30px;
             position: relative;
             cursor: pointer;
             a, span, h4, p{
                 color: $color--white;
+                text-decoration: none;
             }
             .text--with-icon{
-                position: absolute;
-                bottom: 45px;
+                position: relative;
             }
             h4, p{
                 margin-top: 0;
@@ -785,6 +793,12 @@
             height: 330px;
             .block--give-to, .block--start-fundraiser{
                 height: 210px;
+            }
+            .block--item-colored-panel{
+                .text--with-icon{
+                    position: absolute;
+                    bottom: 45px;
+                }
             }
         }
     }
