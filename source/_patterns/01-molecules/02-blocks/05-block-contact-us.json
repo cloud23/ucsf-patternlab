@@ -1,6 +1,11 @@
 {
 	"title": "Contact Us",
 	"department" : "Department Name",
+	"address" : [
+		{
+		"address" : "UCSF Box 45339,<br> San Francisco, CA<br> 94145-0339"
+		}
+	],
 	"telephone" : [
 		{
 			"number" : "+1-415-476-6922",
