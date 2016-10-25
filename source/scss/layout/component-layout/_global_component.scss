@@ -511,6 +511,7 @@
 		.ways-to-give-option {
 			width: 48%;
 			margin-bottom: 4%;
+			display: block;
 			&:nth-child(odd) {
 				margin-right: 4%;
 			}
@@ -563,7 +564,7 @@
 					clear: right;
 				}
 				&:last-child {
-					width: auto;
+					width: 263px;
 				}
 				label {
 					width: 128px;
@@ -579,7 +580,7 @@
 					}
 				}
 				.btn {
-					width: calc(128px + 111%);
+					width: 100%;
 				}
 			}
 		}
