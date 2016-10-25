@@ -1411,18 +1411,15 @@
                 content: " ";
                 position: absolute;
                 background-color: $color--light-gray;
+                width: 56.44px;
+                top: 0;
+                bottom: 0;
             }
             &::before {
                 left: 0px;
-                width: 56.44px;
-                top: 0;
-                bottom: 0;
             }
             &::after {
                 right: 0px;
-                width: 56.44px;
-                top: 0;
-                bottom: 0;
             }
             .carousel-nav {
                 display: block;
