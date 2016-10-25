@@ -6679,195 +6679,196 @@ footer .footer--colum-content, footer .footer--column-links {
 .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option {
   width: 48%;
   margin-bottom: 4%;
+  display: block;
 }
-/* line 514, ../scss/layout/component-layout/_global_component.scss */
+/* line 515, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option:nth-child(odd) {
   margin-right: 4%;
 }
-/* line 517, ../scss/layout/component-layout/_global_component.scss */
+/* line 518, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option:nth-child(even) {
   margin-right: 0;
 }
-/* line 520, ../scss/layout/component-layout/_global_component.scss */
+/* line 521, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option:last-child, .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option:nth-last-child(2) {
   width: 100%;
 }
-/* line 523, ../scss/layout/component-layout/_global_component.scss */
+/* line 524, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option label {
   width: 100%;
 }
-/* line 526, ../scss/layout/component-layout/_global_component.scss */
+/* line 527, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option input[type="text"] {
   width: 100%;
 }
-/* line 529, ../scss/layout/component-layout/_global_component.scss */
+/* line 530, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option.submit-btn {
   display: block;
 }
-/* line 531, ../scss/layout/component-layout/_global_component.scss */
+/* line 532, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option.submit-btn .btn--primary {
   font-size: 22px;
 }
-/* line 535, ../scss/layout/component-layout/_global_component.scss */
+/* line 536, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option .btn {
   width: 100%;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 543, ../scss/layout/component-layout/_global_component.scss */
+  /* line 544, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small {
     max-width: 100%;
     margin: 0;
   }
-  /* line 546, ../scss/layout/component-layout/_global_component.scss */
+  /* line 547, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small p {
     display: none;
   }
-  /* line 550, ../scss/layout/component-layout/_global_component.scss */
+  /* line 551, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option {
     width: auto;
     margin-bottom: 10px;
     margin-right: 1%;
   }
-  /* line 554, ../scss/layout/component-layout/_global_component.scss */
+  /* line 555, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option:nth-child(odd) {
     margin-right: 1%;
   }
-  /* line 557, ../scss/layout/component-layout/_global_component.scss */
+  /* line 558, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option:nth-child(even) {
     margin-right: 1%;
   }
-  /* line 560, ../scss/layout/component-layout/_global_component.scss */
+  /* line 561, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option:nth-last-child(2) {
     width: auto;
     margin-right: 0px;
     clear: right;
   }
-  /* line 565, ../scss/layout/component-layout/_global_component.scss */
+  /* line 566, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option:last-child {
-    width: auto;
+    width: 263px;
   }
-  /* line 568, ../scss/layout/component-layout/_global_component.scss */
+  /* line 569, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option label {
     width: 128px;
   }
-  /* line 571, ../scss/layout/component-layout/_global_component.scss */
+  /* line 572, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option input[type="text"] {
     width: 179px;
   }
-  /* line 574, ../scss/layout/component-layout/_global_component.scss */
+  /* line 575, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option.submit-btn {
     display: block;
     clear: right;
   }
-  /* line 577, ../scss/layout/component-layout/_global_component.scss */
+  /* line 578, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option.submit-btn .btn--primary {
     font-size: 18px;
   }
-  /* line 581, ../scss/layout/component-layout/_global_component.scss */
+  /* line 582, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option .btn {
-    width: calc(128px + 111%);
+    width: 100%;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 591, ../scss/layout/component-layout/_global_component.scss */
+  /* line 592, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small {
     max-width: 265px;
     display: none;
   }
-  /* line 594, ../scss/layout/component-layout/_global_component.scss */
+  /* line 595, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small.sidebar {
     display: block;
     margin-bottom: 30px;
   }
-  /* line 598, ../scss/layout/component-layout/_global_component.scss */
+  /* line 599, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small p {
     display: none;
   }
-  /* line 602, ../scss/layout/component-layout/_global_component.scss */
+  /* line 603, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option {
     width: 48%;
     margin-bottom: 4%;
   }
-  /* line 605, ../scss/layout/component-layout/_global_component.scss */
+  /* line 606, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option:nth-child(odd) {
     margin-right: 4%;
   }
-  /* line 608, ../scss/layout/component-layout/_global_component.scss */
+  /* line 609, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option:nth-child(even) {
     margin-right: 0;
   }
-  /* line 611, ../scss/layout/component-layout/_global_component.scss */
+  /* line 612, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option:last-child, .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option:nth-last-child(2) {
     width: 100%;
     clear: none;
   }
-  /* line 615, ../scss/layout/component-layout/_global_component.scss */
+  /* line 616, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option label {
     width: 100%;
   }
-  /* line 618, ../scss/layout/component-layout/_global_component.scss */
+  /* line 619, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option input[type="text"] {
     width: 100%;
   }
-  /* line 621, ../scss/layout/component-layout/_global_component.scss */
+  /* line 622, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option.submit-btn {
     display: block;
   }
-  /* line 624, ../scss/layout/component-layout/_global_component.scss */
+  /* line 625, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option .btn {
     width: 100%;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 635, ../scss/layout/component-layout/_global_component.scss */
+  /* line 636, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small {
     max-width: 265px;
     display: none;
   }
-  /* line 638, ../scss/layout/component-layout/_global_component.scss */
+  /* line 639, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small.sidebar {
     display: block;
   }
-  /* line 641, ../scss/layout/component-layout/_global_component.scss */
+  /* line 642, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small p {
     display: none;
   }
-  /* line 645, ../scss/layout/component-layout/_global_component.scss */
+  /* line 646, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option {
     width: 48%;
     margin-bottom: 4%;
   }
-  /* line 648, ../scss/layout/component-layout/_global_component.scss */
+  /* line 649, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option:nth-child(odd) {
     margin-right: 4%;
   }
-  /* line 651, ../scss/layout/component-layout/_global_component.scss */
+  /* line 652, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option:nth-child(even) {
     margin-right: 0;
   }
-  /* line 654, ../scss/layout/component-layout/_global_component.scss */
+  /* line 655, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option:last-child, .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option:nth-last-child(2) {
     width: 100%;
   }
-  /* line 657, ../scss/layout/component-layout/_global_component.scss */
+  /* line 658, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option label {
     width: 100%;
   }
-  /* line 660, ../scss/layout/component-layout/_global_component.scss */
+  /* line 661, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option input[type="text"] {
     width: 100%;
   }
-  /* line 663, ../scss/layout/component-layout/_global_component.scss */
+  /* line 664, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option.submit-btn {
     display: block;
   }
-  /* line 666, ../scss/layout/component-layout/_global_component.scss */
+  /* line 667, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form-small .ways-to-give-options--wrapper .ways-to-give-option .btn {
     width: 100%;
   }
 }
-/* line 674, ../scss/layout/component-layout/_global_component.scss */
+/* line 675, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-form--inline-wrapper {
   background-color: #FFFFFF;
   display: block;
@@ -6875,158 +6876,158 @@ footer .footer--colum-content, footer .footer--column-links {
   height: auto;
   position: relative;
 }
-/* line 680, ../scss/layout/component-layout/_global_component.scss */
+/* line 681, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-form--inline-wrapper h3 {
   margin-bottom: 15px;
 }
 
-/* line 684, ../scss/layout/component-layout/_global_component.scss */
+/* line 685, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-form--inline {
   padding: 0px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 689, ../scss/layout/component-layout/_global_component.scss */
+  /* line 690, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline-wrapper {
     background-color: #F1F1F1;
   }
 
-  /* line 692, ../scss/layout/component-layout/_global_component.scss */
+  /* line 693, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline {
     padding: 30px 37px;
   }
-  /* line 694, ../scss/layout/component-layout/_global_component.scss */
+  /* line 695, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .ways-to-give-options--wrapper {
     margin-top: 0px;
     margin-bottom: 20px;
   }
-  /* line 698, ../scss/layout/component-layout/_global_component.scss */
+  /* line 699, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option label, .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option .others-dollar-label {
     background-color: #F1F1F1;
   }
-  /* line 702, ../scss/layout/component-layout/_global_component.scss */
+  /* line 703, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option label:hover {
     background-color: #007CBE;
   }
-  /* line 705, ../scss/layout/component-layout/_global_component.scss */
+  /* line 706, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option label:active {
     background-color: #052049;
   }
-  /* line 710, ../scss/layout/component-layout/_global_component.scss */
+  /* line 711, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option.submit-btn .btn {
     margin: 0px;
     border: 0px;
   }
-  /* line 716, ../scss/layout/component-layout/_global_component.scss */
+  /* line 717, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option input[type="text"].empty {
     border-color: #B4B9BF;
     color: #052049;
   }
-  /* line 719, ../scss/layout/component-layout/_global_component.scss */
+  /* line 720, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option input[type="text"].empty ~ .others-dollar-label {
     background-color: #F1F1F1;
     color: #052049;
   }
-  /* line 723, ../scss/layout/component-layout/_global_component.scss */
+  /* line 724, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option input[type="text"].empty:focus:hover {
     border-color: #B4B9BF;
   }
-  /* line 730, ../scss/layout/component-layout/_global_component.scss */
+  /* line 731, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .submit-button-small-xsmall--medium--wrapper {
     margin-bottom: 0px;
   }
-  /* line 732, ../scss/layout/component-layout/_global_component.scss */
+  /* line 733, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .submit-button-small-xsmall--medium--wrapper .btn {
     min-width: 304px;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 741, ../scss/layout/component-layout/_global_component.scss */
+  /* line 742, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline {
     padding: 0px;
   }
-  /* line 743, ../scss/layout/component-layout/_global_component.scss */
+  /* line 744, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .ways-to-give-options--wrapper {
     margin-top: 48px;
     margin-bottom: 48px;
   }
-  /* line 747, ../scss/layout/component-layout/_global_component.scss */
+  /* line 748, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option:nth-child(odd) {
     margin-right: 5px;
   }
-  /* line 750, ../scss/layout/component-layout/_global_component.scss */
+  /* line 751, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option:nth-child(even) {
     margin-right: 5px;
   }
-  /* line 756, ../scss/layout/component-layout/_global_component.scss */
+  /* line 757, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option:last-child {
     margin-right: 0px;
   }
-  /* line 759, ../scss/layout/component-layout/_global_component.scss */
+  /* line 760, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option:nth-last-child(2) {
     margin-right: 5px;
   }
-  /* line 762, ../scss/layout/component-layout/_global_component.scss */
+  /* line 763, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option.submit-btn {
     display: block;
   }
-  /* line 764, ../scss/layout/component-layout/_global_component.scss */
+  /* line 765, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option.submit-btn .btn {
     margin: 0px;
     border: 0px;
   }
-  /* line 769, ../scss/layout/component-layout/_global_component.scss */
+  /* line 770, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option input[type="text"] {
     width: 163px;
   }
-  /* line 774, ../scss/layout/component-layout/_global_component.scss */
+  /* line 775, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .submit-button-small-xsmall--medium--wrapper {
     display: none;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 781, ../scss/layout/component-layout/_global_component.scss */
+  /* line 782, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline {
     padding: 0px;
   }
-  /* line 783, ../scss/layout/component-layout/_global_component.scss */
+  /* line 784, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .ways-to-give-options--wrapper {
     margin-top: 48px;
     margin-bottom: 48px;
   }
-  /* line 787, ../scss/layout/component-layout/_global_component.scss */
+  /* line 788, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option:nth-child(odd) {
     margin-right: 10px;
   }
-  /* line 790, ../scss/layout/component-layout/_global_component.scss */
+  /* line 791, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option:nth-child(even) {
     margin-right: 10px;
   }
-  /* line 796, ../scss/layout/component-layout/_global_component.scss */
+  /* line 797, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option:last-child {
     margin-right: 0px;
   }
-  /* line 799, ../scss/layout/component-layout/_global_component.scss */
+  /* line 800, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option:nth-last-child(2) {
     margin-right: 10px;
   }
-  /* line 802, ../scss/layout/component-layout/_global_component.scss */
+  /* line 803, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option.submit-btn {
     display: block;
   }
-  /* line 804, ../scss/layout/component-layout/_global_component.scss */
+  /* line 805, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option.submit-btn .btn {
     width: 307px;
   }
-  /* line 808, ../scss/layout/component-layout/_global_component.scss */
+  /* line 809, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option label {
     width: 128px;
   }
-  /* line 811, ../scss/layout/component-layout/_global_component.scss */
+  /* line 812, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option input[type="text"] {
     width: 270px;
   }
-  /* line 816, ../scss/layout/component-layout/_global_component.scss */
+  /* line 817, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .submit-button-small-xsmall--medium--wrapper {
     display: none;
   }
