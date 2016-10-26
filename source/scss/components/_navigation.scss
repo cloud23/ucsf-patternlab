@@ -88,6 +88,14 @@ body {
 		& > li {
 			margin: 0px;
 			padding: 0px;
+			a {
+				&:hover {
+					text-decoration: underline;
+					&.search-advanced-form-toggle {
+						text-decoration: none;
+					}
+				}
+			}
 		}
 	}
   }
@@ -173,8 +181,11 @@ body {
 	border: solid 1px $color--light-blue;
 	text-align: center;
 	text-decoration: none;
+	@include transition(all 250ms ease-in-out);
 	&:hover {
 		background-color: $color--oxford-blue;
+		border: solid 1px $color--oxford-blue;
+		text-decoration: none;
 	}
 }
 
