@@ -188,6 +188,9 @@ $alignments : left center right justify;
             margin-top: 0;
             margin-bottom: 15px;
         }
+        &.events--extend {
+            margin-top: 0px;
+        }
     }
     &.story {
         margin-top: 10px;
