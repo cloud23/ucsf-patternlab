@@ -261,5 +261,16 @@
     "url" : "#",
     "label" : "Give to UCSF "
   },
-  "nav_close_icon" : "/images/close_icon.svg"
+  "nav_close_icon" : "/images/close_icon.svg",
+  "amount" : "sample_amount",
+  "choice_name" : "sample_choice",
+  "content" : {
+    "label" : "Give Where it’s Needed Most",
+    "body" : "<p>Everyday, UCSF faces big challenges. Your gifts make it possible for us to act quickly or conduct research and nimbly develop innovative science. From responding to disease outbreaks to exploring a cure for cancer, give a gift where it is needed today.</p>"
+  },
+  "image" : "/images/MBH_hospital_cropped.jpg",
+  "anchor" : {
+    "text" : "EXPLORE OTHER WAYS OF GIVING",
+    "href" : "http://www.example.com/working"
+  }
 }
