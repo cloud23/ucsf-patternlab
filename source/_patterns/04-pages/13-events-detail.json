@@ -21,11 +21,11 @@
 	"breadcrumb_links" :  {
 		"links": [
 			{
-				"label" : "Home",
+				"label" : "Events",
 				"link" : "#"
 			},
 			{
-				"label" : "Current Page's Title",
+				"label" : "Current Event Page's Title",
 				"link" : "#"
 			}
 		]
