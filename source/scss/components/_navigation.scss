@@ -36,6 +36,7 @@ body {
 	-ms-transform: translate3d(0,0,0);
 	-o-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
+	@include transition(box-shadow 250ms ease);
 }
 
 .nav--wrapper {
