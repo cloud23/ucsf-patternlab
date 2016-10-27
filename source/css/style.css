@@ -5887,6 +5887,10 @@ body {
   font-size: 15px;
   height: 100%;
 }
+/* line 19, ../scss/base/html/_html.scss */
+body.toolbar-fixed .toolbar-oriented, body.toolbar-oriented .toolbar-bar, body.toolbar-oriented .toolbar-tray {
+  z-index: 1031;
+}
 
 /*** Page ***/
 /*.contents--wrapper {
