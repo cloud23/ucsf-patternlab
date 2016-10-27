@@ -5863,6 +5863,24 @@ a:hover .text--with-icon .text--icon .text::after {
   height: 1px;
 }
 
+/* line 414, ../scss/base/_text.scss */
+.error-message-content {
+  margin-bottom: 70px;
+}
+/* line 416, ../scss/base/_text.scss */
+.error-message-content h3 {
+  margin-bottom: 20px;
+}
+/* line 419, ../scss/base/_text.scss */
+.error-message-content p {
+  margin-bottom: 5px;
+}
+
+/* line 424, ../scss/base/_text.scss */
+.error-suggestion {
+  margin-bottom: 60px;
+}
+
 /*** HTML ***/
 /* line 2, ../scss/base/html/_html.scss */
 * {
