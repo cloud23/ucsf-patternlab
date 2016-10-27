@@ -6,19 +6,18 @@ html {
 	}
 }
 
-body {
-	&.transparent {
-		.nav--wrapper {
-			position: absolute;
-			top: 0;
-			left: 0;
-			right: 0;
-			& ~ .contents--wrapper {
-				margin-top: 108px;
-			}
+.transparent {
+	.nav--wrapper {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		& ~ .contents--wrapper {
+			margin-top: 108px;
 		}
 	}
 }
+
 
 .nav--wrapper {
 	position: fixed;
@@ -36,6 +35,7 @@ body {
 	-ms-transform: translate3d(0,0,0);
 	-o-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
+	@include transition(box-shadow 250ms ease);
 }
 
 .nav--wrapper {
@@ -87,6 +87,14 @@ body {
 		& > li {
 			margin: 0px;
 			padding: 0px;
+			a {
+				&:hover {
+					text-decoration: underline;
+					&.search-advanced-form-toggle {
+						text-decoration: none;
+					}
+				}
+			}
 		}
 	}
   }
@@ -172,8 +180,11 @@ body {
 	border: solid 1px $color--light-blue;
 	text-align: center;
 	text-decoration: none;
+	@include transition(all 250ms ease-in-out);
 	&:hover {
 		background-color: $color--oxford-blue;
+		border: solid 1px $color--oxford-blue;
+		text-decoration: none;
 	}
 }
 
@@ -244,13 +255,11 @@ body {
 }
 
 @media screen and (min-width: $width-medium) {
-	body {
-		&.transparent {
-			.nav--wrapper {
-				box-shadow: none;
-				& ~ .contents--wrapper {
-					margin-top: 40px;
-				}
+	.transparent {
+		.nav--wrapper {
+			box-shadow: none;
+			& ~ .contents--wrapper {
+				margin-top: 40px;
 			}
 		}
 	}
@@ -405,33 +414,31 @@ body {
 }
 
 @media screen and (min-width: $width-medium) {
-	body {
-		&.transparent {
-			.nav--wrapper {
-				.nav-main--wrapper {
-					background-color: transparent;
-		  			background-color: rgba(0,0,0,0);
-					.nav-main {
-						a {
-							color: $color--white;
-						}
-						.nav-main-links {
-							& > li {
-								& > a {
-									color: $color--white;
-									&:hover {
-										color: $color--oxford-blue;
-										&.header-give-btn {
-											color: $color--white;
-										}
+	.transparent {
+		.nav--wrapper {
+			.nav-main--wrapper {
+				background-color: transparent;
+	  			background-color: rgba(0,0,0,0);
+				.nav-main {
+					a {
+						color: $color--white;
+					}
+					.nav-main-links {
+						& > li {
+							& > a {
+								color: $color--white;
+								&:hover {
+									color: $color--oxford-blue;
+									&.header-give-btn {
+										color: $color--white;
 									}
 								}
-								&:hover {
-									a {
-										color: $color--oxford-blue;
-										&.header-give-btn {
-											color: $color--white;
-										}
+							}
+							&:hover {
+								a {
+									color: $color--oxford-blue;
+									&.header-give-btn {
+										color: $color--white;
 									}
 								}
 							}
