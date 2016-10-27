@@ -6161,7 +6161,7 @@ footer .footer--colum-content, footer .footer--column-links {
   height: auto;
   padding: 0;
   margin: 0;
-  display: block;
+  display: inline-block;
 }
 
 /* line 11, ../scss/layout/component-layout/_global_component.scss */
