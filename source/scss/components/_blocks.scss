@@ -1809,7 +1809,7 @@
 }
 
 .photo-cta-list {
-    padding: 10px 20px;
+    padding: 0px 20px;
     background-color: $color--white;
     display: inline-block;
 }
@@ -1824,21 +1824,20 @@
         border-bottom: 1px solid $color--light-blue;
     }
     .photo-cta-content--wrapper {
-        padding: 15px 0px;
+        padding: 30px 0px;
         color: $color--oxford-blue;
         min-height: 139px;
         position: relative;
         a {
             @include type-definition(16px);
             font-family: $text-body--bold;
-            position: absolute;
-            bottom: 12px;
+            position: relative;
             .link--icon {
                 margin-left: 10px;
             }
         }
         p {
-            margin-bottom: 35px;
+            margin-bottom: 20px;
         }
     }
 }
@@ -1868,6 +1867,10 @@
             padding: 10px 5px;
             p {
                 margin-bottom: 35px;
+            }
+            a{
+                position: absolute;
+                bottom: 12px;
             }
         }
     }
