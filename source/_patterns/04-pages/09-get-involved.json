@@ -1,5 +1,9 @@
 {
-	"background_image" : "/images/MBH_hospital.jpg",
+	"backgrounds" : [
+	    {
+	    	"background_image" : "/images/MBH_hospital.jpg"
+	    }
+	],
 	"heading" : "Ambassador",
 	"alignment" : "left",
 	"hero_body" : "<p>What happens when you give to something that matters to you? Whether you are volunteering in honor of someone or in gratitude for the special care you received, raising funds for a cause or an important someone, or joining a giving society to network with the community, you get back more than you give.</p>",

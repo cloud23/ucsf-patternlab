@@ -2,7 +2,13 @@
 	<div class="hero--wrapper">
 		<div class="block block-hero">
 			{% block hero_image %}
-			<div class="hero-background" style="background-image: url('{{ background_image }}');"></div>
+			{% if backgrounds|length > 0 %}
+			<div class="hero-background">
+				{% for item in backgrounds %}
+				    <div class="backgrounds" style="background-image: url('{{ item.background_image }}');"></div>
+				{% endfor %}
+			</div>
+			{% endif %}
 			{% endblock %}
 			<div class="content-area">
 				<div class="column-wrapper">

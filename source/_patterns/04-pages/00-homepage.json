@@ -1,5 +1,15 @@
 {
-	"background_image" : "/images/home-hero-image.jpg",
+	"backgrounds" : [
+	  	{
+	  		"background_image" : "http://www.ucsfmissionbayhospitals.org/images/1400x700xroadtomissionbay_home.jpg.pagespeed.ic.XDKSo167PP.jpg"
+	    },
+	    {
+	    	"background_image" : "/images/MBH_hospital.jpg"
+	    },
+	    {
+	    	"background_image" : "/images/home-hero-image.jpg"
+	    }
+	  ],
 	"heading" : "Your giving inspires a world of good health.",
 	"link_text" : "SEE YOUR IMPACT",
 	"link_href" : "#",

@@ -1,5 +1,9 @@
 {
-  "background_image" : "/images/MBH_hospital.jpg",
+  "backgrounds" : [
+    {
+      "background_image" : "/images/MBH_hospital.jpg"
+    }
+  ],
   "heading" : "Ways to Give",
   "alignment" : "left",
   "hero_body" : "<p>Become part of a passionate community of supporters who are helping UCSF to advance health and healing worldwide. Join one of our giving societies today.</p>",
