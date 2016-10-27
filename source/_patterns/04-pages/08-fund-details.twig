@@ -61,12 +61,13 @@
 
 {% block right_section %}
     {% block right_sidebar %}
-        <div class="column-xsmall-12">
+         <div class="column-large-12 column-medium-12 column-small-12 column-xsmall-12">
             {% include "@organisms/01-content-blocks/04-ways-to-give-small.twig" with {
                 "class_controller" : give_class_controller
             } %}
+            {% include "@organisms/01-content-blocks/07-related-articles.twig" %}
         </div>
-        {% include "@organisms/01-content-blocks/07-related-articles.twig" %}
+
     {% endblock %}
 {% endblock %}
 
