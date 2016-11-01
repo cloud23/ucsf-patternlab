@@ -6983,7 +6983,7 @@ footer .footer--colum-content, footer .footer--column-links {
   }
   /* line 703, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option label:hover {
-    background-color: #007CBE;
+    background-color: #F26D04;
   }
   /* line 706, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option label:active {
@@ -7383,7 +7383,7 @@ footer .footer--colum-content, footer .footer--column-links {
   /* line 246, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero .hero-text h1 {
     font-size: 4rem;
-    line-height: 1.08;
+    line-height: 1;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -7458,7 +7458,7 @@ footer .footer--colum-content, footer .footer--column-links {
   /* line 310, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero .hero-text h1 {
     font-size: 4rem;
-    line-height: 1.5;
+    line-height: 1;
   }
 }
 @media screen and (min-width: 1200px) and (max-width: 1366px) {
