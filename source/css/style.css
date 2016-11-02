@@ -5766,7 +5766,7 @@ a.link--dark-blue:hover {
   padding-top: 2px;
 }
 /* line 323, ../scss/base/_text.scss */
-.paragraph-with-icon .icon i, .paragraph-with-icon .icon span, .paragraph-with-icon .icon em {
+.paragraph-with-icon .icon i, .paragraph-with-icon .icon span {
   font-size: 24px;
   display: inline-block;
   vertical-align: middle;
