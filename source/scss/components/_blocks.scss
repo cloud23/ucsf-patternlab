@@ -772,6 +772,11 @@
         &.block--impact-stories-grid {
             &.related-articles {
                 margin-bottom: 36px;
+                .related-items {
+                    display: inline-block;
+                    margin: 0;
+                    padding: 0;
+                }
                 h4 {
                     padding-top: 30px;
                     border-top:  1px solid $color--border-impact-stories-pillar;
@@ -786,6 +791,11 @@
         }
         &.block--learn-more {
             margin-top: 0px;
+            .learn-more-items {
+                display: inline-block;
+                margin: 0;
+                padding: 0;
+            }
             h4 {
                 padding-top: 20px;
                 border-top: 1px solid $color--border-impact-stories-pillar;
