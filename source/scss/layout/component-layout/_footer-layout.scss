@@ -55,10 +55,15 @@ footer{
     .footer--copyright{
         font-family: $text-body--regular;
         @include type-definition(12px);
-        .column-wrapper{
-            border-top: 1px $color--white solid;
+        .column-wrapper {
             padding-top: 15px;
             padding-bottom: 15px;
+        }
+        .footer--copyright-wrapper {
+            border-top: 1px $color--white solid;
+            padding: 15px 0px;
+            margin-left: 15px;
+            margin-right: 15px;
         }
         .footer--copyright-links{
             float: right;
@@ -146,7 +151,14 @@ footer{
                     padding-right: 25px;
                 }
             }
-
+                .footer--copyright{
+                    .footer--copyright-wrapper {
+                        border-top: 1px $color--white solid;
+                        padding: 15px 15px;
+                        margin-left: 0px;
+                        margin-right: 0px;
+                    }
+                }
             .footer--copyright-right, .footer--copyright-links{
                  float: none;
                  width: 100%;
@@ -196,6 +208,16 @@ footer{
             .list--unstyled{
                 width: 50%;
                 float: left;
+            }
+        }
+    }
+}
+
+@media (min-width: $bp--medium-up ) {
+    footer {
+        .footer--copyright{
+            .footer--copyright-wrapper {
+                padding: 15px 0px;
             }
         }
     }
