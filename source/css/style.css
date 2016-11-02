@@ -5760,7 +5760,7 @@ a.link--dark-blue:hover {
 .paragraph-with-icon .icon {
   display: inline-block;
   color: #007CBE;
-  margin-right: 20px;
+  margin-right: 10px;
   float: left;
   vertical-align: middle;
   padding-top: 2px;
@@ -5770,8 +5770,9 @@ a.link--dark-blue:hover {
   font-size: 24px;
   display: inline-block;
   vertical-align: middle;
+  width: 30px;
 }
-/* line 329, ../scss/base/_text.scss */
+/* line 330, ../scss/base/_text.scss */
 .paragraph-with-icon p {
   display: inline-block;
   float: left;
@@ -5779,19 +5780,19 @@ a.link--dark-blue:hover {
   vertical-align: middle;
 }
 
-/* line 339, ../scss/base/_text.scss */
+/* line 340, ../scss/base/_text.scss */
 h3.giving-societies-detail-heading {
   margin-top: 0px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 346, ../scss/base/_text.scss */
+  /* line 347, ../scss/base/_text.scss */
   h3.giving-societies-detail-heading {
     margin-top: 30px;
   }
 }
 /*** Page ***/
-/* line 355, ../scss/base/_text.scss */
+/* line 356, ../scss/base/_text.scss */
 p.text--with-icon {
   font-size: 1.06667rem;
   line-height: 1.125;
@@ -5802,11 +5803,11 @@ p.text--with-icon {
   text-decoration: none;
   margin: 0px;
 }
-/* line 363, ../scss/base/_text.scss */
+/* line 364, ../scss/base/_text.scss */
 p.text--with-icon .content-text {
   position: relative;
 }
-/* line 365, ../scss/base/_text.scss */
+/* line 366, ../scss/base/_text.scss */
 p.text--with-icon .content-text::after {
   content: "";
   position: absolute;
@@ -5816,7 +5817,7 @@ p.text--with-icon .content-text::after {
   height: 0px;
   background-color: #FFFFFF;
 }
-/* line 375, ../scss/base/_text.scss */
+/* line 376, ../scss/base/_text.scss */
 p.text--with-icon .text--icon {
   color: #007CBE;
   height: 26px;
@@ -5826,30 +5827,30 @@ p.text--with-icon .text--icon {
   margin-left: 5px;
   overflow: hidden;
 }
-/* line 383, ../scss/base/_text.scss */
+/* line 384, ../scss/base/_text.scss */
 p.text--with-icon .text--icon .icon--visible-hover {
   display: none;
 }
-/* line 384, ../scss/base/_text.scss */
+/* line 385, ../scss/base/_text.scss */
 p.text--with-icon .text--icon .icon--circle {
   font-size: 1.66667rem;
   line-height: 1;
 }
-/* line 385, ../scss/base/_text.scss */
+/* line 386, ../scss/base/_text.scss */
 p.text--with-icon .text--icon .icon--angle {
   font-size: 1.26667rem;
   line-height: 1.27;
 }
 
-/* line 393, ../scss/base/_text.scss */
+/* line 394, ../scss/base/_text.scss */
 a:hover .text--with-icon .content-text {
   text-decoration: underline;
 }
-/* line 397, ../scss/base/_text.scss */
+/* line 398, ../scss/base/_text.scss */
 a:hover .text--with-icon .text--icon .icon--visible-hover {
   display: block;
 }
-/* line 400, ../scss/base/_text.scss */
+/* line 401, ../scss/base/_text.scss */
 a:hover .text--with-icon .text--icon .icon--angle {
   -webkit-animation: slideFromLeft 0.4s;
   -moz-animation: slideFromLeft 0.4s;
@@ -5858,25 +5859,25 @@ a:hover .text--with-icon .text--icon .icon--angle {
   animation: slideFromLeft 0.4s;
   color: #FFFFFF;
 }
-/* line 405, ../scss/base/_text.scss */
+/* line 406, ../scss/base/_text.scss */
 a:hover .text--with-icon .text--icon .text::after {
   height: 1px;
 }
 
-/* line 414, ../scss/base/_text.scss */
+/* line 415, ../scss/base/_text.scss */
 .error-message-content {
   margin-bottom: 70px;
 }
-/* line 416, ../scss/base/_text.scss */
+/* line 417, ../scss/base/_text.scss */
 .error-message-content h3 {
   margin-bottom: 20px;
 }
-/* line 419, ../scss/base/_text.scss */
+/* line 420, ../scss/base/_text.scss */
 .error-message-content p {
   margin-bottom: 5px;
 }
 
-/* line 424, ../scss/base/_text.scss */
+/* line 425, ../scss/base/_text.scss */
 .error-suggestion {
   margin-bottom: 60px;
 }
