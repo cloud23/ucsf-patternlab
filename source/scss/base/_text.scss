@@ -316,7 +316,7 @@ $alignments : left center right justify;
     .icon {
         display: inline-block;
         color: $color--light-blue;
-        margin-right: 20px;
+        margin-right: 10px;
         float: left;
         vertical-align: middle;
         padding-top: 2px;
@@ -324,6 +324,7 @@ $alignments : left center right justify;
             font-size: 24px;
             display: inline-block;
             vertical-align: middle;
+            width: 30px;
         }
     }
     p {
