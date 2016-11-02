@@ -1,34 +1,34 @@
 <div class="ways-to-give-form-small {% block classes %}{{ class_controller }}{% endblock %}">
 	{% block label %}
-		<h4>{{ give_ways_content.small.heading }}</h4>
+		<h4>{{ label }}</h4>
 	{% endblock %}
-	<form name="ways-to-give" id="give" method="GET" action="{% block post_url %}{% endblock %}">
+	<form name="ways-to-give" id="give" method="GET" action="{% block post_url %}{{ post_url }}{% endblock %}">
 		<fieldset>
 			<legend class="visually-hidden">Give Form:</legend>
 			<div class="ways-to-give-options--wrapper ">
 				{% block amounts %}
 			      	<div class="ways-to-give-option" role="button">
-			            <input type="radio" name="give-value" id="give_value_50" value="50" />
-			            <label for="give_value_50">$50</label>
+			            <input type="radio" name="{{ choice_name }}" id="{{ choice_name }}_50" value="50" />
+			            <label for="{{ choice_name }}_50">$50</label>
 			        </div>
 			        <div class="ways-to-give-option" role="button">
-			            <input type="radio" name="give-value" id="give_value_100" value="100" checked="true"/>
-			            <label for="give_value_100">$100</label>
+			            <input type="radio" name={{ choice_name }}" id="{{ choice_name }}_100" value="100"/>
+			            <label for="{{ choice_name }}_100">$100</label>
 			        </div>
 			        <div class="ways-to-give-option" role="button">
-			            <input type="radio" name="give-value" id="give_value_200" value="200" />
-			            <label for="give_value_200">$200</label>
+			            <input type="radio" name="{{ choice_name }}" id="{{ choice_name }}_200" value="200" />
+			            <label for="{{ choice_name }}_200">$200</label>
 			        </div>
 			        <div class="ways-to-give-option" role="button">
-			            <input type="radio" name="give-value" id="give_value_500" value="500" />
-			            <label for="give_value_500">$500</label>
+			            <input type="radio" name="{{ choice_name }}" id="{{ choice_name }}_500" value="500" />
+			            <label for="{{ choice_name }}_500">$500</label>
 			        </div>
 		        {% endblock %}
 		        <div class="ways-to-give-option" role="button">
 		        	<label class="visually-hidden" for="give_value_other">Other</label>
 		            <input type="radio" name="give-value" id="give_value_other" value="other" />
 		            <label class="visually-hidden" for="give_input_other">Other Input</label>
-		            <input class="give-value-other-input"type="text" id="give_input_other" name="give-value-other" />
+		            <input class="give-value-other-input" type="text" id="give_input_other" name="{{ amount }}" />
 		            <div class="others-dollar-label"><span>$</span> <span class="label-text">Other</span></div>
 		        </div>
 		        <div class="ways-to-give-option submit-btn" role="button">
