@@ -10,7 +10,11 @@
 
 								<li class="big-article">
 									{% include "@molecules/02-blocks/12-featured-related-article-image.twig" with {
+										"link_href" : featured_item.link_href,
+										"category" : featured_item.category,
+										"color" : featured_item.color,
 										"image" : featured_item.image,
+										"date" : featured_item.date,
 										"text" : featured_item.text
 									}%}
 								</li>

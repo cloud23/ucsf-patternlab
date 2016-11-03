@@ -72,22 +72,22 @@
             background-color: $color--gray;
         }
         &.btn--research {
-           &:hover {
+           &:hover, &.active {
              background-color: $color--teal;
            }
         }
         &.btn--education {
-            &:hover {
+            &:hover, &.active {
                 background-color: $color--yellow-green;
             }
         }
         &.btn--patient-care {
-            &:hover {
+            &:hover, &.active {
                 background-color: $color--light-blue;
             }
         }
         &.btn--news {
-            &:hover {
+            &:hover, &.active {
                 background-color: $color--oxford-blue;
             }
         }

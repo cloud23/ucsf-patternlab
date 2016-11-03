@@ -20,9 +20,13 @@
 		}
 	},
 	"featured_item" : {
-		"image" : "http://placehold.it/1280x720",
-		"text" : "<p>New $25 million gift propels research in psychiatric and neurological disorders. </p>"
-	},
+        "link_href" : "#",
+        "color" : "teal",
+        "category" : "RESEARCH",
+        "date" : "October 1, 2015",
+        "image" : "http://placehold.it/1280x720",
+        "text" : "New $25 million gift propels research in psychiatric and neurological disorders."
+    },
     "masonry_items" : [
         {
             "color" : "light-blue",

@@ -23,7 +23,7 @@ jQuery(function($){
 		},
 		reinit: function(){
 			$masonryContainer = $('body').find('.masonry-wrapper .masonry-results');
-			$masonryContainer.masonry();
+			if($masonryContainer.length > 0) this.renderMasonry();
 		}
 	};
 
@@ -69,18 +69,18 @@ jQuery(function($){
 	function reinitButtons(){
 		$('body').find('.pager__item').find('a').on("click", function(e){
 			setTimeout(function(){
-				$('.masonry-wrapper .masonry-results').masonry();
-				reinitButtons()
-			}, 500);
+				masonryEvents.reinit();
+				reinitButtons();
+			}, 1000);
 		});
 	}
 
 	function reinitSelect(){
 		$('body').on('change', 'select', function(){
 			setTimeout(function(){
-				$('.masonry-wrapper .masonry-results').masonry();
-				reinitSelect()
-			}, 500);
+				masonryEvents.reinit();
+				reinitSelect();
+			}, 1000);
 		});
 	}
 
