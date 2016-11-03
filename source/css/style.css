@@ -5020,19 +5020,19 @@ $font-header: $helvetica, $default-font;
   background-color: #4d4d4d;
 }
 /* line 75, ../scss/base/_btn.scss */
-.btn.btn--category.btn--research:hover {
+.btn.btn--category.btn--research:hover, .btn.btn--category.btn--research.active {
   background-color: #058488;
 }
 /* line 80, ../scss/base/_btn.scss */
-.btn.btn--category.btn--education:hover {
+.btn.btn--category.btn--education:hover, .btn.btn--category.btn--education.active {
   background-color: #6EA400;
 }
 /* line 85, ../scss/base/_btn.scss */
-.btn.btn--category.btn--patient-care:hover {
+.btn.btn--category.btn--patient-care:hover, .btn.btn--category.btn--patient-care.active {
   background-color: #007CBE;
 }
 /* line 90, ../scss/base/_btn.scss */
-.btn.btn--category.btn--news:hover {
+.btn.btn--category.btn--news:hover, .btn.btn--category.btn--news.active {
   background-color: #052049;
 }
 
