@@ -486,6 +486,9 @@
             &.background--light-blue{
                 background-color: $color--light-blue;
             }
+            &.background--dark-blue{
+                background-color: $color--oxford-blue;
+            }
             &.background--teal{
                 background-color: $color--teal;
             }
@@ -510,6 +513,9 @@
             }
             .background--teal {
                 @include text_with_icon_hover_state($color--light-blue);
+            }
+            .background--dark-blue {
+                @include text_with_icon_hover_state($color--oxford-blue);
             }
         }
     }

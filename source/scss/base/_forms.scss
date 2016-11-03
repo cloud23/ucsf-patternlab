@@ -9,9 +9,18 @@ fieldset {
 #related_articles_all {
 	position: relative;
 	overflow: hidden;
+	margin-bottom: 60px;
 	form {
 		position: absolute;
 		left: -99999px;
+	}
+}
+
+.filters{
+	.category-nav{
+		.btn--category{
+			text-transform: uppercase;
+		}
 	}
 }
 
