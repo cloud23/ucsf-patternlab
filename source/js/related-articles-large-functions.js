@@ -63,9 +63,14 @@ jQuery(function($){
 		$options.removeAttr('selected');
 		$option.attr('selected', 'selected');
 		$select.trigger('change');
+		$(this).parent().parent().find('li').each(function(){
+			$(this).find('.btn--category').removeClass('active');
+		})
+		$(this).addClass('active');
+
 	});
 
-	
+
 	function reinitButtons(){
 		$('body').find('.pager__item').find('a').on("click", function(e){
 			setTimeout(function(){
@@ -84,5 +89,5 @@ jQuery(function($){
 		});
 	}
 
-	
+
 });
