@@ -61,13 +61,13 @@
 						<span class="nav-site-title">Giving to UCSF</span>
 					</a>
 				</div>
-				{% if mobile_toggles %}
-				<ul class="nav-mobile-toggles">
-					{% for item in mobile_toggles.buttons %}
-					    <li><button class="{{ item.class }}"><span class="visually-hidden">{{ item.label }}</span><span class="{{ item.icon }}"></span></button></li>
-					{% endfor %}
-				</ul>
-				{% endif %}
+				{% block toggles %}
+-					<ul class="nav-mobile-toggles">
+-						{% for item in mobile_toggles.buttons %}
+-						    <li><button class="{{ item.class }}"><span class="visually-hidden">{{ item.label }}</span><span class="{{ item.icon }}"></span></button></li>
+-						{% endfor %}
+-					</ul>
+-				{% endblock %}
 				{% if nav_links.links %}
 					<ul class="nav-main-links">
 						{% for item in nav_links.links %}
