@@ -1495,6 +1495,7 @@
 
 
 .block-featured--article-image {
+    width: 100%;
     display: inline-block;
     position: relative;
     .category {
@@ -1532,6 +1533,7 @@
         color: $color--medium-gray;
         text-decoration: none;
        .featured--article-text {
+            width: 100%;
             background-color: $color--light-gray;
             padding: 15px;
             text-decoration: none;
@@ -2194,5 +2196,62 @@
     }
 }
 
+
+.search-result-count {
+    margin-bottom: 30px;
+    p {
+        @include type-definition(12px, 1);
+        color: $color--oxford-blue;
+        margin: 0px;
+    }
+}
+
+
+.search-result-body {
+    border-top: 1px solid $color--border-impact-stories-pillar;
+    margin-bottom: 40px;
+}
+
+.search-result-item {
+    padding: 20px 0px 10px;
+    border-top: 1px solid $color--border-impact-stories-pillar;
+    &:first-child {
+        border-top: 0px;
+        &:last-child {
+            border-bottom: 0px;
+        }
+    }
+    &:last-child {
+        border-bottom: 1px solid $color--border-impact-stories-pillar;
+    }
+    .search-result-link {
+        font-family: $text-body--medium;
+        @include type-definition(20px, 1);
+        color: $color--black;
+        margin: 0px;
+    }
+    .summary {
+        font-family: $text-body--regular;
+        @include type-definition(18px, 1.33);
+        margin: 10px 0px;
+    }
+    .tag-list {
+        padding: 0px;
+        list-style: none;
+        margin: 0px;
+        display: inline-block;
+        li {
+            float: left;
+            margin: 0px;
+            a {
+                margin-right: 10px;
+                margin-bottom: 10px;
+                color: $color--oxford-blue;
+                font-family: $text-body--regular;
+                @include type-definition(12px, 1);
+            }
+        }
+    }
+}
 
 
