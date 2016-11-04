@@ -1495,6 +1495,7 @@
 
 
 .block-featured--article-image {
+    width: 100%;
     display: inline-block;
     position: relative;
     .category {
@@ -1532,6 +1533,7 @@
         color: $color--medium-gray;
         text-decoration: none;
        .featured--article-text {
+            width: 100%;
             background-color: $color--light-gray;
             padding: 15px;
             text-decoration: none;
