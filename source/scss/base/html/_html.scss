@@ -16,6 +16,7 @@ html, body {
 body{
     font-size: $base--typesize;
     height: 100%;
+    padding: 0px !important;
     &.toolbar-fixed .toolbar-oriented, &.toolbar-oriented .toolbar-bar, &.toolbar-oriented .toolbar-tray {
         z-index: 1031;
     }
