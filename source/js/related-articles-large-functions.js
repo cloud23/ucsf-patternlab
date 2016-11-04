@@ -37,13 +37,15 @@ jQuery(function($){
 		var $parent = $('body').find('.filters');
 		var $wrapper = $('<ul class="category-nav" role="navigation"></ul>');
 		var $itemWrapper = $('<li></li>');
-		var $link = $('<a class="btn btn--category btn--news"></a>');
+		var $link = $('<a class="btn btn--category"></a>');
 
 		$options.each(function(){
 			var $option = $(this);
 			var text = $(this).text();
-			var value = $(this).val()
-			var $new_link = $link.clone();
+			var btnClass = text.toLowerCase();
+				btnClass = 'btn--'+btn_class.replace(' ','-');
+			var value = $(this).val();
+			var $new_link = $link.addClass(btnClass).clone();
 			var $list_wrapper = $itemWrapper.clone();
 			$new_link.text(text).attr('href', $select.attr('name'));
 			$list_wrapper.append($new_link);
