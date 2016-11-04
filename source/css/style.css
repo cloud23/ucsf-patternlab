@@ -89,7 +89,7 @@ All styles that are imported here will be compiled into css/style.css
 /* line 4, ../bower_components/font-awesome/scss/_bordered-pulled.scss */
 .fa-border {
   padding: .2em .25em .15em;
-  border: solid 0.08em #eeeeee;
+  border: solid 0.08em #eee;
   border-radius: .1em;
 }
 
@@ -145,26 +145,20 @@ All styles that are imported here will be compiled into css/style.css
 }
 
 @-webkit-keyframes fa-spin {
-  /* line 15, ../bower_components/font-awesome/scss/_animated.scss */
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-
-  /* line 19, ../bower_components/font-awesome/scss/_animated.scss */
   100% {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg);
   }
 }
 @keyframes fa-spin {
-  /* line 26, ../bower_components/font-awesome/scss/_animated.scss */
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-
-  /* line 30, ../bower_components/font-awesome/scss/_animated.scss */
   100% {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg);
@@ -249,1590 +243,1590 @@ All styles that are imported here will be compiled into css/style.css
 
 /* line 20, ../bower_components/font-awesome/scss/_stacked.scss */
 .fa-inverse {
-  color: white;
+  color: #fff;
 }
 
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
    readers do not read off random characters that represent icons */
 /* line 4, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-glass:before {
-  content: "\f000";
+  content: "";
 }
 
 /* line 5, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-music:before {
-  content: "\f001";
+  content: "";
 }
 
 /* line 6, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-search:before {
-  content: "\f002";
+  content: "";
 }
 
 /* line 7, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-envelope-o:before {
-  content: "\f003";
+  content: "";
 }
 
 /* line 8, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-heart:before {
-  content: "\f004";
+  content: "";
 }
 
 /* line 9, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-star:before {
-  content: "\f005";
+  content: "";
 }
 
 /* line 10, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-star-o:before {
-  content: "\f006";
+  content: "";
 }
 
 /* line 11, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-user:before {
-  content: "\f007";
+  content: "";
 }
 
 /* line 12, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-film:before {
-  content: "\f008";
+  content: "";
 }
 
 /* line 13, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-th-large:before {
-  content: "\f009";
+  content: "";
 }
 
 /* line 14, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-th:before {
-  content: "\f00a";
+  content: "";
 }
 
 /* line 15, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-th-list:before {
-  content: "\f00b";
+  content: "";
 }
 
 /* line 16, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-check:before {
-  content: "\f00c";
+  content: "";
 }
 
 /* line 17, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-remove:before,
 .fa-close:before,
 .fa-times:before {
-  content: "\f00d";
+  content: "";
 }
 
 /* line 20, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-search-plus:before {
-  content: "\f00e";
+  content: "";
 }
 
 /* line 21, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-search-minus:before {
-  content: "\f010";
+  content: "";
 }
 
 /* line 22, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-power-off:before {
-  content: "\f011";
+  content: "";
 }
 
 /* line 23, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-signal:before {
-  content: "\f012";
+  content: "";
 }
 
 /* line 24, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-gear:before,
 .fa-cog:before {
-  content: "\f013";
+  content: "";
 }
 
 /* line 26, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-trash-o:before {
-  content: "\f014";
+  content: "";
 }
 
 /* line 27, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-home:before {
-  content: "\f015";
+  content: "";
 }
 
 /* line 28, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-file-o:before {
-  content: "\f016";
+  content: "";
 }
 
 /* line 29, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-clock-o:before {
-  content: "\f017";
+  content: "";
 }
 
 /* line 30, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-road:before {
-  content: "\f018";
+  content: "";
 }
 
 /* line 31, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-download:before {
-  content: "\f019";
+  content: "";
 }
 
 /* line 32, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-arrow-circle-o-down:before {
-  content: "\f01a";
+  content: "";
 }
 
 /* line 33, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-arrow-circle-o-up:before {
-  content: "\f01b";
+  content: "";
 }
 
 /* line 34, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-inbox:before {
-  content: "\f01c";
+  content: "";
 }
 
 /* line 35, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-play-circle-o:before {
-  content: "\f01d";
+  content: "";
 }
 
 /* line 36, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-rotate-right:before,
 .fa-repeat:before {
-  content: "\f01e";
+  content: "";
 }
 
 /* line 38, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-refresh:before {
-  content: "\f021";
+  content: "";
 }
 
 /* line 39, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-list-alt:before {
-  content: "\f022";
+  content: "";
 }
 
 /* line 40, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-lock:before {
-  content: "\f023";
+  content: "";
 }
 
 /* line 41, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-flag:before {
-  content: "\f024";
+  content: "";
 }
 
 /* line 42, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-headphones:before {
-  content: "\f025";
+  content: "";
 }
 
 /* line 43, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-volume-off:before {
-  content: "\f026";
+  content: "";
 }
 
 /* line 44, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-volume-down:before {
-  content: "\f027";
+  content: "";
 }
 
 /* line 45, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-volume-up:before {
-  content: "\f028";
+  content: "";
 }
 
 /* line 46, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-qrcode:before {
-  content: "\f029";
+  content: "";
 }
 
 /* line 47, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-barcode:before {
-  content: "\f02a";
+  content: "";
 }
 
 /* line 48, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-tag:before {
-  content: "\f02b";
+  content: "";
 }
 
 /* line 49, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-tags:before {
-  content: "\f02c";
+  content: "";
 }
 
 /* line 50, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-book:before {
-  content: "\f02d";
+  content: "";
 }
 
 /* line 51, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bookmark:before {
-  content: "\f02e";
+  content: "";
 }
 
 /* line 52, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-print:before {
-  content: "\f02f";
+  content: "";
 }
 
 /* line 53, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-camera:before {
-  content: "\f030";
+  content: "";
 }
 
 /* line 54, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-font:before {
-  content: "\f031";
+  content: "";
 }
 
 /* line 55, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bold:before {
-  content: "\f032";
+  content: "";
 }
 
 /* line 56, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-italic:before {
-  content: "\f033";
+  content: "";
 }
 
 /* line 57, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-text-height:before {
-  content: "\f034";
+  content: "";
 }
 
 /* line 58, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-text-width:before {
-  content: "\f035";
+  content: "";
 }
 
 /* line 59, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-align-left:before {
-  content: "\f036";
+  content: "";
 }
 
 /* line 60, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-align-center:before {
-  content: "\f037";
+  content: "";
 }
 
 /* line 61, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-align-right:before {
-  content: "\f038";
+  content: "";
 }
 
 /* line 62, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-align-justify:before {
-  content: "\f039";
+  content: "";
 }
 
 /* line 63, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-list:before {
-  content: "\f03a";
+  content: "";
 }
 
 /* line 64, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-dedent:before,
 .fa-outdent:before {
-  content: "\f03b";
+  content: "";
 }
 
 /* line 66, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-indent:before {
-  content: "\f03c";
+  content: "";
 }
 
 /* line 67, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-video-camera:before {
-  content: "\f03d";
+  content: "";
 }
 
 /* line 68, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-photo:before,
 .fa-image:before,
 .fa-picture-o:before {
-  content: "\f03e";
+  content: "";
 }
 
 /* line 71, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-pencil:before {
-  content: "\f040";
+  content: "";
 }
 
 /* line 72, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-map-marker:before {
-  content: "\f041";
+  content: "";
 }
 
 /* line 73, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-adjust:before {
-  content: "\f042";
+  content: "";
 }
 
 /* line 74, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-tint:before {
-  content: "\f043";
+  content: "";
 }
 
 /* line 75, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-edit:before,
 .fa-pencil-square-o:before {
-  content: "\f044";
+  content: "";
 }
 
 /* line 77, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-share-square-o:before {
-  content: "\f045";
+  content: "";
 }
 
 /* line 78, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-check-square-o:before {
-  content: "\f046";
+  content: "";
 }
 
 /* line 79, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-arrows:before {
-  content: "\f047";
+  content: "";
 }
 
 /* line 80, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-step-backward:before {
-  content: "\f048";
+  content: "";
 }
 
 /* line 81, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-fast-backward:before {
-  content: "\f049";
+  content: "";
 }
 
 /* line 82, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-backward:before {
-  content: "\f04a";
+  content: "";
 }
 
 /* line 83, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-play:before {
-  content: "\f04b";
+  content: "";
 }
 
 /* line 84, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-pause:before {
-  content: "\f04c";
+  content: "";
 }
 
 /* line 85, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-stop:before {
-  content: "\f04d";
+  content: "";
 }
 
 /* line 86, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-forward:before {
-  content: "\f04e";
+  content: "";
 }
 
 /* line 87, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-fast-forward:before {
-  content: "\f050";
+  content: "";
 }
 
 /* line 88, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-step-forward:before {
-  content: "\f051";
+  content: "";
 }
 
 /* line 89, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-eject:before {
-  content: "\f052";
+  content: "";
 }
 
 /* line 90, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-chevron-left:before {
-  content: "\f053";
+  content: "";
 }
 
 /* line 91, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-chevron-right:before {
-  content: "\f054";
+  content: "";
 }
 
 /* line 92, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-plus-circle:before {
-  content: "\f055";
+  content: "";
 }
 
 /* line 93, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-minus-circle:before {
-  content: "\f056";
+  content: "";
 }
 
 /* line 94, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-times-circle:before {
-  content: "\f057";
+  content: "";
 }
 
 /* line 95, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-check-circle:before {
-  content: "\f058";
+  content: "";
 }
 
 /* line 96, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-question-circle:before {
-  content: "\f059";
+  content: "";
 }
 
 /* line 97, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-info-circle:before {
-  content: "\f05a";
+  content: "";
 }
 
 /* line 98, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-crosshairs:before {
-  content: "\f05b";
+  content: "";
 }
 
 /* line 99, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-times-circle-o:before {
-  content: "\f05c";
+  content: "";
 }
 
 /* line 100, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-check-circle-o:before {
-  content: "\f05d";
+  content: "";
 }
 
 /* line 101, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-ban:before {
-  content: "\f05e";
+  content: "";
 }
 
 /* line 102, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-arrow-left:before {
-  content: "\f060";
+  content: "";
 }
 
 /* line 103, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-arrow-right:before {
-  content: "\f061";
+  content: "";
 }
 
 /* line 104, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-arrow-up:before {
-  content: "\f062";
+  content: "";
 }
 
 /* line 105, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-arrow-down:before {
-  content: "\f063";
+  content: "";
 }
 
 /* line 106, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-mail-forward:before,
 .fa-share:before {
-  content: "\f064";
+  content: "";
 }
 
 /* line 108, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-expand:before {
-  content: "\f065";
+  content: "";
 }
 
 /* line 109, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-compress:before {
-  content: "\f066";
+  content: "";
 }
 
 /* line 110, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-plus:before {
-  content: "\f067";
+  content: "";
 }
 
 /* line 111, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-minus:before {
-  content: "\f068";
+  content: "";
 }
 
 /* line 112, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-asterisk:before {
-  content: "\f069";
+  content: "";
 }
 
 /* line 113, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-exclamation-circle:before {
-  content: "\f06a";
+  content: "";
 }
 
 /* line 114, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-gift:before {
-  content: "\f06b";
+  content: "";
 }
 
 /* line 115, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-leaf:before {
-  content: "\f06c";
+  content: "";
 }
 
 /* line 116, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-fire:before {
-  content: "\f06d";
+  content: "";
 }
 
 /* line 117, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-eye:before {
-  content: "\f06e";
+  content: "";
 }
 
 /* line 118, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-eye-slash:before {
-  content: "\f070";
+  content: "";
 }
 
 /* line 119, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-warning:before,
 .fa-exclamation-triangle:before {
-  content: "\f071";
+  content: "";
 }
 
 /* line 121, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-plane:before {
-  content: "\f072";
+  content: "";
 }
 
 /* line 122, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-calendar:before {
-  content: "\f073";
+  content: "";
 }
 
 /* line 123, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-random:before {
-  content: "\f074";
+  content: "";
 }
 
 /* line 124, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-comment:before {
-  content: "\f075";
+  content: "";
 }
 
 /* line 125, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-magnet:before {
-  content: "\f076";
+  content: "";
 }
 
 /* line 126, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-chevron-up:before {
-  content: "\f077";
+  content: "";
 }
 
 /* line 127, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-chevron-down:before {
-  content: "\f078";
+  content: "";
 }
 
 /* line 128, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-retweet:before {
-  content: "\f079";
+  content: "";
 }
 
 /* line 129, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-shopping-cart:before {
-  content: "\f07a";
+  content: "";
 }
 
 /* line 130, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-folder:before {
-  content: "\f07b";
+  content: "";
 }
 
 /* line 131, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-folder-open:before {
-  content: "\f07c";
+  content: "";
 }
 
 /* line 132, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-arrows-v:before {
-  content: "\f07d";
+  content: "";
 }
 
 /* line 133, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-arrows-h:before {
-  content: "\f07e";
+  content: "";
 }
 
 /* line 134, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bar-chart-o:before,
 .fa-bar-chart:before {
-  content: "\f080";
+  content: "";
 }
 
 /* line 136, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-twitter-square:before {
-  content: "\f081";
+  content: "";
 }
 
 /* line 137, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-facebook-square:before {
-  content: "\f082";
+  content: "";
 }
 
 /* line 138, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-camera-retro:before {
-  content: "\f083";
+  content: "";
 }
 
 /* line 139, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-key:before {
-  content: "\f084";
+  content: "";
 }
 
 /* line 140, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-gears:before,
 .fa-cogs:before {
-  content: "\f085";
+  content: "";
 }
 
 /* line 142, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-comments:before {
-  content: "\f086";
+  content: "";
 }
 
 /* line 143, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-thumbs-o-up:before {
-  content: "\f087";
+  content: "";
 }
 
 /* line 144, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-thumbs-o-down:before {
-  content: "\f088";
+  content: "";
 }
 
 /* line 145, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-star-half:before {
-  content: "\f089";
+  content: "";
 }
 
 /* line 146, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-heart-o:before {
-  content: "\f08a";
+  content: "";
 }
 
 /* line 147, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-sign-out:before {
-  content: "\f08b";
+  content: "";
 }
 
 /* line 148, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-linkedin-square:before {
-  content: "\f08c";
+  content: "";
 }
 
 /* line 149, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-thumb-tack:before {
-  content: "\f08d";
+  content: "";
 }
 
 /* line 150, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-external-link:before {
-  content: "\f08e";
+  content: "";
 }
 
 /* line 151, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-sign-in:before {
-  content: "\f090";
+  content: "";
 }
 
 /* line 152, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-trophy:before {
-  content: "\f091";
+  content: "";
 }
 
 /* line 153, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-github-square:before {
-  content: "\f092";
+  content: "";
 }
 
 /* line 154, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-upload:before {
-  content: "\f093";
+  content: "";
 }
 
 /* line 155, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-lemon-o:before {
-  content: "\f094";
+  content: "";
 }
 
 /* line 156, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-phone:before {
-  content: "\f095";
+  content: "";
 }
 
 /* line 157, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-square-o:before {
-  content: "\f096";
+  content: "";
 }
 
 /* line 158, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bookmark-o:before {
-  content: "\f097";
+  content: "";
 }
 
 /* line 159, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-phone-square:before {
-  content: "\f098";
+  content: "";
 }
 
 /* line 160, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-twitter:before {
-  content: "\f099";
+  content: "";
 }
 
 /* line 161, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-facebook-f:before,
 .fa-facebook:before {
-  content: "\f09a";
+  content: "";
 }
 
 /* line 163, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-github:before {
-  content: "\f09b";
+  content: "";
 }
 
 /* line 164, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-unlock:before {
-  content: "\f09c";
+  content: "";
 }
 
 /* line 165, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-credit-card:before {
-  content: "\f09d";
+  content: "";
 }
 
 /* line 166, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-feed:before,
 .fa-rss:before {
-  content: "\f09e";
+  content: "";
 }
 
 /* line 168, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hdd-o:before {
-  content: "\f0a0";
+  content: "";
 }
 
 /* line 169, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bullhorn:before {
-  content: "\f0a1";
+  content: "";
 }
 
 /* line 170, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bell:before {
-  content: "\f0f3";
+  content: "";
 }
 
 /* line 171, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-certificate:before {
-  content: "\f0a3";
+  content: "";
 }
 
 /* line 172, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hand-o-right:before {
-  content: "\f0a4";
+  content: "";
 }
 
 /* line 173, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hand-o-left:before {
-  content: "\f0a5";
+  content: "";
 }
 
 /* line 174, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hand-o-up:before {
-  content: "\f0a6";
+  content: "";
 }
 
 /* line 175, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hand-o-down:before {
-  content: "\f0a7";
+  content: "";
 }
 
 /* line 176, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-arrow-circle-left:before {
-  content: "\f0a8";
+  content: "";
 }
 
 /* line 177, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-arrow-circle-right:before {
-  content: "\f0a9";
+  content: "";
 }
 
 /* line 178, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-arrow-circle-up:before {
-  content: "\f0aa";
+  content: "";
 }
 
 /* line 179, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-arrow-circle-down:before {
-  content: "\f0ab";
+  content: "";
 }
 
 /* line 180, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-globe:before {
-  content: "\f0ac";
+  content: "";
 }
 
 /* line 181, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-wrench:before {
-  content: "\f0ad";
+  content: "";
 }
 
 /* line 182, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-tasks:before {
-  content: "\f0ae";
+  content: "";
 }
 
 /* line 183, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-filter:before {
-  content: "\f0b0";
+  content: "";
 }
 
 /* line 184, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-briefcase:before {
-  content: "\f0b1";
+  content: "";
 }
 
 /* line 185, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-arrows-alt:before {
-  content: "\f0b2";
+  content: "";
 }
 
 /* line 186, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-group:before,
 .fa-users:before {
-  content: "\f0c0";
+  content: "";
 }
 
 /* line 188, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-chain:before,
 .fa-link:before {
-  content: "\f0c1";
+  content: "";
 }
 
 /* line 190, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cloud:before {
-  content: "\f0c2";
+  content: "";
 }
 
 /* line 191, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-flask:before {
-  content: "\f0c3";
+  content: "";
 }
 
 /* line 192, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cut:before,
 .fa-scissors:before {
-  content: "\f0c4";
+  content: "";
 }
 
 /* line 194, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-copy:before,
 .fa-files-o:before {
-  content: "\f0c5";
+  content: "";
 }
 
 /* line 196, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-paperclip:before {
-  content: "\f0c6";
+  content: "";
 }
 
 /* line 197, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-save:before,
 .fa-floppy-o:before {
-  content: "\f0c7";
+  content: "";
 }
 
 /* line 199, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-square:before {
-  content: "\f0c8";
+  content: "";
 }
 
 /* line 200, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-navicon:before,
 .fa-reorder:before,
 .fa-bars:before {
-  content: "\f0c9";
+  content: "";
 }
 
 /* line 203, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-list-ul:before {
-  content: "\f0ca";
+  content: "";
 }
 
 /* line 204, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-list-ol:before {
-  content: "\f0cb";
+  content: "";
 }
 
 /* line 205, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-strikethrough:before {
-  content: "\f0cc";
+  content: "";
 }
 
 /* line 206, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-underline:before {
-  content: "\f0cd";
+  content: "";
 }
 
 /* line 207, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-table:before {
-  content: "\f0ce";
+  content: "";
 }
 
 /* line 208, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-magic:before {
-  content: "\f0d0";
+  content: "";
 }
 
 /* line 209, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-truck:before {
-  content: "\f0d1";
+  content: "";
 }
 
 /* line 210, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-pinterest:before {
-  content: "\f0d2";
+  content: "";
 }
 
 /* line 211, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-pinterest-square:before {
-  content: "\f0d3";
+  content: "";
 }
 
 /* line 212, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-google-plus-square:before {
-  content: "\f0d4";
+  content: "";
 }
 
 /* line 213, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-google-plus:before {
-  content: "\f0d5";
+  content: "";
 }
 
 /* line 214, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-money:before {
-  content: "\f0d6";
+  content: "";
 }
 
 /* line 215, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-caret-down:before {
-  content: "\f0d7";
+  content: "";
 }
 
 /* line 216, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-caret-up:before {
-  content: "\f0d8";
+  content: "";
 }
 
 /* line 217, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-caret-left:before {
-  content: "\f0d9";
+  content: "";
 }
 
 /* line 218, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-caret-right:before {
-  content: "\f0da";
+  content: "";
 }
 
 /* line 219, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-columns:before {
-  content: "\f0db";
+  content: "";
 }
 
 /* line 220, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-unsorted:before,
 .fa-sort:before {
-  content: "\f0dc";
+  content: "";
 }
 
 /* line 222, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-sort-down:before,
 .fa-sort-desc:before {
-  content: "\f0dd";
+  content: "";
 }
 
 /* line 224, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-sort-up:before,
 .fa-sort-asc:before {
-  content: "\f0de";
+  content: "";
 }
 
 /* line 226, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-envelope:before {
-  content: "\f0e0";
+  content: "";
 }
 
 /* line 227, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-linkedin:before {
-  content: "\f0e1";
+  content: "";
 }
 
 /* line 228, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-rotate-left:before,
 .fa-undo:before {
-  content: "\f0e2";
+  content: "";
 }
 
 /* line 230, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-legal:before,
 .fa-gavel:before {
-  content: "\f0e3";
+  content: "";
 }
 
 /* line 232, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-dashboard:before,
 .fa-tachometer:before {
-  content: "\f0e4";
+  content: "";
 }
 
 /* line 234, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-comment-o:before {
-  content: "\f0e5";
+  content: "";
 }
 
 /* line 235, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-comments-o:before {
-  content: "\f0e6";
+  content: "";
 }
 
 /* line 236, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-flash:before,
 .fa-bolt:before {
-  content: "\f0e7";
+  content: "";
 }
 
 /* line 238, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-sitemap:before {
-  content: "\f0e8";
+  content: "";
 }
 
 /* line 239, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-umbrella:before {
-  content: "\f0e9";
+  content: "";
 }
 
 /* line 240, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-paste:before,
 .fa-clipboard:before {
-  content: "\f0ea";
+  content: "";
 }
 
 /* line 242, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-lightbulb-o:before {
-  content: "\f0eb";
+  content: "";
 }
 
 /* line 243, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-exchange:before {
-  content: "\f0ec";
+  content: "";
 }
 
 /* line 244, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cloud-download:before {
-  content: "\f0ed";
+  content: "";
 }
 
 /* line 245, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cloud-upload:before {
-  content: "\f0ee";
+  content: "";
 }
 
 /* line 246, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-user-md:before {
-  content: "\f0f0";
+  content: "";
 }
 
 /* line 247, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-stethoscope:before {
-  content: "\f0f1";
+  content: "";
 }
 
 /* line 248, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-suitcase:before {
-  content: "\f0f2";
+  content: "";
 }
 
 /* line 249, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bell-o:before {
-  content: "\f0a2";
+  content: "";
 }
 
 /* line 250, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-coffee:before {
-  content: "\f0f4";
+  content: "";
 }
 
 /* line 251, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cutlery:before {
-  content: "\f0f5";
+  content: "";
 }
 
 /* line 252, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-file-text-o:before {
-  content: "\f0f6";
+  content: "";
 }
 
 /* line 253, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-building-o:before {
-  content: "\f0f7";
+  content: "";
 }
 
 /* line 254, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hospital-o:before {
-  content: "\f0f8";
+  content: "";
 }
 
 /* line 255, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-ambulance:before {
-  content: "\f0f9";
+  content: "";
 }
 
 /* line 256, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-medkit:before {
-  content: "\f0fa";
+  content: "";
 }
 
 /* line 257, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-fighter-jet:before {
-  content: "\f0fb";
+  content: "";
 }
 
 /* line 258, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-beer:before {
-  content: "\f0fc";
+  content: "";
 }
 
 /* line 259, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-h-square:before {
-  content: "\f0fd";
+  content: "";
 }
 
 /* line 260, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-plus-square:before {
-  content: "\f0fe";
+  content: "";
 }
 
 /* line 261, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-angle-double-left:before {
-  content: "\f100";
+  content: "";
 }
 
 /* line 262, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-angle-double-right:before {
-  content: "\f101";
+  content: "";
 }
 
 /* line 263, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-angle-double-up:before {
-  content: "\f102";
+  content: "";
 }
 
 /* line 264, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-angle-double-down:before {
-  content: "\f103";
+  content: "";
 }
 
 /* line 265, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-angle-left:before, .block.block--funding-priorities .slider-button.slider-prev:before {
-  content: "\f104";
+  content: "";
 }
 
 /* line 266, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-angle-right:before, .block.block--funding-priorities .slider-button.slider-next:before {
-  content: "\f105";
+  content: "";
 }
 
 /* line 267, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-angle-up:before {
-  content: "\f106";
+  content: "";
 }
 
 /* line 268, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-angle-down:before {
-  content: "\f107";
+  content: "";
 }
 
 /* line 269, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-desktop:before {
-  content: "\f108";
+  content: "";
 }
 
 /* line 270, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-laptop:before {
-  content: "\f109";
+  content: "";
 }
 
 /* line 271, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-tablet:before {
-  content: "\f10a";
+  content: "";
 }
 
 /* line 272, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-mobile-phone:before,
 .fa-mobile:before {
-  content: "\f10b";
+  content: "";
 }
 
 /* line 274, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-circle-o:before {
-  content: "\f10c";
+  content: "";
 }
 
 /* line 275, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-quote-left:before {
-  content: "\f10d";
+  content: "";
 }
 
 /* line 276, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-quote-right:before {
-  content: "\f10e";
+  content: "";
 }
 
 /* line 277, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-spinner:before {
-  content: "\f110";
+  content: "";
 }
 
 /* line 278, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-circle:before {
-  content: "\f111";
+  content: "";
 }
 
 /* line 279, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-mail-reply:before,
 .fa-reply:before {
-  content: "\f112";
+  content: "";
 }
 
 /* line 281, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-github-alt:before {
-  content: "\f113";
+  content: "";
 }
 
 /* line 282, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-folder-o:before {
-  content: "\f114";
+  content: "";
 }
 
 /* line 283, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-folder-open-o:before {
-  content: "\f115";
+  content: "";
 }
 
 /* line 284, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-smile-o:before {
-  content: "\f118";
+  content: "";
 }
 
 /* line 285, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-frown-o:before {
-  content: "\f119";
+  content: "";
 }
 
 /* line 286, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-meh-o:before {
-  content: "\f11a";
+  content: "";
 }
 
 /* line 287, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-gamepad:before {
-  content: "\f11b";
+  content: "";
 }
 
 /* line 288, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-keyboard-o:before {
-  content: "\f11c";
+  content: "";
 }
 
 /* line 289, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-flag-o:before {
-  content: "\f11d";
+  content: "";
 }
 
 /* line 290, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-flag-checkered:before {
-  content: "\f11e";
+  content: "";
 }
 
 /* line 291, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-terminal:before {
-  content: "\f120";
+  content: "";
 }
 
 /* line 292, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-code:before {
-  content: "\f121";
+  content: "";
 }
 
 /* line 293, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-mail-reply-all:before,
 .fa-reply-all:before {
-  content: "\f122";
+  content: "";
 }
 
 /* line 295, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-star-half-empty:before,
 .fa-star-half-full:before,
 .fa-star-half-o:before {
-  content: "\f123";
+  content: "";
 }
 
 /* line 298, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-location-arrow:before {
-  content: "\f124";
+  content: "";
 }
 
 /* line 299, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-crop:before {
-  content: "\f125";
+  content: "";
 }
 
 /* line 300, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-code-fork:before {
-  content: "\f126";
+  content: "";
 }
 
 /* line 301, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-unlink:before,
 .fa-chain-broken:before {
-  content: "\f127";
+  content: "";
 }
 
 /* line 303, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-question:before {
-  content: "\f128";
+  content: "";
 }
 
 /* line 304, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-info:before {
-  content: "\f129";
+  content: "";
 }
 
 /* line 305, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-exclamation:before {
-  content: "\f12a";
+  content: "";
 }
 
 /* line 306, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-superscript:before {
-  content: "\f12b";
+  content: "";
 }
 
 /* line 307, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-subscript:before {
-  content: "\f12c";
+  content: "";
 }
 
 /* line 308, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-eraser:before {
-  content: "\f12d";
+  content: "";
 }
 
 /* line 309, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-puzzle-piece:before {
-  content: "\f12e";
+  content: "";
 }
 
 /* line 310, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-microphone:before {
-  content: "\f130";
+  content: "";
 }
 
 /* line 311, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-microphone-slash:before {
-  content: "\f131";
+  content: "";
 }
 
 /* line 312, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-shield:before {
-  content: "\f132";
+  content: "";
 }
 
 /* line 313, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-calendar-o:before {
-  content: "\f133";
+  content: "";
 }
 
 /* line 314, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-fire-extinguisher:before {
-  content: "\f134";
+  content: "";
 }
 
 /* line 315, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-rocket:before {
-  content: "\f135";
+  content: "";
 }
 
 /* line 316, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-maxcdn:before {
-  content: "\f136";
+  content: "";
 }
 
 /* line 317, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-chevron-circle-left:before {
-  content: "\f137";
+  content: "";
 }
 
 /* line 318, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-chevron-circle-right:before {
-  content: "\f138";
+  content: "";
 }
 
 /* line 319, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-chevron-circle-up:before {
-  content: "\f139";
+  content: "";
 }
 
 /* line 320, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-chevron-circle-down:before {
-  content: "\f13a";
+  content: "";
 }
 
 /* line 321, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-html5:before {
-  content: "\f13b";
+  content: "";
 }
 
 /* line 322, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-css3:before {
-  content: "\f13c";
+  content: "";
 }
 
 /* line 323, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-anchor:before {
-  content: "\f13d";
+  content: "";
 }
 
 /* line 324, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-unlock-alt:before {
-  content: "\f13e";
+  content: "";
 }
 
 /* line 325, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bullseye:before {
-  content: "\f140";
+  content: "";
 }
 
 /* line 326, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-ellipsis-h:before {
-  content: "\f141";
+  content: "";
 }
 
 /* line 327, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-ellipsis-v:before {
-  content: "\f142";
+  content: "";
 }
 
 /* line 328, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-rss-square:before {
-  content: "\f143";
+  content: "";
 }
 
 /* line 329, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-play-circle:before {
-  content: "\f144";
+  content: "";
 }
 
 /* line 330, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-ticket:before {
-  content: "\f145";
+  content: "";
 }
 
 /* line 331, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-minus-square:before {
-  content: "\f146";
+  content: "";
 }
 
 /* line 332, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-minus-square-o:before {
-  content: "\f147";
+  content: "";
 }
 
 /* line 333, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-level-up:before {
-  content: "\f148";
+  content: "";
 }
 
 /* line 334, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-level-down:before {
-  content: "\f149";
+  content: "";
 }
 
 /* line 335, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-check-square:before {
-  content: "\f14a";
+  content: "";
 }
 
 /* line 336, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-pencil-square:before {
-  content: "\f14b";
+  content: "";
 }
 
 /* line 337, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-external-link-square:before {
-  content: "\f14c";
+  content: "";
 }
 
 /* line 338, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-share-square:before {
-  content: "\f14d";
+  content: "";
 }
 
 /* line 339, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-compass:before {
-  content: "\f14e";
+  content: "";
 }
 
 /* line 340, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-toggle-down:before,
 .fa-caret-square-o-down:before {
-  content: "\f150";
+  content: "";
 }
 
 /* line 342, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-toggle-up:before,
 .fa-caret-square-o-up:before {
-  content: "\f151";
+  content: "";
 }
 
 /* line 344, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-toggle-right:before,
 .fa-caret-square-o-right:before {
-  content: "\f152";
+  content: "";
 }
 
 /* line 346, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-euro:before,
 .fa-eur:before {
-  content: "\f153";
+  content: "";
 }
 
 /* line 348, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-gbp:before {
-  content: "\f154";
+  content: "";
 }
 
 /* line 349, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-dollar:before,
 .fa-usd:before {
-  content: "\f155";
+  content: "";
 }
 
 /* line 351, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-rupee:before,
 .fa-inr:before {
-  content: "\f156";
+  content: "";
 }
 
 /* line 353, ../bower_components/font-awesome/scss/_icons.scss */
@@ -1840,574 +1834,574 @@ All styles that are imported here will be compiled into css/style.css
 .fa-rmb:before,
 .fa-yen:before,
 .fa-jpy:before {
-  content: "\f157";
+  content: "";
 }
 
 /* line 357, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-ruble:before,
 .fa-rouble:before,
 .fa-rub:before {
-  content: "\f158";
+  content: "";
 }
 
 /* line 360, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-won:before,
 .fa-krw:before {
-  content: "\f159";
+  content: "";
 }
 
 /* line 362, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bitcoin:before,
 .fa-btc:before {
-  content: "\f15a";
+  content: "";
 }
 
 /* line 364, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-file:before {
-  content: "\f15b";
+  content: "";
 }
 
 /* line 365, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-file-text:before {
-  content: "\f15c";
+  content: "";
 }
 
 /* line 366, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-sort-alpha-asc:before {
-  content: "\f15d";
+  content: "";
 }
 
 /* line 367, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-sort-alpha-desc:before {
-  content: "\f15e";
+  content: "";
 }
 
 /* line 368, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-sort-amount-asc:before {
-  content: "\f160";
+  content: "";
 }
 
 /* line 369, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-sort-amount-desc:before {
-  content: "\f161";
+  content: "";
 }
 
 /* line 370, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-sort-numeric-asc:before {
-  content: "\f162";
+  content: "";
 }
 
 /* line 371, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-sort-numeric-desc:before {
-  content: "\f163";
+  content: "";
 }
 
 /* line 372, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-thumbs-up:before {
-  content: "\f164";
+  content: "";
 }
 
 /* line 373, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-thumbs-down:before {
-  content: "\f165";
+  content: "";
 }
 
 /* line 374, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-youtube-square:before {
-  content: "\f166";
+  content: "";
 }
 
 /* line 375, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-youtube:before {
-  content: "\f167";
+  content: "";
 }
 
 /* line 376, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-xing:before {
-  content: "\f168";
+  content: "";
 }
 
 /* line 377, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-xing-square:before {
-  content: "\f169";
+  content: "";
 }
 
 /* line 378, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-youtube-play:before {
-  content: "\f16a";
+  content: "";
 }
 
 /* line 379, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-dropbox:before {
-  content: "\f16b";
+  content: "";
 }
 
 /* line 380, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-stack-overflow:before {
-  content: "\f16c";
+  content: "";
 }
 
 /* line 381, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-instagram:before {
-  content: "\f16d";
+  content: "";
 }
 
 /* line 382, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-flickr:before {
-  content: "\f16e";
+  content: "";
 }
 
 /* line 383, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-adn:before {
-  content: "\f170";
+  content: "";
 }
 
 /* line 384, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bitbucket:before {
-  content: "\f171";
+  content: "";
 }
 
 /* line 385, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bitbucket-square:before {
-  content: "\f172";
+  content: "";
 }
 
 /* line 386, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-tumblr:before {
-  content: "\f173";
+  content: "";
 }
 
 /* line 387, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-tumblr-square:before {
-  content: "\f174";
+  content: "";
 }
 
 /* line 388, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-long-arrow-down:before {
-  content: "\f175";
+  content: "";
 }
 
 /* line 389, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-long-arrow-up:before {
-  content: "\f176";
+  content: "";
 }
 
 /* line 390, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-long-arrow-left:before {
-  content: "\f177";
+  content: "";
 }
 
 /* line 391, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-long-arrow-right:before {
-  content: "\f178";
+  content: "";
 }
 
 /* line 392, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-apple:before {
-  content: "\f179";
+  content: "";
 }
 
 /* line 393, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-windows:before {
-  content: "\f17a";
+  content: "";
 }
 
 /* line 394, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-android:before {
-  content: "\f17b";
+  content: "";
 }
 
 /* line 395, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-linux:before {
-  content: "\f17c";
+  content: "";
 }
 
 /* line 396, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-dribbble:before {
-  content: "\f17d";
+  content: "";
 }
 
 /* line 397, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-skype:before {
-  content: "\f17e";
+  content: "";
 }
 
 /* line 398, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-foursquare:before {
-  content: "\f180";
+  content: "";
 }
 
 /* line 399, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-trello:before {
-  content: "\f181";
+  content: "";
 }
 
 /* line 400, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-female:before {
-  content: "\f182";
+  content: "";
 }
 
 /* line 401, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-male:before {
-  content: "\f183";
+  content: "";
 }
 
 /* line 402, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-gittip:before,
 .fa-gratipay:before {
-  content: "\f184";
+  content: "";
 }
 
 /* line 404, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-sun-o:before {
-  content: "\f185";
+  content: "";
 }
 
 /* line 405, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-moon-o:before {
-  content: "\f186";
+  content: "";
 }
 
 /* line 406, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-archive:before {
-  content: "\f187";
+  content: "";
 }
 
 /* line 407, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bug:before {
-  content: "\f188";
+  content: "";
 }
 
 /* line 408, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-vk:before {
-  content: "\f189";
+  content: "";
 }
 
 /* line 409, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-weibo:before {
-  content: "\f18a";
+  content: "";
 }
 
 /* line 410, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-renren:before {
-  content: "\f18b";
+  content: "";
 }
 
 /* line 411, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-pagelines:before {
-  content: "\f18c";
+  content: "";
 }
 
 /* line 412, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-stack-exchange:before {
-  content: "\f18d";
+  content: "";
 }
 
 /* line 413, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-arrow-circle-o-right:before {
-  content: "\f18e";
+  content: "";
 }
 
 /* line 414, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-arrow-circle-o-left:before {
-  content: "\f190";
+  content: "";
 }
 
 /* line 415, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-toggle-left:before,
 .fa-caret-square-o-left:before {
-  content: "\f191";
+  content: "";
 }
 
 /* line 417, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-dot-circle-o:before {
-  content: "\f192";
+  content: "";
 }
 
 /* line 418, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-wheelchair:before {
-  content: "\f193";
+  content: "";
 }
 
 /* line 419, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-vimeo-square:before {
-  content: "\f194";
+  content: "";
 }
 
 /* line 420, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-turkish-lira:before,
 .fa-try:before {
-  content: "\f195";
+  content: "";
 }
 
 /* line 422, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-plus-square-o:before {
-  content: "\f196";
+  content: "";
 }
 
 /* line 423, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-space-shuttle:before {
-  content: "\f197";
+  content: "";
 }
 
 /* line 424, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-slack:before {
-  content: "\f198";
+  content: "";
 }
 
 /* line 425, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-envelope-square:before {
-  content: "\f199";
+  content: "";
 }
 
 /* line 426, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-wordpress:before {
-  content: "\f19a";
+  content: "";
 }
 
 /* line 427, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-openid:before {
-  content: "\f19b";
+  content: "";
 }
 
 /* line 428, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-institution:before,
 .fa-bank:before,
 .fa-university:before {
-  content: "\f19c";
+  content: "";
 }
 
 /* line 431, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-mortar-board:before,
 .fa-graduation-cap:before {
-  content: "\f19d";
+  content: "";
 }
 
 /* line 433, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-yahoo:before {
-  content: "\f19e";
+  content: "";
 }
 
 /* line 434, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-google:before {
-  content: "\f1a0";
+  content: "";
 }
 
 /* line 435, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-reddit:before {
-  content: "\f1a1";
+  content: "";
 }
 
 /* line 436, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-reddit-square:before {
-  content: "\f1a2";
+  content: "";
 }
 
 /* line 437, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-stumbleupon-circle:before {
-  content: "\f1a3";
+  content: "";
 }
 
 /* line 438, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-stumbleupon:before {
-  content: "\f1a4";
+  content: "";
 }
 
 /* line 439, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-delicious:before {
-  content: "\f1a5";
+  content: "";
 }
 
 /* line 440, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-digg:before {
-  content: "\f1a6";
+  content: "";
 }
 
 /* line 441, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-pied-piper-pp:before {
-  content: "\f1a7";
+  content: "";
 }
 
 /* line 442, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-pied-piper-alt:before {
-  content: "\f1a8";
+  content: "";
 }
 
 /* line 443, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-drupal:before {
-  content: "\f1a9";
+  content: "";
 }
 
 /* line 444, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-joomla:before {
-  content: "\f1aa";
+  content: "";
 }
 
 /* line 445, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-language:before {
-  content: "\f1ab";
+  content: "";
 }
 
 /* line 446, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-fax:before {
-  content: "\f1ac";
+  content: "";
 }
 
 /* line 447, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-building:before {
-  content: "\f1ad";
+  content: "";
 }
 
 /* line 448, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-child:before {
-  content: "\f1ae";
+  content: "";
 }
 
 /* line 449, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-paw:before {
-  content: "\f1b0";
+  content: "";
 }
 
 /* line 450, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-spoon:before {
-  content: "\f1b1";
+  content: "";
 }
 
 /* line 451, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cube:before {
-  content: "\f1b2";
+  content: "";
 }
 
 /* line 452, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cubes:before {
-  content: "\f1b3";
+  content: "";
 }
 
 /* line 453, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-behance:before {
-  content: "\f1b4";
+  content: "";
 }
 
 /* line 454, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-behance-square:before {
-  content: "\f1b5";
+  content: "";
 }
 
 /* line 455, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-steam:before {
-  content: "\f1b6";
+  content: "";
 }
 
 /* line 456, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-steam-square:before {
-  content: "\f1b7";
+  content: "";
 }
 
 /* line 457, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-recycle:before {
-  content: "\f1b8";
+  content: "";
 }
 
 /* line 458, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-automobile:before,
 .fa-car:before {
-  content: "\f1b9";
+  content: "";
 }
 
 /* line 460, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cab:before,
 .fa-taxi:before {
-  content: "\f1ba";
+  content: "";
 }
 
 /* line 462, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-tree:before {
-  content: "\f1bb";
+  content: "";
 }
 
 /* line 463, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-spotify:before {
-  content: "\f1bc";
+  content: "";
 }
 
 /* line 464, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-deviantart:before {
-  content: "\f1bd";
+  content: "";
 }
 
 /* line 465, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-soundcloud:before {
-  content: "\f1be";
+  content: "";
 }
 
 /* line 466, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-database:before {
-  content: "\f1c0";
+  content: "";
 }
 
 /* line 467, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-file-pdf-o:before {
-  content: "\f1c1";
+  content: "";
 }
 
 /* line 468, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-file-word-o:before {
-  content: "\f1c2";
+  content: "";
 }
 
 /* line 469, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-file-excel-o:before {
-  content: "\f1c3";
+  content: "";
 }
 
 /* line 470, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-file-powerpoint-o:before {
-  content: "\f1c4";
+  content: "";
 }
 
 /* line 471, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-file-photo-o:before,
 .fa-file-picture-o:before,
 .fa-file-image-o:before {
-  content: "\f1c5";
+  content: "";
 }
 
 /* line 474, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-file-zip-o:before,
 .fa-file-archive-o:before {
-  content: "\f1c6";
+  content: "";
 }
 
 /* line 476, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-file-sound-o:before,
 .fa-file-audio-o:before {
-  content: "\f1c7";
+  content: "";
 }
 
 /* line 478, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-file-movie-o:before,
 .fa-file-video-o:before {
-  content: "\f1c8";
+  content: "";
 }
 
 /* line 480, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-file-code-o:before {
-  content: "\f1c9";
+  content: "";
 }
 
 /* line 481, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-vine:before {
-  content: "\f1ca";
+  content: "";
 }
 
 /* line 482, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-codepen:before {
-  content: "\f1cb";
+  content: "";
 }
 
 /* line 483, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-jsfiddle:before {
-  content: "\f1cc";
+  content: "";
 }
 
 /* line 484, ../bower_components/font-awesome/scss/_icons.scss */
@@ -2416,1108 +2410,1108 @@ All styles that are imported here will be compiled into css/style.css
 .fa-life-saver:before,
 .fa-support:before,
 .fa-life-ring:before {
-  content: "\f1cd";
+  content: "";
 }
 
 /* line 489, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-circle-o-notch:before {
-  content: "\f1ce";
+  content: "";
 }
 
 /* line 490, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-ra:before,
 .fa-resistance:before,
 .fa-rebel:before {
-  content: "\f1d0";
+  content: "";
 }
 
 /* line 493, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-ge:before,
 .fa-empire:before {
-  content: "\f1d1";
+  content: "";
 }
 
 /* line 495, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-git-square:before {
-  content: "\f1d2";
+  content: "";
 }
 
 /* line 496, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-git:before {
-  content: "\f1d3";
+  content: "";
 }
 
 /* line 497, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-y-combinator-square:before,
 .fa-yc-square:before,
 .fa-hacker-news:before {
-  content: "\f1d4";
+  content: "";
 }
 
 /* line 500, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-tencent-weibo:before {
-  content: "\f1d5";
+  content: "";
 }
 
 /* line 501, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-qq:before {
-  content: "\f1d6";
+  content: "";
 }
 
 /* line 502, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-wechat:before,
 .fa-weixin:before {
-  content: "\f1d7";
+  content: "";
 }
 
 /* line 504, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-send:before,
 .fa-paper-plane:before {
-  content: "\f1d8";
+  content: "";
 }
 
 /* line 506, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-send-o:before,
 .fa-paper-plane-o:before {
-  content: "\f1d9";
+  content: "";
 }
 
 /* line 508, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-history:before {
-  content: "\f1da";
+  content: "";
 }
 
 /* line 509, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-circle-thin:before {
-  content: "\f1db";
+  content: "";
 }
 
 /* line 510, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-header:before {
-  content: "\f1dc";
+  content: "";
 }
 
 /* line 511, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-paragraph:before {
-  content: "\f1dd";
+  content: "";
 }
 
 /* line 512, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-sliders:before {
-  content: "\f1de";
+  content: "";
 }
 
 /* line 513, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-share-alt:before {
-  content: "\f1e0";
+  content: "";
 }
 
 /* line 514, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-share-alt-square:before {
-  content: "\f1e1";
+  content: "";
 }
 
 /* line 515, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bomb:before {
-  content: "\f1e2";
+  content: "";
 }
 
 /* line 516, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-soccer-ball-o:before,
 .fa-futbol-o:before {
-  content: "\f1e3";
+  content: "";
 }
 
 /* line 518, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-tty:before {
-  content: "\f1e4";
+  content: "";
 }
 
 /* line 519, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-binoculars:before {
-  content: "\f1e5";
+  content: "";
 }
 
 /* line 520, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-plug:before {
-  content: "\f1e6";
+  content: "";
 }
 
 /* line 521, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-slideshare:before {
-  content: "\f1e7";
+  content: "";
 }
 
 /* line 522, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-twitch:before {
-  content: "\f1e8";
+  content: "";
 }
 
 /* line 523, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-yelp:before {
-  content: "\f1e9";
+  content: "";
 }
 
 /* line 524, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-newspaper-o:before {
-  content: "\f1ea";
+  content: "";
 }
 
 /* line 525, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-wifi:before {
-  content: "\f1eb";
+  content: "";
 }
 
 /* line 526, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-calculator:before {
-  content: "\f1ec";
+  content: "";
 }
 
 /* line 527, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-paypal:before {
-  content: "\f1ed";
+  content: "";
 }
 
 /* line 528, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-google-wallet:before {
-  content: "\f1ee";
+  content: "";
 }
 
 /* line 529, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cc-visa:before {
-  content: "\f1f0";
+  content: "";
 }
 
 /* line 530, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cc-mastercard:before {
-  content: "\f1f1";
+  content: "";
 }
 
 /* line 531, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cc-discover:before {
-  content: "\f1f2";
+  content: "";
 }
 
 /* line 532, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cc-amex:before {
-  content: "\f1f3";
+  content: "";
 }
 
 /* line 533, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cc-paypal:before {
-  content: "\f1f4";
+  content: "";
 }
 
 /* line 534, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cc-stripe:before {
-  content: "\f1f5";
+  content: "";
 }
 
 /* line 535, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bell-slash:before {
-  content: "\f1f6";
+  content: "";
 }
 
 /* line 536, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bell-slash-o:before {
-  content: "\f1f7";
+  content: "";
 }
 
 /* line 537, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-trash:before {
-  content: "\f1f8";
+  content: "";
 }
 
 /* line 538, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-copyright:before {
-  content: "\f1f9";
+  content: "";
 }
 
 /* line 539, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-at:before {
-  content: "\f1fa";
+  content: "";
 }
 
 /* line 540, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-eyedropper:before {
-  content: "\f1fb";
+  content: "";
 }
 
 /* line 541, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-paint-brush:before {
-  content: "\f1fc";
+  content: "";
 }
 
 /* line 542, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-birthday-cake:before {
-  content: "\f1fd";
+  content: "";
 }
 
 /* line 543, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-area-chart:before {
-  content: "\f1fe";
+  content: "";
 }
 
 /* line 544, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-pie-chart:before {
-  content: "\f200";
+  content: "";
 }
 
 /* line 545, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-line-chart:before {
-  content: "\f201";
+  content: "";
 }
 
 /* line 546, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-lastfm:before {
-  content: "\f202";
+  content: "";
 }
 
 /* line 547, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-lastfm-square:before {
-  content: "\f203";
+  content: "";
 }
 
 /* line 548, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-toggle-off:before {
-  content: "\f204";
+  content: "";
 }
 
 /* line 549, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-toggle-on:before {
-  content: "\f205";
+  content: "";
 }
 
 /* line 550, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bicycle:before {
-  content: "\f206";
+  content: "";
 }
 
 /* line 551, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bus:before {
-  content: "\f207";
+  content: "";
 }
 
 /* line 552, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-ioxhost:before {
-  content: "\f208";
+  content: "";
 }
 
 /* line 553, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-angellist:before {
-  content: "\f209";
+  content: "";
 }
 
 /* line 554, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cc:before {
-  content: "\f20a";
+  content: "";
 }
 
 /* line 555, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-shekel:before,
 .fa-sheqel:before,
 .fa-ils:before {
-  content: "\f20b";
+  content: "";
 }
 
 /* line 558, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-meanpath:before {
-  content: "\f20c";
+  content: "";
 }
 
 /* line 559, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-buysellads:before {
-  content: "\f20d";
+  content: "";
 }
 
 /* line 560, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-connectdevelop:before {
-  content: "\f20e";
+  content: "";
 }
 
 /* line 561, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-dashcube:before {
-  content: "\f210";
+  content: "";
 }
 
 /* line 562, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-forumbee:before {
-  content: "\f211";
+  content: "";
 }
 
 /* line 563, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-leanpub:before {
-  content: "\f212";
+  content: "";
 }
 
 /* line 564, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-sellsy:before {
-  content: "\f213";
+  content: "";
 }
 
 /* line 565, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-shirtsinbulk:before {
-  content: "\f214";
+  content: "";
 }
 
 /* line 566, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-simplybuilt:before {
-  content: "\f215";
+  content: "";
 }
 
 /* line 567, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-skyatlas:before {
-  content: "\f216";
+  content: "";
 }
 
 /* line 568, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cart-plus:before {
-  content: "\f217";
+  content: "";
 }
 
 /* line 569, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cart-arrow-down:before {
-  content: "\f218";
+  content: "";
 }
 
 /* line 570, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-diamond:before {
-  content: "\f219";
+  content: "";
 }
 
 /* line 571, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-ship:before {
-  content: "\f21a";
+  content: "";
 }
 
 /* line 572, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-user-secret:before {
-  content: "\f21b";
+  content: "";
 }
 
 /* line 573, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-motorcycle:before {
-  content: "\f21c";
+  content: "";
 }
 
 /* line 574, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-street-view:before {
-  content: "\f21d";
+  content: "";
 }
 
 /* line 575, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-heartbeat:before {
-  content: "\f21e";
+  content: "";
 }
 
 /* line 576, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-venus:before {
-  content: "\f221";
+  content: "";
 }
 
 /* line 577, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-mars:before {
-  content: "\f222";
+  content: "";
 }
 
 /* line 578, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-mercury:before {
-  content: "\f223";
+  content: "";
 }
 
 /* line 579, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-intersex:before,
 .fa-transgender:before {
-  content: "\f224";
+  content: "";
 }
 
 /* line 581, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-transgender-alt:before {
-  content: "\f225";
+  content: "";
 }
 
 /* line 582, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-venus-double:before {
-  content: "\f226";
+  content: "";
 }
 
 /* line 583, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-mars-double:before {
-  content: "\f227";
+  content: "";
 }
 
 /* line 584, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-venus-mars:before {
-  content: "\f228";
+  content: "";
 }
 
 /* line 585, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-mars-stroke:before {
-  content: "\f229";
+  content: "";
 }
 
 /* line 586, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-mars-stroke-v:before {
-  content: "\f22a";
+  content: "";
 }
 
 /* line 587, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-mars-stroke-h:before {
-  content: "\f22b";
+  content: "";
 }
 
 /* line 588, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-neuter:before {
-  content: "\f22c";
+  content: "";
 }
 
 /* line 589, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-genderless:before {
-  content: "\f22d";
+  content: "";
 }
 
 /* line 590, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-facebook-official:before {
-  content: "\f230";
+  content: "";
 }
 
 /* line 591, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-pinterest-p:before {
-  content: "\f231";
+  content: "";
 }
 
 /* line 592, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-whatsapp:before {
-  content: "\f232";
+  content: "";
 }
 
 /* line 593, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-server:before {
-  content: "\f233";
+  content: "";
 }
 
 /* line 594, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-user-plus:before {
-  content: "\f234";
+  content: "";
 }
 
 /* line 595, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-user-times:before {
-  content: "\f235";
+  content: "";
 }
 
 /* line 596, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hotel:before,
 .fa-bed:before {
-  content: "\f236";
+  content: "";
 }
 
 /* line 598, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-viacoin:before {
-  content: "\f237";
+  content: "";
 }
 
 /* line 599, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-train:before {
-  content: "\f238";
+  content: "";
 }
 
 /* line 600, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-subway:before {
-  content: "\f239";
+  content: "";
 }
 
 /* line 601, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-medium:before {
-  content: "\f23a";
+  content: "";
 }
 
 /* line 602, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-yc:before,
 .fa-y-combinator:before {
-  content: "\f23b";
+  content: "";
 }
 
 /* line 604, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-optin-monster:before {
-  content: "\f23c";
+  content: "";
 }
 
 /* line 605, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-opencart:before {
-  content: "\f23d";
+  content: "";
 }
 
 /* line 606, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-expeditedssl:before {
-  content: "\f23e";
+  content: "";
 }
 
 /* line 607, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-battery-4:before,
 .fa-battery-full:before {
-  content: "\f240";
+  content: "";
 }
 
 /* line 609, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-battery-3:before,
 .fa-battery-three-quarters:before {
-  content: "\f241";
+  content: "";
 }
 
 /* line 611, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-battery-2:before,
 .fa-battery-half:before {
-  content: "\f242";
+  content: "";
 }
 
 /* line 613, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-battery-1:before,
 .fa-battery-quarter:before {
-  content: "\f243";
+  content: "";
 }
 
 /* line 615, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-battery-0:before,
 .fa-battery-empty:before {
-  content: "\f244";
+  content: "";
 }
 
 /* line 617, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-mouse-pointer:before {
-  content: "\f245";
+  content: "";
 }
 
 /* line 618, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-i-cursor:before {
-  content: "\f246";
+  content: "";
 }
 
 /* line 619, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-object-group:before {
-  content: "\f247";
+  content: "";
 }
 
 /* line 620, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-object-ungroup:before {
-  content: "\f248";
+  content: "";
 }
 
 /* line 621, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-sticky-note:before {
-  content: "\f249";
+  content: "";
 }
 
 /* line 622, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-sticky-note-o:before {
-  content: "\f24a";
+  content: "";
 }
 
 /* line 623, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cc-jcb:before {
-  content: "\f24b";
+  content: "";
 }
 
 /* line 624, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-cc-diners-club:before {
-  content: "\f24c";
+  content: "";
 }
 
 /* line 625, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-clone:before {
-  content: "\f24d";
+  content: "";
 }
 
 /* line 626, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-balance-scale:before {
-  content: "\f24e";
+  content: "";
 }
 
 /* line 627, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hourglass-o:before {
-  content: "\f250";
+  content: "";
 }
 
 /* line 628, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hourglass-1:before,
 .fa-hourglass-start:before {
-  content: "\f251";
+  content: "";
 }
 
 /* line 630, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hourglass-2:before,
 .fa-hourglass-half:before {
-  content: "\f252";
+  content: "";
 }
 
 /* line 632, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hourglass-3:before,
 .fa-hourglass-end:before {
-  content: "\f253";
+  content: "";
 }
 
 /* line 634, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hourglass:before {
-  content: "\f254";
+  content: "";
 }
 
 /* line 635, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hand-grab-o:before,
 .fa-hand-rock-o:before {
-  content: "\f255";
+  content: "";
 }
 
 /* line 637, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hand-stop-o:before,
 .fa-hand-paper-o:before {
-  content: "\f256";
+  content: "";
 }
 
 /* line 639, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hand-scissors-o:before {
-  content: "\f257";
+  content: "";
 }
 
 /* line 640, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hand-lizard-o:before {
-  content: "\f258";
+  content: "";
 }
 
 /* line 641, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hand-spock-o:before {
-  content: "\f259";
+  content: "";
 }
 
 /* line 642, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hand-pointer-o:before {
-  content: "\f25a";
+  content: "";
 }
 
 /* line 643, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hand-peace-o:before {
-  content: "\f25b";
+  content: "";
 }
 
 /* line 644, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-trademark:before {
-  content: "\f25c";
+  content: "";
 }
 
 /* line 645, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-registered:before {
-  content: "\f25d";
+  content: "";
 }
 
 /* line 646, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-creative-commons:before {
-  content: "\f25e";
+  content: "";
 }
 
 /* line 647, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-gg:before {
-  content: "\f260";
+  content: "";
 }
 
 /* line 648, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-gg-circle:before {
-  content: "\f261";
+  content: "";
 }
 
 /* line 649, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-tripadvisor:before {
-  content: "\f262";
+  content: "";
 }
 
 /* line 650, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-odnoklassniki:before {
-  content: "\f263";
+  content: "";
 }
 
 /* line 651, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-odnoklassniki-square:before {
-  content: "\f264";
+  content: "";
 }
 
 /* line 652, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-get-pocket:before {
-  content: "\f265";
+  content: "";
 }
 
 /* line 653, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-wikipedia-w:before {
-  content: "\f266";
+  content: "";
 }
 
 /* line 654, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-safari:before {
-  content: "\f267";
+  content: "";
 }
 
 /* line 655, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-chrome:before {
-  content: "\f268";
+  content: "";
 }
 
 /* line 656, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-firefox:before {
-  content: "\f269";
+  content: "";
 }
 
 /* line 657, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-opera:before {
-  content: "\f26a";
+  content: "";
 }
 
 /* line 658, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-internet-explorer:before {
-  content: "\f26b";
+  content: "";
 }
 
 /* line 659, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-tv:before,
 .fa-television:before {
-  content: "\f26c";
+  content: "";
 }
 
 /* line 661, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-contao:before {
-  content: "\f26d";
+  content: "";
 }
 
 /* line 662, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-500px:before {
-  content: "\f26e";
+  content: "";
 }
 
 /* line 663, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-amazon:before {
-  content: "\f270";
+  content: "";
 }
 
 /* line 664, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-calendar-plus-o:before {
-  content: "\f271";
+  content: "";
 }
 
 /* line 665, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-calendar-minus-o:before {
-  content: "\f272";
+  content: "";
 }
 
 /* line 666, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-calendar-times-o:before {
-  content: "\f273";
+  content: "";
 }
 
 /* line 667, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-calendar-check-o:before {
-  content: "\f274";
+  content: "";
 }
 
 /* line 668, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-industry:before {
-  content: "\f275";
+  content: "";
 }
 
 /* line 669, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-map-pin:before {
-  content: "\f276";
+  content: "";
 }
 
 /* line 670, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-map-signs:before {
-  content: "\f277";
+  content: "";
 }
 
 /* line 671, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-map-o:before {
-  content: "\f278";
+  content: "";
 }
 
 /* line 672, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-map:before {
-  content: "\f279";
+  content: "";
 }
 
 /* line 673, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-commenting:before {
-  content: "\f27a";
+  content: "";
 }
 
 /* line 674, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-commenting-o:before {
-  content: "\f27b";
+  content: "";
 }
 
 /* line 675, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-houzz:before {
-  content: "\f27c";
+  content: "";
 }
 
 /* line 676, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-vimeo:before {
-  content: "\f27d";
+  content: "";
 }
 
 /* line 677, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-black-tie:before {
-  content: "\f27e";
+  content: "";
 }
 
 /* line 678, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-fonticons:before {
-  content: "\f280";
+  content: "";
 }
 
 /* line 679, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-reddit-alien:before {
-  content: "\f281";
+  content: "";
 }
 
 /* line 680, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-edge:before {
-  content: "\f282";
+  content: "";
 }
 
 /* line 681, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-credit-card-alt:before {
-  content: "\f283";
+  content: "";
 }
 
 /* line 682, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-codiepie:before {
-  content: "\f284";
+  content: "";
 }
 
 /* line 683, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-modx:before {
-  content: "\f285";
+  content: "";
 }
 
 /* line 684, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-fort-awesome:before {
-  content: "\f286";
+  content: "";
 }
 
 /* line 685, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-usb:before {
-  content: "\f287";
+  content: "";
 }
 
 /* line 686, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-product-hunt:before {
-  content: "\f288";
+  content: "";
 }
 
 /* line 687, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-mixcloud:before {
-  content: "\f289";
+  content: "";
 }
 
 /* line 688, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-scribd:before {
-  content: "\f28a";
+  content: "";
 }
 
 /* line 689, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-pause-circle:before {
-  content: "\f28b";
+  content: "";
 }
 
 /* line 690, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-pause-circle-o:before {
-  content: "\f28c";
+  content: "";
 }
 
 /* line 691, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-stop-circle:before {
-  content: "\f28d";
+  content: "";
 }
 
 /* line 692, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-stop-circle-o:before {
-  content: "\f28e";
+  content: "";
 }
 
 /* line 693, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-shopping-bag:before {
-  content: "\f290";
+  content: "";
 }
 
 /* line 694, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-shopping-basket:before {
-  content: "\f291";
+  content: "";
 }
 
 /* line 695, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-hashtag:before {
-  content: "\f292";
+  content: "";
 }
 
 /* line 696, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bluetooth:before {
-  content: "\f293";
+  content: "";
 }
 
 /* line 697, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-bluetooth-b:before {
-  content: "\f294";
+  content: "";
 }
 
 /* line 698, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-percent:before {
-  content: "\f295";
+  content: "";
 }
 
 /* line 699, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-gitlab:before {
-  content: "\f296";
+  content: "";
 }
 
 /* line 700, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-wpbeginner:before {
-  content: "\f297";
+  content: "";
 }
 
 /* line 701, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-wpforms:before {
-  content: "\f298";
+  content: "";
 }
 
 /* line 702, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-envira:before {
-  content: "\f299";
+  content: "";
 }
 
 /* line 703, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-universal-access:before {
-  content: "\f29a";
+  content: "";
 }
 
 /* line 704, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-wheelchair-alt:before {
-  content: "\f29b";
+  content: "";
 }
 
 /* line 705, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-question-circle-o:before {
-  content: "\f29c";
+  content: "";
 }
 
 /* line 706, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-blind:before {
-  content: "\f29d";
+  content: "";
 }
 
 /* line 707, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-audio-description:before {
-  content: "\f29e";
+  content: "";
 }
 
 /* line 708, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-volume-control-phone:before {
-  content: "\f2a0";
+  content: "";
 }
 
 /* line 709, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-braille:before {
-  content: "\f2a1";
+  content: "";
 }
 
 /* line 710, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-assistive-listening-systems:before {
-  content: "\f2a2";
+  content: "";
 }
 
 /* line 711, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-asl-interpreting:before,
 .fa-american-sign-language-interpreting:before {
-  content: "\f2a3";
+  content: "";
 }
 
 /* line 713, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-deafness:before,
 .fa-hard-of-hearing:before,
 .fa-deaf:before {
-  content: "\f2a4";
+  content: "";
 }
 
 /* line 716, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-glide:before {
-  content: "\f2a5";
+  content: "";
 }
 
 /* line 717, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-glide-g:before {
-  content: "\f2a6";
+  content: "";
 }
 
 /* line 718, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-signing:before,
 .fa-sign-language:before {
-  content: "\f2a7";
+  content: "";
 }
 
 /* line 720, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-low-vision:before {
-  content: "\f2a8";
+  content: "";
 }
 
 /* line 721, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-viadeo:before {
-  content: "\f2a9";
+  content: "";
 }
 
 /* line 722, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-viadeo-square:before {
-  content: "\f2aa";
+  content: "";
 }
 
 /* line 723, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-snapchat:before {
-  content: "\f2ab";
+  content: "";
 }
 
 /* line 724, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-snapchat-ghost:before {
-  content: "\f2ac";
+  content: "";
 }
 
 /* line 725, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-snapchat-square:before {
-  content: "\f2ad";
+  content: "";
 }
 
 /* line 726, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-pied-piper:before {
-  content: "\f2ae";
+  content: "";
 }
 
 /* line 727, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-first-order:before {
-  content: "\f2b0";
+  content: "";
 }
 
 /* line 728, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-yoast:before {
-  content: "\f2b1";
+  content: "";
 }
 
 /* line 729, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-themeisle:before {
-  content: "\f2b2";
+  content: "";
 }
 
 /* line 730, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-google-plus-circle:before,
 .fa-google-plus-official:before {
-  content: "\f2b3";
+  content: "";
 }
 
 /* line 732, ../bower_components/font-awesome/scss/_icons.scss */
 .fa-fa:before,
 .fa-font-awesome:before {
-  content: "\f2b4";
+  content: "";
 }
 
 /* line 4, ../bower_components/font-awesome/scss/_screen-reader.scss */
@@ -3605,22 +3599,22 @@ $bp--small-down: max-width $width-medium - 1;*/
 
 /* line 43, ../scss/global/variables/_colors.scss */
 .light-blue-text {
-  color: #007cbe;
+  color: #007CBE;
 }
 
 /* line 47, ../scss/global/variables/_colors.scss */
 .light-blue-bg {
-  background-color: #007cbe;
+  background-color: #007CBE;
 }
 
 /* line 43, ../scss/global/variables/_colors.scss */
 .yellow-green-text {
-  color: #6ea400;
+  color: #6EA400;
 }
 
 /* line 47, ../scss/global/variables/_colors.scss */
 .yellow-green-bg {
-  background-color: #6ea400;
+  background-color: #6EA400;
 }
 
 /* line 43, ../scss/global/variables/_colors.scss */
@@ -3635,22 +3629,22 @@ $bp--small-down: max-width $width-medium - 1;*/
 
 /* line 43, ../scss/global/variables/_colors.scss */
 .orange-text {
-  color: #f26d04;
+  color: #F26D04;
 }
 
 /* line 47, ../scss/global/variables/_colors.scss */
 .orange-bg {
-  background-color: #f26d04;
+  background-color: #F26D04;
 }
 
 /* line 43, ../scss/global/variables/_colors.scss */
 .light-gray-text {
-  color: #f1f1f1;
+  color: #F1F1F1;
 }
 
 /* line 47, ../scss/global/variables/_colors.scss */
 .light-gray-bg {
-  background-color: #f1f1f1;
+  background-color: #F1F1F1;
 }
 
 /* line 43, ../scss/global/variables/_colors.scss */
@@ -3665,12 +3659,12 @@ $bp--small-down: max-width $width-medium - 1;*/
 
 /* line 43, ../scss/global/variables/_colors.scss */
 .black-text {
-  color: black;
+  color: #000000;
 }
 
 /* line 47, ../scss/global/variables/_colors.scss */
 .black-bg {
-  background-color: black;
+  background-color: #000000;
 }
 
 /* line 43, ../scss/global/variables/_colors.scss */
@@ -3685,22 +3679,22 @@ $bp--small-down: max-width $width-medium - 1;*/
 
 /* line 43, ../scss/global/variables/_colors.scss */
 .white-text {
-  color: white;
+  color: #FFFFFF;
 }
 
 /* line 47, ../scss/global/variables/_colors.scss */
 .white-bg {
-  background-color: white;
+  background-color: #FFFFFF;
 }
 
 /* line 43, ../scss/global/variables/_colors.scss */
 .dark-gray-text {
-  color: #b4b9bf;
+  color: #B4B9BF;
 }
 
 /* line 47, ../scss/global/variables/_colors.scss */
 .dark-gray-bg {
-  background-color: #b4b9bf;
+  background-color: #B4B9BF;
 }
 
 /* line 43, ../scss/global/variables/_colors.scss */
@@ -3827,45 +3821,33 @@ $font-header: $helvetica, $default-font;
 
 */
 @-webkit-keyframes slideFromLeft {
-  /* line 2, ../scss/global/variables/_animations.scss */
   0% {
     left: -20px;
   }
-
-  /* line 5, ../scss/global/variables/_animations.scss */
   100% {
     left: 0;
   }
 }
 @-moz-keyframes slideFromLeft {
-  /* line 2, ../scss/global/variables/_animations.scss */
   0% {
     left: -20px;
   }
-
-  /* line 5, ../scss/global/variables/_animations.scss */
   100% {
     left: 0;
   }
 }
 @-o-keyframes slideFromLeft {
-  /* line 2, ../scss/global/variables/_animations.scss */
   0% {
     left: -20px;
   }
-
-  /* line 5, ../scss/global/variables/_animations.scss */
   100% {
     left: 0;
   }
 }
 @keyframes slideFromLeft {
-  /* line 2, ../scss/global/variables/_animations.scss */
   0% {
     left: -20px;
   }
-
-  /* line 5, ../scss/global/variables/_animations.scss */
   100% {
     left: 0;
   }
@@ -4957,7 +4939,7 @@ $font-header: $helvetica, $default-font;
   font-stretch: normal;
   text-align: center;
   line-height: 1;
-  color: white;
+  color: #FFFFFF;
   padding: 16px;
   border: none;
   outline: none;
@@ -4975,28 +4957,28 @@ $font-header: $helvetica, $default-font;
 }
 /* line 22, ../scss/base/_btn.scss */
 .btn.btn--primary {
-  background-color: #f26d04;
+  background-color: #F26D04;
   padding: 18.5px 15px;
   text-decoration: none;
 }
 /* line 26, ../scss/base/_btn.scss */
 .btn.btn--primary:hover {
-  background-color: #d45e00;
+  background-color: #D45E00;
 }
 /* line 30, ../scss/base/_btn.scss */
 .btn.btn--primary-small {
-  background-color: #f26d04;
+  background-color: #F26D04;
   padding: 12px 15px;
   font-size: 15px;
   text-decoration: none;
 }
 /* line 35, ../scss/base/_btn.scss */
 .btn.btn--primary-small:hover {
-  background-color: #d45e00;
+  background-color: #D45E00;
 }
 /* line 39, ../scss/base/_btn.scss */
 .btn.btn--secondary {
-  background-color: #007cbe;
+  background-color: #007CBE;
 }
 /* line 41, ../scss/base/_btn.scss */
 .btn.btn--secondary:hover {
@@ -5004,7 +4986,7 @@ $font-header: $helvetica, $default-font;
 }
 /* line 45, ../scss/base/_btn.scss */
 .btn.btn--with-icon {
-  background-color: #f26d04;
+  background-color: #F26D04;
 }
 /* line 47, ../scss/base/_btn.scss */
 .btn.btn--with-icon i {
@@ -5013,11 +4995,11 @@ $font-header: $helvetica, $default-font;
 }
 /* line 51, ../scss/base/_btn.scss */
 .btn.btn--with-icon:hover {
-  background-color: #d45e00;
+  background-color: #D45E00;
 }
 /* line 53, ../scss/base/_btn.scss */
 .btn.btn--with-icon:hover i {
-  color: white;
+  color: #FFFFFF;
 }
 /* line 59, ../scss/base/_btn.scss */
 .btn.anchor:hover {
@@ -5028,7 +5010,7 @@ $font-header: $helvetica, $default-font;
   font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 10px;
   background-color: #abb3ba;
-  color: white;
+  color: #FFFFFF;
   padding: 20px;
   border-radius: 0px;
   text-decoration: none;
@@ -5043,11 +5025,11 @@ $font-header: $helvetica, $default-font;
 }
 /* line 80, ../scss/base/_btn.scss */
 .btn.btn--category.btn--education:hover, .btn.btn--category.btn--education.active {
-  background-color: #6ea400;
+  background-color: #6EA400;
 }
 /* line 85, ../scss/base/_btn.scss */
 .btn.btn--category.btn--patient-care:hover, .btn.btn--category.btn--patient-care.active {
-  background-color: #007cbe;
+  background-color: #007CBE;
 }
 /* line 90, ../scss/base/_btn.scss */
 .btn.btn--category.btn--news:hover, .btn.btn--category.btn--news.active {
@@ -5109,7 +5091,7 @@ fieldset {
 }
 /* line 44, ../scss/base/_forms.scss */
 .contact-form .form-group label > span.required {
-  color: #f26d04;
+  color: #F26D04;
   font-family: HelveticaNeue-bold, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 /* line 49, ../scss/base/_forms.scss */
@@ -5128,7 +5110,7 @@ fieldset {
 /* line 59, ../scss/base/_forms.scss */
 .contact-form .form-group input {
   height: 55px;
-  border: 2px solid #b4b9bf;
+  border: 2px solid #B4B9BF;
 }
 /* line 64, ../scss/base/_forms.scss */
 .contact-form button[type="submit"] {
@@ -5156,7 +5138,7 @@ fieldset {
 a {
   cursor: pointer;
   font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  color: #007cbe;
+  color: #007CBE;
   text-decoration: none;
 }
 /* line 8, ../scss/base/_links.scss */
@@ -5182,7 +5164,7 @@ a.link.link--with-icon .text {
 }
 /* line 31, ../scss/base/_links.scss */
 a.link.link--with-icon .link--icon {
-  color: #007cbe;
+  color: #007CBE;
   height: 26px;
   width: 23px;
   position: relative;
@@ -5219,7 +5201,7 @@ a.link.link--with-icon:hover .icon--angle {
   -ms-animation: slideFromLeft 0.4s;
   -o-animation: slideFromLeft 0.4s;
   animation: slideFromLeft 0.4s;
-  color: white;
+  color: #FFFFFF;
 }
 /* line 53, ../scss/base/_links.scss */
 a.link.link--with-icon:hover .text {
@@ -5227,15 +5209,15 @@ a.link.link--with-icon:hover .text {
 }
 /* line 61, ../scss/base/_links.scss */
 a.link.link--with-icon.background--dark {
-  color: white;
+  color: #FFFFFF;
 }
 /* line 63, ../scss/base/_links.scss */
 a.link.link--with-icon.background--dark .link--icon {
-  color: white;
+  color: #FFFFFF;
 }
 /* line 67, ../scss/base/_links.scss */
 a.link.link--with-icon.background--dark:hover .icon--angle {
-  color: black;
+  color: #000000;
 }
 
 @media screen and (max-width: 1023px) {
@@ -5483,7 +5465,7 @@ blockquote p:before, blockquote p:after {
   font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
   font-size: 4rem;
   line-height: 0.53;
-  color: #007cbe;
+  color: #007CBE;
   top: 15px;
   position: relative;
 }
@@ -5512,27 +5494,27 @@ address.content-padded, details.content-padded {
 
 /* line 131, ../scss/base/_text.scss */
 a.link--light-blue {
-  color: #007cbe;
+  color: #007CBE;
 }
 /* line 133, ../scss/base/_text.scss */
 a.link--light-blue:hover {
-  color: #007cbe;
+  color: #007CBE;
 }
 /* line 137, ../scss/base/_text.scss */
 a.link--orange {
-  color: #f26d04;
+  color: #F26D04;
 }
 /* line 139, ../scss/base/_text.scss */
 a.link--orange:hover {
-  color: #f26d04;
+  color: #F26D04;
 }
 /* line 145, ../scss/base/_text.scss */
 a.link--green {
-  color: #6ea400;
+  color: #6EA400;
 }
 /* line 147, ../scss/base/_text.scss */
 a.link--green:hover {
-  color: #6ea400;
+  color: #6EA400;
 }
 /* line 153, ../scss/base/_text.scss */
 a.link--teal {
@@ -5783,7 +5765,7 @@ a.link--dark-blue:hover {
 /* line 316, ../scss/base/_text.scss */
 .paragraph-with-icon .icon {
   display: inline-block;
-  color: #007cbe;
+  color: #007CBE;
   margin-right: 10px;
   float: left;
   vertical-align: middle;
@@ -5839,11 +5821,11 @@ p.text--with-icon .content-text::after {
   left: 0px;
   width: 100%;
   height: 0px;
-  background-color: white;
+  background-color: #FFFFFF;
 }
 /* line 376, ../scss/base/_text.scss */
 p.text--with-icon .text--icon {
-  color: #007cbe;
+  color: #007CBE;
   height: 26px;
   width: 23px;
   position: relative;
@@ -5881,7 +5863,7 @@ a:hover .text--with-icon .text--icon .icon--angle {
   -ms-animation: slideFromLeft 0.4s;
   -o-animation: slideFromLeft 0.4s;
   animation: slideFromLeft 0.4s;
-  color: white;
+  color: #FFFFFF;
 }
 /* line 406, ../scss/base/_text.scss */
 a:hover .text--with-icon .text--icon .text::after {
@@ -5977,12 +5959,12 @@ body.toolbar-fixed .toolbar-oriented, body.toolbar-oriented .toolbar-bar, body.t
 footer {
   /*height: 340px;*/
   background-color: #052049;
-  color: white;
+  color: #FFFFFF;
   padding-top: 30px;
 }
 /* line 10, ../scss/layout/component-layout/_footer-layout.scss */
 footer a {
-  color: white;
+  color: #FFFFFF;
   text-decoration: none;
 }
 /* line 15, ../scss/layout/component-layout/_footer-layout.scss */
@@ -5996,9 +5978,9 @@ footer .footer--upper .footer--logo {
 /* line 22, ../scss/layout/component-layout/_footer-layout.scss */
 footer .footer--column-title {
   font-family: HelveticaNeue-bold, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  color: white;
+  color: #FFFFFF;
   text-transform: uppercase;
-  border-bottom: 1px white solid;
+  border-bottom: 1px #FFFFFF solid;
   padding: 13px 0;
 }
 /* line 30, ../scss/layout/component-layout/_footer-layout.scss */
@@ -6015,18 +5997,18 @@ footer .footer--column-content p:last-child {
 }
 /* line 37, ../scss/layout/component-layout/_footer-layout.scss */
 footer .footer--column-content.text-color--dark-gray p, footer .footer--column-content.text-color--dark-gray a {
-  color: #b4b9bf;
+  color: #B4B9BF;
 }
 /* line 43, ../scss/layout/component-layout/_footer-layout.scss */
 footer .footer--column-links {
-  color: #b4b9bf;
+  color: #B4B9BF;
 }
 /* line 45, ../scss/layout/component-layout/_footer-layout.scss */
 footer .footer--column-links a {
   font-size: 0.8rem;
   line-height: 1.67;
   font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  color: #b4b9bf;
+  color: #B4B9BF;
 }
 /* line 50, ../scss/layout/component-layout/_footer-layout.scss */
 footer .footer--column-links ul, footer .footer--column-links ol {
@@ -6046,7 +6028,7 @@ footer .footer--copyright .column-wrapper {
 }
 /* line 62, ../scss/layout/component-layout/_footer-layout.scss */
 footer .footer--copyright .footer--copyright-wrapper {
-  border-top: 1px white solid;
+  border-top: 1px #FFFFFF solid;
   padding: 15px 0px;
   margin-left: 15px;
   margin-right: 15px;
@@ -6067,7 +6049,7 @@ footer .footer--copyright .footer--copyright-links .footer--copyright-link-item:
 /* line 79, ../scss/layout/component-layout/_footer-layout.scss */
 footer .footer--social-link-item {
   float: left;
-  background-color: white;
+  background-color: #FFFFFF;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -6081,7 +6063,7 @@ footer .footer--social-link-item {
 }
 /* line 85, ../scss/layout/component-layout/_footer-layout.scss */
 footer .footer--social-link-item:hover {
-  background-color: #007cbe;
+  background-color: #007CBE;
 }
 /* line 88, ../scss/layout/component-layout/_footer-layout.scss */
 footer .footer--social-link-item a {
@@ -6156,7 +6138,7 @@ footer .footer--colum-content, footer .footer--column-links {
   }
   /* line 155, ../scss/layout/component-layout/_footer-layout.scss */
   footer .footer--copyright .footer--copyright .footer--copyright-wrapper {
-    border-top: 1px white solid;
+    border-top: 1px #FFFFFF solid;
     padding: 15px 15px;
     margin-left: 0px;
     margin-right: 0px;
@@ -6256,8 +6238,8 @@ footer .footer--colum-content, footer .footer--column-links {
 /* line 28, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-form {
   text-align: center;
-  background-color: white;
-  color: black;
+  background-color: #FFFFFF;
+  color: #000000;
   min-height: 408px;
   padding: 25px 20px;
 }
@@ -6270,7 +6252,7 @@ footer .footer--colum-content, footer .footer--column-links {
 /* line 39, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-form p {
   font-size: 18px;
-  color: black;
+  color: #000000;
   text-align: left;
   margin: 0 0 10px;
 }
@@ -6341,8 +6323,8 @@ footer .footer--colum-content, footer .footer--column-links {
   font-size: 20px;
   text-align: center;
   border-radius: 2px;
-  border: solid 2px #b4b9bf;
-  background-color: white;
+  border: solid 2px #B4B9BF;
+  background-color: #FFFFFF;
   color: #052049;
   cursor: pointer;
   -webkit-transition: all 250ms ease-in-out;
@@ -6353,15 +6335,15 @@ footer .footer--colum-content, footer .footer--column-links {
 }
 /* line 109, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-option label:hover {
-  background-color: #f26d04;
-  border-color: #f26d04;
-  color: white;
+  background-color: #F26D04;
+  border-color: #F26D04;
+  color: #FFFFFF;
 }
 /* line 114, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-option label:active, .ways-to-give-option label:focus {
   background-color: #052049;
   border-color: #052049;
-  color: white;
+  color: #FFFFFF;
 }
 /* line 120, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-option input[type="radio"] {
@@ -6375,13 +6357,13 @@ footer .footer--colum-content, footer .footer--column-links {
 .ways-to-give-option input[type="radio"]:checked ~ label {
   background-color: #052049;
   border-color: #052049;
-  color: white;
+  color: #FFFFFF;
 }
 /* line 131, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-option input[type="radio"]:checked ~ label:hover {
-  background-color: #007cbe;
-  border-color: #007cbe;
-  color: white;
+  background-color: #007CBE;
+  border-color: #007CBE;
+  color: #FFFFFF;
 }
 /* line 139, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-option input[type="text"] {
@@ -6394,7 +6376,7 @@ footer .footer--colum-content, footer .footer--column-links {
   padding-left: 34px;
   padding-right: 10px;
   border-radius: 2px;
-  border: solid 2px #b4b9bf;
+  border: solid 2px #B4B9BF;
   color: #052049;
   font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 20px;
@@ -6409,13 +6391,13 @@ footer .footer--colum-content, footer .footer--column-links {
 /* line 156, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-option input[type="text"]:focus {
   outline: none;
-  color: white;
+  color: #FFFFFF;
   border-color: #052049;
 }
 /* line 160, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-option input[type="text"]:focus ~ .others-dollar-label {
   background-color: #052049;
-  color: white;
+  color: #FFFFFF;
 }
 /* line 165, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-option input[type="text"]:focus:hover {
@@ -6423,31 +6405,31 @@ footer .footer--colum-content, footer .footer--column-links {
 }
 /* line 168, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-option input[type="text"]:hover {
-  border-color: #f26d04;
+  border-color: #F26D04;
 }
 /* line 171, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-option input[type="text"].selected {
   border-color: #052049;
-  color: white;
+  color: #FFFFFF;
 }
 /* line 174, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-option input[type="text"].selected ~ .others-dollar-label {
   background-color: #052049;
-  color: white;
+  color: #FFFFFF;
 }
 /* line 179, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-option input[type="text"].empty {
-  border-color: #b4b9bf;
+  border-color: #B4B9BF;
   color: #052049;
 }
 /* line 182, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-option input[type="text"].empty ~ .others-dollar-label {
-  background-color: white;
+  background-color: #FFFFFF;
   color: #052049;
 }
 /* line 186, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-option input[type="text"].empty:focus:hover {
-  border-color: #b4b9bf;
+  border-color: #B4B9BF;
 }
 /* line 191, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-option .others-dollar-label {
@@ -6458,7 +6440,7 @@ footer .footer--colum-content, footer .footer--column-links {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: white;
+  background-color: #FFFFFF;
   padding: 16px 0px;
   padding-left: 19px;
   z-index: 0;
@@ -6519,9 +6501,9 @@ footer .footer--colum-content, footer .footer--column-links {
   /* line 252, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form {
     text-align: center;
-    background-color: white;
+    background-color: #FFFFFF;
     text-align: center;
-    color: black;
+    color: #000000;
     min-height: 408px;
     padding: 30px 36px;
   }
@@ -6634,9 +6616,9 @@ footer .footer--colum-content, footer .footer--column-links {
   .ways-to-give-form {
     padding: 40px 36px;
     min-height: 287px;
-    background-color: white;
+    background-color: #FFFFFF;
     text-align: center;
-    color: black;
+    color: #000000;
   }
   /* line 359, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form h3 {
@@ -6704,9 +6686,9 @@ footer .footer--colum-content, footer .footer--column-links {
   .ways-to-give-form {
     padding: 40px 36px;
     min-height: 287px;
-    background-color: white;
+    background-color: #FFFFFF;
     text-align: center;
-    color: black;
+    color: #000000;
   }
   /* line 428, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form h3 {
@@ -6996,7 +6978,7 @@ footer .footer--colum-content, footer .footer--column-links {
 }
 /* line 675, ../scss/layout/component-layout/_global_component.scss */
 .ways-to-give-form--inline-wrapper {
-  background-color: white;
+  background-color: #FFFFFF;
   display: block;
   width: 100%;
   height: auto;
@@ -7015,7 +6997,7 @@ footer .footer--colum-content, footer .footer--column-links {
 @media screen and (min-width: 768px) {
   /* line 690, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline-wrapper {
-    background-color: #f1f1f1;
+    background-color: #F1F1F1;
   }
 
   /* line 693, ../scss/layout/component-layout/_global_component.scss */
@@ -7029,11 +7011,11 @@ footer .footer--colum-content, footer .footer--column-links {
   }
   /* line 699, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option label, .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option .others-dollar-label {
-    background-color: #f1f1f1;
+    background-color: #F1F1F1;
   }
   /* line 703, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option label:hover {
-    background-color: #f26d04;
+    background-color: #F26D04;
   }
   /* line 706, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option label:active {
@@ -7046,17 +7028,17 @@ footer .footer--colum-content, footer .footer--column-links {
   }
   /* line 717, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option input[type="text"].empty {
-    border-color: #b4b9bf;
+    border-color: #B4B9BF;
     color: #052049;
   }
   /* line 720, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option input[type="text"].empty ~ .others-dollar-label {
-    background-color: #f1f1f1;
+    background-color: #F1F1F1;
     color: #052049;
   }
   /* line 724, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .ways-to-give-options--wrapper .ways-to-give-option input[type="text"].empty:focus:hover {
-    border-color: #b4b9bf;
+    border-color: #B4B9BF;
   }
   /* line 731, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give-form--inline .submit-button-small-xsmall--medium--wrapper {
@@ -7181,7 +7163,7 @@ footer .footer--colum-content, footer .footer--column-links {
   background-repeat: no-repeat;
   background-size: cover;
   height: 350px;
-  background-color: black;
+  background-color: #000000;
 }
 /* line 23, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .content-area, .block.block--landing-hero .content-area {
@@ -7232,7 +7214,7 @@ footer .footer--colum-content, footer .footer--column-links {
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
-  color: white;
+  color: #FFFFFF;
 }
 /* line 67, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .hero-text.align-left, .block.block--landing-hero .hero-text.align-left {
@@ -7256,15 +7238,15 @@ footer .footer--colum-content, footer .footer--column-links {
 }
 /* line 82, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .hero-text > a.link.link--with-icon, .block.block--landing-hero .hero-text > a.link.link--with-icon {
-  color: white;
+  color: #FFFFFF;
 }
 /* line 84, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .hero-text > a.link.link--with-icon .link--icon, .block.block--landing-hero .hero-text > a.link.link--with-icon .link--icon {
-  color: white;
+  color: #FFFFFF;
 }
 /* line 88, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .hero-text > a.link.link--with-icon:hover .icon--angle, .block.block--landing-hero .hero-text > a.link.link--with-icon:hover .icon--angle {
-  color: #007cbe;
+  color: #007CBE;
 }
 /* line 95, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero > .link--with-icon, .block.block--landing-hero > .link--with-icon {
@@ -7278,15 +7260,15 @@ footer .footer--colum-content, footer .footer--column-links {
 }
 /* line 103, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero > .link--with-icon.link.link--with-icon, .block.block--landing-hero > .link--with-icon.link.link--with-icon {
-  color: white;
+  color: #FFFFFF;
 }
 /* line 105, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero > .link--with-icon.link.link--with-icon .link--icon, .block.block--landing-hero > .link--with-icon.link.link--with-icon .link--icon {
-  color: white;
+  color: #FFFFFF;
 }
 /* line 109, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero > .link--with-icon.link.link--with-icon:hover .icon--angle, .block.block--landing-hero > .link--with-icon.link.link--with-icon:hover .icon--angle {
-  color: #007cbe;
+  color: #007CBE;
 }
 /* line 118, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .hero-background .backgrounds {
@@ -7304,7 +7286,7 @@ footer .footer--colum-content, footer .footer--column-links {
 @media screen and (min-width: 768px) {
   /* line 135, ../scss/layout/component-layout/_hero-image-block.scss */
   .hero--wrapper {
-    background-color: white;
+    background-color: #FFFFFF;
   }
 
   /* line 142, ../scss/layout/component-layout/_hero-image-block.scss */
@@ -7313,12 +7295,12 @@ footer .footer--colum-content, footer .footer--column-links {
   }
   /* line 144, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-background, .block.block--landing-hero .hero-background {
-    background-color: white;
+    background-color: #FFFFFF;
     opacity: 1;
   }
   /* line 148, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-background .backgrounds, .block.block--landing-hero .hero-background .backgrounds {
-    background-color: white;
+    background-color: #FFFFFF;
     background-attachment: local;
   }
   /* line 153, ../scss/layout/component-layout/_hero-image-block.scss */
@@ -7379,7 +7361,7 @@ footer .footer--colum-content, footer .footer--column-links {
   }
   /* line 205, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-background .backgrounds {
-    background-color: white;
+    background-color: #FFFFFF;
     background-attachment: fixed;
   }
   /* line 210, ../scss/layout/component-layout/_hero-image-block.scss */
@@ -7413,7 +7395,7 @@ footer .footer--colum-content, footer .footer--column-links {
   }
   /* line 231, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero .hero-background .backgrounds {
-    background-color: white;
+    background-color: #FFFFFF;
     background-attachment: fixed;
   }
   /* line 236, ../scss/layout/component-layout/_hero-image-block.scss */
@@ -7454,7 +7436,7 @@ footer .footer--colum-content, footer .footer--column-links {
   }
   /* line 269, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-background .backgrounds {
-    background-color: white;
+    background-color: #FFFFFF;
     background-attachment: fixed;
   }
   /* line 274, ../scss/layout/component-layout/_hero-image-block.scss */
@@ -7488,7 +7470,7 @@ footer .footer--colum-content, footer .footer--column-links {
   }
   /* line 295, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero .hero-background .backgrounds {
-    background-color: white;
+    background-color: #FFFFFF;
     background-attachment: fixed;
   }
   /* line 300, ../scss/layout/component-layout/_hero-image-block.scss */
@@ -7592,7 +7574,7 @@ html.mobile-nav-open .nav--wrapper {
 }
 /* line 64, ../scss/components/_navigation.scss */
 .nav-global--wrapper .nav-global .nav-brand a {
-  color: white;
+  color: #FFFFFF;
   text-decoration: none;
 }
 /* line 67, ../scss/components/_navigation.scss */
@@ -7645,10 +7627,10 @@ html.mobile-nav-open .nav--wrapper {
   height: 24px;
   border-radius: 2px;
   font-size: 12px;
-  border: solid 1px white;
+  border: solid 1px #FFFFFF;
   background-color: #052049;
   font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  color: white;
+  color: #FFFFFF;
   float: left;
 }
 /* line 120, ../scss/components/_navigation.scss */
@@ -7665,7 +7647,7 @@ html.mobile-nav-open .nav--wrapper {
   background-color: transparent;
   font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 12px;
-  color: white;
+  color: #FFFFFF;
   outline: none;
   border: 0px;
   width: 85%;
@@ -7692,7 +7674,7 @@ html.mobile-nav-open .nav--wrapper {
   min-width: 307px;
   width: auto;
   height: 50px;
-  background-color: #f1f1f1;
+  background-color: #F1F1F1;
   position: absolute;
   top: 40px;
   right: 0px;
@@ -7709,14 +7691,14 @@ html.mobile-nav-open .nav--wrapper {
 .search-advanced-form-toggle {
   margin-top: 8px;
   font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  color: white;
+  color: #FFFFFF;
   font-size: 12px;
   float: left;
   width: 102px;
   height: 24px;
   border-radius: 2px;
-  background-color: #007cbe;
-  border: solid 1px #007cbe;
+  background-color: #007CBE;
+  border: solid 1px #007CBE;
   text-align: center;
   text-decoration: none;
   -webkit-transition: all 250ms ease-in-out;
@@ -7740,7 +7722,7 @@ html.mobile-nav-open .nav--wrapper {
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  color: black;
+  color: #000000;
   vertical-align: middle;
   padding: 5px 5px 5px 0;
   line-height: 2.9;
@@ -7780,14 +7762,14 @@ html.mobile-nav-open .nav--wrapper {
 }
 /* line 236, ../scss/components/_navigation.scss */
 .radio-circle .radio-ui {
-  color: white;
+  color: #FFFFFF;
   display: none;
   font-size: 12px;
 }
 /* line 241, ../scss/components/_navigation.scss */
 .radio-circle.checked {
-  background: #007cbe;
-  border-color: #007cbe;
+  background: #007CBE;
+  border-color: #007CBE;
 }
 /* line 244, ../scss/components/_navigation.scss */
 .radio-circle.checked .radio-ui {
@@ -7800,7 +7782,7 @@ html.mobile-nav-open .nav--wrapper {
 /* line 251, ../scss/components/_navigation.scss */
 .radio-circle.hover {
   border-width: 2px;
-  border-color: #007cbe;
+  border-color: #007CBE;
 }
 
 @media screen and (min-width: 1024px) {
@@ -7850,7 +7832,7 @@ html.mobile-nav-open .nav--wrapper {
   }
   /* line 296, ../scss/components/_navigation.scss */
   .nav-global--wrapper .nav-global .nav-link-list > li > a {
-    color: white;
+    color: #FFFFFF;
     font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-size: 12px;
     font-weight: normal;
@@ -7873,7 +7855,7 @@ html.mobile-nav-open .nav--wrapper {
  */
 /* line 325, ../scss/components/_navigation.scss */
 .nav-main--wrapper {
-  background-color: white;
+  background-color: #FFFFFF;
   display: block;
   width: 100%;
 }
@@ -7982,11 +7964,11 @@ html.mobile-nav-open .nav--wrapper {
   }
   /* line 423, ../scss/components/_navigation.scss */
   .transparent .nav--wrapper .nav-main--wrapper .nav-main a {
-    color: white;
+    color: #FFFFFF;
   }
   /* line 428, ../scss/components/_navigation.scss */
   .transparent .nav--wrapper .nav-main--wrapper .nav-main .nav-main-links > li > a {
-    color: white;
+    color: #FFFFFF;
   }
   /* line 430, ../scss/components/_navigation.scss */
   .transparent .nav--wrapper .nav-main--wrapper .nav-main .nav-main-links > li > a:hover {
@@ -7994,7 +7976,7 @@ html.mobile-nav-open .nav--wrapper {
   }
   /* line 432, ../scss/components/_navigation.scss */
   .transparent .nav--wrapper .nav-main--wrapper .nav-main .nav-main-links > li > a:hover.header-give-btn {
-    color: white;
+    color: #FFFFFF;
   }
   /* line 438, ../scss/components/_navigation.scss */
   .transparent .nav--wrapper .nav-main--wrapper .nav-main .nav-main-links > li:hover a {
@@ -8002,12 +7984,12 @@ html.mobile-nav-open .nav--wrapper {
   }
   /* line 440, ../scss/components/_navigation.scss */
   .transparent .nav--wrapper .nav-main--wrapper .nav-main .nav-main-links > li:hover a.header-give-btn {
-    color: white;
+    color: #FFFFFF;
   }
 
   /* line 451, ../scss/components/_navigation.scss */
   .nav-main--wrapper {
-    background-color: white;
+    background-color: #FFFFFF;
     display: block;
     width: 100%;
   }
@@ -8065,12 +8047,12 @@ html.mobile-nav-open .nav--wrapper {
   }
   /* line 495, ../scss/components/_navigation.scss */
   .nav-main--wrapper .nav-main .nav-main-links > li:hover a.header-give-btn {
-    background-color: #d45e00;
-    color: white;
+    background-color: #D45E00;
+    color: #FFFFFF;
   }
   /* line 498, ../scss/components/_navigation.scss */
   .nav-main--wrapper .nav-main .nav-main-links > li:hover a.header-give-btn span {
-    color: white;
+    color: #FFFFFF;
   }
   /* line 503, ../scss/components/_navigation.scss */
   .nav-main--wrapper .nav-main .nav-main-links > li:hover .line {
@@ -8095,7 +8077,7 @@ html.mobile-nav-open .nav--wrapper {
   .nav-main--wrapper .nav-main .nav-main-links > li > a.header-give-btn {
     width: auto;
     border-radius: 2px;
-    color: white;
+    color: #FFFFFF;
     font-weight: bold;
     margin-left: 10px;
   }
@@ -8143,7 +8125,7 @@ html.mobile-nav-open .nav--wrapper {
   }
   /* line 564, ../scss/components/_navigation.scss */
   .nav-main--wrapper .nav-main .nav-main-links > li .dropdown-menu > li > a:hover {
-    color: #007cbe;
+    color: #007CBE;
   }
 }
 /**
@@ -8155,7 +8137,7 @@ html.mobile-nav-open .nav--wrapper {
 /* line 586, ../scss/components/_navigation.scss */
 .nav-main-mobile-search {
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: #F1F1F1;
   display: none;
   padding-bottom: 20px;
 }
@@ -8175,7 +8157,7 @@ html.mobile-nav-open .nav--wrapper {
 }
 /* line 602, ../scss/components/_navigation.scss */
 .nav-main-mobile-search .mobile-search-field--wrapper .mobile-field-ui {
-  background-color: white;
+  background-color: #FFFFFF;
   width: 100%;
   height: auto;
   position: relative;
@@ -8189,7 +8171,7 @@ html.mobile-nav-open .nav--wrapper {
   width: 93%;
   font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 18px;
-  color: black;
+  color: #000000;
   position: relative;
   z-index: 0;
   background-color: transparent;
@@ -8209,7 +8191,7 @@ html.mobile-nav-open .nav--wrapper {
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  color: black;
+  color: #000000;
   z-index: 0;
 }
 /* line 637, ../scss/components/_navigation.scss */
@@ -8263,7 +8245,7 @@ html.mobile-nav-open .nav--wrapper {
 /* line 686, ../scss/components/_navigation.scss */
 .nav-main-mobile {
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: #F1F1F1;
   display: none;
   max-height: 0px;
 }
@@ -8300,7 +8282,7 @@ html.mobile-nav-open .nav--wrapper {
 }
 /* line 716, ../scss/components/_navigation.scss */
 .nav-main-mobile ul > li.active > a {
-  color: #007cbe;
+  color: #007CBE;
 }
 /* line 720, ../scss/components/_navigation.scss */
 .nav-main-mobile ul > li > a {
@@ -8332,7 +8314,7 @@ html.mobile-nav-open .nav--wrapper {
 }
 /* line 745, ../scss/components/_navigation.scss */
 .nav-main-mobile ul > li .display-arrow.active {
-  color: #007cbe;
+  color: #007CBE;
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   -o-transform: rotate(90deg);
@@ -8431,14 +8413,14 @@ html.mobile-nav-open .nav--wrapper {
 .breadcrumb ul > li::after, .breadcrumb ol > li::after {
   display: none;
   content: "\f105";
-  color: #b4b9bf;
+  color: #B4B9BF;
   margin-left: 20px;
   margin-right: 20px;
 }
 /* line 837, ../scss/components/_navigation.scss */
 .breadcrumb ul > li > a, .breadcrumb ol > li > a {
   font-family: HelveticaNeue-bold, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  color: #b4b9bf;
+  color: #B4B9BF;
   font-size: 18px;
   margin-top: 2px;
   vertical-align: middle;
@@ -8448,7 +8430,7 @@ html.mobile-nav-open .nav--wrapper {
 /* line 851, ../scss/components/_navigation.scss */
 .breadcrumb.back-to-page ul > li::before, .breadcrumb.back-to-page ol > li::before {
   content: "\f104";
-  color: #b4b9bf;
+  color: #B4B9BF;
   display: inline-block;
 }
 
@@ -8563,23 +8545,23 @@ ul.pager__items > li > a, ul.pager__items .pager__item > a {
   padding: 7px 10px;
   font-size: 12px;
   font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  border: solid 1px #007cbe;
+  border: solid 1px #007CBE;
   display: block;
   text-decoration: none;
 }
 /* line 994, ../scss/components/_navigation.scss */
 ul.pager__items > li > a:hover, ul.pager__items .pager__item > a:hover {
-  color: white;
+  color: #FFFFFF;
   background-color: #052049;
   border-color: #052049;
 }
 /* line 1001, ../scss/components/_navigation.scss */
 ul.pager__items > li.is-active > a, ul.pager__items .pager__item.is-active > a {
-  background-color: #f1f1f1;
+  background-color: #F1F1F1;
 }
 /* line 1003, ../scss/components/_navigation.scss */
 ul.pager__items > li.is-active > a:hover, ul.pager__items .pager__item.is-active > a:hover {
-  color: white;
+  color: #FFFFFF;
   background-color: #052049;
   border-color: #052049;
 }
@@ -8734,12 +8716,12 @@ ul.category-nav > li a {
 }
 /* line 11, ../scss/components/_alert-bar.scss */
 .alert.alert--info {
-  background-color: #f26d04;
-  color: white;
+  background-color: #F26D04;
+  color: #FFFFFF;
 }
 /* line 14, ../scss/components/_alert-bar.scss */
 .alert.alert--info:hover {
-  background-color: #d45e00;
+  background-color: #D45E00;
 }
 /* line 19, ../scss/components/_alert-bar.scss */
 .alert:hover div {
@@ -8770,7 +8752,7 @@ ul.category-nav > li a {
 /* line 8, ../scss/components/_blocks.scss */
 .block.block--funding-priorities {
   margin: 50px auto 50px;
-  background-color: white;
+  background-color: #FFFFFF;
 }
 /* line 11, ../scss/components/_blocks.scss */
 .block.block--funding-priorities .slick-arrow {
@@ -8797,7 +8779,7 @@ ul.category-nav > li a {
 }
 /* line 27, ../scss/components/_blocks.scss */
 .block.block--funding-priorities .slick-arrow.slick-arrow:hover {
-  color: #007cbe;
+  color: #007CBE;
 }
 /* line 31, ../scss/components/_blocks.scss */
 .block.block--funding-priorities .slick-arrow.slick-prev {
@@ -8836,7 +8818,7 @@ ul.category-nav > li a {
 .block.block--impact-stories {
   margin-top: 50px;
   margin-bottom: 50px;
-  background-color: white;
+  background-color: #FFFFFF;
 }
 /* line 67, ../scss/components/_blocks.scss */
 .block.block--impact-stories h3 {
@@ -8844,7 +8826,7 @@ ul.category-nav > li a {
 }
 /* line 71, ../scss/components/_blocks.scss */
 .block.block--homepage-prefooter {
-  background-color: #f1f1f1;
+  background-color: #F1F1F1;
   position: relative;
 }
 /* line 74, ../scss/components/_blocks.scss */
@@ -8865,7 +8847,7 @@ ul.category-nav > li a {
 /* line 89, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full {
   position: relative;
-  background-color: #f1f1f1;
+  background-color: #F1F1F1;
   padding-top: 30px;
   padding-bottom: 90px;
   /*padding-left: 15px;
@@ -8939,7 +8921,7 @@ ul.category-nav > li a {
 /* line 146, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full .block--contact-details .contact-detail-item span a {
   position: static;
-  color: black;
+  color: #000000;
   font-size: 1.2rem;
   line-height: 1.33;
 }
@@ -8949,7 +8931,7 @@ ul.category-nav > li a {
 }
 /* line 160, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full.background-color--teal a:hover .fa-angle-right, .block.block--funding-priorities-full.background-color--teal a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--teal a:hover .slider-button.slider-next {
-  color: white;
+  color: #FFFFFF;
 }
 /* line 167, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full.background-color--teal .link--with-icon .text::after {
@@ -8957,27 +8939,27 @@ ul.category-nav > li a {
 }
 /* line 174, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full.background-color--green a, .block.block--funding-priorities-full.background-color--green span, .block.block--funding-priorities-full.background-color--green .detail-label p {
-  color: #6ea400;
+  color: #6EA400;
 }
 /* line 179, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full.background-color--green a:hover .fa-angle-right, .block.block--funding-priorities-full.background-color--green a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--green a:hover .slider-button.slider-next {
-  color: white;
+  color: #FFFFFF;
 }
 /* line 186, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full.background-color--green .link--with-icon .text::after {
-  background-color: #6ea400;
+  background-color: #6EA400;
 }
 /* line 193, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full.background-color--light-blue a, .block.block--funding-priorities-full.background-color--light-blue span, .block.block--funding-priorities-full.background-color--light-blue .detail-label p {
-  color: #007cbe;
+  color: #007CBE;
 }
 /* line 198, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full.background-color--light-blue a:hover .fa-angle-right, .block.block--funding-priorities-full.background-color--light-blue a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--light-blue a:hover .slider-button.slider-next {
-  color: white;
+  color: #FFFFFF;
 }
 /* line 205, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full.background-color--light-blue .link--with-icon .text::after {
-  background-color: #007cbe;
+  background-color: #007CBE;
 }
 /* line 212, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full.background-color--dark-blue a, .block.block--funding-priorities-full.background-color--dark-blue span, .block.block--funding-priorities-full.background-color--dark-blue .detail-label p {
@@ -8985,7 +8967,7 @@ ul.category-nav > li a {
 }
 /* line 217, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full.background-color--dark-blue a:hover .fa-angle-right, .block.block--funding-priorities-full.background-color--dark-blue a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--dark-blue a:hover .slider-button.slider-next {
-  color: white;
+  color: #FFFFFF;
 }
 /* line 224, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full.background-color--dark-blue .link--with-icon .text::after {
@@ -8993,15 +8975,15 @@ ul.category-nav > li a {
 }
 /* line 231, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full.background-color--orange a, .block.block--funding-priorities-full.background-color--orange span, .block.block--funding-priorities-full.background-color--orange .detail-label p {
-  color: #f26d04;
+  color: #F26D04;
 }
 /* line 236, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full.background-color--orange a:hover .fa-angle-right, .block.block--funding-priorities-full.background-color--orange a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block.block--funding-priorities-full.background-color--orange a:hover .slider-button.slider-next {
-  color: white;
+  color: #FFFFFF;
 }
 /* line 243, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full.background-color--orange .link--with-icon .text::after {
-  background-color: #f26d04;
+  background-color: #F26D04;
 }
 /* line 249, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full a {
@@ -9023,7 +9005,7 @@ ul.category-nav > li a {
 /* line 261, ../scss/components/_blocks.scss */
 .block.block--impact-story-with-image .block--content h2 {
   margin: 0;
-  color: white;
+  color: #FFFFFF;
   font-size: 2.53333rem;
   line-height: 1.05;
 }
@@ -9041,7 +9023,7 @@ ul.category-nav > li a {
 }
 /* line 278, ../scss/components/_blocks.scss */
 .block.block--impact-story-with-image.background-color--green .block--content .content-area {
-  background-color: #6ea400;
+  background-color: #6EA400;
 }
 /* line 283, ../scss/components/_blocks.scss */
 .block.block--impact-story-with-image.background-color--light-blue {
@@ -9049,7 +9031,7 @@ ul.category-nav > li a {
 }
 /* line 286, ../scss/components/_blocks.scss */
 .block.block--impact-story-with-image.background-color--light-blue .block--content .content-area {
-  background-color: #007cbe;
+  background-color: #007CBE;
 }
 /* line 291, ../scss/components/_blocks.scss */
 .block.block--impact-story-with-image.background-color--dark-blue {
@@ -9065,7 +9047,7 @@ ul.category-nav > li a {
 }
 /* line 302, ../scss/components/_blocks.scss */
 .block.block--impact-story-with-image.background-color--orange .block--content .content-area {
-  background-color: #f26d04;
+  background-color: #F26D04;
 }
 /* line 308, ../scss/components/_blocks.scss */
 .block.block--impact-stories-grid {
@@ -9141,14 +9123,14 @@ ul.category-nav > li a {
 .block--item.block--funding-priorities-items .block--item-image {
   height: 200px;
   width: 100%;
-  background-color: #b4b9bf;
+  background-color: #B4B9BF;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 /* line 410, ../scss/components/_blocks.scss */
 .block--item.block--funding-priorities-items .block--item-contents {
-  background-color: #007cbe;
+  background-color: #007CBE;
   height: 170px;
   width: 100%;
   padding: 20px 20px 25px 20px;
@@ -9163,7 +9145,7 @@ ul.category-nav > li a {
 }
 /* line 421, ../scss/components/_blocks.scss */
 .block--item.block--funding-priorities-items .block--item-contents .text--with-icon, .block--item.block--funding-priorities-items .block--item-contents span, .block--item.block--funding-priorities-items .block--item-contents p {
-  color: white;
+  color: #FFFFFF;
 }
 /* line 424, ../scss/components/_blocks.scss */
 .block--item.block--funding-priorities-items .block--item-contents .text--with-icon {
@@ -9174,7 +9156,7 @@ ul.category-nav > li a {
 }
 /* line 434, ../scss/components/_blocks.scss */
 .block--item.block--funding-priorities-items:hover .block--item-contents .text--with-icon .fa-angle-right, .block--item.block--funding-priorities-items:hover .block--item-contents .text--with-icon .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--funding-priorities-items:hover .block--item-contents .text--with-icon .slider-button.slider-next {
-  color: #007cbe;
+  color: #007CBE;
 }
 /* line 441, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel {
@@ -9192,7 +9174,7 @@ ul.category-nav > li a {
   width: 50%;
   height: 100%;
   float: left;
-  color: white;
+  color: #FFFFFF;
 }
 /* line 459, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel {
@@ -9202,7 +9184,7 @@ ul.category-nav > li a {
 }
 /* line 463, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel a, .block--item.block--impact-stories-panel .block--item-colored-panel span, .block--item.block--impact-stories-panel .block--item-colored-panel h4, .block--item.block--impact-stories-panel .block--item-colored-panel p {
-  color: white;
+  color: #FFFFFF;
   text-decoration: none;
 }
 /* line 467, ../scss/components/_blocks.scss */
@@ -9224,15 +9206,15 @@ ul.category-nav > li a {
 }
 /* line 480, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel.background--green {
-  background-color: #6ea400;
+  background-color: #6EA400;
 }
 /* line 483, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel.background--orange {
-  background-color: #f26d04;
+  background-color: #F26D04;
 }
 /* line 486, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel.background--light-blue {
-  background-color: #007cbe;
+  background-color: #007CBE;
 }
 /* line 489, ../scss/components/_blocks.scss */
 .block--item.block--impact-stories-panel .block--item-colored-panel.background--dark-blue {
@@ -9251,7 +9233,7 @@ ul.category-nav > li a {
 }
 /* line 109, ../scss/global/mixins/_mixins.scss */
 .block--item.block--impact-stories-panel:hover .background--green .text--with-icon .fa-angle-right, .block--item.block--impact-stories-panel:hover .background--green .text--with-icon .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel:hover .background--green .text--with-icon .slider-button.slider-next {
-  color: #6ea400;
+  color: #6EA400;
 }
 /* line 112, ../scss/global/mixins/_mixins.scss */
 .block--item.block--impact-stories-panel:hover .background--green .text--with-icon .icon--visible-hover {
@@ -9267,11 +9249,11 @@ ul.category-nav > li a {
 }
 /* line 118, ../scss/global/mixins/_mixins.scss */
 .block--item.block--impact-stories-panel:hover .background--green .text--with-icon .fa-angle-right, .block--item.block--impact-stories-panel:hover .background--green .text--with-icon .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel:hover .background--green .text--with-icon .slider-button.slider-next {
-  color: #6ea400;
+  color: #6EA400;
 }
 /* line 109, ../scss/global/mixins/_mixins.scss */
 .block--item.block--impact-stories-panel:hover .background--orange .text--with-icon .fa-angle-right, .block--item.block--impact-stories-panel:hover .background--orange .text--with-icon .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel:hover .background--orange .text--with-icon .slider-button.slider-next {
-  color: #f26d04;
+  color: #F26D04;
 }
 /* line 112, ../scss/global/mixins/_mixins.scss */
 .block--item.block--impact-stories-panel:hover .background--orange .text--with-icon .icon--visible-hover {
@@ -9287,11 +9269,11 @@ ul.category-nav > li a {
 }
 /* line 118, ../scss/global/mixins/_mixins.scss */
 .block--item.block--impact-stories-panel:hover .background--orange .text--with-icon .fa-angle-right, .block--item.block--impact-stories-panel:hover .background--orange .text--with-icon .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel:hover .background--orange .text--with-icon .slider-button.slider-next {
-  color: #f26d04;
+  color: #F26D04;
 }
 /* line 109, ../scss/global/mixins/_mixins.scss */
 .block--item.block--impact-stories-panel:hover .background--light-blue .text--with-icon .fa-angle-right, .block--item.block--impact-stories-panel:hover .background--light-blue .text--with-icon .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel:hover .background--light-blue .text--with-icon .slider-button.slider-next {
-  color: #007cbe;
+  color: #007CBE;
 }
 /* line 112, ../scss/global/mixins/_mixins.scss */
 .block--item.block--impact-stories-panel:hover .background--light-blue .text--with-icon .icon--visible-hover {
@@ -9307,11 +9289,11 @@ ul.category-nav > li a {
 }
 /* line 118, ../scss/global/mixins/_mixins.scss */
 .block--item.block--impact-stories-panel:hover .background--light-blue .text--with-icon .fa-angle-right, .block--item.block--impact-stories-panel:hover .background--light-blue .text--with-icon .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel:hover .background--light-blue .text--with-icon .slider-button.slider-next {
-  color: #007cbe;
+  color: #007CBE;
 }
 /* line 109, ../scss/global/mixins/_mixins.scss */
 .block--item.block--impact-stories-panel:hover .background--teal .text--with-icon .fa-angle-right, .block--item.block--impact-stories-panel:hover .background--teal .text--with-icon .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel:hover .background--teal .text--with-icon .slider-button.slider-next {
-  color: #007cbe;
+  color: #007CBE;
 }
 /* line 112, ../scss/global/mixins/_mixins.scss */
 .block--item.block--impact-stories-panel:hover .background--teal .text--with-icon .icon--visible-hover {
@@ -9327,7 +9309,7 @@ ul.category-nav > li a {
 }
 /* line 118, ../scss/global/mixins/_mixins.scss */
 .block--item.block--impact-stories-panel:hover .background--teal .text--with-icon .fa-angle-right, .block--item.block--impact-stories-panel:hover .background--teal .text--with-icon .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel:hover .background--teal .text--with-icon .slider-button.slider-next {
-  color: #007cbe;
+  color: #007CBE;
 }
 /* line 109, ../scss/global/mixins/_mixins.scss */
 .block--item.block--impact-stories-panel:hover .background--dark-blue .text--with-icon .fa-angle-right, .block--item.block--impact-stories-panel:hover .background--dark-blue .text--with-icon .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--item.block--impact-stories-panel:hover .background--dark-blue .text--with-icon .slider-button.slider-next {
@@ -9356,7 +9338,7 @@ ul.category-nav > li a {
 }
 /* line 526, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small a {
-  color: white;
+  color: #FFFFFF;
   text-decoration: none;
 }
 /* line 529, ../scss/components/_blocks.scss */
@@ -9369,7 +9351,7 @@ ul.category-nav > li a {
 }
 /* line 536, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small .block--item-content {
-  background-color: #f1f1f1;
+  background-color: #F1F1F1;
   height: 140px;
   width: 100%;
   padding: 20px;
@@ -9378,7 +9360,7 @@ ul.category-nav > li a {
 .block--item.block-item--impact-story-small .block--item-content .category {
   font-size: 0.66667rem;
   line-height: 2.2;
-  color: white;
+  color: #FFFFFF;
   text-align: center;
   text-transform: uppercase;
   width: 112px;
@@ -9386,15 +9368,15 @@ ul.category-nav > li a {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: black;
+  background-color: #000000;
 }
 /* line 555, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small .block--item-content .category.background--light-blue {
-  background-color: #007cbe;
+  background-color: #007CBE;
 }
 /* line 558, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small .block--item-content .category.background--green {
-  background-color: #6ea400;
+  background-color: #6EA400;
 }
 /* line 561, ../scss/components/_blocks.scss */
 .block--item.block-item--impact-story-small .block--item-content .category.background--teal {
@@ -9416,7 +9398,7 @@ ul.category-nav > li a {
 .block--item.block-item--impact-story-small .block--item-content .date {
   font-size: 0.8rem;
   line-height: 1.5;
-  color: black;
+  color: #000000;
   margin-top: 12px;
   margin-bottom: 5px;
 }
@@ -9581,7 +9563,7 @@ ul.category-nav > li a {
   /* line 720, ../scss/components/_blocks.scss */
   .block.block--funding-priorities-full .block--contact-details .contact-detail-item span a {
     position: static;
-    color: black;
+    color: #000000;
     font-size: 0.93333rem;
     line-height: 1.33;
   }
@@ -9749,7 +9731,7 @@ ul.category-nav > li a {
   /* line 902, ../scss/components/_blocks.scss */
   .block.block--funding-priorities-full .block--contact-details .contact-detail-item span a {
     position: static;
-    color: black;
+    color: #000000;
     font-size: 0.93333rem;
     line-height: 1.33;
   }
@@ -9813,7 +9795,7 @@ ul.category-nav > li a {
   /* line 962, ../scss/components/_blocks.scss */
   .block.block--funding-priorities-full .block--contact-details .contact-detail-item span a {
     position: static;
-    color: black;
+    color: #000000;
     font-size: 1.2rem;
     line-height: 1.33;
   }
@@ -9889,7 +9871,7 @@ ul.category-nav > li a {
 .block-contact-us {
   display: block;
   background-color: #ebf3fa;
-  color: black;
+  color: #000000;
   padding: 30px;
   max-width: 265px;
   margin: 0 auto 30px auto;
@@ -9906,11 +9888,11 @@ ul.category-nav > li a {
 }
 /* line 1046, ../scss/components/_blocks.scss */
 .block-contact-us a {
-  color: black;
+  color: #000000;
 }
 /* line 1048, ../scss/components/_blocks.scss */
 .block-contact-us a:hover {
-  color: black;
+  color: #000000;
 }
 /* line 1053, ../scss/components/_blocks.scss */
 .block-contact-us .contact-detail-item {
@@ -9956,7 +9938,7 @@ ul.category-nav > li a {
 /* line 1090, ../scss/components/_blocks.scss */
 .block-story-nugget {
   position: relative;
-  background-color: #f1f1f1;
+  background-color: #F1F1F1;
   margin-left: -15px;
   margin-right: -15px;
   margin-bottom: 30px;
@@ -9975,7 +9957,7 @@ ul.category-nav > li a {
   position: relative;
   width: 100%;
   height: 184px;
-  background-color: #f1f1f1;
+  background-color: #F1F1F1;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -10000,20 +9982,20 @@ ul.category-nav > li a {
 /* line 1125, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-title h4 {
   margin: 0px;
-  color: white;
+  color: #FFFFFF;
   padding: 20px;
 }
 /* line 1129, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-title h4.background--green {
-  background-color: #6ea400;
+  background-color: #6EA400;
 }
 /* line 1132, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-title h4.background--orange {
-  background-color: #f26d04;
+  background-color: #F26D04;
 }
 /* line 1135, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-title h4.background--blue {
-  background-color: #007cbe;
+  background-color: #007CBE;
 }
 /* line 1138, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-title h4.background--teal {
@@ -10043,7 +10025,7 @@ ul.category-nav > li a {
 }
 /* line 1161, ../scss/components/_blocks.scss */
 .block-story-nugget .story-nugget-link a {
-  color: #007cbe;
+  color: #007CBE;
 }
 
 @media screen and (min-width: 768px) {
@@ -10130,7 +10112,7 @@ ul.category-nav > li a {
   width: 38px;
   height: 38px;
   display: block;
-  color: white;
+  color: #FFFFFF;
   text-align: center;
   padding: 9px 0px;
   border-radius: 50px;
@@ -10170,7 +10152,7 @@ ul.category-nav > li a {
 /* line 1282, ../scss/components/_blocks.scss */
 .block-quote-custom {
   background-color: #ebf3fa;
-  color: black;
+  color: #000000;
   padding: 20px 23.5px;
   margin: 1.5em 0em;
   position: relative;
@@ -10197,7 +10179,7 @@ ul.category-nav > li a {
 /* line 1304, ../scss/components/_blocks.scss */
 .block-quote-custom .quote .open-quote, .block-quote-custom .quote .close-quote {
   font-size: 60px;
-  color: #007cbe;
+  color: #007CBE;
 }
 /* line 1308, ../scss/components/_blocks.scss */
 .block-quote-custom .quote .open-quote {
@@ -10274,7 +10256,7 @@ ul.category-nav > li a {
   top: 50%;
   margin-top: -23px;
   font-size: 46px;
-  color: white;
+  color: #FFFFFF;
   padding-left: 15px;
   padding-right: 15px;
   cursor: pointer;
@@ -10310,8 +10292,8 @@ ul.category-nav > li a {
 /* line 1412, ../scss/components/_blocks.scss */
 .block--article-carousel .item .item-content {
   display: block;
-  background-color: #f1f1f1;
-  color: black;
+  background-color: #F1F1F1;
+  color: #000000;
   padding: 15px 20px;
   margin: 0px;
 }
@@ -10335,13 +10317,13 @@ ul.category-nav > li a {
     margin-top: -30px;
     margin-left: 24px;
     margin-right: 24px;
-    background-color: #f1f1f1;
+    background-color: #F1F1F1;
   }
   /* line 1442, ../scss/components/_blocks.scss */
   .block--article-carousel.desktop-block::before, .block--article-carousel.desktop-block::after {
     content: " ";
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #F1F1F1;
     width: 56.44px;
     top: 0;
     bottom: 0;
@@ -10361,7 +10343,7 @@ ul.category-nav > li a {
   /* line 1460, ../scss/components/_blocks.scss */
   .block--article-carousel .carousel-nav {
     color: #052049;
-    background-color: #f1f1f1;
+    background-color: #F1F1F1;
     padding: 10px 20px;
     top: 50%;
     margin-top: -37px;
@@ -10409,12 +10391,12 @@ ul.category-nav > li a {
   font-size: 0.66667rem;
   line-height: 2.2;
   font-family: HelveticaNeue-bold, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  color: white;
+  color: #FFFFFF;
   text-align: center;
   text-transform: uppercase;
   width: 112px;
   height: 25px;
-  background-color: black;
+  background-color: #000000;
 }
 /* line 1512, ../scss/components/_blocks.scss */
 .block-featured--article-image .category.background--teal {
@@ -10422,7 +10404,7 @@ ul.category-nav > li a {
 }
 /* line 1515, ../scss/components/_blocks.scss */
 .block-featured--article-image .category.background--light-blue {
-  background-color: #007cbe;
+  background-color: #007CBE;
 }
 /* line 1518, ../scss/components/_blocks.scss */
 .block-featured--article-image .category.background--dark-blue {
@@ -10430,7 +10412,7 @@ ul.category-nav > li a {
 }
 /* line 1521, ../scss/components/_blocks.scss */
 .block-featured--article-image .category.background--green {
-  background-color: #6ea400;
+  background-color: #6EA400;
 }
 /* line 1525, ../scss/components/_blocks.scss */
 .block-featured--article-image img {
@@ -10446,7 +10428,7 @@ ul.category-nav > li a {
 }
 /* line 1534, ../scss/components/_blocks.scss */
 .block-featured--article-image a .featured--article-text {
-  background-color: #f1f1f1;
+  background-color: #F1F1F1;
   padding: 15px;
   text-decoration: none;
 }
@@ -10455,7 +10437,7 @@ ul.category-nav > li a {
   font-size: 0.8rem;
   line-height: 1;
   font-family: HelveticaNeue-bold, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  color: black;
+  color: #000000;
   text-decoration: none;
   margin-bottom: 5px;
 }
@@ -10486,7 +10468,7 @@ ul.category-nav > li a {
 /* line 1609, ../scss/components/_blocks.scss */
 .photo-caption--wrapper .photo-caption p {
   margin: 0px;
-  color: white;
+  color: #FFFFFF;
 }
 
 @media screen and (min-width: 1024px) {
@@ -10548,7 +10530,7 @@ ul.category-nav > li a {
 }
 /* line 1668, ../scss/components/_blocks.scss */
 .block--give-block-full-width {
-  background-color: #f1f1f1;
+  background-color: #F1F1F1;
   height: auto;
   display: block;
   text-align: left;
@@ -10645,14 +10627,14 @@ ul.category-nav > li a {
 .block-ways-to-get-involved--item .block--item-image {
   height: 200px;
   width: 100%;
-  background-color: #b4b9bf;
+  background-color: #B4B9BF;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 /* line 1756, ../scss/components/_blocks.scss */
 .block-ways-to-get-involved--item .block--item-contents {
-  background-color: #007cbe;
+  background-color: #007CBE;
   height: 210px;
   width: 100%;
   display: block;
@@ -10667,7 +10649,7 @@ ul.category-nav > li a {
 }
 /* line 1768, ../scss/components/_blocks.scss */
 .block-ways-to-get-involved--item .block--item-contents .text--with-icon, .block-ways-to-get-involved--item .block--item-contents span, .block-ways-to-get-involved--item .block--item-contents p {
-  color: white;
+  color: #FFFFFF;
 }
 /* line 1771, ../scss/components/_blocks.scss */
 .block-ways-to-get-involved--item .block--item-contents .text--with-icon {
@@ -10678,7 +10660,7 @@ ul.category-nav > li a {
 }
 /* line 1776, ../scss/components/_blocks.scss */
 .block-ways-to-get-involved--item .block--item-contents .text--with-icon .text--icon {
-  color: white;
+  color: #FFFFFF;
   margin-left: 10px;
   display: inline-block;
   padding-top: 1px;
@@ -10692,7 +10674,7 @@ ul.category-nav > li a {
 }
 /* line 1793, ../scss/components/_blocks.scss */
 .block-ways-to-get-involved--item:hover .block--item-contents .text--with-icon .fa-angle-right, .block-ways-to-get-involved--item:hover .block--item-contents .text--with-icon .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block-ways-to-get-involved--item:hover .block--item-contents .text--with-icon .slider-button.slider-next {
-  color: #007cbe;
+  color: #007CBE;
 }
 
 @media screen and (min-width: 768px) {
@@ -10757,11 +10739,11 @@ ul.category-nav > li a {
 }
 /* line 127, ../scss/global/mixins/_mixins.scss */
 .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+1) .block--impact-stories-panel .block--item-colored-panel {
-  background-color: #007cbe;
+  background-color: #007CBE;
 }
 /* line 109, ../scss/global/mixins/_mixins.scss */
 .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+1) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .fa-angle-right, .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+1) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+1) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .slider-button.slider-next {
-  color: #007cbe;
+  color: #007CBE;
 }
 /* line 112, ../scss/global/mixins/_mixins.scss */
 .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+1) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .icon--visible-hover {
@@ -10777,15 +10759,15 @@ ul.category-nav > li a {
 }
 /* line 118, ../scss/global/mixins/_mixins.scss */
 .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+1) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .fa-angle-right, .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+1) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+1) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .slider-button.slider-next {
-  color: #007cbe;
+  color: #007CBE;
 }
 /* line 127, ../scss/global/mixins/_mixins.scss */
 .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+2) .block--impact-stories-panel .block--item-colored-panel {
-  background-color: #f26d04;
+  background-color: #F26D04;
 }
 /* line 109, ../scss/global/mixins/_mixins.scss */
 .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+2) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .fa-angle-right, .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+2) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+2) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .slider-button.slider-next {
-  color: #f26d04;
+  color: #F26D04;
 }
 /* line 112, ../scss/global/mixins/_mixins.scss */
 .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+2) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .icon--visible-hover {
@@ -10801,15 +10783,15 @@ ul.category-nav > li a {
 }
 /* line 118, ../scss/global/mixins/_mixins.scss */
 .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+2) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .fa-angle-right, .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+2) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+2) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .slider-button.slider-next {
-  color: #f26d04;
+  color: #F26D04;
 }
 /* line 127, ../scss/global/mixins/_mixins.scss */
 .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+3) .block--impact-stories-panel .block--item-colored-panel {
-  background-color: #6ea400;
+  background-color: #6EA400;
 }
 /* line 109, ../scss/global/mixins/_mixins.scss */
 .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+3) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .fa-angle-right, .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+3) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+3) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .slider-button.slider-next {
-  color: #6ea400;
+  color: #6EA400;
 }
 /* line 112, ../scss/global/mixins/_mixins.scss */
 .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+3) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .icon--visible-hover {
@@ -10825,7 +10807,7 @@ ul.category-nav > li a {
 }
 /* line 118, ../scss/global/mixins/_mixins.scss */
 .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+3) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .fa-angle-right, .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+3) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+3) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .slider-button.slider-next {
-  color: #6ea400;
+  color: #6EA400;
 }
 /* line 127, ../scss/global/mixins/_mixins.scss */
 .block--impact-stories.featured-events--extend .featured-events-list .featured-event-item:nth-of-type(4n+4) .block--impact-stories-panel .block--item-colored-panel {
@@ -10854,31 +10836,31 @@ ul.category-nav > li a {
 
 /* line 141, ../scss/global/mixins/_mixins.scss */
 .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+1) .block--impact-story-with-image .block--content .content-area {
-  background-color: #007cbe;
+  background-color: #007CBE;
 }
 /* line 147, ../scss/global/mixins/_mixins.scss */
 .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+1) .block--funding-priorities-full a, .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+1) .block--funding-priorities-full span, .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+1) .block--funding-priorities-full .detail-label p {
-  color: #007cbe;
+  color: #007CBE;
 }
 /* line 151, ../scss/global/mixins/_mixins.scss */
 .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+1) .block--funding-priorities-full span[itemprop] a {
-  color: black;
+  color: #000000;
 }
 /* line 157, ../scss/global/mixins/_mixins.scss */
 .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+1) .block--funding-priorities-full a:hover .fa-angle-right, .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+1) .block--funding-priorities-full a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+1) .block--funding-priorities-full a:hover .slider-button.slider-next {
-  color: white;
+  color: #FFFFFF;
 }
 /* line 164, ../scss/global/mixins/_mixins.scss */
 .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+1) .block--funding-priorities-full .link--with-icon .text::after {
-  background-color: #007cbe;
+  background-color: #007CBE;
 }
 /* line 127, ../scss/global/mixins/_mixins.scss */
 .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+1) .block--impact-stories-panel .block--item-colored-panel {
-  background-color: #007cbe;
+  background-color: #007CBE;
 }
 /* line 109, ../scss/global/mixins/_mixins.scss */
 .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+1) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .fa-angle-right, .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+1) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+1) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .slider-button.slider-next {
-  color: #007cbe;
+  color: #007CBE;
 }
 /* line 112, ../scss/global/mixins/_mixins.scss */
 .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+1) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .icon--visible-hover {
@@ -10894,35 +10876,35 @@ ul.category-nav > li a {
 }
 /* line 118, ../scss/global/mixins/_mixins.scss */
 .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+1) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .fa-angle-right, .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+1) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+1) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .slider-button.slider-next {
-  color: #007cbe;
+  color: #007CBE;
 }
 /* line 141, ../scss/global/mixins/_mixins.scss */
 .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+2) .block--impact-story-with-image .block--content .content-area {
-  background-color: #f26d04;
+  background-color: #F26D04;
 }
 /* line 147, ../scss/global/mixins/_mixins.scss */
 .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+2) .block--funding-priorities-full a, .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+2) .block--funding-priorities-full span, .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+2) .block--funding-priorities-full .detail-label p {
-  color: #f26d04;
+  color: #F26D04;
 }
 /* line 151, ../scss/global/mixins/_mixins.scss */
 .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+2) .block--funding-priorities-full span[itemprop] a {
-  color: black;
+  color: #000000;
 }
 /* line 157, ../scss/global/mixins/_mixins.scss */
 .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+2) .block--funding-priorities-full a:hover .fa-angle-right, .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+2) .block--funding-priorities-full a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+2) .block--funding-priorities-full a:hover .slider-button.slider-next {
-  color: white;
+  color: #FFFFFF;
 }
 /* line 164, ../scss/global/mixins/_mixins.scss */
 .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+2) .block--funding-priorities-full .link--with-icon .text::after {
-  background-color: #f26d04;
+  background-color: #F26D04;
 }
 /* line 127, ../scss/global/mixins/_mixins.scss */
 .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+2) .block--impact-stories-panel .block--item-colored-panel {
-  background-color: #f26d04;
+  background-color: #F26D04;
 }
 /* line 109, ../scss/global/mixins/_mixins.scss */
 .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+2) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .fa-angle-right, .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+2) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+2) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .slider-button.slider-next {
-  color: #f26d04;
+  color: #F26D04;
 }
 /* line 112, ../scss/global/mixins/_mixins.scss */
 .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+2) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .icon--visible-hover {
@@ -10938,35 +10920,35 @@ ul.category-nav > li a {
 }
 /* line 118, ../scss/global/mixins/_mixins.scss */
 .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+2) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .fa-angle-right, .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+2) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+2) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .slider-button.slider-next {
-  color: #f26d04;
+  color: #F26D04;
 }
 /* line 141, ../scss/global/mixins/_mixins.scss */
 .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+3) .block--impact-story-with-image .block--content .content-area {
-  background-color: #6ea400;
+  background-color: #6EA400;
 }
 /* line 147, ../scss/global/mixins/_mixins.scss */
 .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+3) .block--funding-priorities-full a, .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+3) .block--funding-priorities-full span, .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+3) .block--funding-priorities-full .detail-label p {
-  color: #6ea400;
+  color: #6EA400;
 }
 /* line 151, ../scss/global/mixins/_mixins.scss */
 .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+3) .block--funding-priorities-full span[itemprop] a {
-  color: black;
+  color: #000000;
 }
 /* line 157, ../scss/global/mixins/_mixins.scss */
 .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+3) .block--funding-priorities-full a:hover .fa-angle-right, .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+3) .block--funding-priorities-full a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+3) .block--funding-priorities-full a:hover .slider-button.slider-next {
-  color: white;
+  color: #FFFFFF;
 }
 /* line 164, ../scss/global/mixins/_mixins.scss */
 .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+3) .block--funding-priorities-full .link--with-icon .text::after {
-  background-color: #6ea400;
+  background-color: #6EA400;
 }
 /* line 127, ../scss/global/mixins/_mixins.scss */
 .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+3) .block--impact-stories-panel .block--item-colored-panel {
-  background-color: #6ea400;
+  background-color: #6EA400;
 }
 /* line 109, ../scss/global/mixins/_mixins.scss */
 .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+3) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .fa-angle-right, .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+3) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+3) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .slider-button.slider-next {
-  color: #6ea400;
+  color: #6EA400;
 }
 /* line 112, ../scss/global/mixins/_mixins.scss */
 .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+3) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .icon--visible-hover {
@@ -10982,7 +10964,7 @@ ul.category-nav > li a {
 }
 /* line 118, ../scss/global/mixins/_mixins.scss */
 .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+3) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .fa-angle-right, .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+3) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+3) .block--impact-stories-panel:hover .block--item-colored-panel .text--with-icon .slider-button.slider-next {
-  color: #6ea400;
+  color: #6EA400;
 }
 /* line 141, ../scss/global/mixins/_mixins.scss */
 .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+4) .block--impact-story-with-image .block--content .content-area {
@@ -10994,11 +10976,11 @@ ul.category-nav > li a {
 }
 /* line 151, ../scss/global/mixins/_mixins.scss */
 .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+4) .block--funding-priorities-full span[itemprop] a {
-  color: black;
+  color: #000000;
 }
 /* line 157, ../scss/global/mixins/_mixins.scss */
 .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+4) .block--funding-priorities-full a:hover .fa-angle-right, .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+4) .block--funding-priorities-full a:hover .block.block--funding-priorities .slider-button.slider-next, .block.block--funding-priorities .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+4) .block--funding-priorities-full a:hover .slider-button.slider-next {
-  color: white;
+  color: #FFFFFF;
 }
 /* line 164, ../scss/global/mixins/_mixins.scss */
 .impact-stories-wrapper.giving-societies--extend .block--impact-stories-pillar:nth-of-type(4n+4) .block--funding-priorities-full .link--with-icon .text::after {
@@ -11040,21 +11022,21 @@ ul.category-nav > li a {
 /* line 1905, ../scss/components/_blocks.scss */
 .photo-cta-list {
   padding: 0px 20px;
-  background-color: white;
+  background-color: #FFFFFF;
   display: inline-block;
 }
 
 /* line 1911, ../scss/components/_blocks.scss */
 .photo-cta-item {
-  background-color: white;
+  background-color: #FFFFFF;
   position: relative;
   padding-left: 0px;
   padding-right: 0px;
 }
 /* line 1916, ../scss/components/_blocks.scss */
 .photo-cta-item:nth-of-type(3n+2) {
-  border-top: 1px solid #007cbe;
-  border-bottom: 1px solid #007cbe;
+  border-top: 1px solid #007CBE;
+  border-bottom: 1px solid #007CBE;
 }
 /* line 1920, ../scss/components/_blocks.scss */
 .photo-cta-item .photo-cta-content--wrapper {
@@ -11097,10 +11079,10 @@ ul.category-nav > li a {
   }
   /* line 1950, ../scss/components/_blocks.scss */
   .photo-cta-item:nth-of-type(3n+2) {
-    border-top: 0px solid #007cbe;
-    border-bottom: 0px solid #007cbe;
-    border-right: 1px solid #007cbe;
-    border-left: 1px solid #007cbe;
+    border-top: 0px solid #007CBE;
+    border-bottom: 0px solid #007CBE;
+    border-right: 1px solid #007CBE;
+    border-left: 1px solid #007CBE;
   }
   /* line 1956, ../scss/components/_blocks.scss */
   .photo-cta-item:last-child {
@@ -11139,10 +11121,10 @@ ul.category-nav > li a {
   }
   /* line 1983, ../scss/components/_blocks.scss */
   .photo-cta-item:nth-of-type(3n+2) {
-    border-top: 0px solid #007cbe;
-    border-bottom: 0px solid #007cbe;
-    border-right: 1px solid #007cbe;
-    border-left: 1px solid #007cbe;
+    border-top: 0px solid #007CBE;
+    border-bottom: 0px solid #007CBE;
+    border-right: 1px solid #007CBE;
+    border-left: 1px solid #007CBE;
   }
   /* line 1989, ../scss/components/_blocks.scss */
   .photo-cta-item:last-child {
@@ -11171,10 +11153,10 @@ ul.category-nav > li a {
   }
   /* line 2009, ../scss/components/_blocks.scss */
   .photo-cta-item:nth-of-type(3n+2) {
-    border-top: 0px solid #007cbe;
-    border-bottom: 0px solid #007cbe;
-    border-right: 1px solid #007cbe;
-    border-left: 1px solid #007cbe;
+    border-top: 0px solid #007CBE;
+    border-bottom: 0px solid #007CBE;
+    border-right: 1px solid #007CBE;
+    border-left: 1px solid #007CBE;
   }
   /* line 2015, ../scss/components/_blocks.scss */
   .photo-cta-item:last-child {
@@ -11223,17 +11205,17 @@ ul.category-nav > li a {
 /* line 2054, ../scss/components/_blocks.scss */
 .block-contact-us--big {
   display: block;
-  background-color: white;
-  color: black;
+  background-color: #FFFFFF;
+  color: #000000;
   margin-bottom: 60px;
 }
 /* line 2059, ../scss/components/_blocks.scss */
 .block-contact-us--big a {
-  color: black;
+  color: #000000;
 }
 /* line 2061, ../scss/components/_blocks.scss */
 .block-contact-us--big a:hover {
-  color: black;
+  color: #000000;
 }
 /* line 2066, ../scss/components/_blocks.scss */
 .block-contact-us--big .contact-detail-item {
@@ -11258,7 +11240,7 @@ ul.category-nav > li a {
   line-height: 1;
   width: 22.5px;
   margin-right: 15px;
-  color: #007cbe;
+  color: #007CBE;
 }
 
 @media screen and (min-width: 768px) {
@@ -11336,8 +11318,8 @@ ul.category-nav > li a {
 /* line 2147, ../scss/components/_blocks.scss */
 .block--image-and-caption .item-caption {
   display: block;
-  background-color: #f1f1f1;
-  color: black;
+  background-color: #F1F1F1;
+  color: #000000;
   padding: 15px 20px;
   margin: 0px;
   position: relative;
@@ -11652,7 +11634,7 @@ ul.dashed > li::before {
 }
 /* line 302, ../scss/components/_custom_lists.scss */
 .whats-hot-item a p {
-  color: black;
+  color: #000000;
   margin: 0px;
 }
 /* line 306, ../scss/components/_custom_lists.scss */
