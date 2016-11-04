@@ -6006,8 +6006,9 @@ html, body {
 body {
   font-size: 15px;
   height: 100%;
+  padding: 0px !important;
 }
-/* line 19, ../scss/base/html/_html.scss */
+/* line 20, ../scss/base/html/_html.scss */
 body.toolbar-fixed .toolbar-oriented, body.toolbar-oriented .toolbar-bar, body.toolbar-oriented .toolbar-tray {
   z-index: 1031;
 }
