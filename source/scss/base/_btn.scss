@@ -71,6 +71,11 @@
         &:hover {
             background-color: $color--gray;
         }
+        &.btn--all {
+            &:hover, &.active {
+                background-color: $color--oxford-blue;
+            }
+        }
         &.btn--research {
            &:hover, &.active {
              background-color: $color--teal;
