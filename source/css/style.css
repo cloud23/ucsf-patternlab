@@ -5099,7 +5099,7 @@ fieldset {
   font-family: HelveticaNeue-bold, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 /* line 49, ../scss/base/_forms.scss */
-.contact-form .form-group input, .contact-form .form-group textarea {
+.contact-form .form-group input[type="text"], .contact-form .form-group input[type="email"], .contact-form .form-group textarea {
   display: block;
   width: 100%;
   font-size: 1.33333rem;
@@ -5108,11 +5108,11 @@ fieldset {
   padding: 15px;
 }
 /* line 55, ../scss/base/_forms.scss */
-.contact-form .form-group input:focus, .contact-form .form-group textarea:focus {
+.contact-form .form-group input[type="text"]:focus, .contact-form .form-group input[type="email"]:focus, .contact-form .form-group textarea:focus {
   outline: none;
 }
 /* line 59, ../scss/base/_forms.scss */
-.contact-form .form-group input {
+.contact-form .form-group input[type="text"], .contact-form .form-group input[type="email"] {
   height: 55px;
   border: 2px solid #B4B9BF;
 }
