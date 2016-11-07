@@ -43,7 +43,7 @@ jQuery(function($){
 			var $option = $(this);
 			var text = $(this).text();
 			var btnClass = text.toLowerCase();
-				btnClass = 'btn--'+btn_class.replace(' ','-');
+				btnClass = 'btn--'+btnClass.replace(/\s/g,'-');
 			var value = $(this).val();
 			var $link = $('<a class="btn btn--category '+btnClass+'"></a>');
 			var $new_link = $link.clone();
