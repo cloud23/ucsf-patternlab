@@ -42,10 +42,11 @@ jQuery(function($){
 		$options.each(function(){
 			var $option = $(this);
 			var text = $(this).text();
-			var btnClass = text.toLowerCase();
-				btnClass = 'btn--'+btnClass.replace(/\s/g,'-');
+			var lowerCaseText = text.toLowerCase();
+				btnClass = 'btn--'+lowerCaseText.replace(/\s/g,'-');
+			var _id = lowerCaseText.replace(/\s/g,'_');
 			var value = $(this).val();
-			var $link = $('<a class="btn btn--category '+btnClass+'"></a>');
+			var $link = $('<a class="btn btn--category '+btnClass+'" id="'+_id+'"></a>');
 			var $new_link = $link.clone();
 			var $list_wrapper = $itemWrapper.clone();
 			$new_link.text(text).attr('href', $select.attr('name'));
