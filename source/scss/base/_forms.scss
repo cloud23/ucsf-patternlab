@@ -60,6 +60,10 @@ fieldset {
 			height: 55px;
 			border: 2px solid $color--dark-gray;
 		}
+		textarea {
+			border: 2px solid $color--dark-gray;
+			resize: none;
+		}
 	}
 	button[type="submit"] {
 		width: 100%;
