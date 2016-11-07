@@ -46,7 +46,7 @@ fieldset {
 				font-family: $text-body--bold;
 			}
 		}
-		input, textarea {
+		input[type="text"], input[type="email"], textarea {
 			display: block;
 			width: 100%;
 			@include type-definition(20px, 1.3);
@@ -56,7 +56,7 @@ fieldset {
 				outline: none;
 			}
 		}
-		input {
+		input[type="text"], input[type="email"] {
 			height: 55px;
 			border: 2px solid $color--dark-gray;
 		}
