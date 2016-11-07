@@ -110,7 +110,7 @@ jQuery(function($){
 			return shareLinks[shareTo];
 		},
 		createWinProp: function() {
-			var width = 450;
+			var width = 512;
 		    var height = 520;
 		    var left = (screen.width/2)-(width/2);
 		    var top = (screen.height/2)-(height/2);
