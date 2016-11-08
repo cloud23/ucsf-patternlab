@@ -57,20 +57,18 @@
 		    text-align: center;
 		    position: absolute;
 		    top: 50%;
-		    left: 15px;
-		    right: 15px;
+		    // left: 15px;
+		    // right: 15px;
 			-webkit-transform:  translateY(-50%);
 			-ms-transform:  translateY(-50%);
 			-o-transform:  translateY(-50%);
 			transform:  translateY(-50%);
 			color: $color--white;
 			&.align-left {
-				left: 15px;
-				right: 15px;
+				float: none;
 			}
 			&.align-right {
-				left: 15px;
-				right: 15px;
+				float: none;
 			}
 			p {
 				font-size: 18px;
@@ -130,6 +128,23 @@
 	}
 }
 
+@media screen and (max-width: $bp--xsmall-max){
+	.block {
+		display: block;
+		&.block-hero, &.block--landing-hero {
+			.hero-text {
+				&.align-left {
+					left: 15px;
+					right: 15px;
+				}
+				&.align-right {
+					left: 15px;
+					right: 15px;
+				}
+			}
+		}
+	}
+}
 
 @media screen and (min-width: $width-small){
 	.hero--wrapper {
@@ -151,16 +166,18 @@
 				}
 			}
 			.hero-text {
-				position: absolute;
+				position: relative;
    				text-align: left;
    				width: 57%;
    				&.align-left {
-					left: 15px;
-					right: initial;
+					// left: 15px;
+					// right: initial;
+					float: left;
 				}
 				&.align-right {
-					left: initial;
-					right: 15px;
+					// left: initial;
+					// right: 15px;
+					float: right;
 				}
    				h1 {
    					@include type-definition(40px,1.2);
@@ -210,12 +227,14 @@
 			.hero-text {
 				width: 47%;
    				&.align-left {
-					left: 15px;
-					right: initial;
+					// left: 15px;
+					// right: initial;
+					float: left;
 				}
 				&.align-right {
-					left: initial;
-					right: 15px;
+					// left: initial;
+					// right: 15px;
+					float: right;
 				}
 				h1 {
 					@include type-definition(60px,1.08);
@@ -236,12 +255,14 @@
 			.hero-text {
 				width: 65%;
    				&.align-left {
-					left: 15px;
-					right: initial;
+					// left: 15px;
+					// right: initial;
+					float: left;
 				}
 				&.align-right {
-					left: initial;
-					right: 15px;
+					// left: initial;
+					// right: 15px;
+					float: right;
 				}
 				h1 {
 					@include type-definition(60px,1);
@@ -274,12 +295,14 @@
 			.hero-text {
 				width: 47%;
    				&.align-left {
-					left: 15px;
-					right: initial;
+					// left: 15px;
+					// right: initial;
+					float: left;
 				}
 				&.align-right {
-					left: initial;
-					right: 15px;
+					// left: initial;
+					// right: 15px;
+					float: right;
 				}
 				h1 {
 					@include type-definition(60px,1.08);
