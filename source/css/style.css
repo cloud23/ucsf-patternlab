@@ -5228,7 +5228,7 @@ fieldset {
 /*** Helper ***/
 /* line 3, ../scss/base/_helper-classes.scss */
 .hidden {
-  display: none;
+  display: none !important;
 }
 
 /*** HR ***/
