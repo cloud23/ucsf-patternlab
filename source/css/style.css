@@ -11556,7 +11556,6 @@ ul.category-nav > li a {
 /* line 2261, ../scss/components/_blocks.scss */
 .block--wysiwyg img {
   max-width: 100%;
-  width: 100%;
   display: block;
   height: auto;
 }
