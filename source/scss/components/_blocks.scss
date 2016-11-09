@@ -1238,6 +1238,8 @@
     display: inline-block;
     width: 100%;
     margin-bottom: 20px;
+    transition: top 250ms linear;
+    top: 0px;
     .article-share-btn {
         background-color: $color--medium-gray;
         width: 38px;
