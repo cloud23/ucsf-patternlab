@@ -11877,22 +11877,23 @@ ul.dashed > li::before {
   padding: 0;
   margin: 0;
   margin-bottom: 0px;
+  width: 100%;
 }
 
-/* line 349, ../scss/components/_custom_lists.scss */
+/* line 350, ../scss/components/_custom_lists.scss */
 .stats-card {
   background-color: #ebf3fa;
   padding: 30px 0px;
   min-height: 280px;
   margin-bottom: 30px;
 }
-/* line 354, ../scss/components/_custom_lists.scss */
+/* line 355, ../scss/components/_custom_lists.scss */
 .stats-card .stats-card-data {
   text-align: center;
   padding: 0px 15px;
   margin-bottom: 10px;
 }
-/* line 357, ../scss/components/_custom_lists.scss */
+/* line 358, ../scss/components/_custom_lists.scss */
 .stats-card .stats-card-data p {
   font-size: 65px;
   font-family: granjon, Georgia, TimesNewRoman, "Times New Roman", Times, serif;
@@ -11900,20 +11901,20 @@ ul.dashed > li::before {
   margin: 0px;
   line-height: 1;
 }
-/* line 366, ../scss/components/_custom_lists.scss */
+/* line 367, ../scss/components/_custom_lists.scss */
 .stats-card .divider-line {
   width: 54px;
   height: 2px;
   background-color: #052049;
   margin: 0 auto;
 }
-/* line 372, ../scss/components/_custom_lists.scss */
+/* line 373, ../scss/components/_custom_lists.scss */
 .stats-card .stats-card-description {
   text-align: center;
   margin-top: 20px;
   padding: 0px 25px;
 }
-/* line 376, ../scss/components/_custom_lists.scss */
+/* line 377, ../scss/components/_custom_lists.scss */
 .stats-card .stats-card-description p {
   font-size: 20px;
   color: #052049;
@@ -11923,53 +11924,53 @@ ul.dashed > li::before {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 387, ../scss/components/_custom_lists.scss */
+  /* line 388, ../scss/components/_custom_lists.scss */
   .stats-card-list {
     margin-bottom: 20px;
   }
 
-  /* line 390, ../scss/components/_custom_lists.scss */
+  /* line 391, ../scss/components/_custom_lists.scss */
   .stats-card {
     padding: 30px 0px;
   }
-  /* line 392, ../scss/components/_custom_lists.scss */
+  /* line 393, ../scss/components/_custom_lists.scss */
   .stats-card .stats-card-data {
     padding: 0px 15px;
   }
-  /* line 395, ../scss/components/_custom_lists.scss */
+  /* line 396, ../scss/components/_custom_lists.scss */
   .stats-card .stats-card-description {
     padding: 0px 25px;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 403, ../scss/components/_custom_lists.scss */
+  /* line 404, ../scss/components/_custom_lists.scss */
   .stats-card-list {
     margin-bottom: 30px;
   }
 
-  /* line 406, ../scss/components/_custom_lists.scss */
+  /* line 407, ../scss/components/_custom_lists.scss */
   .stats-card {
     padding: 30px 0px;
   }
-  /* line 408, ../scss/components/_custom_lists.scss */
+  /* line 409, ../scss/components/_custom_lists.scss */
   .stats-card .stats-card-data {
     padding: 0px 15px;
   }
-  /* line 411, ../scss/components/_custom_lists.scss */
+  /* line 412, ../scss/components/_custom_lists.scss */
   .stats-card .stats-card-description {
     padding: 0px 45px;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 420, ../scss/components/_custom_lists.scss */
+  /* line 421, ../scss/components/_custom_lists.scss */
   .stats-card {
     padding: 30px 0px;
   }
-  /* line 422, ../scss/components/_custom_lists.scss */
+  /* line 423, ../scss/components/_custom_lists.scss */
   .stats-card .stats-card-data {
     padding: 0px 15px;
   }
-  /* line 425, ../scss/components/_custom_lists.scss */
+  /* line 426, ../scss/components/_custom_lists.scss */
   .stats-card .stats-card-description {
     padding: 0px 45px;
   }
