@@ -11558,6 +11558,7 @@ ul.category-nav > li a {
   max-width: 100%;
   width: 100%;
   display: block;
+  height: auto;
 }
 
 /* line 1, ../scss/components/_custom_lists.scss */
