@@ -16,19 +16,21 @@
         </div>
     </div>
     {% block hero_image %}
-        {% include "@molecules/02-blocks/08-article-hero-no-text.twig" %}
+        {% include "@molecules/02-blocks/08-article-hero-no-text.twig" with {
+            "image" : "",
+        } %}
     {% endblock %}
     <div class="photo--caption-full large--hidden medium--hidden">
         <div class="content-area">
             <div class="column-wrapper xsmall--visible">
                 {% block hero_image_caption %}
-                    {% include "@molecules/01-text/02-photo-caption.twig" %}
+                    {# include "@molecules/01-text/02-photo-caption.twig" #}
                 {% endblock %}
             </div>
              <div class="column-wrapper small--visible">
                 <div class="column-small-12">
                     {% block hero_image_caption_small %}
-                        {% include "@molecules/01-text/02-photo-caption.twig" %}
+                        {# include "@molecules/01-text/02-photo-caption.twig" #}
                     {% endblock %}
                 </div>
             </div>
@@ -76,7 +78,7 @@
 
 {% block right_section %}
     <div class="column-large-12 column-medium-12 small--hidden xsmall--hidden photo--caption-side">
-        {{ block('hero_image_caption') }}
+        {# block('hero_image_caption') #}
     </div>
     {% block right_sidebar %}
     <div class="column-large-12 column-medium-12 column-small-12 column-xsmall-12">
