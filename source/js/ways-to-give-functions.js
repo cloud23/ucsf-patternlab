@@ -55,9 +55,14 @@ jQuery(function($){
 			},
 			focusin: function(e) {
 				e.preventDefault();
+				$(this).parent().parent().find('.ways-to-give-option').each(function(){
+					var $radioChecked = $(this).find('input[type="radio"]:checked');
+					$radioChecked.prop('checked',false);
+				});
 				$(this).prev().prev().prop('checked', true);
 				var val = $(this).val(),
 				$label = $(this).next().find('.label-text');
+
 				if( '' != val) {
 					 return;
 				}
@@ -96,5 +101,25 @@ jQuery(function($){
 			});
 
 		});
+
+		$('form[name="ways-to-give"').on('submit',function(e) {
+			e.preventDefault();
+			var action = $(this).attr('action');
+			var selectedValue;
+			var params;
+
+			if($giveOtherField.val() != '') {
+				selectedValue = $giveOtherField.val();
+				params = "&Amount="+selectedValue;
+			} else {
+				selectedValue = $('input[type="radio"][name="GiftChoice"]:checked').val();
+				params = "&GiftChoice="+selectedValue;
+			}
+
+			var finalUrl = action+params;
+
+			window.location = finalUrl;
+		});
+
 
 });
