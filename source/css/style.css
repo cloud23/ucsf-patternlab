@@ -11553,6 +11553,13 @@ ul.category-nav > li a {
   line-height: 1;
 }
 
+/* line 2261, ../scss/components/_blocks.scss */
+.block--wysiwyg img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+}
+
 /* line 1, ../scss/components/_custom_lists.scss */
 .htmytg-list {
   list-style: none;
