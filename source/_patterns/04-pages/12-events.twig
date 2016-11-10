@@ -23,9 +23,9 @@
             "cta_background" : cta_background,
             "ctas" : ctas
         } %}
+        {% include "@molecules/02-blocks/07-give-block-full-width.twig" with {
+            "give_to_full" : give_to_full,
+            "give" : give
+        } %}
     </div>
-{% include "@molecules/02-blocks/07-give-block-full-width.twig" with {
-    "give_to_full" : give_to_full,
-    "give" : give
-} %}
 {% endblock %}
