@@ -372,7 +372,7 @@
     // }
     &.block--learn-more {
         margin-top: 0px;
-        margin-bottom: 60px;
+        margin-bottom: 0px;
         &::before, &::after {
             content: " ";
             display: table;
@@ -1090,7 +1090,7 @@
 .block-story-nugget {
     position: relative;
     background-color: $color--light-gray;
-    margin: 60px -15px 30px;
+    margin: 60px -15px 0px;
     &:before, &:after {
         display: table;
         content: " ";
@@ -1172,7 +1172,7 @@
 
 @media screen and (min-width: $width-small) {
     .block-story-nugget {
-        margin: 60px 0px 30px;
+        margin: 60px 0px 0px;
         .story-nugget-display-image {
              height: 414px;
         }
@@ -1186,7 +1186,7 @@
 
 @media screen and (min-width: $width-medium) {
     .block-story-nugget {
-        margin: 60px 0px;
+        margin: 60px 0px 0px;
         .story-nugget-display-image {
              height: 433px;
         }
@@ -1199,7 +1199,7 @@
 
 @media screen and (min-width: $width-large) {
     .block-story-nugget {
-        margin: 60px 0px;
+        margin: 60px 0px 0px;
         .story-nugget-display-image {
              height: 433px;
         }
@@ -1482,7 +1482,7 @@
 
 @media screen and (min-width: $width-medium) {
     .block-article-carousel--wrapper {
-        margin-bottom: 60px;
+        margin-bottom: 0px;
     }
     .block-article-carousel--wrapper {
         margin-top: 15px;
@@ -2050,7 +2050,7 @@
 }
 
 .block--basic-page-content {
-    margin-bottom: 60px;
+    // margin-bottom: 60px;
 }
 
 .title-and-content-group--wrapper {
@@ -2115,7 +2115,7 @@
     @include type-definition(20px, 1.25);
     max-width: 269px;
     margin: 0 auto;
-    margin-bottom: 60px;
+    // margin-bottom: 60px;
     h4 {
         margin-top: 0px;
     }
@@ -2186,7 +2186,7 @@
 @media screen and (min-width: $width-medium) {
     .block--image-and-caption {
         &:last-child {
-            margin-bottom: 60px;
+            margin-bottom: 0px;
         }
         .item-caption {
             margin-left: 40px;
