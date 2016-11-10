@@ -14,6 +14,9 @@
     padding: 0;
     margin: 0;
     display: block;
+    &.details-content--margin {
+    	margin-bottom: 60px;
+    }
 }
 
 
