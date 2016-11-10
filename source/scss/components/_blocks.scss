@@ -2033,13 +2033,13 @@
     }
 }
 
-.body_content {
-    padding-bottom: 40px;
+.carousel-with-header {
+    margin-top: 40px;
 }
 
 @media screen and (min-width: $width-small) {
-    .body_content {
-        border-bottom: 2px solid $color--border-impact-stories-pillar;
+    .carousel-with-header {
+        border-top: 2px solid $color--border-impact-stories-pillar;
     }
 }
 
