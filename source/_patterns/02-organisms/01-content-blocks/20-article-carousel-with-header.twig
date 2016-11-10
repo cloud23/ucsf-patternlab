@@ -1,10 +1,10 @@
 <div class="carousel-with-header">
-	<h3 class="giving-societies-detail-heading">
-		{{ header_text }}
-	</h3>
+	{% include '@molecules/01-text/carousel-header.twig' with {
+		"header_text" : header_text
+	} %}
 	{% block gallery %}
         {% include "@molecules/02-blocks/11-article-image-carousel.twig" with {
         	"article_carousel_content" : article_carousel_content
         } %}
-    {% endblock%}
+    {% endblock %}
 </div>
