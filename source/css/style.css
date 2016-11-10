@@ -11298,14 +11298,14 @@ ul.category-nav > li a {
   }
 }
 /* line 2036, ../scss/components/_blocks.scss */
-.body_content {
-  padding-bottom: 40px;
+.carousel-with-header {
+  margin-top: 40px;
 }
 
 @media screen and (min-width: 768px) {
   /* line 2041, ../scss/components/_blocks.scss */
-  .body_content {
-    border-bottom: 2px solid #d1d3d3;
+  .carousel-with-header {
+    border-top: 2px solid #d1d3d3;
   }
 }
 /* line 2046, ../scss/components/_blocks.scss */
