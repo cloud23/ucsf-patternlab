@@ -2035,11 +2035,17 @@
 
 .carousel-with-header {
     margin-top: 40px;
+    .block-article-carousel--wrapper {
+        margin-top: 30px;
+    }
 }
 
 @media screen and (min-width: $width-small) {
     .carousel-with-header {
         border-top: 2px solid $color--border-impact-stories-pillar;
+        .block-article-carousel--wrapper {
+            margin-top: 30px;
+        }
     }
 }
 
