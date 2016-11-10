@@ -41,14 +41,17 @@
 		        	</p>
 	        	</div>
 	        </div>
-	        {% if article_carousel_content %}
-		        <div class="column-large-10 column-medium-12 column-small-12 column-xsmall-12">
-		        	{% include '@organisms/01-content-blocks/20-article-carousel-with-header.twig' with {
-						"header_text" : carousel_header_text,
-		        		"article_carousel_content" : article_carousel_content
-		        	} %}
-		        </div>
-	       	{% endif %}
+	        {% block carousel_with_header %}
+	            {% if article_carousel_content %}
+			        <div class="column-large-10 column-medium-12 column-small-12 column-xsmall-12">
+			        	{% include '@organisms/01-content-blocks/20-article-carousel-with-header.twig' with {
+							"header_text" : carousel_header_text,
+			        		"article_carousel_content" : article_carousel_content
+			        	} %}
+			        </div>
+		       	{% endif %}
+	        {% endblock %}
+
        	</div>
     </div>
 {% endblock %}
