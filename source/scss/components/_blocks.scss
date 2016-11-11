@@ -105,12 +105,12 @@
             .stats-items{
                 margin-bottom: 20px;
                 .stats-value{
-                    @include type-definition(65px, 1);
+                    @include type-definition(65px, 0.7);
                     font-family: $text-headline-bold;
                     margin-bottom: 5px;
                 }
                 .stats-text{
-                    margin-top: 5px;
+                    margin-top: 10px;
                     margin-bottom: 0;
                 }
                 &:last-child{
