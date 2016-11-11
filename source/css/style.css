@@ -9011,7 +9011,7 @@ ul.category-nav > li a {
 }
 /* line 112, ../scss/components/_blocks.scss */
 .block.block--funding-priorities-full .block--content-stats .stats-items .stats-text {
-  margin-top: 5px;
+  margin-top: 10px;
   margin-bottom: 0;
 }
 /* line 116, ../scss/components/_blocks.scss */
