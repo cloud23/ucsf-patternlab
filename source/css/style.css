@@ -7274,12 +7274,21 @@ footer .footer--colum-content, footer .footer--column-links {
   margin: 0;
   display: block;
 }
+/* line 11, ../scss/layout/component-layout/_hero-image-block.scss */
+.hero--wrapper.basic-page--hero {
+  margin-bottom: 30px;
+}
 
-/* line 13, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 20, ../scss/layout/component-layout/_hero-image-block.scss */
+.basic-page--hero .block.block--landing-hero .hero-background .backgrounds {
+  background-position: center center;
+}
+
+/* line 28, ../scss/layout/component-layout/_hero-image-block.scss */
 .block {
   display: block;
 }
-/* line 15, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 30, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero, .block.block--landing-hero {
   position: relative;
   display: block;
@@ -7289,19 +7298,19 @@ footer .footer--colum-content, footer .footer--column-links {
   height: 350px;
   background-color: #000000;
 }
-/* line 23, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 38, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .content-area, .block.block--landing-hero .content-area {
   height: 100%;
 }
-/* line 25, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 40, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .content-area .column-wrapper, .block.block--landing-hero .content-area .column-wrapper {
   height: 100%;
 }
-/* line 27, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 42, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .content-area .column-wrapper > div:last-child, .block.block--landing-hero .content-area .column-wrapper > div:last-child {
   height: 100%;
 }
-/* line 32, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 47, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .hero-background, .block.block--landing-hero .hero-background {
   position: absolute;
   top: 0;
@@ -7312,7 +7321,7 @@ footer .footer--colum-content, footer .footer--column-links {
   opacity: 0.7;
   z-index: 0;
 }
-/* line 41, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 56, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .hero-background .backgrounds, .block.block--landing-hero .hero-background .backgrounds {
   position: absolute;
   top: 0;
@@ -7325,7 +7334,7 @@ footer .footer--colum-content, footer .footer--column-links {
   background-attachment: local;
   z-index: 0;
 }
-/* line 54, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 69, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .hero-text, .block.block--landing-hero .hero-text {
   display: block;
   opacity: 1;
@@ -7338,37 +7347,37 @@ footer .footer--colum-content, footer .footer--column-links {
   transform: translateY(-50%);
   color: #FFFFFF;
 }
-/* line 67, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 82, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .hero-text.align-left, .block.block--landing-hero .hero-text.align-left {
   float: none;
 }
-/* line 70, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 85, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .hero-text.align-right, .block.block--landing-hero .hero-text.align-right {
   float: none;
 }
-/* line 73, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 88, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .hero-text p, .block.block--landing-hero .hero-text p {
   font-size: 18px;
   display: none;
   margin: 0px;
 }
-/* line 78, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 93, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .hero-text > a, .block.block--landing-hero .hero-text > a {
   display: none;
 }
-/* line 80, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 95, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .hero-text > a.link.link--with-icon, .block.block--landing-hero .hero-text > a.link.link--with-icon {
   color: #FFFFFF;
 }
-/* line 82, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 97, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .hero-text > a.link.link--with-icon .link--icon, .block.block--landing-hero .hero-text > a.link.link--with-icon .link--icon {
   color: #FFFFFF;
 }
-/* line 86, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 101, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .hero-text > a.link.link--with-icon:hover .icon--angle, .block.block--landing-hero .hero-text > a.link.link--with-icon:hover .icon--angle {
   color: #007CBE;
 }
-/* line 93, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 108, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero > .link--with-icon, .block.block--landing-hero > .link--with-icon {
   display: block;
   position: absolute;
@@ -7378,251 +7387,251 @@ footer .footer--colum-content, footer .footer--column-links {
   text-align: center;
   z-index: 1;
 }
-/* line 101, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 116, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero > .link--with-icon.link.link--with-icon, .block.block--landing-hero > .link--with-icon.link.link--with-icon {
   color: #FFFFFF;
 }
-/* line 103, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 118, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero > .link--with-icon.link.link--with-icon .link--icon, .block.block--landing-hero > .link--with-icon.link.link--with-icon .link--icon {
   color: #FFFFFF;
 }
-/* line 107, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 122, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero > .link--with-icon.link.link--with-icon:hover .icon--angle, .block.block--landing-hero > .link--with-icon.link.link--with-icon:hover .icon--angle {
   color: #007CBE;
 }
-/* line 116, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 131, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block-hero .hero-background .backgrounds {
   display: none;
 }
-/* line 121, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 136, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block--landing-hero {
   margin-bottom: 30px;
 }
-/* line 124, ../scss/layout/component-layout/_hero-image-block.scss */
+/* line 139, ../scss/layout/component-layout/_hero-image-block.scss */
 .block.block--landing-hero .hero-background .backgrounds {
   display: block;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 132, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 147, ../scss/layout/component-layout/_hero-image-block.scss */
   .block {
     display: block;
   }
-  /* line 136, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 151, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text.align-left, .block.block--landing-hero .hero-text.align-left {
     left: 15px;
     right: 15px;
   }
-  /* line 140, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 155, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text.align-right, .block.block--landing-hero .hero-text.align-right {
     left: 15px;
     right: 15px;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 150, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 165, ../scss/layout/component-layout/_hero-image-block.scss */
   .hero--wrapper {
     background-color: #FFFFFF;
   }
 
-  /* line 157, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 172, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero, .block.block--landing-hero {
     background-position: top center;
   }
-  /* line 159, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 174, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-background, .block.block--landing-hero .hero-background {
     background-color: #FFFFFF;
     opacity: 1;
   }
-  /* line 163, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 178, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-background .backgrounds, .block.block--landing-hero .hero-background .backgrounds {
     background-color: #FFFFFF;
     background-attachment: local;
   }
-  /* line 168, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 183, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text, .block.block--landing-hero .hero-text {
     position: relative;
     text-align: left;
     width: 57%;
   }
-  /* line 172, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 187, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text.align-left, .block.block--landing-hero .hero-text.align-left {
     float: left;
   }
-  /* line 177, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 192, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text.align-right, .block.block--landing-hero .hero-text.align-right {
     float: right;
   }
-  /* line 182, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 197, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text h1, .block.block--landing-hero .hero-text h1 {
     font-size: 2.66667rem;
     line-height: 1.2;
     margin-bottom: 20px;
   }
-  /* line 186, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 201, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text p, .block.block--landing-hero .hero-text p {
     display: block;
   }
-  /* line 189, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 204, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text > a, .block.block--landing-hero .hero-text > a {
     display: block;
     font-family: HelveticaNeue-bold, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   }
-  /* line 194, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 209, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero > .link--with-icon, .block.block--landing-hero > .link--with-icon {
     display: none;
   }
-  /* line 198, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 213, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero {
     height: 516px;
   }
-  /* line 201, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 216, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero {
     height: 450px;
     margin-bottom: 0px;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 211, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 226, ../scss/layout/component-layout/_hero-image-block.scss */
   .hero--wrapper {
     margin-bottom: 0px;
   }
 
-  /* line 218, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 233, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero {
     background-position: top center;
     height: 72.567vh;
   }
-  /* line 222, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 237, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-background .backgrounds {
     background-color: #FFFFFF;
     background-attachment: fixed;
   }
-  /* line 227, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 242, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text {
     width: 47%;
   }
-  /* line 229, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 244, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text.align-left {
     float: left;
   }
-  /* line 234, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 249, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text.align-right {
     float: right;
   }
-  /* line 239, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 254, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text h1 {
     font-size: 4rem;
     line-height: 1.08;
   }
-  /* line 244, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 259, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero {
     background-position: top center;
     height: 450px;
     margin-bottom: 0px;
   }
-  /* line 248, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 263, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero .hero-background {
     background-attachment: fixed;
   }
-  /* line 250, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 265, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero .hero-background .backgrounds {
     background-color: #FFFFFF;
     background-attachment: fixed;
   }
-  /* line 255, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 270, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero .hero-text {
     width: 65%;
   }
-  /* line 257, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 272, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero .hero-text.align-left {
     float: left;
   }
-  /* line 262, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 277, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero .hero-text.align-right {
     float: right;
   }
-  /* line 267, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 282, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero .hero-text h1 {
     font-size: 4rem;
     line-height: 1;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 277, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 292, ../scss/layout/component-layout/_hero-image-block.scss */
   .hero--wrapper {
     margin-bottom: 0px;
   }
 
-  /* line 284, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 299, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero {
     background-position: top center;
     min-height: 480px;
     height: 76.567vh;
   }
-  /* line 288, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 303, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-background {
     background-attachment: fixed;
   }
-  /* line 290, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 305, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-background .backgrounds {
     background-color: #FFFFFF;
     background-attachment: fixed;
   }
-  /* line 295, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 310, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text {
     width: 47%;
   }
-  /* line 297, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 312, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text.align-left {
     float: left;
   }
-  /* line 302, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 317, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text.align-right {
     float: right;
   }
-  /* line 307, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 322, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text h1 {
     font-size: 4rem;
     line-height: 1.08;
   }
-  /* line 312, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 327, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero {
     background-position: top center;
     height: 450px;
     margin-bottom: 0px;
   }
-  /* line 316, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 331, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero .hero-background {
     background-attachment: fixed;
   }
-  /* line 318, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 333, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero .hero-background .backgrounds {
     background-color: #FFFFFF;
     background-attachment: fixed;
   }
-  /* line 323, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 338, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero .hero-text {
     width: 57%;
   }
-  /* line 325, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 340, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero .hero-text.align-left {
     left: 15px;
     right: initial;
   }
-  /* line 329, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 344, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero .hero-text.align-right {
     left: initial;
     right: 15px;
   }
-  /* line 333, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 348, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero .hero-text h1 {
     font-size: 4rem;
     line-height: 1;
   }
 }
 @media screen and (min-width: 1200px) and (max-width: 1366px) {
-  /* line 343, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 358, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero {
     height: 72.567vh;
   }
