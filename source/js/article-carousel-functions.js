@@ -20,20 +20,20 @@ jQuery(function($){
 			if($blockCarouselMobile.hasClass('slick-initialized')) $blockCarouselMobile.slick('unslick');
 			if($blockCarouselDesktop.hasClass('slick-initialized')) $blockCarouselDesktop.slick('unslick');
 			if(windowWidth <= 767) {
-				$blockCarouselMobile.slick(this.slickSettings('.block--article-carousel.desktop-block', true));
-				$blockCarouselDesktop.slick(this.slickSettings('.block--article-carousel.mobile-block', false));
+				$blockCarouselMobile.slick(this.slickSettings('.block--article-carousel.desktop-block', true, true));
+				$blockCarouselDesktop.slick(this.slickSettings('.block--article-carousel.mobile-block', false, true));
 			} else {
-				$blockCarouselMobile.slick(this.slickSettings('.block--article-carousel.desktop-block', false));
-				$blockCarouselDesktop.slick(this.slickSettings('.block--article-carousel.mobile-block', true));
+				$blockCarouselMobile.slick(this.slickSettings('.block--article-carousel.desktop-block', false, false));
+				$blockCarouselDesktop.slick(this.slickSettings('.block--article-carousel.mobile-block', true, false));
 			}
 		},
-		slickSettings: function(navFor, showArrows) {
+		slickSettings: function(navFor, showArrows, touchMove) {
 			return {
 				arrows: showArrows,
 				dots: false,
 				infinite: false,
 				adaptiveHeight: true,
-				touchMove: false,
+				touchMove: touchMove,
 				swipe: false,
 				swipeSlide: false,
 				prevArrow: "<button type=\"button\" class=\"slick-prev carousel-nav\"><span class=\"fa fa-angle-left\"></span></button>",
@@ -49,5 +49,9 @@ jQuery(function($){
 		}
 	};
 
-	if($blockCarouselMobile.length > 0 && $blockCarouselDesktop.length > 0) articleEvents.init();
+	if($blockCarouselMobile.length > 0 && $blockCarouselDesktop.length > 0) {
+		do {
+			articleEvents.init();
+		}while(!$blockCarouselDesktop.hasClass('slick-initialized') && !$blockCarouselMobile.hasClass('slick-initialized'));
+	}
 });

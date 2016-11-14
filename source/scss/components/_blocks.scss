@@ -877,7 +877,7 @@
                 padding-top: 0px;
                 border-top:  0px solid transparent;
                 margin-bottom: 15px;
-                 @include type-definition(26px);
+                 @include type-definition(26px, 1);
             }
         }
          &.block--funding-priorities-full {
@@ -1237,6 +1237,7 @@
 .block--share-btns {
     display: inline-block;
     width: 100%;
+    margin-top: 20px;
     margin-bottom: 20px;
     transition: top 250ms linear;
     top: 0px;
@@ -1260,6 +1261,7 @@
 
 @media screen and (min-width: $width-medium) {
     .block--share-btns {
+        margin-top: 0px;
         margin-bottom: 0px;
         position: absolute;
         width: auto;
@@ -1267,6 +1269,7 @@
         &.followScroll {
             position: fixed;
             top: 170px;
+            z-index: 999;
         }
         .article-share-btn {
             background-color: $color--medium-gray;
@@ -1450,10 +1453,10 @@
                 bottom: 0;
             }
             &::before {
-                left: 0px;
+                left: -1px;
             }
             &::after {
-                right: 0px;
+                right: -1px;
             }
             .carousel-nav {
                 display: block;
@@ -1634,7 +1637,7 @@
 
 
 .photo--caption-full {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     .photo-caption--wrapper {
         margin-bottom: 0px;
     }

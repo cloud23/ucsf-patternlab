@@ -102,7 +102,7 @@ jQuery(function($){
 
 		});
 
-		$('form[name="ways-to-give"').on('submit',function(e) {
+		$('form[name="ways-to-give"]').on('submit',function(e) {
 			e.preventDefault();
 			var action = $(this).attr('action');
 			var selectedValue;
