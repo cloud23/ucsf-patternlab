@@ -15,7 +15,7 @@ jQuery(function($){
 				this.slickIt();
 			}
 		},
-		slickIt: function(checkInit) {
+		slickIt: function() {
 			var windowWidth = $window.width();
 			if($blockCarouselMobile.hasClass('slick-initialized')) $blockCarouselMobile.slick('unslick');
 			if($blockCarouselDesktop.hasClass('slick-initialized')) $blockCarouselDesktop.slick('unslick');
@@ -25,9 +25,6 @@ jQuery(function($){
 			} else {
 				$blockCarouselMobile.slick(this.slickSettings('.block--article-carousel.desktop-block', false, false));
 				$blockCarouselDesktop.slick(this.slickSettings('.block--article-carousel.mobile-block', true, false));
-			}
-			if(checkInit === true) {
-				this.checkSlickInit();
 			}
 		},
 		slickSettings: function(navFor, showArrows, touchMove) {

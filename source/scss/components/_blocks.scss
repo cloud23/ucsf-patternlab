@@ -1451,10 +1451,10 @@
                 bottom: 0;
             }
             &::before {
-                left: 0px;
+                left: -1px;
             }
             &::after {
-                right: 0px;
+                right: -1px;
             }
             .carousel-nav {
                 display: block;

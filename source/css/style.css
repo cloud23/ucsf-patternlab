@@ -10467,11 +10467,11 @@ ul.category-nav > li a {
   }
   /* line 1453, ../scss/components/_blocks.scss */
   .block--article-carousel.desktop-block::before {
-    left: 0px;
+    left: -1px;
   }
   /* line 1456, ../scss/components/_blocks.scss */
   .block--article-carousel.desktop-block::after {
-    right: 0px;
+    right: -1px;
   }
   /* line 1459, ../scss/components/_blocks.scss */
   .block--article-carousel.desktop-block .carousel-nav {
