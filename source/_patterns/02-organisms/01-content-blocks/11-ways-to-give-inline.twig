@@ -8,22 +8,14 @@
 						<fieldset>
 							<legend class="visually-hidden">Give Form:</legend>
 							<div class="ways-to-give-options--wrapper ">
-						      	<div class="ways-to-give-option" role="button">
-						            <input type="radio" name="{{ choice_name }}" id="{{ choice_name }}_50" value="50" />
-						            <label for="{{ choice_name }}_50">$50</label>
-						        </div>
-						         <div class="ways-to-give-option" role="button">
-						            <input type="radio" name="{{ choice_name }}" id="{{ choice_name }}_100" value="100" checked="true"/>
-						            <label for="{{ choice_name }}_100">$100</label>
-						        </div>
-						        <div class="ways-to-give-option" role="button">
-						            <input type="radio" name="{{ choice_name }}" id="{{ choice_name }}_200" value="200" />
-						            <label for="{{ choice_name }}_200">$200</label>
-						        </div>
-						         <div class="ways-to-give-option" role="button">
-						            <input type="radio" name="{{ choice_name }}" id="{{ choice_name }}_500" value="500" />
-						            <label for="{{ choice_name }}_500">$500</label>
-						        </div>
+								{% block amounts %}
+				                  {% for amount in giving_amounts %}
+				                    <div class="ways-to-give-option" role="button">
+							            <input type="radio" name="{{ choice_name }}" id="{{ choice_name }}_{{ amount.value }}" value="{{ amount.value }}"   {{ amount.is_checked ? 'checked' : '' }}   />
+							            <label for="{{ choice_name }}_{{ amount.value }}">{{ amount.label }}</label>
+							        </div>
+				                  {% endfor %}
+				                {% endblock %}
 						        <div class="ways-to-give-option" role="button">
 						        	<label class="visually-hidden" for="{{ choice_name }}_other">Other</label>
 						            <input type="radio" name="{{ choice_name }}" id="{{ choice_name }}_other" value="other" />
@@ -44,5 +36,4 @@
 			</div>
 		</div>
 	</div>
-
 </div>
