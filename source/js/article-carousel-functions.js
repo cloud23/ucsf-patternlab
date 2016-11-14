@@ -48,10 +48,9 @@ jQuery(function($){
 			});;
 		}
 	};
-
-	if($blockCarouselMobile.length > 0 && $blockCarouselDesktop.length > 0) {
-		setTimeout(function(){
-			articleEvents.init();
-		}, 500);
-	}
+	setTimeout(function(){
+		if($blockCarouselMobile.length > 0 && $blockCarouselDesktop.length > 0) {
+				articleEvents.init();
+		}
+	}, 500);
 });
