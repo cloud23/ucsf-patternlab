@@ -12,7 +12,7 @@
                   {% for amount in giving_amounts %}
                     <div class="ways-to-give-option" role="button">
                         <input type="radio" name="{{ choice_name }}" id="{{ choice_name }}_{{ amount.value }}" value="{{ amount.value }}"  {{ amount.is_checked ? 'checked' : '' }}  />
-                        <label for="{{ choice_name }}_{{ value }}">{{ amount.label }}</label>
+                        <label for="{{ choice_name }}_{{ amount.value }}">{{ amount.label }}</label>
                     </div>
                   {% endfor %}
                 {% endblock %}
