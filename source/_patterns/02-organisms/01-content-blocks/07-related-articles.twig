@@ -1,9 +1,11 @@
 <div class="column-wrapper">
 	<div class="block block--impact-stories-grid related-articles">
 	  <div class="column-large-12 column-medium-12 column-small-6 column-xsmall-12">
-			<h4 class="granjon-heading-text">
+		{% block label %}
+		  	<h4 class="granjon-heading-text">
 				Related Articles
 			</h4>
+		{% endblock %}
 	  </div>
 	   <div class="related-items">
 		   	{% block related_articles %}
