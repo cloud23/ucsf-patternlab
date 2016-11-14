@@ -5684,8 +5684,9 @@ a.link--dark-blue:hover {
 /* line 203, ../scss/base/_text.scss */
 .header-section.section--intro-text {
   color: #353a3f;
+  margin-bottom: 40px;
 }
-/* line 205, ../scss/base/_text.scss */
+/* line 206, ../scss/base/_text.scss */
 .header-section.section--intro-text p {
   font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 1.33333rem;
@@ -5695,42 +5696,42 @@ a.link--dark-blue:hover {
 }
 
 @media all and (min-width: 768px) {
-  /* line 219, ../scss/base/_text.scss */
+  /* line 220, ../scss/base/_text.scss */
   .header-section {
     margin-bottom: 15px;
   }
-  /* line 221, ../scss/base/_text.scss */
+  /* line 222, ../scss/base/_text.scss */
   .header-section.story {
     margin-top: 10px;
     margin-bottom: 30px;
   }
-  /* line 225, ../scss/base/_text.scss */
+  /* line 226, ../scss/base/_text.scss */
   .header-section h3 {
     margin-bottom: 0px;
   }
 }
 @media all and (min-width: 1024px) {
-  /* line 233, ../scss/base/_text.scss */
+  /* line 234, ../scss/base/_text.scss */
   .header-section.story {
     margin-top: 10px;
     margin-bottom: 15px;
   }
-  /* line 237, ../scss/base/_text.scss */
+  /* line 238, ../scss/base/_text.scss */
   .header-section h3 {
     margin-bottom: 0px;
   }
 }
-/* line 243, ../scss/base/_text.scss */
+/* line 244, ../scss/base/_text.scss */
 .content-padded {
   padding-left: 30px;
 }
 
-/* line 248, ../scss/base/_text.scss */
+/* line 249, ../scss/base/_text.scss */
 .address_account_detail b, .address_account_detail strong {
   font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
-/* line 253, ../scss/base/_text.scss */
+/* line 254, ../scss/base/_text.scss */
 .body-text-light-18 {
   margin-top: 0px;
   font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -5745,7 +5746,7 @@ a.link--dark-blue:hover {
   line-height: 1.5;
 }
 
-/* line 257, ../scss/base/_text.scss */
+/* line 258, ../scss/base/_text.scss */
 .body-text-light-20 {
   margin-top: 0px;
   font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -5760,7 +5761,7 @@ a.link--dark-blue:hover {
   line-height: 1.5;
 }
 
-/* line 261, ../scss/base/_text.scss */
+/* line 262, ../scss/base/_text.scss */
 .body-text-regular-18 {
   margin-top: 0px;
   font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -5775,7 +5776,7 @@ a.link--dark-blue:hover {
   line-height: 1.5;
 }
 
-/* line 265, ../scss/base/_text.scss */
+/* line 266, ../scss/base/_text.scss */
 .body-text-regular-20 {
   margin-top: 0px;
   font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -5790,7 +5791,7 @@ a.link--dark-blue:hover {
   line-height: 1.5;
 }
 
-/* line 269, ../scss/base/_text.scss */
+/* line 270, ../scss/base/_text.scss */
 .body-text-medium-18 {
   margin-top: 0px;
   font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -5805,7 +5806,7 @@ a.link--dark-blue:hover {
   line-height: 1.5;
 }
 
-/* line 273, ../scss/base/_text.scss */
+/* line 274, ../scss/base/_text.scss */
 .body-text-medium-20 {
   margin-top: 0px;
   font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -5820,19 +5821,19 @@ a.link--dark-blue:hover {
   line-height: 1.5;
 }
 
-/* line 277, ../scss/base/_text.scss */
+/* line 278, ../scss/base/_text.scss */
 .padded-paragraph-group-wrapper {
   padding-left: 40px;
   display: block;
   margin-bottom: 10px;
 }
-/* line 281, ../scss/base/_text.scss */
+/* line 282, ../scss/base/_text.scss */
 .padded-paragraph-group-wrapper p {
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-/* line 288, ../scss/base/_text.scss */
+/* line 289, ../scss/base/_text.scss */
 .fund-intro p {
   font-family: HelveticaNeue-light, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 22px;
@@ -5842,27 +5843,27 @@ a.link--dark-blue:hover {
 }
 
 @media screen and (min-width: 1024px) {
-  /* line 299, ../scss/base/_text.scss */
+  /* line 300, ../scss/base/_text.scss */
   .fund-intro p {
     margin-bottom: 5px;
   }
 }
-/* line 305, ../scss/base/_text.scss */
+/* line 306, ../scss/base/_text.scss */
 .paragraph-with-icon {
   display: block;
   width: 100%;
   margin-bottom: 10px;
 }
-/* line 309, ../scss/base/_text.scss */
+/* line 310, ../scss/base/_text.scss */
 .paragraph-with-icon::before, .paragraph-with-icon::after {
   content: ' ';
   display: table;
 }
-/* line 313, ../scss/base/_text.scss */
+/* line 314, ../scss/base/_text.scss */
 .paragraph-with-icon::after {
   clear: both;
 }
-/* line 316, ../scss/base/_text.scss */
+/* line 317, ../scss/base/_text.scss */
 .paragraph-with-icon .icon {
   display: inline-block;
   color: #007CBE;
@@ -5871,14 +5872,14 @@ a.link--dark-blue:hover {
   vertical-align: middle;
   padding-top: 2px;
 }
-/* line 323, ../scss/base/_text.scss */
+/* line 324, ../scss/base/_text.scss */
 .paragraph-with-icon .icon i, .paragraph-with-icon .icon span, .paragraph-with-icon .icon em {
   font-size: 24px;
   display: inline-block;
   vertical-align: middle;
   width: 30px;
 }
-/* line 330, ../scss/base/_text.scss */
+/* line 331, ../scss/base/_text.scss */
 .paragraph-with-icon p {
   display: inline-block;
   float: left;
@@ -5886,21 +5887,21 @@ a.link--dark-blue:hover {
   vertical-align: middle;
 }
 
-/* line 340, ../scss/base/_text.scss */
+/* line 341, ../scss/base/_text.scss */
 h3.giving-societies-detail-heading {
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 348, ../scss/base/_text.scss */
+  /* line 349, ../scss/base/_text.scss */
   h3.giving-societies-detail-heading {
     margin-top: 30px;
     margin-bottom: 0px;
   }
 }
 /*** Page ***/
-/* line 358, ../scss/base/_text.scss */
+/* line 359, ../scss/base/_text.scss */
 p.text--with-icon {
   font-size: 1.06667rem;
   line-height: 1.125;
@@ -5911,11 +5912,11 @@ p.text--with-icon {
   text-decoration: none;
   margin: 0px;
 }
-/* line 366, ../scss/base/_text.scss */
+/* line 367, ../scss/base/_text.scss */
 p.text--with-icon .content-text {
   position: relative;
 }
-/* line 368, ../scss/base/_text.scss */
+/* line 369, ../scss/base/_text.scss */
 p.text--with-icon .content-text::after {
   content: "";
   position: absolute;
@@ -5925,7 +5926,7 @@ p.text--with-icon .content-text::after {
   height: 0px;
   background-color: #FFFFFF;
 }
-/* line 378, ../scss/base/_text.scss */
+/* line 379, ../scss/base/_text.scss */
 p.text--with-icon .text--icon {
   color: #007CBE;
   height: 26px;
@@ -5935,30 +5936,30 @@ p.text--with-icon .text--icon {
   margin-left: 5px;
   overflow: hidden;
 }
-/* line 386, ../scss/base/_text.scss */
+/* line 387, ../scss/base/_text.scss */
 p.text--with-icon .text--icon .icon--visible-hover {
   display: none;
 }
-/* line 387, ../scss/base/_text.scss */
+/* line 388, ../scss/base/_text.scss */
 p.text--with-icon .text--icon .icon--circle {
   font-size: 1.66667rem;
   line-height: 1;
 }
-/* line 388, ../scss/base/_text.scss */
+/* line 389, ../scss/base/_text.scss */
 p.text--with-icon .text--icon .icon--angle {
   font-size: 1.26667rem;
   line-height: 1.27;
 }
 
-/* line 396, ../scss/base/_text.scss */
+/* line 397, ../scss/base/_text.scss */
 a:hover .text--with-icon .content-text {
   text-decoration: underline;
 }
-/* line 400, ../scss/base/_text.scss */
+/* line 401, ../scss/base/_text.scss */
 a:hover .text--with-icon .text--icon .icon--visible-hover {
   display: block;
 }
-/* line 403, ../scss/base/_text.scss */
+/* line 404, ../scss/base/_text.scss */
 a:hover .text--with-icon .text--icon .icon--angle {
   -webkit-animation: slideFromLeft 0.4s;
   -moz-animation: slideFromLeft 0.4s;
@@ -5967,25 +5968,25 @@ a:hover .text--with-icon .text--icon .icon--angle {
   animation: slideFromLeft 0.4s;
   color: #FFFFFF;
 }
-/* line 408, ../scss/base/_text.scss */
+/* line 409, ../scss/base/_text.scss */
 a:hover .text--with-icon .text--icon .text::after {
   height: 1px;
 }
 
-/* line 417, ../scss/base/_text.scss */
+/* line 418, ../scss/base/_text.scss */
 .error-message-content {
   margin-bottom: 70px;
 }
-/* line 419, ../scss/base/_text.scss */
+/* line 420, ../scss/base/_text.scss */
 .error-message-content h3 {
   margin-bottom: 20px;
 }
-/* line 422, ../scss/base/_text.scss */
+/* line 423, ../scss/base/_text.scss */
 .error-message-content p {
   margin-bottom: 5px;
 }
 
-/* line 427, ../scss/base/_text.scss */
+/* line 428, ../scss/base/_text.scss */
 .error-suggestion {
   margin-bottom: 60px;
 }
