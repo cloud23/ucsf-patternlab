@@ -375,11 +375,10 @@ ul {
 		margin-top: 20px;
 		padding: 0px 25px;
 		p {
-			font-size: 20px;
+			@include type-definition(18px,1.25);
 			color: $color--oxford-blue;
 			margin-top: 0px;
 			margin-bottom: 0px;
-			line-height: 1.25;
 		}
 	}
 }
@@ -411,7 +410,7 @@ ul {
 			padding: 0px 15px;
 		}
 		.stats-card-description {
-			padding: 0px 45px;
+			padding: 0px 25px;
 		}
 	}
 }
@@ -429,7 +428,7 @@ ul {
 			padding: 0px 15px;
 		}
 		.stats-card-description {
-			padding: 0px 45px;
+			padding: 0px 25px;
 		}
 	}
 }

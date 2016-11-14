@@ -1267,6 +1267,7 @@
         &.followScroll {
             position: fixed;
             top: 170px;
+            z-index: 999;
         }
         .article-share-btn {
             background-color: $color--medium-gray;
