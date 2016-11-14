@@ -11964,32 +11964,39 @@ ul.dashed > li::before {
 @media screen and (min-width: 1024px) {
   /* line 404, ../scss/components/_custom_lists.scss */
   .stats-card-list {
+    margin-top: 30px;
     margin-bottom: 30px;
   }
 
-  /* line 407, ../scss/components/_custom_lists.scss */
+  /* line 408, ../scss/components/_custom_lists.scss */
   .stats-card {
     padding: 30px 0px;
   }
-  /* line 409, ../scss/components/_custom_lists.scss */
+  /* line 410, ../scss/components/_custom_lists.scss */
   .stats-card .stats-card-data {
     padding: 0px 15px;
   }
-  /* line 412, ../scss/components/_custom_lists.scss */
+  /* line 413, ../scss/components/_custom_lists.scss */
   .stats-card .stats-card-description {
     padding: 0px 45px;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 421, ../scss/components/_custom_lists.scss */
+  /* line 422, ../scss/components/_custom_lists.scss */
+  .stats-card-list {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  /* line 426, ../scss/components/_custom_lists.scss */
   .stats-card {
     padding: 30px 0px;
   }
-  /* line 423, ../scss/components/_custom_lists.scss */
+  /* line 428, ../scss/components/_custom_lists.scss */
   .stats-card .stats-card-data {
     padding: 0px 15px;
   }
-  /* line 426, ../scss/components/_custom_lists.scss */
+  /* line 431, ../scss/components/_custom_lists.scss */
   .stats-card .stats-card-description {
     padding: 0px 45px;
   }
