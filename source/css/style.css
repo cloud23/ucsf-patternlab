@@ -9832,7 +9832,7 @@ ul.category-nav > li a {
     border-top: 0px solid transparent;
     margin-bottom: 15px;
     font-size: 1.73333rem;
-    line-height: 1.5;
+    line-height: 1;
   }
   /* line 883, ../scss/components/_blocks.scss */
   .block.block--funding-priorities-full {
