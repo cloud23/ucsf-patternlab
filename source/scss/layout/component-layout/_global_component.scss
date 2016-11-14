@@ -346,7 +346,7 @@
 		}
 	}
 	.submit-button-small-xsmall--medium--wrapper {
-		margin-top: 20px;
+		margin-top: 0px;
 		margin-bottom: 10px;
 		.btn {
 			width: auto;
@@ -742,6 +742,7 @@
 		}
 		.submit-button-small-xsmall--medium--wrapper {
 		    margin-bottom: 0px;
+		    margin-top: 0px;
 		    .btn {
 		    	min-width: 304px;
 		    }
@@ -786,6 +787,7 @@
 		}
 		.submit-button-small-xsmall--medium--wrapper {
 		    display: none;
+		    margin-top: 0px;
 		}
 	}
 }
