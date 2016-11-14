@@ -1,6 +1,8 @@
 <div class="ways-to-give-form-small {% block classes %}{{ class_controller }}{% endblock %}">
     {% block label %}
-        <h4>{{ label }}</h4>
+        {% if label %}
+            <h4>{{ label }}</h4>
+        {% endif %}
     {% endblock %}
     <form name="ways-to-give" id="give" method="GET" action="{% block post_url %}{{ post_url }}{% endblock %}">
         <fieldset>
