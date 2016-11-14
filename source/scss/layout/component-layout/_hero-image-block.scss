@@ -8,6 +8,21 @@
     // & ~ .content-area {
     // 	margin-top: 30px;
     // }
+    &.basic-page--hero {
+    	margin-bottom: 30px;
+    }
+}
+
+.basic-page--hero {
+	.block {
+		&.block--landing-hero {
+			.hero-background {
+				.backgrounds {
+					background-position: center center;
+				}
+			}
+		}
+	}
 }
 
 .block {

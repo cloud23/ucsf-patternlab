@@ -8,6 +8,9 @@ a{
     &:hover{
         text-decoration: underline;
     }
+    strong, b {
+        font-family: $text-body--bold;
+    }
     &.link{
         @include type-definition(16px, 1.125);
         color: $color--oxford-blue;
