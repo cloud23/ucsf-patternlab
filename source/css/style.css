@@ -6058,7 +6058,7 @@ body.toolbar-fixed .toolbar-oriented, body.toolbar-oriented .toolbar-bar, body.t
 
 /* line 33, ../scss/base/page/_page.scss */
 .page--content {
-  margin-top: 40px;
+  margin-top: 0px;
   margin-bottom: 60px;
 }
 
