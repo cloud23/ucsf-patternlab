@@ -31,6 +31,8 @@ jQuery(function($){
 			tagTouchEvents('a.link.link--with-icon');
 			tagTouchEvents('.block--funding-priorities-items');
 			tagTouchEvents('.block--impact-stories-panel');
+			tagTouchEvents('.block-ways-to-get-involved--item');
+
 
 		}
 
