@@ -237,9 +237,6 @@
 	.ways-to-give-form {
 		.link--with-icon {
 			@include type-definition(18px);
-			.text {
-				display: block;
-			}
 			&:hover {
 				.text {
 					text-decoration: underline;
