@@ -5433,13 +5433,14 @@ figure {
 figure, .embedded-entity {
   width: 100%;
   height: auto;
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-/* line 12, ../scss/base/_media.scss */
+/* line 13, ../scss/base/_media.scss */
 figure:focus, .embedded-entity:focus {
   outline: none;
 }
-/* line 16, ../scss/base/_media.scss */
+/* line 17, ../scss/base/_media.scss */
 figure article img, .embedded-entity article img {
   width: 100%;
   height: auto;
@@ -5447,7 +5448,7 @@ figure article img, .embedded-entity article img {
   margin: 0px;
   position: relative;
 }
-/* line 24, ../scss/base/_media.scss */
+/* line 25, ../scss/base/_media.scss */
 figure figcaption, .embedded-entity figcaption {
   display: block;
   background-color: #F1F1F1;
@@ -5462,14 +5463,18 @@ figure figcaption, .embedded-entity figcaption {
   -o-transition: all 250ms linear;
   transition: all 250ms linear;
 }
-/* line 33, ../scss/base/_media.scss */
+/* line 34, ../scss/base/_media.scss */
+figure figcaption strong, figure figcaption b, .embedded-entity figcaption strong, .embedded-entity figcaption b {
+  font-family: HelveticaNeue-bold, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+/* line 37, ../scss/base/_media.scss */
 figure figcaption p, .embedded-entity figcaption p {
   margin: 0px;
   margin-bottom: 1em;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 42, ../scss/base/_media.scss */
+  /* line 46, ../scss/base/_media.scss */
   figure figcaption, .embedded-entity figcaption {
     margin-top: -30px;
     margin-left: 24px;
@@ -5478,18 +5483,18 @@ figure figcaption p, .embedded-entity figcaption p {
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 54, ../scss/base/_media.scss */
+  /* line 58, ../scss/base/_media.scss */
   figure:last-child, .embedded-entity:last-child {
     margin-bottom: 0px;
   }
-  /* line 57, ../scss/base/_media.scss */
+  /* line 61, ../scss/base/_media.scss */
   figure figcaption, .embedded-entity figcaption {
     margin-left: 40px;
     margin-right: 40px;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 66, ../scss/base/_media.scss */
+  /* line 70, ../scss/base/_media.scss */
   figure figcaption, .embedded-entity figcaption {
     margin-left: 40px;
     margin-right: 40px;
