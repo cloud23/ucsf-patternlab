@@ -3,7 +3,7 @@
         <h3 class="text-align--center">{% block label %}Creating Impact{% endblock %}</h3>
     </div>
     {% block content %}
-        <div class="">
+        <div class="column-wrapper">
             {% include "01-molecules/02-blocks/02-impact-stories-block" with {
                 'color' : 'green',
                 'title' : homepage_impact_stories.first.title,
@@ -12,7 +12,7 @@
                 'image_url' :  homepage_impact_stories.first.image_url
                  } %}
         </div>
-        <div class="">
+        <div class="column-wrapper">
             {% include "01-molecules/02-blocks/02-impact-stories-block" with {
                 'color' : 'orange',
                 'title' : homepage_impact_stories.second.title,
@@ -21,7 +21,7 @@
                 'image_url' :  homepage_impact_stories.second.image_url
                 } %}
         </div>
-        <div class="">
+        <div class="column-wrapper">
             {% include "01-molecules/02-blocks/02-impact-stories-block" with {
                 'color' : 'light-blue',
                 'title' : homepage_impact_stories.third.title,

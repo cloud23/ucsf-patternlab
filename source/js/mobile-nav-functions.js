@@ -3,7 +3,7 @@ jQuery(function($){
 	var $html =
 	$('html'),
 	$mobileMenuToggle = $('.mobile-menu-toggle'),
-	$mobileLinksToggle = $('.nav-main-mobile ul li a, .nav-main-mobile ul li .display-arrow');
+	$mobileLinksToggle = $('.nav-main-mobile ul li .display-arrow');
 
 	var mobileNavEvents = {
 		init: function(){

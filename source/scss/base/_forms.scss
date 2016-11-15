@@ -6,6 +6,13 @@ fieldset {
 	border: 0px solid transparent;
 }
 
+
+input[type="text"], input[type="search"], input[type="email"], input[type="password"], textarea {
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
 #related_articles_all {
 	position: relative;
 	overflow: hidden;
@@ -47,6 +54,9 @@ fieldset {
 			}
 		}
 		input[type="text"], input[type="email"], textarea {
+			-webkit-appearance: none;
+		    -moz-appearance: none;
+		    appearance: none;
 			display: block;
 			width: 100%;
 			@include type-definition(20px, 1.3);
@@ -164,3 +174,4 @@ fieldset {
 		}
 	}
 }
+
