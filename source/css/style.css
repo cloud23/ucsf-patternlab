@@ -5424,6 +5424,66 @@ li > ul, li > ol {
 
 /*** Main ***/
 /*** Media ***/
+/* line 3, ../scss/base/_media.scss */
+figure, .embedded-entity {
+  width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+}
+/* line 7, ../scss/base/_media.scss */
+figure:focus, .embedded-entity:focus {
+  outline: none;
+}
+/* line 11, ../scss/base/_media.scss */
+figure article img, .embedded-entity article img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0px;
+  position: relative;
+}
+/* line 19, ../scss/base/_media.scss */
+figure figcaption, .embedded-entity figcaption {
+  display: block;
+  background-color: #F1F1F1;
+  color: #000000;
+  padding: 15px 20px;
+  margin: 0px;
+  position: relative;
+}
+/* line 26, ../scss/base/_media.scss */
+figure figcaption p, .embedded-entity figcaption p {
+  margin: 0px;
+  margin-bottom: 1em;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 35, ../scss/base/_media.scss */
+  figure .item-caption, .embedded-entity .item-caption {
+    margin-top: -30px;
+    margin-left: 24px;
+    margin-right: 24px;
+    padding: 30px 30px 15px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* line 47, ../scss/base/_media.scss */
+  figure:last-child, .embedded-entity:last-child {
+    margin-bottom: 0px;
+  }
+  /* line 50, ../scss/base/_media.scss */
+  figure figcaption, .embedded-entity figcaption {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 59, ../scss/base/_media.scss */
+  figure figcaption, .embedded-entity figcaption {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
 /*** Tables ***/
 /*** Text ***/
 /* line 2, ../scss/base/_text.scss */
