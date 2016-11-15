@@ -1,5 +1,10 @@
 /*** Media ***/
 
+figure {
+	margin: 0px;
+}
+
+
 figure, .embedded-entity {
     width: 100%;
     height: auto;
@@ -9,7 +14,7 @@ figure, .embedded-entity {
     }
     article {
        img {
-		 width: 100%;
+		max-width: 100%;
 		height: auto;
 		display: block;
 		margin: 0px;
@@ -37,7 +42,7 @@ figure, .embedded-entity {
             margin-top: -30px;
             margin-left: 24px;
             margin-right: 24px;
-            padding: 15px 30px 15px;
+            padding: 20px 30px 20px;
         }
     }
 }

@@ -5425,24 +5425,29 @@ li > ul, li > ol {
 /*** Main ***/
 /*** Media ***/
 /* line 3, ../scss/base/_media.scss */
+figure {
+  margin: 0px;
+}
+
+/* line 8, ../scss/base/_media.scss */
 figure, .embedded-entity {
   width: 100%;
   height: auto;
   margin-bottom: 40px;
 }
-/* line 7, ../scss/base/_media.scss */
+/* line 12, ../scss/base/_media.scss */
 figure:focus, .embedded-entity:focus {
   outline: none;
 }
-/* line 11, ../scss/base/_media.scss */
+/* line 16, ../scss/base/_media.scss */
 figure article img, .embedded-entity article img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
   display: block;
   margin: 0px;
   position: relative;
 }
-/* line 19, ../scss/base/_media.scss */
+/* line 24, ../scss/base/_media.scss */
 figure figcaption, .embedded-entity figcaption {
   display: block;
   background-color: #F1F1F1;
@@ -5452,34 +5457,34 @@ figure figcaption, .embedded-entity figcaption {
   position: relative;
   z-index: 10;
 }
-/* line 27, ../scss/base/_media.scss */
+/* line 32, ../scss/base/_media.scss */
 figure figcaption p, .embedded-entity figcaption p {
   margin: 0px;
   margin-bottom: 1em;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 36, ../scss/base/_media.scss */
+  /* line 41, ../scss/base/_media.scss */
   figure figcaption, .embedded-entity figcaption {
     margin-top: -30px;
     margin-left: 24px;
     margin-right: 24px;
-    padding: 15px 30px 15px;
+    padding: 20px 30px 20px;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 48, ../scss/base/_media.scss */
+  /* line 53, ../scss/base/_media.scss */
   figure:last-child, .embedded-entity:last-child {
     margin-bottom: 0px;
   }
-  /* line 51, ../scss/base/_media.scss */
+  /* line 56, ../scss/base/_media.scss */
   figure figcaption, .embedded-entity figcaption {
     margin-left: 40px;
     margin-right: 40px;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 60, ../scss/base/_media.scss */
+  /* line 65, ../scss/base/_media.scss */
   figure figcaption, .embedded-entity figcaption {
     margin-left: 40px;
     margin-right: 40px;
