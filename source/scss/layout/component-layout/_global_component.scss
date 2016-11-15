@@ -149,6 +149,9 @@
 		}
 	}
 	input[type="text"] {
+		-webkit-appearance: none;
+	    -moz-appearance: none;
+	    appearance: none;
 		position: relative;
   		z-index: 1;
 		height: 100%;
@@ -325,6 +328,9 @@
 			width: 121px;
 		}
 		input[type="text"] {
+			-webkit-appearance: none;
+		    -moz-appearance: none;
+		    appearance: none;
 			position: relative;
 			height: 100%;
 			width: 121px;
@@ -401,6 +407,9 @@
 			width: 121px;
 		}
 		input[type="text"] {
+			-webkit-appearance: none;
+		    -moz-appearance: none;
+		    appearance: none;
 			position: relative;
 			height: 100%;
 			width: 121px;
@@ -475,6 +484,9 @@
 			width: 121px;
 		}
 		input[type="text"] {
+			-webkit-appearance: none;
+		    -moz-appearance: none;
+		    appearance: none;
 			position: relative;
 			height: 100%;
 			width: 254px;
@@ -537,6 +549,9 @@
 				width: 100%;
 			}
 			input[type="text"] {
+				-webkit-appearance: none;
+			    -moz-appearance: none;
+			    appearance: none;
 				width: 100%;
 			}
 			&.submit-btn {
@@ -582,6 +597,9 @@
 					width: 128px;
 				}
 				input[type="text"] {
+					-webkit-appearance: none;
+				    -moz-appearance: none;
+				    appearance: none;
 					width: 179px;
 				}
 				&.submit-btn {
@@ -629,6 +647,9 @@
 					width: 100%;
 				}
 				input[type="text"] {
+					-webkit-appearance: none;
+				    -moz-appearance: none;
+				    appearance: none;
 					width: 100%;
 				}
 				&.submit-btn {
@@ -671,6 +692,9 @@
 					width: 100%;
 				}
 				input[type="text"] {
+					-webkit-appearance: none;
+				    -moz-appearance: none;
+				    appearance: none;
 					width: 100%;
 				}
 				&.submit-btn {
@@ -726,6 +750,9 @@
 					}
 				}
 				input[type="text"] {
+					-webkit-appearance: none;
+				    -moz-appearance: none;
+				    appearance: none;
 					&.empty {
 			  			border-color: $color--dark-gray;
 			  			color: $color--oxford-blue;
@@ -781,6 +808,9 @@
 					}
 				}
 				input[type="text"] {
+					-webkit-appearance: none;
+				    -moz-appearance: none;
+				    appearance: none;
 					width: 163px;
 				}
 			}
@@ -824,6 +854,9 @@
 					width: 128px;
 				}
 				input[type="text"] {
+					-webkit-appearance: none;
+				    -moz-appearance: none;
+				    appearance: none;
 					width: 270px;
 				}
 			}
