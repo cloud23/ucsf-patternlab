@@ -5450,16 +5450,17 @@ figure figcaption, .embedded-entity figcaption {
   padding: 15px 20px;
   margin: 0px;
   position: relative;
+  z-index: 10;
 }
-/* line 26, ../scss/base/_media.scss */
+/* line 27, ../scss/base/_media.scss */
 figure figcaption p, .embedded-entity figcaption p {
   margin: 0px;
   margin-bottom: 1em;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 35, ../scss/base/_media.scss */
-  figure .item-caption, .embedded-entity .item-caption {
+  /* line 36, ../scss/base/_media.scss */
+  figure figcaption, .embedded-entity figcaption {
     margin-top: -30px;
     margin-left: 24px;
     margin-right: 24px;
@@ -5467,18 +5468,18 @@ figure figcaption p, .embedded-entity figcaption p {
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 47, ../scss/base/_media.scss */
+  /* line 48, ../scss/base/_media.scss */
   figure:last-child, .embedded-entity:last-child {
     margin-bottom: 0px;
   }
-  /* line 50, ../scss/base/_media.scss */
+  /* line 51, ../scss/base/_media.scss */
   figure figcaption, .embedded-entity figcaption {
     margin-left: 40px;
     margin-right: 40px;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 59, ../scss/base/_media.scss */
+  /* line 60, ../scss/base/_media.scss */
   figure figcaption, .embedded-entity figcaption {
     margin-left: 40px;
     margin-right: 40px;

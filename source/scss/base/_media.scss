@@ -23,6 +23,7 @@ figure, .embedded-entity {
         padding: 15px 20px;
         margin: 0px;
         position: relative;
+        z-index: 10;
         p {
             margin: 0px;
             margin-bottom: 1em;
@@ -32,7 +33,7 @@ figure, .embedded-entity {
 
 @media screen and (min-width: $width-small) {
     figure, .embedded-entity {
-        .item-caption {
+        figcaption {
             margin-top: -30px;
             margin-left: 24px;
             margin-right: 24px;
