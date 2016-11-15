@@ -5464,7 +5464,7 @@ figure figcaption p, .embedded-entity figcaption p {
     margin-top: -30px;
     margin-left: 24px;
     margin-right: 24px;
-    padding: 30px 30px 15px;
+    padding: 15px 30px 15px;
   }
 }
 @media screen and (min-width: 1024px) {
