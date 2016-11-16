@@ -100,6 +100,12 @@
                 @include type-definition(18px, 1.5);
                 margin-top: 0;
                 margin-bottom: 25px;
+                a {
+                    position: static;
+                }
+            }
+            a {
+                position: static;
             }
         }
         .block--content-stats{
