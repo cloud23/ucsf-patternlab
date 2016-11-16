@@ -5233,6 +5233,13 @@ input[type="text"], input[type="search"], input[type="email"], input[type="passw
     margin-bottom: 0px;
   }
 }
+/* line 178, ../scss/base/_forms.scss */
+.edit-name, .edit-email {
+  font-size: 1.33333rem;
+  line-height: 1.3;
+  color: #353a3f;
+}
+
 /*** Grid ***/
 /*** Headings ***/
 /*** Helper ***/
