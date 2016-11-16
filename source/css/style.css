@@ -11730,6 +11730,10 @@ ul.category-nav > li a {
 }
 
 /* line 2279, ../scss/components/_blocks.scss */
+.block--wysiwyg h3 {
+  margin-top: 20px;
+}
+/* line 2282, ../scss/components/_blocks.scss */
 .block--wysiwyg img {
   max-width: 100%;
   display: block;
