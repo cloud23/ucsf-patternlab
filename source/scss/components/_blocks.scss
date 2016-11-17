@@ -1495,7 +1495,11 @@
 @media screen and (min-width: $width-medium) {
     .block-article-carousel--wrapper {
         margin-bottom: 0px;
+        & ~ .block--past-events {
+            margin-top: 40px;
+        }
     }
+
     .block-article-carousel--wrapper {
         margin-top: 15px;
     }
