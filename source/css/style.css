@@ -11564,7 +11564,7 @@ ul.category-nav > li a {
   font-size: 1.33333rem;
   line-height: 1.25;
   max-width: 269px;
-  margin: 0 auto;
+  margin: 40px auto 0;
 }
 /* line 2131, ../scss/components/_blocks.scss */
 .block--questions h4 {
@@ -11580,30 +11580,42 @@ ul.category-nav > li a {
 @media screen and (min-width: 768px) {
   /* line 2141, ../scss/components/_blocks.scss */
   .block--questions {
-    margin: 0;
+    margin: 40px 0px 0px;
   }
 }
-/* line 2146, ../scss/components/_blocks.scss */
+@media screen and (min-width: 1024px) {
+  /* line 2147, ../scss/components/_blocks.scss */
+  .block--questions {
+    margin: 0px 0px 0px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 2153, ../scss/components/_blocks.scss */
+  .block--questions {
+    margin: 0px 0px 0px 0px;
+  }
+}
+/* line 2158, ../scss/components/_blocks.scss */
 .block--next-events {
   margin-bottom: 40px;
   border-bottom: 1px solid #d1d3d3;
 }
-/* line 2149, ../scss/components/_blocks.scss */
+/* line 2161, ../scss/components/_blocks.scss */
 .block--next-events .title-and-content-group--wrapper {
   margin-bottom: 40px;
 }
 
-/* line 2155, ../scss/components/_blocks.scss */
+/* line 2167, ../scss/components/_blocks.scss */
 .block--image-and-caption {
   width: 100%;
   height: auto;
   margin-bottom: 40px;
 }
-/* line 2159, ../scss/components/_blocks.scss */
+/* line 2171, ../scss/components/_blocks.scss */
 .block--image-and-caption:focus {
   outline: none;
 }
-/* line 2162, ../scss/components/_blocks.scss */
+/* line 2174, ../scss/components/_blocks.scss */
 .block--image-and-caption .item-image {
   width: 100%;
   height: auto;
@@ -11611,7 +11623,7 @@ ul.category-nav > li a {
   margin: 0px;
   position: relative;
 }
-/* line 2169, ../scss/components/_blocks.scss */
+/* line 2181, ../scss/components/_blocks.scss */
 .block--image-and-caption .item-caption {
   display: block;
   background-color: #F1F1F1;
@@ -11620,18 +11632,18 @@ ul.category-nav > li a {
   margin: 0px;
   position: relative;
 }
-/* line 2176, ../scss/components/_blocks.scss */
+/* line 2188, ../scss/components/_blocks.scss */
 .block--image-and-caption .item-caption p {
   margin: 0px;
   margin-bottom: 1em;
 }
-/* line 2180, ../scss/components/_blocks.scss */
+/* line 2192, ../scss/components/_blocks.scss */
 .block--image-and-caption .item-caption .date {
   color: #052049;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 2188, ../scss/components/_blocks.scss */
+  /* line 2200, ../scss/components/_blocks.scss */
   .block--image-and-caption .item-caption {
     margin-top: -30px;
     margin-left: 24px;
@@ -11640,28 +11652,28 @@ ul.category-nav > li a {
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 2200, ../scss/components/_blocks.scss */
+  /* line 2212, ../scss/components/_blocks.scss */
   .block--image-and-caption:last-child {
     margin-bottom: 0px;
   }
-  /* line 2203, ../scss/components/_blocks.scss */
+  /* line 2215, ../scss/components/_blocks.scss */
   .block--image-and-caption .item-caption {
     margin-left: 40px;
     margin-right: 40px;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 2212, ../scss/components/_blocks.scss */
+  /* line 2224, ../scss/components/_blocks.scss */
   .block--image-and-caption .item-caption {
     margin-left: 40px;
     margin-right: 40px;
   }
 }
-/* line 2220, ../scss/components/_blocks.scss */
+/* line 2232, ../scss/components/_blocks.scss */
 .search-result-count {
   margin-bottom: 30px;
 }
-/* line 2222, ../scss/components/_blocks.scss */
+/* line 2234, ../scss/components/_blocks.scss */
 .search-result-count p {
   font-size: 0.8rem;
   line-height: 1;
@@ -11669,30 +11681,30 @@ ul.category-nav > li a {
   margin: 0px;
 }
 
-/* line 2230, ../scss/components/_blocks.scss */
+/* line 2242, ../scss/components/_blocks.scss */
 .search-result-body {
   border-top: 1px solid #d1d3d3;
   margin-bottom: 40px;
 }
 
-/* line 2235, ../scss/components/_blocks.scss */
+/* line 2247, ../scss/components/_blocks.scss */
 .search-result-item {
   padding: 20px 0px 10px;
   border-top: 1px solid #d1d3d3;
 }
-/* line 2238, ../scss/components/_blocks.scss */
+/* line 2250, ../scss/components/_blocks.scss */
 .search-result-item:first-child {
   border-top: 0px;
 }
-/* line 2240, ../scss/components/_blocks.scss */
+/* line 2252, ../scss/components/_blocks.scss */
 .search-result-item:first-child:last-child {
   border-bottom: 0px;
 }
-/* line 2244, ../scss/components/_blocks.scss */
+/* line 2256, ../scss/components/_blocks.scss */
 .search-result-item:last-child {
   border-bottom: 1px solid #d1d3d3;
 }
-/* line 2247, ../scss/components/_blocks.scss */
+/* line 2259, ../scss/components/_blocks.scss */
 .search-result-item .search-result-link {
   font-family: HelveticaNeue-medium, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 1.33333rem;
@@ -11700,26 +11712,26 @@ ul.category-nav > li a {
   color: #000000;
   margin: 0px;
 }
-/* line 2253, ../scss/components/_blocks.scss */
+/* line 2265, ../scss/components/_blocks.scss */
 .search-result-item .summary {
   font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 1.2rem;
   line-height: 1.33;
   margin: 10px 0px;
 }
-/* line 2258, ../scss/components/_blocks.scss */
+/* line 2270, ../scss/components/_blocks.scss */
 .search-result-item .tag-list {
   padding: 0px;
   list-style: none;
   margin: 0px;
   display: inline-block;
 }
-/* line 2263, ../scss/components/_blocks.scss */
+/* line 2275, ../scss/components/_blocks.scss */
 .search-result-item .tag-list li {
   float: left;
   margin: 0px;
 }
-/* line 2266, ../scss/components/_blocks.scss */
+/* line 2278, ../scss/components/_blocks.scss */
 .search-result-item .tag-list li a {
   margin-right: 10px;
   margin-bottom: 10px;
@@ -11729,11 +11741,11 @@ ul.category-nav > li a {
   line-height: 1;
 }
 
-/* line 2279, ../scss/components/_blocks.scss */
+/* line 2291, ../scss/components/_blocks.scss */
 .block--wysiwyg h3 {
   margin-top: 20px;
 }
-/* line 2282, ../scss/components/_blocks.scss */
+/* line 2294, ../scss/components/_blocks.scss */
 .block--wysiwyg img {
   max-width: 100%;
   display: block;
