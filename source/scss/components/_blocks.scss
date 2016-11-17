@@ -100,6 +100,12 @@
                 @include type-definition(18px, 1.5);
                 margin-top: 0;
                 margin-bottom: 25px;
+                a {
+                    position: static;
+                }
+            }
+            a {
+                position: static;
             }
         }
         .block--content-stats{
@@ -2120,7 +2126,7 @@
     font-family: $text-body--light;
     @include type-definition(20px, 1.25);
     max-width: 269px;
-    margin: 0 auto;
+    margin: 40px auto 0;
     // margin-bottom: 60px;
     h4 {
         margin-top: 0px;
@@ -2133,7 +2139,19 @@
 
 @media screen and (min-width: $width-small) {
     .block--questions {
-        margin: 0;
+        margin: 40px 0px 0px;
+    }
+}
+
+@media screen and (min-width: $width-medium) {
+    .block--questions {
+        margin: 0px 0px 0px;
+    }
+}
+
+@media screen and (min-width: $width-large) {
+    .block--questions {
+        margin: 0px 0px 0px 0px;
     }
 }
 
@@ -2270,6 +2288,9 @@
 
 
 .block--wysiwyg {
+    h3 {
+        margin-top: 20px;
+    }
     img {
         max-width: 100%;
         display: block;
