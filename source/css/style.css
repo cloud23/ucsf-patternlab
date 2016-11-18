@@ -5240,6 +5240,65 @@ input[type="text"], input[type="search"], input[type="email"], input[type="passw
   color: #353a3f;
 }
 
+/* line 183, ../scss/base/_forms.scss */
+#message_popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1100;
+  display: none;
+}
+/* line 192, ../scss/base/_forms.scss */
+#message_popup.presentation {
+  display: block;
+}
+/* line 195, ../scss/base/_forms.scss */
+#message_popup .popup_body {
+  max-width: 500px;
+  background-color: #FFFFFF;
+  border: solid 1px #052049;
+  padding: 30px;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+/* line 210, ../scss/base/_forms.scss */
+#message_popup .popup_body .title-and-content-group--wrapper {
+  margin-bottom: 0px;
+}
+/* line 213, ../scss/base/_forms.scss */
+#message_popup .popup_body button, #message_popup .popup_body .btn {
+  width: 105px;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 221, ../scss/base/_forms.scss */
+  #message_popup .popup_body {
+    width: 500px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* line 229, ../scss/base/_forms.scss */
+  #message_popup .popup_body {
+    width: 500px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 237, ../scss/base/_forms.scss */
+  #message_popup .popup_body {
+    width: 500px;
+  }
+}
 /*** Grid ***/
 /*** Headings ***/
 /*** Helper ***/
