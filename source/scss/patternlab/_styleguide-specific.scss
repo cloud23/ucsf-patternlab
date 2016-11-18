@@ -130,5 +130,16 @@
   .btn{
     width: 270px;
   }
+  #message_popup {
+    position: static;
+    .popup_body {
+      position: static;
+      transform: translateY(0);
+      left: initial;
+      right: initial;
+      top: initial;
+      margin: 0;
+    }
+  }
 }
 
