@@ -421,5 +421,18 @@ $font-header: $helvetica, $default-font;
 .sg-pattern-example .btn {
   width: 270px;
 }
+/* line 133, ../scss/patternlab/_styleguide-specific.scss */
+.sg-pattern-example #message_popup {
+  position: static;
+}
+/* line 135, ../scss/patternlab/_styleguide-specific.scss */
+.sg-pattern-example #message_popup .popup_body {
+  position: static;
+  transform: translateY(0);
+  left: initial;
+  right: initial;
+  top: initial;
+  margin: 0;
+}
 
 /*# sourceMappingURL=patternlab-style.css.map */
