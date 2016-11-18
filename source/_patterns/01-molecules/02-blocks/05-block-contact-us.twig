@@ -1,4 +1,4 @@
-
+{% if title or department or address is not empty or telephone is not empty or email is not empty %}
 <div class="block block-contact-us">
 	{% block title %}
 	    <h4 class="granjon-heading-text">{{ title }}</h4>
@@ -37,4 +37,4 @@
 		{% endfor %}
 	{% endblock %}
 </div>
-
+{% endif %}
