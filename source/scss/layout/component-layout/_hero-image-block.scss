@@ -365,8 +365,7 @@
 @media screen
 and (min-device-width : $width-small)
 and (max-device-width : $width-medium)
-and (orientation : portrait)
-and (-webkit-min-device-pixel-ratio: 1) {
+and (orientation : portrait) {
 	.block {
 		&.block-hero, &.block--landing-hero {
 			.hero-background {
@@ -383,11 +382,11 @@ and (-webkit-min-device-pixel-ratio: 1) {
 @media screen
 and (min-device-width : $width-small)
 and (max-device-width : $width-medium)
-and (orientation : landscape)
-and (-webkit-min-device-pixel-ratio: 1)  {
+and (min-width: 1024px)
+and (orientation : landscape)  {
 	.block {
 		&.block-hero, &.block--landing-hero {
-			height: 13.5vh !important;
+			height: 534px !important;
 			.hero-background {
 				background-attachment: local;
 				.backgrounds {
@@ -420,11 +419,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
 @media screen
 and (min-device-width : $width-small)
 and (max-device-width : $width-medium)
+and (min-width: 1024px)
 and (orientation : landscape)
 and (-webkit-min-device-pixel-ratio: 2)  {
 	.block {
 		&.block-hero, &.block--landing-hero {
-			height: 13.5vh !important;
+			height: 534px !important;
 			.hero-background {
 				background-attachment: local;
 				.backgrounds {
