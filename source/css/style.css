@@ -7711,201 +7711,193 @@ footer .footer--colum-content, footer .footer--column-links {
     margin-bottom: 0px;
   }
 }
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  /* line 230, ../scss/layout/component-layout/_hero-image-block.scss */
-  .block.block-hero .hero-background, .block.block--landing-hero .hero-background {
-    background-attachment: local;
-  }
-  /* line 232, ../scss/layout/component-layout/_hero-image-block.scss */
-  .block.block-hero .hero-background .backgrounds, .block.block--landing-hero .hero-background .backgrounds {
-    background-color: #FFFFFF;
-    background-attachment: local !important;
-  }
-}
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (min-width: 1024px) and (orientation: landscape) {
-  /* line 247, ../scss/layout/component-layout/_hero-image-block.scss */
-  .block.block-hero, .block.block--landing-hero {
-    height: 534px !important;
-  }
-  /* line 249, ../scss/layout/component-layout/_hero-image-block.scss */
-  .block.block-hero .hero-background, .block.block--landing-hero .hero-background {
-    background-attachment: local;
-  }
-  /* line 251, ../scss/layout/component-layout/_hero-image-block.scss */
-  .block.block-hero .hero-background .backgrounds, .block.block--landing-hero .hero-background .backgrounds {
-    background-color: #FFFFFF;
-    background-attachment: local !important;
-  }
-}
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-  /* line 267, ../scss/layout/component-layout/_hero-image-block.scss */
-  .block.block-hero .hero-background, .block.block--landing-hero .hero-background {
-    background-attachment: local;
-  }
-  /* line 269, ../scss/layout/component-layout/_hero-image-block.scss */
-  .block.block-hero .hero-background .backgrounds, .block.block--landing-hero .hero-background .backgrounds {
-    background-color: #FFFFFF;
-    background-attachment: local !important;
-  }
-}
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (min-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
-  /* line 285, ../scss/layout/component-layout/_hero-image-block.scss */
-  .block.block-hero, .block.block--landing-hero {
-    height: 534px !important;
-  }
-  /* line 287, ../scss/layout/component-layout/_hero-image-block.scss */
-  .block.block-hero .hero-background, .block.block--landing-hero .hero-background {
-    background-attachment: local;
-  }
-  /* line 289, ../scss/layout/component-layout/_hero-image-block.scss */
-  .block.block-hero .hero-background .backgrounds, .block.block--landing-hero .hero-background .backgrounds {
-    background-color: #FFFFFF;
-    background-attachment: local !important;
-  }
-}
 @media screen and (min-width: 1024px) {
-  /* line 299, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 224, ../scss/layout/component-layout/_hero-image-block.scss */
   .hero--wrapper {
     margin-bottom: 0px;
   }
 
-  /* line 306, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 231, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero {
     background-position: top center;
     height: 72.567vh;
   }
-  /* line 310, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 235, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-background .backgrounds {
     background-color: #FFFFFF;
     background-attachment: fixed;
   }
-  /* line 315, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 240, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text {
     width: 47%;
   }
-  /* line 317, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 242, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text.align-left {
     float: left;
   }
-  /* line 322, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 247, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text.align-right {
     float: right;
   }
-  /* line 327, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 252, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text h1 {
     font-size: 4rem;
     line-height: 1.08;
   }
-  /* line 332, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 257, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero {
     background-position: top center;
     height: 450px;
     margin-bottom: 0px;
   }
-  /* line 336, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 261, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero .hero-background {
     background-attachment: fixed;
   }
-  /* line 338, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 263, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero .hero-background .backgrounds {
     background-color: #FFFFFF;
     background-attachment: fixed;
   }
-  /* line 343, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 268, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero .hero-text {
     width: 65%;
   }
-  /* line 345, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 270, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero .hero-text.align-left {
     float: left;
   }
-  /* line 350, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 275, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero .hero-text.align-right {
     float: right;
   }
-  /* line 355, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 280, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero .hero-text h1 {
     font-size: 4rem;
     line-height: 1;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 365, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 290, ../scss/layout/component-layout/_hero-image-block.scss */
   .hero--wrapper {
     margin-bottom: 0px;
   }
 
-  /* line 372, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 297, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero {
     background-position: top center;
     min-height: 480px;
     height: 76.567vh;
   }
-  /* line 376, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 301, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-background {
     background-attachment: fixed;
   }
-  /* line 378, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 303, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-background .backgrounds {
     background-color: #FFFFFF;
     background-attachment: fixed;
   }
-  /* line 383, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 308, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text {
     width: 47%;
   }
-  /* line 385, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 310, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text.align-left {
     float: left;
   }
-  /* line 390, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 315, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text.align-right {
     float: right;
   }
-  /* line 395, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 320, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-text h1 {
     font-size: 4rem;
     line-height: 1.08;
   }
-  /* line 400, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 325, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero {
     background-position: top center;
     height: 450px;
     margin-bottom: 0px;
   }
-  /* line 404, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 329, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero .hero-background {
     background-attachment: fixed;
   }
-  /* line 406, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 331, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero .hero-background .backgrounds {
     background-color: #FFFFFF;
     background-attachment: fixed;
   }
-  /* line 411, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 336, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero .hero-text {
     width: 57%;
   }
-  /* line 413, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 338, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero .hero-text.align-left {
     left: 15px;
     right: initial;
   }
-  /* line 417, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 342, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero .hero-text.align-right {
     left: initial;
     right: 15px;
   }
-  /* line 421, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 346, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block--landing-hero .hero-text h1 {
     font-size: 4rem;
     line-height: 1;
   }
 }
 @media screen and (min-width: 1200px) and (max-width: 1366px) {
-  /* line 431, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 356, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero {
     height: 72.567vh;
+  }
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* line 369, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block-hero .hero-background, .block.block--landing-hero .hero-background {
+    background-attachment: local;
+  }
+  /* line 371, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block-hero .hero-background .backgrounds, .block.block--landing-hero .hero-background .backgrounds {
+    background-color: #FFFFFF;
+    background-attachment: local !important;
+  }
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* line 386, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block-hero .hero-background, .block.block--landing-hero .hero-background {
+    background-attachment: local;
+  }
+  /* line 388, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block-hero .hero-background .backgrounds, .block.block--landing-hero .hero-background .backgrounds {
+    background-color: #FFFFFF;
+    background-attachment: local !important;
+  }
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  /* line 404, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block-hero .hero-background, .block.block--landing-hero .hero-background {
+    background-attachment: local;
+  }
+  /* line 406, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block-hero .hero-background .backgrounds, .block.block--landing-hero .hero-background .backgrounds {
+    background-color: #FFFFFF;
+    background-attachment: local !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  /* line 422, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block-hero .hero-background, .block.block--landing-hero .hero-background {
+    background-attachment: local;
+  }
+  /* line 424, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block-hero .hero-background .backgrounds, .block.block--landing-hero .hero-background .backgrounds {
+    background-color: #FFFFFF;
+    background-attachment: local !important;
   }
 }
 /* line 3, ../scss/components/_navigation.scss */
