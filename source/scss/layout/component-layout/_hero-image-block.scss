@@ -360,3 +360,76 @@
 		}
 	}
 }
+
+
+@media only screen
+and (min-device-width : $width-small)
+and (max-device-width : $width-medium)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 1) {
+	.block {
+		&.block-hero, &.block--landing-hero {
+			.hero-background {
+				background-attachment: local;
+				.backgrounds {
+					background-color: $color--white;
+					background-attachment: local;
+				}
+			}
+		}
+	}
+}
+
+@media only screen
+and (min-device-width : $width-small)
+and (max-device-width : $width-medium)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 1)  {
+	.block {
+		&.block-hero, &.block--landing-hero {
+			.hero-background {
+				background-attachment: local;
+				.backgrounds {
+					background-color: $color--white;
+					background-attachment: local;
+				}
+			}
+		}
+	}
+}
+
+@media only screen
+and (min-device-width : $width-small)
+and (max-device-width : $width-medium)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 2) {
+	.block {
+		&.block-hero, &.block--landing-hero {
+			.hero-background {
+				background-attachment: local;
+				.backgrounds {
+					background-color: $color--white;
+					background-attachment: local;
+				}
+			}
+		}
+	}
+}
+
+@media only screen
+and (min-device-width : $width-small)
+and (max-device-width : $width-medium)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 2)  {
+	.block {
+		&.block-hero, &.block--landing-hero {
+			.hero-background {
+				background-attachment: local;
+				.backgrounds {
+					background-color: $color--white;
+					background-attachment: local;
+				}
+			}
+		}
+	}
+}
