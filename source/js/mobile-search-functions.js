@@ -18,6 +18,7 @@ jQuery(function($){
 			this.toggleSearchForm();
 			this.togglePlaceholder();
 			this.toggleOptions();
+
 		},
 		toggleSearchForm: function() {
 			$searchFormToggle.on('click', function(e) {
@@ -29,26 +30,26 @@ jQuery(function($){
 			});
 		},
 		togglePlaceholder: function() {
-
-			$searchMobile.on({
-				focusin: function(e) {
+			$('body')
+				.on('focusin', '#searchMobile', function(e){
 					e.preventDefault();
 					var val = $(this).val();
 					if( '' != val) {
 						 return;
 					}
-					$placeholder.hide();
-				},
-				focusout: function(e) {
+					console.log('working focusin');
+					$('.placeholder').hide();
+				})
+				.on('focusout', '#searchMobile', function(e){
 					e.preventDefault();
 					var val = $(this).val();
 					if( '' != val) {
 						 return;
 					}
-					$placeholder.show();
-				}
-			});
-
+					console.log('working focusout');
+					$('.placeholder').show();
+				});
+			
 		},
 		toggleOptions: function() {
 			$radioAllMobile.on('click', function(e) {
