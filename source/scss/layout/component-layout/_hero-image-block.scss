@@ -362,7 +362,7 @@
 }
 
 
-@media only screen
+@media screen
 and (min-device-width : $width-small)
 and (max-device-width : $width-medium)
 and (orientation : portrait)
@@ -373,32 +373,33 @@ and (-webkit-min-device-pixel-ratio: 1) {
 				background-attachment: local;
 				.backgrounds {
 					background-color: $color--white;
-					background-attachment: local;
+					background-attachment: local !important;
 				}
 			}
 		}
 	}
 }
 
-@media only screen
+@media screen
 and (min-device-width : $width-small)
 and (max-device-width : $width-medium)
 and (orientation : landscape)
 and (-webkit-min-device-pixel-ratio: 1)  {
 	.block {
 		&.block-hero, &.block--landing-hero {
+			height: 13.5vh !important;
 			.hero-background {
 				background-attachment: local;
 				.backgrounds {
 					background-color: $color--white;
-					background-attachment: local;
+					background-attachment: local !important;
 				}
 			}
 		}
 	}
 }
 
-@media only screen
+@media screen
 and (min-device-width : $width-small)
 and (max-device-width : $width-medium)
 and (orientation : portrait)
@@ -409,25 +410,26 @@ and (-webkit-min-device-pixel-ratio: 2) {
 				background-attachment: local;
 				.backgrounds {
 					background-color: $color--white;
-					background-attachment: local;
+					background-attachment: local !important;
 				}
 			}
 		}
 	}
 }
 
-@media only screen
+@media screen
 and (min-device-width : $width-small)
 and (max-device-width : $width-medium)
 and (orientation : landscape)
 and (-webkit-min-device-pixel-ratio: 2)  {
 	.block {
 		&.block-hero, &.block--landing-hero {
+			height: 13.5vh !important;
 			.hero-background {
 				background-attachment: local;
 				.backgrounds {
 					background-color: $color--white;
-					background-attachment: local;
+					background-attachment: local !important;
 				}
 			}
 		}

@@ -7053,28 +7053,28 @@ footer .footer--colum-content, footer .footer--column-links {
     display: none;
   }
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
   /* line 522, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give--wrapper {
-    background-attachment: local;
+    background-attachment: local !important;
   }
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
   /* line 532, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give--wrapper {
-    background-attachment: local;
+    background-attachment: local !important;
   }
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
   /* line 542, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give--wrapper {
-    background-attachment: local;
+    background-attachment: local !important;
   }
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
   /* line 552, ../scss/layout/component-layout/_global_component.scss */
   .ways-to-give--wrapper {
-    background-attachment: local;
+    background-attachment: local !important;
   }
 }
 /* line 560, ../scss/layout/component-layout/_global_component.scss */
@@ -7856,7 +7856,7 @@ footer .footer--colum-content, footer .footer--column-links {
     height: 72.567vh;
   }
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
   /* line 372, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-background, .block.block--landing-hero .hero-background {
     background-attachment: local;
@@ -7864,40 +7864,48 @@ footer .footer--colum-content, footer .footer--column-links {
   /* line 374, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-background .backgrounds, .block.block--landing-hero .hero-background .backgrounds {
     background-color: #FFFFFF;
-    background-attachment: local;
+    background-attachment: local !important;
   }
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
-  /* line 390, ../scss/layout/component-layout/_hero-image-block.scss */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  /* line 389, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block-hero, .block.block--landing-hero {
+    height: 13.5vh !important;
+  }
+  /* line 391, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-background, .block.block--landing-hero .hero-background {
     background-attachment: local;
   }
-  /* line 392, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 393, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-background .backgrounds, .block.block--landing-hero .hero-background .backgrounds {
     background-color: #FFFFFF;
-    background-attachment: local;
+    background-attachment: local !important;
   }
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-  /* line 408, ../scss/layout/component-layout/_hero-image-block.scss */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  /* line 409, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-background, .block.block--landing-hero .hero-background {
     background-attachment: local;
   }
-  /* line 410, ../scss/layout/component-layout/_hero-image-block.scss */
+  /* line 411, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-background .backgrounds, .block.block--landing-hero .hero-background .backgrounds {
     background-color: #FFFFFF;
-    background-attachment: local;
+    background-attachment: local !important;
   }
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
   /* line 426, ../scss/layout/component-layout/_hero-image-block.scss */
-  .block.block-hero .hero-background, .block.block--landing-hero .hero-background {
-    background-attachment: local;
+  .block.block-hero, .block.block--landing-hero {
+    height: 13.5vh !important;
   }
   /* line 428, ../scss/layout/component-layout/_hero-image-block.scss */
+  .block.block-hero .hero-background, .block.block--landing-hero .hero-background {
+    background-attachment: local;
+  }
+  /* line 430, ../scss/layout/component-layout/_hero-image-block.scss */
   .block.block-hero .hero-background .backgrounds, .block.block--landing-hero .hero-background .backgrounds {
     background-color: #FFFFFF;
-    background-attachment: local;
+    background-attachment: local !important;
   }
 }
 /* line 3, ../scss/components/_navigation.scss */
