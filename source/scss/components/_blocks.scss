@@ -458,6 +458,12 @@
                 }
             }
         }
+        div.block--item-colored-panel {
+            cursor: default;
+        }
+        a.block--item-colored-panel {
+            cursor: pointer;
+        }
         .block--item-colored-panel, .block--item-image-panel{
             width: 50%;
             height: 100%;
@@ -467,7 +473,6 @@
         .block--item-colored-panel {
             padding: 30px;
             position: relative;
-            cursor: pointer;
             a, span, h4, p{
                 color: $color--white;
                 text-decoration: none;
