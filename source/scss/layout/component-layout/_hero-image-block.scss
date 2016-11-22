@@ -220,8 +220,6 @@
 	}
 }
 
-
-
 @media screen and (min-width: $width-medium){
 	.hero--wrapper {
 		margin-bottom: 0px;
@@ -357,6 +355,77 @@
 	.block {
 		&.block-hero{
 			height: 72.567vh;
+		}
+	}
+}
+
+
+@media screen
+and (min-device-width : $width-small)
+and (max-device-width : $width-medium)
+and (orientation : portrait) {
+	.block {
+		&.block-hero, &.block--landing-hero {
+			.hero-background {
+				background-attachment: local;
+				.backgrounds {
+					background-color: $color--white;
+					background-attachment: local !important;
+				}
+			}
+		}
+	}
+}
+
+@media screen
+and (min-device-width : $width-small)
+and (max-device-width : $width-medium)
+and (orientation : landscape)  {
+	.block {
+		&.block-hero, &.block--landing-hero {
+			.hero-background {
+				background-attachment: local;
+				.backgrounds {
+					background-color: $color--white;
+					background-attachment: local !important;
+				}
+			}
+		}
+	}
+}
+
+@media screen
+and (min-device-width : $width-small)
+and (max-device-width : $width-medium)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 2) {
+	.block {
+		&.block-hero, &.block--landing-hero {
+			.hero-background {
+				background-attachment: local;
+				.backgrounds {
+					background-color: $color--white;
+					background-attachment: local !important;
+				}
+			}
+		}
+	}
+}
+
+@media screen
+and (min-width : $width-small)
+and (max-width : $width-medium)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 2)  {
+	.block {
+		&.block-hero, &.block--landing-hero {
+			.hero-background {
+				background-attachment: local;
+				.backgrounds {
+					background-color: $color--white;
+					background-attachment: local !important;
+				}
+			}
 		}
 	}
 }

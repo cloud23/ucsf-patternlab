@@ -254,8 +254,10 @@
 	}
 }
 
+
 @media screen and (min-width: $width-small) {
 	.ways-to-give--wrapper {
+		background-attachment: local;
 		.ways-to-give-form {
 			margin: 100px 0px;
 		}
@@ -360,6 +362,7 @@
 
 @media screen and (min-width: $width-medium) {
 	.ways-to-give--wrapper {
+		background-attachment: fixed;
 		.ways-to-give-form {
 			margin: 100px 0px;
 		}
@@ -432,6 +435,7 @@
 
 @media screen and (min-width: $width-large) {
 	.ways-to-give--wrapper {
+		background-attachment: fixed;
 		.ways-to-give-form {
 			margin: 100px 0px;
 		}
@@ -506,6 +510,47 @@
 	}
 	.submit-button-small-xsmall--medium--wrapper {
 		display: none;
+	}
+}
+
+
+@media screen
+and (min-device-width : $width-small)
+and (max-device-width : $width-medium)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 1) {
+	.ways-to-give--wrapper {
+		background-attachment: local !important;
+	}
+}
+
+@media screen
+and (min-device-width : $width-small)
+and (max-device-width : $width-medium)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 1)  {
+	.ways-to-give--wrapper {
+		background-attachment: local !important;
+	}
+}
+
+@media screen
+and (min-device-width : $width-small)
+and (max-device-width : $width-medium)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 2) {
+	.ways-to-give--wrapper {
+		background-attachment: local !important;
+	}
+}
+
+@media screen
+and (min-device-width : $width-small)
+and (max-device-width : $width-medium)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 2)  {
+	.ways-to-give--wrapper {
+		background-attachment: local !important;
 	}
 }
 
