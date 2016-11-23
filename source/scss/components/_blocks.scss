@@ -460,6 +460,9 @@
         }
         div.block--item-colored-panel {
             cursor: default;
+            .text--with-icon {
+                cursor: pointer;
+            }
         }
         a.block--item-colored-panel {
             cursor: pointer;
@@ -1855,7 +1858,7 @@
         }
         .block--item-contents {
             width: auto;
-            height: 130px;
+            height: 165px;
             margin-top: -40px;
             margin-left: 20px;
             margin-right: 20px;

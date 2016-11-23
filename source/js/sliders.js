@@ -12,7 +12,7 @@ jQuery(function($){
         windowSmallMax = 1023;
 
     var slickOptions = {
-            infinite: true,
+            infinite: false,
             slidesToShow: slidesToShow,
             slidesToScroll: 1,
             mobileFirst: true,
@@ -50,22 +50,32 @@ jQuery(function($){
     //     slidesToShow = 3;
     // }
 
-    if( blockLength >= 4 ) {
-        initiateSlick();
-    }
-
     function initiateSlick() {
-        $fundingPrioritiesItems.slick( slickOptions );
+
+        if (!$fundingPrioritiesItems.hasClass('slick-initialized') && !$fundingPrioritiesItems.hasClass('slick-slider')) { $fundingPrioritiesItems.slick( slickOptions ); }
 
 
         $(window).resize(function(){
             var $windowWidth = $(window).width();
             if ($windowWidth >= windowMediumMin && !$fundingPrioritiesItems.hasClass('slick-initialized') && !$fundingPrioritiesItems.hasClass('slick-slider')) {
-                $fundingPrioritiesItems.slick('reinit');
+                if (!$fundingPrioritiesItems.hasClass('slick-initialized') && !$fundingPrioritiesItems.hasClass('slick-slider')) {
+                    $fundingPrioritiesItems.slick(slickOptions);
+                } else {
+                    $fundingPrioritiesItems.slick('reinit');
+                }
             } else if (blockLength >= 4 && (windowWidth >= windowMediumMin && windowWidth <= windowMediumMax) ) {
-                $fundingPrioritiesItems.slick('reinit');
+                if (!$fundingPrioritiesItems.hasClass('slick-initialized') && !$fundingPrioritiesItems.hasClass('slick-slider')) {
+                    $fundingPrioritiesItems.slick(slickOptions);
+                } else {
+                    $fundingPrioritiesItems.slick('reinit');
+                }
             }
         });
+    }
+
+
+    if( blockLength >= 4 ) {
+        initiateSlick();
     }
 
 });
