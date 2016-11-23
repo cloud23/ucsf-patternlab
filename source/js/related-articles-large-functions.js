@@ -58,20 +58,21 @@ jQuery(function($){
 
 	$('body').on('click', ".btn--category", function(e){
 		e.preventDefault();
-		var $this = $(this);
-		var $select = $('body').find('select[name="category"]');
-		var $options = $select.find('option');
-		var index = $this.parent().index();
-		var $option = $select.find('option').eq(index);
+		if(!$(this).hasClass('active')){
+			var $this = $(this);
+			var $select = $('body').find('select[name="category"]');
+			var $options = $select.find('option');
+			var index = $this.parent().index();
+			var $option = $select.find('option').eq(index);
 
-		$options.removeAttr('selected');
-		$option.attr('selected', 'selected');
-		$select.trigger('change');
-		$(this).parent().parent().find('li').each(function(){
-			$(this).find('.btn--category').removeClass('active');
-		})
-		$(this).addClass('active');
-
+			$options.removeAttr('selected');
+			$option.attr('selected', 'selected');
+			$select.trigger('change');
+			$(this).parent().parent().find('li').each(function(){
+				$(this).find('.btn--category').removeClass('active');
+			})
+			$(this).addClass('active');
+		}
 	});
 
 
