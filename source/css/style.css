@@ -6147,6 +6147,11 @@ a:hover .text--with-icon .text--icon .text::after {
   margin-bottom: 60px;
 }
 
+/* line 433, ../scss/base/_text.scss */
+.search--body h2 {
+  display: none;
+}
+
 /*** HTML ***/
 /* line 2, ../scss/base/html/_html.scss */
 * {
