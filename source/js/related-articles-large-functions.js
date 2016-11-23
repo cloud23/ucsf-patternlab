@@ -60,10 +60,19 @@ jQuery(function($){
 		e.preventDefault();
 		if(!$(this).hasClass('active')){
 			var $this = $(this);
+			var _id = $this.attr('id');
 			var $select = $('body').find('select[name="category"]');
 			var $options = $select.find('option');
 			var index = $this.parent().index();
-			var $option = $select.find('option').eq(index);
+			var $option;
+
+			$options.each(function(){
+				var rawText = $(this).text();
+				var converted_text = rawText.toLowerCase().replace(/\s/g,'_');
+				if(_id.localeCompare(converted_text) == 0){
+					$option = $(this);
+				}
+			});
 
 			$options.removeAttr('selected');
 			$option.attr('selected', 'selected');
