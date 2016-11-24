@@ -64,9 +64,11 @@ jQuery(function($){
 			var _id = $this.data('value');
 			var $select = $('body').find('select[name="category"]');
 			var $options = $('select[name="category"] option');
-		
+	
 			$select.val(_id);
 			$select.trigger('change');
+			$('.category-nav li .btn--category').removeClass('active');
+			$(this).addClass('active');
 		}
 	});
 
