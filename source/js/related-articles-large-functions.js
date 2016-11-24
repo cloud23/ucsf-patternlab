@@ -41,12 +41,13 @@ jQuery(function($){
 
 		$options.each(function(){
 			var $option = $(this);
+			var value = $option.val();
 			var text = $(this).text();
 			var lowerCaseText = text.toLowerCase();
 				btnClass = 'btn--'+lowerCaseText.replace(/\s/g,'-');
 			var _id = lowerCaseText.replace(/\s/g,'_');
 			var value = $(this).val();
-			var $link = $('<a class="btn btn--category '+btnClass+'" id="'+_id+'"></a>');
+			var $link = $('<a class="btn btn--category '+btnClass+'" id="'+_id+'" data-value="' + value + '"></a>');
 			var $new_link = $link.clone();
 			var $list_wrapper = $itemWrapper.clone();
 			$new_link.text(text).attr('href', $select.attr('name'));
@@ -60,27 +61,12 @@ jQuery(function($){
 		e.preventDefault();
 		if(!$(this).hasClass('active')){
 			var $this = $(this);
-			var _id = $this.attr('id');
+			var _id = $this.data('value');
 			var $select = $('body').find('select[name="category"]');
-			var $options = $select.find('option');
-			var index = $this.parent().index();
-			var $option;
-
-			$options.each(function(){
-				var rawText = $(this).text();
-				var converted_text = rawText.toLowerCase().replace(/\s/g,'_');
-				if(_id.localeCompare(converted_text) == 0){
-					$option = $(this);
-				}
-			});
-
-			$options.removeAttr('selected');
-			$option.attr('selected', 'selected');
+			var $options = $('select[name="category"] option');
+		
+			$select.val(_id);
 			$select.trigger('change');
-			$(this).parent().parent().find('li').each(function(){
-				$(this).find('.btn--category').removeClass('active');
-			})
-			$(this).addClass('active');
 		}
 	});
 
