@@ -20,7 +20,7 @@ jQuery(function($){
             nextArrow: "<button type=\"button\" class=\"slick-next\"><span class=\"fa fa-angle-right\"></span></button>",
             responsive:[
                 {
-                    breakpoint: 320,
+                    breakpoint: 319,
                     settings: "unslick"
                 },
                 {
@@ -61,20 +61,22 @@ jQuery(function($){
                 if (!$fundingPrioritiesItems.hasClass('slick-initialized') && !$fundingPrioritiesItems.hasClass('slick-slider')) {
                     $fundingPrioritiesItems.slick(slickOptions);
                 } else {
-                    $fundingPrioritiesItems.slick('reinit');
+                    $fundingPrioritiesItems.slick('unslick');
+                    $fundingPrioritiesItems.slick(slickOptions);
                 }
             } else if (blockLength >= 4 && (windowWidth >= windowMediumMin && windowWidth <= windowMediumMax) ) {
                 if (!$fundingPrioritiesItems.hasClass('slick-initialized') && !$fundingPrioritiesItems.hasClass('slick-slider')) {
                     $fundingPrioritiesItems.slick(slickOptions);
                 } else {
-                    $fundingPrioritiesItems.slick('reinit');
+                    $fundingPrioritiesItems.slick('unslick');
+                    $fundingPrioritiesItems.slick(slickOptions);
                 }
             }
         });
     }
 
 
-    if( blockLength >= 4 ) {
+    if( blockLength >= 4) {
         initiateSlick();
     }
 
