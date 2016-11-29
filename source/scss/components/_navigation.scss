@@ -163,6 +163,15 @@ html {
 		    padding: 4px 0px;
 		    display: inline-block;
 		    text-align: center;
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+		    border: none;
+		    background-color: $color--oxford-blue;
+		    color: $color--white;
+		    &:focus {
+		    	outline: none;
+		    }
 		}
 	}
 	.search-advanced-form {
